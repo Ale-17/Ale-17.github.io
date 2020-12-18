@@ -1,0 +1,253 @@
+
+.menu{
+	background: #6893d4;
+	padding: 20px;
+	display: flex;
+    text-align: center;
+}
+
+
+.elementomenu{
+	width: 25%;
+	border-right: 1px solid #f2f2f2;
+}
+
+
+.elementomenu a{
+	color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Helvetica;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+
+.form{
+    width:340px;
+    height:400px;
+    background: #fff;
+    opacity: 0.9;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #6893d4;
+    padding:20px 30px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family:'Helvetica';
+    vertical-align: middle;
+    position: absolute;
+    top:20%;
+    bottom:20%;
+    right:0;
+    left:0;
+    margin:auto;
+}
+h2{
+    margin:10px 0;
+    padding-bottom:10px;
+    width:180px;
+    color:#6893d4;
+    border-bottom:3px solid #6893d4;
+}
+input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family:'Helvetica';
+    transition:all .3s;
+    border-bottom:2px solid #6893d4;
+}
+input:focus{
+    border-bottom:2px solid #000;
+}
+p:before{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    
+}
+button{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Helvetica';
+    border:2px solid #6893d4;;
+    background:0;color:#6893d4;
+    cursor:pointer;
+    transition:all .3s
+}
+button:hover{
+    background:#6893d4;
+    color:#fff}
+
+.form div{
+    content:'Hi';
+    position:absolute;
+    bottom:-15px;
+    right:-20px;
+    background:#6893d4;;
+    color:#fff;
+    width:320px;
+    padding:16px 4px 16px 0;
+    border-radius:6px;
+    font-size:13px;
+    box-shadow:10px 10px 40px -14px #000
+}
+span{
+        margin:0 5px 0 15px
+    }
+
+
+footer{
+	height: 60px;
+    width: 100%;
+    background: #6893d46b;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+	
+}
+.elementofooter p{
+	color: #fff;
+	padding-left: 10px;
+}
+
+.home{
+	display: flex;
+    text-align: center;
+	height:85%;
+}
+.imagenprincipal{
+	width:75%;
+	background:#fff;
+}
+.imagenprincipal img{
+    margin-top:5%;
+    width:50%;
+    margin-bottom:5%;
+}
+.botonprincipal{
+	width:25%;
+
+}
+
+.botonprincipal a{
+	padding: 15px;
+    background: #3073d8;
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 25px;
+    border-radius: 25px 25px 25px 25px;
+    border-color: #fff;
+    border: 1px solid #fff;
+	bottom: 150px;
+    position: absolute;
+	right: 100px;
+	cursor: pointer;
+	text-decoration:none;
+    
+}
+ 
+.imagenquienessomos{
+	width:50%;
+	background:#fff;
+}
+
+.imagenquienessomos img{
+    margin-top:5%;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border: 1.5px solid #2378b1;
+}
+.quienessomos{
+	display: flex;
+    text-align: center;
+	height:75%;
+}
+.textoquienessomos{
+	width:50%;
+	padding-right: 70px;
+    padding-top: 25px;
+    
+}
+
+.textoquienessomos p{
+    text-align: justify;
+   
+}
+.tutores{
+    text-align: center;
+     margin: 100px;
+     margin-top: 5%;
+     
+}
+.filatutor{
+	width:100%;
+	display: flex;
+}
+.tutor{
+	width:25%;
+	margin-bottom: 70px;
+}
+.tutor img{
+    margin-bottom:20px;
+    width: 60%;
+    border: 1.5px solid #2378b1;
+}
+.tutor a{
+	padding: 15px;
+    background: #426CB4;
+    color: #fff;
+    font-size: 25px;
+    font-family: serif;
+    border-radius: 25px 25px 25px 25px;
+    border-color: #fff;
+    border: 1px solid #fff;
+	cursor: pointer;
+	text-decoration:none;
+}
+
+.overlay { 
+  position: fixed;
+  top: 35%;
+  left: 35%;
+  background: #fff;
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  width:400px;
+  height:300px;
+  border:1px solid #426CB4;;
+ }
+.overlay:target{
+  visibility: visible;
+  opacity: 1;
+}
+table{
+	width:100%;
+    margin-top:40px;
+    color: #426CB4;
+}
+tr{
+	text-align: center;
+}
+.contacto{
+    text-align: center;
+	height:85%;
+}
+.tutor .cerrar{
+	background: #abb0b8;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+
