@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <meta name="theme-color" content="#0b1220" />
+  <meta name="theme-color" content="#08090d" />
   <meta name="color-scheme" content="dark" />
   <meta name="robots" content="noindex,nofollow,noarchive,nosnippet" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -16,106 +16,123 @@
   <link rel="stylesheet" href="./friendly.css" />
 </head>
 <body>
-  <div class="background"></div>
   <div class="app">
     <header class="topbar">
-      <a class="brand" href="#inicio" aria-label="Fantasy OS">
-        <span class="brand-icon">F</span>
-        <span class="brand-copy"><strong>Fantasy OS</strong><small>Mister tracker</small></span>
-      </a>
+      <div class="topbar-left">
+        <a class="brand" href="#inicio" aria-label="Fantasy OS">
+          <span class="brand-icon">F</span>
+          <span class="brand-copy"><strong>Fantasy OS</strong><small>Mister intelligence</small></span>
+        </a>
+        <span class="league-name">Liga Ale</span>
+      </div>
       <div class="top-actions">
+        <div class="balance-chip"><span>Saldo</span><strong id="headerBalance">—</strong></div>
         <span id="snapshotPill" class="status-pill">Conectando…</span>
         <button id="refreshButton" class="refresh-button" type="button" aria-label="Actualizar">↻</button>
       </div>
     </header>
 
     <nav class="desktop-nav" aria-label="Secciones">
-      <a href="#inicio">Resumen</a><a href="#mercado">Mercado</a><a href="#plantilla">Plantilla</a><a href="#liga">Liga</a><a href="#actividad">Actividad</a>
+      <a href="#inicio">Inicio</a><a href="#mercado">Mercado</a><a href="#plantilla">Equipo</a><a href="#liga">Tabla</a><a href="#actividad">Más</a>
     </nav>
 
     <main>
-      <section id="inicio" class="hero panel">
-        <div class="hero-copy">
-          <span class="eyebrow">Fantasy control center</span>
-          <h1 id="heroTitle">Cargando Fantasy OS…</h1>
-          <p id="heroSubtitle">Leyendo el último snapshot de Mister.</p>
+      <section id="inicio" class="mister-hero">
+        <div class="pitch-lines" aria-hidden="true"></div>
+        <div class="mister-hero-top">
+          <div>
+            <span class="eyebrow light">CONTROL CENTER</span>
+            <h1 id="heroTitle">Cargando Fantasy OS…</h1>
+            <p id="heroSubtitle">Leyendo el último snapshot de Mister.</p>
+          </div>
+          <div class="rank-badge"><strong id="headerRank">—</strong><span>posición</span></div>
         </div>
         <div id="decisionCard" class="decision-card loading-card">
-          <span class="eyebrow">Qué haría ahora</span>
+          <span class="eyebrow light">QUÉ HARÍA AHORA</span>
           <strong>Cargando mercado…</strong>
         </div>
       </section>
 
       <section id="kpiGrid" class="kpi-grid" aria-label="Resumen financiero"></section>
 
-      <section class="layout-two">
+      <section class="layout-two home-grid">
         <article class="panel">
           <div class="section-head">
-            <div><span class="eyebrow">Evolución</span><h2>Patrimonio</h2></div>
+            <div><span class="eyebrow">Evolución</span><h2>Tu temporada</h2></div>
             <span id="historyMeta" class="muted">Cargando histórico…</span>
           </div>
           <div class="chart-card">
             <div class="chart-header"><span>Patrimonio</span><strong id="wealthNow">—</strong></div>
             <svg id="wealthChart" class="chart" viewBox="0 0 640 220" preserveAspectRatio="none" aria-label="Evolución del patrimonio"></svg>
           </div>
-          <div class="chart-card">
+          <div class="chart-card points-card">
             <div class="chart-header"><span>Puntos</span><strong id="pointsNow">—</strong></div>
-            <svg id="pointsChart" class="chart" viewBox="0 0 640 180" preserveAspectRatio="none" aria-label="Evolución de puntos"></svg>
+            <svg id="pointsChart" class="chart compact-chart" viewBox="0 0 640 180" preserveAspectRatio="none" aria-label="Evolución de puntos"></svg>
           </div>
         </article>
 
         <article class="panel">
-          <div class="section-head"><div><span class="eyebrow">Liquidez</span><h2>Capacidad estrella</h2></div></div>
+          <div class="section-head"><div><span class="eyebrow">Saldo y mercado</span><h2>Capacidad de fichaje</h2></div></div>
           <div id="capacityList" class="stack"></div>
           <div class="separator"></div>
-          <div class="section-head compact"><div><span class="eyebrow">Estado de datos</span><h2>Calidad del snapshot</h2></div></div>
+          <div class="section-head compact"><div><span class="eyebrow">Tracker</span><h2>Estado de datos</h2></div></div>
           <div id="qualityGrid" class="quality-grid"></div>
         </article>
       </section>
 
-      <section id="mercado" class="panel">
+      <section id="mercado" class="panel market-panel">
         <div class="section-head market-head">
-          <div><span class="eyebrow">Market radar</span><h2>Mercado libre</h2><p id="marketMeta" class="muted"></p></div>
+          <div><span class="eyebrow">Mercado</span><h2>Jugadores disponibles</h2><p id="marketMeta" class="muted"></p></div>
           <div class="market-tools">
             <label class="search"><span>⌕</span><input id="marketSearch" type="search" placeholder="Buscar jugador" /></label>
             <select id="marketSort" class="select" aria-label="Ordenar mercado">
-              <option value="radar">Radar</option><option value="daily">Subida hoy</option><option value="weekly">Subida semanal</option><option value="points">Puntos</option><option value="value">Valor</option>
+              <option value="radar">Recomendados</option><option value="daily">Subida hoy</option><option value="weekly">Subida semanal</option><option value="points">Puntos</option><option value="value">Valor</option>
             </select>
           </div>
         </div>
+        <div class="section-subtitle">Destacados</div>
         <div id="marketHighlights" class="highlight-grid"></div>
+        <div class="section-subtitle">Todos los jugadores</div>
         <div id="marketList" class="player-grid"></div>
       </section>
 
-      <section id="plantilla" class="layout-two">
+      <section id="plantilla" class="layout-two squad-layout">
+        <article class="panel pitch-panel">
+          <div class="section-head"><div><span class="eyebrow">Equipo</span><h2>Mi once visual</h2><p class="muted">Distribución orientativa por posición, al estilo app fantasy.</p></div></div>
+          <div id="pitchBoard" class="squad-pitch"><div class="pitch-loading">Preparando campo…</div></div>
+        </article>
         <article class="panel">
-          <div class="section-head"><div><span class="eyebrow">Portfolio</span><h2>Mi plantilla</h2><p id="teamMeta" class="muted"></p></div></div>
+          <div class="section-head"><div><span class="eyebrow">Plantilla</span><h2>Todos mis jugadores</h2><p id="teamMeta" class="muted"></p></div></div>
           <div id="teamHighlights" class="highlight-grid"></div>
           <div id="teamList" class="player-grid compact"></div>
         </article>
+      </section>
+
+      <section class="layout-two">
         <article class="panel">
-          <div class="section-head"><div><span class="eyebrow">Ventas</span><h2>Liquidez real</h2><p class="muted">Solo cuenta ofertas capturadas; un precio de venta no es liquidez.</p></div></div>
+          <div class="section-head"><div><span class="eyebrow">Mercado propio</span><h2>Ofertas recibidas</h2><p class="muted">Solo dinero realmente ejecutable.</p></div></div>
           <div id="offerList" class="stack"></div>
-          <div class="separator"></div>
-          <div class="section-head compact"><div><span class="eyebrow">Mercado propio</span><h2>Jugadores listados</h2></div></div>
+        </article>
+        <article class="panel">
+          <div class="section-head"><div><span class="eyebrow">En venta</span><h2>Jugadores listados</h2></div></div>
           <div id="listedPlayers" class="stack"></div>
         </article>
       </section>
 
       <section id="liga" class="layout-two">
         <article class="panel">
-          <div class="section-head"><div><span class="eyebrow">Title race</span><h2>Clasificación</h2></div></div>
+          <div class="section-head"><div><span class="eyebrow">Tabla</span><h2>Clasificación</h2></div></div>
           <div id="leagueTable" class="league-table"></div>
         </article>
         <article class="panel">
-          <div class="section-head"><div><span class="eyebrow">Opponent intelligence</span><h2>Capacidad rival</h2></div></div>
+          <div class="section-head"><div><span class="eyebrow">Rivales</span><h2>Capacidad de compra</h2></div></div>
           <div id="rivalList" class="stack"></div>
         </article>
       </section>
 
       <section id="actividad" class="layout-two">
         <article class="panel">
-          <div class="section-head"><div><span class="eyebrow">Market tape</span><h2>Últimos movimientos</h2><p class="muted">Identificación por ID y, cuando hace falta, por cambios de propietario del histórico.</p></div></div>
+          <div class="section-head"><div><span class="eyebrow">Más</span><h2>Últimos movimientos</h2><p class="muted">Resolución semántica V3 del tracker.</p></div></div>
           <div id="activityList" class="timeline"></div>
         </article>
         <article class="panel">
@@ -132,11 +149,11 @@
   </div>
 
   <nav class="bottom-nav" aria-label="Navegación móvil">
-    <a href="#inicio"><span>⌂</span><small>Inicio</small></a>
+    <a href="#inicio" class="active"><span>⌂</span><small>Inicio</small></a>
     <a href="#mercado"><span>↗</span><small>Mercado</small></a>
-    <a href="#plantilla"><span>◆</span><small>Plantilla</small></a>
-    <a href="#liga"><span>♚</span><small>Liga</small></a>
-    <a href="#actividad"><span>≋</span><small>Actividad</small></a>
+    <a href="#plantilla"><span>▣</span><small>Equipo</small></a>
+    <a href="#liga"><span>♜</span><small>Tabla</small></a>
+    <a href="#actividad"><span>⌕</span><small>Más</small></a>
   </nav>
 
   <script src="./app.js" defer></script>

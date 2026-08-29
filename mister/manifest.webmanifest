@@ -2,17 +2,12 @@
   "name": "Fantasy OS · Mister Tracker",
   "short_name": "Fantasy OS",
   "description": "Dashboard mobile-first para seguir la liga Mister de Ale.",
-  "start_url": "./#command",
+  "start_url": "./#inicio",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#050a07",
-  "theme_color": "#07110c",
+  "background_color": "#07080d",
+  "theme_color": "#08090d",
   "icons": [
-    {
-      "src": "./icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    }
+    {"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
   ]
 }

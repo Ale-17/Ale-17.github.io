@@ -1,4 +1,4 @@
-const CACHE='fantasy-os-v8';
+const CACHE='fantasy-os-v9-mister-pro';
 const SHELL=['./','./index.html','./styles.css','./friendly.css','./app.js','./friendly.js','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
