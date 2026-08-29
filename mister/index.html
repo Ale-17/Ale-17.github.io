@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#07110c" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="description" content="Fantasy OS: dashboard de inteligencia de Mister para la liga de Ale." />
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet" />
+  <meta name="googlebot" content="noindex,nofollow,noarchive,nosnippet" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Fantasy OS" />
+  <title>Fantasy OS · Mister Tracker</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+  <div class="ambient ambient-c"></div>
+
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#command" data-jump="command" aria-label="Fantasy OS">
+        <span class="brand-mark">F</span>
+        <span class="brand-copy">
+          <strong>Fantasy OS</strong>
+          <small>Mister intelligence</small>
+        </span>
+      </a>
+
+      <nav class="side-nav" aria-label="Navegación principal">
+        <button class="nav-item active" data-target="command"><span>⌂</span><span>Control</span></button>
+        <button class="nav-item" data-target="market"><span>↗</span><span>Mercado</span></button>
+        <button class="nav-item" data-target="team"><span>◆</span><span>Plantilla</span></button>
+        <button class="nav-item" data-target="league"><span>♚</span><span>Liga</span></button>
+        <button class="nav-item" data-target="history"><span>◫</span><span>Histórico</span></button>
+        <button class="nav-item" data-target="activity"><span>≋</span><span>Actividad</span></button>
+        <button class="nav-item" data-target="clauses"><span>◇</span><span>Cláusulas</span></button>
+      </nav>
+
+      <div class="side-bottom">
+        <div class="snapshot-pill" id="snapshotPill"><span class="pulse"></span><span id="snapshotText">Cargando…</span></div>
+        <button class="ghost-btn compact" id="refreshButton" type="button"><span>↻</span> Actualizar</button>
+      </div>
+    </aside>
+
+    <div class="main-column">
+      <header class="topbar">
+        <div class="mobile-brand"><span class="brand-mark small">F</span><strong>Fantasy OS</strong></div>
+        <button class="command-search" id="globalSearchButton" type="button"><span>⌕</span><span>Buscar jugador o manager</span><kbd>⌘ K</kbd></button>
+        <div class="top-actions">
+          <span class="data-badge" id="finalizedBadge">Estado…</span>
+          <button class="icon-btn" id="topRefreshButton" type="button" aria-label="Actualizar">↻</button>
+        </div>
+      </header>
+
+      <main class="page" id="app" aria-live="polite">
+        <section class="view active" data-view="command">
+          <div class="page-heading hero-heading">
+            <div>
+              <span class="eyebrow">FANTASY CONTROL CENTER</span>
+              <h1>Buenos días, Ale.</h1>
+              <p id="heroCopy">Conectando con el último snapshot de Mister…</p>
+            </div>
+            <div class="hero-status" id="heroStatus"></div>
+          </div>
+
+          <div id="errorBox" class="error-box hidden"></div>
+
+          <div class="kpi-grid" id="overviewKpis"></div>
+
+          <div class="dashboard-grid two-thirds">
+            <article class="panel spotlight-panel">
+              <div class="panel-head">
+                <div><span class="eyebrow">NOW</span><h2>Qué haría ahora</h2></div>
+                <span class="score-pill" id="actionConfidence">Calculando</span>
+              </div>
+              <div id="actionCenter"></div>
+            </article>
+
+            <article class="panel star-panel">
+              <div class="panel-head">
+                <div><span class="eyebrow">LIQUIDITY</span><h2>Capacidad estrella</h2></div>
+                <button class="link-btn" data-jump="team">Ver ventas →</button>
+              </div>
+              <div id="starCapacity"></div>
+            </article>
+          </div>
+
+          <div class="dashboard-grid balanced">
+            <article class="panel chart-panel">
+              <div class="panel-head">
+                <div><span class="eyebrow">PORTFOLIO</span><h2>Patrimonio</h2></div>
+                <span class="delta-chip" id="wealthDelta">—</span>
+              </div>
+              <div class="chart-summary" id="wealthSummary"></div>
+              <div class="chart-wrap"><canvas id="wealthChart" aria-label="Evolución de patrimonio"></canvas></div>
+            </article>
+
+            <article class="panel">
+              <div class="panel-head">
+                <div><span class="eyebrow">MARKET RADAR</span><h2>Oportunidades</h2></div>
+                <button class="link-btn" data-jump="market">Mercado →</button>
+              </div>
+              <div id="marketRadar" class="stack-list"></div>
+            </article>
+          </div>
+
+          <div class="dashboard-grid balanced">
+            <article class="panel">
+              <div class="panel-head">
+                <div><span class="eyebrow">SQUAD</span><h2>Momentum plantilla</h2></div>
+                <span class="delta-chip" id="teamDailyChip">—</span>
+              </div>
+              <div id="momentumGrid" class="momentum-grid"></div>
+              <div id="teamLeaders" class="stack-list compact-list"></div>
+            </article>
+
+            <article class="panel">
+              <div class="panel-head">
+                <div><span class="eyebrow">TITLE RACE</span><h2>Clasificación</h2></div>
+                <button class="link-btn" data-jump="league">Liga →</button>
+              </div>
+              <div id="leagueMini" class="mini-table"></div>
+            </article>
+          </div>
+
+          <article class="panel health-panel">
+            <div class="panel-head"><div><span class="eyebrow">DATA QUALITY</span><h2>Salud del snapshot</h2></div><span id="qualityScore" class="score-pill">—</span></div>
+            <div id="healthGrid" class="health-grid"></div>
+          </article>
+        </section>
+
+        <section class="view" data-view="market">
+          <div class="page-heading">
+            <div><span class="eyebrow">MARKET INTELLIGENCE</span><h1>Mercado</h1><p>Radar cuantitativo con la evolución exacta capturada en Mister.</p></div>
+            <span class="section-count" id="marketCount">—</span>
+          </div>
+
+          <div class="market-hero" id="marketHero"></div>
+
+          <div class="toolbar sticky-toolbar">
+            <div class="filter-group" id="positionFilters">
+              <button class="filter active" data-position="all">Todos</button><button class="filter" data-position="1">POR</button><button class="filter" data-position="2">DEF</button><button class="filter" data-position="3">MED</button><button class="filter" data-position="4">DEL</button>
+            </div>
+            <label class="search-box"><span>⌕</span><input type="search" id="marketSearch" placeholder="Buscar jugador" /></label>
+            <select id="marketSort" class="select">
+              <option value="score">Radar</option><option value="daily">+ € hoy</option><option value="dailyPct">+ % hoy</option><option value="weekly">+ € semana</option><option value="points">Puntos</option><option value="value">Valor</option>
+            </select>
+          </div>
+          <div id="marketList" class="player-grid"></div>
+        </section>
+
+        <section class="view" data-view="team">
+          <div class="page-heading">
+            <div><span class="eyebrow">PORTFOLIO MANAGEMENT</span><h1>Mi plantilla</h1><p>Rendimiento deportivo, financiero y liquidez potencial.</p></div><span class="section-count" id="teamCount">—</span>
+          </div>
+          <div id="teamSummary" class="summary-grid"></div>
+          <div class="dashboard-grid balanced">
+            <article class="panel chart-panel">
+              <div class="panel-head"><div><span class="eyebrow">VALUE × POINTS</span><h2>Mapa de cartera</h2></div></div>
+              <div class="chart-wrap"><canvas id="portfolioChart" aria-label="Valor y puntos de la plantilla"></canvas></div>
+            </article>
+            <article class="panel">
+              <div class="panel-head"><div><span class="eyebrow">STAR FUND</span><h2>6 slots de venta</h2></div><span id="saleSlotBadge" class="score-pill">—</span></div>
+              <div id="saleCandidates" class="stack-list"></div>
+            </article>
+          </div>
+          <div id="teamList" class="player-grid"></div>
+        </section>
+
+        <section class="view" data-view="league">
+          <div class="page-heading"><div><span class="eyebrow">COMPETITIVE INTELLIGENCE</span><h1>La liga</h1><p>Patrimonio, caja reconstruida, capacidad y amenaza de los 7 managers.</p></div></div>
+          <div class="dashboard-grid balanced">
+            <article class="panel chart-panel"><div class="panel-head"><div><span class="eyebrow">POWER RANKING</span><h2>Capacidad de fuego</h2></div><select class="select compact-select" id="leagueMetric"><option value="capacity">Capacidad</option><option value="wealth">Patrimonio</option><option value="points">Puntos</option></select></div><div class="chart-wrap league-chart"><canvas id="leagueChart"></canvas></div></article>
+            <article class="panel"><div class="panel-head"><div><span class="eyebrow">BID DNA</span><h2>Quién compite contigo</h2></div></div><div id="bidRivalry" class="stack-list"></div></article>
+          </div>
+          <div id="leagueList" class="manager-grid"></div>
+        </section>
+
+        <section class="view" data-view="history">
+          <div class="page-heading"><div><span class="eyebrow">TIME MACHINE</span><h1>Histórico</h1><p>Patrimonio, saldo, puntos y jornadas a través de los snapshots guardados.</p></div><span id="historyCount" class="section-count">—</span></div>
+          <div class="dashboard-grid balanced">
+            <article class="panel chart-panel"><div class="panel-head"><div><span class="eyebrow">WEALTH</span><h2>Patrimonio y plantilla</h2></div></div><div class="chart-wrap"><canvas id="historyWealthChart"></canvas></div></article>
+            <article class="panel chart-panel"><div class="panel-head"><div><span class="eyebrow">PERFORMANCE</span><h2>Puntos acumulados</h2></div></div><div class="chart-wrap"><canvas id="historyPointsChart"></canvas></div></article>
+          </div>
+          <article class="panel"><div class="panel-head"><div><span class="eyebrow">GAMEWEEKS</span><h2>Jornadas cerradas</h2></div></div><div id="gameweekList" class="gameweek-grid"></div></article>
+        </section>
+
+        <section class="view" data-view="activity">
+          <div class="page-heading"><div><span class="eyebrow">MARKET TAPE</span><h1>Actividad</h1><p>Compras, ventas, otras pujas y movimientos detectados.</p></div><span class="section-count" id="movementCount">—</span></div>
+          <div class="summary-grid" id="activitySummary"></div>
+          <article class="panel"><div class="panel-head"><div><span class="eyebrow">LIVE</span><h2>Pujas y ofertas activas</h2></div></div><div id="liveMarketOps" class="stack-list"></div></article>
+          <article class="panel"><div class="panel-head"><div><span class="eyebrow">LEDGER</span><h2>Últimos movimientos</h2></div></div><div id="movementList" class="timeline"></div></article>
+        </section>
+
+        <section class="view" data-view="clauses">
+          <div class="page-heading"><div><span class="eyebrow">PROTECTION</span><h1>Cláusulas</h1><p>Inversión activa, jugadores protegidos y cambios detectados.</p></div></div>
+          <div id="clauseOverview" class="summary-grid"></div>
+          <div id="clauseManagers" class="manager-grid"></div>
+          <article class="panel"><div class="panel-head"><div><span class="eyebrow">CHANGES</span><h2>Cambios desde el snapshot anterior</h2></div></div><div id="clauseChanges" class="stack-list"></div></article>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <nav class="bottom-nav" aria-label="Navegación móvil">
+    <button class="nav-item active" data-target="command"><span>⌂</span><small>Control</small></button>
+    <button class="nav-item" data-target="market"><span>↗</span><small>Mercado</small></button>
+    <button class="nav-item" data-target="team"><span>◆</span><small>Plantilla</small></button>
+    <button class="nav-item" data-target="league"><span>♚</span><small>Liga</small></button>
+    <button class="nav-item" data-target="history"><span>◫</span><small>Histórico</small></button>
+  </nav>
+
+  <div class="command-overlay hidden" id="commandOverlay" aria-hidden="true">
+    <div class="command-box">
+      <div class="command-input"><span>⌕</span><input id="globalSearchInput" autocomplete="off" placeholder="Jugador, rival o sección…" /><kbd>ESC</kbd></div>
+      <div id="globalSearchResults" class="command-results"></div>
+    </div>
+  </div>
+
+  <div class="drawer-backdrop hidden" id="drawerBackdrop"></div>
+  <aside class="drawer" id="playerDrawer" aria-hidden="true"><button class="drawer-close" id="drawerClose" type="button">×</button><div id="drawerContent"></div></aside>
+
+  <template id="sparkTemplate"><svg viewBox="0 0 120 36" preserveAspectRatio="none" aria-hidden="true"><polyline points="0,30 20,26 40,29 60,18 80,21 100,9 120,5" /></svg></template>
+
+  <script src="./app.js"></script>
+  <script src="./player-history.js"></script>
+</body>
+</html>
