@@ -48,10 +48,22 @@
     return scores[0]?.score>=7&&(!scores[1]||scores[0].score-scores[1].score>=2)?scores[0]:null;
   }
 
+  function trackerLabel(r){
+    const method=String(r?.method||'').replaceAll('_',' ');
+    const confidence=String(r?.confidence||'').toLowerCase();
+    if(confidence==='exact')return {label:method?`Exacto · ${method}`:'Identificación exacta',kind:'exact'};
+    if(confidence==='high')return {label:method?`Alta confianza · ${method}`:'Alta confianza',kind:'history'};
+    if(confidence==='medium')return {label:method?`Probable · ${method}`:'Probable',kind:'probable'};
+    return null;
+  }
+
   function resolveTransfer(t){
     const r=t.player_resolution||{};
     const direct=clean(t.player||t.player_name||r.player_name||r.resolved_player_name||r.name||'');
-    if(direct)return{name:direct,label:'Identificado',kind:'exact'};
+    if(direct){
+      const tracker=trackerLabel(r);
+      return{name:direct,label:tracker?.label||'Identificado por tracker',kind:tracker?.kind||'exact'};
+    }
 
     const id=t.player_id??r.player_id??r.resolved_player_id;
     const idName=byId(id);
@@ -61,7 +73,7 @@
     if(candidates.length===1)return{name:candidates[0],label:'Candidato único',kind:'probable'};
 
     const inferred=inferFromHistory(t,candidates);
-    if(inferred)return{name:inferred.name,label:'Identificado por histórico',kind:'history'};
+    if(inferred)return{name:inferred.name,label:'Identificado por histórico web',kind:'history'};
 
     const action=norm(t.from)==='mister'
       ? `Compra de ${clean(t.to||'manager')}`
@@ -77,6 +89,16 @@
     return '↔';
   }
 
+  function resolutionSummary(){
+    const s=latest?.transfer_identity_resolution||{};
+    if(Number(s.version)!==2)return '';
+    const total=Number(s.total_transfers)||0;
+    const resolved=Number(s.resolved_total)||0;
+    const coverage=Number(s.coverage_pct)||0;
+    const aleCoverage=Number(s.ale_coverage_pct)||0;
+    return `<div class="resolution-summary"><div><span class="eyebrow">Data resolution</span><strong>${resolved}/${total} movimientos identificados</strong><small>Tracker V2 · cobertura ${coverage.toLocaleString('es-ES')}% · Ale ${aleCoverage.toLocaleString('es-ES')}%</small></div><span class="resolution-score ${coverage>=90?'great':coverage>=70?'good':'warn'}">${coverage.toLocaleString('es-ES')}%</span></div>`;
+  }
+
   function renderActivity(){
     const host=document.getElementById('activityList');
     if(!host||!latest)return;
@@ -84,9 +106,11 @@
       .slice()
       .sort((a,b)=>new Date(String(b.created||'').replace(' ','T'))-new Date(String(a.created||'').replace(' ','T')))
       .slice(0,24);
-    host.innerHTML=rows.map(t=>{
+    host.innerHTML=resolutionSummary()+rows.map(t=>{
       const r=resolveTransfer(t);
-      return `<div class="timeline-item friendly-activity ${r.kind}"><div class="activity-icon">${activityIcon(t)}</div><div class="activity-body"><div class="activity-title"><strong>${esc(r.name)}</strong><b>${money(t.price)}</b></div><div class="activity-meta"><span>${esc(t.from||'—')} → ${esc(t.to||'—')}</span><span>${dt(t.created)}</span></div><span class="resolution-pill ${r.kind}">${esc(r.label)}</span></div></div>`;
+      const candidates=arr(t?.player_resolution?.candidate_players).map(clean).filter(Boolean);
+      const candidateText=r.kind==='pending'&&candidates.length?`<span class="activity-candidates">${esc(candidates.slice(0,3).join(' · '))}${candidates.length>3?'…':''}</span>`:'';
+      return `<div class="timeline-item friendly-activity ${r.kind}"><div class="activity-icon">${activityIcon(t)}</div><div class="activity-body"><div class="activity-title"><strong>${esc(r.name)}</strong><b>${money(t.price)}</b></div><div class="activity-meta"><span>${esc(t.from||'—')} → ${esc(t.to||'—')}</span><span>${dt(t.created)}</span></div>${candidateText}<span class="resolution-pill ${r.kind}">${esc(r.label)}</span></div></div>`;
     }).join('');
   }
 
@@ -110,7 +134,7 @@
       latest=await fetch(`./data/latest.json?v=${Date.now()}`,{cache:'no-store'}).then(r=>r.json());
       renderActivity();
       decorateExistingCards();
-      const hasAmbiguous=arr(latest?.transfers_detected).some(t=>arr(t?.player_resolution?.candidate_players).length>1);
+      const hasAmbiguous=arr(latest?.transfers_detected).some(t=>!t?.player&&arr(t?.player_resolution?.candidate_players).length>0);
       if(hasAmbiguous){
         series=await fetch(`./data/series.json?v=${Date.now()}`,{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null);
         renderActivity();
