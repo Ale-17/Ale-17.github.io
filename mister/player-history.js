@@ -1,13 +1,10 @@
 (() => {
   'use strict';
 
-  const v3Style = document.createElement('link');
-  v3Style.rel = 'stylesheet';
-  v3Style.href = './v3.css';
-  document.head.appendChild(v3Style);
-  const v3Script = document.createElement('script');
-  v3Script.src = './v3-ui.js';
-  document.head.appendChild(v3Script);
+  const stableStyle = document.createElement('link');
+  stableStyle.rel = 'stylesheet';
+  stableStyle.href = './stable.css';
+  document.head.appendChild(stableStyle);
 
   let seriesPromise = null;
   const num = value => Number.isFinite(Number(value)) ? Number(value) : null;
@@ -84,11 +81,11 @@
   style.textContent = `
     .drawer-history-chart{width:100%;height:126px;display:block;overflow:visible;margin-top:4px}
     .drawer-history-chart line{stroke:rgba(255,255,255,.08);stroke-width:1;vector-effect:non-scaling-stroke}
-    .drawer-history-chart path{fill:none;stroke:var(--green);stroke-width:2.2;vector-effect:non-scaling-stroke}
-    .drawer-history-chart circle{fill:var(--green)}
-    .drawer-history-chart text{font:8px Inter,ui-sans-serif,system-ui;fill:var(--muted)}
-    .drawer-history-meta{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:7px;font-size:8px;color:var(--muted)}
-    .drawer-history-meta strong{font-size:10px;white-space:nowrap}
+    .drawer-history-chart path{fill:none;stroke:var(--stable-green,#43d7a0);stroke-width:2.2;vector-effect:non-scaling-stroke}
+    .drawer-history-chart circle{fill:var(--stable-green,#43d7a0)}
+    .drawer-history-chart text{font:8px Inter,ui-sans-serif,system-ui;fill:var(--stable-muted,#9aabc0)}
+    .drawer-history-meta{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:7px;font-size:10px;color:var(--stable-muted,#9aabc0)}
+    .drawer-history-meta strong{font-size:11px;white-space:nowrap}
   `;
   document.head.appendChild(style);
 

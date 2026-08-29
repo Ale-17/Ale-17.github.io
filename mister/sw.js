@@ -1,5 +1,5 @@
-const CACHE = 'fantasy-os-v3';
-const SHELL = ['./', './index.html', './styles.css', './v3.css', './app.js', './player-history.js', './v3-ui.js', './manifest.webmanifest', './icon.svg'];
+const CACHE = 'fantasy-os-stable-v4';
+const SHELL = ['./', './index.html', './styles.css', './stable.css', './app.js', './player-history.js', './manifest.webmanifest', './icon.svg'];
 
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(SHELL)).then(() => self.skipWaiting()));
