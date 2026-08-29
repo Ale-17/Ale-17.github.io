@@ -13,6 +13,7 @@
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="icon" href="./icon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./friendly.css" />
 </head>
 <body>
   <div class="background"></div>
@@ -67,7 +68,7 @@
           <div class="section-head"><div><span class="eyebrow">Liquidez</span><h2>Capacidad estrella</h2></div></div>
           <div id="capacityList" class="stack"></div>
           <div class="separator"></div>
-          <div class="section-head compact"><div><span class="eyebrow">Data health</span><h2>Calidad del snapshot</h2></div></div>
+          <div class="section-head compact"><div><span class="eyebrow">Estado de datos</span><h2>Calidad del snapshot</h2></div></div>
           <div id="qualityGrid" class="quality-grid"></div>
         </article>
       </section>
@@ -114,14 +115,14 @@
 
       <section id="actividad" class="layout-two">
         <article class="panel">
-          <div class="section-head"><div><span class="eyebrow">Market tape</span><h2>Últimos movimientos</h2></div></div>
+          <div class="section-head"><div><span class="eyebrow">Market tape</span><h2>Últimos movimientos</h2><p class="muted">Identificación por ID y, cuando hace falta, por cambios de propietario del histórico.</p></div></div>
           <div id="activityList" class="timeline"></div>
         </article>
         <article class="panel">
-          <div class="section-head"><div><span class="eyebrow">Bid DNA</span><h2>Other bids</h2></div></div>
+          <div class="section-head"><div><span class="eyebrow">Competencia</span><h2>Other bids</h2></div></div>
           <div id="bidList" class="stack"></div>
           <div class="separator"></div>
-          <div class="section-head compact"><div><span class="eyebrow">Protection</span><h2>Cláusulas</h2></div></div>
+          <div class="section-head compact"><div><span class="eyebrow">Protección</span><h2>Cláusulas</h2></div></div>
           <div id="clauseList" class="stack"></div>
         </article>
       </section>
@@ -139,5 +140,6 @@
   </nav>
 
   <script src="./app.js" defer></script>
+  <script src="./friendly.js" defer></script>
 </body>
 </html>
