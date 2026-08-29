@@ -91,12 +91,16 @@
 
   function resolutionSummary(){
     const s=latest?.transfer_identity_resolution||{};
-    if(Number(s.version)!==2)return '';
+    const version=Number(s.version)||0;
+    if(version<2)return '';
     const total=Number(s.total_transfers)||0;
     const resolved=Number(s.resolved_total)||0;
     const coverage=Number(s.coverage_pct)||0;
     const aleCoverage=Number(s.ale_coverage_pct)||0;
-    return `<div class="resolution-summary"><div><span class="eyebrow">Data resolution</span><strong>${resolved}/${total} movimientos identificados</strong><small>Tracker V2 · cobertura ${coverage.toLocaleString('es-ES')}% · Ale ${aleCoverage.toLocaleString('es-ES')}%</small></div><span class="resolution-score ${coverage>=90?'great':coverage>=70?'good':'warn'}">${coverage.toLocaleString('es-ES')}%</span></div>`;
+    const ledger=Number(s.event_ledger_entries)||0;
+    const conflicts=Number(s.event_ledger_conflicts)||0;
+    const extra=version>=3?` · ledger ${ledger}${conflicts?` · ${conflicts} conflictos protegidos`:''}`:'';
+    return `<div class="resolution-summary"><div><span class="eyebrow">Data resolution</span><strong>${resolved}/${total} movimientos identificados</strong><small>Tracker V${version} · cobertura ${coverage.toLocaleString('es-ES')}% · Ale ${aleCoverage.toLocaleString('es-ES')}%${extra}</small></div><span class="resolution-score ${coverage>=90?'great':coverage>=70?'good':'warn'}">${coverage.toLocaleString('es-ES')}%</span></div>`;
   }
 
   function renderActivity(){
