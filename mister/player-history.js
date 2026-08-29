@@ -1,6 +1,14 @@
 (() => {
   'use strict';
 
+  const v3Style = document.createElement('link');
+  v3Style.rel = 'stylesheet';
+  v3Style.href = './v3.css';
+  document.head.appendChild(v3Style);
+  const v3Script = document.createElement('script');
+  v3Script.src = './v3-ui.js';
+  document.head.appendChild(v3Script);
+
   let seriesPromise = null;
   const num = value => Number.isFinite(Number(value)) ? Number(value) : null;
   const tone = value => Number(value) > 0 ? 'positive' : Number(value) < 0 ? 'negative' : 'neutral';
