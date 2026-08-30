@@ -1,7 +1,7 @@
 (()=>{
 'use strict';
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
-let lineup=null, latest=null;
+let lineup=null, latest=null, renderQueued=false;
 const arr=v=>Array.isArray(v)?v:[];
 const num=v=>Number.isFinite(Number(v))?Number(v):0;
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -66,7 +66,7 @@ function teamAdvice(p){
   return{kind:'hold',label:'MANTENER',icon:'✓',reason:'Sigue aportando valor sin motivo claro de venta'};
 }
 function makeAdvice(advice){
-  const chip=document.createElement('span');chip.className=`player-advice advice-${advice.kind}`;chip.title=advice.reason;chip.setAttribute('aria-label',`${advice.label}. ${advice.reason}`);chip.innerHTML=`<b>${esc(advice.icon)}</b>${esc(advice.label)}`;return chip;
+  const chip=document.createElement('span');chip.className=`player-advice advice-${advice.kind}`;chip.dataset.kind=advice.kind;chip.dataset.label=advice.label;chip.title=advice.reason;chip.setAttribute('aria-label',`${advice.label}. ${advice.reason}`);chip.innerHTML=`<b>${esc(advice.icon)}</b>${esc(advice.label)}`;return chip;
 }
 function decorateLayout(row){
   if(row.dataset.misterLayout==='1')return;
@@ -78,14 +78,17 @@ function decorateLayout(row){
 function decorateAdvice(row){
   if(!latest)return;const id=row.dataset.playerId;if(!id)return;const p=playerData(id);if(!p)return;
   const isTeam=row.closest('.screen')?.dataset.screen==='team';const action=row.querySelector('.market-row__action');if(!action)return;
-  row.querySelector('.player-advice')?.remove();
-  const advice=isTeam?teamAdvice(p):marketAdvice(p);const chip=makeAdvice(advice);const button=action.querySelector('.bid-button');action.insertBefore(chip,button||null);
-  row.dataset.advice=advice.kind;
+  const advice=isTeam?teamAdvice(p):marketAdvice(p), button=action.querySelector('.bid-button');
+  let chip=row.querySelector('.player-advice');
+  if(!chip){chip=makeAdvice(advice);action.insertBefore(chip,button||null)}
+  else if(chip.dataset.kind!==advice.kind||chip.dataset.label!==advice.label){chip.replaceWith(makeAdvice(advice))}
+  if(row.dataset.advice!==advice.kind)row.dataset.advice=advice.kind;
   if(isTeam){
     const meta=row.querySelector('.market-meta-top span:first-child');
     const starter=startingIds().has(String(id));
     const listed=arr(latest.market_players).some(x=>String(x.player_id)===String(id)&&norm(x.owner_name)==='ale');
-    if(meta)meta.textContent=`Tu jugador · ${starter?'Titular':listed?'En venta':'Plantilla'}`;
+    const next=`Tu jugador · ${starter?'Titular':listed?'En venta':'Plantilla'}`;
+    if(meta&&meta.textContent!==next)meta.textContent=next;
   }
 }
 function decorateRows(){$$('.market-row').forEach(row=>{decorateLayout(row);decorateAdvice(row)})}
@@ -95,39 +98,45 @@ function decoratePitch(){
     const name=clean(el.querySelector('.pitch-player__name')?.textContent);const lp=arr(lineup.players).find(x=>clean(x.name)===name);if(!lp)return;
     const logo=logoFor(lp.player_id),portrait=el.querySelector('.pitch-player__portrait');
     if(logo&&portrait&&!el.querySelector('.pitch-club'))portrait.insertAdjacentHTML('beforeend',`<img class="pitch-club" src="${esc(logo)}" alt="">`);
-    if(latest){const p=playerData(lp.player_id),advice=teamAdvice(p);el.classList.remove('pitch-protect','pitch-hold','pitch-liquid','pitch-sell');el.classList.add(`pitch-${advice.kind}`);if(!el.querySelector('.pitch-advice-dot')){const dot=document.createElement('span');dot.className='pitch-advice-dot';dot.title=advice.label;el.appendChild(dot)}}
+    if(latest){
+      const p=playerData(lp.player_id),advice=teamAdvice(p),cls=`pitch-${advice.kind}`;
+      ['pitch-protect','pitch-hold','pitch-liquid','pitch-sell'].forEach(c=>{if(c!==cls&&el.classList.contains(c))el.classList.remove(c)});if(!el.classList.contains(cls))el.classList.add(cls);
+      let dot=el.querySelector('.pitch-advice-dot');if(!dot){dot=document.createElement('span');dot.className='pitch-advice-dot';el.appendChild(dot)}if(dot.title!==advice.label)dot.title=advice.label;
+    }
   })
 }
 function header(){
   const ctx=lineup?.ui_context||{},strong=$('.brand-copy strong'),small=$('.brand-copy small'),mark=$('.brand-mark');
-  if(strong&&ctx.community)strong.textContent=ctx.community;
-  if(small)small.textContent=`${ctx.user_name||'Ale'} · Fantasy OS${ctx.credits!=null?` · ${ctx.credits} créditos`:''}`;
+  if(strong&&ctx.community&&strong.textContent!==ctx.community)strong.textContent=ctx.community;
+  const sub=`${ctx.user_name||'Ale'} · Fantasy OS${ctx.credits!=null?` · ${ctx.credits} créditos`:''}`;if(small&&small.textContent!==sub)small.textContent=sub;
   if(mark){
-    const src=normalizeAsset(ctx.user_picture);mark.classList.remove('has-avatar');mark.textContent=(ctx.user_name||'Ale').trim().charAt(0).toUpperCase()||'A';
-    if(src){const img=new Image();img.alt='';img.onload=()=>{mark.textContent='';mark.appendChild(img);mark.classList.add('has-avatar')};img.onerror=()=>{mark.textContent=(ctx.user_name||'Ale').trim().charAt(0).toUpperCase()||'A'};img.src=src}
+    const src=normalizeAsset(ctx.user_picture),fallback=(ctx.user_name||'Ale').trim().charAt(0).toUpperCase()||'A';
+    if(src&&mark.dataset.avatarSrc!==src){const img=new Image();img.alt='';img.onload=()=>{mark.textContent='';mark.appendChild(img);mark.classList.add('has-avatar');mark.dataset.avatarSrc=src};img.onerror=()=>{mark.classList.remove('has-avatar');mark.textContent=fallback;mark.dataset.avatarSrc='error'};img.src=src}
+    else if(!src&&!mark.querySelector('img')&&mark.textContent!==fallback)mark.textContent=fallback;
   }
-  const note=$('#lineupCaptureNote');if(note&&lineup?.status==='ok')note.classList.add('hidden');
+  const note=$('#lineupCaptureNote');if(note&&lineup?.status==='ok'&&!note.classList.contains('hidden'))note.classList.add('hidden');
 }
-function icons(){const svg={home:'<svg viewBox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5V21h-6v-6H9v6H3z"/></svg>',market:'<svg viewBox="0 0 24 24"><path d="M5 5h14l-1 9H7z"/><path d="M8 5 9 2h6l1 3M8 19h.01M16 19h.01"/></svg>',team:'<svg viewBox="0 0 24 24"><path d="M7 4 4 7l2 4 2-1v10h8V10l2 1 2-4-3-3-3 2h-4z"/></svg>',table:'<svg viewBox="0 0 24 24"><path d="M8 3h8v3a4 4 0 0 1-8 0zM6 4H3v2a4 4 0 0 0 4 4M18 4h3v2a4 4 0 0 1-4 4M12 10v5M8 21h8M9 15h6v6H9z"/></svg>',more:'<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>'};$$('.nav-tab').forEach(b=>{const key=b.dataset.screenTarget,icon=b.querySelector('.nav-icon');if(icon&&svg[key])icon.innerHTML=svg[key]})}
+function icons(){const svg={home:'<svg viewBox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5V21h-6v-6H9v6H3z"/></svg>',market:'<svg viewBox="0 0 24 24"><path d="M5 5h14l-1 9H7z"/><path d="M8 5 9 2h6l1 3M8 19h.01M16 19h.01"/></svg>',team:'<svg viewBox="0 0 24 24"><path d="M7 4 4 7l2 4 2-1v10h8V10l2 1 2-4-3-3-3 2h-4z"/></svg>',table:'<svg viewBox="0 0 24 24"><path d="M8 3h8v3a4 4 0 0 1-8 0zM6 4H3v2a4 4 0 0 0 4 4M18 4h3v2a4 4 0 0 1-4 4M12 10v5M8 21h8M9 15h6v6H9z"/></svg>',more:'<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>'};$$('.nav-tab').forEach(b=>{const key=b.dataset.screenTarget,icon=b.querySelector('.nav-icon');if(icon&&svg[key]&&icon.innerHTML!==svg[key])icon.innerHTML=svg[key]})}
 function marketSummary(){
   if(!latest)return;const host=$('[data-screen="market"] .market-toolbar');if(!host)return;let box=$('#marketAdviceSummary');if(!box){box=document.createElement('div');box.id='marketAdviceSummary';box.className='advice-summary';host.insertAdjacentElement('afterend',box)}
   const free=arr(latest.market_players).filter(p=>String(p.owner_id)==='0'||norm(p.owner_name)==='libre');const counts={top:0,good:0,watch:0,bad:0,neutral:0};free.forEach(p=>counts[marketAdvice(p).kind]++);
-  box.innerHTML=`<span class="summary-dot advice-top">${counts.top} ir</span><span class="summary-dot advice-good">${counts.good} recomendados</span><span class="summary-dot advice-watch">${counts.watch} vigilar</span><span class="summary-dot advice-bad">${counts.bad} pasar</span>`;
+  const html=`<span class="summary-dot advice-top">${counts.top} ir</span><span class="summary-dot advice-good">${counts.good} recomendados</span><span class="summary-dot advice-watch">${counts.watch} vigilar</span><span class="summary-dot advice-bad">${counts.bad} pasar</span>`;if(box.innerHTML!==html)box.innerHTML=html;
 }
 function teamSummary(){
   if(!latest)return;const list=$('#teamList');if(!list)return;let box=$('#teamAdviceSummary');if(!box){box=document.createElement('div');box.id='teamAdviceSummary';box.className='advice-summary team-advice-summary';list.parentNode.insertBefore(box,list)}
   const counts={protect:0,hold:0,liquid:0,sell:0};arr(latest.my_team).forEach(p=>counts[teamAdvice(p).kind]++);
-  box.innerHTML=`<span class="summary-dot advice-protect">${counts.protect} proteger</span><span class="summary-dot advice-hold">${counts.hold} mantener</span><span class="summary-dot advice-liquid">${counts.liquid} liquidez</span><span class="summary-dot advice-sell">${counts.sell} vender</span>`;
+  const html=`<span class="summary-dot advice-protect">${counts.protect} proteger</span><span class="summary-dot advice-hold">${counts.hold} mantener</span><span class="summary-dot advice-liquid">${counts.liquid} liquidez</span><span class="summary-dot advice-sell">${counts.sell} vender</span>`;if(box.innerHTML!==html)box.innerHTML=html;
 }
 function homeDecision(){
   if(!latest)return;const free=arr(latest.market_players).filter(p=>String(p.owner_id)==='0'||norm(p.owner_name)==='libre').sort((a,b)=>investmentScore(b)-investmentScore(a));const best=free[0];if(!best)return;const a=marketAdvice(best),title=$('#decisionTitle'),text=$('#decisionText'),kicker=$('.action-card .section-kicker');
-  if(kicker)kicker.textContent=a.kind==='top'?'TOP DEL MERCADO':'RECOMENDACIÓN';
-  if(title)title.textContent=a.kind==='top'?`Ve a por ${clean(best.name)}`:a.kind==='good'?`${clean(best.name)} merece puja`:`Vigila a ${clean(best.name)}`;
-  if(text)text.textContent=`${a.label} · VM ${compact(best.market_value)} · ${points(best)} pts · ${daily(best)>=0?'+':''}${compact(daily(best))} hoy.`;
+  const kt=a.kind==='top'?'TOP DEL MERCADO':'RECOMENDACIÓN',tt=a.kind==='top'?`Ve a por ${clean(best.name)}`:a.kind==='good'?`${clean(best.name)} merece puja`:`Vigila a ${clean(best.name)}`,tx=`${a.label} · VM ${compact(best.market_value)} · ${points(best)} pts · ${daily(best)>=0?'+':''}${compact(daily(best))} hoy.`;
+  if(kicker&&kicker.textContent!==kt)kicker.textContent=kt;if(title&&title.textContent!==tt)title.textContent=tt;if(text&&text.textContent!==tx)text.textContent=tx;
 }
+function renderPolish(){decorateRows();decoratePitch();if(latest){marketSummary();teamSummary()}}
+function queueRender(){if(renderQueued)return;renderQueued=true;requestAnimationFrame(()=>{renderQueued=false;renderPolish()})}
 async function loadContext(){
   try{const [lr,dr]=await Promise.all([fetch(`./data/current_lineup.json?v=${Date.now()}`,{cache:'no-store'}),fetch(`./data/latest.json?v=${Date.now()}`,{cache:'no-store'})]);if(lr.ok)lineup=await lr.json();if(dr.ok)latest=await dr.json()}catch{}
-  header();decorateRows();decoratePitch();marketSummary();teamSummary();homeDecision();
+  header();renderPolish();homeDecision();
 }
-window.addEventListener('DOMContentLoaded',()=>{icons();setTimeout(loadContext,90);const obs=new MutationObserver(()=>{decorateRows();decoratePitch();if(latest){marketSummary();teamSummary()}});obs.observe(document.body,{childList:true,subtree:true})});
+window.addEventListener('DOMContentLoaded',()=>{icons();setTimeout(loadContext,90);const obs=new MutationObserver(queueRender);obs.observe(document.body,{childList:true,subtree:true})});
 })();
