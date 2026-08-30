@@ -1,9 +1,121 @@
 {
-  "captured_at": "2026-08-30T02:10:40+02:00",
-  "source": "mister-team-dom",
-  "status": "unavailable",
-  "formation": null,
-  "players": [],
+  "captured_at": "2026-08-30T02:16:36+02:00",
+  "source": "mister-lineup-starting-dom",
+  "status": "ok",
+  "formation": "3-5-2",
+  "formation_raw": "1-3-5-2",
+  "players": [
+    {
+      "player_id": "52189",
+      "name": "A. Pérez 💥",
+      "position": 4,
+      "slot": 10,
+      "line": 4,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/52189.png?version=20251006020741",
+      "x": 33.333,
+      "y": 18.0
+    },
+    {
+      "player_id": "31226",
+      "name": "A. Danjuma",
+      "position": 4,
+      "slot": 11,
+      "line": 4,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/31226.png?version=20240702124019",
+      "x": 66.667,
+      "y": 18.0
+    },
+    {
+      "player_id": "3728",
+      "name": "M. Roca",
+      "position": 3,
+      "slot": 5,
+      "line": 3,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/3728.png?version=20260809062618",
+      "x": 16.667,
+      "y": 43.0
+    },
+    {
+      "player_id": "15653",
+      "name": "K. Lee 💥",
+      "position": 3,
+      "slot": 6,
+      "line": 3,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/15653.png?version=20260725160628",
+      "x": 33.333,
+      "y": 43.0
+    },
+    {
+      "player_id": "48203",
+      "name": "R. Terrats 💥",
+      "position": 3,
+      "slot": 7,
+      "line": 3,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/48203.png?version=20250204152625",
+      "x": 50.0,
+      "y": 43.0
+    },
+    {
+      "player_id": "68606",
+      "name": "Á. Pérez 💥",
+      "position": 3,
+      "slot": 8,
+      "line": 3,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/68606.png?version=20260323141026",
+      "x": 66.667,
+      "y": 43.0
+    },
+    {
+      "player_id": "59371",
+      "name": "L. Sučić 💥",
+      "position": 3,
+      "slot": 9,
+      "line": 3,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/59371.png?version=20240802114718",
+      "x": 83.333,
+      "y": 43.0
+    },
+    {
+      "player_id": "63",
+      "name": "M. Bartra 💥",
+      "position": 2,
+      "slot": 2,
+      "line": 2,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/63.png?version=20250205144032",
+      "x": 25.0,
+      "y": 68.0
+    },
+    {
+      "player_id": "118",
+      "name": "J. Otto",
+      "position": 2,
+      "slot": 3,
+      "line": 2,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/118.png?version=20250702181230",
+      "x": 50.0,
+      "y": 68.0
+    },
+    {
+      "player_id": "27520",
+      "name": "F. García 💥",
+      "position": 2,
+      "slot": 4,
+      "line": 2,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/27520.png?version=20251003183837",
+      "x": 75.0,
+      "y": 68.0
+    },
+    {
+      "player_id": "28774",
+      "name": "J. Agirrezabala",
+      "position": 1,
+      "slot": 1,
+      "line": 1,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/28774.png?version=20251006020123",
+      "x": 50.0,
+      "y": 88.0
+    }
+  ],
   "player_media": {
     "1034": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/1034.png?version=20240201121646",
     "10967": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/10967.png?version=20250805081800",
@@ -93,12 +205,34 @@
     "68606": 3
   },
   "diagnostics": {
-    "team_url": "https://mister.mundodeportivo.com/team",
-    "candidate_count": 0,
-    "selected_player_count": 0,
-    "selected_score": null,
-    "selected_key": null,
-    "selected_green": null,
-    "top_candidates": []
+    "selector": ".lineup-starting .lineup-player",
+    "raw_player_count": 11,
+    "unique_player_count": 11,
+    "slots": [
+      10,
+      11,
+      5,
+      6,
+      7,
+      8,
+      9,
+      2,
+      3,
+      4,
+      1
+    ],
+    "lines": [
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      1
+    ]
   }
 }
