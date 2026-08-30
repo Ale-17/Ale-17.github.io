@@ -1,15 +1,15 @@
 {
-  "captured_at": "2026-08-30T20:39:01+02:00",
-  "last_checked_at": "2026-08-30T20:39:01+02:00",
+  "captured_at": "2026-08-30T21:20:38+02:00",
+  "last_checked_at": "2026-08-30T21:20:38+02:00",
   "status": "ok",
   "source": "Mister .feed-top-gameweek + read-only match popup",
   "semantics": "Fantasy OS mirrors the active round shown by Mister and enriches compact fixture metadata from Mister's read-only match popup when the strip no longer exposes it.",
   "gameweek_id": "4044",
   "gameweek_number": 3,
   "name": "Jornada 3",
-  "status_text": "En juego, 1º con 46 pts",
+  "status_text": "En juego, 1º con 49 pts",
   "fantasy_position": 1,
-  "fantasy_points": 46,
+  "fantasy_points": 49,
   "matches": [
     {
       "match_id": "37964",
@@ -77,21 +77,21 @@
             "score": "3 - 2",
             "status": "played",
             "stats": {
+              "totalTackle": 2,
               "goalAssist": 0,
               "onTargetScoringAttempt": 1,
-              "totalPass": 56,
-              "duelLost": 6,
-              "totalLongBalls": 3,
-              "keyPass": 2,
               "wonContest": 1,
-              "accurateLongBalls": 1,
-              "duelWon": 8,
-              "accuratePass": 48,
               "blockedScoringAttempt": 1,
               "minutesPlayed": 90,
+              "keyPass": 2,
+              "totalLongBalls": 3,
               "totalContest": 2,
+              "accurateLongBalls": 1,
+              "duelLost": 6,
               "aerialLost": 2,
-              "totalTackle": 2
+              "accuratePass": 48,
+              "duelWon": 8,
+              "totalPass": 56
             }
           }
         },
@@ -116,21 +116,21 @@
             "score": "3 - 2",
             "status": "played",
             "stats": {
+              "totalTackle": 1,
               "goalAssist": 0,
-              "totalClearance": 2,
               "onTargetScoringAttempt": 2,
-              "totalPass": 13,
-              "duelLost": 9,
               "wonContest": 1,
-              "aerialWon": 4,
-              "duelWon": 8,
-              "accuratePass": 12,
               "shotOffTarget": 1,
               "minutesPlayed": 90,
+              "totalClearance": 2,
+              "aerialWon": 4,
               "totalContest": 4,
+              "duelLost": 9,
               "aerialLost": 6,
-              "goals": 1,
-              "totalTackle": 1
+              "accuratePass": 12,
+              "duelWon": 8,
+              "totalPass": 13,
+              "goals": 1
             }
           }
         }
@@ -1126,19 +1126,19 @@
             "score": "1 - 0",
             "status": "played",
             "stats": {
+              "totalTackle": 3,
               "goalAssist": 0,
-              "totalClearance": 9,
-              "totalPass": 22,
-              "duelLost": 2,
-              "totalLongBalls": 3,
-              "accurateLongBalls": 1,
-              "duelWon": 3,
-              "accuratePass": 19,
               "shotOffTarget": 1,
               "minutesPlayed": 90,
-              "interceptionWon": 1,
+              "totalLongBalls": 3,
+              "totalClearance": 9,
               "totalContest": 1,
-              "totalTackle": 3
+              "accurateLongBalls": 1,
+              "duelLost": 2,
+              "accuratePass": 19,
+              "duelWon": 3,
+              "interceptionWon": 1,
+              "totalPass": 22
             }
           }
         },
@@ -1163,17 +1163,17 @@
             "score": "1 - 0",
             "status": "played",
             "stats": {
+              "totalTackle": 3,
               "goalAssist": 0,
-              "totalClearance": 4,
-              "totalPass": 7,
-              "duelLost": 1,
-              "totalLongBalls": 2,
               "wonContest": 1,
-              "duelWon": 6,
-              "accuratePass": 4,
               "minutesPlayed": 36,
+              "totalLongBalls": 2,
+              "totalClearance": 4,
               "totalContest": 1,
-              "totalTackle": 3
+              "duelLost": 1,
+              "accuratePass": 4,
+              "duelWon": 6,
+              "totalPass": 7
             }
           }
         },
@@ -1198,21 +1198,21 @@
             "score": "1 - 0",
             "status": "played",
             "stats": {
+              "totalTackle": 1,
               "goalAssist": 1,
-              "totalClearance": 2,
-              "totalPass": 7,
-              "duelLost": 4,
-              "totalLongBalls": 1,
-              "keyPass": 1,
               "wonContest": 2,
-              "accurateLongBalls": 1,
-              "duelWon": 3,
-              "accuratePass": 5,
               "shotOffTarget": 2,
               "minutesPlayed": 71,
-              "interceptionWon": 2,
+              "keyPass": 1,
+              "totalLongBalls": 1,
+              "totalClearance": 2,
               "totalContest": 4,
-              "totalTackle": 1
+              "accurateLongBalls": 1,
+              "duelLost": 4,
+              "accuratePass": 5,
+              "duelWon": 3,
+              "interceptionWon": 2,
+              "totalPass": 7
             }
           }
         },
@@ -1239,12 +1239,12 @@
             "stats": {
               "goalAssist": 0,
               "onTargetScoringAttempt": 1,
-              "totalPass": 12,
-              "duelWon": 1,
-              "accuratePass": 10,
-              "shotOffTarget": 1,
               "blockedScoringAttempt": 1,
-              "minutesPlayed": 28
+              "shotOffTarget": 1,
+              "minutesPlayed": 28,
+              "accuratePass": 10,
+              "duelWon": 1,
+              "totalPass": 12
             }
           }
         }
@@ -1271,17 +1271,17 @@
             "score": "1 - 0",
             "status": "played",
             "stats": {
+              "totalTackle": 3,
               "goalAssist": 0,
-              "totalClearance": 4,
-              "totalPass": 7,
-              "duelLost": 1,
-              "totalLongBalls": 2,
               "wonContest": 1,
-              "duelWon": 6,
-              "accuratePass": 4,
               "minutesPlayed": 36,
+              "totalLongBalls": 2,
+              "totalClearance": 4,
               "totalContest": 1,
-              "totalTackle": 3
+              "duelLost": 1,
+              "accuratePass": 4,
+              "duelWon": 6,
+              "totalPass": 7
             }
           }
         },
@@ -2319,20 +2319,20 @@
             "status": "played",
             "stats": {
               "goalAssist": 0,
-              "totalClearance": 2,
-              "totalPass": 57,
-              "duelLost": 2,
-              "totalLongBalls": 5,
-              "keyPass": 1,
               "wonContest": 1,
-              "accurateLongBalls": 1,
-              "aerialWon": 1,
-              "duelWon": 4,
-              "accuratePass": 50,
               "minutesPlayed": 90,
-              "interceptionWon": 1,
+              "keyPass": 1,
+              "totalLongBalls": 5,
+              "totalClearance": 2,
+              "aerialWon": 1,
               "totalContest": 1,
-              "aerialLost": 2
+              "accurateLongBalls": 1,
+              "duelLost": 2,
+              "aerialLost": 2,
+              "accuratePass": 50,
+              "duelWon": 4,
+              "interceptionWon": 1,
+              "totalPass": 57
             }
           }
         },
@@ -2357,22 +2357,22 @@
             "score": "5 - 2",
             "status": "played",
             "stats": {
+              "totalTackle": 3,
               "goalAssist": 0,
-              "totalClearance": 13,
               "onTargetScoringAttempt": 1,
-              "totalPass": 61,
-              "duelLost": 3,
-              "totalLongBalls": 10,
-              "accurateLongBalls": 4,
-              "aerialWon": 4,
-              "duelWon": 7,
-              "accuratePass": 53,
               "shotOffTarget": 1,
               "minutesPlayed": 90,
-              "interceptionWon": 2,
+              "totalLongBalls": 10,
+              "totalClearance": 13,
+              "aerialWon": 4,
+              "accurateLongBalls": 4,
+              "duelLost": 3,
               "aerialLost": 2,
-              "goals": 1,
-              "totalTackle": 3
+              "accuratePass": 53,
+              "duelWon": 7,
+              "interceptionWon": 2,
+              "totalPass": 61,
+              "goals": 1
             }
           }
         },
@@ -2397,15 +2397,15 @@
             "score": "5 - 2",
             "status": "played",
             "stats": {
+              "totalTackle": 3,
               "goalAssist": 1,
-              "totalPass": 42,
-              "keyPass": 2,
-              "aerialWon": 2,
-              "duelWon": 5,
-              "accuratePass": 40,
               "shotOffTarget": 1,
               "minutesPlayed": 67,
-              "totalTackle": 3
+              "keyPass": 2,
+              "aerialWon": 2,
+              "accuratePass": 40,
+              "duelWon": 5,
+              "totalPass": 42
             }
           }
         }
@@ -2432,15 +2432,15 @@
             "score": "5 - 2",
             "status": "played",
             "stats": {
+              "totalTackle": 3,
               "goalAssist": 1,
-              "totalPass": 42,
-              "keyPass": 2,
-              "aerialWon": 2,
-              "duelWon": 5,
-              "accuratePass": 40,
               "shotOffTarget": 1,
               "minutesPlayed": 67,
-              "totalTackle": 3
+              "keyPass": 2,
+              "aerialWon": 2,
+              "accuratePass": 40,
+              "duelWon": 5,
+              "totalPass": 42
             }
           }
         },
@@ -3462,20 +3462,20 @@
             "score": "2 - 1",
             "status": "played",
             "stats": {
+              "totalTackle": 2,
               "goalAssist": 0,
-              "totalPass": 27,
-              "duelLost": 3,
-              "totalLongBalls": 2,
-              "keyPass": 2,
               "wonContest": 1,
-              "accurateLongBalls": 2,
-              "aerialWon": 1,
-              "duelWon": 4,
-              "accuratePass": 22,
               "shotOffTarget": 1,
               "minutesPlayed": 78,
+              "keyPass": 2,
+              "totalLongBalls": 2,
+              "aerialWon": 1,
               "totalContest": 3,
-              "totalTackle": 2
+              "accurateLongBalls": 2,
+              "duelLost": 3,
+              "accuratePass": 22,
+              "duelWon": 4,
+              "totalPass": 27
             }
           }
         }
@@ -4448,17 +4448,17 @@
             "status": "played",
             "stats": {
               "goalAssist": 1,
-              "totalClearance": 1,
-              "totalPass": 32,
-              "duelLost": 5,
-              "totalLongBalls": 2,
-              "keyPass": 1,
               "wonContest": 3,
-              "accurateLongBalls": 2,
-              "duelWon": 7,
-              "accuratePass": 30,
               "minutesPlayed": 72,
-              "totalContest": 5
+              "keyPass": 1,
+              "totalLongBalls": 2,
+              "totalClearance": 1,
+              "totalContest": 5,
+              "accurateLongBalls": 2,
+              "duelLost": 5,
+              "accuratePass": 30,
+              "duelWon": 7,
+              "totalPass": 32
             }
           }
         }
@@ -5395,7 +5395,28 @@
           "daily_market_change": 58000,
           "weekly_market_change": 360000,
           "in_starting_xi": false,
-          "gameweek": null
+          "gameweek": {
+            "points": 1,
+            "starter": true,
+            "role": "starter",
+            "minutes": 90,
+            "sofascore_rating": 6.0,
+            "score": "4 - 0",
+            "status": "played",
+            "stats": {
+              "totalTackle": 1,
+              "goalAssist": 0,
+              "wonContest": 3,
+              "minutesPlayed": 90,
+              "totalClearance": 1,
+              "totalContest": 6,
+              "duelLost": 5,
+              "accuratePass": 48,
+              "duelWon": 4,
+              "interceptionWon": 2,
+              "totalPass": 52
+            }
+          }
         }
       ],
       "market_players": [
@@ -5425,7 +5446,28 @@
           "daily_market_change": 58000,
           "weekly_market_change": 360000,
           "in_starting_xi": false,
-          "gameweek": null
+          "gameweek": {
+            "points": 1,
+            "starter": true,
+            "role": "starter",
+            "minutes": 90,
+            "sofascore_rating": 6.0,
+            "score": "4 - 0",
+            "status": "played",
+            "stats": {
+              "totalTackle": 1,
+              "goalAssist": 0,
+              "wonContest": 3,
+              "minutesPlayed": 90,
+              "totalClearance": 1,
+              "totalContest": 6,
+              "duelLost": 5,
+              "accuratePass": 48,
+              "duelWon": 4,
+              "interceptionWon": 2,
+              "totalPass": 52
+            }
+          }
         },
         {
           "player_id": "58951",
@@ -5940,9 +5982,20 @@
               "stats": {
                 "goalAssist": 0
               }
+            },
+            {
+              "gameweek_id": "4044",
+              "gameweek": "J3",
+              "points": 1,
+              "starter": true,
+              "minutes": 90,
+              "sofascore_rating": 6.0,
+              "stats": {
+                "goalAssist": 0
+              }
             }
           ],
-          "recent_avg_points": 4.5,
+          "recent_avg_points": 3.3333333333333335,
           "recent_goals": null,
           "recent_assists": null,
           "recent_starts": null,
@@ -6252,7 +6305,7 @@
         "name": "Valencia",
         "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/19.png?version="
       },
-      "home_score": 2,
+      "home_score": 3,
       "away_score": 1,
       "kickoff_unix": 1788111000,
       "kickoff_at": "2026-08-30T19:30+02:00",
@@ -6435,7 +6488,7 @@
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71139.png",
           "name": "B. Ede",
           "player_id": "71139",
-          "points": 1,
+          "points": 3,
           "team_side": "home",
           "owner_name": "DRSeven",
           "is_mine": false,
@@ -6483,7 +6536,7 @@
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/70948.png",
           "name": "L. Noubi",
           "player_id": "70948",
-          "points": 1,
+          "points": 3,
           "team_side": "home",
           "owner_name": "Libre / Mister",
           "is_mine": false,
@@ -6502,7 +6555,9 @@
           "recent_games": null
         },
         {
-          "event_tokens": [],
+          "event_tokens": [
+            "/img/mister/sprite-2025.svg?1786965925#events-sub_out [object SVGAnimatedString]"
+          ],
           "href": "players/7011/ximo-navarro",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/7011.png",
           "name": "X. Navarro",
@@ -6531,7 +6586,7 @@
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71154.png",
           "name": "L. Amatucci",
           "player_id": "71154",
-          "points": 3,
+          "points": 5,
           "team_side": "home",
           "owner_name": "Samuhg22",
           "is_mine": false,
@@ -6550,7 +6605,9 @@
           "recent_games": null
         },
         {
-          "event_tokens": [],
+          "event_tokens": [
+            "/img/mister/sprite-2025.svg?1786965925#events-sub_out [object SVGAnimatedString]"
+          ],
           "href": "players/28780/luismi-cruz",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/28780.png",
           "name": "L. Cruz",
@@ -6575,13 +6632,14 @@
         },
         {
           "event_tokens": [
-            "/img/mister/sprite-2025.svg?1786965925#events-assist [object SVGAnimatedString]"
+            "/img/mister/sprite-2025.svg?1786965925#events-assist [object SVGAnimatedString]",
+            "/img/mister/sprite-2025.svg?1786965925#events-sub_out [object SVGAnimatedString]"
           ],
           "href": "players/29223/mario-soriano",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/29223.png",
           "name": "M. Soriano",
           "player_id": "29223",
-          "points": 4,
+          "points": 7,
           "team_side": "home",
           "owner_name": "Libre / Mister",
           "is_mine": false,
@@ -6600,7 +6658,9 @@
           "recent_games": null
         },
         {
-          "event_tokens": [],
+          "event_tokens": [
+            "/img/mister/sprite-2025.svg?1786965925#events-sub_out [object SVGAnimatedString]"
+          ],
           "href": "players/70944/riki-rodriguez",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/70944.png",
           "name": "R. Rodríguez",
@@ -6624,12 +6684,14 @@
           "recent_games": null
         },
         {
-          "event_tokens": [],
+          "event_tokens": [
+            "/img/mister/sprite-2025.svg?1786965925#events-sub_out [object SVGAnimatedString]"
+          ],
           "href": "players/70941/bil-nsongo",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/70941.png",
           "name": "B. Nsongo",
           "player_id": "70941",
-          "points": 2,
+          "points": 3,
           "team_side": "home",
           "owner_name": "Libre / Mister",
           "is_mine": false,
@@ -6655,7 +6717,7 @@
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/36410.png",
           "name": "P. Aubameyang",
           "player_id": "36410",
-          "points": 11,
+          "points": 12,
           "team_side": "home",
           "owner_name": "Samuhg22",
           "is_mine": false,
@@ -6674,13 +6736,119 @@
           "recent_games": null
         },
         {
-          "event_tokens": [],
-          "href": "players/213/stole-dimitrievski",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/213.png",
-          "name": "S. Dimitrievski",
-          "player_id": "213",
-          "points": -1,
-          "team_side": "away",
+          "event_tokens": [
+            "/img/mister/sprite-2025.svg?1786965925#events-sub_in [object SVGAnimatedString]"
+          ],
+          "href": "players/71022/teun-gijselhart",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71022.png",
+          "name": "T. Gijselhart",
+          "player_id": "71022",
+          "points": 2,
+          "team_side": "home",
+          "owner_name": "Libre / Mister",
+          "is_mine": false,
+          "is_free": true,
+          "position": null,
+          "market_value": null,
+          "displayed_points": null,
+          "daily_market_change": null,
+          "weekly_market_change": null,
+          "team_logo_url": null,
+          "recent": [],
+          "recent_avg_points": null,
+          "recent_goals": null,
+          "recent_assists": null,
+          "recent_starts": null,
+          "recent_games": null
+        },
+        {
+          "event_tokens": [
+            "/img/mister/sprite-2025.svg?1786965925#events-sub_in [object SVGAnimatedString]"
+          ],
+          "href": "players/55966/adria-altimira",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/55966.png",
+          "name": "A. Altimira",
+          "player_id": "55966",
+          "points": 3,
+          "team_side": "home",
+          "owner_name": "Samuhg22",
+          "is_mine": false,
+          "is_free": false,
+          "position": 2,
+          "market_value": 2840000,
+          "displayed_points": 6,
+          "daily_market_change": 53000,
+          "weekly_market_change": 479000,
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/6.png?version=20260626093814",
+          "recent": [],
+          "recent_avg_points": null,
+          "recent_goals": null,
+          "recent_assists": null,
+          "recent_starts": null,
+          "recent_games": null
+        },
+        {
+          "event_tokens": [
+            "/img/mister/sprite-2025.svg?1786965925#events-sub_in [object SVGAnimatedString]"
+          ],
+          "href": "players/70939/yeremay-hernandez",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/70939.png",
+          "name": "Y. Hernández",
+          "player_id": "70939",
+          "points": 2,
+          "team_side": "home",
+          "owner_name": "Libre / Mister",
+          "is_mine": false,
+          "is_free": true,
+          "position": null,
+          "market_value": null,
+          "displayed_points": null,
+          "daily_market_change": null,
+          "weekly_market_change": null,
+          "team_logo_url": null,
+          "recent": [],
+          "recent_avg_points": null,
+          "recent_goals": null,
+          "recent_assists": null,
+          "recent_starts": null,
+          "recent_games": null
+        },
+        {
+          "event_tokens": [
+            "/img/mister/sprite-2025.svg?1786965925#events-sub_in [object SVGAnimatedString]"
+          ],
+          "href": "players/70953/miguel-loureiro",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/70953.png",
+          "name": "M. Loureiro",
+          "player_id": "70953",
+          "points": 0,
+          "team_side": "home",
+          "owner_name": "Libre / Mister",
+          "is_mine": false,
+          "is_free": true,
+          "position": null,
+          "market_value": null,
+          "displayed_points": null,
+          "daily_market_change": null,
+          "weekly_market_change": null,
+          "team_logo_url": null,
+          "recent": [],
+          "recent_avg_points": null,
+          "recent_goals": null,
+          "recent_assists": null,
+          "recent_starts": null,
+          "recent_games": null
+        },
+        {
+          "event_tokens": [
+            "/img/mister/sprite-2025.svg?1786965925#events-sub_in [object SVGAnimatedString]"
+          ],
+          "href": "players/71343/jonathan-asp-jensen",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71343.png",
+          "name": "J. Asp Jensen",
+          "player_id": "71343",
+          "points": 0,
+          "team_side": "home",
           "owner_name": "Libre / Mister",
           "is_mine": false,
           "is_free": true,
@@ -6699,6 +6867,32 @@
         },
         {
           "event_tokens": [],
+          "href": "players/213/stole-dimitrievski",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/213.png",
+          "name": "S. Dimitrievski",
+          "player_id": "213",
+          "points": 1,
+          "team_side": "away",
+          "owner_name": "Libre / Mister",
+          "is_mine": false,
+          "is_free": true,
+          "position": null,
+          "market_value": null,
+          "displayed_points": null,
+          "daily_market_change": null,
+          "weekly_market_change": null,
+          "team_logo_url": null,
+          "recent": [],
+          "recent_avg_points": null,
+          "recent_goals": null,
+          "recent_assists": null,
+          "recent_starts": null,
+          "recent_games": null
+        },
+        {
+          "event_tokens": [
+            "/img/mister/sprite-2025.svg?1786965925#events-sub_out [object SVGAnimatedString]"
+          ],
           "href": "players/48205/arnau-martinez",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/48205.png",
           "name": "A. Martínez",
@@ -6795,12 +6989,15 @@
           "recent_games": null
         },
         {
-          "event_tokens": [],
+          "event_tokens": [
+            "/img/mister/sprite-2025.svg?1786965925#events-own_goal [object SVGAnimatedString]",
+            "/img/mister/sprite-2025.svg?1786965925#events-yellow [object SVGAnimatedString]"
+          ],
           "href": "players/13420/mouctar-diakhaby",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/13420.png",
           "name": "M. Diakhaby",
           "player_id": "13420",
-          "points": 3,
+          "points": 0,
           "team_side": "away",
           "owner_name": "Libre / Mister",
           "is_mine": false,
@@ -6824,7 +7021,7 @@
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/65090.png",
           "name": "F. Ugrinic",
           "player_id": "65090",
-          "points": 2,
+          "points": 4,
           "team_side": "away",
           "owner_name": "Samuhg22",
           "is_mine": false,
@@ -6843,35 +7040,13 @@
           "recent_games": null
         },
         {
-          "event_tokens": [],
+          "event_tokens": [
+            "/img/mister/sprite-2025.svg?1786965925#events-sub_out [object SVGAnimatedString]"
+          ],
           "href": "players/52372/javi-guerra",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/52372.png",
           "name": "J. Guerra",
           "player_id": "52372",
-          "points": 1,
-          "team_side": "away",
-          "owner_name": "Libre / Mister",
-          "is_mine": false,
-          "is_free": true,
-          "position": null,
-          "market_value": null,
-          "displayed_points": null,
-          "daily_market_change": null,
-          "weekly_market_change": null,
-          "team_logo_url": null,
-          "recent": [],
-          "recent_avg_points": null,
-          "recent_goals": null,
-          "recent_assists": null,
-          "recent_starts": null,
-          "recent_games": null
-        },
-        {
-          "event_tokens": [],
-          "href": "players/18109/luis-rioja",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/18109.png",
-          "name": "L. Rioja",
-          "player_id": "18109",
           "points": 0,
           "team_side": "away",
           "owner_name": "Libre / Mister",
@@ -6891,7 +7066,35 @@
           "recent_games": null
         },
         {
-          "event_tokens": [],
+          "event_tokens": [
+            "/img/mister/sprite-2025.svg?1786965925#events-sub_out [object SVGAnimatedString]"
+          ],
+          "href": "players/18109/luis-rioja",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/18109.png",
+          "name": "L. Rioja",
+          "player_id": "18109",
+          "points": -1,
+          "team_side": "away",
+          "owner_name": "Libre / Mister",
+          "is_mine": false,
+          "is_free": true,
+          "position": null,
+          "market_value": null,
+          "displayed_points": null,
+          "daily_market_change": null,
+          "weekly_market_change": null,
+          "team_logo_url": null,
+          "recent": [],
+          "recent_avg_points": null,
+          "recent_goals": null,
+          "recent_assists": null,
+          "recent_starts": null,
+          "recent_games": null
+        },
+        {
+          "event_tokens": [
+            "/img/mister/sprite-2025.svg?1786965925#events-sub_out [object SVGAnimatedString]"
+          ],
           "href": "players/22601/pepelu",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/22601.png",
           "name": "Pepelu",
@@ -6915,12 +7118,14 @@
           "recent_games": null
         },
         {
-          "event_tokens": [],
+          "event_tokens": [
+            "/img/mister/sprite-2025.svg?1786965925#events-sub_out [object SVGAnimatedString]"
+          ],
           "href": "players/71138/ryunosuke-sato",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71138.png",
           "name": "R. Sato",
           "player_id": "71138",
-          "points": 1,
+          "points": 0,
           "team_side": "away",
           "owner_name": "DRSeven",
           "is_mine": false,
@@ -6946,7 +7151,160 @@
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/40089.png",
           "name": "U. Sadiq",
           "player_id": "40089",
-          "points": 12,
+          "points": 11,
+          "team_side": "away",
+          "owner_name": "Libre / Mister",
+          "is_mine": false,
+          "is_free": true,
+          "position": null,
+          "market_value": null,
+          "displayed_points": null,
+          "daily_market_change": null,
+          "weekly_market_change": null,
+          "team_logo_url": null,
+          "recent": [],
+          "recent_avg_points": null,
+          "recent_goals": null,
+          "recent_assists": null,
+          "recent_starts": null,
+          "recent_games": null
+        },
+        {
+          "event_tokens": [
+            "/img/mister/sprite-2025.svg?1786965925#events-sub_in [object SVGAnimatedString]"
+          ],
+          "href": "players/31226/arnaut-danjuma",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/31226.png",
+          "name": "A. Danjuma",
+          "player_id": "31226",
+          "points": 3,
+          "team_side": "away",
+          "owner_name": "Ale",
+          "is_mine": true,
+          "is_free": false,
+          "position": 4,
+          "market_value": 2975000,
+          "displayed_points": 5,
+          "daily_market_change": 74000,
+          "weekly_market_change": 579000,
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/19.png?version=",
+          "recent": [
+            {
+              "gameweek_id": "3968",
+              "gameweek": "J1",
+              "points": 2,
+              "starter": true,
+              "minutes": 55,
+              "sofascore_rating": 6.6,
+              "stats": {
+                "goalAssist": 0
+              }
+            },
+            {
+              "gameweek_id": "4043",
+              "gameweek": "J2",
+              "points": 3,
+              "starter": true,
+              "minutes": 83,
+              "sofascore_rating": 6.7,
+              "stats": {
+                "goalAssist": 0
+              }
+            }
+          ],
+          "recent_avg_points": 2.5,
+          "recent_goals": null,
+          "recent_assists": null,
+          "recent_starts": null,
+          "recent_games": null
+        },
+        {
+          "event_tokens": [
+            "/img/mister/sprite-2025.svg?1786965925#events-sub_in [object SVGAnimatedString]"
+          ],
+          "href": "players/59534/david-otorbi",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/59534.png",
+          "name": "D. Otorbi",
+          "player_id": "59534",
+          "points": 2,
+          "team_side": "away",
+          "owner_name": "Libre / Mister",
+          "is_mine": false,
+          "is_free": true,
+          "position": null,
+          "market_value": null,
+          "displayed_points": null,
+          "daily_market_change": null,
+          "weekly_market_change": null,
+          "team_logo_url": null,
+          "recent": [],
+          "recent_avg_points": null,
+          "recent_goals": null,
+          "recent_assists": null,
+          "recent_starts": null,
+          "recent_games": null
+        },
+        {
+          "event_tokens": [
+            "/img/mister/sprite-2025.svg?1786965925#events-sub_in [object SVGAnimatedString]"
+          ],
+          "href": "players/11866/hugo-duro",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/11866.png",
+          "name": "H. Duro",
+          "player_id": "11866",
+          "points": 2,
+          "team_side": "away",
+          "owner_name": "Libre / Mister",
+          "is_mine": false,
+          "is_free": true,
+          "position": null,
+          "market_value": null,
+          "displayed_points": null,
+          "daily_market_change": null,
+          "weekly_market_change": null,
+          "team_logo_url": null,
+          "recent": [],
+          "recent_avg_points": null,
+          "recent_goals": null,
+          "recent_assists": null,
+          "recent_starts": null,
+          "recent_games": null
+        },
+        {
+          "event_tokens": [
+            "/img/mister/sprite-2025.svg?1786965925#events-sub_in [object SVGAnimatedString]"
+          ],
+          "href": "players/71142/aliou-dieng",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71142.png",
+          "name": "A. Dieng",
+          "player_id": "71142",
+          "points": 3,
+          "team_side": "away",
+          "owner_name": "Libre / Mister",
+          "is_mine": false,
+          "is_free": true,
+          "position": null,
+          "market_value": null,
+          "displayed_points": null,
+          "daily_market_change": null,
+          "weekly_market_change": null,
+          "team_logo_url": null,
+          "recent": [],
+          "recent_avg_points": null,
+          "recent_goals": null,
+          "recent_assists": null,
+          "recent_starts": null,
+          "recent_games": null
+        },
+        {
+          "event_tokens": [
+            "/img/mister/sprite-2025.svg?1786965925#events-sub_in [object SVGAnimatedString]"
+          ],
+          "href": "players/11186/dani-raba",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/11186.png",
+          "name": "D. Raba",
+          "player_id": "11186",
+          "points": 0,
           "team_side": "away",
           "owner_name": "Libre / Mister",
           "is_mine": false,
@@ -6967,7 +7325,7 @@
       ],
       "all_players_coverage": {
         "source": "Mister gameweek Todos",
-        "count": 22,
+        "count": 32,
         "complete": true
       },
       "lineup_status": null
@@ -9940,9 +10298,9 @@
     "matches_still_without_kickoff": 0
   },
   "all_player_intelligence": {
-    "captured_at": "2026-08-30T20:39:01+02:00",
+    "captured_at": "2026-08-30T21:20:39+02:00",
     "semantics": "Candidate universe is every player Mister exposes for each match. Ownership is metadata only, never an eligibility filter.",
-    "profile_cache_refreshed": 9,
+    "profile_cache_refreshed": 0,
     "profile_cache_pending": 0
   }
 }
