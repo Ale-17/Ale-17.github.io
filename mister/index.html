@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="./ux-v29.css?v=29" />
   <link rel="stylesheet" href="./market-sheet-v30.css?v=30" />
   <link rel="stylesheet" href="./interaction-v31.css?v=31" />
+  <link rel="stylesheet" href="./intelligence-v34.css?v=34" />
 </head>
 <body>
   <div id="appBoot" class="app-boot" role="status" aria-live="polite">
@@ -54,40 +55,12 @@
     'use strict';
     const norm=v=>String(v??'').replace(/\s*💥\s*/g,'').trim().toLocaleLowerCase('es-ES');
     let lastFeedMedia=null;
-    function rememberFeedMedia(e){
-      const row=e.target.closest?.('.feed-row');if(!row)return;
-      const name=row.querySelector('.feed-copy strong')?.textContent||'';
-      const img=row.querySelector('.feed-player-photo img,.feed-icon img');
-      if(img?.src)lastFeedMedia={name:norm(name),src:img.currentSrc||img.src};
-    }
-    function findVisibleFeedPhoto(name){
-      const target=norm(name);if(!target)return'';
-      for(const row of document.querySelectorAll('.feed-row')){
-        if(norm(row.querySelector('.feed-copy strong')?.textContent)!==target)continue;
-        const img=row.querySelector('.feed-player-photo img,.feed-icon img');
-        if(img?.src)return img.currentSrc||img.src;
-      }
-      return'';
-    }
-    function repairFeedSheetPhoto(){
-      const detail=document.querySelector('#sheetContent .v31-feed-detail');if(!detail)return;
-      const photo=detail.querySelector('.v31-photo');const name=detail.querySelector('.v31-hero h2')?.textContent||'';if(!photo||!name)return;
-      let img=photo.querySelector(':scope>img');
-      if(img?.complete&&img.naturalWidth>0)return;
-      const src=(lastFeedMedia&&lastFeedMedia.name===norm(name)?lastFeedMedia.src:'')||findVisibleFeedPhoto(name);
-      if(!src)return;
-      if(!img){img=document.createElement('img');photo.appendChild(img)}
-      img.alt='';img.referrerPolicy='no-referrer';
-      img.addEventListener('load',()=>photo.querySelector(':scope>span')?.remove(),{once:true});
-      img.addEventListener('error',()=>img.remove(),{once:true});
-      if(img.src!==src)img.src=src;
-    }
-    document.addEventListener('pointerdown',rememberFeedMedia,true);
-    document.addEventListener('click',rememberFeedMedia,true);
-    const content=document.getElementById('sheetContent');
-    if(content)new MutationObserver(()=>requestAnimationFrame(repairFeedSheetPhoto)).observe(content,{childList:true,subtree:true});
+    function rememberFeedMedia(e){const row=e.target.closest?.('.feed-row');if(!row)return;const name=row.querySelector('.feed-copy strong')?.textContent||'';const img=row.querySelector('.feed-player-photo img,.feed-icon img');if(img?.src)lastFeedMedia={name:norm(name),src:img.currentSrc||img.src}}
+    function findVisibleFeedPhoto(name){const target=norm(name);if(!target)return'';for(const row of document.querySelectorAll('.feed-row')){if(norm(row.querySelector('.feed-copy strong')?.textContent)!==target)continue;const img=row.querySelector('.feed-player-photo img,.feed-icon img');if(img?.src)return img.currentSrc||img.src}return''}
+    function repairFeedSheetPhoto(){const detail=document.querySelector('#sheetContent .v31-feed-detail');if(!detail)return;const photo=detail.querySelector('.v31-photo');const name=detail.querySelector('.v31-hero h2')?.textContent||'';if(!photo||!name)return;let img=photo.querySelector(':scope>img');if(img?.complete&&img.naturalWidth>0)return;const src=(lastFeedMedia&&lastFeedMedia.name===norm(name)?lastFeedMedia.src:'')||findVisibleFeedPhoto(name);if(!src)return;if(!img){img=document.createElement('img');photo.appendChild(img)}img.alt='';img.referrerPolicy='no-referrer';img.addEventListener('load',()=>photo.querySelector(':scope>span')?.remove(),{once:true});img.addEventListener('error',()=>img.remove(),{once:true});if(img.src!==src)img.src=src}
+    document.addEventListener('pointerdown',rememberFeedMedia,true);document.addEventListener('click',rememberFeedMedia,true);const content=document.getElementById('sheetContent');if(content)new MutationObserver(()=>requestAnimationFrame(repairFeedSheetPhoto)).observe(content,{childList:true,subtree:true});
   })();
   </script>
-  <script src="./bootstrap-v27.js?v=27" defer></script><script src="./privacy-v28.js?v=28" defer></script><script src="./native.js?v=15" defer></script><script src="./mister-polish.js?v=15" defer></script><script src="./insights-v18.js?v=18" defer></script><script src="./ux-v19.js?v=19" defer></script><script src="./coverage-v20.js?v=20" defer></script><script src="./snapshot-v21.js?v=21" defer></script><script src="./ux-v22.js?v=22.1" defer></script><script src="./media-v27.js?v=27" defer></script><script src="./offers-v28.js?v=28" defer></script><script src="./player-detail-v25.js?v=25" defer></script><script src="./interaction-v31.js?v=31" defer></script><script src="./ux-v29.js?v=29" defer></script><script src="./market-sheet-v30.js?v=30" defer></script>
+  <script src="./bootstrap-v27.js?v=27" defer></script><script src="./privacy-v28.js?v=28" defer></script><script src="./native.js?v=15" defer></script><script src="./mister-polish.js?v=15" defer></script><script src="./insights-v18.js?v=18" defer></script><script src="./ux-v19.js?v=19" defer></script><script src="./coverage-v20.js?v=20" defer></script><script src="./snapshot-v21.js?v=21" defer></script><script src="./ux-v22.js?v=22.1" defer></script><script src="./media-v27.js?v=27" defer></script><script src="./offers-v28.js?v=28" defer></script><script src="./player-detail-v25.js?v=25" defer></script><script src="./interaction-v31.js?v=31" defer></script><script src="./ux-v29.js?v=29" defer></script><script src="./market-sheet-v30.js?v=30" defer></script><script src="./intelligence-v34.js?v=34" defer></script>
 </body>
 </html>
