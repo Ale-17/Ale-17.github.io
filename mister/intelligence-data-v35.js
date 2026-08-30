@@ -112,15 +112,17 @@ window.fetch=async function(input,init){
   }catch{return fallback}
 };
 
-function loadV37(){
-  if(!document.querySelector('link[data-fantasy-v37]')){const l=document.createElement('link');l.rel='stylesheet';l.href='./fixes-v37.css?v=37';l.dataset.fantasyV37='1';document.head.appendChild(l)}
-  if(!document.querySelector('script[data-fantasy-v37]')){const s=document.createElement('script');s.src='./fixes-v37.js?v=37';s.async=false;s.dataset.fantasyV37='1';document.head.appendChild(s)}
+function addCss(version){
+  const key=`fantasyV${version}`,attr=`data-fantasy-v${version}`;
+  if(document.querySelector(`link[${attr}]`))return;
+  const l=document.createElement('link');l.rel='stylesheet';l.href=`./fixes-v${version}.css?v=${version}`;l.dataset[key]=`1`;document.head.appendChild(l)
 }
-function loadV36(){
-  if(!document.querySelector('link[data-fantasy-v36]')){const l=document.createElement('link');l.rel='stylesheet';l.href='./fixes-v36.css?v=36';l.dataset.fantasyV36='1';document.head.appendChild(l)}
-  const existing=document.querySelector('script[data-fantasy-v36]');
-  if(existing){loadV37();return}
-  const s=document.createElement('script');s.src='./fixes-v36.js?v=36';s.async=false;s.dataset.fantasyV36='1';s.addEventListener('load',loadV37,{once:true});document.head.appendChild(s)
+function loadScript(version,next){
+  const key=`fantasyV${version}`,attr=`data-fantasy-v${version}`;addCss(version);
+  const existing=document.querySelector(`script[${attr}]`);
+  if(existing){if(existing.dataset.loaded==='1')next?.();else existing.addEventListener('load',()=>next?.(),{once:true});return}
+  const s=document.createElement('script');s.src=`./fixes-v${version}.js?v=${version}`;s.async=false;s.dataset[key]='1';s.addEventListener('load',()=>{s.dataset.loaded='1';next?.()},{once:true});document.head.appendChild(s)
 }
-if(document.readyState==='loading')window.addEventListener('DOMContentLoaded',loadV36,{once:true});else setTimeout(loadV36,0);
+function loadFixes(){loadScript(36,()=>loadScript(37,()=>loadScript(38)))}
+if(document.readyState==='loading')window.addEventListener('DOMContentLoaded',loadFixes,{once:true});else setTimeout(loadFixes,0);
 })();
