@@ -26,11 +26,6 @@ function eventStats(tokens){
   }
   const stats={};if(goals)stats.goals=goals;if(assists)stats.goalAssist=assists;return stats
 }
-function mergeDefined(base,extra){
-  const out={...(base||{})};
-  for(const [k,v] of Object.entries(extra||{}))if(out[k]===undefined||out[k]===null)out[k]=v;
-  return out
-}
 function normalizeRecent(row){
   const role=String(row?.role||'').toLowerCase();
   const starter=row?.starter===true||role==='starter'?true:row?.starter===false||role==='bench'?false:null;
@@ -85,7 +80,6 @@ function enrich(details,live){
           stats:eventStats(p.event_tokens)
         });
       }
-      // Internal provenance only; no renderer consumes this field.
       node._fantasy_v35={
         source:'Mister all-player sweep',
         owner_name:p.owner_name||null,
@@ -120,4 +114,10 @@ window.fetch=async function(input,init){
     return new Response(JSON.stringify(merged),{status:response.status,statusText:response.statusText,headers});
   }catch{return fallback}
 };
+
+function loadV36(){
+  if(!document.querySelector('link[data-fantasy-v36]')){const l=document.createElement('link');l.rel='stylesheet';l.href='./fixes-v36.css?v=36';l.dataset.fantasyV36='1';document.head.appendChild(l)}
+  if(!document.querySelector('script[data-fantasy-v36]')){const s=document.createElement('script');s.src='./fixes-v36.js?v=36';s.async=false;s.dataset.fantasyV36='1';document.head.appendChild(s)}
+}
+if(document.readyState==='loading')window.addEventListener('DOMContentLoaded',loadV36,{once:true});else setTimeout(loadV36,0);
 })();
