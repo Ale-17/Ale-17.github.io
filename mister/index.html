@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <meta name="theme-color" content="#08080d" />
+  <meta name="theme-color" content="#08090d" />
   <meta name="color-scheme" content="dark" />
   <meta name="robots" content="noindex,nofollow,noarchive,nosnippet" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -13,61 +13,21 @@
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="icon" href="./icon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="./native.css" />
+  <link rel="stylesheet" href="./mister-polish.css" />
 </head>
 <body>
   <div class="app-shell">
-    <header class="app-header">
-      <div class="app-header__brand">
-        <span class="brand-mark">F</span>
-        <div class="brand-copy"><strong>FANTASY OS</strong><small id="leagueLabel">Mister Intelligence</small></div>
-      </div>
-      <div class="balance-chip"><span>Saldo</span><strong id="headerBalance">—</strong></div>
-      <button id="refreshButton" class="round-action" type="button" aria-label="Actualizar">↻</button>
-    </header>
-
+    <header class="app-header"><div class="app-header__brand"><span class="brand-mark">F</span><div class="brand-copy"><strong>FANTASY OS</strong><small id="leagueLabel">Mister Intelligence</small></div></div><div class="balance-chip"><span>Saldo</span><strong id="headerBalance">—</strong></div><button id="refreshButton" class="round-action" type="button" aria-label="Actualizar">↻</button></header>
     <main class="screens">
-      <section class="screen active" data-screen="home" aria-label="Inicio">
-        <div class="home-status"><div><span class="muted-line" id="snapshotLine">Conectando con Mister…</span><h1 id="homeGreeting">Tu liga</h1></div><span id="rankBadge" class="rank-badge">—</span></div>
-        <article class="action-card"><div class="action-card__icon">⚡</div><div class="action-card__copy"><span class="section-kicker">RECOMENDACIÓN</span><strong id="decisionTitle">Analizando mercado…</strong><p id="decisionText">Cargando el último snapshot.</p></div><button class="chevron-button" type="button" data-open-screen="market">›</button></article>
-        <div id="homeStats" class="summary-strip"></div>
-        <section class="native-section"><div class="native-section__head"><h2>Últimos movimientos</h2><button class="plain-link" data-open-screen="more">Ver todos</button></div><div id="homeFeed" class="feed-list"></div></section>
-        <section class="native-section"><div class="native-section__head"><h2>Mercado destacado</h2><button class="plain-link" data-open-screen="market">Mercado</button></div><div id="homeMarket" class="market-list compact-list"></div></section>
-      </section>
-
-      <section class="screen" data-screen="market" aria-label="Mercado">
-        <div class="screen-title"><div><span class="section-kicker">MERCADO</span><h1>Jugadores disponibles</h1></div><span id="marketCount" class="count-badge">—</span></div>
-        <div id="offerSummary" class="offer-banner hidden"></div>
-        <div class="market-toolbar"><label class="native-search"><span>⌕</span><input id="marketSearch" type="search" placeholder="Buscar jugador" autocomplete="off" /></label><button id="marketFilterButton" class="filter-button" type="button">Filtrar</button></div>
-        <div id="positionFilters" class="position-filters hidden"><button class="position-filter active" data-position="all">Todos</button><button class="position-filter" data-position="4">DL</button><button class="position-filter" data-position="3">MC</button><button class="position-filter" data-position="2">DF</button><button class="position-filter" data-position="1">PT</button></div>
-        <div id="marketList" class="market-list"></div><div id="marketFooterStats" class="market-footer-stats"></div>
-      </section>
-
-      <section class="screen" data-screen="team" aria-label="Equipo">
-        <div class="team-toolbar"><div><span class="section-kicker">EQUIPO</span><h1 id="lineupTitle">Tu alineación</h1></div><span id="formationPill" class="formation-pill">—</span></div>
-        <div id="lineupCaptureNote" class="capture-note">Leyendo la alineación real de Mister…</div>
-        <div id="lineupPitch" class="mister-pitch"><div class="pitch-lines"><div class="pitch-half"></div><div class="pitch-circle"></div><div class="box top-box"></div><div class="box bottom-box"></div></div><div id="lineupPlayers" class="lineup-players"></div></div>
-        <section class="native-section roster-section"><div class="native-section__head"><h2>Plantilla</h2><span id="teamCount" class="muted-line">—</span></div><div id="teamList" class="market-list"></div></section>
-      </section>
-
-      <section class="screen" data-screen="table" aria-label="Tabla">
-        <div class="screen-title"><div><span class="section-kicker">LIGA</span><h1>Clasificación</h1></div></div><div id="leagueTable" class="table-list"></div>
-        <section class="native-section"><div class="native-section__head"><h2>Capacidad rival</h2></div><div id="rivalCapacity" class="settings-list"></div></section>
-      </section>
-
-      <section class="screen" data-screen="more" aria-label="Más">
-        <div class="screen-title"><div><span class="section-kicker">MÁS</span><h1>Centro de control</h1></div></div><div class="more-summary" id="moreSummary"></div>
-        <details class="native-details" open><summary><span>Capacidad de fichaje</span><span>›</span></summary><div id="capacityList" class="capacity-list"></div></details>
-        <details class="native-details"><summary><span>Evolución</span><span>›</span></summary><div class="chart-block"><div class="chart-title"><span>Patrimonio</span><strong id="wealthNow">—</strong></div><svg id="wealthChart" viewBox="0 0 620 190" preserveAspectRatio="none"></svg></div><div class="chart-block"><div class="chart-title"><span>Puntos</span><strong id="pointsNow">—</strong></div><svg id="pointsChart" viewBox="0 0 620 160" preserveAspectRatio="none"></svg></div><div id="historyMeta" class="muted-line details-note">Histórico en segundo plano…</div></details>
-        <details class="native-details"><summary><span>Actividad completa</span><span>›</span></summary><div id="activityResolution"></div><div id="activityList" class="feed-list"></div></details>
-        <details class="native-details"><summary><span>Other bids</span><span>›</span></summary><div id="bidList" class="settings-list"></div></details>
-        <details class="native-details"><summary><span>Cláusulas</span><span>›</span></summary><div id="clauseList" class="settings-list"></div></details>
-        <details class="native-details"><summary><span>Estado de datos</span><span>›</span></summary><div id="qualityGrid" class="quality-grid"></div></details>
-      </section>
+      <section class="screen active" data-screen="home" aria-label="Inicio"><div class="home-status"><div><span class="muted-line" id="snapshotLine">Conectando con Mister…</span><h1 id="homeGreeting">Tu liga</h1></div><span id="rankBadge" class="rank-badge">—</span></div><article class="action-card"><div class="action-card__icon">⚡</div><div class="action-card__copy"><span class="section-kicker">RECOMENDACIÓN</span><strong id="decisionTitle">Analizando mercado…</strong><p id="decisionText">Cargando el último snapshot.</p></div><button class="chevron-button" type="button" data-open-screen="market">›</button></article><div id="homeStats" class="summary-strip"></div><section class="native-section"><div class="native-section__head"><h2>Últimos movimientos</h2><button class="plain-link" data-open-screen="more">Ver todos</button></div><div id="homeFeed" class="feed-list"></div></section><section class="native-section"><div class="native-section__head"><h2>Mercado destacado</h2><button class="plain-link" data-open-screen="market">Mercado</button></div><div id="homeMarket" class="market-list compact-list"></div></section></section>
+      <section class="screen" data-screen="market" aria-label="Mercado"><div class="screen-title"><div><span class="section-kicker">MERCADO</span><h1>Jugadores disponibles</h1></div><span id="marketCount" class="count-badge">—</span></div><div id="offerSummary" class="offer-banner hidden"></div><div class="market-toolbar"><label class="native-search"><span>⌕</span><input id="marketSearch" type="search" placeholder="Buscar jugador" autocomplete="off" /></label><button id="marketFilterButton" class="filter-button" type="button">Filtrar</button></div><div id="positionFilters" class="position-filters hidden"><button class="position-filter active" data-position="all">Todos</button><button class="position-filter" data-position="4">DL</button><button class="position-filter" data-position="3">MC</button><button class="position-filter" data-position="2">DF</button><button class="position-filter" data-position="1">PT</button></div><div id="marketList" class="market-list"></div><div id="marketFooterStats" class="market-footer-stats"></div></section>
+      <section class="screen" data-screen="team" aria-label="Equipo"><div class="team-toolbar"><div><span class="section-kicker">EQUIPO</span><h1 id="lineupTitle">Tu alineación</h1></div><span id="formationPill" class="formation-pill">—</span></div><div id="lineupCaptureNote" class="capture-note">Leyendo la alineación real de Mister…</div><div id="lineupPitch" class="mister-pitch"><div class="pitch-lines"><div class="pitch-half"></div><div class="pitch-circle"></div><div class="box top-box"></div><div class="box bottom-box"></div></div><div id="lineupPlayers" class="lineup-players"></div></div><section class="native-section roster-section"><div class="native-section__head"><h2>Plantilla</h2><span id="teamCount" class="muted-line">—</span></div><div id="teamList" class="market-list"></div></section></section>
+      <section class="screen" data-screen="table" aria-label="Tabla"><div class="screen-title"><div><span class="section-kicker">LIGA</span><h1>Clasificación</h1></div></div><div id="leagueTable" class="table-list"></div><section class="native-section"><div class="native-section__head"><h2>Capacidad rival</h2></div><div id="rivalCapacity" class="settings-list"></div></section></section>
+      <section class="screen" data-screen="more" aria-label="Más"><div class="screen-title"><div><span class="section-kicker">MÁS</span><h1>Centro de control</h1></div></div><div class="more-summary" id="moreSummary"></div><details class="native-details" open><summary><span>Capacidad de fichaje</span><span>›</span></summary><div id="capacityList" class="capacity-list"></div></details><details class="native-details"><summary><span>Evolución</span><span>›</span></summary><div class="chart-block"><div class="chart-title"><span>Patrimonio</span><strong id="wealthNow">—</strong></div><svg id="wealthChart" viewBox="0 0 620 190" preserveAspectRatio="none"></svg></div><div class="chart-block"><div class="chart-title"><span>Puntos</span><strong id="pointsNow">—</strong></div><svg id="pointsChart" viewBox="0 0 620 160" preserveAspectRatio="none"></svg></div><div id="historyMeta" class="muted-line details-note">Histórico en segundo plano…</div></details><details class="native-details"><summary><span>Actividad completa</span><span>›</span></summary><div id="activityResolution"></div><div id="activityList" class="feed-list"></div></details><details class="native-details"><summary><span>Other bids</span><span>›</span></summary><div id="bidList" class="settings-list"></div></details><details class="native-details"><summary><span>Cláusulas</span><span>›</span></summary><div id="clauseList" class="settings-list"></div></details><details class="native-details"><summary><span>Estado de datos</span><span>›</span></summary><div id="qualityGrid" class="quality-grid"></div></details></section>
     </main>
-
-    <nav class="bottom-nav" aria-label="Navegación"><button class="nav-tab active" data-screen-target="home"><span class="nav-icon">⌂</span><small>Inicio</small></button><button class="nav-tab" data-screen-target="market"><span class="nav-icon">↗</span><small>Mercado</small></button><button class="nav-tab" data-screen-target="team"><span class="nav-icon">▣</span><small>Equipo</small></button><button class="nav-tab" data-screen-target="table"><span class="nav-icon">♜</span><small>Tabla</small></button><button class="nav-tab" data-screen-target="more"><span class="nav-icon">⌕</span><small>Más</small></button></nav>
+    <nav class="bottom-nav" aria-label="Navegación"><button class="nav-tab active" data-screen-target="home"><span class="nav-icon"></span><small>Inicio</small></button><button class="nav-tab" data-screen-target="market"><span class="nav-icon"></span><small>Mercado</small></button><button class="nav-tab" data-screen-target="team"><span class="nav-icon"></span><small>Equipo</small></button><button class="nav-tab" data-screen-target="table"><span class="nav-icon"></span><small>Tabla</small></button><button class="nav-tab" data-screen-target="more"><span class="nav-icon"></span><small>Más</small></button></nav>
   </div>
   <div id="sheetBackdrop" class="sheet-backdrop hidden"></div><aside id="playerSheet" class="player-sheet" aria-hidden="true"><div class="sheet-handle"></div><button id="sheetClose" class="sheet-close" type="button" aria-label="Cerrar">×</button><div id="sheetContent"></div></aside>
-  <script src="./native.js" defer></script>
+  <script src="./native.js" defer></script><script src="./mister-polish.js" defer></script>
 </body>
 </html>
