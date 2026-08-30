@@ -1,6 +1,6 @@
 {
-  "captured_at": "2026-08-30T17:59:24+02:00",
-  "last_checked_at": "2026-08-30T17:59:24+02:00",
+  "captured_at": "2026-08-30T18:58:48+02:00",
+  "last_checked_at": "2026-08-30T18:58:48+02:00",
   "status": "ok",
   "source": "Mister .feed-top-gameweek",
   "semantics": "Fantasy OS mirrors the gameweek Mister itself exposes at the top of the league feed. When Mister closes/pays a round and switches to the next one, the next capture follows automatically.",
@@ -660,7 +660,7 @@
     },
     {
       "match_id": "37963",
-      "status": "playing",
+      "status": "played",
       "home_team": {
         "id": "15",
         "name": "Real Madrid",
@@ -671,7 +671,7 @@
         "name": "Málaga",
         "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version="
       },
-      "home_score": 3,
+      "home_score": 4,
       "away_score": 0,
       "kickoff_unix": null,
       "kickoff_at": null,
@@ -1097,9 +1097,14 @@
     }
   ],
   "counts": {
-    "played": 5,
-    "playing": 1,
+    "played": 6,
+    "playing": 0,
     "fixture": 4,
     "total": 10
+  },
+  "schedule_backfill": {
+    "method": "git_history_same_match_id",
+    "matches_enriched": 0,
+    "matches_still_without_full_kickoff": 6
   }
 }
