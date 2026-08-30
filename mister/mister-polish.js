@@ -90,7 +90,7 @@ function decorateAdvice(row){
   if(!latest)return;const id=row.dataset.playerId,p=playerData(id);if(!id||!p)return;
   const isTeam=row.closest('.screen')?.dataset.screen==='team',advice=isTeam?teamAdvice(p):marketAdvice(p);
   const name=row.querySelector('.market-name');if(!name)return;
-  let line=row.querySelector('.decision-line');if(!line){line=document.createElement('div');line.className='decision-line';name.insertAdjacentElement('afterend',line)}
+  let line=row.querySelector('.decision-line');if(!line){line=document.createElement('div');line.className='decision-line';line.style.cssText='margin:4px 0 1px;min-height:19px;display:flex;align-items:center';name.insertAdjacentElement('afterend',line)}
   let chip=line.querySelector('.player-advice');if(!chip){chip=makeAdvice(advice);line.appendChild(chip)}else if(chip.dataset.kind!==advice.kind||chip.dataset.label!==advice.label){chip.replaceWith(makeAdvice(advice))}
   row.dataset.advice=advice.kind;
   if(isTeam){
@@ -107,7 +107,8 @@ function decorateFeedList(selector,limit){
   if(!latest)return;const host=$(selector);if(!host)return;const rows=[...host.querySelectorAll('.feed-row')],data=transferRows().slice(0,limit);
   rows.forEach((row,i)=>{const t=data[i],id=transferId(t),icon=row.querySelector('.feed-icon');if(!t||!id||!icon||icon.dataset.playerId===String(id))return;
     const src=playerImage(id,playerData(id));if(!src)return;const marker=norm(t.from)==='mister'?'＋':norm(t.to)==='mister'?'−':'↔';
-    const img=new Image();img.alt='';img.loading='lazy';img.referrerPolicy='no-referrer';img.onload=()=>{icon.classList.add('feed-player-photo');icon.textContent='';icon.appendChild(img);const badge=document.createElement('span');badge.className='feed-move-badge';badge.textContent=marker;icon.appendChild(badge);icon.dataset.playerId=String(id)};img.onerror=()=>{};img.src=src;
+    const img=new Image();img.alt='';img.loading='lazy';img.referrerPolicy='no-referrer';img.style.cssText='width:100%;height:100%;object-fit:cover;object-position:center top;display:block';
+    img.onload=()=>{icon.style.cssText='position:relative;width:42px;height:46px;padding:0;overflow:hidden;border-radius:10px;background:#191a23';icon.textContent='';icon.appendChild(img);const badge=document.createElement('span');badge.textContent=marker;badge.style.cssText='position:absolute;right:-1px;bottom:-1px;width:17px;height:17px;display:grid;place-items:center;border-radius:50%;background:#11131a;color:#35df82;border:1px solid #272a31;font-size:11px;font-weight:950';icon.appendChild(badge);icon.dataset.playerId=String(id)};img.onerror=()=>{};img.src=src;
   });
 }
 function decorateFeeds(){decorateFeedList('#homeFeed',6);decorateFeedList('#activityList',30)}
