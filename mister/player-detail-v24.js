@@ -1,0 +1,45 @@
+(()=>{
+'use strict';
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const arr=v=>Array.isArray(v)?v:[];
+const num=v=>Number.isFinite(Number(v))?Number(v):0;
+const clean=v=>String(v??'').replace(/\s*💥\s*/g,'').trim();
+const norm=v=>clean(v).toLocaleLowerCase('es-ES');
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const compact=v=>{const x=num(v),a=Math.abs(x),s=x<0?'−':'';if(a>=1e6)return`${s}${(a/1e6).toLocaleString('es-ES',{maximumFractionDigits:2})} M€`;if(a>=1e3)return`${s}${Math.round(a/1e3).toLocaleString('es-ES')}k`;return`${s}${Math.round(a).toLocaleString('es-ES')} €`};
+const signed=v=>`${num(v)>0?'+':num(v)<0?'−':''}${compact(Math.abs(num(v)))}`;
+const pct=v=>`${num(v)>=0?'+':'−'}${Math.abs(num(v)*100).toLocaleString('es-ES',{minimumFractionDigits:1,maximumFractionDigits:1})}%`;
+const fmtDay=v=>{const d=new Date(v);return Number.isNaN(d.getTime())?'—':new Intl.DateTimeFormat('es-ES',{day:'2-digit',month:'short'}).format(d)};
+const posLabel=p=>({1:'PT',2:'DF',3:'MC',4:'DL'}[Number(p)]||'—');
+let latest=null,series=null,lineup=null,catalog={players:{}};
+async function get(path){try{const r=await fetch(`${path}?v=${Date.now()}`,{cache:'no-store'});if(r.ok)return await r.json()}catch{}return null}
+function team(){return arr(latest?.my_team)}
+function player(id){return team().find(p=>String(p.player_id)===String(id))||arr(latest?.market_players).find(p=>String(p.player_id)===String(id))||null}
+function catalogPlayer(id){return catalog?.players?.[String(id)]||null}
+function media(id,p){return catalogPlayer(id)?.image_url||lineup?.player_media?.[String(id)]||p?.image_url||''}
+function teamLogo(id){return catalogPlayer(id)?.team_logo_url||''}
+function isStarter(id){return arr(lineup?.players).some(p=>String(p.player_id)===String(id))}
+function clauseFor(id){const m=arr(latest?.member_clause_snapshots).find(x=>norm(x.name)==='ale');return arr(m?.clauses).find(c=>String(c.player_id)===String(id))||null}
+function clauseValue(c){return num(c?.clause_value??c?.current_clause??c?.clause_amount??c?.displayed_clause??c?.value)}
+function acquisition(c,p){return num(c?.acquisition_cost??c?.purchase_price??c?.buy_price??p?.purchase_price??p?.acquisition_cost)}
+function activeInvestment(c){return num(c?.active_balance_investment??c?.active_balance_investment_max??c?.balance_investment)}
+function seriesRows(id){return arr(series?.players?.[String(id)]?.points).slice().sort((a,b)=>new Date(a.captured_at)-new Date(b.captured_at))}
+function dailySamples(id){const rows=seriesRows(id),byDay=new Map();rows.forEach(r=>{const key=String(r.captured_at||'').slice(0,10);if(key)byDay.set(key,r)});return[...byDay.values()].slice(-7)}
+function spark(values,w=280,h=72){const vals=values.map(num).filter(Number.isFinite);if(vals.length<2)return'<div class="v24-empty-chart">Histórico insuficiente</div>';const min=Math.min(...vals),max=Math.max(...vals),range=max-min||1,p=4;const pts=vals.map((v,i)=>[p+i*(w-p*2)/Math.max(1,vals.length-1),h-p-(v-min)/range*(h-p*2)]);const d=pts.map(([x,y],i)=>`${i?'L':'M'}${x.toFixed(1)},${y.toFixed(1)}`).join(' ');return`<svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" class="v24-spark"><path d="${d}" fill="none" stroke="#22d278" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>`}
+function adviceFromRow(id){const row=$$('#teamList .market-row').find(r=>String(r.dataset.playerId)===String(id));const key=row?.dataset.v18Decision||row?.dataset.teamDecision||'';const map={protect:['PROTEGER','Subiría la cláusula de este jugador.','protect'],safe:['PROTEGIDO','Ya está suficientemente blindado.','safe'],hold:['MANTENER','Lo conservaría en plantilla.','hold'],liquid:['LIQUIDEZ','Lo usaría si necesitas liberar caja.','liquid'],sell:['VENDER','Es de los primeros activos que vendería.','sell']};return map[key]||['MANTENER','No veo motivo claro para venderlo ahora.','hold']}
+function form(avg){if(avg>=10)return['FORMA MUY ALTA','hot'];if(avg>=7)return['BUENA FORMA','good'];if(avg>=4)return['FORMA MEDIA','mid'];return['FORMA BAJA','low']}
+function recentRows(id){const rows=dailySamples(id).slice(-5).reverse();if(!rows.length)return'<div class="v24-no-data">Todavía no hay suficientes jornadas observadas.</div>';return rows.map(r=>`<div class="v24-match-row"><div><strong>${fmtDay(r.captured_at)}</strong><small>Puntuación visible en Mister</small></div><span class="v24-match-score">${num(r.displayed_points)} pts</span><span class="v24-match-vm privacy-value">${compact(r.market_value)}</span></div>`).join('')}
+function open(id){
+  const p=player(id);if(!p)return;
+  const rows=dailySamples(id),recent=rows.slice(-5),scores=recent.map(r=>num(r.displayed_points)),avg=scores.length?scores.reduce((a,b)=>a+b,0)/scores.length:num(p.displayed_points),[formLabel,formTone]=form(avg);
+  const first=rows[0],last=rows.at(-1),vmDelta=first&&last?num(last.market_value)-num(first.market_value):num(p.weekly_market_change),vmPct=first&&num(first.market_value)?vmDelta/num(first.market_value):0;
+  const clause=clauseFor(id),clauseAmt=clauseValue(clause),buy=acquisition(clause,p),invest=activeInvestment(clause),gain=buy?num(p.market_value)-buy:0;
+  const [advice,adviceText,adviceTone]=adviceFromRow(id),img=media(id,p),logo=teamLogo(id),currentPts=num(p.displayed_points),starter=isStarter(id);
+  const sheet=$('#sheetContent');if(!sheet)return;
+  sheet.innerHTML=`<section class="v24-player-detail"><div class="v24-hero"><div class="v24-photo-wrap">${img?`<img class="v24-photo" src="${esc(img)}" alt="${esc(clean(p.name))}" referrerpolicy="no-referrer">`:`<div class="v24-photo-fallback">${esc(clean(p.name).slice(0,2).toUpperCase())}</div>`}${logo?`<img class="v24-club" src="${esc(logo)}" alt="">`:''}</div><div class="v24-hero-copy"><span class="section-kicker">${posLabel(p.position||catalogPlayer(id)?.position)} · ${starter?'TITULAR':'PLANTILLA'}</span><h2>${esc(clean(p.name))}</h2><div class="v24-hero-line"><strong class="privacy-value">${compact(p.market_value)}</strong><span>${currentPts} pts</span></div><span class="v24-form ${formTone}">${formLabel}</span></div></div><div class="v24-advice ${adviceTone}"><div><span>RECOMENDACIÓN</span><strong>${advice}</strong></div><p>${adviceText}</p></div><div class="v24-grid"><div><span>Puntos visibles</span><strong>${currentPts}</strong></div><div><span>Media últimos registros</span><strong>${avg.toLocaleString('es-ES',{maximumFractionDigits:1})}</strong></div><div><span>Hoy</span><strong class="${num(p.daily_market_change)>=0?'positive':'negative'}">${signed(p.daily_market_change)}</strong></div><div><span>Semana</span><strong class="${num(p.weekly_market_change)>=0?'positive':'negative'}">${signed(p.weekly_market_change)}</strong></div></div><section class="v24-section"><div class="v24-title"><div><span class="section-kicker">RENDIMIENTO</span><h3>Últimos partidos / jornadas</h3></div></div><div class="v24-match-list">${recentRows(id)}</div><p class="v24-note">Estos registros usan la puntuación visible que el tracker capturó de Mister. Si Mister no expone minutos o rival en el snapshot, no los inventamos.</p></section><section class="v24-section"><div class="v24-title"><div><span class="section-kicker">VALOR DE MERCADO</span><h3>Evolución reciente</h3></div><div class="v24-vm-change ${vmDelta>=0?'positive':'negative'}"><strong>${signed(vmDelta)}</strong><small>${pct(vmPct)}</small></div></div>${spark(rows.map(r=>r.market_value))}</section><section class="v24-section"><div class="v24-title"><div><span class="section-kicker">TU INVERSIÓN</span><h3>Situación en plantilla</h3></div></div><div class="v24-finance-grid"><div><span>Coste compra</span><strong class="privacy-value">${buy?compact(buy):'—'}</strong></div><div><span>Plusvalía</span><strong class="privacy-value ${gain>=0?'positive':'negative'}">${buy?signed(gain):'—'}</strong></div><div><span>Cláusula</span><strong class="privacy-value">${clauseAmt?compact(clauseAmt):'—'}</strong></div><div><span>Invertido cláusula</span><strong class="privacy-value">${invest?compact(invest):'0 €'}</strong></div></div></section></section>`;
+  $('#sheetBackdrop')?.classList.remove('hidden');$('#playerSheet')?.classList.add('open');$('#playerSheet')?.setAttribute('aria-hidden','false');
+}
+function bind(){const host=$('#teamList');if(!host||host.dataset.v24Bound)return;host.dataset.v24Bound='1';host.addEventListener('click',e=>{const row=e.target.closest('.market-row');if(!row)return;const id=row.dataset.playerId||e.target.closest('[data-player-id]')?.dataset.playerId;if(!id)return;e.preventDefault();e.stopPropagation();e.stopImmediatePropagation();open(id)},true)}
+async function load(){const[d,s,l,c]=await Promise.all([get('./data/latest.json'),get('./data/series.json'),get('./data/current_lineup.json'),get('./data/player_catalog.json')]);if(d)latest=d;if(s)series=s;if(l)lineup=l;if(c)catalog=c;bind()}
+window.addEventListener('DOMContentLoaded',()=>{setTimeout(load,120);new MutationObserver(()=>bind()).observe(document.body,{childList:true,subtree:true})});
+})();
