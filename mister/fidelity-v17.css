@@ -1,0 +1,32 @@
+/* Fantasy OS V17 — native fidelity layer inspired by Mister's current public UI. */
+:root{--mf-green:#20d878;--mf-bg:#08090d;--mf-surface:#111219;--mf-surface-2:#171821;--mf-line:#242630;--mf-muted:#888b96}
+.app-header{height:78px;padding:10px 12px;border-bottom:1px solid #20212a;background:rgba(8,9,13,.985);box-shadow:none}
+.app-header__brand{gap:10px}.brand-mark{width:46px;height:46px;border-radius:50%}.brand-copy strong{font-size:15px;font-weight:900}.brand-copy small{font-size:8.5px;color:#8c8f98}
+.balance-chip{min-width:112px;border-radius:13px;background:#181922;border-color:#2a2c36;box-shadow:inset 0 0 0 1px rgba(255,255,255,.012)}
+.round-action{border-radius:13px;background:#181922;border-color:#2a2c36}
+.market-row{min-height:106px;padding:10px 0;border-bottom:1px solid #22242d;background:transparent!important}
+.market-row--compact{min-height:96px}.market-row__copy{align-self:center}.market-meta-top{margin-bottom:3px;color:#8d909a}.market-name strong{font-size:15px}.market-price{margin-top:2px;color:#d6d8de}
+.market-club-stack{height:70px;gap:3px}.club-badge{width:21px;height:21px}.side-position,.side-points{min-width:25px;height:19px;border-radius:7px;font-size:8px}
+.player-photo{height:70px;border-radius:11px;background:#171821;box-shadow:inset 0 0 0 1px #272933}.player-photo img{object-position:center top}.bid-button{border-radius:12px;font-weight:900}.asking{font-size:12px}.performance-line{margin-top:6px}
+.player-advice{margin-top:1px;width:max-content;max-width:118px;padding:4px 7px;border-radius:6px;font-size:6.7px;letter-spacing:.035em}
+.feed-row{grid-template-columns:50px minmax(0,1fr) auto;gap:11px;min-height:72px;padding:9px 0;border-bottom:1px solid #22242d}
+.feed-icon.feed-player-photo{width:48px;height:54px;border-radius:10px;padding:0;background:#171821;border:1px solid #292b35;overflow:hidden;position:relative;display:block}
+.feed-icon.feed-player-photo>img{display:block;width:100%;height:100%;object-fit:cover;object-position:center top}
+.feed-transfer-badge{position:absolute;right:2px;bottom:2px;width:17px;height:17px;display:grid;place-items:center;border-radius:50%;background:#101116;color:var(--mf-green);border:1px solid #2b2d35;font-size:11px;font-weight:950;line-height:1}
+.feed-row strong{font-size:13px}.feed-row small{font-size:9px;color:#888b95}.feed-row>strong{font-size:12px}
+.mister-pitch{background:linear-gradient(180deg,#1cad61 0%,#159d57 100%);border-radius:12px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.12)}
+.mister-pitch::before{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(90deg,rgba(255,255,255,.018) 0,rgba(255,255,255,.018) 12.5%,rgba(0,0,0,.018) 12.5%,rgba(0,0,0,.018) 25%)}
+.pitch-player{width:66px}
+.pitch-player__portrait{width:48px;height:58px;border-radius:9px;border:0!important;background:#15161d;overflow:hidden!important;box-shadow:0 4px 11px rgba(0,0,0,.26),inset 0 0 0 1px rgba(255,255,255,.05)}
+.pitch-player__portrait>img:not(.pitch-club){width:100%!important;height:100%!important;object-fit:cover!important;object-position:center top!important;display:block}
+.pitch-club{display:none!important}
+.pitch-team-badge{position:absolute;left:6px;top:-4px;width:17px;height:17px;display:grid;place-items:center;border-radius:50%;background:#f3f4f6;border:1px solid rgba(0,0,0,.28);box-shadow:0 2px 6px rgba(0,0,0,.26);z-index:6;padding:1px}
+.pitch-team-badge img{width:100%;height:100%;object-fit:contain}
+.pitch-player__name{position:relative;z-index:4;margin-top:-3px;border-radius:6px;padding:3px 5px;font-size:7.2px;background:#111217;box-shadow:0 2px 7px rgba(0,0,0,.25)}
+.pitch-player__score{position:relative;z-index:4;margin-top:2px}.pitch-advice-dot{right:6px;top:-3px;z-index:7;width:7px;height:7px}
+.screen{padding-top:12px}.native-section{margin:17px 0}.screen-title,.team-toolbar,.home-status{margin-bottom:12px}.native-section__head{margin-bottom:7px}.native-section__head h2{font-size:15px}
+.action-card{box-shadow:none;border-color:rgba(32,216,120,.20);background:#101c15}.summary-strip{margin-top:11px;margin-bottom:16px}
+.offer-banner{background:#102018;border-color:rgba(32,216,120,.25)}.market-footer-stats{border-radius:9px;background:#2a2b34}
+.bottom-nav{height:72px;background:rgba(7,8,12,.99);border-top:1px solid #22232c}.nav-tab{padding-top:5px}.nav-tab svg{width:22px;height:22px}.nav-tab small{font-size:8.5px;font-weight:800}
+.advice-summary{gap:5px;padding:6px 0 5px}.summary-dot{padding:4px 6px;border-radius:6px;font-size:7px;background:#0d0e13}
+@media(max-width:420px){.app-header{height:76px}.brand-copy strong{max-width:130px}.balance-chip{min-width:106px}.screens{padding-left:11px;padding-right:11px}.market-row{grid-template-columns:24px 58px minmax(0,1fr) auto;gap:7px}.feed-row{grid-template-columns:46px minmax(0,1fr) auto;gap:9px}.feed-icon.feed-player-photo{width:44px;height:50px}.pitch-player{width:60px}.pitch-player__portrait{width:44px;height:54px}.pitch-team-badge{left:5px;width:16px;height:16px}}
