@@ -1,0 +1,1 @@
+(()=>{'use strict';document.documentElement.dataset.fantasyClauseModel='dynamic-current-vm';window.dispatchEvent(new CustomEvent('fantasy:clause-model',{detail:{version:42,model:'dynamic_current_market_value',basePct:50}}));})();
