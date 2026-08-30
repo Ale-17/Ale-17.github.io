@@ -1,5 +1,5 @@
-const CACHE='fantasy-os-v19-filters-premiums';
-const SHELL=['./','./index.html','./native.css','./mister-polish.css','./privacy.css','./fidelity-v17.css','./insights-v18.css','./ux-v19.css','./native.js','./mister-polish.js','./privacy.js','./fidelity-v17.js','./insights-v18.js','./ux-v19.js','./manifest.webmanifest','./icon.svg'];
+const CACHE='fantasy-os-v20-full-transfer-coverage';
+const SHELL=['./','./index.html','./native.css','./mister-polish.css','./privacy.css','./fidelity-v17.css','./insights-v18.css','./ux-v19.css','./native.js','./mister-polish.js','./privacy.js','./fidelity-v17.js','./insights-v18.js','./ux-v19.js','./coverage-v20.js','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{
