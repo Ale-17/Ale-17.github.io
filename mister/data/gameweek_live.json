@@ -1,6 +1,6 @@
 {
-  "captured_at": "2026-08-30T23:35:53+02:00",
-  "last_checked_at": "2026-08-30T23:35:53+02:00",
+  "captured_at": "2026-08-30T23:55:58+02:00",
+  "last_checked_at": "2026-08-30T23:55:58+02:00",
   "status": "ok",
   "source": "Mister .feed-top-gameweek + read-only match popup",
   "semantics": "Fantasy OS mirrors the active round shown by Mister and enriches compact fixture metadata from Mister's read-only match popup when the strip no longer exposes it.",
@@ -49,11 +49,22 @@
             "points": 5,
             "starter": true,
             "role": "starter",
-            "minutes": null,
-            "sofascore_rating": null,
-            "score": null,
+            "minutes": 90,
+            "sofascore_rating": 7.1,
+            "score": "3 - 2",
             "status": "played",
-            "stats": {}
+            "stats": {
+              "totalClearance": 1,
+              "minutesPlayed": 90,
+              "goalsPrevented": -0.1012,
+              "saves": 5,
+              "savedShotsFromInsideTheBox": 2,
+              "accuratePass": 14,
+              "totalLongBalls": 9,
+              "goalAssist": 0,
+              "totalPass": 20,
+              "accurateLongBalls": 3
+            }
           }
         },
         {
@@ -77,21 +88,21 @@
             "score": "3 - 2",
             "status": "played",
             "stats": {
-              "blockedScoringAttempt": 1,
+              "totalContest": 2,
               "duelWon": 8,
-              "totalLongBalls": 3,
-              "accurateLongBalls": 1,
-              "aerialLost": 2,
+              "onTargetScoringAttempt": 1,
+              "minutesPlayed": 90,
+              "keyPass": 2,
               "totalTackle": 2,
+              "duelLost": 6,
+              "wonContest": 1,
+              "accuratePass": 48,
+              "totalLongBalls": 3,
               "goalAssist": 0,
               "totalPass": 56,
-              "minutesPlayed": 90,
-              "wonContest": 1,
-              "onTargetScoringAttempt": 1,
-              "totalContest": 2,
-              "duelLost": 6,
-              "keyPass": 2,
-              "accuratePass": 48
+              "aerialLost": 2,
+              "blockedScoringAttempt": 1,
+              "accurateLongBalls": 1
             }
           }
         },
@@ -116,21 +127,21 @@
             "score": "3 - 2",
             "status": "played",
             "stats": {
+              "totalContest": 4,
               "duelWon": 8,
               "totalClearance": 2,
+              "shotOffTarget": 1,
+              "onTargetScoringAttempt": 2,
+              "minutesPlayed": 90,
+              "totalTackle": 1,
+              "duelLost": 9,
+              "wonContest": 1,
+              "accuratePass": 12,
+              "goalAssist": 0,
+              "totalPass": 13,
               "aerialLost": 6,
               "aerialWon": 4,
-              "totalTackle": 1,
-              "goalAssist": 0,
-              "shotOffTarget": 1,
-              "totalPass": 13,
-              "minutesPlayed": 90,
-              "wonContest": 1,
-              "goals": 1,
-              "onTargetScoringAttempt": 2,
-              "totalContest": 4,
-              "duelLost": 9,
-              "accuratePass": 12
+              "goals": 1
             }
           }
         }
@@ -225,9 +236,11 @@
               "gameweek": "J3",
               "points": 5,
               "starter": true,
-              "minutes": null,
-              "sofascore_rating": null,
-              "stats": {}
+              "minutes": 90,
+              "sofascore_rating": 7.1,
+              "stats": {
+                "goalAssist": 0
+              }
             }
           ],
           "recent_avg_points": 4.0,
@@ -2497,19 +2510,19 @@
             "score": "1 - 0",
             "status": "played",
             "stats": {
-              "duelWon": 3,
-              "totalLongBalls": 3,
-              "totalClearance": 9,
-              "accurateLongBalls": 1,
-              "totalTackle": 3,
-              "goalAssist": 0,
-              "shotOffTarget": 1,
-              "interceptionWon": 1,
-              "totalPass": 22,
-              "minutesPlayed": 90,
               "totalContest": 1,
+              "duelWon": 3,
+              "totalClearance": 9,
+              "shotOffTarget": 1,
+              "minutesPlayed": 90,
+              "totalTackle": 3,
               "duelLost": 2,
-              "accuratePass": 19
+              "accuratePass": 19,
+              "totalLongBalls": 3,
+              "goalAssist": 0,
+              "totalPass": 22,
+              "interceptionWon": 1,
+              "accurateLongBalls": 1
             }
           }
         },
@@ -2534,17 +2547,17 @@
             "score": "1 - 0",
             "status": "played",
             "stats": {
-              "duelWon": 6,
-              "totalLongBalls": 2,
-              "totalClearance": 4,
-              "totalTackle": 3,
-              "goalAssist": 0,
-              "totalPass": 7,
-              "minutesPlayed": 36,
-              "wonContest": 1,
               "totalContest": 1,
+              "duelWon": 6,
+              "totalClearance": 4,
+              "minutesPlayed": 36,
+              "totalTackle": 3,
               "duelLost": 1,
-              "accuratePass": 4
+              "wonContest": 1,
+              "accuratePass": 4,
+              "totalLongBalls": 2,
+              "goalAssist": 0,
+              "totalPass": 7
             }
           }
         },
@@ -2569,21 +2582,21 @@
             "score": "1 - 0",
             "status": "played",
             "stats": {
-              "duelWon": 3,
-              "totalLongBalls": 1,
-              "totalClearance": 2,
-              "accurateLongBalls": 1,
-              "totalTackle": 1,
-              "goalAssist": 1,
-              "shotOffTarget": 2,
-              "interceptionWon": 2,
-              "totalPass": 7,
-              "minutesPlayed": 71,
-              "wonContest": 2,
               "totalContest": 4,
-              "duelLost": 4,
+              "duelWon": 3,
+              "totalClearance": 2,
+              "shotOffTarget": 2,
+              "minutesPlayed": 71,
               "keyPass": 1,
-              "accuratePass": 5
+              "totalTackle": 1,
+              "duelLost": 4,
+              "wonContest": 2,
+              "accuratePass": 5,
+              "totalLongBalls": 1,
+              "goalAssist": 1,
+              "totalPass": 7,
+              "interceptionWon": 2,
+              "accurateLongBalls": 1
             }
           }
         },
@@ -2608,14 +2621,14 @@
             "score": "1 - 0",
             "status": "played",
             "stats": {
-              "blockedScoringAttempt": 1,
               "duelWon": 1,
-              "goalAssist": 0,
               "shotOffTarget": 1,
-              "totalPass": 12,
-              "minutesPlayed": 28,
               "onTargetScoringAttempt": 1,
-              "accuratePass": 10
+              "minutesPlayed": 28,
+              "accuratePass": 10,
+              "goalAssist": 0,
+              "totalPass": 12,
+              "blockedScoringAttempt": 1
             }
           }
         }
@@ -2642,17 +2655,17 @@
             "score": "1 - 0",
             "status": "played",
             "stats": {
-              "duelWon": 6,
-              "totalLongBalls": 2,
-              "totalClearance": 4,
-              "totalTackle": 3,
-              "goalAssist": 0,
-              "totalPass": 7,
-              "minutesPlayed": 36,
-              "wonContest": 1,
               "totalContest": 1,
+              "duelWon": 6,
+              "totalClearance": 4,
+              "minutesPlayed": 36,
+              "totalTackle": 3,
               "duelLost": 1,
-              "accuratePass": 4
+              "wonContest": 1,
+              "accuratePass": 4,
+              "totalLongBalls": 2,
+              "goalAssist": 0,
+              "totalPass": 7
             }
           }
         },
@@ -4733,21 +4746,21 @@
             "score": "5 - 2",
             "status": "played",
             "stats": {
+              "totalContest": 1,
               "duelWon": 4,
-              "totalLongBalls": 5,
               "totalClearance": 2,
-              "accurateLongBalls": 1,
+              "minutesPlayed": 90,
+              "keyPass": 1,
+              "duelLost": 2,
+              "wonContest": 1,
+              "accuratePass": 50,
+              "totalLongBalls": 5,
+              "goalAssist": 0,
+              "totalPass": 57,
               "aerialLost": 2,
               "aerialWon": 1,
-              "goalAssist": 0,
               "interceptionWon": 1,
-              "totalPass": 57,
-              "minutesPlayed": 90,
-              "wonContest": 1,
-              "totalContest": 1,
-              "duelLost": 2,
-              "keyPass": 1,
-              "accuratePass": 50
+              "accurateLongBalls": 1
             }
           }
         },
@@ -4773,21 +4786,21 @@
             "status": "played",
             "stats": {
               "duelWon": 7,
-              "totalLongBalls": 10,
               "totalClearance": 13,
-              "accurateLongBalls": 4,
+              "shotOffTarget": 1,
+              "onTargetScoringAttempt": 1,
+              "minutesPlayed": 90,
+              "totalTackle": 3,
+              "duelLost": 3,
+              "accuratePass": 53,
+              "totalLongBalls": 10,
+              "goalAssist": 0,
+              "totalPass": 61,
               "aerialLost": 2,
               "aerialWon": 4,
-              "totalTackle": 3,
-              "goalAssist": 0,
-              "shotOffTarget": 1,
               "interceptionWon": 2,
-              "totalPass": 61,
-              "minutesPlayed": 90,
-              "goals": 1,
-              "onTargetScoringAttempt": 1,
-              "duelLost": 3,
-              "accuratePass": 53
+              "accurateLongBalls": 4,
+              "goals": 1
             }
           }
         },
@@ -4813,14 +4826,14 @@
             "status": "played",
             "stats": {
               "duelWon": 5,
-              "aerialWon": 2,
-              "totalTackle": 3,
-              "goalAssist": 1,
               "shotOffTarget": 1,
-              "totalPass": 42,
               "minutesPlayed": 67,
               "keyPass": 2,
-              "accuratePass": 40
+              "totalTackle": 3,
+              "accuratePass": 40,
+              "goalAssist": 1,
+              "totalPass": 42,
+              "aerialWon": 2
             }
           }
         }
@@ -4848,14 +4861,14 @@
             "status": "played",
             "stats": {
               "duelWon": 5,
-              "aerialWon": 2,
-              "totalTackle": 3,
-              "goalAssist": 1,
               "shotOffTarget": 1,
-              "totalPass": 42,
               "minutesPlayed": 67,
               "keyPass": 2,
-              "accuratePass": 40
+              "totalTackle": 3,
+              "accuratePass": 40,
+              "goalAssist": 1,
+              "totalPass": 42,
+              "aerialWon": 2
             }
           }
         },
@@ -5178,12 +5191,12 @@
           "owner_name": "Samuhg22",
           "is_mine": false,
           "is_free": false,
-          "position": null,
+          "position": 2,
           "market_value": 1087000,
           "displayed_points": 8,
           "daily_market_change": null,
           "weekly_market_change": null,
-          "team_logo_url": null,
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
           "recent": [],
           "recent_avg_points": null,
           "recent_goals": null,
@@ -7197,26 +7210,11 @@
             "points": 4,
             "starter": true,
             "role": "starter",
-            "minutes": 78,
-            "sofascore_rating": 6.8,
-            "score": "2 - 1",
+            "minutes": null,
+            "sofascore_rating": null,
+            "score": null,
             "status": "played",
-            "stats": {
-              "duelWon": 4,
-              "totalLongBalls": 2,
-              "accurateLongBalls": 2,
-              "aerialWon": 1,
-              "totalTackle": 2,
-              "goalAssist": 0,
-              "shotOffTarget": 1,
-              "totalPass": 27,
-              "minutesPlayed": 78,
-              "wonContest": 1,
-              "totalContest": 3,
-              "duelLost": 3,
-              "keyPass": 2,
-              "accuratePass": 22
-            }
+            "stats": {}
           }
         }
       ],
@@ -7886,11 +7884,9 @@
               "gameweek": "J3",
               "points": 4,
               "starter": true,
-              "minutes": 78,
-              "sofascore_rating": 6.8,
-              "stats": {
-                "goalAssist": 0
-              }
+              "minutes": null,
+              "sofascore_rating": null,
+              "stats": {}
             }
           ],
           "recent_avg_points": 4.666666666666667,
@@ -9471,18 +9467,18 @@
             "score": "1 - 3",
             "status": "played",
             "stats": {
+              "totalContest": 5,
               "duelWon": 7,
-              "totalLongBalls": 2,
               "totalClearance": 1,
-              "accurateLongBalls": 2,
+              "minutesPlayed": 72,
+              "keyPass": 1,
+              "duelLost": 5,
+              "wonContest": 3,
+              "accuratePass": 30,
+              "totalLongBalls": 2,
               "goalAssist": 1,
               "totalPass": 32,
-              "minutesPlayed": 72,
-              "wonContest": 3,
-              "totalContest": 5,
-              "duelLost": 5,
-              "keyPass": 1,
-              "accuratePass": 30
+              "accurateLongBalls": 2
             }
           }
         }
@@ -11798,23 +11794,11 @@
             "points": 1,
             "starter": true,
             "role": "starter",
-            "minutes": 90,
-            "sofascore_rating": 6.0,
-            "score": "4 - 0",
+            "minutes": null,
+            "sofascore_rating": null,
+            "score": null,
             "status": "played",
-            "stats": {
-              "duelWon": 4,
-              "totalClearance": 1,
-              "totalTackle": 1,
-              "goalAssist": 0,
-              "interceptionWon": 2,
-              "totalPass": 52,
-              "minutesPlayed": 90,
-              "wonContest": 3,
-              "totalContest": 6,
-              "duelLost": 5,
-              "accuratePass": 48
-            }
+            "stats": {}
           }
         }
       ],
@@ -11849,23 +11833,11 @@
             "points": 1,
             "starter": true,
             "role": "starter",
-            "minutes": 90,
-            "sofascore_rating": 6.0,
-            "score": "4 - 0",
+            "minutes": null,
+            "sofascore_rating": null,
+            "score": null,
             "status": "played",
-            "stats": {
-              "duelWon": 4,
-              "totalClearance": 1,
-              "totalTackle": 1,
-              "goalAssist": 0,
-              "interceptionWon": 2,
-              "totalPass": 52,
-              "minutesPlayed": 90,
-              "wonContest": 3,
-              "totalContest": 6,
-              "duelLost": 5,
-              "accuratePass": 48
-            }
+            "stats": {}
           }
         },
         {
@@ -13622,11 +13594,9 @@
               "gameweek": "J3",
               "points": 1,
               "starter": true,
-              "minutes": 90,
-              "sofascore_rating": 6.0,
-              "stats": {
-                "goalAssist": 0
-              }
+              "minutes": null,
+              "sofascore_rating": null,
+              "stats": {}
             }
           ],
           "recent_avg_points": 3.3333333333333335,
@@ -13969,19 +13939,19 @@
             "score": "3 - 1",
             "status": "played",
             "stats": {
+              "totalContest": 4,
               "duelWon": 8,
-              "totalLongBalls": 4,
-              "accurateLongBalls": 3,
-              "aerialLost": 1,
-              "aerialWon": 1,
+              "minutesPlayed": 90,
               "totalTackle": 2,
+              "duelLost": 7,
+              "wonContest": 2,
+              "accuratePass": 39,
+              "totalLongBalls": 4,
               "goalAssist": 0,
               "totalPass": 44,
-              "minutesPlayed": 90,
-              "wonContest": 2,
-              "totalContest": 4,
-              "duelLost": 7,
-              "accuratePass": 39
+              "aerialLost": 1,
+              "aerialWon": 1,
+              "accurateLongBalls": 3
             }
           }
         },
@@ -14006,19 +13976,19 @@
             "score": "3 - 1",
             "status": "played",
             "stats": {
-              "duelWon": 3,
-              "totalLongBalls": 2,
-              "accurateLongBalls": 1,
-              "goalAssist": 0,
-              "shotOffTarget": 1,
-              "totalPass": 12,
-              "minutesPlayed": 30,
-              "wonContest": 1,
-              "onTargetScoringAttempt": 1,
               "totalContest": 2,
-              "duelLost": 3,
+              "duelWon": 3,
+              "shotOffTarget": 1,
+              "onTargetScoringAttempt": 1,
+              "minutesPlayed": 30,
               "keyPass": 1,
-              "accuratePass": 8
+              "duelLost": 3,
+              "wonContest": 1,
+              "accuratePass": 8,
+              "totalLongBalls": 2,
+              "goalAssist": 0,
+              "totalPass": 12,
+              "accurateLongBalls": 1
             }
           }
         }
@@ -14045,19 +14015,19 @@
             "score": "3 - 1",
             "status": "played",
             "stats": {
-              "duelWon": 3,
-              "totalLongBalls": 2,
-              "accurateLongBalls": 1,
-              "goalAssist": 0,
-              "shotOffTarget": 1,
-              "totalPass": 12,
-              "minutesPlayed": 30,
-              "wonContest": 1,
-              "onTargetScoringAttempt": 1,
               "totalContest": 2,
-              "duelLost": 3,
+              "duelWon": 3,
+              "shotOffTarget": 1,
+              "onTargetScoringAttempt": 1,
+              "minutesPlayed": 30,
               "keyPass": 1,
-              "accuratePass": 8
+              "duelLost": 3,
+              "wonContest": 1,
+              "accuratePass": 8,
+              "totalLongBalls": 2,
+              "goalAssist": 0,
+              "totalPass": 12,
+              "accurateLongBalls": 1
             }
           }
         },
@@ -14082,19 +14052,19 @@
             "score": "3 - 1",
             "status": "played",
             "stats": {
+              "totalContest": 4,
               "duelWon": 8,
-              "totalLongBalls": 4,
-              "accurateLongBalls": 3,
-              "aerialLost": 1,
-              "aerialWon": 1,
+              "minutesPlayed": 90,
               "totalTackle": 2,
+              "duelLost": 7,
+              "wonContest": 2,
+              "accuratePass": 39,
+              "totalLongBalls": 4,
               "goalAssist": 0,
               "totalPass": 44,
-              "minutesPlayed": 90,
-              "wonContest": 2,
-              "totalContest": 4,
-              "duelLost": 7,
-              "accuratePass": 39
+              "aerialLost": 1,
+              "aerialWon": 1,
+              "accurateLongBalls": 3
             }
           }
         },
@@ -20644,7 +20614,7 @@
     "matches_still_without_kickoff": 0
   },
   "all_player_intelligence": {
-    "captured_at": "2026-08-30T23:35:53+02:00",
+    "captured_at": "2026-08-30T23:55:58+02:00",
     "semantics": "Candidate universe is every player Mister exposes for each match. Ownership is metadata only, never an eligibility filter.",
     "profile_cache_refreshed": 0,
     "profile_cache_pending": 0,
