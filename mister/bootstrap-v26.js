@@ -3,6 +3,7 @@
 /* Fantasy OS V26 startup coordinator.
  * - Deduplicates simultaneous reads of the same public JSON payload.
  * - Coalesces legacy MutationObservers so stacked enhancement layers cannot thrash the DOM.
+ * - Redirects whole-body observers to the few containers that are actually re-rendered.
  * - Keeps the native loading screen visible until the first useful home render is complete.
  */
 const realFetch=window.fetch.bind(window);
@@ -25,9 +26,22 @@ window.fetch=function(input,init){
 const NativeMO=window.MutationObserver;
 if(NativeMO){
   class CoalescedMutationObserver{
-    constructor(cb){this.cb=cb;this.records=[];this.timer=0;this.inner=new NativeMO(records=>{this.records.push(...records);if(this.timer)return;this.timer=setTimeout(()=>{this.timer=0;const batch=this.records.splice(0);try{this.cb(batch,this)}catch(e){console.error('[Fantasy OS observer]',e)}},32)})}
-    observe(...args){return this.inner.observe(...args)}
-    disconnect(){if(this.timer){clearTimeout(this.timer);this.timer=0}this.records.length=0;return this.inner.disconnect()}
+    constructor(cb){
+      this.cb=cb;this.records=[];this.timer=0;this.observed=new Set();
+      this.inner=new NativeMO(records=>{this.records.push(...records);if(this.timer)return;this.timer=setTimeout(()=>{this.timer=0;const batch=this.records.splice(0);try{this.cb(batch,this)}catch(e){console.error('[Fantasy OS observer]',e)}},40)});
+    }
+    observe(target,options){
+      /* Old enhancement layers used body+subtree, which made their own decorative DOM writes
+         retrigger themselves forever. Observe only top-level re-render hosts instead. */
+      if(target===document.body&&options?.subtree){
+        const selectors=['#homeFeed','#homeMarket','#marketList','#teamList','#lineupPlayers','#leagueTable','#rivalCapacity','#activityList','#bidList','#clauseList','#sheetContent','#moreSummary'];
+        let found=0;
+        for(const selector of selectors){const el=document.querySelector(selector);if(!el||this.observed.has(el))continue;this.observed.add(el);this.inner.observe(el,{childList:true});found++}
+        if(found)return;
+      }
+      this.observed.add(target);return this.inner.observe(target,options);
+    }
+    disconnect(){if(this.timer){clearTimeout(this.timer);this.timer=0}this.records.length=0;this.observed.clear();return this.inner.disconnect()}
     takeRecords(){return this.records.splice(0).concat(this.inner.takeRecords())}
   }
   window.MutationObserver=CoalescedMutationObserver;
