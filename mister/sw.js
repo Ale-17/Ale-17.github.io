@@ -1,5 +1,5 @@
-const CACHE='fantasy-os-v26-stable-fast-start';
-const SHELL=['./','./index.html','./native.css','./mister-polish.css','./privacy.css','./fidelity-v17.css','./insights-v18.css','./ux-v19.css','./ux-v22.css','./player-detail-v24.css','./player-detail-v25.css','./stability-v26.css','./bootstrap-v26.js','./native.js','./mister-polish.js','./privacy.js','./insights-v18.js','./ux-v19.js','./coverage-v20.js','./snapshot-v21.js','./ux-v22.js','./media-v26.js','./player-detail-v25.js','./manifest.webmanifest','./icon.svg'];
+const CACHE='fantasy-os-v27-media-offers';
+const SHELL=['./','./index.html','./native.css','./mister-polish.css','./privacy.css','./fidelity-v17.css','./insights-v18.css','./ux-v19.css','./ux-v22.css','./player-detail-v24.css','./player-detail-v25.css','./stability-v26.css','./offers-v27.css','./bootstrap-v27.js','./native.js','./mister-polish.js','./privacy.js','./insights-v18.js','./ux-v19.js','./coverage-v20.js','./snapshot-v21.js','./ux-v22.js','./media-v27.js','./offers-v27.js','./player-detail-v25.js','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{
