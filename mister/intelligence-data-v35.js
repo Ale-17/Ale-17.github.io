@@ -1,9 +1,7 @@
 (()=>{
 'use strict';
 
-// V35 is deliberately data-only: it does not render, add or alter any UI.
-// It enriches the player_details payload already consumed by intelligence-v34
-// with the full-player Mister sweep stored inside gameweek_live.json.
+// V35 enriches player_details with the full-player Mister sweep.
 const nativeFetch=window.fetch.bind(window);
 const TTL=20000;
 let liveCache={at:0,data:null};
@@ -95,8 +93,7 @@ function enrich(details,live){
   details._fantasy_v35={
     source:'gameweek_live.all_players',
     gameweek_id:currentGid,
-    captured_at:live?.all_player_intelligence?.captured_at||live?.captured_at||null,
-    semantics:'Data enrichment only. Existing Fantasy OS UI remains unchanged.'
+    captured_at:live?.all_player_intelligence?.captured_at||live?.captured_at||null
   };
   return details
 }
@@ -115,9 +112,15 @@ window.fetch=async function(input,init){
   }catch{return fallback}
 };
 
+function loadV37(){
+  if(!document.querySelector('link[data-fantasy-v37]')){const l=document.createElement('link');l.rel='stylesheet';l.href='./fixes-v37.css?v=37';l.dataset.fantasyV37='1';document.head.appendChild(l)}
+  if(!document.querySelector('script[data-fantasy-v37]')){const s=document.createElement('script');s.src='./fixes-v37.js?v=37';s.async=false;s.dataset.fantasyV37='1';document.head.appendChild(s)}
+}
 function loadV36(){
   if(!document.querySelector('link[data-fantasy-v36]')){const l=document.createElement('link');l.rel='stylesheet';l.href='./fixes-v36.css?v=36';l.dataset.fantasyV36='1';document.head.appendChild(l)}
-  if(!document.querySelector('script[data-fantasy-v36]')){const s=document.createElement('script');s.src='./fixes-v36.js?v=36';s.async=false;s.dataset.fantasyV36='1';document.head.appendChild(s)}
+  const existing=document.querySelector('script[data-fantasy-v36]');
+  if(existing){loadV37();return}
+  const s=document.createElement('script');s.src='./fixes-v36.js?v=36';s.async=false;s.dataset.fantasyV36='1';s.addEventListener('load',loadV37,{once:true});document.head.appendChild(s)
 }
 if(document.readyState==='loading')window.addEventListener('DOMContentLoaded',loadV36,{once:true});else setTimeout(loadV36,0);
 })();
