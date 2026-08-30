@@ -1,0 +1,9 @@
+/* Fantasy OS V26 — startup, stability and media guards */
+html:not(.fantasy-ready) body{overflow:hidden}
+.app-boot{position:fixed;inset:0;z-index:9999;display:grid;place-items:center;background:#08090d;color:#f7f7f8;transition:opacity .24s ease,visibility .24s ease}.app-boot.done{opacity:0;visibility:hidden;pointer-events:none}.app-boot__card{width:min(88vw,360px);display:grid;justify-items:center;text-align:center;gap:15px}.app-boot__logo{width:76px;height:76px;border-radius:24px;background:linear-gradient(145deg,#24de7f,#12ba63);display:grid;place-items:center;color:#07120b;font-size:34px;font-weight:1000;box-shadow:0 18px 45px rgba(20,210,112,.20)}.app-boot h1{margin:2px 0 0;font-size:25px;letter-spacing:-.04em}.app-boot p{margin:0;color:#8f929c;font-size:13px;line-height:1.5}.app-boot__loader{display:flex;gap:7px;margin-top:3px}.app-boot__loader i{width:8px;height:8px;border-radius:50%;background:#22d278;animation:v26pulse 1.05s infinite ease-in-out}.app-boot__loader i:nth-child(2){animation-delay:.13s}.app-boot__loader i:nth-child(3){animation-delay:.26s}.app-boot__retry{margin-top:4px;border:1px solid #2b2e37;background:#171820;color:#f4f4f6;border-radius:12px;padding:10px 14px;font-weight:800}.app-boot__sub{font-size:10px!important;color:#60636d!important}@keyframes v26pulse{0%,75%,100%{opacity:.28;transform:scale(.8)}35%{opacity:1;transform:scale(1)}}
+/* Never allow two competing hydrators to split the portrait in half. */
+.player-photo>img:not(:first-of-type),.feed-player-photo>img:not(:first-of-type),.pitch-player__portrait>img:not(.pitch-club):not(:first-of-type){display:none!important}
+.player-photo,.feed-player-photo,.pitch-player__portrait{isolation:isolate}.player-photo>img,.feed-player-photo>img{min-width:100%;max-width:100%;flex:0 0 100%}
+/* Keep the first screen visually inert until data is fully ready. */
+html:not(.fantasy-ready) .app-shell{visibility:hidden}
+html.fantasy-ready .app-shell{visibility:visible}
