@@ -1,0 +1,7 @@
+/* Fantasy OS V19 — interactive recommendation filters + clearer bidding premiums */
+.v19-filter-hidden{display:none!important}.v19-filter-chip{cursor:pointer;user-select:none;-webkit-tap-highlight-color:transparent}.v19-filter-chip.v19-active-filter{box-shadow:0 0 0 1px currentColor inset,0 0 0 2px rgba(255,255,255,.04);filter:brightness(1.14)}
+#marketAdviceSummary{display:flex;flex-wrap:nowrap;gap:7px;overflow-x:auto;padding-bottom:3px;scrollbar-width:none}#marketAdviceSummary::-webkit-scrollbar{display:none}#marketAdviceSummary .summary-dot{flex:0 0 auto}
+.v18-team-summary{overflow:hidden}.v18-team-summary__chips{display:flex!important;flex-wrap:nowrap!important;gap:7px!important;overflow-x:auto;padding-bottom:4px;scrollbar-width:none}.v18-team-summary__chips::-webkit-scrollbar{display:none}.v18-team-summary__chips span{flex:0 0 auto}.v18-team-summary>small{display:none!important}
+.v19-feed-vm{margin-top:5px;font-size:8px;font-weight:850;line-height:1.25}.v19-feed-vm.positive{color:#f0bd5e}.v19-feed-vm.negative{color:#5ed79a}
+.v19-extra-metric,.v19-rival-extra{min-width:0}.v18-bid-note{line-height:1.5}
+@media(max-width:420px){#marketAdviceSummary{gap:6px}.v18-team-summary__chips{gap:5px!important}.v18-team-summary__chips span{font-size:6.5px!important;padding:5px 6px!important}.v19-feed-vm{font-size:7.5px}}
