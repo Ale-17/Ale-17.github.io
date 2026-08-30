@@ -15209,14 +15209,11 @@
   },
   "transfer_identity_resolution": {
     "status": "partial",
-    "resolved_by_reconciliation": 6,
-    "unresolved_total": 296,
+    "resolved_by_reconciliation": 0,
+    "unresolved_total": 295,
     "unresolved_ale": 79,
-    "methods": {
-      "exact_previous_received_offer": 3,
-      "unique_roster_delta": 3
-    },
-    "ledger_details_patched": 6,
+    "methods": {},
+    "ledger_details_patched": 0,
     "policy": "Resolve missing feed player via player_id, exact prior received offer, then unique roster delta; never guess ambiguous candidates."
   },
   "clause_buyouts_since_previous": [
