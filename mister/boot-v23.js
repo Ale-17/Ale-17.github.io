@@ -1,5 +1,6 @@
 (()=>{
 'use strict';
+window.num=window.num||((v)=>Number.isFinite(Number(v))?Number(v):0);
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const arr=v=>Array.isArray(v)?v:[];
 const clean=v=>String(v??'').replace(/\s*💥\s*/g,'').trim();
