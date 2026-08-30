@@ -1,0 +1,32 @@
+/* Fantasy OS privacy / incognito mode */
+.balance-chip{position:relative;padding-right:42px!important}
+.privacy-toggle{position:absolute;right:6px;top:50%;transform:translateY(-50%);width:30px;height:30px;display:grid;place-items:center;border-radius:9px;border:1px solid transparent;background:transparent;color:#70717d;padding:0;cursor:pointer;transition:color .18s ease,background .18s ease,border-color .18s ease,transform .18s ease}
+.privacy-toggle svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+.privacy-toggle:active{transform:translateY(-50%) scale(.94)}
+.privacy-toggle.active{color:#35df82;background:rgba(32,216,120,.11);border-color:rgba(32,216,120,.24);box-shadow:0 0 0 1px rgba(32,216,120,.03) inset}
+.privacy-toggle.active::after{content:"";position:absolute;right:3px;top:3px;width:5px;height:5px;border-radius:50%;background:#35df82;box-shadow:0 0 0 2px #171821}
+.privacy-tooltip{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+.privacy-value,#headerBalance,#homeStats .summary-stat:nth-child(3) strong,#marketFooterStats .footer-stat:nth-child(3) strong,#moreSummary .more-card:nth-child(1) strong,#capacityList .capacity-top span,#wealthNow{position:relative}
+.privacy-mode .privacy-value,.privacy-mode #headerBalance,.privacy-mode #homeStats .summary-stat:nth-child(3) strong,.privacy-mode #marketFooterStats .footer-stat:nth-child(3) strong,.privacy-mode #moreSummary .more-card:nth-child(1) strong,.privacy-mode #capacityList .capacity-top span,.privacy-mode #wealthNow{color:transparent!important;text-shadow:none!important;user-select:none;overflow:hidden}
+.privacy-mode .privacy-value::after,.privacy-mode #headerBalance::after,.privacy-mode #homeStats .summary-stat:nth-child(3) strong::after,.privacy-mode #marketFooterStats .footer-stat:nth-child(3) strong::after,.privacy-mode #moreSummary .more-card:nth-child(1) strong::after,.privacy-mode #capacityList .capacity-top span::after,.privacy-mode #wealthNow::after{content:"••••";position:absolute;inset:0;display:flex;align-items:center;color:#f6f6f7!important;font-size:.86em;font-weight:900;letter-spacing:.14em;white-space:nowrap}
+.privacy-mode #headerBalance::after{font-size:18px;align-items:flex-end;padding-bottom:1px}
+.privacy-mode #homeStats .summary-stat:nth-child(3) strong::after,.privacy-mode #marketFooterStats .footer-stat:nth-child(3) strong::after{justify-content:center}
+.privacy-mode #capacityList .capacity-top span::after,.privacy-mode #moreSummary .more-card:nth-child(1) strong::after,.privacy-mode #wealthNow::after{justify-content:flex-start}
+
+.privacy-mode #offerSummary{position:relative;color:transparent!important;user-select:none;min-height:43px;overflow:hidden}
+.privacy-mode #offerSummary *{visibility:hidden!important}
+.privacy-mode #offerSummary::after{content:"Modo incógnito · ofertas e importes ocultos";position:absolute;inset:0;display:flex;align-items:center;padding:0 13px;color:#a4e8c4!important;font-size:11px;font-weight:750;visibility:visible}
+
+.privacy-wealth-placeholder{display:none}
+.privacy-mode .privacy-wealth-chart #wealthChart{display:none!important}
+.privacy-mode .privacy-wealth-chart .privacy-wealth-placeholder{height:126px;display:flex;align-items:center;justify-content:center;gap:10px;margin-top:8px;border-radius:10px;border:1px dashed #2d2e37;background:linear-gradient(145deg,#0d0e13,#111219);color:#94959f}
+.privacy-wealth-placeholder .privacy-lock-icon{width:34px;height:34px;display:grid;place-items:center;border-radius:10px;background:rgba(32,216,120,.08);color:#35df82}
+.privacy-wealth-placeholder svg{width:21px;height:21px;margin:0;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.privacy-wealth-placeholder strong{display:block;color:#d9dae0;font-size:11px}
+.privacy-wealth-placeholder small{display:block;margin-top:2px;font-size:8px;color:#747580}
+
+.privacy-toast{position:fixed;left:50%;bottom:calc(var(--nav-h,74px) + max(20px,env(safe-area-inset-bottom)) + 14px);z-index:180;max-width:calc(100% - 28px);transform:translate(-50%,14px);padding:10px 14px;border-radius:999px;background:#1b1c24;border:1px solid #30313b;box-shadow:0 12px 34px rgba(0,0,0,.38);color:#e9e9ed;font-size:10px;font-weight:750;text-align:center;opacity:0;pointer-events:none;transition:opacity .18s ease,transform .18s ease;white-space:nowrap}
+.privacy-toast.show{opacity:1;transform:translate(-50%,0)}
+
+@media(max-width:420px){.balance-chip{padding-right:37px!important;min-width:112px!important}.privacy-toggle{right:5px;width:27px;height:27px;border-radius:8px}.privacy-toggle svg{width:17px;height:17px}.privacy-mode #headerBalance::after{font-size:16px}.privacy-toast{font-size:9px;padding:9px 12px;white-space:normal;width:max-content}}
