@@ -123,6 +123,6 @@ function loadScript(version,next){
   if(existing){if(existing.dataset.loaded==='1')next?.();else existing.addEventListener('load',()=>next?.(),{once:true});return}
   const s=document.createElement('script');s.src=`./fixes-v${version}.js?v=${version}`;s.async=false;s.dataset[key]='1';s.addEventListener('load',()=>{s.dataset.loaded='1';next?.()},{once:true});document.head.appendChild(s)
 }
-function loadFixes(){loadScript(36,()=>loadScript(37,()=>loadScript(38,()=>loadScript(39,()=>loadScript(40,()=>loadScript(41,()=>loadScript(42,()=>loadScript(43,()=>loadScript(44,()=>loadScript(45,()=>loadScript(46,()=>loadScript(47,()=>loadScript(48,()=>loadScript(49,()=>loadScript(50)))))))))))))))}
+function loadFixes(){loadScript(36,()=>loadScript(37,()=>loadScript(38,()=>loadScript(39,()=>loadScript(40,()=>loadScript(41,()=>loadScript(42,()=>loadScript(43,()=>loadScript(44,()=>loadScript(45,()=>loadScript(46,()=>loadScript(47,()=>loadScript(48,()=>loadScript(49,()=>loadScript(50,()=>loadScript(53))))))))))))))))}
 if(document.readyState==='loading')window.addEventListener('DOMContentLoaded',loadFixes,{once:true});else setTimeout(loadFixes,0);
 })();
