@@ -1,0 +1,10 @@
+(()=>{
+'use strict';
+const $=s=>document.querySelector(s);
+let data=null,loading=null,queued=false;
+async function load(force=false){if(data&&!force)return data;if(loading&&!force)return loading;loading=fetch(`./data/lineup_advisor.json?v=${Date.now()}`,{cache:'no-store'}).then(r=>r.ok?r.json():null).then(x=>data=x||{}).catch(()=>data={}).finally(()=>loading=null);return loading}
+function patch(){queued=false;const sheet=$('#v43AdvisorSheet');if(!sheet)return;sheet.querySelectorAll('.v43-context,.v43-method').forEach(x=>x.remove());sheet.querySelectorAll('.v43-section-head small').forEach(x=>{const t=(x.textContent||'').toLowerCase();if(t.includes('pulsa')||t.includes('recomendación'))x.remove()});const teaser=$('#v43AdvisorTeaser .v43-teaser-copy em');if(teaser)teaser.remove();const cards=[...sheet.querySelectorAll('.v43-hero>div')];if(cards.length>=3&&data?.coverage){const cov=data.coverage||{},prob=Number(cov.with_probable_lineup||0),roster=Number(cov.roster||0),real=Number(cov.with_real_form||0),card=cards[2],label=card.querySelector('span'),strong=card.querySelector('strong'),small=card.querySelector('small');if(prob>0){if(label)label.textContent='ONCE PROBABLE';if(strong)strong.textContent=`${prob}/${roster}`;if(small)small.textContent='jugadores contrastados'}else{if(label)label.textContent='DATOS REALES';if(strong)strong.textContent=`${real}/${roster}`;if(small)small.textContent='con forma reciente'}}sheet.classList.add('v54-clean-advisor')}
+function queue(){if(queued)return;queued=true;requestAnimationFrame(patch)}
+async function init(){await load();patch();new MutationObserver(queue).observe(document.body,{childList:true,subtree:true});window.addEventListener('fantasy:ready',()=>setTimeout(async()=>{await load(true);patch()},120));document.addEventListener('click',e=>{if(e.target.closest?.('#v43AdvisorTeaser'))setTimeout(patch,20)},true)}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
+})();
