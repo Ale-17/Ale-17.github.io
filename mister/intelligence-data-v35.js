@@ -127,7 +127,12 @@ function loadV68(){
   if(!document.querySelector('link[data-fantasy-v68]')){const l=document.createElement('link');l.rel='stylesheet';l.href='./fixes-v68.css?v=68';l.dataset.fantasyV68='1';document.head.appendChild(l)}
   if(!document.querySelector('script[data-fantasy-v68]')){const s=document.createElement('script');s.src='./fixes-v68.js?v=68';s.async=false;s.dataset.fantasyV68='1';document.head.appendChild(s)}
 }
+function loadV69(){
+  if(document.querySelector('link[data-fantasy-v69]'))return;
+  const l=document.createElement('link');l.rel='stylesheet';l.href='./fixes-v69.css?v=69';l.dataset.fantasyV69='1';document.head.appendChild(l)
+}
 function loadFixes(){loadScript(36,()=>loadScript(37,()=>loadScript(38,()=>loadScript(39,()=>loadScript(40,()=>loadScript(41,()=>loadScript(42,()=>loadScript(43,()=>loadScript(44,()=>loadScript(45,()=>loadScript(46,()=>loadScript(47,()=>loadScript(48,()=>loadScript(49,()=>loadScript(50,()=>loadScript(53,()=>loadScript(54)))))))))))))))))}
 loadV68();
+loadV69();
 if(document.readyState==='loading')window.addEventListener('DOMContentLoaded',loadFixes,{once:true});else setTimeout(loadFixes,0);
 })();

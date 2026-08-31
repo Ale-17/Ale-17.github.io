@@ -1,0 +1,33 @@
+/* Fantasy OS V69 — keep profile avatar perfectly circular */
+html body .app-header .app-header__brand .brand-mark{
+  flex:0 0 49px!important;
+  width:49px!important;
+  height:49px!important;
+  min-width:49px!important;
+  min-height:49px!important;
+  max-width:49px!important;
+  max-height:49px!important;
+  aspect-ratio:1/1!important;
+  border-radius:50%!important;
+  overflow:hidden!important;
+}
+html body .app-header .app-header__brand .brand-mark img{
+  display:block!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  border-radius:inherit!important;
+  object-fit:cover!important;
+}
+@media(max-width:420px){
+  html body .app-header .app-header__brand .brand-mark{
+    flex-basis:47px!important;
+    width:47px!important;
+    height:47px!important;
+    min-width:47px!important;
+    min-height:47px!important;
+    max-width:47px!important;
+    max-height:47px!important;
+  }
+}
