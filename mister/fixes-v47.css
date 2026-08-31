@@ -1,0 +1,36 @@
+/* Fantasy OS V47 — full-height sheets regression guard */
+/* All primary bottom sheets must open essentially to the top of the visual viewport. */
+#playerSheet.open{
+  height:calc(100dvh - 2px)!important;
+  max-height:calc(100dvh - 2px)!important;
+  top:auto!important;
+  bottom:0!important;
+}
+
+/* The offers panel is a separate sheet, so V33's #playerSheet fix never applied to it. */
+.v28-offers-overlay{
+  box-sizing:border-box;
+  padding-top:max(2px,env(safe-area-inset-top));
+}
+.v28-offers-sheet{
+  height:100%!important;
+  max-height:100%!important;
+  min-height:0!important;
+  border-radius:20px 20px 0 0!important;
+}
+
+/* Keep the offers header visible while the list scrolls inside the full-height sheet. */
+.v28-offers-drag-zone{
+  position:relative;
+  z-index:2;
+  flex:0 0 auto;
+}
+.v28-offers-scroll{
+  min-height:0;
+  overscroll-behavior-y:contain;
+  -webkit-overflow-scrolling:touch;
+}
+
+@supports not (height:100dvh){
+  #playerSheet.open{height:calc(100vh - 2px)!important;max-height:calc(100vh - 2px)!important}
+}
