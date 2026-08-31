@@ -1,0 +1,38 @@
+/* Fantasy OS V63 — expected-points label, probable XI media/profile depth, protected manual snapshots */
+
+/* Keep the XI advisor compact, but explain what the headline number means. */
+.v43-sheet-head::before{
+  content:"PROYECCIÓN · PUNTOS ESPERADOS";
+  position:absolute;
+  left:2px;
+  top:11px;
+  max-width:calc(100% - 58px);
+  color:#43df91;
+  font-size:8px;
+  line-height:1;
+  font-weight:950;
+  letter-spacing:.13em;
+  white-space:nowrap;
+}
+
+/* Probable XI: resolved media should look intentional and tappable. */
+.v44-player.v63-resolved .v44-player-avatar{border-color:rgba(69,227,154,.42)!important;box-shadow:0 7px 18px rgba(0,0,0,.28),0 0 0 2px rgba(69,227,154,.035)!important}
+.v44-player.v63-resolved .v44-player-avatar>i{opacity:0!important}
+.v44-player .v44-player-avatar>img.v63-photo{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:cover!important;object-position:center 12%!important;display:block!important;margin:0!important}
+.v44-player:active .v44-player-avatar{transform:scale(.94)!important}
+
+/* Rich pre-match player profile. */
+#playerSheet.v63-probable-sheet{padding:12px 16px calc(24px + env(safe-area-inset-bottom))!important;background:linear-gradient(180deg,#11161a 0%,#0b0e12 32%,#080b0e 100%)!important;border-color:#2a333c!important;scrollbar-width:none}
+#playerSheet.v63-probable-sheet::-webkit-scrollbar{display:none}
+#playerSheet.v63-probable-sheet .sheet-handle{background:#46515b!important;margin-bottom:8px!important}
+#playerSheet.v63-probable-sheet .sheet-close{z-index:20!important;top:13px!important;right:13px!important;width:42px!important;height:42px!important;margin:0!important;display:grid!important;place-items:center!important;line-height:1!important}
+.v63-profile{padding:4px 0 30px}.v63-profile-hero{display:grid;grid-template-columns:92px minmax(0,1fr);gap:16px;align-items:center;padding:9px 42px 17px 2px}.v63-profile-photo{position:relative;width:90px;height:104px;border-radius:22px;overflow:hidden;border:1px solid #303944;background:radial-gradient(circle at 50% 22%,rgba(67,223,145,.14),transparent 38%),#151a1f}.v63-profile-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 10%;margin:0}.v63-profile-photo span{width:100%;height:100%;display:grid;place-items:center;color:#74808a;font-size:24px;font-weight:950}.v63-profile-copy{min-width:0}.v63-profile-kicker{display:flex;align-items:center;flex-wrap:wrap;gap:6px}.v63-probable-pill,.v63-pos-pill{display:inline-flex;align-items:center;min-height:23px;padding:0 8px;border-radius:8px;font-size:7px;font-weight:950;letter-spacing:.08em}.v63-probable-pill{color:#43df91;border:1px solid rgba(67,223,145,.28);background:rgba(67,223,145,.075)}.v63-pos-pill{color:#aeb6be;border:1px solid #313a43;background:#12171c}.v63-profile h2{margin:7px 0 5px;color:#f4f6f7;font-size:29px;line-height:1.01;letter-spacing:-.045em}.v63-teamline{display:flex;align-items:center;gap:7px;color:#89929b;font-size:9px}.v63-teamline img{width:25px;height:25px;object-fit:contain;margin:0}.v63-owner{margin-top:6px;color:#6f7983;font-size:8px}
+.v63-context{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;margin:0 0 12px;padding:12px 13px;border:1px solid rgba(67,223,145,.20);border-radius:16px;background:radial-gradient(circle at 0 0,rgba(67,223,145,.09),transparent 45%),#0e1417}.v63-context span{display:block;color:#43df91;font-size:7px;font-weight:950;letter-spacing:.11em}.v63-context strong{display:block;margin-top:4px;color:#eef2f4;font-size:12px;line-height:1.25}.v63-context small{display:block;margin-top:4px;color:#737e87;font-size:7px;line-height:1.35}.v63-formation{align-self:start;padding:7px 9px;border-radius:9px;border:1px solid rgba(67,223,145,.22);background:rgba(67,223,145,.06);color:#56e39b;font-size:10px;font-weight:900;white-space:nowrap}
+.v63-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;overflow:hidden;border:1px solid #29323a;border-radius:17px;background:#29323a}.v63-metric{min-width:0;padding:12px 10px;background:#0d1115}.v63-metric span{display:block;color:#6f7982;font-size:6.5px;font-weight:850;letter-spacing:.035em}.v63-metric strong{display:block;margin-top:5px;color:#eff2f4;font-size:13px;line-height:1.05;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.v63-metric small{display:block;margin-top:4px;color:#59636d;font-size:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.v63-up{color:#43df91!important}.v63-down{color:#ff7188!important}
+.v63-section{margin-top:20px}.v63-section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:10px;margin:0 2px 9px}.v63-section-head span{display:block;color:#43df91;font-size:7px;font-weight:950;letter-spacing:.1em}.v63-section-head h3{margin:3px 0 0;color:#eef1f3;font-size:19px;letter-spacing:-.03em}.v63-section-head small{color:#626d76;font-size:7px;text-align:right}.v63-form-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}.v63-form-card{padding:11px;border:1px solid #29313a;border-radius:13px;background:#0e1216}.v63-form-card span{display:block;color:#68727c;font-size:6.5px}.v63-form-card strong{display:block;margin-top:5px;color:#f0f2f3;font-size:13px}.v63-match-list{overflow:hidden;border:1px solid #29313a;border-radius:15px;background:#0d1115}.v63-match{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;min-height:59px;padding:9px 11px;border-bottom:1px solid #222a31}.v63-match:last-child{border-bottom:0}.v63-match-main{min-width:0}.v63-match-title{display:flex;align-items:center;gap:7px;min-width:0}.v63-match-title img{width:20px;height:20px;object-fit:contain;margin:0}.v63-match-title strong{min-width:0;color:#e9edef;font-size:9px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.v63-match-main small{display:block;margin-top:4px;color:#707a84;font-size:6.5px}.v63-match-score{text-align:right}.v63-match-score strong{display:block;color:#f2f4f5;font-size:15px}.v63-match-score span{display:block;margin-top:3px;color:#65707a;font-size:6px}.v63-profile-note{margin-top:13px;padding:10px 11px;border:1px solid #252d34;border-radius:12px;background:#0b0f12;color:#67717a;font-size:7px;line-height:1.45}
+
+/* Snapshot PIN reuses the established privacy keypad, only changing its semantic accent. */
+.v63-snapshot-pin .pin-icon{background:linear-gradient(145deg,#173021,#0d2016)!important;border-color:#285d42!important}.v63-snapshot-pin .pin-kicker{color:#43df91!important}
+
+@media(max-width:520px){.v43-sheet-head::before{top:10px;font-size:7px}.v63-profile-hero{grid-template-columns:78px minmax(0,1fr);gap:12px;padding-right:38px}.v63-profile-photo{width:76px;height:90px;border-radius:19px}.v63-profile h2{font-size:25px}.v63-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.v63-metric{min-height:62px}.v63-form-grid{grid-template-columns:repeat(3,1fr)}#playerSheet.v63-probable-sheet{padding-left:12px!important;padding-right:12px!important}}
+@media(max-width:370px){.v63-profile h2{font-size:23px}.v63-form-grid{grid-template-columns:1fr 1fr}.v63-form-card:last-child{grid-column:1/-1}}
