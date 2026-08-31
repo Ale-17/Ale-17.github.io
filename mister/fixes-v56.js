@@ -29,6 +29,8 @@ let track=row.querySelector('.v56-growth-track');if(!track){track=document.creat
 }
 function queue(){if(queued)return;queued=true;requestAnimationFrame(decorate)}
 function bind(){if(bound)return;bound=true;document.addEventListener('click',e=>{const btn=e.target.closest?.('[data-v56-period]');if(!btn)return;e.preventDefault();e.stopPropagation();selected=btn.dataset.v56Period||'d1';decorate()},true);const table=$('#leagueTable');if(table)new MutationObserver(queue).observe(table,{childList:true})}
+function loadV57(){if(!document.querySelector('link[data-fantasy-v57]')){const l=document.createElement('link');l.rel='stylesheet';l.href='./fixes-v57.css?v=57';l.dataset.fantasyV57='1';document.head.appendChild(l)}if(!document.querySelector('script[data-fantasy-v57]')){const s=document.createElement('script');s.src='./fixes-v57.js?v=57';s.async=false;s.dataset.fantasyV57='1';document.head.appendChild(s)}}
+loadV57();
 async function init(){bind();await ensure();decorate();window.addEventListener('fantasy:ready',()=>setTimeout(async()=>{await ensure(true);decorate()},140));setTimeout(decorate,700)}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
