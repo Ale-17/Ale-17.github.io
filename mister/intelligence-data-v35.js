@@ -1,146 +1,20 @@
 (()=>{
 'use strict';
-
-// V35 enriches player_details with the full-player Mister sweep.
-const nativeFetch=window.fetch.bind(window);
-const TTL=20000;
-let liveCache={at:0,data:null};
-
-function urlOf(input){
-  try{return new URL(typeof input==='string'?input:input?.url,location.href)}catch{return null}
-}
-function isPlayerDetails(input){
-  const u=urlOf(input);return !!u&&/\/data\/player_details\.json$/i.test(u.pathname)
-}
+const nativeFetch=window.fetch.bind(window),TTL=20000;let liveCache={at:0,data:null};
+function urlOf(input){try{return new URL(typeof input==='string'?input:input?.url,location.href)}catch{return null}}
+function isPlayerDetails(input){const u=urlOf(input);return !!u&&/\/data\/player_details\.json$/i.test(u.pathname)}
 function n(v){return Number.isFinite(Number(v))?Number(v):null}
 function gameweekNumber(v){const m=String(v??'').match(/\d+/);return m?Number(m[0]):9999}
-function eventStats(tokens){
-  const list=Array.isArray(tokens)?tokens:[];
-  let goals=0,assists=0;
-  for(const raw of list){
-    const t=String(raw||'').toLowerCase();
-    if(/goal(?!assist)|events-goal|#goal\b|\bgol\b/.test(t))goals++;
-    if(/assist|asistencia/.test(t))assists++;
-  }
-  const stats={};if(goals)stats.goals=goals;if(assists)stats.goalAssist=assists;return stats
-}
-function normalizeRecent(row){
-  const role=String(row?.role||'').toLowerCase();
-  const starter=row?.starter===true||role==='starter'?true:row?.starter===false||role==='bench'?false:null;
-  return {
-    gameweek_id:String(row?.gameweek_id||''),
-    gameweek:row?.gameweek||null,
-    status:'played',
-    points:n(row?.points),
-    starter,
-    minutes:n(row?.minutes),
-    sofascore_rating:n(row?.sofascore_rating),
-    stats:{...(row?.stats||{})}
-  }
-}
-async function liveData(){
-  if(liveCache.data&&Date.now()-liveCache.at<TTL)return liveCache.data;
-  try{
-    const r=await nativeFetch(`./data/gameweek_live.json?v=${Date.now()}`,{cache:'no-store'});
-    if(!r.ok)return null;
-    const data=await r.json();liveCache={at:Date.now(),data};return data
-  }catch{return null}
-}
-function upsertMatch(node,row){
-  if(!row?.gameweek_id)return;
-  const rows=Array.isArray(node.matches)?node.matches:(node.matches=[]);
-  const idx=rows.findIndex(x=>String(x?.gameweek_id||'')===String(row.gameweek_id));
-  if(idx<0)rows.push(row);
-  else{
-    const old=rows[idx]||{};
-    rows[idx]={...row,...old,stats:{...(row.stats||{}),...(old.stats||{})}};
-  }
-}
-function enrich(details,live){
-  if(!details||typeof details!=='object'||!live||typeof live!=='object')return details;
-  const players=details.players&&typeof details.players==='object'?details.players:(details.players={});
-  const currentGid=String(live.gameweek_id||'');
-  for(const match of (Array.isArray(live.matches)?live.matches:[])){
-    for(const p of (Array.isArray(match?.all_players)?match.all_players:[])){
-      const pid=String(p?.player_id||'');if(!pid)continue;
-      const node=players[pid]&&typeof players[pid]==='object'?players[pid]:(players[pid]={matches:[]});
-      if(!Array.isArray(node.matches))node.matches=[];
-      for(const r of (Array.isArray(p?.recent)?p.recent:[]))upsertMatch(node,normalizeRecent(r));
-      if(currentGid&&p?.points!==null&&p?.points!==undefined&&(match?.status==='played'||match?.status==='playing')){
-        upsertMatch(node,{
-          gameweek_id:currentGid,
-          gameweek:live.name||`J${live.gameweek_number||''}`,
-          status:match.status,
-          points:n(p.points),
-          starter:null,
-          minutes:null,
-          sofascore_rating:null,
-          stats:eventStats(p.event_tokens)
-        });
-      }
-      node._fantasy_v35={
-        source:'Mister all-player sweep',
-        owner_name:p.owner_name||null,
-        lineup_status:match?.lineup_status||null,
-        match_id:String(match?.match_id||''),
-        recent_avg_points:n(p.recent_avg_points),
-        recent_starts:n(p.recent_starts),
-        recent_games:n(p.recent_games)
-      };
-      node.matches.sort((a,b)=>gameweekNumber(a?.gameweek||a?.gameweek_id)-gameweekNumber(b?.gameweek||b?.gameweek_id));
-    }
-  }
-  details._fantasy_v35={
-    source:'gameweek_live.all_players',
-    gameweek_id:currentGid,
-    captured_at:live?.all_player_intelligence?.captured_at||live?.captured_at||null
-  };
-  return details
-}
-
-window.fetch=async function(input,init){
-  if(!isPlayerDetails(input))return nativeFetch(input,init);
-  const response=await nativeFetch(input,init);
-  if(!response.ok)return response;
-  const fallback=response.clone();
-  try{
-    const [details,live]=await Promise.all([response.json(),liveData()]);
-    if(!live)return fallback;
-    const merged=enrich(details,live);
-    const headers=new Headers(response.headers);headers.set('content-type','application/json; charset=utf-8');headers.set('x-fantasy-intelligence','v35');
-    return new Response(JSON.stringify(merged),{status:response.status,statusText:response.statusText,headers});
-  }catch{return fallback}
-};
-
-function addCss(version){
-  const key=`fantasyV${version}`,attr=`data-fantasy-v${version}`;
-  if(document.querySelector(`link[${attr}]`))return;
-  const l=document.createElement('link');l.rel='stylesheet';l.href=`./fixes-v${version}.css?v=${version}`;l.dataset[key]=`1`;document.head.appendChild(l)
-}
-function loadScript(version,next){
-  const key=`fantasyV${version}`,attr=`data-fantasy-v${version}`;addCss(version);
-  const existing=document.querySelector(`script[${attr}]`);
-  if(existing){if(existing.dataset.loaded==='1')next?.();else existing.addEventListener('load',()=>next?.(),{once:true});return}
-  const s=document.createElement('script');s.src=`./fixes-v${version}.js?v=${version}`;s.async=false;s.dataset[key]='1';s.addEventListener('load',()=>{s.dataset.loaded='1';next?.()},{once:true});document.head.appendChild(s)
-}
-function loadV68(){
-  if(!document.querySelector('link[data-fantasy-v68]')){const l=document.createElement('link');l.rel='stylesheet';l.href='./fixes-v68.css?v=68';l.dataset.fantasyV68='1';document.head.appendChild(l)}
-  if(!document.querySelector('script[data-fantasy-v68]')){const s=document.createElement('script');s.src='./fixes-v68.js?v=68';s.async=false;s.dataset.fantasyV68='1';document.head.appendChild(s)}
-}
-function loadV69(){
-  if(document.querySelector('link[data-fantasy-v69]'))return;
-  const l=document.createElement('link');l.rel='stylesheet';l.href='./fixes-v69.css?v=69';l.dataset.fantasyV69='1';document.head.appendChild(l)
-}
+function eventStats(tokens){let goals=0,assists=0;for(const raw of Array.isArray(tokens)?tokens:[]){const t=String(raw||'').toLowerCase();if(/goal(?!assist)|events-goal|#goal\b|\bgol\b/.test(t))goals++;if(/assist|asistencia/.test(t))assists++}const stats={};if(goals)stats.goals=goals;if(assists)stats.goalAssist=assists;return stats}
+function normalizeRecent(row){const role=String(row?.role||'').toLowerCase(),starter=row?.starter===true||role==='starter'?true:row?.starter===false||role==='bench'?false:null;return{gameweek_id:String(row?.gameweek_id||''),gameweek:row?.gameweek||null,status:'played',points:n(row?.points),starter,minutes:n(row?.minutes),sofascore_rating:n(row?.sofascore_rating),stats:{...(row?.stats||{})}}}
+async function liveData(){if(liveCache.data&&Date.now()-liveCache.at<TTL)return liveCache.data;try{const r=await nativeFetch(`./data/gameweek_live.json?v=${Date.now()}`,{cache:'no-store'});if(!r.ok)return null;const data=await r.json();liveCache={at:Date.now(),data};return data}catch{return null}}
+function upsertMatch(node,row){if(!row?.gameweek_id)return;const rows=Array.isArray(node.matches)?node.matches:(node.matches=[]),idx=rows.findIndex(x=>String(x?.gameweek_id||'')===String(row.gameweek_id));if(idx<0)rows.push(row);else{const old=rows[idx]||{};rows[idx]={...row,...old,stats:{...(row.stats||{}),...(old.stats||{})}}}}
+function enrich(details,live){if(!details||typeof details!=='object'||!live||typeof live!=='object')return details;const players=details.players&&typeof details.players==='object'?details.players:(details.players={}),currentGid=String(live.gameweek_id||'');for(const match of (Array.isArray(live.matches)?live.matches:[])){for(const p of (Array.isArray(match?.all_players)?match.all_players:[])){const pid=String(p?.player_id||'');if(!pid)continue;const node=players[pid]&&typeof players[pid]==='object'?players[pid]:(players[pid]={matches:[]});if(!Array.isArray(node.matches))node.matches=[];for(const r of (Array.isArray(p?.recent)?p.recent:[]))upsertMatch(node,normalizeRecent(r));if(currentGid&&p?.points!==null&&p?.points!==undefined&&(match?.status==='played'||match?.status==='playing'))upsertMatch(node,{gameweek_id:currentGid,gameweek:live.name||`J${live.gameweek_number||''}`,status:match.status,points:n(p.points),starter:null,minutes:null,sofascore_rating:null,stats:eventStats(p.event_tokens)});node._fantasy_v35={source:'Mister all-player sweep',owner_name:p.owner_name||null,lineup_status:match?.lineup_status||null,match_id:String(match?.match_id||''),recent_avg_points:n(p.recent_avg_points),recent_starts:n(p.recent_starts),recent_games:n(p.recent_games)};node.matches.sort((a,b)=>gameweekNumber(a?.gameweek||a?.gameweek_id)-gameweekNumber(b?.gameweek||b?.gameweek_id))}}details._fantasy_v35={source:'gameweek_live.all_players',gameweek_id:currentGid,captured_at:live?.all_player_intelligence?.captured_at||live?.captured_at||null};return details}
+window.fetch=async function(input,init){if(!isPlayerDetails(input))return nativeFetch(input,init);const response=await nativeFetch(input,init);if(!response.ok)return response;const fallback=response.clone();try{const [details,live]=await Promise.all([response.json(),liveData()]);if(!live)return fallback;const merged=enrich(details,live),headers=new Headers(response.headers);headers.set('content-type','application/json; charset=utf-8');headers.set('x-fantasy-intelligence','v35');return new Response(JSON.stringify(merged),{status:response.status,statusText:response.statusText,headers})}catch{return fallback}};
+function addCss(version){const key=`fantasyV${version}`,attr=`data-fantasy-v${version}`;if(document.querySelector(`link[${attr}]`))return;const l=document.createElement('link');l.rel='stylesheet';l.href=`./fixes-v${version}.css?v=${version}`;l.dataset[key]=`1`;document.head.appendChild(l)}
+function loadScript(version,next){const key=`fantasyV${version}`,attr=`data-fantasy-v${version}`;addCss(version);const existing=document.querySelector(`script[${attr}]`);if(existing){if(existing.dataset.loaded==='1')next?.();else existing.addEventListener('load',()=>next?.(),{once:true});return}const s=document.createElement('script');s.src=`./fixes-v${version}.js?v=${version}`;s.async=false;s.dataset[key]='1';s.addEventListener('load',()=>{s.dataset.loaded='1';next?.()},{once:true});document.head.appendChild(s)}
+function loadV68(){if(!document.querySelector('link[data-fantasy-v68]')){const l=document.createElement('link');l.rel='stylesheet';l.href='./fixes-v68.css?v=68';l.dataset.fantasyV68='1';document.head.appendChild(l)}if(!document.querySelector('script[data-fantasy-v68]')){const s=document.createElement('script');s.src='./fixes-v68.js?v=68';s.async=false;s.dataset.fantasyV68='1';document.head.appendChild(s)}}
+function loadV69(){if(document.querySelector('link[data-fantasy-v69]'))return;const l=document.createElement('link');l.rel='stylesheet';l.href='./fixes-v69.css?v=69';l.dataset.fantasyV69='1';document.head.appendChild(l)}
 function loadFixes(){loadScript(36,()=>loadScript(37,()=>loadScript(38,()=>loadScript(39,()=>loadScript(40,()=>loadScript(41,()=>loadScript(42,()=>loadScript(43,()=>loadScript(44,()=>loadScript(45,()=>loadScript(46,()=>loadScript(47,()=>loadScript(48,()=>loadScript(49,()=>loadScript(50,()=>loadScript(53,()=>loadScript(54)))))))))))))))))}
-loadV68();
-loadV69();
-loadScript(70);
-addCss(71);
-loadScript(72);
-loadScript(73);
-loadScript(74);
-loadScript(75);
-loadScript(77);
-loadScript(78);
-if(document.readyState==='loading')window.addEventListener('DOMContentLoaded',loadFixes,{once:true});else setTimeout(loadFixes,0);
+loadV68();loadV69();loadScript(70);addCss(71);loadScript(72);loadScript(73);loadScript(74);loadScript(75);loadScript(77);loadScript(78);loadScript(79);if(document.readyState==='loading')window.addEventListener('DOMContentLoaded',loadFixes,{once:true});else setTimeout(loadFixes,0);
 })();
