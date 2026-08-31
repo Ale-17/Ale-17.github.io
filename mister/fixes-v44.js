@@ -104,7 +104,7 @@ function openProfile(id){
 function bind(){
   document.addEventListener('click',e=>{
     const tab=e.target.closest?.('[data-v44-side]');if(tab){e.preventDefault();e.stopPropagation();activeSide=tab.dataset.v44Side==='away'?'away':'home';const sec=tab.closest('.v44-lineups');if(sec){sec.dataset.v44Ready='0';enhance()}return}
-    const p=e.target.closest?.('[data-v44-player]');if(p){e.preventDefault();e.stopPropagation();openProfile(p.dataset.v44Player)}
+    const p=e.target.closest?.('.v44-player');if(p){e.preventDefault();e.stopPropagation();if(typeof window.FantasyOSOpenProbableProfile==='function'){window.FantasyOSOpenProbableProfile(p);return}const id=p.dataset.v44Player;if(id)openProfile(id)}
   },true);
   const content=$('#sheetContent');if(content)new MutationObserver(()=>requestAnimationFrame(enhance)).observe(content,{childList:true,subtree:true});
 }
