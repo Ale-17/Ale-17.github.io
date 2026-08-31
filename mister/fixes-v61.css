@@ -1,0 +1,62 @@
+/* Fantasy OS V61 — top-aligned sheet guard + optical header icon centering */
+
+/* Every bottom-sheet style panel must use the full available visual viewport. */
+#playerSheet.open,
+.v43-sheet,
+.v28-offers-sheet{
+  height:calc(100dvh - 2px)!important;
+  max-height:calc(100dvh - 2px)!important;
+  min-height:0!important;
+  top:auto!important;
+  bottom:0!important;
+}
+
+/* The XI advisor had its own 94dvh cap and therefore escaped the older V47 guard. */
+.v43-sheet-scroll{
+  height:100%!important;
+  max-height:100%!important;
+  min-height:0!important;
+  overflow-y:auto!important;
+  overscroll-behavior-y:contain;
+  -webkit-overflow-scrolling:touch;
+}
+
+/* Offers uses an overlay wrapper; preserve only the tiny safe-area breathing room. */
+.v28-offers-overlay{
+  box-sizing:border-box!important;
+  padding-top:max(2px,env(safe-area-inset-top))!important;
+}
+.v28-offers-sheet{
+  height:100%!important;
+  max-height:100%!important;
+}
+
+/* Remove the global svg top margin inherited from native.css so header icons are truly centered. */
+.v58-header-actions>.round-action,
+.v58-header-actions>.privacy-toggle{
+  align-items:center!important;
+  justify-items:center!important;
+  align-content:center!important;
+  justify-content:center!important;
+  line-height:0!important;
+}
+.v58-header-actions>.round-action svg,
+.v58-header-actions>.privacy-toggle svg{
+  display:block!important;
+  margin:0!important;
+  padding:0!important;
+  vertical-align:middle!important;
+}
+.v58-header-actions>.round-action svg{
+  width:19px!important;
+  height:19px!important;
+}
+
+@supports not (height:100dvh){
+  #playerSheet.open,
+  .v43-sheet,
+  .v28-offers-sheet{
+    height:calc(100vh - 2px)!important;
+    max-height:calc(100vh - 2px)!important;
+  }
+}
