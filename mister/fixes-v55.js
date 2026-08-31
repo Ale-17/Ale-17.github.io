@@ -27,6 +27,8 @@ function render(){queued=false;if(!latest)return;const root=$('#sheetContent .v3
 function queue(){if(queued)return;queued=true;requestAnimationFrame(render)}
 function openPlayer(id){if(!id)return;const bridge=document.createElement('span');bridge.className='v36-match v55-profile-bridge';const btn=document.createElement('button');btn.type='button';btn.dataset.v38PlayerId=String(id);bridge.appendChild(btn);document.body.appendChild(bridge);btn.click();setTimeout(()=>bridge.remove(),0)}
 function bind(){document.addEventListener('click',e=>{const row=e.target.closest?.('.v55-move[data-v55-player-id]');if(!row)return;e.preventDefault();e.stopPropagation();openPlayer(row.dataset.v55PlayerId)},true)}
+function loadV56(){if(!document.querySelector('link[data-fantasy-v56]')){const l=document.createElement('link');l.rel='stylesheet';l.href='./fixes-v56.css?v=56';l.dataset.fantasyV56='1';document.head.appendChild(l)}if(!document.querySelector('script[data-fantasy-v56]')){const s=document.createElement('script');s.src='./fixes-v56.js?v=56';s.async=false;s.dataset.fantasyV56='1';document.head.appendChild(s)}}
+loadV56();
 async function init(){await ensure();bind();render();const content=$('#sheetContent');if(content)new MutationObserver(queue).observe(content,{childList:true,subtree:true});window.addEventListener('fantasy:ready',()=>setTimeout(async()=>{await ensure(true);render()},120));setTimeout(render,700)}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
