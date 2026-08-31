@@ -1,13 +1,18 @@
 {
+  "id": "./",
   "name": "Fantasy OS · Mister Intelligence",
   "short_name": "Fantasy OS",
   "description": "Tracker de Mister con mercado, equipo, tabla y análisis avanzado.",
-  "start_url": "./?v=10",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
   "background_color": "#08080d",
   "theme_color": "#08080d",
   "icons": [
-    {"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+    {"src":"./icon.svg","sizes":"192x192","type":"image/svg+xml","purpose":"any"},
+    {"src":"./icon.svg","sizes":"512x512","type":"image/svg+xml","purpose":"any"},
+    {"src":"./icon.svg","sizes":"512x512","type":"image/svg+xml","purpose":"maskable"}
   ]
 }

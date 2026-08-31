@@ -1,0 +1,21 @@
+/* Fantasy OS V70 — installable mobile app */
+html body .v70-install-card{display:grid;grid-template-columns:46px minmax(0,1fr) auto;gap:12px;align-items:center;margin:14px 0;padding:14px;border:1px solid rgba(255,255,255,.09);border-radius:18px;background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.025));box-shadow:0 12px 30px rgba(0,0,0,.16)}
+html body .v70-install-card__icon,html body .v70-install-icon{display:grid;place-items:center;background:linear-gradient(145deg,#27e37d,#0aa75a);color:#07120c;font-weight:900;box-shadow:0 8px 22px rgba(17,211,111,.2)}
+html body .v70-install-card__icon{width:46px;height:46px;border-radius:14px;font-size:21px}
+html body .v70-install-card__copy{min-width:0;display:flex;flex-direction:column;gap:3px}
+html body .v70-install-card__copy strong{font-size:14px;line-height:1.2;color:var(--color-neutral-10,#fff)}
+html body .v70-install-card__copy small{font-size:11px;line-height:1.35;color:var(--color-neutral-6,#969aa5)}
+html body .v70-install-card>button{height:38px;padding:0 13px;border:0;border-radius:12px;background:#20d873;color:#06110b;font-size:12px;font-weight:800;white-space:nowrap}
+html body .v70-install-card>button:disabled{background:rgba(32,216,115,.12);color:#59d991}
+html body .v70-install-card.is-installed{border-color:rgba(32,216,115,.18)}
+html body #playerSheet.v70-install-sheet{top:max(env(safe-area-inset-top),8px)!important;height:calc(100dvh - max(env(safe-area-inset-top),8px))!important;max-height:none!important;border-radius:22px 22px 0 0!important}
+html body .v70-install-help{padding:26px 20px calc(32px + env(safe-area-inset-bottom));max-width:620px;margin:0 auto}
+html body .v70-install-icon{width:68px;height:68px;border-radius:20px;font-size:30px;margin:6px 0 18px}
+html body .v70-install-help h2{margin:6px 0 8px;font-size:25px;line-height:1.1}
+html body .v70-install-help>p{margin:0;color:var(--color-neutral-6,#a0a3ad);font-size:14px;line-height:1.5}
+html body .v70-install-steps{display:grid;gap:10px;margin:22px 0}
+html body .v70-install-steps>div{display:grid;grid-template-columns:32px 1fr;gap:10px;align-items:center;padding:13px 14px;border:1px solid rgba(255,255,255,.08);border-radius:15px;background:rgba(255,255,255,.035)}
+html body .v70-install-steps b{display:grid;place-items:center;width:30px;height:30px;border-radius:10px;background:rgba(32,216,115,.12);color:#55df94}
+html body .v70-install-steps span{font-size:13px;line-height:1.35}
+html body .v70-install-note{padding:14px;border-radius:14px;background:rgba(255,255,255,.035)}
+@media(max-width:380px){html body .v70-install-card{grid-template-columns:42px minmax(0,1fr);padding:12px}html body .v70-install-card__icon{width:42px;height:42px}html body .v70-install-card>button{grid-column:1/-1;width:100%}}
