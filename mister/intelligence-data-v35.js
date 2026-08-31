@@ -136,5 +136,6 @@ loadV68();
 loadV69();
 loadScript(70);
 addCss(71);
+loadScript(72);
 if(document.readyState==='loading')window.addEventListener('DOMContentLoaded',loadFixes,{once:true});else setTimeout(loadFixes,0);
 })();
