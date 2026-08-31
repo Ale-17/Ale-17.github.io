@@ -1,0 +1,23 @@
+/* Fantasy OS V73 — privacy in league table belongs only to Ale; rival finance stays visible */
+.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .privacy-value{color:inherit!important;text-shadow:initial!important;user-select:auto!important;overflow:visible!important}
+.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .privacy-value::after{content:none!important;display:none!important}
+.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v56-manager-meta strong{color:#a7b0b6!important}
+.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v56-growth-track{opacity:1!important}
+.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v56-growth-track.pending{opacity:0!important}
+.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v56-growth-pill.positive{color:#43dd8d!important}
+.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v56-growth-pill.positive em{background:rgba(67,221,141,.10)!important}
+.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v56-growth-pill.negative{color:#ff6b80!important}
+.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v56-growth-pill.negative em{background:rgba(255,107,128,.10)!important}
+.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v56-growth-pill.flat{color:#8b949b!important}
+.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v56-growth-pill.flat em{background:rgba(139,148,155,.09)!important}
+.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v56-growth-pill.pending{color:#5e6870!important}
+.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v57-market-growth>strong,.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v57-market-growth>em{position:static!important;overflow:visible!important}
+.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v57-market-growth>strong::after,.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v57-market-growth>em::after{content:none!important;display:none!important}
+.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v57-market-growth.positive>strong,.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v57-market-growth.positive>em{color:#43dd8d!important}
+.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v57-market-growth.positive>em{background:rgba(67,221,141,.09)!important}
+.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v57-market-growth.negative>strong,.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v57-market-growth.negative>em{color:#ff6b80!important}
+.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v57-market-growth.negative>em{background:rgba(255,107,128,.09)!important}
+.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v57-market-growth.flat>strong,.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v57-market-growth.flat>em{color:#929aa0!important}
+.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v57-market-growth.pending>strong{color:#59636a!important}
+.privacy-mode #leagueTable .table-row:not(.me):not(.v73-own-manager) .v57-market-growth>i{display:inline-block!important}
+#playerSheet.v36-manager-sheet.open{overscroll-behavior-y:contain}
