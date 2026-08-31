@@ -1,6 +1,6 @@
 {
-  "captured_at": "2026-08-31T13:35:30+02:00",
-  "last_checked_at": "2026-08-31T13:35:30+02:00",
+  "captured_at": "2026-08-31T17:51:52+02:00",
+  "last_checked_at": "2026-08-31T17:51:52+02:00",
   "status": "ok",
   "source": "Mister .feed-top-gameweek + read-only match popup",
   "semantics": "Fantasy OS mirrors the active round shown by Mister and enriches compact fixture metadata from Mister's read-only match popup when the strip no longer exposes it.",
@@ -161,6 +161,20 @@
           "displayed_points": 14,
           "daily_market_change": 71000,
           "weekly_market_change": 679000,
+          "in_starting_xi": false,
+          "gameweek": null
+        },
+        {
+          "player_id": "71791",
+          "name": "P. Felipe",
+          "position": 2,
+          "team_id": "1490",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71791.png?version=20260805081823",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=20260619162046",
+          "market_value": 177000,
+          "displayed_points": 2,
+          "daily_market_change": -60000,
+          "weekly_market_change": -349000,
           "in_starting_xi": false,
           "gameweek": null
         }
@@ -1034,24 +1048,51 @@
               "status": "played",
               "points": 2,
               "home_team": {
-                "id": null,
-                "logo_url": null,
-                "name": ""
+                "id": "1490",
+                "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=",
+                "name": "Racing de Santander"
               },
               "away_team": {
-                "id": null,
-                "logo_url": null,
-                "name": ""
+                "id": "20",
+                "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/20.png?version=",
+                "name": "Villarreal"
               },
               "opponent": {
                 "id": "20",
-                "name": null,
+                "name": "Villarreal",
                 "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/20.png?version="
               },
               "starter": false,
               "role": "bench",
               "sub_event": "sub_in",
-              "source": "Mister player gameweek popup"
+              "source": "Mister player gameweek popup",
+              "home_away": "home",
+              "minutes": 21,
+              "score": "2 - 2",
+              "providers": {
+                "as": {
+                  "points": 2,
+                  "rating": null
+                },
+                "marca": {
+                  "points": 2,
+                  "rating": null
+                },
+                "sofascore": {
+                  "points": 1,
+                  "rating": 6.3
+                }
+              },
+              "sofascore_rating": 6.3,
+              "market_value_at_gameweek": 2824000,
+              "stats": {
+                "totalPass": 3,
+                "accuratePass": 3,
+                "duelLost": 4,
+                "goalAssist": 0,
+                "minutesPlayed": 21,
+                "aerialLost": 2
+              }
             },
             {
               "gameweek": "J2",
@@ -1935,21 +1976,21 @@
               "sofascore_rating": 7.4,
               "market_value_at_gameweek": 1900000,
               "stats": {
-                "totalContest": 4,
-                "duelWon": 8,
-                "totalClearance": 2,
-                "shotOffTarget": 1,
-                "onTargetScoringAttempt": 2,
-                "minutesPlayed": 90,
-                "totalTackle": 1,
                 "duelLost": 9,
-                "wonContest": 1,
+                "aerialWon": 4,
+                "totalClearance": 2,
+                "duelWon": 8,
+                "minutesPlayed": 90,
                 "accuratePass": 12,
+                "totalContest": 4,
+                "goals": 1,
+                "aerialLost": 6,
                 "goalAssist": 0,
                 "totalPass": 13,
-                "aerialLost": 6,
-                "aerialWon": 4,
-                "goals": 1
+                "onTargetScoringAttempt": 2,
+                "totalTackle": 1,
+                "wonContest": 1,
+                "shotOffTarget": 1
               },
               "source": "Mister player gameweek popup"
             }
@@ -2642,20 +2683,6 @@
       ],
       "market_players": [
         {
-          "player_id": "29169",
-          "name": "P. Ibáñez",
-          "position": 3,
-          "team_id": "48",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/29169.png?version=20231222190221",
-          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
-          "market_value": 2796000,
-          "displayed_points": 11,
-          "daily_market_change": 75000,
-          "weekly_market_change": 519000,
-          "in_starting_xi": false,
-          "gameweek": null
-        },
-        {
           "player_id": "64411",
           "name": "Y. Enríquez",
           "position": 2,
@@ -2689,6 +2716,20 @@
               "wonContest": 1
             }
           }
+        },
+        {
+          "player_id": "29169",
+          "name": "P. Ibáñez",
+          "position": 3,
+          "team_id": "48",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/29169.png?version=20231222190221",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+          "market_value": 2796000,
+          "displayed_points": 11,
+          "daily_market_change": 75000,
+          "weekly_market_change": 519000,
+          "in_starting_xi": false,
+          "gameweek": null
         }
       ],
       "all_players": [
@@ -3074,19 +3115,19 @@
               "sofascore_rating": 7.5,
               "market_value_at_gameweek": 2908000,
               "stats": {
-                "totalContest": 1,
-                "duelWon": 3,
-                "totalClearance": 9,
-                "shotOffTarget": 1,
-                "minutesPlayed": 90,
-                "totalTackle": 3,
                 "duelLost": 2,
+                "totalClearance": 9,
+                "duelWon": 3,
+                "minutesPlayed": 90,
                 "accuratePass": 19,
+                "accurateLongBalls": 1,
                 "totalLongBalls": 3,
+                "totalContest": 1,
                 "goalAssist": 0,
-                "totalPass": 22,
                 "interceptionWon": 1,
-                "accurateLongBalls": 1
+                "totalPass": 22,
+                "totalTackle": 3,
+                "shotOffTarget": 1
               },
               "source": "Mister player gameweek popup"
             }
@@ -3554,21 +3595,21 @@
               "sofascore_rating": 7.5,
               "market_value_at_gameweek": 4253000,
               "stats": {
-                "totalContest": 4,
-                "duelWon": 3,
-                "totalClearance": 2,
-                "shotOffTarget": 2,
-                "minutesPlayed": 71,
                 "keyPass": 1,
-                "totalTackle": 1,
                 "duelLost": 4,
-                "wonContest": 2,
+                "totalClearance": 2,
+                "duelWon": 3,
+                "minutesPlayed": 71,
                 "accuratePass": 5,
+                "accurateLongBalls": 1,
                 "totalLongBalls": 1,
+                "totalContest": 4,
                 "goalAssist": 1,
-                "totalPass": 7,
                 "interceptionWon": 2,
-                "accurateLongBalls": 1
+                "totalPass": 7,
+                "totalTackle": 1,
+                "wonContest": 2,
+                "shotOffTarget": 2
               },
               "source": "Mister player gameweek popup"
             }
@@ -4812,6 +4853,20 @@
       ],
       "market_players": [
         {
+          "player_id": "64432",
+          "name": "G. Petit",
+          "position": 4,
+          "team_id": "4",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/64432.png?version=20250719084412",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
+          "market_value": 208000,
+          "displayed_points": 0,
+          "daily_market_change": 4000,
+          "weekly_market_change": 48000,
+          "in_starting_xi": false,
+          "gameweek": null
+        },
+        {
           "player_id": "3728",
           "name": "M. Roca",
           "position": 3,
@@ -4843,20 +4898,6 @@
               "shotOffTarget": 1
             }
           }
-        },
-        {
-          "player_id": "25579",
-          "name": "O. Rey",
-          "position": 3,
-          "team_id": "12",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/25579.png?version=20250613152155",
-          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
-          "market_value": 766000,
-          "displayed_points": 11,
-          "daily_market_change": 51000,
-          "weekly_market_change": 238000,
-          "in_starting_xi": false,
-          "gameweek": null
         },
         {
           "player_id": "69281",
@@ -5617,8 +5658,8 @@
           "position": 3,
           "market_value": 766000,
           "displayed_points": 11,
-          "daily_market_change": 51000,
-          "weekly_market_change": 238000,
+          "daily_market_change": null,
+          "weekly_market_change": null,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
           "recent": [],
           "recent_avg_points": null,
@@ -6414,22 +6455,22 @@
               "sofascore_rating": 8.4,
               "market_value_at_gameweek": 2697000,
               "stats": {
-                "duelWon": 7,
-                "totalClearance": 13,
-                "shotOffTarget": 1,
-                "onTargetScoringAttempt": 1,
-                "minutesPlayed": 90,
-                "totalTackle": 3,
                 "duelLost": 3,
-                "accuratePass": 53,
-                "totalLongBalls": 10,
-                "goalAssist": 0,
-                "totalPass": 61,
-                "aerialLost": 2,
                 "aerialWon": 4,
-                "interceptionWon": 2,
+                "totalClearance": 13,
+                "duelWon": 7,
+                "minutesPlayed": 90,
+                "accuratePass": 53,
                 "accurateLongBalls": 4,
-                "goals": 1
+                "totalLongBalls": 10,
+                "goals": 1,
+                "aerialLost": 2,
+                "goalAssist": 0,
+                "interceptionWon": 2,
+                "totalPass": 61,
+                "onTargetScoringAttempt": 1,
+                "totalTackle": 3,
+                "shotOffTarget": 1
               },
               "source": "Mister player gameweek popup"
             }
@@ -6674,15 +6715,15 @@
               "sofascore_rating": 7.4,
               "market_value_at_gameweek": 5148000,
               "stats": {
-                "duelWon": 5,
-                "shotOffTarget": 1,
-                "minutesPlayed": 67,
                 "keyPass": 2,
-                "totalTackle": 3,
+                "aerialWon": 2,
+                "duelWon": 5,
+                "minutesPlayed": 67,
                 "accuratePass": 40,
                 "goalAssist": 1,
                 "totalPass": 42,
-                "aerialWon": 2
+                "totalTackle": 3,
+                "shotOffTarget": 1
               },
               "source": "Mister player gameweek popup"
             }
@@ -9870,7 +9911,7 @@
               "stats": {
                 "wonContest": 4,
                 "goalAssist": 0,
-                "totalContest": 4,
+                "totalContest": 6,
                 "aerialWon": 2,
                 "minutesPlayed": 80,
                 "aerialLost": 1,
@@ -9882,8 +9923,8 @@
                 "totalPass": 17,
                 "duelWon": 8,
                 "goals": 1,
-                "duelLost": 6,
-                "accuratePass": 11
+                "duelLost": 8,
+                "accuratePass": 12
               },
               "source": "Mister player gameweek popup"
             }
@@ -10110,11 +10151,11 @@
                 "shotOffTarget": 2,
                 "keyPass": 1,
                 "totalTackle": 1,
-                "totalPass": 15,
+                "totalPass": 12,
                 "duelWon": 3,
                 "duelLost": 10,
                 "blockedScoringAttempt": 1,
-                "accuratePass": 12
+                "accuratePass": 9
               },
               "source": "Mister player gameweek popup"
             }
@@ -10309,7 +10350,7 @@
               "sofascore_rating": 7.5,
               "market_value_at_gameweek": 1632000,
               "stats": {
-                "wonContest": 7,
+                "wonContest": 6,
                 "goalAssist": 0,
                 "totalContest": 9,
                 "minutesPlayed": 35,
@@ -10317,8 +10358,8 @@
                 "shotOffTarget": 1,
                 "keyPass": 1,
                 "totalPass": 13,
-                "duelWon": 9,
-                "duelLost": 3,
+                "duelWon": 8,
+                "duelLost": 4,
                 "accuratePass": 13
               },
               "source": "Mister player gameweek popup"
@@ -10707,7 +10748,7 @@
                 "totalTackle": 2,
                 "totalPass": 51,
                 "duelWon": 5,
-                "duelLost": 2,
+                "duelLost": 3,
                 "interceptionWon": 3,
                 "accuratePass": 48
               },
@@ -10907,7 +10948,7 @@
               "sofascore_rating": 9.2,
               "market_value_at_gameweek": 10910000,
               "stats": {
-                "totalClearance": 2,
+                "totalClearance": 1,
                 "goalAssist": 0,
                 "accurateLongBalls": 2,
                 "minutesPlayed": 85,
@@ -10916,13 +10957,13 @@
                 "totalLongBalls": 4,
                 "keyPass": 3,
                 "onTargetScoringAttempt": 2,
-                "totalPass": 43,
+                "totalPass": 44,
                 "duelWon": 3,
                 "goals": 2,
                 "duelLost": 3,
                 "interceptionWon": 1,
                 "blockedScoringAttempt": 1,
-                "accuratePass": 38
+                "accuratePass": 39
               },
               "source": "Mister player gameweek popup"
             }
@@ -11153,18 +11194,18 @@
               "sofascore_rating": 7.1,
               "market_value_at_gameweek": 9830000,
               "stats": {
-                "totalContest": 5,
-                "duelWon": 7,
-                "totalClearance": 1,
-                "minutesPlayed": 72,
                 "keyPass": 1,
                 "duelLost": 5,
-                "wonContest": 3,
-                "accuratePass": 30,
-                "totalLongBalls": 2,
+                "totalClearance": 1,
+                "duelWon": 8,
+                "minutesPlayed": 72,
+                "accuratePass": 31,
+                "accurateLongBalls": 3,
+                "totalLongBalls": 3,
+                "totalContest": 5,
                 "goalAssist": 1,
-                "totalPass": 32,
-                "accurateLongBalls": 2
+                "totalPass": 33,
+                "wonContest": 4
               },
               "source": "Mister player gameweek popup"
             }
@@ -11385,18 +11426,18 @@
               "sofascore_rating": 7.6,
               "market_value_at_gameweek": 9891000,
               "stats": {
-                "wonContest": 2,
+                "wonContest": 1,
                 "goalAssist": 1,
                 "accurateLongBalls": 5,
-                "totalContest": 2,
+                "totalContest": 1,
                 "aerialWon": 1,
                 "minutesPlayed": 90,
                 "totalLongBalls": 8,
                 "keyPass": 2,
-                "totalTackle": 3,
+                "totalTackle": 1,
                 "onTargetScoringAttempt": 1,
                 "totalPass": 80,
-                "duelWon": 8,
+                "duelWon": 5,
                 "duelLost": 5,
                 "accuratePass": 71
               },
@@ -11557,28 +11598,62 @@
               "status": "played",
               "points": 10,
               "home_team": {
-                "id": null,
-                "logo_url": null,
-                "name": ""
+                "id": "17",
+                "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=",
+                "name": "Sevilla"
               },
               "away_team": {
-                "id": null,
-                "logo_url": null,
-                "name": ""
+                "id": "2",
+                "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/2.png?version=",
+                "name": "Atlético"
               },
               "opponent": {
                 "id": "17",
-                "name": null,
+                "name": "Sevilla",
                 "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version="
               },
               "starter": true,
               "role": "starter",
               "sub_event": "sub_out",
-              "source": "Mister player gameweek popup"
+              "source": "Mister player gameweek popup",
+              "home_away": "away",
+              "minutes": 66,
+              "score": "1 - 3",
+              "providers": {
+                "as": {
+                  "points": 9,
+                  "rating": null
+                },
+                "marca": {
+                  "points": 9,
+                  "rating": null
+                },
+                "sofascore": {
+                  "points": 11,
+                  "rating": 7.6
+                }
+              },
+              "sofascore_rating": 7.6,
+              "market_value_at_gameweek": 11381000,
+              "stats": {
+                "wonContest": 2,
+                "totalLongBalls": 1,
+                "duelWon": 4,
+                "totalContest": 3,
+                "totalPass": 32,
+                "onTargetScoringAttempt": 1,
+                "blockedScoringAttempt": 2,
+                "goals": 1,
+                "accuratePass": 25,
+                "duelLost": 3,
+                "goalAssist": 0,
+                "minutesPlayed": 66,
+                "totalTackle": 1
+              }
             }
           ],
           "recent_avg_points": 4.666666666666667,
-          "recent_goals": 0,
+          "recent_goals": 1,
           "recent_assists": 0,
           "recent_starts": 3,
           "recent_games": 3,
@@ -11792,44 +11867,16 @@
       ],
       "market_players": [
         {
-          "player_id": "70994",
-          "name": "E. Jauregi",
+          "player_id": "63780",
+          "name": "C. Espí",
           "position": 4,
-          "team_id": "13",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/70994.png?version=20260621195646",
-          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
-          "market_value": 165000,
-          "displayed_points": 2,
-          "daily_market_change": -77000,
-          "weekly_market_change": -79000,
-          "in_starting_xi": false,
-          "gameweek": null
-        },
-        {
-          "player_id": "70932",
-          "name": "S. Martinez",
-          "position": 3,
           "team_id": "15",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/70932.png?version=20260619115800",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/63780.png?version=20260323155642",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=20221205131749",
-          "market_value": 1078000,
-          "displayed_points": 16,
-          "daily_market_change": 35000,
-          "weekly_market_change": 428000,
-          "in_starting_xi": false,
-          "gameweek": null
-        },
-        {
-          "player_id": "70918",
-          "name": "B. Silva",
-          "position": 3,
-          "team_id": "15",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/70918.png?version=20260617112939",
-          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=20221205131749",
-          "market_value": 10415000,
-          "displayed_points": 9,
-          "daily_market_change": 4000,
-          "weekly_market_change": 70000,
+          "market_value": 9242000,
+          "displayed_points": 15,
+          "daily_market_change": 83000,
+          "weekly_market_change": 755000,
           "in_starting_xi": false,
           "gameweek": null
         },
@@ -11881,6 +11928,34 @@
               "wonContest": 3
             }
           }
+        },
+        {
+          "player_id": "70994",
+          "name": "E. Jauregi",
+          "position": 4,
+          "team_id": "13",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/70994.png?version=20260621195646",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+          "market_value": 165000,
+          "displayed_points": 2,
+          "daily_market_change": -77000,
+          "weekly_market_change": -79000,
+          "in_starting_xi": false,
+          "gameweek": null
+        },
+        {
+          "player_id": "70918",
+          "name": "B. Silva",
+          "position": 3,
+          "team_id": "15",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/70918.png?version=20260617112939",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=20221205131749",
+          "market_value": 10415000,
+          "displayed_points": 9,
+          "daily_market_change": 4000,
+          "weekly_market_change": 70000,
+          "in_starting_xi": false,
+          "gameweek": null
         }
       ],
       "all_players": [
@@ -12237,7 +12312,7 @@
                 "onTargetScoringAttempt": 1,
                 "totalPass": 96,
                 "interceptionWon": 4,
-                "accuratePass": 87
+                "accuratePass": 88
               },
               "source": "Mister player gameweek popup"
             }
@@ -12717,10 +12792,12 @@
                 "totalTackle": 2,
                 "onTargetScoringAttempt": 2,
                 "totalPass": 38,
-                "duelWon": 6,
+                "duelWon": 7,
                 "goals": 1,
                 "duelLost": 2,
-                "accuratePass": 36
+                "accuratePass": 36,
+                "wonContest": 1,
+                "totalContest": 2
               },
               "source": "Mister player gameweek popup"
             }
@@ -12924,14 +13001,14 @@
               "sofascore_rating": 9.1,
               "market_value_at_gameweek": 24335000,
               "stats": {
-                "wonContest": 5,
+                "wonContest": 7,
                 "goalAssist": 0,
-                "totalContest": 6,
+                "totalContest": 8,
                 "minutesPlayed": 90,
                 "totalLongBalls": 1,
                 "onTargetScoringAttempt": 4,
-                "totalPass": 34,
-                "duelWon": 6,
+                "totalPass": 33,
+                "duelWon": 8,
                 "goals": 1,
                 "duelLost": 3,
                 "blockedScoringAttempt": 2,
@@ -14038,6 +14115,57 @@
           "gameweek": null
         },
         {
+          "player_id": "71139",
+          "name": "B. Ede",
+          "position": 2,
+          "team_id": "6",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71139.png?version=20260707174927",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/6.png?version=20260626093814",
+          "market_value": 1423000,
+          "displayed_points": 8,
+          "daily_market_change": 32000,
+          "weekly_market_change": 255000,
+          "in_starting_xi": false,
+          "gameweek": null
+        },
+        {
+          "player_id": "28791",
+          "name": "J. Vázquez",
+          "position": 2,
+          "team_id": "19",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/28791.png?version=20251006015643",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/19.png?version=",
+          "market_value": 1045000,
+          "displayed_points": 6,
+          "daily_market_change": 20000,
+          "weekly_market_change": 332000,
+          "in_starting_xi": false,
+          "gameweek": {
+            "points": 0,
+            "starter": true,
+            "role": "starter",
+            "minutes": 90,
+            "sofascore_rating": 6.1,
+            "score": "3 - 1",
+            "status": "played",
+            "stats": {
+              "duelLost": 7,
+              "aerialWon": 1,
+              "duelWon": 8,
+              "minutesPlayed": 90,
+              "accuratePass": 39,
+              "accurateLongBalls": 3,
+              "totalLongBalls": 4,
+              "totalContest": 4,
+              "aerialLost": 1,
+              "goalAssist": 0,
+              "totalPass": 44,
+              "totalTackle": 2,
+              "wonContest": 2
+            }
+          }
+        },
+        {
           "player_id": "65090",
           "name": "F. Ugrinic",
           "position": 3,
@@ -14078,57 +14206,6 @@
           "weekly_market_change": 50000,
           "in_starting_xi": false,
           "gameweek": null
-        },
-        {
-          "player_id": "55966",
-          "name": "A. Altimira",
-          "position": 2,
-          "team_id": "6",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/55966.png?version=20240617154112",
-          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/6.png?version=20260626093814",
-          "market_value": 2867000,
-          "displayed_points": 4,
-          "daily_market_change": 27000,
-          "weekly_market_change": 422000,
-          "in_starting_xi": false,
-          "gameweek": null
-        },
-        {
-          "player_id": "28791",
-          "name": "J. Vázquez",
-          "position": 2,
-          "team_id": "19",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/28791.png?version=20251006015643",
-          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/19.png?version=",
-          "market_value": 1045000,
-          "displayed_points": 6,
-          "daily_market_change": 20000,
-          "weekly_market_change": 332000,
-          "in_starting_xi": false,
-          "gameweek": {
-            "points": 0,
-            "starter": true,
-            "role": "starter",
-            "minutes": 90,
-            "sofascore_rating": 6.1,
-            "score": "3 - 1",
-            "status": "played",
-            "stats": {
-              "duelLost": 7,
-              "aerialWon": 1,
-              "duelWon": 8,
-              "minutesPlayed": 90,
-              "accuratePass": 39,
-              "accurateLongBalls": 3,
-              "totalLongBalls": 4,
-              "totalContest": 4,
-              "aerialLost": 1,
-              "goalAssist": 0,
-              "totalPass": 44,
-              "totalTackle": 2,
-              "wonContest": 2
-            }
-          }
         },
         {
           "player_id": "1153038",
@@ -14198,8 +14275,8 @@
           "position": 2,
           "market_value": 1423000,
           "displayed_points": 8,
-          "daily_market_change": null,
-          "weekly_market_change": null,
+          "daily_market_change": 32000,
+          "weekly_market_change": 255000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/6.png?version=20260626093814",
           "recent": [],
           "recent_avg_points": null,
@@ -15410,14 +15487,14 @@
           "player_id": "55966",
           "points": -2,
           "team_side": "home",
-          "owner_name": "Samuhg22",
+          "owner_name": "Libre / Mister",
           "is_mine": false,
-          "is_free": false,
+          "is_free": true,
           "position": 2,
-          "market_value": 2867000,
-          "displayed_points": 4,
-          "daily_market_change": 27000,
-          "weekly_market_change": 422000,
+          "market_value": null,
+          "displayed_points": null,
+          "daily_market_change": null,
+          "weekly_market_change": null,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/6.png?version=20260626093814",
           "recent": [],
           "recent_avg_points": null,
@@ -16258,20 +16335,6 @@
       ],
       "market_players": [
         {
-          "player_id": "60861",
-          "name": "J. El-Abdellaoui",
-          "position": 3,
-          "team_id": "5",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/60861.png?version=20250108113128",
-          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/5.png?version=20221205131749",
-          "market_value": 468000,
-          "displayed_points": 4,
-          "daily_market_change": 28000,
-          "weekly_market_change": 227000,
-          "in_starting_xi": false,
-          "gameweek": null
-        },
-        {
           "player_id": "28773",
           "name": "A. Paredes",
           "position": 2,
@@ -16306,6 +16369,20 @@
               "totalTackle": 1
             }
           }
+        },
+        {
+          "player_id": "60861",
+          "name": "J. El-Abdellaoui",
+          "position": 3,
+          "team_id": "5",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/60861.png?version=20250108113128",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/5.png?version=20221205131749",
+          "market_value": 468000,
+          "displayed_points": 4,
+          "daily_market_change": 28000,
+          "weekly_market_change": 227000,
+          "in_starting_xi": false,
+          "gameweek": null
         }
       ],
       "all_players": [
@@ -19161,11 +19238,11 @@
           "owner_name": "José Luis",
           "is_mine": false,
           "is_free": false,
-          "position": null,
+          "position": 4,
           "market_value": 6589000,
           "displayed_points": 5,
-          "daily_market_change": null,
-          "weekly_market_change": null,
+          "daily_market_change": -108000,
+          "weekly_market_change": -471000,
           "team_logo_url": null,
           "recent": [
             {
@@ -19984,10 +20061,10 @@
         },
         {
           "event_tokens": [],
-          "href": "players/71790/saba-sazonov",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71790.png",
-          "name": "S. Sazonov",
-          "player_id": "71790",
+          "href": "players/48960/kiko-femenia",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/48960.png",
+          "name": "K. Femenía",
+          "player_id": "48960",
           "points": null,
           "team_side": "away",
           "owner_name": "Libre / Mister",
@@ -20002,30 +20079,20 @@
           "recent": [
             {
               "events": [
-                "/img/mister/sprite-2025.svg?1786965925#events-sub_in"
+                "/img/mister/sprite-2025.svg?1786965925#events-red"
               ],
               "gameweek": "J1",
               "gameweek_id": "3968",
-              "points": 2,
-              "role": "bench",
-              "status": "played"
-            },
-            {
-              "events": [
-                "/img/mister/sprite-2025.svg?1786965925#events-yellow"
-              ],
-              "gameweek": "J2",
-              "gameweek_id": "4043",
-              "points": 2,
+              "points": -8,
               "role": "starter",
               "status": "played"
             }
           ],
-          "recent_avg_points": 2.0,
+          "recent_avg_points": -8.0,
           "recent_goals": 0,
           "recent_assists": 0,
           "recent_starts": 1,
-          "recent_games": 2
+          "recent_games": 1
         },
         {
           "event_tokens": [],
@@ -21121,11 +21188,11 @@
           "owner_name": "José Luis",
           "is_mine": false,
           "is_free": false,
-          "position": null,
+          "position": 3,
           "market_value": 5604000,
           "displayed_points": 7,
-          "daily_market_change": null,
-          "weekly_market_change": null,
+          "daily_market_change": -77000,
+          "weekly_market_change": -46000,
           "team_logo_url": null,
           "recent": [
             {
@@ -21314,9 +21381,9 @@
     "matches_still_without_kickoff": 0
   },
   "all_player_intelligence": {
-    "captured_at": "2026-08-31T13:35:30+02:00",
+    "captured_at": "2026-08-31T17:51:52+02:00",
     "semantics": "Candidate universe is every player Mister exposes for each match. Ownership is metadata only, never an eligibility filter.",
-    "profile_cache_refreshed": 0,
+    "profile_cache_refreshed": 1,
     "profile_cache_pending": 0,
     "featured_profiles_cached": 65,
     "featured_profile_semantics": "Top performers and event players use real Mister profile/gameweek popups for detailed recent form."
