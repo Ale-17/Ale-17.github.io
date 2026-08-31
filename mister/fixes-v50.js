@@ -35,3 +35,4 @@ async function refresh(force=false){await ensure(force);render()}
 async function init(){bind();await refresh();setTimeout(()=>refresh(),1100)}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
+(()=>{const load=()=>{if(!document.querySelector('link[data-fantasy-v51]')){const l=document.createElement('link');l.rel='stylesheet';l.href='./fixes-v51.css?v=51';l.dataset.fantasyV51='1';document.head.appendChild(l)}if(!document.querySelector('script[data-fantasy-v51]')){const s=document.createElement('script');s.src='./fixes-v51.js?v=51';s.async=false;s.dataset.fantasyV51='1';document.head.appendChild(s)}};if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',load,{once:true});else load()})();
