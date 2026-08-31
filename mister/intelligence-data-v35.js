@@ -135,5 +135,6 @@ function loadFixes(){loadScript(36,()=>loadScript(37,()=>loadScript(38,()=>loadS
 loadV68();
 loadV69();
 loadScript(70);
+addCss(71);
 if(document.readyState==='loading')window.addEventListener('DOMContentLoaded',loadFixes,{once:true});else setTimeout(loadFixes,0);
 })();
