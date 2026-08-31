@@ -1,0 +1,33 @@
+/* Fantasy OS V82 — smart alerts match Control Center action-card width exactly */
+.v77-alerts-card.v80-alert-card.v81-alert-card,
+.v77-alerts-card.v80-alert-card{
+  width:100%!important;
+  max-width:none!important;
+  min-height:76px!important;
+  margin:0 0 14px!important;
+  padding:14px 15px!important;
+  grid-template-columns:42px minmax(0,1fr) auto!important;
+  gap:12px!important;
+  box-sizing:border-box!important;
+  justify-self:stretch!important;
+  align-self:stretch!important;
+  border-radius:18px!important;
+}
+.v77-alerts-card.v80-alert-card .v80-alert-icon{
+  width:42px!important;
+  height:42px!important;
+}
+.v77-alerts-card.v80-alert-card>#v77AlertsAction{
+  padding:8px 0 8px 10px!important;
+}
+@media(max-width:420px){
+  .v77-alerts-card.v80-alert-card.v81-alert-card,
+  .v77-alerts-card.v80-alert-card{
+    width:100%!important;
+    max-width:none!important;
+    margin:0 0 14px!important;
+    padding:14px 15px!important;
+    grid-template-columns:42px minmax(0,1fr) auto!important;
+    gap:12px!important;
+  }
+}
