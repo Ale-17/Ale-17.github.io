@@ -1,50 +1,4 @@
-/* Fantasy OS V64 — stable header geometry + probable-lineup media/profile fixes */
-
-/* Keep the top controls in exactly the same geometry before and after data hydration. */
-.app-header{
-  height:84px!important;
-  min-height:84px!important;
-  padding:10px 13px!important;
-  align-items:center!important;
-}
-.app-header__brand{
-  align-self:center!important;
-  min-height:54px!important;
-  margin:0!important;
-}
-.v58-header-actions{
-  align-self:center!important;
-  box-sizing:border-box!important;
-  height:58px!important;
-  min-height:58px!important;
-  margin:0!important;
-  padding:4px!important;
-  transform:none!important;
-}
-.v58-header-actions .balance-chip{
-  box-sizing:border-box!important;
-  height:48px!important;
-  min-height:48px!important;
-  margin:0!important;
-  align-self:center!important;
-}
-.v58-header-actions>.round-action,
-.v58-header-actions>.privacy-toggle{
-  box-sizing:border-box!important;
-  width:40px!important;
-  height:40px!important;
-  min-width:40px!important;
-  min-height:40px!important;
-  margin:0!important;
-  align-self:center!important;
-  place-self:center!important;
-}
-.v58-header-actions>.round-action svg,
-.v58-header-actions>.privacy-toggle svg{
-  display:block!important;
-  margin:0!important;
-  transform-origin:50% 50%!important;
-}
+/* Fantasy OS V64/V65 — probable-lineup media/profile fixes without overriding the critical V60 header geometry */
 
 /* Probable lineups: every linked/fallback player should read as an intentional portrait. */
 .v44-player.v64-media .v44-player-avatar{
@@ -79,29 +33,4 @@
   font-size:5px;
   line-height:1.25;
   text-align:right;
-}
-
-@media(max-width:420px){
-  .app-header{
-    height:82px!important;
-    min-height:82px!important;
-    padding:9px 10px!important;
-  }
-  .app-header__brand{min-height:52px!important}
-  .v58-header-actions{
-    height:56px!important;
-    min-height:56px!important;
-    padding:3px!important;
-  }
-  .v58-header-actions .balance-chip{
-    height:46px!important;
-    min-height:46px!important;
-  }
-  .v58-header-actions>.round-action,
-  .v58-header-actions>.privacy-toggle{
-    width:38px!important;
-    height:38px!important;
-    min-width:38px!important;
-    min-height:38px!important;
-  }
 }

@@ -2,7 +2,7 @@
 'use strict';
 const $=s=>document.querySelector(s);
 let queued=false,refreshTimer=0;
-function loadV64(){if(!document.querySelector('link[data-fantasy-v64]')){const l=document.createElement('link');l.rel='stylesheet';l.href='./fixes-v64.css?v=64';l.dataset.fantasyV64='1';document.head.appendChild(l)}if(!document.querySelector('script[data-fantasy-v64]')){const s=document.createElement('script');s.src='./fixes-v64.js?v=64';s.dataset.fantasyV64='1';document.body.appendChild(s)}}
+function loadV64(){if(!document.querySelector('link[data-fantasy-v64]')){const l=document.createElement('link');l.rel='stylesheet';l.href='./fixes-v64.css?v=65';l.dataset.fantasyV64='1';document.head.appendChild(l)}if(!document.querySelector('script[data-fantasy-v64]')){const s=document.createElement('script');s.src='./fixes-v64.js?v=65';s.dataset.fantasyV64='1';document.body.appendChild(s)}}
 function loadV61(){if(document.querySelector('link[data-fantasy-v61]'))return;const l=document.createElement('link');l.rel='stylesheet';l.href='./fixes-v61.css?v=61';l.dataset.fantasyV61='1';document.head.appendChild(l)}
 function loadV63(){if(!document.querySelector('link[data-fantasy-v63]')){const l=document.createElement('link');l.rel='stylesheet';l.href='./fixes-v63.css?v=63';l.dataset.fantasyV63='1';document.head.appendChild(l)}if(!document.querySelector('script[data-fantasy-v63]')){const s=document.createElement('script');s.src='./fixes-v63.js?v=63';s.dataset.fantasyV63='1';document.body.appendChild(s)}}
 function refreshSvg(){return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6v5h-5"/><path d="M4 18v-5h5"/><path d="M6.1 9a7 7 0 0 1 11.3-2.4L20 9"/><path d="m4 15 2.6 2.4A7 7 0 0 0 17.9 15"/></svg>'}
