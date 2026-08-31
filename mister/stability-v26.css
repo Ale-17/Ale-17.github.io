@@ -7,3 +7,13 @@ html:not(.fantasy-ready) body{overflow:hidden}
 /* Keep the first screen visually inert until data is fully ready. */
 html:not(.fantasy-ready) .app-shell{visibility:hidden}
 html.fantasy-ready .app-shell{visibility:visible}
+
+/* V52 critical startup guard: never paint the obsolete Home recommendation while V50 hydrates. */
+html.fantasy-ready:not(.fantasy-v50-decisions) .screen[data-screen="home"]>:not(.home-status){display:none!important}
+html.fantasy-ready:not(.fantasy-v50-decisions) .screen[data-screen="home"]::after{content:"";display:block;height:286px;margin:16px 0 20px;border:1px solid #242c34;border-radius:20px;background:linear-gradient(100deg,#0d1217 18%,#151c22 38%,#0d1217 58%);background-size:220% 100%;animation:v52homeSkeleton 1.15s ease-in-out infinite;box-shadow:0 8px 26px rgba(0,0,0,.1)}
+@keyframes v52homeSkeleton{0%{background-position:100% 0}100%{background-position:-100% 0}}
+/* The old '#2 de 7' must not flash before V51 converts it to the interactive ordinal badge. */
+#rankBadge:not(.v51-rank-link){font-size:0!important;color:transparent!important;min-width:74px!important;min-height:38px!important;position:relative!important}
+#rankBadge:not(.v51-rank-link)::after{content:"";display:block;width:42px;height:10px;border-radius:7px;background:linear-gradient(90deg,#2a3038,#3a424c,#2a3038);background-size:180% 100%;animation:v52rankSkeleton 1s ease-in-out infinite}
+@keyframes v52rankSkeleton{0%{background-position:100% 0}100%{background-position:-100% 0}}
+@media(max-width:420px){html.fantasy-ready:not(.fantasy-v50-decisions) .screen[data-screen="home"]::after{height:255px;margin-top:14px;border-radius:18px}}
