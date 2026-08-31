@@ -1,6 +1,5 @@
-/* Fantasy OS V61 — top-aligned sheet guard + optical header icon centering */
+/* Fantasy OS V61/V62 — top-aligned sheets, centered header icons, compact XI advisor */
 
-/* Every bottom-sheet style panel must use the full available visual viewport. */
 #playerSheet.open,
 .v43-sheet,
 .v28-offers-sheet{
@@ -11,7 +10,6 @@
   bottom:0!important;
 }
 
-/* The XI advisor had its own 94dvh cap and therefore escaped the older V47 guard. */
 .v43-sheet-scroll{
   height:100%!important;
   max-height:100%!important;
@@ -21,7 +19,6 @@
   -webkit-overflow-scrolling:touch;
 }
 
-/* Offers uses an overlay wrapper; preserve only the tiny safe-area breathing room. */
 .v28-offers-overlay{
   box-sizing:border-box!important;
   padding-top:max(2px,env(safe-area-inset-top))!important;
@@ -31,7 +28,6 @@
   max-height:100%!important;
 }
 
-/* Remove the global svg top margin inherited from native.css so header icons are truly centered. */
 .v58-header-actions>.round-action,
 .v58-header-actions>.privacy-toggle{
   align-items:center!important;
@@ -50,6 +46,50 @@
 .v58-header-actions>.round-action svg{
   width:19px!important;
   height:19px!important;
+}
+
+/* V62: the pitch and metrics already explain the recommendation, so remove the redundant title block. */
+.v43-sheet-head{
+  position:relative!important;
+  display:block!important;
+  height:42px!important;
+  min-height:42px!important;
+  margin:0 0 5px!important;
+  padding:0!important;
+}
+.v43-sheet-head>div{
+  display:none!important;
+}
+.v43-sheet-head>button{
+  position:absolute!important;
+  top:0!important;
+  right:0!important;
+  width:38px!important;
+  height:38px!important;
+  margin:0!important;
+  padding:0!important;
+  display:grid!important;
+  place-items:center!important;
+  font-size:24px!important;
+  line-height:1!important;
+}
+.v43-hero{
+  margin-top:0!important;
+}
+
+@media(max-width:520px){
+  .v43-sheet-scroll{
+    padding-top:10px!important;
+  }
+  .v43-sheet-head{
+    height:39px!important;
+    min-height:39px!important;
+    margin-bottom:4px!important;
+  }
+  .v43-sheet-head>button{
+    width:36px!important;
+    height:36px!important;
+  }
 }
 
 @supports not (height:100dvh){
