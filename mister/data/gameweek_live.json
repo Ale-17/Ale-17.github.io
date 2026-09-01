@@ -1,6 +1,6 @@
 {
-  "captured_at": "2026-09-01T21:22:49+02:00",
-  "last_checked_at": "2026-09-01T21:22:49+02:00",
+  "captured_at": "2026-09-02T00:34:21+02:00",
+  "last_checked_at": "2026-09-02T00:34:21+02:00",
   "status": "ok",
   "source": "Mister .feed-top-gameweek + read-only match popup",
   "semantics": "Fantasy OS mirrors the active round shown by Mister and enriches compact fixture metadata from Mister's read-only match popup when the strip no longer exposes it.",
@@ -154,37 +154,28 @@
           "team_logo_url": null,
           "recent": [
             {
-              "gameweek_id": "3968",
+              "events": [],
               "gameweek": "J1",
+              "gameweek_id": "3968",
               "points": 7,
-              "starter": true,
-              "minutes": 90,
-              "sofascore_rating": 8.1,
-              "stats": {
-                "goalAssist": 0
-              }
+              "role": "starter",
+              "status": "played"
             },
             {
-              "gameweek_id": "4043",
+              "events": [],
               "gameweek": "J2",
+              "gameweek_id": "4043",
               "points": 8,
-              "starter": true,
-              "minutes": 90,
-              "sofascore_rating": 9.0,
-              "stats": {
-                "goalAssist": 0
-              }
+              "role": "starter",
+              "status": "played"
             },
             {
-              "gameweek_id": "4044",
+              "events": [],
               "gameweek": "J3",
+              "gameweek_id": "4044",
               "points": 6,
-              "starter": true,
-              "minutes": 90,
-              "sofascore_rating": 7.0,
-              "stats": {
-                "goalAssist": 0
-              }
+              "role": "starter",
+              "status": "played"
             }
           ],
           "recent_avg_points": 7.0,
@@ -422,38 +413,35 @@
           "team_logo_url": null,
           "recent": [
             {
-              "gameweek_id": "3968",
+              "events": [
+                "/img/mister/sprite-2025.svg?1786965925#events-sub_in"
+              ],
               "gameweek": "J1",
+              "gameweek_id": "3968",
               "points": 2,
-              "starter": false,
-              "minutes": 24,
-              "sofascore_rating": 6.6,
-              "stats": {
-                "goalAssist": 0
-              }
+              "role": "bench",
+              "status": "played"
             },
             {
-              "gameweek_id": "4043",
+              "events": [
+                "/img/mister/sprite-2025.svg?1786965925#events-sub_out"
+              ],
               "gameweek": "J2",
+              "gameweek_id": "4043",
               "points": 2,
-              "starter": true,
-              "minutes": 58,
-              "sofascore_rating": 6.4,
-              "stats": {
-                "goalAssist": 0
-              }
+              "role": "starter",
+              "status": "played"
             },
             {
-              "gameweek_id": "4044",
+              "events": [
+                "/img/mister/sprite-2025.svg?1786965925#events-sub_out",
+                "/img/mister/sprite-2025.svg?1786965925#events-goal"
+              ],
               "gameweek": "J3",
+              "gameweek_id": "4044",
               "points": 10,
-              "starter": true,
-              "minutes": 63,
-              "sofascore_rating": 7.1,
-              "stats": {
-                "goals": 1,
-                "goalAssist": 0
-              }
+              "role": "starter",
+              "status": "played"
             }
           ],
           "recent_avg_points": 4.666666666666667,
@@ -645,37 +633,36 @@
           "team_logo_url": null,
           "recent": [
             {
-              "gameweek_id": "3968",
+              "events": [
+                "/img/mister/sprite-2025.svg?1786965925#events-sub_out"
+              ],
               "gameweek": "J1",
+              "gameweek_id": "3968",
               "points": 3,
-              "starter": true,
-              "minutes": 57,
-              "sofascore_rating": 6.2,
-              "stats": {
-                "goalAssist": 0
-              }
+              "role": "starter",
+              "status": "played"
             },
             {
-              "gameweek_id": "4043",
+              "events": [
+                "/img/mister/sprite-2025.svg?1786965925#events-sub_in"
+              ],
               "gameweek": "J2",
+              "gameweek_id": "4043",
               "points": 3,
-              "starter": false,
-              "minutes": 32,
-              "sofascore_rating": 6.4,
-              "stats": {
-                "goalAssist": 0
-              }
+              "role": "bench",
+              "status": "played"
             },
             {
-              "gameweek_id": "4044",
+              "events": [
+                "/img/mister/sprite-2025.svg?1786965925#events-sub_out",
+                "/img/mister/sprite-2025.svg?1786965925#events-assist",
+                "/img/mister/sprite-2025.svg?1786965925#events-assist"
+              ],
               "gameweek": "J3",
+              "gameweek_id": "4044",
               "points": 8,
-              "starter": true,
-              "minutes": 89,
-              "sofascore_rating": 7.3,
-              "stats": {
-                "goalAssist": 2
-              }
+              "role": "starter",
+              "status": "played"
             }
           ],
           "recent_avg_points": 4.666666666666667,
@@ -703,38 +690,33 @@
           "team_logo_url": null,
           "recent": [
             {
-              "gameweek_id": "3968",
+              "events": [
+                "/img/mister/sprite-2025.svg?1786965925#events-sub_in"
+              ],
               "gameweek": "J1",
+              "gameweek_id": "3968",
               "points": 1,
-              "starter": false,
-              "minutes": 33,
-              "sofascore_rating": 6.5,
-              "stats": {
-                "goalAssist": 0
-              }
+              "role": "bench",
+              "status": "played"
             },
             {
-              "gameweek_id": "4043",
+              "events": [],
               "gameweek": "J2",
+              "gameweek_id": "4043",
               "points": 1,
-              "starter": true,
-              "minutes": 90,
-              "sofascore_rating": 6.2,
-              "stats": {
-                "goalAssist": 0
-              }
+              "role": "starter",
+              "status": "played"
             },
             {
-              "gameweek_id": "4044",
+              "events": [
+                "/img/mister/sprite-2025.svg?1786965925#events-sub_out",
+                "/img/mister/sprite-2025.svg?1786965925#events-goal"
+              ],
               "gameweek": "J3",
+              "gameweek_id": "4044",
               "points": 10,
-              "starter": true,
-              "minutes": 78,
-              "sofascore_rating": 7.6,
-              "stats": {
-                "goals": 1,
-                "goalAssist": 0
-              }
+              "role": "starter",
+              "status": "played"
             }
           ],
           "recent_avg_points": 4.0,
@@ -762,37 +744,30 @@
           "team_logo_url": null,
           "recent": [
             {
-              "gameweek_id": "3968",
+              "events": [],
               "gameweek": "J1",
+              "gameweek_id": "3968",
               "points": 1,
-              "starter": true,
-              "minutes": 90,
-              "sofascore_rating": 5.9,
-              "stats": {
-                "goalAssist": 0
-              }
+              "role": "starter",
+              "status": "played"
             },
             {
-              "gameweek_id": "4043",
+              "events": [
+                "/img/mister/sprite-2025.svg?1786965925#events-yellow"
+              ],
               "gameweek": "J2",
+              "gameweek_id": "4043",
               "points": 3,
-              "starter": true,
-              "minutes": 90,
-              "sofascore_rating": 6.9,
-              "stats": {
-                "goalAssist": 0
-              }
+              "role": "starter",
+              "status": "played"
             },
             {
-              "gameweek_id": "4044",
+              "events": [],
               "gameweek": "J3",
+              "gameweek_id": "4044",
               "points": 9,
-              "starter": true,
-              "minutes": 90,
-              "sofascore_rating": 8.5,
-              "stats": {
-                "goalAssist": 0
-              }
+              "role": "starter",
+              "status": "played"
             }
           ],
           "recent_avg_points": 4.333333333333333,
@@ -820,25 +795,25 @@
           "team_logo_url": null,
           "recent": [
             {
-              "gameweek_id": "3968",
+              "events": [
+                "/img/mister/sprite-2025.svg?1786965925#events-sub_in"
+              ],
               "gameweek": "J1",
+              "gameweek_id": "3968",
               "points": 2,
-              "starter": false,
-              "minutes": null,
-              "sofascore_rating": null,
-              "stats": {}
+              "role": "bench",
+              "status": "played"
             },
             {
-              "gameweek_id": "4043",
-              "gameweek": "J2",
-              "points": null,
-              "starter": null,
-              "minutes": null,
-              "sofascore_rating": null,
-              "stats": {}
+              "events": [],
+              "gameweek": "J3",
+              "gameweek_id": "4044",
+              "points": 4,
+              "role": "starter",
+              "status": "played"
             }
           ],
-          "recent_avg_points": 2.0,
+          "recent_avg_points": 3.0,
           "recent_goals": 0,
           "recent_assists": 0,
           "recent_starts": 1,
@@ -1209,29 +1184,35 @@
           "team_logo_url": null,
           "recent": [
             {
-              "gameweek_id": "3968",
+              "events": [
+                "/img/mister/sprite-2025.svg?1786965925#events-sub_in"
+              ],
               "gameweek": "J1",
+              "gameweek_id": "3968",
               "points": 3,
-              "starter": false,
-              "minutes": 11,
-              "sofascore_rating": 6.7,
-              "stats": {
-                "goalAssist": 0
-              }
+              "role": "bench",
+              "status": "played"
             },
             {
-              "gameweek_id": "4043",
+              "events": [
+                "/img/mister/sprite-2025.svg?1786965925#events-sub_out"
+              ],
               "gameweek": "J2",
+              "gameweek_id": "4043",
               "points": 1,
-              "starter": true,
-              "minutes": 64,
-              "sofascore_rating": 6.0,
-              "stats": {
-                "goalAssist": 0
-              }
+              "role": "starter",
+              "status": "played"
+            },
+            {
+              "events": [],
+              "gameweek": "J3",
+              "gameweek_id": "4044",
+              "points": 5,
+              "role": "starter",
+              "status": "played"
             }
           ],
-          "recent_avg_points": 2.0,
+          "recent_avg_points": 3.0,
           "recent_goals": 0,
           "recent_assists": 0,
           "recent_starts": 2,
@@ -1869,20 +1850,6 @@
           "weekly_market_change": -742000,
           "in_starting_xi": false,
           "gameweek": null
-        },
-        {
-          "player_id": "11092",
-          "name": "A. Gorosabel",
-          "position": 2,
-          "team_id": "1",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/11092.png?version=20251003185251",
-          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1.png?version=20221205131749",
-          "market_value": 160000,
-          "displayed_points": 0,
-          "daily_market_change": -28000,
-          "weekly_market_change": -187000,
-          "in_starting_xi": false,
-          "gameweek": null
         }
       ],
       "all_players": [],
@@ -2117,6 +2084,20 @@
           "weekly_market_change": 137000,
           "in_starting_xi": false,
           "gameweek": null
+        },
+        {
+          "player_id": "11092",
+          "name": "A. Gorosabel",
+          "position": 2,
+          "team_id": "8",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/11092.png?version=20251003185251",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/8.png?version=20221205131749",
+          "market_value": 160000,
+          "displayed_points": 0,
+          "daily_market_change": -28000,
+          "weekly_market_change": -187000,
+          "in_starting_xi": false,
+          "gameweek": null
         }
       ],
       "all_players": [],
@@ -2259,7 +2240,7 @@
     "matches_still_without_kickoff": 0
   },
   "all_player_intelligence": {
-    "captured_at": "2026-09-01T21:22:49+02:00",
+    "captured_at": "2026-09-02T00:34:21+02:00",
     "semantics": "Candidate universe is every player Mister exposes for each match. Ownership is metadata only, never an eligibility filter.",
     "profile_cache_refreshed": 0,
     "profile_cache_pending": 0,

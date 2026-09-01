@@ -1578,25 +1578,56 @@
     },
     {
       "created": "2026-09-01 14:02:25",
-      "player": null,
+      "player": "J. Vázquez 💥",
       "from": "Ale",
       "to": "Mister",
       "price": 1097250,
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_id": "28791",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "exact_previous_received_offer",
+        "confidence": "exact",
+        "evidence_snapshot_at": "2026-09-01T11:28:00+02:00",
+        "offer_amount": 1097250
+      }
     },
     {
       "created": "2026-09-01 12:18:28",
-      "player": null,
+      "player": "B. Gerenabarrena",
       "from": "fernando mg99",
       "to": "DRSeven",
       "price": 1039500,
       "id_user1": 3128757,
       "id_user2": 1513537,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_id": "71639",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "unique_manager_roster_transfer",
+        "confidence": "exact_ownership_delta",
+        "seller": "fernando mg99",
+        "buyer": "DRSeven",
+        "before_snapshot_at": "2026-09-01T11:28:00+02:00",
+        "after_snapshot_at": "2026-09-01T17:45:30+02:00"
+      },
+      "transfer_type": "clause_buyout",
+      "clause_buyout": {
+        "seller": "fernando mg99",
+        "buyer": "DRSeven",
+        "player_id": "71639",
+        "player": "B. Gerenabarrena",
+        "amount": 1039500,
+        "seller_previous_clause_value": 1039500,
+        "rounding_difference": 0,
+        "evidence_snapshot_at": "2026-09-01T11:28:00+02:00",
+        "ownership_confirmed_at": "2026-09-01T17:45:30+02:00",
+        "confidence": "exact_clause_match"
+      }
     },
     {
       "created": "2026-09-01 11:19:28",
@@ -1839,7 +1870,7 @@
     },
     {
       "created": "2026-08-31 05:00:31",
-      "player": null,
+      "player": "H. Fort 💥",
       "from": "Mister",
       "to": "Ale",
       "price": 1079030,
@@ -1859,7 +1890,16 @@
           "name": "fernando mg99",
           "bid": 813000
         }
-      ]
+      ],
+      "player_id": "56971",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "unique_roster_delta",
+        "confidence": "high",
+        "before_snapshot_at": "2026-08-30T17:49:09+02:00",
+        "after_snapshot_at": "2026-08-31T06:40:46+02:00",
+        "direction": "in"
+      }
     },
     {
       "created": "2026-08-30 05:00:29",
@@ -1912,14 +1952,37 @@
     },
     {
       "created": "2026-08-29 23:12:18",
-      "player": null,
+      "player": "C. Ejuke",
       "from": "Enrique",
       "to": "Samuhg22",
       "price": 2539500,
       "id_user1": 2626432,
       "id_user2": 1732719,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_id": "58467",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "unique_manager_roster_transfer",
+        "confidence": "exact_ownership_delta",
+        "seller": "Enrique",
+        "buyer": "Samuhg22",
+        "before_snapshot_at": "2026-08-29T17:46:10+02:00",
+        "after_snapshot_at": "2026-08-30T05:45:07+02:00"
+      },
+      "transfer_type": "clause_buyout",
+      "clause_buyout": {
+        "seller": "Enrique",
+        "buyer": "Samuhg22",
+        "player_id": "58467",
+        "player": "C. Ejuke",
+        "amount": 2539500,
+        "seller_previous_clause_value": 2539500,
+        "rounding_difference": 0,
+        "evidence_snapshot_at": "2026-08-29T17:46:10+02:00",
+        "ownership_confirmed_at": "2026-08-30T05:45:07+02:00",
+        "confidence": "exact_clause_match"
+      }
     },
     {
       "created": "2026-08-29 09:14:38",
@@ -2018,7 +2081,16 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Moncayola",
+          "J. Rueda"
+        ]
+      }
     },
     {
       "created": "2026-08-28 17:00:25",
@@ -2029,7 +2101,16 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Moncayola",
+          "J. Rueda"
+        ]
+      }
     },
     {
       "created": "2026-08-28 07:46:50",
@@ -2062,7 +2143,17 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "K. Lee 💥",
+          "F. Niño 💥",
+          "G. Villar 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-28 05:00:34",
@@ -2078,7 +2169,17 @@
           "name": "Adam Panyiczki",
           "bid": 2537010
         }
-      ]
+      ],
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "K. Lee 💥",
+          "F. Niño 💥",
+          "G. Villar 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-28 05:00:34",
@@ -2089,7 +2190,17 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "K. Lee 💥",
+          "F. Niño 💥",
+          "G. Villar 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-28 01:28:49",
@@ -2115,25 +2226,41 @@
     },
     {
       "created": "2026-08-27 23:39:14",
-      "player": null,
+      "player": "C. Macia",
       "from": "Ale",
       "to": "Mister",
       "price": 1067040,
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_id": "68259",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "exact_previous_received_offer",
+        "confidence": "exact",
+        "evidence_snapshot_at": "2026-08-27T20:29:16+02:00",
+        "offer_amount": 1067040
+      }
     },
     {
       "created": "2026-08-27 23:39:12",
-      "player": null,
+      "player": "P. Ciss",
       "from": "Ale",
       "to": "Mister",
       "price": 4792980,
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_id": "29403",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "exact_previous_received_offer",
+        "confidence": "exact",
+        "evidence_snapshot_at": "2026-08-27T20:29:16+02:00",
+        "offer_amount": 4792980
+      }
     },
     {
       "created": "2026-08-27 21:35:57",
@@ -2235,14 +2362,22 @@
     },
     {
       "created": "2026-08-26 23:38:55",
-      "player": null,
+      "player": "R. García",
       "from": "Ale",
       "to": "Mister",
       "price": 5358060,
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_id": "270",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "exact_previous_received_offer",
+        "confidence": "exact",
+        "evidence_snapshot_at": "2026-08-26T18:35:29+02:00",
+        "offer_amount": 5358060
+      }
     },
     {
       "created": "2026-08-26 23:24:31",
@@ -2323,7 +2458,7 @@
     },
     {
       "created": "2026-08-26 05:00:39",
-      "player": null,
+      "player": "R. Garrido 💥",
       "from": "Mister",
       "to": "Ale",
       "price": 1231000,
@@ -2335,7 +2470,16 @@
           "name": "Enrique",
           "bid": 1221000
         }
-      ]
+      ],
+      "player_id": "71008",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "unique_roster_delta",
+        "confidence": "high",
+        "before_snapshot_at": "2026-08-26T00:05:20",
+        "after_snapshot_at": "2026-08-26T06:04:28+02:00",
+        "direction": "in"
+      }
     },
     {
       "created": "2026-08-25 17:07:38",
@@ -2395,7 +2539,27 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "P. Lozano",
+          "L. Cruz 💥",
+          "P. Ibáñez 💥",
+          "H. Álvarez",
+          "M. Alonso",
+          "Á. Valles",
+          "P. Navarro",
+          "A. Lookman",
+          "J. Díaz",
+          "J. Morcillo",
+          "A. Diatta",
+          "M. Loureiro",
+          "A. Grimaldo"
+        ]
+      }
     },
     {
       "created": "2026-08-25 08:33:47",
@@ -2439,7 +2603,31 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-25 00:39:09",
@@ -2461,7 +2649,27 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "P. Lozano",
+          "L. Cruz 💥",
+          "P. Ibáñez 💥",
+          "H. Álvarez",
+          "M. Alonso",
+          "Á. Valles",
+          "P. Navarro",
+          "A. Lookman",
+          "J. Díaz",
+          "J. Morcillo",
+          "A. Diatta",
+          "M. Loureiro",
+          "A. Grimaldo"
+        ]
+      }
     },
     {
       "created": "2026-08-24 17:00:20",
@@ -2488,7 +2696,31 @@
           "name": "DRSeven",
           "bid": 2557000
         }
-      ]
+      ],
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-24 17:00:20",
@@ -2499,7 +2731,31 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-24 17:00:20",
@@ -2510,7 +2766,31 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-24 11:25:03",
@@ -2521,7 +2801,27 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "P. Lozano",
+          "L. Cruz 💥",
+          "P. Ibáñez 💥",
+          "H. Álvarez",
+          "M. Alonso",
+          "Á. Valles",
+          "P. Navarro",
+          "A. Lookman",
+          "J. Díaz",
+          "J. Morcillo",
+          "A. Diatta",
+          "M. Loureiro",
+          "A. Grimaldo"
+        ]
+      }
     },
     {
       "created": "2026-08-24 09:45:31",
@@ -2574,7 +2874,31 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-23 20:37:34",
@@ -2607,7 +2931,27 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "P. Lozano",
+          "L. Cruz 💥",
+          "P. Ibáñez 💥",
+          "H. Álvarez",
+          "M. Alonso",
+          "Á. Valles",
+          "P. Navarro",
+          "A. Lookman",
+          "J. Díaz",
+          "J. Morcillo",
+          "A. Diatta",
+          "M. Loureiro",
+          "A. Grimaldo"
+        ]
+      }
     },
     {
       "created": "2026-08-23 20:03:52",
@@ -2618,7 +2962,27 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "P. Lozano",
+          "L. Cruz 💥",
+          "P. Ibáñez 💥",
+          "H. Álvarez",
+          "M. Alonso",
+          "Á. Valles",
+          "P. Navarro",
+          "A. Lookman",
+          "J. Díaz",
+          "J. Morcillo",
+          "A. Diatta",
+          "M. Loureiro",
+          "A. Grimaldo"
+        ]
+      }
     },
     {
       "created": "2026-08-23 17:07:53",
@@ -2640,7 +3004,27 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "P. Lozano",
+          "L. Cruz 💥",
+          "P. Ibáñez 💥",
+          "H. Álvarez",
+          "M. Alonso",
+          "Á. Valles",
+          "P. Navarro",
+          "A. Lookman",
+          "J. Díaz",
+          "J. Morcillo",
+          "A. Diatta",
+          "M. Loureiro",
+          "A. Grimaldo"
+        ]
+      }
     },
     {
       "created": "2026-08-23 08:27:51",
@@ -2695,7 +3079,31 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-22 17:00:18",
@@ -2706,7 +3114,31 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-22 05:00:24",
@@ -2755,7 +3187,31 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-21 20:11:08",
@@ -2766,7 +3222,27 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "P. Lozano",
+          "L. Cruz 💥",
+          "P. Ibáñez 💥",
+          "H. Álvarez",
+          "M. Alonso",
+          "Á. Valles",
+          "P. Navarro",
+          "A. Lookman",
+          "J. Díaz",
+          "J. Morcillo",
+          "A. Diatta",
+          "M. Loureiro",
+          "A. Grimaldo"
+        ]
+      }
     },
     {
       "created": "2026-08-21 17:00:15",
@@ -2838,7 +3314,31 @@
           "name": "Enrique",
           "bid": 1977000
         }
-      ]
+      ],
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-21 10:49:59",
@@ -2892,7 +3392,31 @@
           "name": "Adam Panyiczki",
           "bid": 645010
         }
-      ]
+      ],
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-20 19:31:38",
@@ -3014,7 +3538,31 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-20 08:26:41",
@@ -3025,7 +3573,27 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "P. Lozano",
+          "L. Cruz 💥",
+          "P. Ibáñez 💥",
+          "H. Álvarez",
+          "M. Alonso",
+          "Á. Valles",
+          "P. Navarro",
+          "A. Lookman",
+          "J. Díaz",
+          "J. Morcillo",
+          "A. Diatta",
+          "M. Loureiro",
+          "A. Grimaldo"
+        ]
+      }
     },
     {
       "created": "2026-08-20 08:24:09",
@@ -3036,7 +3604,27 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "P. Lozano",
+          "L. Cruz 💥",
+          "P. Ibáñez 💥",
+          "H. Álvarez",
+          "M. Alonso",
+          "Á. Valles",
+          "P. Navarro",
+          "A. Lookman",
+          "J. Díaz",
+          "J. Morcillo",
+          "A. Diatta",
+          "M. Loureiro",
+          "A. Grimaldo"
+        ]
+      }
     },
     {
       "created": "2026-08-20 05:00:33",
@@ -3047,7 +3635,31 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-20 05:00:33",
@@ -3075,7 +3687,31 @@
           "name": "fernando mg99",
           "bid": 2759000
         }
-      ]
+      ],
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-20 00:58:54",
@@ -3108,7 +3744,27 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "P. Lozano",
+          "L. Cruz 💥",
+          "P. Ibáñez 💥",
+          "H. Álvarez",
+          "M. Alonso",
+          "Á. Valles",
+          "P. Navarro",
+          "A. Lookman",
+          "J. Díaz",
+          "J. Morcillo",
+          "A. Diatta",
+          "M. Loureiro",
+          "A. Grimaldo"
+        ]
+      }
     },
     {
       "created": "2026-08-19 17:03:38",
@@ -3264,7 +3920,27 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "P. Lozano",
+          "L. Cruz 💥",
+          "P. Ibáñez 💥",
+          "H. Álvarez",
+          "M. Alonso",
+          "Á. Valles",
+          "P. Navarro",
+          "A. Lookman",
+          "J. Díaz",
+          "J. Morcillo",
+          "A. Diatta",
+          "M. Loureiro",
+          "A. Grimaldo"
+        ]
+      }
     },
     {
       "created": "2026-08-18 08:48:35",
@@ -3310,7 +3986,31 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-18 05:00:30",
@@ -3321,7 +4021,31 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-17 22:37:45",
@@ -3332,7 +4056,27 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "P. Lozano",
+          "L. Cruz 💥",
+          "P. Ibáñez 💥",
+          "H. Álvarez",
+          "M. Alonso",
+          "Á. Valles",
+          "P. Navarro",
+          "A. Lookman",
+          "J. Díaz",
+          "J. Morcillo",
+          "A. Diatta",
+          "M. Loureiro",
+          "A. Grimaldo"
+        ]
+      }
     },
     {
       "created": "2026-08-17 17:00:16",
@@ -3403,7 +4147,31 @@
           "name": "Samuhg22",
           "bid": 4222222
         }
-      ]
+      ],
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-17 05:00:29",
@@ -3454,7 +4222,31 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-17 05:00:29",
@@ -3474,7 +4266,31 @@
           "name": "Samuhg22",
           "bid": 1922222
         }
-      ]
+      ],
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-16 17:03:01",
@@ -3614,7 +4430,31 @@
           "name": "DRSeven",
           "bid": 3002000
         }
-      ]
+      ],
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-16 05:00:24",
@@ -3630,7 +4470,31 @@
           "name": "Samuhg22",
           "bid": 999999
         }
-      ]
+      ],
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-15 21:09:18",
@@ -3641,7 +4505,27 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "P. Lozano",
+          "L. Cruz 💥",
+          "P. Ibáñez 💥",
+          "H. Álvarez",
+          "M. Alonso",
+          "Á. Valles",
+          "P. Navarro",
+          "A. Lookman",
+          "J. Díaz",
+          "J. Morcillo",
+          "A. Diatta",
+          "M. Loureiro",
+          "A. Grimaldo"
+        ]
+      }
     },
     {
       "created": "2026-08-15 18:26:18",
@@ -3707,7 +4591,27 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "P. Lozano",
+          "L. Cruz 💥",
+          "P. Ibáñez 💥",
+          "H. Álvarez",
+          "M. Alonso",
+          "Á. Valles",
+          "P. Navarro",
+          "A. Lookman",
+          "J. Díaz",
+          "J. Morcillo",
+          "A. Diatta",
+          "M. Loureiro",
+          "A. Grimaldo"
+        ]
+      }
     },
     {
       "created": "2026-08-15 17:00:15",
@@ -3797,7 +4701,31 @@
           "name": "Samuhg22",
           "bid": 1444444
         }
-      ]
+      ],
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-15 16:21:31",
@@ -3852,7 +4780,27 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "P. Lozano",
+          "L. Cruz 💥",
+          "P. Ibáñez 💥",
+          "H. Álvarez",
+          "M. Alonso",
+          "Á. Valles",
+          "P. Navarro",
+          "A. Lookman",
+          "J. Díaz",
+          "J. Morcillo",
+          "A. Diatta",
+          "M. Loureiro",
+          "A. Grimaldo"
+        ]
+      }
     },
     {
       "created": "2026-08-15 10:34:39",
@@ -3863,7 +4811,27 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "P. Lozano",
+          "L. Cruz 💥",
+          "P. Ibáñez 💥",
+          "H. Álvarez",
+          "M. Alonso",
+          "Á. Valles",
+          "P. Navarro",
+          "A. Lookman",
+          "J. Díaz",
+          "J. Morcillo",
+          "A. Diatta",
+          "M. Loureiro",
+          "A. Grimaldo"
+        ]
+      }
     },
     {
       "created": "2026-08-15 07:34:35",
@@ -3907,7 +4875,31 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-15 00:31:29",
@@ -3929,7 +4921,27 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "P. Lozano",
+          "L. Cruz 💥",
+          "P. Ibáñez 💥",
+          "H. Álvarez",
+          "M. Alonso",
+          "Á. Valles",
+          "P. Navarro",
+          "A. Lookman",
+          "J. Díaz",
+          "J. Morcillo",
+          "A. Diatta",
+          "M. Loureiro",
+          "A. Grimaldo"
+        ]
+      }
     },
     {
       "created": "2026-08-14 17:00:15",
@@ -4014,7 +5026,27 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "P. Lozano",
+          "L. Cruz 💥",
+          "P. Ibáñez 💥",
+          "H. Álvarez",
+          "M. Alonso",
+          "Á. Valles",
+          "P. Navarro",
+          "A. Lookman",
+          "J. Díaz",
+          "J. Morcillo",
+          "A. Diatta",
+          "M. Loureiro",
+          "A. Grimaldo"
+        ]
+      }
     },
     {
       "created": "2026-08-14 08:04:11",
@@ -4101,7 +5133,31 @@
           "name": "Samuhg22",
           "bid": 6499999
         }
-      ]
+      ],
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-14 05:00:24",
@@ -4112,7 +5168,31 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-14 05:00:24",
@@ -4132,7 +5212,31 @@
           "name": "Enrique",
           "bid": 1950000
         }
-      ]
+      ],
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "J. Otto 💥",
+          "I. Aspas",
+          "J. Moncayola",
+          "U. López 💥",
+          "R. García",
+          "F. García 💥",
+          "A. Paredes 💥",
+          "J. Agirrezabala",
+          "J. Vázquez 💥",
+          "P. Ciss",
+          "M. Roca 💥",
+          "R. Terrats 💥",
+          "L. Sučić",
+          "J. Rueda",
+          "Y. Enríquez 💥",
+          "C. Macia 💥",
+          "Á. Pérez 💥"
+        ]
+      }
     },
     {
       "created": "2026-08-13 17:17:18",
@@ -4354,7 +5458,27 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "P. Lozano",
+          "L. Cruz 💥",
+          "P. Ibáñez 💥",
+          "H. Álvarez",
+          "M. Alonso",
+          "Á. Valles",
+          "P. Navarro",
+          "A. Lookman",
+          "J. Díaz",
+          "J. Morcillo",
+          "A. Diatta",
+          "M. Loureiro",
+          "A. Grimaldo"
+        ]
+      }
     },
     {
       "created": "2026-08-13 11:59:33",
@@ -4365,7 +5489,27 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "P. Lozano",
+          "L. Cruz 💥",
+          "P. Ibáñez 💥",
+          "H. Álvarez",
+          "M. Alonso",
+          "Á. Valles",
+          "P. Navarro",
+          "A. Lookman",
+          "J. Díaz",
+          "J. Morcillo",
+          "A. Diatta",
+          "M. Loureiro",
+          "A. Grimaldo"
+        ]
+      }
     },
     {
       "created": "2026-08-13 11:59:30",
@@ -4376,7 +5520,27 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "P. Lozano",
+          "L. Cruz 💥",
+          "P. Ibáñez 💥",
+          "H. Álvarez",
+          "M. Alonso",
+          "Á. Valles",
+          "P. Navarro",
+          "A. Lookman",
+          "J. Díaz",
+          "J. Morcillo",
+          "A. Diatta",
+          "M. Loureiro",
+          "A. Grimaldo"
+        ]
+      }
     },
     {
       "created": "2026-08-13 09:11:00",
@@ -4537,7 +5701,7 @@
     },
     {
       "created": "2026-08-13 05:00:26",
-      "player": null,
+      "player": "A. Grimaldo",
       "from": "Mister",
       "to": "Ale",
       "price": 8009300,
@@ -4549,18 +5713,36 @@
           "name": "fernando mg99",
           "bid": 7948000
         }
-      ]
+      ],
+      "player_id": "71021",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "unique_roster_delta",
+        "confidence": "high",
+        "before_snapshot_at": "2026-08-12T18:41:12",
+        "after_snapshot_at": "2026-08-13T11:35:55",
+        "direction": "in"
+      }
     },
     {
       "created": "2026-08-12 19:43:52",
-      "player": null,
+      "player": "P. García",
       "from": "Ale",
       "to": "Mister",
       "price": 800700,
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "player_id": "61012",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "unique_roster_delta",
+        "confidence": "high",
+        "before_snapshot_at": "2026-08-12T18:41:12",
+        "after_snapshot_at": "2026-08-13T11:35:55",
+        "direction": "out"
+      }
     },
     {
       "created": "2026-08-12 17:00:12",
@@ -6649,7 +7831,9 @@
           "created": "2026-08-29 23:12:18",
           "type": "purchase",
           "amount": -2539500,
-          "detail": null
+          "detail": "C. Ejuke",
+          "detail_resolution": "unique_manager_roster_transfer",
+          "transaction_semantics": "clause_buyout"
         },
         {
           "created": "2026-08-31 05:00:31",
@@ -6939,13 +8123,15 @@
           "created": "2026-08-12 19:43:52",
           "type": "sale",
           "amount": 800700,
-          "detail": null
+          "detail": "P. García",
+          "detail_resolution": "unique_roster_delta"
         },
         {
           "created": "2026-08-13 05:00:26",
           "type": "purchase",
           "amount": -8009300,
-          "detail": null
+          "detail": "A. Grimaldo",
+          "detail_resolution": "unique_roster_delta"
         },
         {
           "created": "2026-08-13 11:59:30",
@@ -7257,25 +8443,29 @@
           "created": "2026-08-26 05:00:39",
           "type": "purchase",
           "amount": -1231000,
-          "detail": null
+          "detail": "R. Garrido 💥",
+          "detail_resolution": "unique_roster_delta"
         },
         {
           "created": "2026-08-26 23:38:55",
           "type": "sale",
           "amount": 5358060,
-          "detail": null
+          "detail": "R. García",
+          "detail_resolution": "exact_previous_received_offer"
         },
         {
           "created": "2026-08-27 23:39:12",
           "type": "sale",
           "amount": 4792980,
-          "detail": null
+          "detail": "P. Ciss",
+          "detail_resolution": "exact_previous_received_offer"
         },
         {
           "created": "2026-08-27 23:39:14",
           "type": "sale",
           "amount": 1067040,
-          "detail": null
+          "detail": "C. Macia",
+          "detail_resolution": "exact_previous_received_offer"
         },
         {
           "created": "2026-08-28 05:00:34",
@@ -7341,7 +8531,8 @@
           "created": "2026-08-31 05:00:31",
           "type": "purchase",
           "amount": -1079030,
-          "detail": null
+          "detail": "H. Fort 💥",
+          "detail_resolution": "unique_roster_delta"
         },
         {
           "created": "2026-09-01 10:45:05",
@@ -7377,7 +8568,8 @@
           "created": "2026-09-01 14:02:25",
           "type": "sale",
           "amount": 1097250,
-          "detail": null
+          "detail": "J. Vázquez 💥",
+          "detail_resolution": "exact_previous_received_offer"
         },
         {
           "created": "current_snapshot",
@@ -7621,7 +8813,9 @@
           "created": "2026-08-29 23:12:18",
           "type": "sale",
           "amount": 2539500,
-          "detail": null
+          "detail": "C. Ejuke",
+          "detail_resolution": "unique_manager_roster_transfer",
+          "transaction_semantics": "clause_buyout"
         },
         {
           "created": "2026-09-01 05:00:34",
@@ -8135,7 +9329,9 @@
           "created": "2026-09-01 12:18:28",
           "type": "purchase",
           "amount": -1039500,
-          "detail": null
+          "detail": "B. Gerenabarrena",
+          "detail_resolution": "unique_manager_roster_transfer",
+          "transaction_semantics": "clause_buyout"
         },
         {
           "created": "current_snapshot",
@@ -8941,7 +10137,9 @@
           "created": "2026-09-01 12:18:28",
           "type": "sale",
           "amount": 1039500,
-          "detail": null
+          "detail": "B. Gerenabarrena",
+          "detail_resolution": "unique_manager_roster_transfer",
+          "transaction_semantics": "clause_buyout"
         }
       ],
       "operation_count": 22,
@@ -11622,7 +12820,8 @@
     "manual_feed_payments_included_in_balance": true,
     "drop_feed_confirmation_ok": true,
     "pending_clause_drop_feed_confirmations": [],
-    "confirmed_clause_drop_feed_events": []
+    "confirmed_clause_drop_feed_events": [],
+    "change_attribution_policy": "If a raise is first detected between an evening snapshot and the next morning snapshot, attribute it to the previous evening unless an explicit timestamp/date proves otherwise."
   },
   "clause_ledger_status": {
     "status": "ok",
@@ -14970,5 +16169,26 @@
     "official_clause_view_enabled": true,
     "historical_clause_ledger_ok": true,
     "clause_drop_feed_confirmation_ok": true
+  },
+  "transfer_identity_resolution": {
+    "status": "partial",
+    "resolved_by_reconciliation": 8,
+    "unresolved_total": 316,
+    "unresolved_ale": 79,
+    "methods": {
+      "exact_previous_received_offer": 4,
+      "unique_roster_delta": 4
+    },
+    "ledger_details_patched": 8,
+    "policy": "Resolve missing feed player via player_id, exact prior received offer, then unique roster delta; never guess ambiguous candidates."
+  },
+  "clause_buyouts_since_previous": [],
+  "clause_buyout_capture": {
+    "status": "partial",
+    "direct_manager_transfers_seen": 5,
+    "clause_buyouts_classified": 2,
+    "unresolved_direct_manager_transfers": 3,
+    "new_since_previous_snapshot": 0,
+    "policy": "Direct manager transfer is a clause buyout only when ownership delta resolves the player and transfer amount matches seller's previous clause within 2 euros of Mister rounding."
   }
 }
