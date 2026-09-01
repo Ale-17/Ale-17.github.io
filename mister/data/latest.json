@@ -1,30 +1,56 @@
 {
-  "captured_at": "2026-08-31T23:39:18+02:00",
+  "captured_at": "2026-09-01T05:53:41+02:00",
   "source": "github-actions-cloud",
   "initial_balance_assumption": 50000000,
   "last_team_reset_at": "2026-08-07 13:40:33",
   "initial_budget_source": "El administrador ha cambiado la configuración de los nuevos usuarios a 0 jugadores + 50M",
   "my_balance": {
     "current_balance": 10261716,
-    "future_balance": 9012716,
-    "max_debt": 26131966
+    "future_balance": 10261716,
+    "max_debt": 27879966
   },
   "market_players": [
+    {
+      "player_id": "71574",
+      "name": "K. Adeyemi",
+      "position": 4,
+      "market_value": 10880000,
+      "trend": "up",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 10880000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": 38000,
+      "daily_market_change_pct": 0.349,
+      "weekly_market_change": 445000,
+      "weekly_market_change_pct": 4.09,
+      "displayed_points": 16,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "16",
+          "value": 16
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
     {
       "player_id": "63780",
       "name": "C. Espí",
       "position": 4,
-      "market_value": 9242000,
+      "market_value": 9270000,
       "trend": "up",
       "owner_id": "12165510",
       "owner_name": "DRSeven",
       "asking_price": 9242000,
       "ends_at_unix": 1788318000,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 83000,
-      "daily_market_change_pct": 0.898,
-      "weekly_market_change": 755000,
-      "weekly_market_change_pct": 8.169,
+      "delta_since_previous_snapshot": 28000,
+      "daily_market_change": 28000,
+      "daily_market_change_pct": 0.302,
+      "weekly_market_change": 656000,
+      "weekly_market_change_pct": 7.077,
       "displayed_points": 15,
       "points_status": "single_visible_value",
       "score_candidates": [
@@ -34,23 +60,23 @@
           "value": 15
         }
       ],
-      "displayed_points_delta_since_previous_snapshot": null
+      "displayed_points_delta_since_previous_snapshot": 0
     },
     {
       "player_id": "14791",
       "name": "G. Guruzeta",
       "position": 4,
-      "market_value": 6589000,
+      "market_value": 6469000,
       "trend": "down",
       "owner_id": "15479078",
       "owner_name": "José Luis",
       "asking_price": 6589000,
       "ends_at_unix": 1788318000,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": -108000,
-      "daily_market_change_pct": -1.639,
-      "weekly_market_change": -471000,
-      "weekly_market_change_pct": -7.148,
+      "delta_since_previous_snapshot": -120000,
+      "daily_market_change": -120000,
+      "daily_market_change_pct": -1.855,
+      "weekly_market_change": -570000,
+      "weekly_market_change_pct": -8.811,
       "displayed_points": 5,
       "points_status": "single_visible_value",
       "score_candidates": [
@@ -60,23 +86,49 @@
           "value": 5
         }
       ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "70941",
+      "name": "B. Nsongo",
+      "position": 4,
+      "market_value": 2994000,
+      "trend": "up",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 2994000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": 109000,
+      "daily_market_change_pct": 3.641,
+      "weekly_market_change": 447000,
+      "weekly_market_change_pct": 14.93,
+      "displayed_points": 13,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "13",
+          "value": 13
+        }
+      ],
       "displayed_points_delta_since_previous_snapshot": null
     },
     {
       "player_id": "31226",
       "name": "A. Danjuma",
       "position": 4,
-      "market_value": 3048000,
+      "market_value": 3118000,
       "trend": "up",
       "owner_id": "12165479",
       "owner_name": "Ale",
       "asking_price": 2827000,
       "ends_at_unix": 1788318000,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 73000,
-      "daily_market_change_pct": 2.395,
-      "weekly_market_change": 586000,
-      "weekly_market_change_pct": 19.226,
+      "delta_since_previous_snapshot": 70000,
+      "daily_market_change": 70000,
+      "daily_market_change_pct": 2.245,
+      "weekly_market_change": 575000,
+      "weekly_market_change_pct": 18.441,
       "displayed_points": 8,
       "points_status": "single_visible_value",
       "score_candidates": [
@@ -86,23 +138,21 @@
           "value": 8
         }
       ],
-      "displayed_points_delta_since_previous_snapshot": null
+      "displayed_points_delta_since_previous_snapshot": 0
     },
     {
       "player_id": "64432",
       "name": "G. Petit",
       "position": 4,
-      "market_value": 208000,
-      "trend": "up",
+      "market_value": 160000,
+      "trend": "down",
       "owner_id": "15441764",
       "owner_name": "fernando mg99",
       "asking_price": 208000,
       "ends_at_unix": 1788318000,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 4000,
-      "daily_market_change_pct": 1.923,
-      "weekly_market_change": 48000,
-      "weekly_market_change_pct": 23.077,
+      "delta_since_previous_snapshot": -48000,
+      "daily_market_change": -48000,
+      "daily_market_change_pct": -30.0,
       "displayed_points": 0,
       "points_status": "single_visible_value",
       "score_candidates": [
@@ -112,877 +162,49 @@
           "value": 0
         }
       ],
-      "displayed_points_delta_since_previous_snapshot": null
+      "displayed_points_delta_since_previous_snapshot": 0
     },
     {
-      "player_id": "71154",
-      "name": "L. Amatucci",
-      "position": 3,
-      "market_value": 6012000,
-      "trend": "up",
-      "owner_id": "13390634",
-      "owner_name": "Samuhg22",
-      "asking_price": 25000000,
-      "ends_at_unix": 1788318000,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 96000,
-      "daily_market_change_pct": 1.597,
-      "weekly_market_change": 543000,
-      "weekly_market_change_pct": 9.032,
-      "displayed_points": 16,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "16",
-          "value": 16
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "27517",
-      "name": "I. Palazón",
-      "position": 3,
-      "market_value": 5604000,
-      "trend": "down",
-      "owner_id": "15479078",
-      "owner_name": "José Luis",
-      "asking_price": 5604000,
-      "ends_at_unix": 1788318000,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": -77000,
-      "daily_market_change_pct": -1.374,
-      "weekly_market_change": -46000,
-      "weekly_market_change_pct": -0.821,
-      "displayed_points": 7,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "7",
-          "value": 7
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "3728",
-      "name": "M. Roca",
-      "position": 3,
-      "market_value": 5292000,
-      "trend": "up",
-      "owner_id": "12165479",
-      "owner_name": "Ale",
-      "asking_price": 5148000,
-      "ends_at_unix": 1788318000,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 56000,
-      "daily_market_change_pct": 1.058,
-      "weekly_market_change": 678000,
-      "weekly_market_change_pct": 12.812,
-      "displayed_points": 9,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "9",
-          "value": 9
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "71138",
-      "name": "R. Sato",
-      "position": 3,
-      "market_value": 3384000,
-      "trend": "up",
-      "owner_id": "12165510",
-      "owner_name": "DRSeven",
-      "asking_price": 3384000,
-      "ends_at_unix": 1788318000,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 90000,
-      "daily_market_change_pct": 2.66,
-      "weekly_market_change": 664000,
-      "weekly_market_change_pct": 19.622,
-      "displayed_points": 8,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "8",
-          "value": 8
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "70999",
-      "name": "D. Lorenzo",
-      "position": 3,
-      "market_value": 3368000,
-      "trend": "up",
-      "owner_id": "12165510",
-      "owner_name": "DRSeven",
-      "asking_price": 3244000,
-      "ends_at_unix": 1788318000,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 124000,
-      "daily_market_change_pct": 3.682,
-      "weekly_market_change": 835000,
-      "weekly_market_change_pct": 24.792,
-      "displayed_points": 11,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "11",
-          "value": 11
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "63871",
-      "name": "M. Aguado",
-      "position": 3,
-      "market_value": 3243000,
-      "trend": "up",
-      "owner_id": "12165510",
-      "owner_name": "DRSeven",
-      "asking_price": 3002000,
-      "ends_at_unix": 1788318000,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 71000,
-      "daily_market_change_pct": 2.189,
-      "weekly_market_change": 679000,
-      "weekly_market_change_pct": 20.937,
-      "displayed_points": 14,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "14",
-          "value": 14
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "28772",
-      "name": "N. Serrano",
-      "position": 3,
-      "market_value": 195000,
-      "trend": "up",
-      "owner_id": "15479078",
-      "owner_name": "José Luis",
-      "asking_price": 195000,
-      "ends_at_unix": 1788318000,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 35000,
-      "daily_market_change_pct": 17.949,
-      "weekly_market_change": 34000,
-      "weekly_market_change_pct": 17.436,
-      "displayed_points": 0,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "0",
-          "value": 0
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "24792",
-      "name": "J. Iglesias",
-      "position": 2,
-      "market_value": 6155000,
-      "trend": "up",
-      "owner_id": "13390634",
-      "owner_name": "Samuhg22",
-      "asking_price": 25000000,
-      "ends_at_unix": 1788318000,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 23000,
-      "daily_market_change_pct": 0.374,
-      "weekly_market_change": 407000,
-      "weekly_market_change_pct": 6.613,
-      "displayed_points": 11,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "11",
-          "value": 11
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "28773",
-      "name": "A. Paredes",
-      "position": 2,
-      "market_value": 1977000,
-      "trend": "up",
-      "owner_id": "12165479",
-      "owner_name": "Ale",
-      "asking_price": 1764000,
-      "ends_at_unix": 1788318000,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 79000,
-      "daily_market_change_pct": 3.996,
-      "weekly_market_change": 489000,
-      "weekly_market_change_pct": 24.734,
-      "displayed_points": 16,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "16",
-          "value": 16
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "71139",
-      "name": "B. Ede",
-      "position": 2,
-      "market_value": 1423000,
-      "trend": "up",
-      "owner_id": "12165510",
-      "owner_name": "DRSeven",
-      "asking_price": 1423000,
-      "ends_at_unix": 1788318000,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 32000,
-      "daily_market_change_pct": 2.249,
-      "weekly_market_change": 255000,
-      "weekly_market_change_pct": 17.92,
-      "displayed_points": 8,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "8",
-          "value": 8
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "71008",
-      "name": "R. Garrido",
-      "position": 2,
-      "market_value": 1557000,
-      "trend": "up",
-      "owner_id": "12165479",
-      "owner_name": "Ale",
-      "asking_price": 1330000,
-      "ends_at_unix": 1788318000,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 60000,
-      "daily_market_change_pct": 3.854,
-      "weekly_market_change": 381000,
-      "weekly_market_change_pct": 24.47,
-      "displayed_points": 10,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "10",
-          "value": 10
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "64411",
-      "name": "Y. Enríquez",
-      "position": 2,
-      "market_value": 1209000,
-      "trend": "up",
-      "owner_id": "12165479",
-      "owner_name": "Ale",
-      "asking_price": 1086000,
-      "ends_at_unix": 1788318000,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 43000,
-      "daily_market_change_pct": 3.557,
-      "weekly_market_change": 360000,
-      "weekly_market_change_pct": 29.777,
-      "displayed_points": 12,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "12",
-          "value": 12
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "28791",
-      "name": "J. Vázquez",
-      "position": 2,
-      "market_value": 1045000,
-      "trend": "up",
-      "owner_id": "12165479",
-      "owner_name": "Ale",
-      "asking_price": 1025000,
-      "ends_at_unix": 1788318000,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 20000,
-      "daily_market_change_pct": 1.914,
-      "weekly_market_change": 332000,
-      "weekly_market_change_pct": 31.77,
-      "displayed_points": 6,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "6",
-          "value": 6
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "61009",
-      "name": "Á. Ortiz",
-      "position": 2,
-      "market_value": 345000,
-      "trend": "up",
-      "owner_id": "15479078",
-      "owner_name": "José Luis",
-      "asking_price": 345000,
-      "ends_at_unix": 1788318000,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 4000,
-      "daily_market_change_pct": 1.159,
-      "weekly_market_change": 36000,
-      "weekly_market_change_pct": 10.435,
-      "displayed_points": 4,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "4",
-          "value": 4
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "71791",
-      "name": "P. Felipe",
-      "position": 2,
-      "market_value": 177000,
-      "trend": "down",
-      "owner_id": "15441764",
-      "owner_name": "fernando mg99",
-      "asking_price": 177000,
-      "ends_at_unix": 1788318000,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": -60000,
-      "daily_market_change_pct": -33.898,
-      "weekly_market_change": -349000,
-      "weekly_market_change_pct": -197.175,
-      "displayed_points": 2,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "2",
-          "value": 2
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "609",
-      "name": "D. Soria",
-      "position": 1,
-      "market_value": 10041000,
-      "trend": "down",
-      "owner_id": "12189231",
-      "owner_name": "Adam Panyiczki",
-      "asking_price": 10041000,
-      "ends_at_unix": 1788318000,
-      "delta_since_previous_snapshot": null,
-      "daily_market_change": -25000,
-      "daily_market_change_pct": -0.249,
-      "weekly_market_change": 302000,
-      "weekly_market_change_pct": 3.008,
-      "displayed_points": 19,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "19",
-          "value": 19
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "58383",
-      "name": "C. Uche",
+      "player_id": "71509",
+      "name": "K. Sánchez",
       "position": 4,
-      "market_value": 5186000,
-      "trend": "down",
-      "owner_id": "0",
-      "owner_name": "Libre",
-      "asking_price": 5186000,
-      "ends_at_unix": 1788231600,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": -132000,
-      "daily_market_change_pct": -2.545,
-      "weekly_market_change": -989000,
-      "weekly_market_change_pct": -19.071,
-      "displayed_points": 0,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "0",
-          "value": 0
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "29402",
-      "name": "R. Nteka",
-      "position": 4,
-      "market_value": 1166000,
-      "trend": "down",
-      "owner_id": "0",
-      "owner_name": "Libre",
-      "asking_price": 1166000,
-      "ends_at_unix": 1788231600,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": -16000,
-      "daily_market_change_pct": -1.372,
-      "weekly_market_change": 59000,
-      "weekly_market_change_pct": 5.06,
-      "displayed_points": 7,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "7",
-          "value": 7
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "70994",
-      "name": "E. Jauregi",
-      "position": 4,
-      "market_value": 165000,
-      "trend": "down",
-      "owner_id": "0",
-      "owner_name": "Libre",
-      "asking_price": 165000,
-      "ends_at_unix": 1788231600,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": -77000,
-      "daily_market_change_pct": -46.667,
-      "weekly_market_change": -79000,
-      "weekly_market_change_pct": -47.879,
-      "displayed_points": 2,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "2",
-          "value": 2
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "65090",
-      "name": "F. Ugrinic",
-      "position": 3,
-      "market_value": 1578000,
-      "trend": "up",
-      "owner_id": "13390634",
-      "owner_name": "Samuhg22",
-      "asking_price": 15000000,
-      "ends_at_unix": 1788231600,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 31000,
-      "daily_market_change_pct": 1.965,
-      "weekly_market_change": 272000,
-      "weekly_market_change_pct": 17.237,
-      "displayed_points": 9,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "9",
-          "value": 9
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "70918",
-      "name": "B. Silva",
-      "position": 3,
-      "market_value": 10415000,
-      "trend": "up",
-      "owner_id": "0",
-      "owner_name": "Libre",
-      "asking_price": 10415000,
-      "ends_at_unix": 1788231600,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 4000,
-      "daily_market_change_pct": 0.038,
-      "weekly_market_change": 70000,
-      "weekly_market_change_pct": 0.672,
-      "displayed_points": 9,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "9",
-          "value": 9
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "29169",
-      "name": "P. Ibáñez",
-      "position": 3,
-      "market_value": 2796000,
-      "trend": "up",
-      "owner_id": "0",
-      "owner_name": "Libre",
-      "asking_price": 2796000,
-      "ends_at_unix": 1788231600,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 75000,
-      "daily_market_change_pct": 2.682,
-      "weekly_market_change": 519000,
-      "weekly_market_change_pct": 18.562,
-      "displayed_points": 11,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "11",
-          "value": 11
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "70945",
-      "name": "D. Villares",
-      "position": 3,
-      "market_value": 545000,
-      "trend": "down",
-      "owner_id": "12189231",
-      "owner_name": "Adam Panyiczki",
-      "asking_price": 533000,
-      "ends_at_unix": 1788231600,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": -14000,
-      "daily_market_change_pct": -2.569,
-      "weekly_market_change": 121000,
-      "weekly_market_change_pct": 22.202,
-      "displayed_points": 6,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "6",
-          "value": 6
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "60861",
-      "name": "J. El-Abdellaoui",
-      "position": 3,
-      "market_value": 468000,
-      "trend": "up",
-      "owner_id": "0",
-      "owner_name": "Libre",
-      "asking_price": 468000,
-      "ends_at_unix": 1788231600,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 28000,
-      "daily_market_change_pct": 5.983,
-      "weekly_market_change": 227000,
-      "weekly_market_change_pct": 48.504,
-      "displayed_points": 4,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "4",
-          "value": 4
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "70944",
-      "name": "R. Rodríguez",
-      "position": 3,
-      "market_value": 210000,
-      "trend": "up",
-      "owner_id": "0",
-      "owner_name": "Libre",
-      "asking_price": 210000,
-      "ends_at_unix": 1788231600,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 43000,
-      "daily_market_change_pct": 20.476,
-      "weekly_market_change": 50000,
-      "weekly_market_change_pct": 23.81,
-      "displayed_points": 4,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "4",
-          "value": 4
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "58427",
-      "name": "Y. Neyou",
-      "position": 3,
-      "market_value": 185000,
-      "trend": "up",
-      "owner_id": "0",
-      "owner_name": "Libre",
-      "asking_price": 185000,
-      "ends_at_unix": 1788231600,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 1000,
-      "daily_market_change_pct": 0.541,
-      "weekly_market_change": 11000,
-      "weekly_market_change_pct": 5.946,
-      "displayed_points": 0,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "0",
-          "value": 0
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "55454",
-      "name": "A. Zakharyan",
-      "position": 3,
       "market_value": 160000,
       "trend": "down",
       "owner_id": "0",
       "owner_name": "Libre",
       "asking_price": 160000,
-      "ends_at_unix": 1788231600,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": -43000,
-      "daily_market_change_pct": -26.875,
-      "weekly_market_change": -8000,
-      "weekly_market_change_pct": -5.0,
-      "displayed_points": 2,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -31000,
+      "daily_market_change_pct": -19.375,
+      "weekly_market_change": -107000,
+      "weekly_market_change_pct": -66.875,
+      "displayed_points": 1,
       "points_status": "single_visible_value",
       "score_candidates": [
         {
           "class": "points",
-          "text": "2",
-          "value": 2
+          "text": "1",
+          "value": 1
         }
       ],
       "displayed_points_delta_since_previous_snapshot": null
     },
     {
-      "player_id": "69281",
-      "name": "N. Pérez",
-      "position": 2,
-      "market_value": 1098000,
-      "trend": "up",
-      "owner_id": "13390634",
-      "owner_name": "Samuhg22",
-      "asking_price": 15000000,
-      "ends_at_unix": 1788231600,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 11000,
-      "daily_market_change_pct": 1.002,
-      "weekly_market_change": 280000,
-      "weekly_market_change_pct": 25.501,
-      "displayed_points": 8,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "8",
-          "value": 8
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "22956",
-      "name": "S. Gómez",
-      "position": 2,
-      "market_value": 5047000,
-      "trend": "up",
-      "owner_id": "0",
-      "owner_name": "Libre",
-      "asking_price": 5047000,
-      "ends_at_unix": 1788231600,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 41000,
-      "daily_market_change_pct": 0.812,
-      "weekly_market_change": -26000,
-      "weekly_market_change_pct": -0.515,
-      "displayed_points": 10,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "10",
-          "value": 10
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "3849388",
-      "name": "M. Sarr",
-      "position": 2,
-      "market_value": 4539000,
-      "trend": "up",
-      "owner_id": "0",
-      "owner_name": "Libre",
-      "asking_price": 4539000,
-      "ends_at_unix": 1788231600,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 67000,
-      "daily_market_change_pct": 1.476,
-      "displayed_points": 0,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "0",
-          "value": 0
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "1153038",
-      "name": "R. Gamón",
-      "position": 2,
-      "market_value": 209000,
-      "trend": "up",
-      "owner_id": "0",
-      "owner_name": "Libre",
-      "asking_price": 209000,
-      "ends_at_unix": 1788231600,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 33000,
-      "daily_market_change_pct": 15.789,
-      "weekly_market_change": 49000,
-      "weekly_market_change_pct": 23.445,
-      "displayed_points": 0,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "0",
-          "value": 0
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "217",
-      "name": "D. Foulquier",
-      "position": 2,
-      "market_value": 199000,
-      "trend": "down",
-      "owner_id": "0",
-      "owner_name": "Libre",
-      "asking_price": 199000,
-      "ends_at_unix": 1788231600,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": -7000,
-      "daily_market_change_pct": -3.518,
-      "weekly_market_change": 38000,
-      "weekly_market_change_pct": 19.095,
-      "displayed_points": 0,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "0",
-          "value": 0
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "22471",
-      "name": "J. Pacheco",
-      "position": 2,
-      "market_value": 184000,
-      "trend": "down",
-      "owner_id": "0",
-      "owner_name": "Libre",
-      "asking_price": 184000,
-      "ends_at_unix": 1788231600,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": -1000,
-      "daily_market_change_pct": -0.543,
-      "displayed_points": 0,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "0",
-          "value": 0
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "65724",
-      "name": "F. Cardoso",
-      "position": 2,
+      "player_id": "67870",
+      "name": "A. Boayar",
+      "position": 4,
       "market_value": 160000,
       "trend": "unknown",
       "owner_id": "0",
       "owner_name": "Libre",
       "asking_price": 160000,
-      "ends_at_unix": 1788231600,
-      "delta_since_previous_snapshot": 0,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": null,
       "daily_market_change": 0,
       "daily_market_change_pct": 0.0,
-      "weekly_market_change": -1000,
-      "weekly_market_change_pct": -0.625,
+      "weekly_market_change": -34000,
+      "weekly_market_change_pct": -21.25,
       "displayed_points": 0,
       "points_status": "single_visible_value",
       "score_candidates": [
@@ -995,334 +217,20 @@
       "displayed_points_delta_since_previous_snapshot": null
     },
     {
-      "player_id": "24742",
-      "name": "D. Cárdenas",
-      "position": 1,
-      "market_value": 1029000,
+      "player_id": "6034",
+      "name": "E. Expósito",
+      "position": 3,
+      "market_value": 10094000,
       "trend": "up",
-      "owner_id": "0",
-      "owner_name": "Libre",
-      "asking_price": 1029000,
-      "ends_at_unix": 1788231600,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 83000,
-      "daily_market_change_pct": 8.066,
-      "weekly_market_change": 455000,
-      "weekly_market_change_pct": 44.218,
-      "displayed_points": 3,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "3",
-          "value": 3
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    }
-  ],
-  "my_team": [
-    {
-      "player_id": "28774",
-      "name": "J. Agirrezabala",
-      "position": null,
-      "market_value": 2596000,
-      "trend": "up",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 110000,
-      "daily_market_change_pct": 4.237,
-      "weekly_market_change": 677000,
-      "weekly_market_change_pct": 26.079,
-      "displayed_points": 12,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "12",
-          "value": 12
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "28773",
-      "name": "A. Paredes 💥",
-      "position": null,
-      "market_value": 1977000,
-      "trend": "up",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 79000,
-      "daily_market_change_pct": 3.996,
-      "weekly_market_change": 489000,
-      "weekly_market_change_pct": 24.734,
-      "displayed_points": 16,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "16",
-          "value": 16
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "27520",
-      "name": "F. García 💥",
-      "position": null,
-      "market_value": 4642000,
-      "trend": "up",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 165000,
-      "daily_market_change_pct": 3.555,
-      "weekly_market_change": 1212000,
-      "weekly_market_change_pct": 26.109,
-      "displayed_points": 10,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "10",
-          "value": 10
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "56971",
-      "name": "H. Fort 💥",
-      "position": null,
-      "market_value": 878000,
-      "trend": "up",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 65000,
-      "daily_market_change_pct": 7.403,
-      "weekly_market_change": 188000,
-      "weekly_market_change_pct": 21.412,
-      "displayed_points": 0,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "0",
-          "value": 0
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "28791",
-      "name": "J. Vázquez 💥",
-      "position": null,
-      "market_value": 1045000,
-      "trend": "up",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 20000,
-      "daily_market_change_pct": 1.914,
-      "weekly_market_change": 332000,
-      "weekly_market_change_pct": 31.77,
-      "displayed_points": 6,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "6",
-          "value": 6
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "118",
-      "name": "J. Otto 💥",
-      "position": null,
-      "market_value": 3269000,
-      "trend": "up",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 131000,
-      "daily_market_change_pct": 4.007,
-      "weekly_market_change": 720000,
-      "weekly_market_change_pct": 22.025,
-      "displayed_points": 13,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "13",
-          "value": 13
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "63",
-      "name": "M. Bartra 💥",
-      "position": null,
-      "market_value": 3063000,
-      "trend": "up",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 132000,
-      "daily_market_change_pct": 4.31,
-      "weekly_market_change": 774000,
-      "weekly_market_change_pct": 25.269,
-      "displayed_points": 16,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "16",
-          "value": 16
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "71008",
-      "name": "R. Garrido 💥",
-      "position": null,
-      "market_value": 1557000,
-      "trend": "up",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 60000,
-      "daily_market_change_pct": 3.854,
-      "weekly_market_change": 381000,
-      "weekly_market_change_pct": 24.47,
-      "displayed_points": 10,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "10",
-          "value": 10
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "64411",
-      "name": "Y. Enríquez 💥",
-      "position": null,
-      "market_value": 1209000,
-      "trend": "up",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 43000,
-      "daily_market_change_pct": 3.557,
-      "weekly_market_change": 360000,
-      "weekly_market_change_pct": 29.777,
-      "displayed_points": 12,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "12",
-          "value": 12
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "36046",
-      "name": "G. Villar",
-      "position": null,
-      "market_value": 2855000,
-      "trend": "up",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 81000,
-      "daily_market_change_pct": 2.837,
-      "weekly_market_change": 576000,
-      "weekly_market_change_pct": 20.175,
-      "displayed_points": 13,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "13",
-          "value": 13
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "15653",
-      "name": "K. Lee 💥",
-      "position": null,
-      "market_value": 10174000,
-      "trend": "up",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 83000,
-      "daily_market_change_pct": 0.816,
-      "weekly_market_change": 1061000,
-      "weekly_market_change_pct": 10.429,
-      "displayed_points": 23,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "23",
-          "value": 23
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "59371",
-      "name": "L. Sučić 💥",
-      "position": null,
-      "market_value": 3684000,
-      "trend": "up",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 134000,
-      "daily_market_change_pct": 3.637,
-      "weekly_market_change": 724000,
-      "weekly_market_change_pct": 19.653,
+      "owner_id": "13390634",
+      "owner_name": "Samuhg22",
+      "asking_price": 35000000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": 98000,
+      "daily_market_change_pct": 0.971,
+      "weekly_market_change": 734000,
+      "weekly_market_change_pct": 7.272,
       "displayed_points": 14,
       "points_status": "single_visible_value",
       "score_candidates": [
@@ -1335,98 +243,20 @@
       "displayed_points_delta_since_previous_snapshot": null
     },
     {
-      "player_id": "3728",
-      "name": "M. Roca",
-      "position": null,
-      "market_value": 5292000,
+      "player_id": "71061",
+      "name": "Á. Calatrava",
+      "position": 3,
+      "market_value": 5414000,
       "trend": "up",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 56000,
-      "daily_market_change_pct": 1.058,
-      "weekly_market_change": 678000,
-      "weekly_market_change_pct": 12.812,
-      "displayed_points": 9,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "9",
-          "value": 9
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "48203",
-      "name": "R. Terrats 💥",
-      "position": null,
-      "market_value": 3199000,
-      "trend": "up",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 118000,
-      "daily_market_change_pct": 3.689,
-      "weekly_market_change": 782000,
-      "weekly_market_change_pct": 24.445,
-      "displayed_points": 16,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "16",
-          "value": 16
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "24",
-      "name": "U. López 💥",
-      "position": null,
-      "market_value": 2996000,
-      "trend": "up",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 102000,
-      "daily_market_change_pct": 3.405,
-      "weekly_market_change": 662000,
-      "weekly_market_change_pct": 22.096,
-      "displayed_points": 13,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "13",
-          "value": 13
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": null
-    },
-    {
-      "player_id": "68606",
-      "name": "Á. Pérez 💥",
-      "position": null,
-      "market_value": 4799000,
-      "trend": "up",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 193000,
-      "daily_market_change_pct": 4.022,
-      "weekly_market_change": 1034000,
-      "weekly_market_change_pct": 21.546,
+      "owner_id": "13390634",
+      "owner_name": "Samuhg22",
+      "asking_price": 15000000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": 67000,
+      "daily_market_change_pct": 1.238,
+      "weekly_market_change": 971000,
+      "weekly_market_change_pct": 17.935,
       "displayed_points": 17,
       "points_status": "single_visible_value",
       "score_candidates": [
@@ -1439,20 +269,20 @@
       "displayed_points_delta_since_previous_snapshot": null
     },
     {
-      "player_id": "31226",
-      "name": "A. Danjuma 💥",
-      "position": null,
-      "market_value": 3048000,
-      "trend": "up",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 73000,
-      "daily_market_change_pct": 2.395,
-      "weekly_market_change": 586000,
-      "weekly_market_change_pct": 19.226,
+      "player_id": "20141",
+      "name": "G. Valera",
+      "position": 3,
+      "market_value": 9349000,
+      "trend": "down",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 9349000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -203000,
+      "daily_market_change_pct": -2.171,
+      "weekly_market_change": -984000,
+      "weekly_market_change_pct": -10.525,
       "displayed_points": 8,
       "points_status": "single_visible_value",
       "score_candidates": [
@@ -1465,46 +295,228 @@
       "displayed_points_delta_since_previous_snapshot": null
     },
     {
-      "player_id": "52189",
-      "name": "A. Pérez 💥",
-      "position": null,
-      "market_value": 5122000,
-      "trend": "up",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 71000,
-      "daily_market_change_pct": 1.386,
-      "weekly_market_change": 1173000,
-      "weekly_market_change_pct": 22.901,
-      "displayed_points": 10,
+      "player_id": "27517",
+      "name": "I. Palazón",
+      "position": 3,
+      "market_value": 5514000,
+      "trend": "down",
+      "owner_id": "15479078",
+      "owner_name": "José Luis",
+      "asking_price": 5604000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": -90000,
+      "daily_market_change": -90000,
+      "daily_market_change_pct": -1.632,
+      "weekly_market_change": -160000,
+      "weekly_market_change_pct": -2.902,
+      "displayed_points": 7,
       "points_status": "single_visible_value",
       "score_candidates": [
         {
           "class": "points",
-          "text": "10",
-          "value": 10
+          "text": "7",
+          "value": 7
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "3728",
+      "name": "M. Roca",
+      "position": 3,
+      "market_value": 5351000,
+      "trend": "up",
+      "owner_id": "12165479",
+      "owner_name": "Ale",
+      "asking_price": 5148000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": 59000,
+      "daily_market_change": 59000,
+      "daily_market_change_pct": 1.103,
+      "weekly_market_change": 563000,
+      "weekly_market_change_pct": 10.521,
+      "displayed_points": 9,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "9",
+          "value": 9
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "29403",
+      "name": "P. Ciss",
+      "position": 3,
+      "market_value": 4081000,
+      "trend": "down",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 4081000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -125000,
+      "daily_market_change_pct": -3.063,
+      "weekly_market_change": -545000,
+      "weekly_market_change_pct": -13.355,
+      "displayed_points": 7,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "7",
+          "value": 7
         }
       ],
       "displayed_points_delta_since_previous_snapshot": null
     },
     {
-      "player_id": "20449",
-      "name": "F. Niño 💥",
-      "position": null,
-      "market_value": 2129000,
+      "player_id": "71138",
+      "name": "R. Sato",
+      "position": 3,
+      "market_value": 3449000,
       "trend": "up",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 78000,
-      "daily_market_change_pct": 3.664,
-      "weekly_market_change": 437000,
-      "weekly_market_change_pct": 20.526,
+      "owner_id": "12165510",
+      "owner_name": "DRSeven",
+      "asking_price": 3384000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": 65000,
+      "daily_market_change": 65000,
+      "daily_market_change_pct": 1.885,
+      "weekly_market_change": 647000,
+      "weekly_market_change_pct": 18.759,
+      "displayed_points": 8,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "8",
+          "value": 8
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "28777",
+      "name": "C. Álvarez",
+      "position": 3,
+      "market_value": 3348000,
+      "trend": "down",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 3348000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -139000,
+      "daily_market_change_pct": -4.152,
+      "weekly_market_change": -742000,
+      "weekly_market_change_pct": -22.162,
+      "displayed_points": 1,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "1",
+          "value": 1
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "70999",
+      "name": "D. Lorenzo",
+      "position": 3,
+      "market_value": 3495000,
+      "trend": "up",
+      "owner_id": "12165510",
+      "owner_name": "DRSeven",
+      "asking_price": 3244000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": 127000,
+      "daily_market_change": 127000,
+      "daily_market_change_pct": 3.634,
+      "weekly_market_change": 856000,
+      "weekly_market_change_pct": 24.492,
+      "displayed_points": 11,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "11",
+          "value": 11
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "63871",
+      "name": "M. Aguado",
+      "position": 3,
+      "market_value": 3303000,
+      "trend": "up",
+      "owner_id": "12165510",
+      "owner_name": "DRSeven",
+      "asking_price": 3002000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": 60000,
+      "daily_market_change": 60000,
+      "daily_market_change_pct": 1.817,
+      "weekly_market_change": 637000,
+      "weekly_market_change_pct": 19.285,
+      "displayed_points": 14,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "14",
+          "value": 14
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "51060",
+      "name": "J. Cruz",
+      "position": 3,
+      "market_value": 2877000,
+      "trend": "down",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 2877000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -17000,
+      "daily_market_change_pct": -0.591,
+      "weekly_market_change": 127000,
+      "weekly_market_change_pct": 4.414,
+      "displayed_points": 7,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "7",
+          "value": 7
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "65674",
+      "name": "M. Román",
+      "position": 3,
+      "market_value": 2135000,
+      "trend": "up",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 2135000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": 84000,
+      "daily_market_change_pct": 3.934,
+      "weekly_market_change": 509000,
+      "weekly_market_change_pct": 23.841,
       "displayed_points": 14,
       "points_status": "single_visible_value",
       "score_candidates": [
@@ -1517,20 +529,254 @@
       "displayed_points_delta_since_previous_snapshot": null
     },
     {
-      "player_id": "130",
-      "name": "I. Aspas",
-      "position": null,
-      "market_value": 4943000,
+      "player_id": "22668",
+      "name": "L. Torró",
+      "position": 3,
+      "market_value": 1276000,
+      "trend": "down",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 1276000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -19000,
+      "daily_market_change_pct": -1.489,
+      "weekly_market_change": -127000,
+      "weekly_market_change_pct": -9.953,
+      "displayed_points": 9,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "9",
+          "value": 9
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "55439",
+      "name": "H. González",
+      "position": 3,
+      "market_value": 702000,
+      "trend": "down",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 702000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -59000,
+      "daily_market_change_pct": -8.405,
+      "weekly_market_change": -311000,
+      "weekly_market_change_pct": -44.302,
+      "displayed_points": 3,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "3",
+          "value": 3
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "60271",
+      "name": "R. Bauza",
+      "position": 3,
+      "market_value": 573000,
       "trend": "up",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "delta_since_previous_snapshot": 0,
-      "daily_market_change": 181000,
-      "daily_market_change_pct": 3.662,
-      "weekly_market_change": 898000,
-      "weekly_market_change_pct": 18.167,
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 573000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": 7000,
+      "daily_market_change_pct": 1.222,
+      "weekly_market_change": 137000,
+      "weekly_market_change_pct": 23.909,
+      "displayed_points": 8,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "8",
+          "value": 8
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "68835",
+      "name": "J. Ochieng",
+      "position": 3,
+      "market_value": 196000,
+      "trend": "down",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 196000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -43000,
+      "daily_market_change_pct": -21.939,
+      "weekly_market_change": 36000,
+      "weekly_market_change_pct": 18.367,
+      "displayed_points": 2,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "2",
+          "value": 2
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "28772",
+      "name": "N. Serrano",
+      "position": 3,
+      "market_value": 205000,
+      "trend": "up",
+      "owner_id": "15479078",
+      "owner_name": "José Luis",
+      "asking_price": 195000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": 10000,
+      "daily_market_change": 10000,
+      "daily_market_change_pct": 4.878,
+      "weekly_market_change": 34000,
+      "weekly_market_change_pct": 16.585,
+      "displayed_points": 0,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "0",
+          "value": 0
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "55452",
+      "name": "S. Canós",
+      "position": 3,
+      "market_value": 180000,
+      "trend": "up",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 180000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": 20000,
+      "daily_market_change_pct": 11.111,
+      "weekly_market_change": 20000,
+      "weekly_market_change_pct": 11.111,
+      "displayed_points": 0,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "0",
+          "value": 0
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "59506",
+      "name": "J. Rodríguez",
+      "position": 2,
+      "market_value": 3302000,
+      "trend": "up",
+      "owner_id": "13390634",
+      "owner_name": "Samuhg22",
+      "asking_price": 62238310,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": 34000,
+      "daily_market_change_pct": 1.03,
+      "weekly_market_change": 602000,
+      "weekly_market_change_pct": 18.231,
+      "displayed_points": 6,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "6",
+          "value": 6
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "24792",
+      "name": "J. Iglesias",
+      "position": 2,
+      "market_value": 6148000,
+      "trend": "down",
+      "owner_id": "13390634",
+      "owner_name": "Samuhg22",
+      "asking_price": 25000000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": -7000,
+      "daily_market_change": -7000,
+      "daily_market_change_pct": -0.114,
+      "weekly_market_change": 332000,
+      "weekly_market_change_pct": 5.4,
+      "displayed_points": 11,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "11",
+          "value": 11
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "52377",
+      "name": "J. Herrando",
+      "position": 2,
+      "market_value": 587000,
+      "trend": "up",
+      "owner_id": "13390634",
+      "owner_name": "Samuhg22",
+      "asking_price": 5000000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": 39000,
+      "daily_market_change_pct": 6.644,
+      "weekly_market_change": 402000,
+      "weekly_market_change_pct": 68.484,
+      "displayed_points": 10,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "10",
+          "value": 10
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "28773",
+      "name": "A. Paredes",
+      "position": 2,
+      "market_value": 2064000,
+      "trend": "up",
+      "owner_id": "12165479",
+      "owner_name": "Ale",
+      "asking_price": 1764000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": 87000,
+      "daily_market_change": 87000,
+      "daily_market_change_pct": 4.215,
+      "weekly_market_change": 511000,
+      "weekly_market_change_pct": 24.758,
       "displayed_points": 16,
       "points_status": "single_visible_value",
       "score_candidates": [
@@ -1540,21 +786,777 @@
           "value": 16
         }
       ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "71139",
+      "name": "B. Ede",
+      "position": 2,
+      "market_value": 1449000,
+      "trend": "up",
+      "owner_id": "12165510",
+      "owner_name": "DRSeven",
+      "asking_price": 1423000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": 26000,
+      "daily_market_change": 26000,
+      "daily_market_change_pct": 1.794,
+      "weekly_market_change": 238000,
+      "weekly_market_change_pct": 16.425,
+      "displayed_points": 8,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "8",
+          "value": 8
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "71008",
+      "name": "R. Garrido",
+      "position": 2,
+      "market_value": 1617000,
+      "trend": "up",
+      "owner_id": "12165479",
+      "owner_name": "Ale",
+      "asking_price": 1330000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": 60000,
+      "daily_market_change": 60000,
+      "daily_market_change_pct": 3.711,
+      "weekly_market_change": 396000,
+      "weekly_market_change_pct": 24.49,
+      "displayed_points": 10,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "10",
+          "value": 10
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "64411",
+      "name": "Y. Enríquez",
+      "position": 2,
+      "market_value": 1254000,
+      "trend": "up",
+      "owner_id": "12165479",
+      "owner_name": "Ale",
+      "asking_price": 1086000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": 45000,
+      "daily_market_change": 45000,
+      "daily_market_change_pct": 3.589,
+      "weekly_market_change": 343000,
+      "weekly_market_change_pct": 27.352,
+      "displayed_points": 12,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "12",
+          "value": 12
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "28791",
+      "name": "J. Vázquez",
+      "position": 2,
+      "market_value": 1046000,
+      "trend": "up",
+      "owner_id": "12165479",
+      "owner_name": "Ale",
+      "asking_price": 1025000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": 1000,
+      "daily_market_change": 1000,
+      "daily_market_change_pct": 0.096,
+      "weekly_market_change": 283000,
+      "weekly_market_change_pct": 27.055,
+      "displayed_points": 6,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "6",
+          "value": 6
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "61009",
+      "name": "Á. Ortiz",
+      "position": 2,
+      "market_value": 348000,
+      "trend": "up",
+      "owner_id": "15479078",
+      "owner_name": "José Luis",
+      "asking_price": 345000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": 3000,
+      "daily_market_change": 3000,
+      "daily_market_change_pct": 0.862,
+      "weekly_market_change": 85000,
+      "weekly_market_change_pct": 24.425,
+      "displayed_points": 4,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "4",
+          "value": 4
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "71791",
+      "name": "P. Felipe",
+      "position": 2,
+      "market_value": 160000,
+      "trend": "down",
+      "owner_id": "15441764",
+      "owner_name": "fernando mg99",
+      "asking_price": 177000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": -17000,
+      "daily_market_change": -17000,
+      "daily_market_change_pct": -10.625,
+      "weekly_market_change": -323000,
+      "weekly_market_change_pct": -201.875,
+      "displayed_points": 2,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "2",
+          "value": 2
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "11092",
+      "name": "A. Gorosabel",
+      "position": 2,
+      "market_value": 160000,
+      "trend": "down",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 160000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -28000,
+      "daily_market_change_pct": -17.5,
+      "weekly_market_change": -187000,
+      "weekly_market_change_pct": -116.875,
+      "displayed_points": 0,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "0",
+          "value": 0
+        }
+      ],
       "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "609",
+      "name": "D. Soria",
+      "position": 1,
+      "market_value": 10013000,
+      "trend": "down",
+      "owner_id": "12189231",
+      "owner_name": "Adam Panyiczki",
+      "asking_price": 10041000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": -28000,
+      "daily_market_change": -28000,
+      "daily_market_change_pct": -0.28,
+      "weekly_market_change": 167000,
+      "weekly_market_change_pct": 1.668,
+      "displayed_points": 19,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "19",
+          "value": 19
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "13005",
+      "name": "A. Lunin",
+      "position": 1,
+      "market_value": 631000,
+      "trend": "down",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 631000,
+      "ends_at_unix": 1788318000,
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -25000,
+      "daily_market_change_pct": -3.962,
+      "weekly_market_change": -168000,
+      "weekly_market_change_pct": -26.624,
+      "displayed_points": 0,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "0",
+          "value": 0
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    }
+  ],
+  "my_team": [
+    {
+      "player_id": "28774",
+      "name": "J. Agirrezabala",
+      "position": null,
+      "market_value": 2708000,
+      "trend": "up",
+      "owner_id": null,
+      "owner_name": null,
+      "asking_price": null,
+      "ends_at_unix": null,
+      "delta_since_previous_snapshot": 112000,
+      "daily_market_change": 112000,
+      "daily_market_change_pct": 4.136,
+      "weekly_market_change": 703000,
+      "weekly_market_change_pct": 25.96,
+      "displayed_points": 12,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "12",
+          "value": 12
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "28773",
+      "name": "A. Paredes 💥",
+      "position": null,
+      "market_value": 2064000,
+      "trend": "up",
+      "owner_id": null,
+      "owner_name": null,
+      "asking_price": null,
+      "ends_at_unix": null,
+      "delta_since_previous_snapshot": 87000,
+      "daily_market_change": 87000,
+      "daily_market_change_pct": 4.215,
+      "weekly_market_change": 511000,
+      "weekly_market_change_pct": 24.758,
+      "displayed_points": 16,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "16",
+          "value": 16
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "27520",
+      "name": "F. García 💥",
+      "position": null,
+      "market_value": 4806000,
+      "trend": "up",
+      "owner_id": null,
+      "owner_name": null,
+      "asking_price": null,
+      "ends_at_unix": null,
+      "delta_since_previous_snapshot": 164000,
+      "daily_market_change": 164000,
+      "daily_market_change_pct": 3.412,
+      "weekly_market_change": 1220000,
+      "weekly_market_change_pct": 25.385,
+      "displayed_points": 10,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "10",
+          "value": 10
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "56971",
+      "name": "H. Fort 💥",
+      "position": null,
+      "market_value": 947000,
+      "trend": "up",
+      "owner_id": null,
+      "owner_name": null,
+      "asking_price": null,
+      "ends_at_unix": null,
+      "delta_since_previous_snapshot": 69000,
+      "daily_market_change": 69000,
+      "daily_market_change_pct": 7.286,
+      "weekly_market_change": 310000,
+      "weekly_market_change_pct": 32.735,
+      "displayed_points": 0,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "0",
+          "value": 0
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "28791",
+      "name": "J. Vázquez 💥",
+      "position": null,
+      "market_value": 1046000,
+      "trend": "up",
+      "owner_id": null,
+      "owner_name": null,
+      "asking_price": null,
+      "ends_at_unix": null,
+      "delta_since_previous_snapshot": 1000,
+      "daily_market_change": 1000,
+      "daily_market_change_pct": 0.096,
+      "weekly_market_change": 283000,
+      "weekly_market_change_pct": 27.055,
+      "displayed_points": 6,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "6",
+          "value": 6
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "118",
+      "name": "J. Otto 💥",
+      "position": null,
+      "market_value": 3404000,
+      "trend": "up",
+      "owner_id": null,
+      "owner_name": null,
+      "asking_price": null,
+      "ends_at_unix": null,
+      "delta_since_previous_snapshot": 135000,
+      "daily_market_change": 135000,
+      "daily_market_change_pct": 3.966,
+      "weekly_market_change": 773000,
+      "weekly_market_change_pct": 22.709,
+      "displayed_points": 13,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "13",
+          "value": 13
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "63",
+      "name": "M. Bartra 💥",
+      "position": null,
+      "market_value": 3198000,
+      "trend": "up",
+      "owner_id": null,
+      "owner_name": null,
+      "asking_price": null,
+      "ends_at_unix": null,
+      "delta_since_previous_snapshot": 135000,
+      "daily_market_change": 135000,
+      "daily_market_change_pct": 4.221,
+      "weekly_market_change": 810000,
+      "weekly_market_change_pct": 25.328,
+      "displayed_points": 16,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "16",
+          "value": 16
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "71008",
+      "name": "R. Garrido 💥",
+      "position": null,
+      "market_value": 1617000,
+      "trend": "up",
+      "owner_id": null,
+      "owner_name": null,
+      "asking_price": null,
+      "ends_at_unix": null,
+      "delta_since_previous_snapshot": 60000,
+      "daily_market_change": 60000,
+      "daily_market_change_pct": 3.711,
+      "weekly_market_change": 396000,
+      "weekly_market_change_pct": 24.49,
+      "displayed_points": 10,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "10",
+          "value": 10
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "64411",
+      "name": "Y. Enríquez 💥",
+      "position": null,
+      "market_value": 1254000,
+      "trend": "up",
+      "owner_id": null,
+      "owner_name": null,
+      "asking_price": null,
+      "ends_at_unix": null,
+      "delta_since_previous_snapshot": 45000,
+      "daily_market_change": 45000,
+      "daily_market_change_pct": 3.589,
+      "weekly_market_change": 343000,
+      "weekly_market_change_pct": 27.352,
+      "displayed_points": 12,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "12",
+          "value": 12
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "36046",
+      "name": "G. Villar",
+      "position": null,
+      "market_value": 2942000,
+      "trend": "up",
+      "owner_id": null,
+      "owner_name": null,
+      "asking_price": null,
+      "ends_at_unix": null,
+      "delta_since_previous_snapshot": 87000,
+      "daily_market_change": 87000,
+      "daily_market_change_pct": 2.957,
+      "weekly_market_change": 582000,
+      "weekly_market_change_pct": 19.782,
+      "displayed_points": 13,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "13",
+          "value": 13
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "15653",
+      "name": "K. Lee 💥",
+      "position": null,
+      "market_value": 10249000,
+      "trend": "up",
+      "owner_id": null,
+      "owner_name": null,
+      "asking_price": null,
+      "ends_at_unix": null,
+      "delta_since_previous_snapshot": 75000,
+      "daily_market_change": 75000,
+      "daily_market_change_pct": 0.732,
+      "weekly_market_change": 964000,
+      "weekly_market_change_pct": 9.406,
+      "displayed_points": 23,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "23",
+          "value": 23
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "59371",
+      "name": "L. Sučić 💥",
+      "position": null,
+      "market_value": 3817000,
+      "trend": "up",
+      "owner_id": null,
+      "owner_name": null,
+      "asking_price": null,
+      "ends_at_unix": null,
+      "delta_since_previous_snapshot": 133000,
+      "daily_market_change": 133000,
+      "daily_market_change_pct": 3.484,
+      "weekly_market_change": 811000,
+      "weekly_market_change_pct": 21.247,
+      "displayed_points": 14,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "14",
+          "value": 14
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "3728",
+      "name": "M. Roca",
+      "position": null,
+      "market_value": 5351000,
+      "trend": "up",
+      "owner_id": null,
+      "owner_name": null,
+      "asking_price": null,
+      "ends_at_unix": null,
+      "delta_since_previous_snapshot": 59000,
+      "daily_market_change": 59000,
+      "daily_market_change_pct": 1.103,
+      "weekly_market_change": 563000,
+      "weekly_market_change_pct": 10.521,
+      "displayed_points": 9,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "9",
+          "value": 9
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "48203",
+      "name": "R. Terrats 💥",
+      "position": null,
+      "market_value": 3334000,
+      "trend": "up",
+      "owner_id": null,
+      "owner_name": null,
+      "asking_price": null,
+      "ends_at_unix": null,
+      "delta_since_previous_snapshot": 135000,
+      "daily_market_change": 135000,
+      "daily_market_change_pct": 4.049,
+      "weekly_market_change": 813000,
+      "weekly_market_change_pct": 24.385,
+      "displayed_points": 16,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "16",
+          "value": 16
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "24",
+      "name": "U. López 💥",
+      "position": null,
+      "market_value": 3102000,
+      "trend": "up",
+      "owner_id": null,
+      "owner_name": null,
+      "asking_price": null,
+      "ends_at_unix": null,
+      "delta_since_previous_snapshot": 106000,
+      "daily_market_change": 106000,
+      "daily_market_change_pct": 3.417,
+      "weekly_market_change": 682000,
+      "weekly_market_change_pct": 21.986,
+      "displayed_points": 14,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "14",
+          "value": 14
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 1
+    },
+    {
+      "player_id": "68606",
+      "name": "Á. Pérez 💥",
+      "position": null,
+      "market_value": 4994000,
+      "trend": "up",
+      "owner_id": null,
+      "owner_name": null,
+      "asking_price": null,
+      "ends_at_unix": null,
+      "delta_since_previous_snapshot": 195000,
+      "daily_market_change": 195000,
+      "daily_market_change_pct": 3.905,
+      "weekly_market_change": 1111000,
+      "weekly_market_change_pct": 22.247,
+      "displayed_points": 17,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "17",
+          "value": 17
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "31226",
+      "name": "A. Danjuma 💥",
+      "position": null,
+      "market_value": 3118000,
+      "trend": "up",
+      "owner_id": null,
+      "owner_name": null,
+      "asking_price": null,
+      "ends_at_unix": null,
+      "delta_since_previous_snapshot": 70000,
+      "daily_market_change": 70000,
+      "daily_market_change_pct": 2.245,
+      "weekly_market_change": 575000,
+      "weekly_market_change_pct": 18.441,
+      "displayed_points": 8,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "8",
+          "value": 8
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "52189",
+      "name": "A. Pérez 💥",
+      "position": null,
+      "market_value": 5192000,
+      "trend": "up",
+      "owner_id": null,
+      "owner_name": null,
+      "asking_price": null,
+      "ends_at_unix": null,
+      "delta_since_previous_snapshot": 70000,
+      "daily_market_change": 70000,
+      "daily_market_change_pct": 1.348,
+      "weekly_market_change": 1070000,
+      "weekly_market_change_pct": 20.609,
+      "displayed_points": 10,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "10",
+          "value": 10
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "20449",
+      "name": "F. Niño 💥",
+      "position": null,
+      "market_value": 2209000,
+      "trend": "up",
+      "owner_id": null,
+      "owner_name": null,
+      "asking_price": null,
+      "ends_at_unix": null,
+      "delta_since_previous_snapshot": 80000,
+      "daily_market_change": 80000,
+      "daily_market_change_pct": 3.622,
+      "weekly_market_change": 476000,
+      "weekly_market_change_pct": 21.548,
+      "displayed_points": 14,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "14",
+          "value": 14
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "130",
+      "name": "I. Aspas 💥",
+      "position": null,
+      "market_value": 5121000,
+      "trend": "up",
+      "owner_id": null,
+      "owner_name": null,
+      "asking_price": null,
+      "ends_at_unix": null,
+      "delta_since_previous_snapshot": 178000,
+      "daily_market_change": 178000,
+      "daily_market_change_pct": 3.476,
+      "weekly_market_change": 993000,
+      "weekly_market_change_pct": 19.391,
+      "displayed_points": 16,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "16",
+          "value": 16
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
     }
   ],
   "league_users": [
     {
       "user_id": "13390634",
       "name": "Samuhg22",
-      "displayed_euro_value": 68161000,
+      "displayed_euro_value": 87744000,
       "profile_url": "https://mister.mundodeportivo.com/users/13390634/samuhg22",
       "displayed_points": 151,
       "points_status": "single_visible_value",
       "score_candidates": [
         {
           "class": "played",
-          "text": "17 jugadores\n                                            · € 68.161.000",
+          "text": "20 jugadores\n                                            · € 87.744.000",
           "value": null
         },
         {
@@ -1563,19 +1565,19 @@
           "value": 151
         }
       ],
-      "displayed_points_delta_since_previous_snapshot": null
+      "displayed_points_delta_since_previous_snapshot": 0
     },
     {
       "user_id": "12165479",
       "name": "Ale",
-      "displayed_euro_value": 68477000,
+      "displayed_euro_value": 70473000,
       "profile_url": "https://mister.mundodeportivo.com/users/12165479/ale",
       "displayed_points": 129,
       "points_status": "single_visible_value",
       "score_candidates": [
         {
           "class": "played",
-          "text": "20 jugadores\n                                            · € 68.477.000",
+          "text": "20 jugadores\n                                            · € 70.473.000",
           "value": null
         },
         {
@@ -1584,40 +1586,40 @@
           "value": 129
         }
       ],
-      "displayed_points_delta_since_previous_snapshot": null
+      "displayed_points_delta_since_previous_snapshot": 0
     },
     {
       "user_id": "13370206",
       "name": "Enrique",
-      "displayed_euro_value": 50447000,
+      "displayed_euro_value": 50940000,
       "profile_url": "https://mister.mundodeportivo.com/users/13370206/enrique",
-      "displayed_points": 119,
+      "displayed_points": 123,
       "points_status": "single_visible_value",
       "score_candidates": [
         {
           "class": "played",
-          "text": "12 jugadores\n                                            · € 50.447.000",
+          "text": "13 jugadores\n                                            · € 50.940.000",
           "value": null
         },
         {
           "class": "points",
-          "text": "119 Pts -10",
-          "value": 119
+          "text": "123 Pts -6",
+          "value": 123
         }
       ],
-      "displayed_points_delta_since_previous_snapshot": null
+      "displayed_points_delta_since_previous_snapshot": 4
     },
     {
       "user_id": "12165510",
       "name": "DRSeven",
-      "displayed_euro_value": 77974000,
+      "displayed_euro_value": 79242000,
       "profile_url": "https://mister.mundodeportivo.com/users/12165510/drseven",
       "displayed_points": 105,
       "points_status": "single_visible_value",
       "score_candidates": [
         {
           "class": "played",
-          "text": "19 jugadores\n                                            · € 77.974.000",
+          "text": "20 jugadores\n                                            · € 79.242.000",
           "value": null
         },
         {
@@ -1626,19 +1628,19 @@
           "value": 105
         }
       ],
-      "displayed_points_delta_since_previous_snapshot": null
+      "displayed_points_delta_since_previous_snapshot": 0
     },
     {
       "user_id": "12189231",
       "name": "Adam Panyiczki",
-      "displayed_euro_value": 50294000,
+      "displayed_euro_value": 50642000,
       "profile_url": "https://mister.mundodeportivo.com/users/12189231/adam-panyiczki",
       "displayed_points": 103,
       "points_status": "single_visible_value",
       "score_candidates": [
         {
           "class": "played",
-          "text": "10 jugadores\n                                            · € 50.294.000",
+          "text": "10 jugadores\n                                            · € 50.642.000",
           "value": null
         },
         {
@@ -1647,19 +1649,19 @@
           "value": 103
         }
       ],
-      "displayed_points_delta_since_previous_snapshot": null
+      "displayed_points_delta_since_previous_snapshot": 0
     },
     {
       "user_id": "15479078",
       "name": "José Luis",
-      "displayed_euro_value": 47631000,
+      "displayed_euro_value": 47535000,
       "profile_url": "https://mister.mundodeportivo.com/users/15479078/jose-luis",
       "displayed_points": 81,
       "points_status": "single_visible_value",
       "score_candidates": [
         {
           "class": "played",
-          "text": "13 jugadores\n                                            · € 47.631.000",
+          "text": "13 jugadores\n                                            · € 47.535.000",
           "value": null
         },
         {
@@ -1668,19 +1670,19 @@
           "value": 81
         }
       ],
-      "displayed_points_delta_since_previous_snapshot": null
+      "displayed_points_delta_since_previous_snapshot": 0
     },
     {
       "user_id": "15441764",
       "name": "fernando mg99",
-      "displayed_euro_value": 45583000,
+      "displayed_euro_value": 45413000,
       "profile_url": "https://mister.mundodeportivo.com/users/15441764/fernando-mg99",
       "displayed_points": 66,
       "points_status": "single_visible_value",
       "score_candidates": [
         {
           "class": "played",
-          "text": "15 jugadores\n                                            · € 45.583.000",
+          "text": "15 jugadores\n                                            · € 45.413.000",
           "value": null
         },
         {
@@ -1689,12 +1691,104 @@
           "value": 66
         }
       ],
-      "displayed_points_delta_since_previous_snapshot": null
+      "displayed_points_delta_since_previous_snapshot": 0
     }
   ],
-  "feed_event_count": 247,
-  "effective_feed_event_count": 221,
+  "feed_event_count": 248,
+  "effective_feed_event_count": 223,
   "transfers_detected": [
+    {
+      "created": "2026-09-01 05:00:34",
+      "player": null,
+      "from": "Mister",
+      "to": "Samuhg22",
+      "price": 10444444,
+      "id_user1": 0,
+      "id_user2": 1732719,
+      "bids": null,
+      "other_bids": null
+    },
+    {
+      "created": "2026-09-01 05:00:34",
+      "player": null,
+      "from": "Mister",
+      "to": "Samuhg22",
+      "price": 5111111,
+      "id_user1": 0,
+      "id_user2": 1732719,
+      "bids": null,
+      "other_bids": null
+    },
+    {
+      "created": "2026-09-01 05:00:34",
+      "player": null,
+      "from": "Mister",
+      "to": "Samuhg22",
+      "price": 3222222,
+      "id_user1": 0,
+      "id_user2": 1732719,
+      "bids": 819299683,
+      "other_bids": [
+        {
+          "name": "DRSeven",
+          "bid": 2812000
+        }
+      ]
+    },
+    {
+      "created": "2026-09-01 05:00:34",
+      "player": null,
+      "from": "Mister",
+      "to": "Samuhg22",
+      "price": 1277777,
+      "id_user1": 0,
+      "id_user2": 1732719,
+      "bids": 818988007,
+      "other_bids": [
+        {
+          "name": "Ale",
+          "bid": 1249000
+        }
+      ]
+    },
+    {
+      "created": "2026-09-01 05:00:34",
+      "player": null,
+      "from": "Mister",
+      "to": "Enrique",
+      "price": 165000,
+      "id_user1": 0,
+      "id_user2": 2626432,
+      "bids": null,
+      "other_bids": null
+    },
+    {
+      "created": "2026-09-01 05:00:34",
+      "player": null,
+      "from": "Mister",
+      "to": "DRSeven",
+      "price": 212000,
+      "id_user1": 0,
+      "id_user2": 1513537,
+      "bids": 818852354,
+      "other_bids": [
+        {
+          "name": "Enrique",
+          "bid": 210020
+        }
+      ]
+    },
+    {
+      "created": "2026-09-01 00:29:52",
+      "player": null,
+      "from": "Samuhg22",
+      "to": "Mister",
+      "price": 1119610,
+      "id_user1": 1732719,
+      "id_user2": 0,
+      "bids": null,
+      "other_bids": null
+    },
     {
       "created": "2026-08-31 21:44:20",
       "player": null,
@@ -6180,7 +6274,7 @@
   "estimated_rival_balances": [
     {
       "name": "Samuhg22",
-      "estimated_balance": 4764288,
+      "estimated_balance": -14171656,
       "ledger": [
         {
           "created": "2026-08-09 05:00:24",
@@ -6609,22 +6703,52 @@
           "detail": null
         },
         {
+          "created": "2026-09-01 00:29:52",
+          "type": "sale",
+          "amount": 1119610,
+          "detail": null
+        },
+        {
+          "created": "2026-09-01 05:00:34",
+          "type": "purchase",
+          "amount": -10444444,
+          "detail": null
+        },
+        {
+          "created": "2026-09-01 05:00:34",
+          "type": "purchase",
+          "amount": -5111111,
+          "detail": null
+        },
+        {
+          "created": "2026-09-01 05:00:34",
+          "type": "purchase",
+          "amount": -3222222,
+          "detail": null
+        },
+        {
+          "created": "2026-09-01 05:00:34",
+          "type": "purchase",
+          "amount": -1277777,
+          "detail": null
+        },
+        {
           "created": "current_snapshot",
           "type": "active_clause_balance_investment",
           "amount": -3227734,
           "detail": null
         }
       ],
-      "operation_count": 66,
-      "team_value": 68161000,
-      "max_negative_balance_from_25pct_rule": -17040250,
-      "remaining_debt_capacity_if_estimate_were_true": 21804538,
+      "operation_count": 71,
+      "team_value": 87744000,
+      "max_negative_balance_from_25pct_rule": -21936000,
+      "remaining_debt_capacity_if_estimate_were_true": 7764344,
       "valid_by_25pct_debt_rule": true,
-      "usable_estimated_balance": 4764288,
+      "usable_estimated_balance": -14171656,
       "active_clause_balance_investment_min": 3227734,
       "active_clause_balance_investment_max": 3227734,
-      "estimated_balance_min": 759288,
-      "estimated_balance_max": 759288,
+      "estimated_balance_min": -18176656,
+      "estimated_balance_max": -18176656,
       "estimated_balance_exact": true,
       "gameweek_payment_total_applied": 3505000,
       "other_feed_cash_total_applied": 500000,
@@ -7218,9 +7342,9 @@
         }
       ],
       "operation_count": 91,
-      "team_value": 68477000,
-      "max_negative_balance_from_25pct_rule": -17119250,
-      "remaining_debt_capacity_if_estimate_were_true": 27380966,
+      "team_value": 70473000,
+      "max_negative_balance_from_25pct_rule": -17618250,
+      "remaining_debt_capacity_if_estimate_were_true": 27879966,
       "valid_by_25pct_debt_rule": true,
       "usable_estimated_balance": 10261716,
       "actual_balance": 10261716,
@@ -7236,7 +7360,7 @@
     },
     {
       "name": "Enrique",
-      "estimated_balance": 6916956,
+      "estimated_balance": 6751956,
       "ledger": [
         {
           "created": "2026-08-09 05:00:24",
@@ -7453,18 +7577,24 @@
           "type": "sale",
           "amount": 2539500,
           "detail": null
+        },
+        {
+          "created": "2026-09-01 05:00:34",
+          "type": "purchase",
+          "amount": -165000,
+          "detail": null
         }
       ],
-      "operation_count": 30,
-      "team_value": 50447000,
-      "max_negative_balance_from_25pct_rule": -12611750,
-      "remaining_debt_capacity_if_estimate_were_true": 19528706,
+      "operation_count": 31,
+      "team_value": 50940000,
+      "max_negative_balance_from_25pct_rule": -12735000,
+      "remaining_debt_capacity_if_estimate_were_true": 19486956,
       "valid_by_25pct_debt_rule": true,
-      "usable_estimated_balance": 6916956,
+      "usable_estimated_balance": 6751956,
       "active_clause_balance_investment_min": 0,
       "active_clause_balance_investment_max": 0,
-      "estimated_balance_min": 3141956,
-      "estimated_balance_max": 3141956,
+      "estimated_balance_min": 2976956,
+      "estimated_balance_max": 2976956,
       "estimated_balance_exact": true,
       "gameweek_payment_total_applied": 3325000,
       "other_feed_cash_total_applied": 450000,
@@ -7472,7 +7602,7 @@
     },
     {
       "name": "DRSeven",
-      "estimated_balance": -14960448,
+      "estimated_balance": -15172448,
       "ledger": [
         {
           "created": "2026-08-09 05:00:24",
@@ -7879,22 +8009,28 @@
           "detail": null
         },
         {
+          "created": "2026-09-01 05:00:34",
+          "type": "purchase",
+          "amount": -212000,
+          "detail": null
+        },
+        {
           "created": "current_snapshot",
           "type": "active_clause_balance_investment",
           "amount": -750600,
           "detail": null
         }
       ],
-      "operation_count": 63,
-      "team_value": 77974000,
-      "max_negative_balance_from_25pct_rule": -19493500,
-      "remaining_debt_capacity_if_estimate_were_true": 4533052,
+      "operation_count": 64,
+      "team_value": 79242000,
+      "max_negative_balance_from_25pct_rule": -19810500,
+      "remaining_debt_capacity_if_estimate_were_true": 4638052,
       "valid_by_25pct_debt_rule": true,
-      "usable_estimated_balance": -14960448,
+      "usable_estimated_balance": -15172448,
       "active_clause_balance_investment_min": 750600,
       "active_clause_balance_investment_max": 750600,
-      "estimated_balance_min": -17825448,
-      "estimated_balance_max": -17825448,
+      "estimated_balance_min": -18037448,
+      "estimated_balance_max": -18037448,
       "estimated_balance_exact": true,
       "gameweek_payment_total_applied": 2665000,
       "other_feed_cash_total_applied": 200000,
@@ -8204,9 +8340,9 @@
         }
       ],
       "operation_count": 45,
-      "team_value": 50294000,
-      "max_negative_balance_from_25pct_rule": -12573500,
-      "remaining_debt_capacity_if_estimate_were_true": 17415028,
+      "team_value": 50642000,
+      "max_negative_balance_from_25pct_rule": -12660500,
+      "remaining_debt_capacity_if_estimate_were_true": 17502028,
       "valid_by_25pct_debt_rule": true,
       "usable_estimated_balance": 4841528,
       "active_clause_balance_investment_min": 703000,
@@ -8412,9 +8548,9 @@
         }
       ],
       "operation_count": 26,
-      "team_value": 47631000,
-      "max_negative_balance_from_25pct_rule": -11907750,
-      "remaining_debt_capacity_if_estimate_were_true": 18337162,
+      "team_value": 47535000,
+      "max_negative_balance_from_25pct_rule": -11883750,
+      "remaining_debt_capacity_if_estimate_were_true": 18313162,
       "valid_by_25pct_debt_rule": true,
       "usable_estimated_balance": 6429412,
       "active_clause_balance_investment_min": 0,
@@ -8582,9 +8718,9 @@
         }
       ],
       "operation_count": 19,
-      "team_value": 45583000,
-      "max_negative_balance_from_25pct_rule": -11395750,
-      "remaining_debt_capacity_if_estimate_were_true": 14834750,
+      "team_value": 45413000,
+      "max_negative_balance_from_25pct_rule": -11353250,
+      "remaining_debt_capacity_if_estimate_were_true": 14792250,
       "valid_by_25pct_debt_rule": true,
       "usable_estimated_balance": 3439000,
       "active_clause_balance_investment_min": 0,
@@ -8601,8 +8737,8 @@
     {
       "name": "Samuhg22",
       "user_id": "13390634",
-      "roster_cards_detected": 17,
-      "clause_players_detected": 17,
+      "roster_cards_detected": 20,
+      "clause_players_detected": 20,
       "raised_clause_players_detected": 1,
       "active_clause_balance_investment": 3227734,
       "active_clause_balance_investment_min": 3227734,
@@ -8610,13 +8746,32 @@
       "active_clause_balance_investment_exact": true,
       "clauses": [
         {
+          "player_id": "24742",
+          "name": "D. Cárdenas",
+          "position": null,
+          "market_value": 1072000,
+          "acquisition_cost": 1277777,
+          "clause_reference_value": 1277777,
+          "clause_value": 1916666,
+          "clause_percent": 50,
+          "clause_level": 0,
+          "active_balance_investment": 0,
+          "active_balance_investment_min": 0,
+          "active_balance_investment_max": 0,
+          "active_balance_investment_exact": true,
+          "step_investments": [],
+          "investment_capture_source": "historical_clause_ledger",
+          "step_investment_bounds": [],
+          "investment_ledger_episode": "13390634|24742|2026-09-01 05:00:34|1277777"
+        },
+        {
           "player_id": "31",
           "name": "J. Oblak",
           "position": null,
-          "market_value": 9417000,
+          "market_value": 9542000,
           "acquisition_cost": 7777777,
-          "clause_reference_value": 9417000,
-          "clause_value": 14125500,
+          "clause_reference_value": 9542000,
+          "clause_value": 14313000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -8632,10 +8787,10 @@
           "player_id": "1719",
           "name": "A. Mandi",
           "position": null,
-          "market_value": 3533000,
+          "market_value": 3673000,
           "acquisition_cost": 2444444,
-          "clause_reference_value": 3533000,
-          "clause_value": 5299500,
+          "clause_reference_value": 3673000,
+          "clause_value": 5509500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -8651,10 +8806,10 @@
           "player_id": "59506",
           "name": "J. Rodríguez",
           "position": null,
-          "market_value": 3268000,
+          "market_value": 3302000,
           "acquisition_cost": 1777777,
-          "clause_reference_value": 3268000,
-          "clause_value": 4902000,
+          "clause_reference_value": 3302000,
+          "clause_value": 4953000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -8670,10 +8825,10 @@
           "player_id": "308",
           "name": "J. Mojica",
           "position": null,
-          "market_value": 2128000,
+          "market_value": 2215000,
           "acquisition_cost": 1888888,
-          "clause_reference_value": 2128000,
-          "clause_value": 3192000,
+          "clause_reference_value": 2215000,
+          "clause_value": 3322500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -8689,9 +8844,9 @@
           "player_id": "52377",
           "name": "J. Herrando",
           "position": null,
-          "market_value": 548000,
+          "market_value": 587000,
           "acquisition_cost": 333333,
-          "clause_reference_value": 548000,
+          "clause_reference_value": 587000,
           "clause_value": 1000000,
           "clause_percent": 50,
           "clause_level": 0,
@@ -8708,10 +8863,10 @@
           "player_id": "24792",
           "name": "J. Iglesias",
           "position": null,
-          "market_value": 6155000,
+          "market_value": 6148000,
           "acquisition_cost": 5933333,
-          "clause_reference_value": 6155000,
-          "clause_value": 9232500,
+          "clause_reference_value": 6148000,
+          "clause_value": 9222000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -8724,13 +8879,13 @@
           "investment_ledger_episode": "13390634|24792|2026-08-19 05:00:25|5933333"
         },
         {
-          "player_id": "69281",
-          "name": "N. Pérez",
+          "player_id": "22956",
+          "name": "S. Gómez",
           "position": null,
-          "market_value": 1098000,
-          "acquisition_cost": 555555,
-          "clause_reference_value": 1098000,
-          "clause_value": 1647000,
+          "market_value": 5090000,
+          "acquisition_cost": 4555555,
+          "clause_reference_value": 5090000,
+          "clause_value": 7666667,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -8740,16 +8895,16 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "13390634|69281|2026-08-17 17:00:16|555555"
+          "investment_ledger_episode": "13390634|22956|2026-08-09 05:00:24|4555555"
         },
         {
           "player_id": "7784",
           "name": "U. Núñez",
           "position": null,
-          "market_value": 1986000,
+          "market_value": 2069000,
           "acquisition_cost": 1222222,
-          "clause_reference_value": 1986000,
-          "clause_value": 2979000,
+          "clause_reference_value": 2069000,
+          "clause_value": 3103500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -8765,10 +8920,10 @@
           "player_id": "60919",
           "name": "Y. Lago",
           "position": null,
-          "market_value": 621000,
+          "market_value": 672000,
           "acquisition_cost": 666666,
-          "clause_reference_value": 666666,
-          "clause_value": 1000000,
+          "clause_reference_value": 672000,
+          "clause_value": 1008000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -8781,10 +8936,29 @@
           "investment_ledger_episode": "13390634|60919|2026-08-31 05:00:31|666666"
         },
         {
+          "player_id": "70918",
+          "name": "B. Silva",
+          "position": null,
+          "market_value": 10391000,
+          "acquisition_cost": 10444444,
+          "clause_reference_value": 10444444,
+          "clause_value": 15666666,
+          "clause_percent": 50,
+          "clause_level": 0,
+          "active_balance_investment": 0,
+          "active_balance_investment_min": 0,
+          "active_balance_investment_max": 0,
+          "active_balance_investment_exact": true,
+          "step_investments": [],
+          "investment_capture_source": "historical_clause_ledger",
+          "step_investment_bounds": [],
+          "investment_ledger_episode": "13390634|70918|2026-09-01 05:00:34|10444444"
+        },
+        {
           "player_id": "58467",
           "name": "C. Ejuke",
           "position": null,
-          "market_value": 1841000,
+          "market_value": 1924000,
           "acquisition_cost": 2539500,
           "clause_reference_value": 2539500,
           "clause_value": 3809250,
@@ -8803,10 +8977,10 @@
           "player_id": "6034",
           "name": "E. Expósito",
           "position": null,
-          "market_value": 9996000,
+          "market_value": 10094000,
           "acquisition_cost": 9444444,
-          "clause_reference_value": 9996000,
-          "clause_value": 14994000,
+          "clause_reference_value": 10094000,
+          "clause_value": 15141000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -8822,10 +8996,10 @@
           "player_id": "65090",
           "name": "F. Ugrinic",
           "position": null,
-          "market_value": 1578000,
+          "market_value": 1603000,
           "acquisition_cost": 1222222,
-          "clause_reference_value": 1578000,
-          "clause_value": 2367000,
+          "clause_reference_value": 1603000,
+          "clause_value": 2404500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -8841,10 +9015,10 @@
           "player_id": "71154",
           "name": "L. Amatucci",
           "position": null,
-          "market_value": 6012000,
+          "market_value": 6113000,
           "acquisition_cost": 5222222,
-          "clause_reference_value": 6012000,
-          "clause_value": 9018000,
+          "clause_reference_value": 6113000,
+          "clause_value": 9169500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -8857,13 +9031,32 @@
           "investment_ledger_episode": "13390634|71154|2026-08-21 05:00:31|5222222"
         },
         {
+          "player_id": "29169",
+          "name": "P. Ibáñez",
+          "position": null,
+          "market_value": 2865000,
+          "acquisition_cost": 3222222,
+          "clause_reference_value": 3222222,
+          "clause_value": 4833333,
+          "clause_percent": 50,
+          "clause_level": 0,
+          "active_balance_investment": 0,
+          "active_balance_investment_min": 0,
+          "active_balance_investment_max": 0,
+          "active_balance_investment_exact": true,
+          "step_investments": [],
+          "investment_capture_source": "historical_clause_ledger",
+          "step_investment_bounds": [],
+          "investment_ledger_episode": "13390634|29169|2026-09-01 05:00:34|3222222"
+        },
+        {
           "player_id": "15566",
           "name": "Y. Herrera",
           "position": null,
-          "market_value": 2309000,
+          "market_value": 2355000,
           "acquisition_cost": 1311111,
-          "clause_reference_value": 2309000,
-          "clause_value": 3463500,
+          "clause_reference_value": 2355000,
+          "clause_value": 3532500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -8879,10 +9072,10 @@
           "player_id": "71061",
           "name": "Á. Calatrava",
           "position": null,
-          "market_value": 5347000,
+          "market_value": 5414000,
           "acquisition_cost": 3444444,
-          "clause_reference_value": 5347000,
-          "clause_value": 8020500,
+          "clause_reference_value": 5414000,
+          "clause_value": 8121000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -8898,10 +9091,10 @@
           "player_id": "36410",
           "name": "P. Aubameyang",
           "position": null,
-          "market_value": 5220000,
+          "market_value": 5348000,
           "acquisition_cost": 2888888,
-          "clause_reference_value": 5220000,
-          "clause_value": 20880000,
+          "clause_reference_value": 5348000,
+          "clause_value": 21392000,
           "clause_percent": 300,
           "clause_level": 5,
           "active_balance_investment": 3227734,
@@ -8959,10 +9152,10 @@
           "player_id": "60888",
           "name": "R. Fernández",
           "position": null,
-          "market_value": 7104000,
+          "market_value": 7267000,
           "acquisition_cost": 6666666,
-          "clause_reference_value": 7104000,
-          "clause_value": 10656000,
+          "clause_reference_value": 7267000,
+          "clause_value": 10900500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -8991,10 +9184,10 @@
           "player_id": "28774",
           "name": "J. Agirrezabala",
           "position": null,
-          "market_value": 2596000,
+          "market_value": 2708000,
           "acquisition_cost": 1801000,
-          "clause_reference_value": 2596000,
-          "clause_value": 10384000,
+          "clause_reference_value": 2708000,
+          "clause_value": 10832000,
           "clause_percent": 300,
           "clause_level": 5,
           "active_balance_investment": 1801000,
@@ -9052,10 +9245,10 @@
           "player_id": "28773",
           "name": "A. Paredes",
           "position": null,
-          "market_value": 1977000,
+          "market_value": 2064000,
           "acquisition_cost": 1538000,
-          "clause_reference_value": 1977000,
-          "clause_value": 2965500,
+          "clause_reference_value": 2064000,
+          "clause_value": 3096000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9071,10 +9264,10 @@
           "player_id": "27520",
           "name": "F. García",
           "position": null,
-          "market_value": 4642000,
+          "market_value": 4806000,
           "acquisition_cost": 3339000,
-          "clause_reference_value": 4642000,
-          "clause_value": 6963000,
+          "clause_reference_value": 4806000,
+          "clause_value": 7209000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9090,7 +9283,7 @@
           "player_id": "56971",
           "name": "H. Fort",
           "position": null,
-          "market_value": 878000,
+          "market_value": 947000,
           "acquisition_cost": 1079030,
           "clause_reference_value": 1079030,
           "clause_value": 1618545,
@@ -9109,10 +9302,10 @@
           "player_id": "28791",
           "name": "J. Vázquez",
           "position": null,
-          "market_value": 1045000,
+          "market_value": 1046000,
           "acquisition_cost": 472010,
-          "clause_reference_value": 1045000,
-          "clause_value": 1567500,
+          "clause_reference_value": 1046000,
+          "clause_value": 1569000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9128,10 +9321,10 @@
           "player_id": "118",
           "name": "J. Otto",
           "position": null,
-          "market_value": 3269000,
+          "market_value": 3404000,
           "acquisition_cost": 2556010,
-          "clause_reference_value": 3269000,
-          "clause_value": 4903500,
+          "clause_reference_value": 3404000,
+          "clause_value": 5106000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9147,10 +9340,10 @@
           "player_id": "63",
           "name": "M. Bartra",
           "position": null,
-          "market_value": 3063000,
+          "market_value": 3198000,
           "acquisition_cost": 1423000,
-          "clause_reference_value": 3063000,
-          "clause_value": 4594500,
+          "clause_reference_value": 3198000,
+          "clause_value": 4797000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9166,10 +9359,10 @@
           "player_id": "71008",
           "name": "R. Garrido",
           "position": null,
-          "market_value": 1557000,
+          "market_value": 1617000,
           "acquisition_cost": 1231000,
-          "clause_reference_value": 1557000,
-          "clause_value": 2335500,
+          "clause_reference_value": 1617000,
+          "clause_value": 2425500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9185,10 +9378,10 @@
           "player_id": "64411",
           "name": "Y. Enríquez",
           "position": null,
-          "market_value": 1209000,
+          "market_value": 1254000,
           "acquisition_cost": 765000,
-          "clause_reference_value": 1209000,
-          "clause_value": 1813500,
+          "clause_reference_value": 1254000,
+          "clause_value": 1881000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9204,10 +9397,10 @@
           "player_id": "36046",
           "name": "G. Villar",
           "position": null,
-          "market_value": 2855000,
+          "market_value": 2942000,
           "acquisition_cost": 2588000,
-          "clause_reference_value": 2855000,
-          "clause_value": 4282500,
+          "clause_reference_value": 2942000,
+          "clause_value": 4413000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9223,10 +9416,10 @@
           "player_id": "15653",
           "name": "K. Lee",
           "position": null,
-          "market_value": 10174000,
+          "market_value": 10249000,
           "acquisition_cost": 7452000,
-          "clause_reference_value": 10174000,
-          "clause_value": 15261000,
+          "clause_reference_value": 10249000,
+          "clause_value": 15373500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9242,10 +9435,10 @@
           "player_id": "59371",
           "name": "L. Sučić",
           "position": null,
-          "market_value": 3684000,
+          "market_value": 3817000,
           "acquisition_cost": 2495000,
-          "clause_reference_value": 3684000,
-          "clause_value": 5526000,
+          "clause_reference_value": 3817000,
+          "clause_value": 5725500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9261,10 +9454,10 @@
           "player_id": "3728",
           "name": "M. Roca",
           "position": null,
-          "market_value": 5292000,
+          "market_value": 5351000,
           "acquisition_cost": 3958000,
-          "clause_reference_value": 5292000,
-          "clause_value": 7938000,
+          "clause_reference_value": 5351000,
+          "clause_value": 8026500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9280,10 +9473,10 @@
           "player_id": "48203",
           "name": "R. Terrats",
           "position": null,
-          "market_value": 3199000,
+          "market_value": 3334000,
           "acquisition_cost": 2114000,
-          "clause_reference_value": 3199000,
-          "clause_value": 4798500,
+          "clause_reference_value": 3334000,
+          "clause_value": 5001000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9299,10 +9492,10 @@
           "player_id": "24",
           "name": "U. López",
           "position": null,
-          "market_value": 2996000,
+          "market_value": 3102000,
           "acquisition_cost": 2610000,
-          "clause_reference_value": 2996000,
-          "clause_value": 4494000,
+          "clause_reference_value": 3102000,
+          "clause_value": 4653000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9318,10 +9511,10 @@
           "player_id": "68606",
           "name": "Á. Pérez",
           "position": null,
-          "market_value": 4799000,
+          "market_value": 4994000,
           "acquisition_cost": 3151000,
-          "clause_reference_value": 4799000,
-          "clause_value": 7198500,
+          "clause_reference_value": 4994000,
+          "clause_value": 7491000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9337,10 +9530,10 @@
           "player_id": "31226",
           "name": "A. Danjuma",
           "position": null,
-          "market_value": 3048000,
+          "market_value": 3118000,
           "acquisition_cost": 1722000,
-          "clause_reference_value": 3048000,
-          "clause_value": 4572000,
+          "clause_reference_value": 3118000,
+          "clause_value": 4677000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9356,10 +9549,10 @@
           "player_id": "52189",
           "name": "A. Pérez",
           "position": null,
-          "market_value": 5122000,
+          "market_value": 5192000,
           "acquisition_cost": 2395000,
-          "clause_reference_value": 5122000,
-          "clause_value": 10244000,
+          "clause_reference_value": 5192000,
+          "clause_value": 10384000,
           "clause_percent": 100,
           "clause_level": 1,
           "active_balance_investment": 597400,
@@ -9385,10 +9578,10 @@
           "player_id": "20449",
           "name": "F. Niño",
           "position": null,
-          "market_value": 2129000,
+          "market_value": 2209000,
           "acquisition_cost": 1845000,
-          "clause_reference_value": 2129000,
-          "clause_value": 3193500,
+          "clause_reference_value": 2209000,
+          "clause_value": 3313500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9404,10 +9597,10 @@
           "player_id": "130",
           "name": "I. Aspas",
           "position": null,
-          "market_value": 4943000,
+          "market_value": 5121000,
           "acquisition_cost": 3270000,
-          "clause_reference_value": 4943000,
-          "clause_value": 7414500,
+          "clause_reference_value": 5121000,
+          "clause_value": 7681500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9424,8 +9617,8 @@
     {
       "name": "Enrique",
       "user_id": "13370206",
-      "roster_cards_detected": 12,
-      "clause_players_detected": 12,
+      "roster_cards_detected": 13,
+      "clause_players_detected": 13,
       "raised_clause_players_detected": 0,
       "active_clause_balance_investment": 0,
       "active_clause_balance_investment_min": 0,
@@ -9436,10 +9629,10 @@
           "player_id": "17615",
           "name": "S. Herrera",
           "position": null,
-          "market_value": 7667000,
+          "market_value": 7710000,
           "acquisition_cost": 6852000,
-          "clause_reference_value": 7667000,
-          "clause_value": 11500500,
+          "clause_reference_value": 7710000,
+          "clause_value": 11565000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9455,7 +9648,7 @@
           "player_id": "27865",
           "name": "J. Areso",
           "position": null,
-          "market_value": 1171000,
+          "market_value": 1192000,
           "acquisition_cost": 1291000,
           "clause_reference_value": 1291000,
           "clause_value": 1936500,
@@ -9474,10 +9667,10 @@
           "player_id": "70935",
           "name": "J. Salinas",
           "position": null,
-          "market_value": 4809000,
+          "market_value": 4920000,
           "acquisition_cost": 2968000,
-          "clause_reference_value": 4809000,
-          "clause_value": 7213500,
+          "clause_reference_value": 4920000,
+          "clause_value": 7380000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9493,7 +9686,7 @@
           "player_id": "1256139",
           "name": "V. Drkušić",
           "position": null,
-          "market_value": 689000,
+          "market_value": 717000,
           "acquisition_cost": 780000,
           "clause_reference_value": 780000,
           "clause_value": 1170000,
@@ -9512,10 +9705,10 @@
           "player_id": "28776",
           "name": "B. Turrientes",
           "position": null,
-          "market_value": 2276000,
+          "market_value": 2318000,
           "acquisition_cost": 1999000,
-          "clause_reference_value": 2276000,
-          "clause_value": 3414000,
+          "clause_reference_value": 2318000,
+          "clause_value": 3477000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9531,7 +9724,7 @@
           "player_id": "392",
           "name": "D. Suárez",
           "position": null,
-          "market_value": 1486000,
+          "market_value": 1511000,
           "acquisition_cost": 1999214,
           "clause_reference_value": 1999214,
           "clause_value": 2998821,
@@ -9550,10 +9743,10 @@
           "player_id": "70998",
           "name": "I. Merino",
           "position": null,
-          "market_value": 2186000,
+          "market_value": 2193000,
           "acquisition_cost": 1985000,
-          "clause_reference_value": 2186000,
-          "clause_value": 3279000,
+          "clause_reference_value": 2193000,
+          "clause_value": 3289500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9569,7 +9762,7 @@
           "player_id": "64524",
           "name": "M. Neto",
           "position": null,
-          "market_value": 497000,
+          "market_value": 426000,
           "acquisition_cost": 637000,
           "clause_reference_value": 637000,
           "clause_value": 1000000,
@@ -9588,10 +9781,10 @@
           "player_id": "22601",
           "name": "Pepelu",
           "position": null,
-          "market_value": 6194000,
+          "market_value": 6188000,
           "acquisition_cost": 5258000,
-          "clause_reference_value": 6194000,
-          "clause_value": 9291000,
+          "clause_reference_value": 6188000,
+          "clause_value": 9282000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9607,7 +9800,7 @@
           "player_id": "61092",
           "name": "T. Buchanan",
           "position": null,
-          "market_value": 5521000,
+          "market_value": 5522000,
           "acquisition_cost": 6500000,
           "clause_reference_value": 6500000,
           "clause_value": 9750000,
@@ -9626,10 +9819,10 @@
           "player_id": "70638",
           "name": "A. Gordon",
           "position": null,
-          "market_value": 14215000,
+          "market_value": 14334000,
           "acquisition_cost": 13790000,
-          "clause_reference_value": 14215000,
-          "clause_value": 21322500,
+          "clause_reference_value": 14334000,
+          "clause_value": 21501000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9645,10 +9838,10 @@
           "player_id": "4886",
           "name": "A. Villalibre",
           "position": null,
-          "market_value": 3736000,
+          "market_value": 3749000,
           "acquisition_cost": 2758000,
-          "clause_reference_value": 3736000,
-          "clause_value": 5604000,
+          "clause_reference_value": 3749000,
+          "clause_value": 5623500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9659,14 +9852,33 @@
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
           "investment_ledger_episode": "13370206|4886|2026-08-12 05:00:24|2758000"
+        },
+        {
+          "player_id": "70994",
+          "name": "E. Jauregi",
+          "position": null,
+          "market_value": 160000,
+          "acquisition_cost": 165000,
+          "clause_reference_value": 165000,
+          "clause_value": 1000000,
+          "clause_percent": 50,
+          "clause_level": 0,
+          "active_balance_investment": 0,
+          "active_balance_investment_min": 0,
+          "active_balance_investment_max": 0,
+          "active_balance_investment_exact": true,
+          "step_investments": [],
+          "investment_capture_source": "historical_clause_ledger",
+          "step_investment_bounds": [],
+          "investment_ledger_episode": "13370206|70994|2026-09-01 05:00:34|165000"
         }
       ]
     },
     {
       "name": "DRSeven",
       "user_id": "12165510",
-      "roster_cards_detected": 19,
-      "clause_players_detected": 19,
+      "roster_cards_detected": 20,
+      "clause_players_detected": 20,
       "raised_clause_players_detected": 2,
       "active_clause_balance_investment": 750600,
       "active_clause_balance_investment_min": 750600,
@@ -9677,9 +9889,9 @@
           "player_id": "27855",
           "name": "D. Conde",
           "position": null,
-          "market_value": 200000,
+          "market_value": 181000,
           "acquisition_cost": 185006,
-          "clause_reference_value": 200000,
+          "clause_reference_value": 185006,
           "clause_value": 1000000,
           "clause_percent": 50,
           "clause_level": 0,
@@ -9696,10 +9908,10 @@
           "player_id": "53111",
           "name": "Á. Valles",
           "position": null,
-          "market_value": 7878000,
+          "market_value": 8008000,
           "acquisition_cost": 7612000,
-          "clause_reference_value": 7878000,
-          "clause_value": 11817000,
+          "clause_reference_value": 8008000,
+          "clause_value": 12012000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9715,10 +9927,10 @@
           "player_id": "71139",
           "name": "B. Ede",
           "position": null,
-          "market_value": 1423000,
+          "market_value": 1449000,
           "acquisition_cost": 918000,
-          "clause_reference_value": 1423000,
-          "clause_value": 2134500,
+          "clause_reference_value": 1449000,
+          "clause_value": 2173500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9734,10 +9946,10 @@
           "player_id": "23369",
           "name": "J. Foyth",
           "position": null,
-          "market_value": 2773000,
+          "market_value": 2901000,
           "acquisition_cost": 1725000,
-          "clause_reference_value": 2773000,
-          "clause_value": 5546000,
+          "clause_reference_value": 2901000,
+          "clause_value": 5802000,
           "clause_percent": 100,
           "clause_level": 1,
           "active_balance_investment": 386600,
@@ -9763,7 +9975,7 @@
           "player_id": "59532",
           "name": "M. Kumbulla",
           "position": null,
-          "market_value": 177000,
+          "market_value": 160000,
           "acquisition_cost": 625000,
           "clause_reference_value": 625000,
           "clause_value": 1000000,
@@ -9782,7 +9994,7 @@
           "player_id": "71623",
           "name": "R. Hinojo",
           "position": null,
-          "market_value": 1159000,
+          "market_value": 1211000,
           "acquisition_cost": 1325000,
           "clause_reference_value": 1325000,
           "clause_value": 1987500,
@@ -9801,10 +10013,10 @@
           "player_id": "67942",
           "name": "Í. Arguibide",
           "position": null,
-          "market_value": 910000,
+          "market_value": 990000,
           "acquisition_cost": 706000,
-          "clause_reference_value": 910000,
-          "clause_value": 2275000,
+          "clause_reference_value": 990000,
+          "clause_value": 2475000,
           "clause_percent": 150,
           "clause_level": 2,
           "active_balance_investment": 364000,
@@ -9838,10 +10050,10 @@
           "player_id": "70999",
           "name": "D. Lorenzo",
           "position": null,
-          "market_value": 3368000,
+          "market_value": 3495000,
           "acquisition_cost": 2066000,
-          "clause_reference_value": 3368000,
-          "clause_value": 5052000,
+          "clause_reference_value": 3495000,
+          "clause_value": 5242500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9857,10 +10069,10 @@
           "player_id": "71132",
           "name": "F. Bernal",
           "position": null,
-          "market_value": 4198000,
+          "market_value": 4270000,
           "acquisition_cost": 2912000,
-          "clause_reference_value": 4198000,
-          "clause_value": 6297000,
+          "clause_reference_value": 4270000,
+          "clause_value": 6405000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9876,10 +10088,10 @@
           "player_id": "22604",
           "name": "I. Vicente",
           "position": null,
-          "market_value": 6451000,
+          "market_value": 6575000,
           "acquisition_cost": 5778000,
-          "clause_reference_value": 6451000,
-          "clause_value": 9676500,
+          "clause_reference_value": 6575000,
+          "clause_value": 9862500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9895,10 +10107,10 @@
           "player_id": "63871",
           "name": "M. Aguado",
           "position": null,
-          "market_value": 3243000,
+          "market_value": 3303000,
           "acquisition_cost": 2816000,
-          "clause_reference_value": 3243000,
-          "clause_value": 4864500,
+          "clause_reference_value": 3303000,
+          "clause_value": 4954500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9914,10 +10126,10 @@
           "player_id": "25579",
           "name": "O. Rey",
           "position": null,
-          "market_value": 766000,
+          "market_value": 820000,
           "acquisition_cost": 205060,
-          "clause_reference_value": 766000,
-          "clause_value": 1149000,
+          "clause_reference_value": 820000,
+          "clause_value": 1230000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9930,13 +10142,32 @@
           "investment_ledger_episode": "12165510|25579|2026-08-14 05:00:24|205060"
         },
         {
+          "player_id": "70944",
+          "name": "R. Rodríguez",
+          "position": null,
+          "market_value": 243000,
+          "acquisition_cost": 212000,
+          "clause_reference_value": 243000,
+          "clause_value": 1000000,
+          "clause_percent": 50,
+          "clause_level": 0,
+          "active_balance_investment": 0,
+          "active_balance_investment_min": 0,
+          "active_balance_investment_max": 0,
+          "active_balance_investment_exact": true,
+          "step_investments": [],
+          "investment_capture_source": "historical_clause_ledger",
+          "step_investment_bounds": [],
+          "investment_ledger_episode": "12165510|70944|2026-09-01 05:00:34|212000"
+        },
+        {
           "player_id": "71138",
           "name": "R. Sato",
           "position": null,
-          "market_value": 3384000,
+          "market_value": 3449000,
           "acquisition_cost": 2718000,
-          "clause_reference_value": 3384000,
-          "clause_value": 5076000,
+          "clause_reference_value": 3449000,
+          "clause_value": 5173500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9952,10 +10183,10 @@
           "player_id": "364",
           "name": "S. Canales",
           "position": null,
-          "market_value": 5964000,
+          "market_value": 6003000,
           "acquisition_cost": 4112000,
-          "clause_reference_value": 5964000,
-          "clause_value": 8946000,
+          "clause_reference_value": 6003000,
+          "clause_value": 9004500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9971,10 +10202,10 @@
           "player_id": "68383",
           "name": "T. Fernández",
           "position": null,
-          "market_value": 622000,
+          "market_value": 669000,
           "acquisition_cost": 645000,
-          "clause_reference_value": 645000,
-          "clause_value": 1000000,
+          "clause_reference_value": 669000,
+          "clause_value": 1003500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -9990,10 +10221,10 @@
           "player_id": "63780",
           "name": "C. Espí",
           "position": null,
-          "market_value": 9242000,
+          "market_value": 9270000,
           "acquisition_cost": 9122000,
-          "clause_reference_value": 9242000,
-          "clause_value": 13863000,
+          "clause_reference_value": 9270000,
+          "clause_value": 13905000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -10009,9 +10240,9 @@
           "player_id": "70993",
           "name": "H. Abaida",
           "position": null,
-          "market_value": 447000,
+          "market_value": 497000,
           "acquisition_cost": 405000,
-          "clause_reference_value": 447000,
+          "clause_reference_value": 497000,
           "clause_value": 1000000,
           "clause_percent": 50,
           "clause_level": 0,
@@ -10028,7 +10259,7 @@
           "player_id": "2720265",
           "name": "T. Parrott",
           "position": null,
-          "market_value": 5361000,
+          "market_value": 5360000,
           "acquisition_cost": 5816000,
           "clause_reference_value": 5816000,
           "clause_value": 8724000,
@@ -10047,7 +10278,7 @@
           "player_id": "12900",
           "name": "V. Júnior",
           "position": null,
-          "market_value": 20408000,
+          "market_value": 20388000,
           "acquisition_cost": 21755000,
           "clause_reference_value": 21755000,
           "clause_value": 32632500,
@@ -10079,10 +10310,10 @@
           "player_id": "609",
           "name": "D. Soria",
           "position": null,
-          "market_value": 10041000,
+          "market_value": 10013000,
           "acquisition_cost": 9739010,
-          "clause_reference_value": 10041000,
-          "clause_value": 15061500,
+          "clause_reference_value": 10013000,
+          "clause_value": 15019500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -10098,10 +10329,10 @@
           "player_id": "8171",
           "name": "D. Djené",
           "position": null,
-          "market_value": 2988000,
+          "market_value": 3046000,
           "acquisition_cost": 2145110,
-          "clause_reference_value": 2988000,
-          "clause_value": 4482000,
+          "clause_reference_value": 3046000,
+          "clause_value": 4569000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -10117,10 +10348,10 @@
           "player_id": "68652",
           "name": "V. Koski",
           "position": null,
-          "market_value": 2012000,
+          "market_value": 2086000,
           "acquisition_cost": 1718780,
-          "clause_reference_value": 2012000,
-          "clause_value": 3018000,
+          "clause_reference_value": 2086000,
+          "clause_value": 3129000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -10136,7 +10367,7 @@
           "player_id": "70938",
           "name": "Á. Mantilla",
           "position": null,
-          "market_value": 1861000,
+          "market_value": 1896000,
           "acquisition_cost": 1915250,
           "clause_reference_value": 1915250,
           "clause_value": 2872875,
@@ -10155,7 +10386,7 @@
           "player_id": "70945",
           "name": "D. Villares",
           "position": null,
-          "market_value": 545000,
+          "market_value": 510000,
           "acquisition_cost": 553390,
           "clause_reference_value": 553390,
           "clause_value": 1000000,
@@ -10174,10 +10405,10 @@
           "player_id": "66706",
           "name": "J. Hernandez",
           "position": null,
-          "market_value": 1150000,
+          "market_value": 1202000,
           "acquisition_cost": 355060,
-          "clause_reference_value": 1150000,
-          "clause_value": 4600000,
+          "clause_reference_value": 1202000,
+          "clause_value": 4808000,
           "clause_percent": 300,
           "clause_level": 5,
           "active_balance_investment": 703000,
@@ -10235,10 +10466,10 @@
           "player_id": "22595",
           "name": "J. Muñoz",
           "position": null,
-          "market_value": 2238000,
+          "market_value": 2255000,
           "acquisition_cost": 1770010,
-          "clause_reference_value": 2238000,
-          "clause_value": 3357000,
+          "clause_reference_value": 2255000,
+          "clause_value": 3382500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -10254,10 +10485,10 @@
           "player_id": "5916",
           "name": "J. Guridi",
           "position": null,
-          "market_value": 3480000,
+          "market_value": 3571000,
           "acquisition_cost": 2444280,
-          "clause_reference_value": 3480000,
-          "clause_value": 5220000,
+          "clause_reference_value": 3571000,
+          "clause_value": 5356500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -10273,7 +10504,7 @@
           "player_id": "58954",
           "name": "K. Mbappé",
           "position": null,
-          "market_value": 24372000,
+          "market_value": 24381000,
           "acquisition_cost": 26520000,
           "clause_reference_value": 26520000,
           "clause_value": 39780000,
@@ -10292,7 +10523,7 @@
           "player_id": "3060",
           "name": "M. Díaz",
           "position": null,
-          "market_value": 1607000,
+          "market_value": 1682000,
           "acquisition_cost": 2333332,
           "clause_reference_value": 2333332,
           "clause_value": 3499998,
@@ -10324,10 +10555,10 @@
           "player_id": "6032",
           "name": "A. Remiro",
           "position": null,
-          "market_value": 9992000,
+          "market_value": 10135000,
           "acquisition_cost": 9008888,
-          "clause_reference_value": 9992000,
-          "clause_value": 14988000,
+          "clause_reference_value": 10135000,
+          "clause_value": 15202500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -10343,10 +10574,10 @@
           "player_id": "71004",
           "name": "C. Puga",
           "position": null,
-          "market_value": 2225000,
+          "market_value": 2267000,
           "acquisition_cost": 1333888,
-          "clause_reference_value": 2225000,
-          "clause_value": 3337500,
+          "clause_reference_value": 2267000,
+          "clause_value": 3400500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -10362,7 +10593,7 @@
           "player_id": "70922",
           "name": "I. Konaté",
           "position": null,
-          "market_value": 10231000,
+          "market_value": 10218000,
           "acquisition_cost": 10480000,
           "clause_reference_value": 10480000,
           "clause_value": 15720000,
@@ -10381,10 +10612,10 @@
           "player_id": "56925",
           "name": "J. Aramburu",
           "position": null,
-          "market_value": 4631000,
+          "market_value": 4582000,
           "acquisition_cost": 3988888,
-          "clause_reference_value": 4631000,
-          "clause_value": 6946500,
+          "clause_reference_value": 4582000,
+          "clause_value": 6873000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -10400,9 +10631,9 @@
           "player_id": "61009",
           "name": "Á. Ortiz",
           "position": null,
-          "market_value": 345000,
+          "market_value": 348000,
           "acquisition_cost": 208888,
-          "clause_reference_value": 345000,
+          "clause_reference_value": 348000,
           "clause_value": 1000000,
           "clause_percent": 50,
           "clause_level": 0,
@@ -10419,7 +10650,7 @@
           "player_id": "53143",
           "name": "A. Rebbach",
           "position": null,
-          "market_value": 2402000,
+          "market_value": 2374000,
           "acquisition_cost": 2688888,
           "clause_reference_value": 2688888,
           "clause_value": 4033332,
@@ -10438,10 +10669,10 @@
           "player_id": "27517",
           "name": "I. Palazón",
           "position": null,
-          "market_value": 5604000,
+          "market_value": 5514000,
           "acquisition_cost": 5288888,
-          "clause_reference_value": 5604000,
-          "clause_value": 8406000,
+          "clause_reference_value": 5514000,
+          "clause_value": 8271000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -10457,10 +10688,10 @@
           "player_id": "56502",
           "name": "M. Jauregizar",
           "position": null,
-          "market_value": 2430000,
+          "market_value": 2363000,
           "acquisition_cost": 1988888,
-          "clause_reference_value": 2430000,
-          "clause_value": 3645000,
+          "clause_reference_value": 2363000,
+          "clause_value": 3544500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -10476,10 +10707,10 @@
           "player_id": "71503",
           "name": "M. Rodriguez",
           "position": null,
-          "market_value": 1131000,
+          "market_value": 1177000,
           "acquisition_cost": 888888,
-          "clause_reference_value": 1131000,
-          "clause_value": 1696500,
+          "clause_reference_value": 1177000,
+          "clause_value": 1765500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -10495,9 +10726,9 @@
           "player_id": "28772",
           "name": "N. Serrano",
           "position": null,
-          "market_value": 195000,
+          "market_value": 205000,
           "acquisition_cost": 168888,
-          "clause_reference_value": 195000,
+          "clause_reference_value": 205000,
           "clause_value": 1000000,
           "clause_percent": 50,
           "clause_level": 0,
@@ -10514,10 +10745,10 @@
           "player_id": "59042",
           "name": "P. Fernández",
           "position": null,
-          "market_value": 1666000,
+          "market_value": 1716000,
           "acquisition_cost": 1488888,
-          "clause_reference_value": 1666000,
-          "clause_value": 2499000,
+          "clause_reference_value": 1716000,
+          "clause_value": 2574000,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -10533,7 +10764,7 @@
           "player_id": "68361",
           "name": "A. Mañas",
           "position": null,
-          "market_value": 190000,
+          "market_value": 167000,
           "acquisition_cost": 198888,
           "clause_reference_value": 198888,
           "clause_value": 1000000,
@@ -10552,10 +10783,10 @@
           "player_id": "14791",
           "name": "G. Guruzeta",
           "position": null,
-          "market_value": 6589000,
+          "market_value": 6469000,
           "acquisition_cost": 6488888,
-          "clause_reference_value": 6589000,
-          "clause_value": 9883500,
+          "clause_reference_value": 6488888,
+          "clause_value": 9733332,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -10584,7 +10815,7 @@
           "player_id": "63705",
           "name": "I. Radu",
           "position": null,
-          "market_value": 7881000,
+          "market_value": 7896000,
           "acquisition_cost": 8500000,
           "clause_reference_value": 8500000,
           "clause_value": 12750000,
@@ -10603,7 +10834,7 @@
           "player_id": "71795",
           "name": "Angeliño",
           "position": null,
-          "market_value": 1930000,
+          "market_value": 1939000,
           "acquisition_cost": 2000000,
           "clause_reference_value": 2000000,
           "clause_value": 3000000,
@@ -10641,7 +10872,7 @@
           "player_id": "55743",
           "name": "C. Romero",
           "position": null,
-          "market_value": 11154000,
+          "market_value": 11056000,
           "acquisition_cost": 12962000,
           "clause_reference_value": 12962000,
           "clause_value": 19443000,
@@ -10660,7 +10891,7 @@
           "player_id": "31496",
           "name": "H. Bellerín",
           "position": null,
-          "market_value": 5049000,
+          "market_value": 4981000,
           "acquisition_cost": 5522000,
           "clause_reference_value": 5522000,
           "clause_value": 8283000,
@@ -10679,7 +10910,7 @@
           "player_id": "71791",
           "name": "P. Felipe",
           "position": null,
-          "market_value": 177000,
+          "market_value": 160000,
           "acquisition_cost": 801000,
           "clause_reference_value": 801000,
           "clause_value": 1201500,
@@ -10717,10 +10948,10 @@
           "player_id": "71639",
           "name": "B. Gerenabarrena",
           "position": null,
-          "market_value": 635000,
+          "market_value": 693000,
           "acquisition_cost": 168000,
-          "clause_reference_value": 635000,
-          "clause_value": 1000000,
+          "clause_reference_value": 693000,
+          "clause_value": 1039500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -10736,7 +10967,7 @@
           "player_id": "71513",
           "name": "P. Arriaza",
           "position": null,
-          "market_value": 208000,
+          "market_value": 185000,
           "acquisition_cost": 250000,
           "clause_reference_value": 250000,
           "clause_value": 1000000,
@@ -10755,7 +10986,7 @@
           "player_id": "17568",
           "name": "P. Lozano",
           "position": null,
-          "market_value": 1012000,
+          "market_value": 973000,
           "acquisition_cost": 1300000,
           "clause_reference_value": 1300000,
           "clause_value": 1950000,
@@ -10774,10 +11005,10 @@
           "player_id": "23147",
           "name": "T. Morente",
           "position": null,
-          "market_value": 695000,
+          "market_value": 743000,
           "acquisition_cost": 700000,
-          "clause_reference_value": 700000,
-          "clause_value": 1050000,
+          "clause_reference_value": 743000,
+          "clause_value": 1114500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -10793,7 +11024,7 @@
           "player_id": "12949",
           "name": "T. Lemar",
           "position": null,
-          "market_value": 160000,
+          "market_value": 198000,
           "acquisition_cost": 507000,
           "clause_reference_value": 507000,
           "clause_value": 1000000,
@@ -10812,10 +11043,10 @@
           "player_id": "65704",
           "name": "G. Mikautadze",
           "position": null,
-          "market_value": 14301000,
+          "market_value": 14315000,
           "acquisition_cost": 14095000,
-          "clause_reference_value": 14301000,
-          "clause_value": 21451500,
+          "clause_reference_value": 14315000,
+          "clause_value": 21472500,
           "clause_percent": 50,
           "clause_level": 0,
           "active_balance_investment": 0,
@@ -10831,9 +11062,9 @@
           "player_id": "64432",
           "name": "G. Petit",
           "position": null,
-          "market_value": 208000,
+          "market_value": 160000,
           "acquisition_cost": 200000,
-          "clause_reference_value": 208000,
+          "clause_reference_value": 200000,
           "clause_value": 1000000,
           "clause_percent": 50,
           "clause_level": 0,
@@ -10850,7 +11081,7 @@
           "player_id": "70940",
           "name": "Z. Eddahchouri",
           "position": null,
-          "market_value": 1308000,
+          "market_value": 1249000,
           "acquisition_cost": 1371000,
           "clause_reference_value": 1371000,
           "clause_value": 2056500,
@@ -10874,23 +11105,14 @@
     "La liga no permite pagar subidas de cláusula con Créditos."
   ],
   "market_evolution": {
-    "status": "partial",
+    "status": "ok",
     "daily_matched_free_market": 16,
-    "weekly_matched_free_market": 14,
+    "weekly_matched_free_market": 16,
     "free_market_players": 16,
     "daily_zero_inferred_free_market": 1,
     "daily_zero_inferred_all_players": 1,
     "missing_daily_free_market": [],
-    "missing_weekly_free_market": [
-      {
-        "player_id": "3849388",
-        "name": "M. Sarr"
-      },
-      {
-        "player_id": "22471",
-        "name": "J. Pacheco"
-      }
-    ],
+    "missing_weekly_free_market": [],
     "source": "Mister ajax/sw/market; unchanged day players inferred as exact 0 only when present in week response"
   },
   "account_state": {
@@ -10917,127 +11139,109 @@
       "Y. Enríquez",
       "J. Vázquez"
     ],
-    "pending_bid_commitment": 1249000,
-    "projected_squad_if_all_active_bids_win": 21,
-    "projected_free_slots_if_all_active_bids_win": 0
+    "pending_bid_commitment": 0,
+    "projected_squad_if_all_active_bids_win": null,
+    "projected_free_slots_if_all_active_bids_win": null
   },
   "received_offers": [
     {
+      "player_id": "3728",
+      "name": "M. Roca",
+      "market_value": 5351000,
+      "offer_amount": 5450760,
+      "offer_vs_market_value": 99760,
+      "offer_pct_of_market_value": 101.864,
+      "net_purchase_capacity_if_accepted": 4113010,
+      "source": "Mister .offers-received / li.offer-wrapper"
+    },
+    {
+      "player_id": "28773",
+      "name": "A. Paredes 💥",
+      "market_value": 2064000,
+      "offer_amount": 2016540,
+      "offer_vs_market_value": -47460,
+      "offer_pct_of_market_value": 97.701,
+      "net_purchase_capacity_if_accepted": 1500540,
+      "source": "Mister .offers-received / li.offer-wrapper"
+    },
+    {
       "player_id": "28791",
       "name": "J. Vázquez 💥",
-      "market_value": 1045000,
+      "market_value": 1046000,
       "offer_amount": 1097250,
-      "offer_vs_market_value": 52250,
-      "offer_pct_of_market_value": 105.0,
-      "net_purchase_capacity_if_accepted": 836000,
+      "offer_vs_market_value": 51250,
+      "offer_pct_of_market_value": 104.9,
+      "net_purchase_capacity_if_accepted": 835750,
+      "source": "Mister .offers-received / li.offer-wrapper"
+    },
+    {
+      "player_id": "31226",
+      "name": "A. Danjuma 💥",
+      "market_value": 3118000,
+      "offer_amount": 3017520,
+      "offer_vs_market_value": -100480,
+      "offer_pct_of_market_value": 96.777,
+      "net_purchase_capacity_if_accepted": 2238020,
+      "source": "Mister .offers-received / li.offer-wrapper"
+    },
+    {
+      "player_id": "64411",
+      "name": "Y. Enríquez 💥",
+      "market_value": 1254000,
+      "offer_amount": 1172730,
+      "offer_vs_market_value": -81270,
+      "offer_pct_of_market_value": 93.519,
+      "net_purchase_capacity_if_accepted": 859230,
+      "source": "Mister .offers-received / li.offer-wrapper"
+    },
+    {
+      "player_id": "71008",
+      "name": "R. Garrido 💥",
+      "market_value": 1617000,
+      "offer_amount": 1634850,
+      "offer_vs_market_value": 17850,
+      "offer_pct_of_market_value": 101.104,
+      "net_purchase_capacity_if_accepted": 1230600,
       "source": "Mister .offers-received / li.offer-wrapper"
     }
   ],
   "received_offers_status": {
     "status": "ok",
-    "count": 1,
-    "inbox_count": 1,
+    "count": 6,
+    "inbox_count": 6,
     "source": "Mister .offers-received / li.offer-wrapper",
     "diagnostics": []
   },
-  "active_bids": [
-    {
-      "player_id": "24742",
-      "name": "D. Cárdenas",
-      "bid_amount": 1249000,
-      "market_value": 1029000,
-      "source": "Mister market active bid button"
-    }
-  ],
+  "active_bids": [],
   "active_bids_status": {
-    "status": "ok",
-    "count": 1,
-    "commitment_amount": 1249000,
-    "per_player_total": 1249000,
+    "status": "total_commitment_only",
+    "count": null,
+    "commitment_amount": 0,
+    "per_player_total": null,
     "candidates": [
       {
-        "player_id": "58383",
-        "name": "C. Uche",
-        "label": "5.186.000",
+        "player_id": "71574",
+        "name": "K. Adeyemi",
+        "label": "10.880.000",
         "attributes": {
-          "data_text": "5.186.000",
+          "data_text": "10.880.000",
           "data_bid": null,
           "class": "btn btn-popup btn-bid btn--md btn--secondary"
         }
       },
       {
-        "player_id": "29402",
-        "name": "R. Nteka",
-        "label": "1.166.000",
+        "player_id": "70941",
+        "name": "B. Nsongo",
+        "label": "2.994.000",
         "attributes": {
-          "data_text": "1.166.000",
+          "data_text": "2.994.000",
           "data_bid": null,
           "class": "btn btn-popup btn-bid btn--md btn--secondary"
         }
       },
       {
-        "player_id": "70994",
-        "name": "E. Jauregi",
-        "label": "165.000",
-        "attributes": {
-          "data_text": "165.000",
-          "data_bid": null,
-          "class": "btn btn-popup btn-bid btn--md btn--secondary"
-        }
-      },
-      {
-        "player_id": "70918",
-        "name": "B. Silva",
-        "label": "10.415.000",
-        "attributes": {
-          "data_text": "10.415.000",
-          "data_bid": null,
-          "class": "btn btn-popup btn-bid btn--md btn--secondary"
-        }
-      },
-      {
-        "player_id": "29169",
-        "name": "P. Ibáñez",
-        "label": "2.796.000",
-        "attributes": {
-          "data_text": "2.796.000",
-          "data_bid": null,
-          "class": "btn btn-popup btn-bid btn--md btn--secondary"
-        }
-      },
-      {
-        "player_id": "60861",
-        "name": "J. El-Abdellaoui",
-        "label": "468.000",
-        "attributes": {
-          "data_text": "468.000",
-          "data_bid": null,
-          "class": "btn btn-popup btn-bid btn--md btn--secondary"
-        }
-      },
-      {
-        "player_id": "70944",
-        "name": "R. Rodríguez",
-        "label": "210.000",
-        "attributes": {
-          "data_text": "210.000",
-          "data_bid": null,
-          "class": "btn btn-popup btn-bid btn--md btn--secondary"
-        }
-      },
-      {
-        "player_id": "58427",
-        "name": "Y. Neyou",
-        "label": "185.000",
-        "attributes": {
-          "data_text": "185.000",
-          "data_bid": null,
-          "class": "btn btn-popup btn-bid btn--md btn--secondary"
-        }
-      },
-      {
-        "player_id": "55454",
-        "name": "A. Zakharyan",
+        "player_id": "71509",
+        "name": "K. Sánchez",
         "label": "160.000",
         "attributes": {
           "data_text": "160.000",
@@ -11046,58 +11250,8 @@
         }
       },
       {
-        "player_id": "22956",
-        "name": "S. Gómez",
-        "label": "5.047.000",
-        "attributes": {
-          "data_text": "5.047.000",
-          "data_bid": null,
-          "class": "btn btn-popup btn-bid btn--md btn--secondary"
-        }
-      },
-      {
-        "player_id": "3849388",
-        "name": "M. Sarr",
-        "label": "4.539.000",
-        "attributes": {
-          "data_text": "4.539.000",
-          "data_bid": null,
-          "class": "btn btn-popup btn-bid btn--md btn--secondary"
-        }
-      },
-      {
-        "player_id": "1153038",
-        "name": "R. Gamón",
-        "label": "209.000",
-        "attributes": {
-          "data_text": "209.000",
-          "data_bid": null,
-          "class": "btn btn-popup btn-bid btn--md btn--secondary"
-        }
-      },
-      {
-        "player_id": "217",
-        "name": "D. Foulquier",
-        "label": "199.000",
-        "attributes": {
-          "data_text": "199.000",
-          "data_bid": null,
-          "class": "btn btn-popup btn-bid btn--md btn--secondary"
-        }
-      },
-      {
-        "player_id": "22471",
-        "name": "J. Pacheco",
-        "label": "184.000",
-        "attributes": {
-          "data_text": "184.000",
-          "data_bid": null,
-          "class": "btn btn-popup btn-bid btn--md btn--secondary"
-        }
-      },
-      {
-        "player_id": "65724",
-        "name": "F. Cardoso",
+        "player_id": "67870",
+        "name": "A. Boayar",
         "label": "160.000",
         "attributes": {
           "data_text": "160.000",
@@ -11106,34 +11260,128 @@
         }
       },
       {
-        "player_id": "24742",
-        "name": "D. Cárdenas",
-        "label": "1.249.000",
+        "player_id": "20141",
+        "name": "G. Valera",
+        "label": "9.349.000",
         "attributes": {
-          "data_text": "1.029.000",
+          "data_text": "9.349.000",
           "data_bid": null,
-          "class": "btn btn-popup btn-bid btn--md btn--accent"
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "29403",
+        "name": "P. Ciss",
+        "label": "4.081.000",
+        "attributes": {
+          "data_text": "4.081.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "28777",
+        "name": "C. Álvarez",
+        "label": "3.348.000",
+        "attributes": {
+          "data_text": "3.348.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "51060",
+        "name": "J. Cruz",
+        "label": "2.877.000",
+        "attributes": {
+          "data_text": "2.877.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "65674",
+        "name": "M. Román",
+        "label": "2.135.000",
+        "attributes": {
+          "data_text": "2.135.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "22668",
+        "name": "L. Torró",
+        "label": "1.276.000",
+        "attributes": {
+          "data_text": "1.276.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "55439",
+        "name": "H. González",
+        "label": "702.000",
+        "attributes": {
+          "data_text": "702.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "60271",
+        "name": "R. Bauza",
+        "label": "573.000",
+        "attributes": {
+          "data_text": "573.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "68835",
+        "name": "J. Ochieng",
+        "label": "196.000",
+        "attributes": {
+          "data_text": "196.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "55452",
+        "name": "S. Canós",
+        "label": "180.000",
+        "attributes": {
+          "data_text": "180.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "11092",
+        "name": "A. Gorosabel",
+        "label": "160.000",
+        "attributes": {
+          "data_text": "160.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "13005",
+        "name": "A. Lunin",
+        "label": "631.000",
+        "attributes": {
+          "data_text": "631.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
         }
       }
     ]
   },
-  "clause_changes_since_previous": [
-    {
-      "manager": "DRSeven",
-      "player_id": "67942",
-      "player": "Í. Arguibide",
-      "change": "raise",
-      "from_level": 1,
-      "to_level": 2,
-      "from_clause": 1820000,
-      "to_clause": 2275000,
-      "investment_delta_exact": 182000,
-      "investment_delta_min": 182000,
-      "investment_delta_max": 182000,
-      "pricing_source": "captured_transition_delta",
-      "ledger_source": "historical_clause_ledger"
-    }
-  ],
+  "clause_changes_since_previous": [],
   "clause_capture_status": {
     "status": "ok",
     "manager_count": 7,
@@ -11142,7 +11390,7 @@
     "all_raised_investments_exact": true,
     "ale_balance_difference_after_clause_adjustment": 0,
     "balance_integrity_ok": true,
-    "previous_successful_clause_snapshot_at": "2026-08-31T22:50:56+02:00",
+    "previous_successful_clause_snapshot_at": "2026-08-31T23:39:18+02:00",
     "official_clause_view_enabled": true,
     "official_clause_view_diagnostics": {
       "start_url": "https://mister.mundodeportivo.com/users/13390634/samuhg22",
@@ -11172,67 +11420,67 @@
             "ok": true
           },
           "rendered_immediate": 0,
-          "visible_rows_immediate": 17,
+          "visible_rows_immediate": 20,
           "sample_immediate": [
+            {
+              "name": "D. Cárdenas",
+              "player_id": "24742",
+              "position": null,
+              "under_name": "€ 1.072.000 ↑"
+            },
             {
               "name": "J. Oblak",
               "player_id": "31",
               "position": null,
-              "under_name": "€ 9.417.000 ↑"
+              "under_name": "€ 9.542.000 ↑"
             },
             {
               "name": "A. Mandi",
               "player_id": "1719",
               "position": null,
-              "under_name": "€ 3.533.000 ↑"
-            },
-            {
-              "name": "J. Rodríguez",
-              "player_id": "59506",
-              "position": null,
-              "under_name": "€ 3.268.000 ↑"
+              "under_name": "€ 3.673.000 ↑"
             }
           ],
           "reload_team_tab": true,
-          "rendered_after_reload": 17,
-          "visible_rows_after_reload": 17,
+          "rendered_after_reload": 20,
+          "visible_rows_after_reload": 20,
           "sample_after_reload": [
+            {
+              "name": "D. Cárdenas",
+              "player_id": "24742",
+              "position": null,
+              "under_name": "1.916.666 (+50%)"
+            },
             {
               "name": "J. Oblak",
               "player_id": "31",
               "position": null,
-              "under_name": "14.125.500 (+50%)"
+              "under_name": "14.313.000 (+50%)"
             },
             {
               "name": "A. Mandi",
               "player_id": "1719",
               "position": null,
-              "under_name": "5.299.500 (+50%)"
-            },
-            {
-              "name": "J. Rodríguez",
-              "player_id": "59506",
-              "position": null,
-              "under_name": "4.902.000 (+50%)"
+              "under_name": "5.509.500 (+50%)"
             }
           ],
           "cookie_has_squad_view": true,
           "cookie_has_clause": true
         }
       ],
-      "verified_clause_rows": 17,
-      "verified_visible_rows": 17,
+      "verified_clause_rows": 20,
+      "verified_visible_rows": 20,
       "source": "async squad-view form -> seg-view-clause -> squad-view-apply -> verified rendered clause percentages"
     },
     "capture_diagnostics": {
       "Samuhg22": {
         "market": {
           "team_tab": true,
-          "market_rows": 17
+          "market_rows": 20
         },
         "clause": {
           "team_tab": true,
-          "clause_rows": 17
+          "clause_rows": 20
         }
       },
       "Ale": {
@@ -11248,21 +11496,21 @@
       "Enrique": {
         "market": {
           "team_tab": true,
-          "market_rows": 12
+          "market_rows": 13
         },
         "clause": {
           "team_tab": true,
-          "clause_rows": 12
+          "clause_rows": 13
         }
       },
       "DRSeven": {
         "market": {
           "team_tab": true,
-          "market_rows": 19
+          "market_rows": 20
         },
         "clause": {
           "team_tab": true,
-          "clause_rows": 19
+          "clause_rows": 20
         }
       },
       "Adam Panyiczki": {
@@ -11309,26 +11557,10 @@
   "clause_ledger_status": {
     "status": "ok",
     "version": 4,
-    "episodes": 132,
+    "episodes": 138,
     "bootstrapped_from_history": 0,
     "repairs_applied": [],
-    "transitions": [
-      {
-        "change": "raise",
-        "from_level": 1,
-        "to_level": 2,
-        "investment_delta_exact": 182000,
-        "investment_delta_min": 182000,
-        "investment_delta_max": 182000,
-        "pricing_source": "captured_transition_delta",
-        "manager": "DRSeven",
-        "player_id": "67942",
-        "player": "Í. Arguibide",
-        "from_clause": null,
-        "to_clause": 2275000,
-        "ledger_source": "historical_clause_ledger"
-      }
-    ],
+    "transitions": [],
     "final_exact_reconciliations": [],
     "source": "persistent per-ownership clause-step ledger v4; primary Mister evidence is separated from previously derived ledger state"
   },
@@ -11912,7 +12144,7 @@
         "finality": "unknown_from_feed_alone"
       }
     ],
-    "previous_persisted_snapshot_captured_at": "2026-08-31T22:50:56+02:00",
+    "previous_persisted_snapshot_captured_at": "2026-08-31T23:39:18+02:00",
     "source": "Mister feed category gameweek_end -> latest nested ranking.positions[].payment per gameweek",
     "semantics": "latest payment is cumulative for that gameweek and replaces earlier provisional closure payments; standard point/rank/goal/ideal-XI/fixed bonuses are not double-counted separately",
     "diagnostic_semantics": "delta_vs_previous_snapshot_payment compares against the previous persisted enriched snapshot; feed-to-feed deltas are secondary because Mister may rewrite older closure rows",
@@ -12052,12 +12284,12 @@
       "roster_cards_detected": 10,
       "roster_count_matches": true,
       "current_holdings_acquisition_cost": 49494222,
-      "team_value": 50294000,
-      "unrealized_value_vs_acquisition_cost": 799778,
-      "wealth_at_current_market_values": 55135528,
-      "wealth_at_current_market_values_min": 52110528,
-      "wealth_at_current_market_values_max": 52110528,
-      "wealth_vs_initial_50m": 5135528,
+      "team_value": 50642000,
+      "unrealized_value_vs_acquisition_cost": 1147778,
+      "wealth_at_current_market_values": 55483528,
+      "wealth_at_current_market_values_min": 52458528,
+      "wealth_at_current_market_values_max": 52458528,
+      "wealth_vs_initial_50m": 5483528,
       "active_clause_balance_investment": 703000,
       "active_clause_balance_investment_min": 703000,
       "active_clause_balance_investment_max": 703000,
@@ -12147,12 +12379,12 @@
       "roster_cards_detected": 20,
       "roster_count_matches": true,
       "current_holdings_acquisition_cost": 50187050,
-      "team_value": 68477000,
-      "unrealized_value_vs_acquisition_cost": 18289950,
-      "wealth_at_current_market_values": 78738716,
-      "wealth_at_current_market_values_min": 75193716,
-      "wealth_at_current_market_values_max": 75193716,
-      "wealth_vs_initial_50m": 28738716,
+      "team_value": 70473000,
+      "unrealized_value_vs_acquisition_cost": 20285950,
+      "wealth_at_current_market_values": 80734716,
+      "wealth_at_current_market_values_min": 77189716,
+      "wealth_at_current_market_values_max": 77189716,
+      "wealth_vs_initial_50m": 30734716,
       "active_clause_balance_investment": 2398400,
       "active_clause_balance_investment_min": 2398400,
       "active_clause_balance_investment_max": 2398400,
@@ -12288,30 +12520,30 @@
       "name": "DRSeven",
       "reset_at": "2026-08-07 13:40:33",
       "initial_cash": 50000000,
-      "purchase_count": 39,
-      "purchase_total": 124701078,
+      "purchase_count": 40,
+      "purchase_total": 124913078,
       "sale_count": 20,
       "sale_total": 57626230,
-      "cash_from_transfers_only": -17074848,
-      "reconstructed_balance": -14960448,
-      "reconstructed_balance_min": -17825448,
-      "reconstructed_balance_max": -17825448,
+      "cash_from_transfers_only": -17286848,
+      "reconstructed_balance": -15172448,
+      "reconstructed_balance_min": -18037448,
+      "reconstructed_balance_max": -18037448,
       "non_transfer_balance_adjustment": 2114400,
-      "expected_roster_count_from_transfer_flow": 19,
-      "current_holdings_count_from_transfer_flow": 19,
-      "roster_cards_detected": 19,
+      "expected_roster_count_from_transfer_flow": 20,
+      "current_holdings_count_from_transfer_flow": 20,
+      "roster_cards_detected": 20,
       "roster_count_matches": true,
-      "current_holdings_acquisition_cost": 71269066,
-      "team_value": 77974000,
-      "unrealized_value_vs_acquisition_cost": 6704934,
-      "wealth_at_current_market_values": 63013552,
-      "wealth_at_current_market_values_min": 60148552,
-      "wealth_at_current_market_values_max": 60148552,
-      "wealth_vs_initial_50m": 13013552,
+      "current_holdings_acquisition_cost": 71481066,
+      "team_value": 79242000,
+      "unrealized_value_vs_acquisition_cost": 7760934,
+      "wealth_at_current_market_values": 64069552,
+      "wealth_at_current_market_values_min": 61204552,
+      "wealth_at_current_market_values_max": 61204552,
+      "wealth_vs_initial_50m": 14069552,
       "active_clause_balance_investment": 750600,
       "active_clause_balance_investment_min": 750600,
       "active_clause_balance_investment_max": 750600,
-      "clause_players_detected": 19,
+      "clause_players_detected": 20,
       "raised_clause_players_detected": 2,
       "active_clause_balance_investment_exact": true,
       "clause_capture_integrity_ok": true,
@@ -12430,6 +12662,12 @@
           "name": "Roger Hinojo",
           "acquisition_cost": 1325000,
           "acquired_at": "2026-08-31 05:00:31"
+        },
+        {
+          "player_id": "70944",
+          "name": "Riki Rodríguez",
+          "acquisition_cost": 212000,
+          "acquired_at": "2026-09-01 05:00:34"
         }
       ]
     },
@@ -12437,30 +12675,30 @@
       "name": "Enrique",
       "reset_at": "2026-08-07 13:40:33",
       "initial_cash": 50000000,
-      "purchase_count": 19,
-      "purchase_total": 59606254,
+      "purchase_count": 20,
+      "purchase_total": 59771254,
       "sale_count": 7,
       "sale_total": 12748210,
-      "cash_from_transfers_only": 3141956,
-      "reconstructed_balance": 6916956,
-      "reconstructed_balance_min": 3141956,
-      "reconstructed_balance_max": 3141956,
+      "cash_from_transfers_only": 2976956,
+      "reconstructed_balance": 6751956,
+      "reconstructed_balance_min": 2976956,
+      "reconstructed_balance_max": 2976956,
       "non_transfer_balance_adjustment": 3775000,
-      "expected_roster_count_from_transfer_flow": 12,
-      "current_holdings_count_from_transfer_flow": 12,
-      "roster_cards_detected": 12,
+      "expected_roster_count_from_transfer_flow": 13,
+      "current_holdings_count_from_transfer_flow": 13,
+      "roster_cards_detected": 13,
       "roster_count_matches": true,
-      "current_holdings_acquisition_cost": 46817214,
-      "team_value": 50447000,
-      "unrealized_value_vs_acquisition_cost": 3629786,
-      "wealth_at_current_market_values": 57363956,
-      "wealth_at_current_market_values_min": 53588956,
-      "wealth_at_current_market_values_max": 53588956,
-      "wealth_vs_initial_50m": 7363956,
+      "current_holdings_acquisition_cost": 46982214,
+      "team_value": 50940000,
+      "unrealized_value_vs_acquisition_cost": 3957786,
+      "wealth_at_current_market_values": 57691956,
+      "wealth_at_current_market_values_min": 53916956,
+      "wealth_at_current_market_values_max": 53916956,
+      "wealth_vs_initial_50m": 7691956,
       "active_clause_balance_investment": 0,
       "active_clause_balance_investment_min": 0,
       "active_clause_balance_investment_max": 0,
-      "clause_players_detected": 12,
+      "clause_players_detected": 13,
       "raised_clause_players_detected": 0,
       "active_clause_balance_investment_exact": true,
       "clause_capture_integrity_ok": true,
@@ -12537,6 +12775,12 @@
           "name": "Vanja Drkušić",
           "acquisition_cost": 780000,
           "acquired_at": "2026-08-29 05:00:28"
+        },
+        {
+          "player_id": "70994",
+          "name": "Eneko Jauregi",
+          "acquisition_cost": 165000,
+          "acquired_at": "2026-09-01 05:00:34"
         }
       ]
     },
@@ -12558,12 +12802,12 @@
       "roster_cards_detected": 13,
       "roster_count_matches": true,
       "current_holdings_acquisition_cost": 44221656,
-      "team_value": 47631000,
-      "unrealized_value_vs_acquisition_cost": 3409344,
-      "wealth_at_current_market_values": 54060412,
-      "wealth_at_current_market_values_min": 51030412,
-      "wealth_at_current_market_values_max": 51030412,
-      "wealth_vs_initial_50m": 4060412,
+      "team_value": 47535000,
+      "unrealized_value_vs_acquisition_cost": 3313344,
+      "wealth_at_current_market_values": 53964412,
+      "wealth_at_current_market_values_min": 50934412,
+      "wealth_at_current_market_values_max": 50934412,
+      "wealth_vs_initial_50m": 3964412,
       "active_clause_balance_investment": 0,
       "active_clause_balance_investment_min": 0,
       "active_clause_balance_investment_max": 0,
@@ -12657,30 +12901,30 @@
       "name": "Samuhg22",
       "reset_at": "2026-08-07 13:40:33",
       "initial_cash": 50000000,
-      "purchase_count": 39,
-      "purchase_total": 129461700,
-      "sale_count": 22,
-      "sale_total": 83448722,
-      "cash_from_transfers_only": 3987022,
-      "reconstructed_balance": 4764288,
-      "reconstructed_balance_min": 759288,
-      "reconstructed_balance_max": 759288,
+      "purchase_count": 43,
+      "purchase_total": 149517254,
+      "sale_count": 23,
+      "sale_total": 84568332,
+      "cash_from_transfers_only": -14948922,
+      "reconstructed_balance": -14171656,
+      "reconstructed_balance_min": -18176656,
+      "reconstructed_balance_max": -18176656,
       "non_transfer_balance_adjustment": 777266,
-      "expected_roster_count_from_transfer_flow": 17,
-      "current_holdings_count_from_transfer_flow": 17,
-      "roster_cards_detected": 17,
+      "expected_roster_count_from_transfer_flow": 20,
+      "current_holdings_count_from_transfer_flow": 20,
+      "roster_cards_detected": 20,
       "roster_count_matches": true,
-      "current_holdings_acquisition_cost": 55339492,
-      "team_value": 68161000,
-      "unrealized_value_vs_acquisition_cost": 12821508,
-      "wealth_at_current_market_values": 72925288,
-      "wealth_at_current_market_values_min": 68920288,
-      "wealth_at_current_market_values_max": 68920288,
-      "wealth_vs_initial_50m": 22925288,
+      "current_holdings_acquisition_cost": 74839491,
+      "team_value": 87744000,
+      "unrealized_value_vs_acquisition_cost": 12904509,
+      "wealth_at_current_market_values": 73572344,
+      "wealth_at_current_market_values_min": 69567344,
+      "wealth_at_current_market_values_max": 69567344,
+      "wealth_vs_initial_50m": 23572344,
       "active_clause_balance_investment": 3227734,
       "active_clause_balance_investment_min": 3227734,
       "active_clause_balance_investment_max": 3227734,
-      "clause_players_detected": 17,
+      "clause_players_detected": 20,
       "raised_clause_players_detected": 1,
       "active_clause_balance_investment_exact": true,
       "clause_capture_integrity_ok": true,
@@ -12735,12 +12979,6 @@
           "acquired_at": "2026-08-17 17:00:16"
         },
         {
-          "player_id": "69281",
-          "name": "Nacho Pérez",
-          "acquisition_cost": 555555,
-          "acquired_at": "2026-08-17 17:00:16"
-        },
-        {
           "player_id": "24792",
           "name": "Juan Iglesias",
           "acquisition_cost": 5933333,
@@ -12787,6 +13025,30 @@
           "name": "Yoel Lago",
           "acquisition_cost": 666666,
           "acquired_at": "2026-08-31 05:00:31"
+        },
+        {
+          "player_id": "22956",
+          "name": "Sergio Gómez",
+          "acquisition_cost": 5111111,
+          "acquired_at": "2026-09-01 05:00:34"
+        },
+        {
+          "player_id": "24742",
+          "name": "Dani Cárdenas",
+          "acquisition_cost": 1277777,
+          "acquired_at": "2026-09-01 05:00:34"
+        },
+        {
+          "player_id": "29169",
+          "name": "Pablo Ibáñez",
+          "acquisition_cost": 3222222,
+          "acquired_at": "2026-09-01 05:00:34"
+        },
+        {
+          "player_id": "70918",
+          "name": "Bernardo Silva",
+          "acquisition_cost": 10444444,
+          "acquired_at": "2026-09-01 05:00:34"
         }
       ]
     },
@@ -12808,12 +13070,12 @@
       "roster_cards_detected": 15,
       "roster_count_matches": true,
       "current_holdings_acquisition_cost": 49496000,
-      "team_value": 45583000,
-      "unrealized_value_vs_acquisition_cost": -3913000,
-      "wealth_at_current_market_values": 49022000,
-      "wealth_at_current_market_values_min": 46087000,
-      "wealth_at_current_market_values_max": 46087000,
-      "wealth_vs_initial_50m": -978000,
+      "team_value": 45413000,
+      "unrealized_value_vs_acquisition_cost": -4083000,
+      "wealth_at_current_market_values": 48852000,
+      "wealth_at_current_market_values_min": 45917000,
+      "wealth_at_current_market_values_max": 45917000,
+      "wealth_vs_initial_50m": -1148000,
       "active_clause_balance_investment": 0,
       "active_clause_balance_investment_min": 0,
       "active_clause_balance_investment_max": 0,
@@ -12941,10 +13203,23 @@
     {
       "name": "Samuhg22",
       "user_id": "13390634",
-      "players_detected": 17,
-      "players_with_displayed_points": 17,
-      "sum_displayed_player_points": 248,
+      "players_detected": 20,
+      "players_with_displayed_points": 20,
+      "sum_displayed_player_points": 274,
       "players": [
+        {
+          "player_id": "24742",
+          "name": "D. Cárdenas",
+          "displayed_points": 4,
+          "points_status": "single_visible_value",
+          "score_candidates": [
+            {
+              "class": "points",
+              "text": "4",
+              "value": 4
+            }
+          ]
+        },
         {
           "player_id": "31",
           "name": "J. Oblak",
@@ -13024,15 +13299,15 @@
           ]
         },
         {
-          "player_id": "69281",
-          "name": "N. Pérez",
-          "displayed_points": 8,
+          "player_id": "22956",
+          "name": "S. Gómez",
+          "displayed_points": 10,
           "points_status": "single_visible_value",
           "score_candidates": [
             {
               "class": "points",
-              "text": "8",
-              "value": 8
+              "text": "10",
+              "value": 10
             }
           ]
         },
@@ -13059,6 +13334,19 @@
               "class": "points",
               "text": "11",
               "value": 11
+            }
+          ]
+        },
+        {
+          "player_id": "70918",
+          "name": "B. Silva",
+          "displayed_points": 9,
+          "points_status": "single_visible_value",
+          "score_candidates": [
+            {
+              "class": "points",
+              "text": "9",
+              "value": 9
             }
           ]
         },
@@ -13111,6 +13399,19 @@
               "class": "points",
               "text": "16",
               "value": 16
+            }
+          ]
+        },
+        {
+          "player_id": "29169",
+          "name": "P. Ibáñez",
+          "displayed_points": 11,
+          "points_status": "single_visible_value",
+          "score_candidates": [
+            {
+              "class": "points",
+              "text": "11",
+              "value": 11
             }
           ]
         },
@@ -13173,7 +13474,7 @@
       "user_id": "12165479",
       "players_detected": 20,
       "players_with_displayed_points": 20,
-      "sum_displayed_player_points": 248,
+      "sum_displayed_player_points": 249,
       "players": [
         {
           "player_id": "28774",
@@ -13360,13 +13661,13 @@
         {
           "player_id": "24",
           "name": "U. López",
-          "displayed_points": 13,
+          "displayed_points": 14,
           "points_status": "single_visible_value",
           "score_candidates": [
             {
               "class": "points",
-              "text": "13",
-              "value": 13
+              "text": "14",
+              "value": 14
             }
           ]
         },
@@ -13440,9 +13741,9 @@
     {
       "name": "Enrique",
       "user_id": "13370206",
-      "players_detected": 12,
-      "players_with_displayed_points": 12,
-      "sum_displayed_player_points": 116,
+      "players_detected": 13,
+      "players_with_displayed_points": 13,
+      "sum_displayed_player_points": 122,
       "players": [
         {
           "player_id": "17615",
@@ -13577,13 +13878,13 @@
         {
           "player_id": "70638",
           "name": "A. Gordon",
-          "displayed_points": 18,
+          "displayed_points": 22,
           "points_status": "single_visible_value",
           "score_candidates": [
             {
               "class": "points",
-              "text": "18",
-              "value": 18
+              "text": "22",
+              "value": 22
             }
           ]
         },
@@ -13599,15 +13900,28 @@
               "value": 7
             }
           ]
+        },
+        {
+          "player_id": "70994",
+          "name": "E. Jauregi",
+          "displayed_points": 2,
+          "points_status": "single_visible_value",
+          "score_candidates": [
+            {
+              "class": "points",
+              "text": "2",
+              "value": 2
+            }
+          ]
         }
       ]
     },
     {
       "name": "DRSeven",
       "user_id": "12165510",
-      "players_detected": 19,
-      "players_with_displayed_points": 19,
-      "sum_displayed_player_points": 203,
+      "players_detected": 20,
+      "players_with_displayed_points": 20,
+      "sum_displayed_player_points": 207,
       "players": [
         {
           "player_id": "27855",
@@ -13762,6 +14076,19 @@
               "class": "points",
               "text": "11",
               "value": 11
+            }
+          ]
+        },
+        {
+          "player_id": "70944",
+          "name": "R. Rodríguez",
+          "displayed_points": 4,
+          "points_status": "single_visible_value",
+          "score_candidates": [
+            {
+              "class": "points",
+              "text": "4",
+              "value": 4
             }
           ]
         },
@@ -14380,7 +14707,7 @@
       ]
     }
   ],
-  "market_slot": "evening",
+  "market_slot": "morning",
   "snapshot_finalized": true,
   "capture_integrity": {
     "current_clause_capture_complete": true,
