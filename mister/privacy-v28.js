@@ -6,7 +6,7 @@ const DEFAULT_PIN_HASH='9a0d49266d4f5e24ff7841a16012f3edab7668657ccaee858e0d55b9
 const root=document.documentElement;
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 let enabled=false,pinOverlay=null,pinDigits='',pinFlow=null,newPinHash='';
-function readMode(){try{return localStorage.getItem(MODE_KEY)==='1'}catch{return false}}
+function readMode(){try{const stored=localStorage.getItem(MODE_KEY);return stored===null?true:stored==='1'}catch{return true}}
 function storeMode(v){try{localStorage.setItem(MODE_KEY,v?'1':'0')}catch{}}
 function readPinHash(){try{return localStorage.getItem(PIN_KEY)||DEFAULT_PIN_HASH}catch{return DEFAULT_PIN_HASH}}
 function storePinHash(v){try{localStorage.setItem(PIN_KEY,v)}catch{}}
@@ -32,7 +32,7 @@ function bindKeyboard(){document.addEventListener('keydown',e=>{if(!pinOverlay)r
 function renderSecurityCard(){const more=$('[data-screen="more"]');if(!more)return;let card=$('#privacySecurityCard');if(!card){card=document.createElement('button');card.type='button';card.id='privacySecurityCard';card.className='privacy-security-card';const snapshot=$('#v22SnapshotCard');const anchor=snapshot||more.querySelector('.more-summary');if(anchor)anchor.insertAdjacentElement('afterend',card);else more.prepend(card);card.addEventListener('click',()=>openPin('change-current'))}card.innerHTML=`<span class="privacy-security-icon">${incognitoSvg()}</span><span><strong>PIN de incógnito</strong><small>${enabled?'Incógnito activo · PIN requerido para salir':'Protege la desactivación del modo incógnito'}</small></span><span class="privacy-security-action">CAMBIAR</span>`}
 function bind(){ensureButton();const btn=$('#privacyToggle');if(btn&&!btn.dataset.bound){btn.dataset.bound='1';btn.addEventListener('click',e=>{e.stopPropagation();if(enabled)openPin('unlock');else apply(true,{notify:true})})}renderSecurityCard()}
 function refresh(){markFinancial();updateButton();renderSecurityCard()}
-enabled=readMode();root.classList.toggle('privacy-mode',enabled);
+enabled=readMode();root.classList.add('privacy-ready');root.classList.toggle('privacy-mode',enabled);
 window.addEventListener('DOMContentLoaded',()=>{bindKeyboard();bind();apply(enabled);['#homeStats','#marketFooterStats','#moreSummary','#capacityList'].forEach(sel=>{const host=$(sel);if(host)new MutationObserver(()=>requestAnimationFrame(refresh)).observe(host,{childList:true,subtree:true})});setTimeout(refresh,350);setTimeout(refresh,1200)});
 window.addEventListener('fantasy:ready',refresh);
 })();
