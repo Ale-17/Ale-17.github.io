@@ -11426,7 +11426,7 @@
     },
     "70941": {
       "player_id": "70941",
-      "name": "Bil",
+      "name": "Bil Nsongo",
       "profile_url": "https://mister.mundodeportivo.com/players/70941/bil-nsongo",
       "season_points": 13,
       "matches_played": 3,
@@ -11605,7 +11605,10 @@
           },
           "source": "Mister player gameweek popup"
         }
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-09-02T16:26:35+02:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Bil Nsongo', got 'Bil'",
+      "last_transfer_seen_at": "2026-09-02 05:00:34"
     },
     "70950": {
       "player_id": "70950",
@@ -16469,7 +16472,10 @@
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-09-02T16:26:35+02:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Carlos Álvarez', got 'Carlos'",
+      "last_transfer_seen_at": "2026-09-02 05:00:34"
     },
     "29169": {
       "player_id": "29169",
@@ -19884,7 +19890,10 @@
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-09-02T16:26:35+02:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Rafa Bauza', got 'Rafa'",
+      "last_transfer_seen_at": "2026-09-02 05:00:34"
     },
     "6032": {
       "player_id": "6032",
@@ -21264,7 +21273,10 @@
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-09-02T16:26:35+02:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Miguel Román', got 'Miguel'",
+      "last_transfer_seen_at": "2026-09-02 05:00:34"
     },
     "65704": {
       "player_id": "65704",
@@ -33484,7 +33496,10 @@
       "relevant_capture_at": "2026-09-02T15:49:08+02:00",
       "relevant_capture_sources": [
         "recent_transfer"
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-09-02T16:26:35+02:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Gonzalo Petit', got 'Gonzalo'",
+      "last_transfer_seen_at": "2026-09-01 21:16:52"
     },
     "64562": {
       "player_id": "64562",
@@ -33907,7 +33922,10 @@
       "relevant_capture_at": "2026-09-02T15:49:14+02:00",
       "relevant_capture_sources": [
         "recent_transfer"
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-09-02T16:26:35+02:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Filip Ugrinic', got 'Filip'",
+      "last_transfer_seen_at": "2026-09-01 19:23:43"
     },
     "65625": {
       "player_id": "65625",
@@ -35987,7 +36005,10 @@
       "relevant_capture_at": "2026-09-02T15:51:40+02:00",
       "relevant_capture_sources": [
         "recent_transfer"
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-09-02T16:26:35+02:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Diego Villares', got 'Diego'",
+      "last_transfer_seen_at": "2026-09-02 10:28:52"
     },
     "70946": {
       "player_id": "70946",
@@ -37383,7 +37404,10 @@
       "relevant_capture_at": "2026-09-02T15:53:41+02:00",
       "relevant_capture_sources": [
         "recent_transfer"
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-09-02T16:26:35+02:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Pedro Felipe', got 'Pedro'",
+      "last_transfer_seen_at": "2026-09-01 21:16:53"
     },
     "71792": {
       "player_id": "71792",
@@ -39333,8 +39357,8 @@
   },
   "featured_players_persisted": 58,
   "players_available_total": 245,
-  "relevant_capture_at": "2026-09-02T15:55:17+02:00",
-  "relevant_capture_scope": "all",
+  "relevant_capture_at": "2026-09-02T16:27:06+02:00",
+  "relevant_capture_scope": "hot",
   "relevant_players_total": 245,
   "relevant_players_with_history": 232,
   "relevant_players_without_played_history": 13,
@@ -39344,7 +39368,52 @@
   "relevant_missing_played_rows": 0,
   "relevant_recent_rows_complete": 690,
   "relevant_recent_rows_total": 690,
-  "relevant_capture_requested": 175,
-  "relevant_capture_captured": 175,
-  "relevant_capture_failures": []
+  "relevant_capture_requested": 0,
+  "relevant_capture_captured": 0,
+  "relevant_capture_failures": [],
+  "recent_transfer_profiles_updated_at": "2026-09-02T16:26:35+02:00",
+  "recent_transfer_profiles_requested": 8,
+  "recent_transfer_profiles_captured": 0,
+  "recent_transfer_profile_failures": [
+    {
+      "player_id": "70945",
+      "name": "Diego Villares",
+      "error": "profile identity mismatch: expected 'Diego Villares', got 'Diego'"
+    },
+    {
+      "player_id": "28777",
+      "name": "Carlos Álvarez",
+      "error": "profile identity mismatch: expected 'Carlos Álvarez', got 'Carlos'"
+    },
+    {
+      "player_id": "70941",
+      "name": "Bil Nsongo",
+      "error": "profile identity mismatch: expected 'Bil Nsongo', got 'Bil'"
+    },
+    {
+      "player_id": "65674",
+      "name": "Miguel Román",
+      "error": "profile identity mismatch: expected 'Miguel Román', got 'Miguel'"
+    },
+    {
+      "player_id": "60271",
+      "name": "Rafa Bauza",
+      "error": "profile identity mismatch: expected 'Rafa Bauza', got 'Rafa'"
+    },
+    {
+      "player_id": "71791",
+      "name": "Pedro Felipe",
+      "error": "profile identity mismatch: expected 'Pedro Felipe', got 'Pedro'"
+    },
+    {
+      "player_id": "64432",
+      "name": "Gonzalo Petit",
+      "error": "profile identity mismatch: expected 'Gonzalo Petit', got 'Gonzalo'"
+    },
+    {
+      "player_id": "65090",
+      "name": "Filip Ugrinic",
+      "error": "profile identity mismatch: expected 'Filip Ugrinic', got 'Filip'"
+    }
+  ]
 }
