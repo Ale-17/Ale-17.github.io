@@ -3,14 +3,20 @@
 const $=s=>document.querySelector(s),arr=v=>Array.isArray(v)?v:[];
 const clean=v=>String(v??'').replace(/\s*💥\s*/g,'').trim();
 const norm=v=>clean(v).toLocaleLowerCase('es-ES');
-let latest=null,lineup=null,catalog={players:{}},insights={by_key:{}};
+let latest=null,lineup=null,catalog={players:{}},universe={players:{}},insights={by_key:{}};
 const watched=new Set();
 async function get(path){try{const r=await fetch(`${path}?v=${Date.now()}`,{cache:'no-store'});return r.ok?await r.json():null}catch{return null}}
 function tkey(t){return [String(t?.created||''),clean(t?.from),clean(t?.to),String(Math.round(Number(t?.price)||0))].join('|')}
 function transfers(){return arr(latest?.transfers_detected).slice().sort((a,b)=>new Date(String(b.created||'').replace(' ','T'))-new Date(String(a.created||'').replace(' ','T')))}
 function resolved(t){const meta=insights?.by_key?.[tkey(t)]||{},r=t?.player_resolution||{};return{player_id:meta.player_id||t?.player_id||r.player_id||null,name:clean(meta.name||t?.player||t?.player_name||r.player_name||r.resolved_player_name||r.name||'')}}
-function candidates(id){const s=String(id||'');if(!s)return[];return[...new Set([catalog?.players?.[s]?.image_url,lineup?.player_media?.[s],arr(lineup?.players).find(p=>String(p.player_id)===s)?.image_url,`https://cdn-mister.mundodeportivo.com/file/cdn-common/players/${encodeURIComponent(s)}.png`].filter(Boolean))]}
-function loadCandidate(img,list,i=0){if(i>=list.length){img.dispatchEvent(new CustomEvent('fantasy-media-failed'));return}img.onerror=()=>loadCandidate(img,list,i+1);img.src=list[i]}
+function currentPlayer(id){const s=String(id||'');return [...arr(latest?.market_players),...arr(latest?.my_team)].find(p=>String(p?.player_id)===s)||null}
+function candidates(id){
+  const s=String(id||'');if(!s)return[];
+  const current=currentPlayer(s)||{},u=universe?.players?.[s]||{},cat=catalog?.players?.[s]||{},lp=arr(lineup?.players).find(p=>String(p?.player_id)===s)||{};
+  const urls=[...arr(current?.image_urls),current?.image_url,...arr(u?.image_urls),u?.image_url,...arr(cat?.image_urls),cat?.image_url,lineup?.player_media?.[s],...arr(lp?.image_urls),lp?.image_url,`https://cdn-mister.mundodeportivo.com/file/cdn-common/players/${encodeURIComponent(s)}.png`];
+  return[...new Set(urls.map(clean).filter(Boolean))];
+}
+function loadCandidate(img,list,i=0,onFail=null){if(i>=list.length){onFail?.();img.dispatchEvent(new CustomEvent('fantasy-media-failed'));return}img.onerror=()=>loadCandidate(img,list,i+1,onFail);img.src=list[i]}
 function transferBadge(t){return norm(t?.from)==='mister'?'+':norm(t?.to)==='mister'?'−':'↔'}
 function mediaTick(){window.dispatchEvent(new CustomEvent('fantasy:media-progress'))}
 function setFeedPhoto(icon,t,id,name){
@@ -45,8 +51,7 @@ function ensurePlayerPhoto(row,eager=false){
     const now=[...photo.querySelectorAll('img')];if(now.length){now.slice(1).forEach(x=>x.remove());photo.dataset.v27PlayerId=key;mediaTick();return}
     photo.querySelector('.player-initial')?.remove();photo.prepend(img);photo.dataset.v27PlayerId=key;mediaTick();
   };
-  img.onerror=()=>{photo.dataset.v27Loading=''};
-  loadCandidate(img,list);
+  loadCandidate(img,list,0,()=>{photo.dataset.v27Loading=''});
 }
 function hydrateRows(selector,eagerCount=0){const host=$(selector);if(!host)return;[...host.querySelectorAll('.market-row')].forEach((row,i)=>ensurePlayerPhoto(row,i<eagerCount))}
 function hydratePitch(){
@@ -56,8 +61,8 @@ function hydratePitch(){
 function render(){hydrateFeed('#homeFeed',8);hydrateFeed('#activityList',40);hydrateRows('#homeMarket',3);hydrateRows('#marketList',4);hydrateRows('#teamList',3);hydratePitch()}
 function watch(selector,fn){const host=$(selector);if(!host||watched.has(host))return;watched.add(host);new MutationObserver(()=>requestAnimationFrame(fn)).observe(host,{childList:true})}
 async function load(){
-  const[d,l,c,i]=await Promise.all([get('./data/latest.json'),get('./data/current_lineup.json'),get('./data/player_catalog.json'),get('./data/transfer_insights.json')]);
-  if(d)latest=d;if(l)lineup=l;if(c)catalog=c;if(i)insights=i;
+  const[d,l,c,u,i]=await Promise.all([get('./data/latest.json'),get('./data/current_lineup.json'),get('./data/player_catalog.json'),get('./data/player_universe.json'),get('./data/transfer_insights.json')]);
+  if(d)latest=d;if(l)lineup=l;if(c)catalog=c;if(u)universe=u;if(i)insights=i;
   render();
   watch('#homeFeed',()=>hydrateFeed('#homeFeed',8));watch('#activityList',()=>hydrateFeed('#activityList',40));watch('#homeMarket',()=>hydrateRows('#homeMarket',3));watch('#marketList',()=>hydrateRows('#marketList',4));watch('#teamList',()=>hydrateRows('#teamList',3));watch('#lineupPlayers',hydratePitch);
   setTimeout(render,180);
