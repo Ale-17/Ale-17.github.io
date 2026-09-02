@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-02T17:51:07+02:00",
+  "captured_at": "2026-09-02T20:38:57+02:00",
   "source": "github-actions-cloud",
   "initial_balance_assumption": 50000000,
   "last_team_reset_at": "2026-08-07 13:40:33",
@@ -128,7 +128,7 @@
           "value": 14
         }
       ],
-      "displayed_points_delta_since_previous_snapshot": null
+      "displayed_points_delta_since_previous_snapshot": 0
     },
     {
       "player_id": "70918",
@@ -1684,8 +1684,8 @@
       "displayed_points_delta_since_previous_snapshot": 0
     }
   ],
-  "feed_event_count": 287,
-  "effective_feed_event_count": 262,
+  "feed_event_count": 288,
+  "effective_feed_event_count": 263,
   "transfers_detected": [
     {
       "created": "2026-09-02 10:28:52",
@@ -16439,7 +16439,7 @@
     "all_raised_investments_exact": true,
     "ale_balance_difference_after_clause_adjustment": 0,
     "balance_integrity_ok": true,
-    "previous_successful_clause_snapshot_at": "2026-09-02T11:20:38+02:00",
+    "previous_successful_clause_snapshot_at": "2026-09-02T17:51:07+02:00",
     "official_clause_view_enabled": true,
     "official_clause_view_diagnostics": {
       "start_url": "https://mister.mundodeportivo.com/users/13390634/samuhg22",
@@ -17474,7 +17474,7 @@
         "finality": "unknown_from_feed_alone"
       }
     ],
-    "previous_persisted_snapshot_captured_at": "2026-09-02T11:20:38+02:00",
+    "previous_persisted_snapshot_captured_at": "2026-09-02T17:51:07+02:00",
     "source": "Mister feed category gameweek_end -> latest nested ranking.positions[].payment per gameweek",
     "semantics": "latest payment is cumulative for that gameweek and replaces earlier provisional closure payments; standard point/rank/goal/ideal-XI/fixed bonuses are not double-counted separately",
     "diagnostic_semantics": "delta_vs_previous_snapshot_payment compares against the previous persisted enriched snapshot; feed-to-feed deltas are secondary because Mister may rewrite older closure rows",
