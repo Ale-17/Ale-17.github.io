@@ -1961,7 +1961,20 @@
       "captured_other_bid_count": 0,
       "missing_other_bid_count": 0,
       "other_bids_status": "not_applicable",
-      "other_bids_integrity_source": "ajax_feed_count_verified"
+      "other_bids_integrity_source": "ajax_feed_count_verified",
+      "transfer_type": "clause_buyout",
+      "clause_buyout": {
+        "seller": "fernando mg99",
+        "buyer": "DRSeven",
+        "player_id": "71639",
+        "player": "Beñat Gerenabarrena",
+        "amount": 1039500,
+        "seller_previous_clause_value": 1039500,
+        "rounding_difference": 0,
+        "evidence_snapshot_at": "2026-09-01T11:28:00+02:00",
+        "ownership_confirmed_at": "2026-09-01T17:45:30+02:00",
+        "confidence": "exact_clause_match"
+      }
     },
     {
       "created": "2026-09-01 11:19:28",
@@ -2620,7 +2633,20 @@
       "captured_other_bid_count": 0,
       "missing_other_bid_count": 0,
       "other_bids_status": "not_applicable",
-      "other_bids_integrity_source": "ajax_feed_count_verified"
+      "other_bids_integrity_source": "ajax_feed_count_verified",
+      "transfer_type": "clause_buyout",
+      "clause_buyout": {
+        "seller": "Enrique",
+        "buyer": "Samuhg22",
+        "player_id": "58467",
+        "player": "Chidera Ejuke",
+        "amount": 2539500,
+        "seller_previous_clause_value": 2539500,
+        "rounding_difference": 0,
+        "evidence_snapshot_at": "2026-08-29T17:46:10+02:00",
+        "ownership_confirmed_at": "2026-08-30T05:45:07+02:00",
+        "confidence": "exact_clause_match"
+      }
     },
     {
       "created": "2026-08-29 09:14:38",
@@ -16601,7 +16627,8 @@
     "manual_feed_payments_included_in_balance": true,
     "drop_feed_confirmation_ok": true,
     "pending_clause_drop_feed_confirmations": [],
-    "confirmed_clause_drop_feed_events": []
+    "confirmed_clause_drop_feed_events": [],
+    "change_attribution_policy": "If a raise is first detected between an evening snapshot and the next morning snapshot, attribute it to the previous evening unless an explicit timestamp/date proves otherwise."
   },
   "clause_ledger_status": {
     "status": "ok",
@@ -19968,5 +19995,23 @@
     "official_clause_view_enabled": true,
     "historical_clause_ledger_ok": true,
     "clause_drop_feed_confirmation_ok": true
+  },
+  "transfer_identity_resolution": {
+    "status": "ok",
+    "resolved_by_reconciliation": 0,
+    "unresolved_total": 0,
+    "unresolved_ale": 0,
+    "methods": {},
+    "ledger_details_patched": 0,
+    "policy": "Resolve missing feed player via player_id, exact prior received offer, then unique roster delta; never guess ambiguous candidates."
+  },
+  "clause_buyouts_since_previous": [],
+  "clause_buyout_capture": {
+    "status": "ok",
+    "direct_manager_transfers_seen": 5,
+    "clause_buyouts_classified": 2,
+    "unresolved_direct_manager_transfers": 0,
+    "new_since_previous_snapshot": 0,
+    "policy": "Direct manager transfer is a clause buyout only when ownership delta resolves the player and transfer amount matches seller's previous clause within 2 euros of Mister rounding."
   }
 }
