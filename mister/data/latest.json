@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-02T09:56:26+02:00",
+  "captured_at": "2026-09-02T10:04:53+02:00",
   "source": "github-actions-cloud",
   "initial_balance_assumption": 50000000,
   "last_team_reset_at": "2026-08-07 13:40:33",
@@ -72,7 +72,7 @@
       "owner_name": "Samuhg22",
       "asking_price": 35000000,
       "ends_at_unix": 1788490800,
-      "delta_since_previous_snapshot": null,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": -12000,
       "daily_market_change_pct": -0.116,
       "weekly_market_change": 30000,
@@ -86,7 +86,7 @@
           "value": 9
         }
       ],
-      "displayed_points_delta_since_previous_snapshot": null
+      "displayed_points_delta_since_previous_snapshot": 0
     },
     {
       "player_id": "71061",
@@ -228,7 +228,7 @@
       "owner_name": "Samuhg22",
       "asking_price": 15000000,
       "ends_at_unix": 1788490800,
-      "delta_since_previous_snapshot": null,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 69000,
       "daily_market_change_pct": 1.337,
       "weekly_market_change": 106000,
@@ -242,7 +242,7 @@
           "value": 10
         }
       ],
-      "displayed_points_delta_since_previous_snapshot": null
+      "displayed_points_delta_since_previous_snapshot": 0
     },
     {
       "player_id": "52377",
@@ -1516,7 +1516,12 @@
       "id_user1": 0,
       "id_user2": 3128757,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-09-02 05:00:34",
@@ -1540,7 +1545,12 @@
           "name": "DRSeven",
           "bid": 3103000
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-09-02 05:00:34",
@@ -1564,7 +1574,12 @@
           "name": "Ale",
           "bid": 2410000
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-09-02 05:00:34",
@@ -1575,7 +1590,12 @@
       "id_user1": 0,
       "id_user2": 2358533,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-09-01 21:16:53",
@@ -1586,7 +1606,12 @@
       "id_user1": 3128757,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-09-01 21:16:52",
@@ -1597,7 +1622,12 @@
       "id_user1": 3128757,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-09-01 19:23:43",
@@ -1608,7 +1638,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-09-01 14:02:25",
@@ -1619,7 +1654,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-09-01 12:18:28",
@@ -1630,7 +1670,12 @@
       "id_user1": 3128757,
       "id_user2": 1513537,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-09-01 11:19:28",
@@ -1641,7 +1686,12 @@
       "id_user1": 3138684,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-09-01 11:19:20",
@@ -1652,7 +1702,12 @@
       "id_user1": 3138684,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-09-01 11:19:08",
@@ -1663,7 +1718,12 @@
       "id_user1": 3138684,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-09-01 07:52:01",
@@ -1674,7 +1734,12 @@
       "id_user1": 1513537,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-09-01 07:51:42",
@@ -1685,7 +1750,12 @@
       "id_user1": 1513537,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-09-01 07:04:34",
@@ -1696,7 +1766,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-09-01 05:00:34",
@@ -1707,7 +1782,12 @@
       "id_user1": 0,
       "id_user2": 1732719,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-09-01 05:00:34",
@@ -1718,7 +1798,12 @@
       "id_user1": 0,
       "id_user2": 1732719,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-09-01 05:00:34",
@@ -1734,7 +1819,12 @@
           "name": "DRSeven",
           "bid": 2812000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-09-01 05:00:34",
@@ -1750,7 +1840,12 @@
           "name": "Ale",
           "bid": 1249000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-09-01 05:00:34",
@@ -1761,7 +1856,12 @@
       "id_user1": 0,
       "id_user2": 2626432,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-09-01 05:00:34",
@@ -1777,7 +1877,12 @@
           "name": "Enrique",
           "bid": 210020
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-09-01 00:29:52",
@@ -1788,7 +1893,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-31 21:44:20",
@@ -1799,7 +1909,12 @@
       "id_user1": 1513537,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-31 17:12:40",
@@ -1810,7 +1925,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-31 17:12:23",
@@ -1821,7 +1941,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-31 05:00:31",
@@ -1837,7 +1962,12 @@
           "name": "Enrique",
           "bid": 650000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-31 05:00:31",
@@ -1869,7 +1999,12 @@
           "name": "Adam Panyiczki",
           "bid": 1110040
         }
-      ]
+      ],
+      "expected_other_bid_count": 5,
+      "captured_other_bid_count": 5,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-31 05:00:31",
@@ -1893,7 +2028,12 @@
           "name": "fernando mg99",
           "bid": 813000
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-30 05:00:29",
@@ -1909,7 +2049,12 @@
           "name": "Samuhg22",
           "bid": 10177000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-30 05:00:29",
@@ -1920,7 +2065,12 @@
       "id_user1": 0,
       "id_user2": 3138684,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-30 05:00:29",
@@ -1931,7 +2081,12 @@
       "id_user1": 0,
       "id_user2": 1513537,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-30 05:00:29",
@@ -1942,7 +2097,12 @@
       "id_user1": 0,
       "id_user2": 1513537,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-29 23:12:18",
@@ -1953,7 +2113,12 @@
       "id_user1": 2626432,
       "id_user2": 1732719,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-29 09:14:38",
@@ -1964,7 +2129,12 @@
       "id_user1": 2358533,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-29 06:32:53",
@@ -1975,7 +2145,12 @@
       "id_user1": 2626432,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-29 05:00:28",
@@ -1986,7 +2161,12 @@
       "id_user1": 0,
       "id_user2": 3128757,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-29 05:00:28",
@@ -1997,7 +2177,12 @@
       "id_user1": 0,
       "id_user2": 2626432,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-29 05:00:28",
@@ -2008,7 +2193,12 @@
       "id_user1": 0,
       "id_user2": 1513537,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-28 17:35:44",
@@ -2019,7 +2209,12 @@
       "id_user1": 1513537,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-28 17:35:35",
@@ -2030,7 +2225,12 @@
       "id_user1": 1513537,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-28 17:26:54",
@@ -2041,7 +2241,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-28 17:00:28",
@@ -2052,7 +2257,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-28 17:00:25",
@@ -2063,7 +2273,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-28 07:46:50",
@@ -2074,7 +2289,12 @@
       "id_user1": 1513537,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-28 05:00:34",
@@ -2085,7 +2305,12 @@
       "id_user1": 0,
       "id_user2": 1732719,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-28 05:00:34",
@@ -2096,7 +2321,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-28 05:00:34",
@@ -2112,7 +2342,12 @@
           "name": "Adam Panyiczki",
           "bid": 2537010
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-28 05:00:34",
@@ -2123,7 +2358,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-28 01:28:49",
@@ -2134,7 +2374,12 @@
       "id_user1": 2626432,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-28 00:35:46",
@@ -2145,7 +2390,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-27 23:39:14",
@@ -2156,7 +2406,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-27 23:39:12",
@@ -2167,7 +2422,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-27 21:35:57",
@@ -2178,7 +2438,12 @@
       "id_user1": 2358533,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-27 17:27:54",
@@ -2189,7 +2454,12 @@
       "id_user1": 1513537,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-27 11:11:40",
@@ -2200,7 +2470,12 @@
       "id_user1": 3138684,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-27 09:46:56",
@@ -2211,7 +2486,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-27 05:00:29",
@@ -2227,7 +2507,12 @@
           "name": "Ale",
           "bid": 6423000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-27 05:00:29",
@@ -2243,7 +2528,12 @@
           "name": "Adam Panyiczki",
           "bid": 7172000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-27 00:22:42",
@@ -2254,7 +2544,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-27 00:05:42",
@@ -2265,7 +2560,12 @@
       "id_user1": 3138684,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-26 23:38:55",
@@ -2276,7 +2576,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-26 23:24:31",
@@ -2287,7 +2592,12 @@
       "id_user1": 1513537,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-26 17:14:20",
@@ -2298,7 +2608,12 @@
       "id_user1": 2358533,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-26 09:36:37",
@@ -2309,7 +2624,12 @@
       "id_user1": 1513537,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-26 05:00:39",
@@ -2320,7 +2640,12 @@
       "id_user1": 0,
       "id_user2": 1732719,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-26 05:00:39",
@@ -2331,7 +2656,12 @@
       "id_user1": 0,
       "id_user2": 2626432,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-26 05:00:39",
@@ -2342,7 +2672,12 @@
       "id_user1": 0,
       "id_user2": 1513537,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-26 05:00:39",
@@ -2353,7 +2688,12 @@
       "id_user1": 0,
       "id_user2": 1513537,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-26 05:00:39",
@@ -2369,7 +2709,12 @@
           "name": "Enrique",
           "bid": 1221000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-25 17:07:38",
@@ -2380,7 +2725,12 @@
       "id_user1": 1732719,
       "id_user2": 2358533,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-25 17:18:22",
@@ -2391,7 +2741,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-25 17:00:18",
@@ -2402,7 +2757,12 @@
       "id_user1": 0,
       "id_user2": 2626432,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-25 17:00:18",
@@ -2418,7 +2778,12 @@
           "name": "Ale",
           "bid": 2726000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-25 12:24:42",
@@ -2429,7 +2794,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-25 08:33:47",
@@ -2440,7 +2810,12 @@
       "id_user1": 2358533,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-25 05:00:30",
@@ -2451,7 +2826,12 @@
       "id_user1": 0,
       "id_user2": 1513537,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-25 05:00:30",
@@ -2462,7 +2842,12 @@
       "id_user1": 0,
       "id_user2": 1513537,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-25 05:00:30",
@@ -2473,7 +2858,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-25 00:39:09",
@@ -2484,7 +2874,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-24 22:56:34",
@@ -2495,7 +2890,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-24 17:00:20",
@@ -2506,7 +2906,12 @@
       "id_user1": 0,
       "id_user2": 2358533,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-24 17:00:20",
@@ -2522,7 +2927,12 @@
           "name": "DRSeven",
           "bid": 2557000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-24 17:00:20",
@@ -2533,7 +2943,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-24 17:00:20",
@@ -2544,7 +2959,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-24 11:25:03",
@@ -2555,7 +2975,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-24 09:45:31",
@@ -2566,7 +2991,12 @@
       "id_user1": 1513537,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-24 05:00:29",
@@ -2586,7 +3016,12 @@
           "name": "Ale",
           "bid": 1630010
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-24 05:00:29",
@@ -2597,7 +3032,12 @@
       "id_user1": 0,
       "id_user2": 1513537,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-24 05:00:29",
@@ -2608,7 +3048,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-23 20:37:34",
@@ -2619,7 +3064,12 @@
       "id_user1": 1513537,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-23 20:37:15",
@@ -2630,7 +3080,12 @@
       "id_user1": 1513537,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-23 20:03:58",
@@ -2641,7 +3096,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-23 20:03:52",
@@ -2652,7 +3112,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-23 17:07:53",
@@ -2663,7 +3128,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-23 09:27:40",
@@ -2674,7 +3144,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-23 08:27:51",
@@ -2685,7 +3160,12 @@
       "id_user1": 1513537,
       "id_user2": 3128757,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-23 08:32:02",
@@ -2696,7 +3176,12 @@
       "id_user1": 1513537,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-23 05:00:30",
@@ -2707,7 +3192,12 @@
       "id_user1": 0,
       "id_user2": 1513537,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-22 18:23:16",
@@ -2718,7 +3208,12 @@
       "id_user1": 1513537,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-22 17:00:18",
@@ -2729,7 +3224,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-22 17:00:18",
@@ -2740,7 +3240,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-22 05:00:24",
@@ -2751,7 +3256,12 @@
       "id_user1": 0,
       "id_user2": 1732719,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-22 05:00:24",
@@ -2767,7 +3277,12 @@
           "name": "Ale",
           "bid": 9168000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-22 05:00:24",
@@ -2778,7 +3293,12 @@
       "id_user1": 0,
       "id_user2": 1513537,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-22 05:00:24",
@@ -2789,7 +3309,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-21 20:11:08",
@@ -2800,7 +3325,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-21 17:00:15",
@@ -2828,7 +3358,12 @@
           "name": "Ale",
           "bid": 641000
         }
-      ]
+      ],
+      "expected_other_bid_count": 4,
+      "captured_other_bid_count": 4,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-21 17:00:15",
@@ -2852,7 +3387,12 @@
           "name": "Adam Panyiczki",
           "bid": 2591270
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-21 17:00:15",
@@ -2872,7 +3412,12 @@
           "name": "Enrique",
           "bid": 1977000
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-21 10:49:59",
@@ -2883,7 +3428,12 @@
       "id_user1": 2626432,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-21 05:00:31",
@@ -2894,7 +3444,12 @@
       "id_user1": 0,
       "id_user2": 1732719,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-21 05:00:31",
@@ -2910,7 +3465,12 @@
           "name": "Ale",
           "bid": 2752000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-21 05:00:31",
@@ -2926,7 +3486,12 @@
           "name": "Adam Panyiczki",
           "bid": 645010
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-20 19:31:38",
@@ -2937,7 +3502,12 @@
       "id_user1": 3138684,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-20 18:04:55",
@@ -2948,7 +3518,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-20 18:03:51",
@@ -2959,7 +3534,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-20 17:14:14",
@@ -2970,7 +3550,12 @@
       "id_user1": 1513537,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-20 17:02:41",
@@ -2981,7 +3566,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-20 17:00:21",
@@ -3001,7 +3591,12 @@
           "name": "Samuhg22",
           "bid": 1222222
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-20 17:00:21",
@@ -3021,7 +3616,12 @@
           "name": "Ale",
           "bid": 520000
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-20 17:00:21",
@@ -3037,7 +3637,12 @@
           "name": "Ale",
           "bid": 1995010
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-20 17:00:21",
@@ -3048,7 +3653,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-20 08:26:41",
@@ -3059,7 +3669,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-20 08:24:09",
@@ -3070,7 +3685,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-20 05:00:33",
@@ -3081,7 +3701,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-20 05:00:33",
@@ -3109,7 +3734,12 @@
           "name": "fernando mg99",
           "bid": 2759000
         }
-      ]
+      ],
+      "expected_other_bid_count": 4,
+      "captured_other_bid_count": 4,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-20 00:58:54",
@@ -3120,7 +3750,12 @@
       "id_user1": 2358533,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-20 00:09:39",
@@ -3131,7 +3766,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-19 23:04:04",
@@ -3142,7 +3782,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-19 17:03:38",
@@ -3153,7 +3798,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-19 17:02:21",
@@ -3164,7 +3814,12 @@
       "id_user1": 1513537,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-19 17:00:16",
@@ -3175,7 +3830,12 @@
       "id_user1": 0,
       "id_user2": 2358533,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-19 17:00:16",
@@ -3186,7 +3846,12 @@
       "id_user1": 0,
       "id_user2": 2358533,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-19 08:48:58",
@@ -3197,7 +3862,12 @@
       "id_user1": 2358533,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-19 07:47:52",
@@ -3208,7 +3878,12 @@
       "id_user1": 1513537,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-19 05:00:25",
@@ -3219,7 +3894,12 @@
       "id_user1": 0,
       "id_user2": 1732719,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-19 05:00:25",
@@ -3230,7 +3910,12 @@
       "id_user1": 0,
       "id_user2": 1513537,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-18 18:34:47",
@@ -3241,7 +3926,12 @@
       "id_user1": 2358533,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-18 17:00:23",
@@ -3265,7 +3955,12 @@
           "name": "fernando mg99",
           "bid": 2218000
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-18 17:00:23",
@@ -3276,7 +3971,12 @@
       "id_user1": 0,
       "id_user2": 1513537,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-18 17:00:23",
@@ -3287,7 +3987,12 @@
       "id_user1": 0,
       "id_user2": 1513537,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-18 09:06:42",
@@ -3298,7 +4003,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-18 08:48:35",
@@ -3309,7 +4019,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-18 05:00:30",
@@ -3333,7 +4048,12 @@
           "name": "Ale",
           "bid": 755000
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-18 05:00:30",
@@ -3344,7 +4064,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-18 05:00:30",
@@ -3355,7 +4080,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-17 22:37:45",
@@ -3366,7 +4096,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-17 17:00:16",
@@ -3377,7 +4112,12 @@
       "id_user1": 0,
       "id_user2": 3128757,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-17 17:00:16",
@@ -3397,7 +4137,12 @@
           "name": "DRSeven",
           "bid": 2317000
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-17 17:00:16",
@@ -3421,7 +4166,12 @@
           "name": "fernando mg99",
           "bid": 460000
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-17 17:00:16",
@@ -3437,7 +4187,12 @@
           "name": "Samuhg22",
           "bid": 4222222
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-17 05:00:29",
@@ -3457,7 +4212,12 @@
           "name": "Samuhg22",
           "bid": 1955555
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-17 05:00:29",
@@ -3477,7 +4237,12 @@
           "name": "Samuhg22",
           "bid": 1922222
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-17 05:00:29",
@@ -3488,7 +4253,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-17 05:00:29",
@@ -3508,7 +4278,12 @@
           "name": "Samuhg22",
           "bid": 1922222
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-16 17:03:01",
@@ -3519,7 +4294,12 @@
       "id_user1": 3138684,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-16 17:02:44",
@@ -3530,7 +4310,12 @@
       "id_user1": 3138684,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-16 17:00:18",
@@ -3550,7 +4335,12 @@
           "name": "Ale",
           "bid": 3275000
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-16 17:00:18",
@@ -3566,7 +4356,12 @@
           "name": "DRSeven",
           "bid": 262000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-16 17:00:18",
@@ -3582,7 +4377,12 @@
           "name": "DRSeven",
           "bid": 222000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-16 17:00:18",
@@ -3593,7 +4393,12 @@
       "id_user1": 0,
       "id_user2": 1513537,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-16 05:14:46",
@@ -3604,7 +4409,12 @@
       "id_user1": 2358533,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-16 05:00:24",
@@ -3628,7 +4438,12 @@
           "name": "DRSeven",
           "bid": 2202000
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-16 05:00:24",
@@ -3648,7 +4463,12 @@
           "name": "DRSeven",
           "bid": 3002000
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-16 05:00:24",
@@ -3664,7 +4484,12 @@
           "name": "Samuhg22",
           "bid": 999999
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 21:09:18",
@@ -3675,7 +4500,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 18:26:18",
@@ -3686,7 +4516,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 17:23:42",
@@ -3697,7 +4532,12 @@
       "id_user1": 2358533,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 17:14:16",
@@ -3708,7 +4548,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 17:05:52",
@@ -3719,7 +4564,12 @@
       "id_user1": 1513537,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 17:05:47",
@@ -3730,7 +4580,12 @@
       "id_user1": 1513537,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 17:03:40",
@@ -3741,7 +4596,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 17:00:15",
@@ -3757,7 +4617,12 @@
           "name": "Ale",
           "bid": 2158025
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 17:00:15",
@@ -3768,7 +4633,12 @@
       "id_user1": 0,
       "id_user2": 1732719,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 17:00:15",
@@ -3779,7 +4649,12 @@
       "id_user1": 0,
       "id_user2": 1732719,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 17:00:15",
@@ -3795,7 +4670,12 @@
           "name": "Ale",
           "bid": 1064040
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 17:00:15",
@@ -3815,7 +4695,12 @@
           "name": "Adam Panyiczki",
           "bid": 866010
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 17:00:15",
@@ -3831,7 +4716,12 @@
           "name": "Samuhg22",
           "bid": 1444444
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 16:21:31",
@@ -3842,7 +4732,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 16:21:25",
@@ -3853,7 +4748,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 13:11:49",
@@ -3864,7 +4764,12 @@
       "id_user1": 2358533,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 13:11:30",
@@ -3875,7 +4780,12 @@
       "id_user1": 2358533,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 10:34:42",
@@ -3886,7 +4796,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 10:34:39",
@@ -3897,7 +4812,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 07:34:35",
@@ -3908,7 +4828,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 05:00:25",
@@ -3919,7 +4844,12 @@
       "id_user1": 0,
       "id_user2": 1732719,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 05:00:25",
@@ -3930,7 +4860,12 @@
       "id_user1": 0,
       "id_user2": 2626432,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 05:00:25",
@@ -3941,7 +4876,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-15 00:31:29",
@@ -3952,7 +4892,12 @@
       "id_user1": 2626432,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-14 19:26:04",
@@ -3963,7 +4908,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-14 17:00:15",
@@ -3979,7 +4929,12 @@
           "name": "Ale",
           "bid": 3731000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-14 17:00:15",
@@ -3990,7 +4945,12 @@
       "id_user1": 0,
       "id_user2": 3128757,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-14 17:00:15",
@@ -4006,7 +4966,12 @@
           "name": "Ale",
           "bid": 1787010
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-14 17:00:15",
@@ -4017,7 +4982,12 @@
       "id_user1": 0,
       "id_user2": 1732719,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-14 17:00:15",
@@ -4037,7 +5007,12 @@
           "name": "Ale",
           "bid": 774050
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-14 09:25:03",
@@ -4048,7 +5023,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-14 08:04:11",
@@ -4059,7 +5039,12 @@
       "id_user1": 2358533,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-14 08:04:02",
@@ -4070,7 +5055,12 @@
       "id_user1": 2358533,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-14 05:32:09",
@@ -4081,7 +5071,12 @@
       "id_user1": 2626432,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-14 05:00:24",
@@ -4097,7 +5092,12 @@
           "name": "Ale",
           "bid": 5685000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-14 05:00:24",
@@ -4108,7 +5108,12 @@
       "id_user1": 0,
       "id_user2": 2358533,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-14 05:00:24",
@@ -4119,7 +5124,12 @@
       "id_user1": 0,
       "id_user2": 1513537,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-14 05:00:24",
@@ -4135,7 +5145,12 @@
           "name": "Samuhg22",
           "bid": 6499999
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-14 05:00:24",
@@ -4146,7 +5161,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-14 05:00:24",
@@ -4166,7 +5186,12 @@
           "name": "Enrique",
           "bid": 1950000
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 17:17:18",
@@ -4177,7 +5202,12 @@
       "id_user1": 1513537,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 17:12:25",
@@ -4188,7 +5218,12 @@
       "id_user1": 2626432,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 17:02:29",
@@ -4199,7 +5234,12 @@
       "id_user1": 2358533,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 17:00:13",
@@ -4210,7 +5250,12 @@
       "id_user1": 0,
       "id_user2": 3138684,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 17:00:13",
@@ -4242,7 +5287,12 @@
           "name": "fernando mg99",
           "bid": 4643000
         }
-      ]
+      ],
+      "expected_other_bid_count": 5,
+      "captured_other_bid_count": 5,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 17:00:13",
@@ -4258,7 +5308,12 @@
           "name": "Ale",
           "bid": 602010
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 17:00:13",
@@ -4269,7 +5324,12 @@
       "id_user1": 0,
       "id_user2": 3128757,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 17:00:13",
@@ -4280,7 +5340,12 @@
       "id_user1": 0,
       "id_user2": 3128757,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 17:00:13",
@@ -4291,7 +5356,12 @@
       "id_user1": 0,
       "id_user2": 3128757,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 17:00:13",
@@ -4302,7 +5372,12 @@
       "id_user1": 0,
       "id_user2": 3128757,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 17:00:13",
@@ -4313,7 +5388,12 @@
       "id_user1": 0,
       "id_user2": 2626432,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 17:00:13",
@@ -4337,7 +5417,12 @@
           "name": "Ale",
           "bid": 1287000
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 17:00:13",
@@ -4361,7 +5446,12 @@
           "name": "Ale",
           "bid": 675000
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 17:00:13",
@@ -4377,7 +5467,12 @@
           "name": "fernando mg99",
           "bid": 428000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 11:59:39",
@@ -4388,7 +5483,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 11:59:33",
@@ -4399,7 +5499,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 11:59:30",
@@ -4410,7 +5515,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 09:11:00",
@@ -4421,7 +5531,12 @@
       "id_user1": 2358533,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 05:00:26",
@@ -4432,7 +5547,12 @@
       "id_user1": 0,
       "id_user2": 3128757,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 05:00:26",
@@ -4452,7 +5572,12 @@
           "name": "Ale",
           "bid": 5079000
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 05:00:26",
@@ -4472,7 +5597,12 @@
           "name": "fernando mg99",
           "bid": 3041000
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 05:00:26",
@@ -4483,7 +5613,12 @@
       "id_user1": 0,
       "id_user2": 2626432,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 05:00:26",
@@ -4511,7 +5646,12 @@
           "name": "fernando mg99",
           "bid": 1723000
         }
-      ]
+      ],
+      "expected_other_bid_count": 4,
+      "captured_other_bid_count": 4,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 05:00:26",
@@ -4531,7 +5671,12 @@
           "name": "Ale",
           "bid": 1331000
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 05:00:26",
@@ -4551,7 +5696,12 @@
           "name": "Samuhg22",
           "bid": 2444444
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 05:00:26",
@@ -4567,7 +5717,12 @@
           "name": "Enrique",
           "bid": 650000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-13 05:00:26",
@@ -4583,7 +5738,12 @@
           "name": "fernando mg99",
           "bid": 7948000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-12 19:43:52",
@@ -4594,7 +5754,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-12 17:00:12",
@@ -4610,7 +5775,12 @@
           "name": "Ale",
           "bid": 6323040
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-12 17:00:12",
@@ -4621,7 +5791,12 @@
       "id_user1": 0,
       "id_user2": 3138684,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-12 17:00:12",
@@ -4637,7 +5812,12 @@
           "name": "José Luis",
           "bid": 228888
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-12 17:00:12",
@@ -4653,7 +5833,12 @@
           "name": "Ale",
           "bid": 1944000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-12 17:00:12",
@@ -4669,7 +5854,12 @@
           "name": "Enrique",
           "bid": 194040
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-12 17:00:12",
@@ -4680,7 +5870,12 @@
       "id_user1": 0,
       "id_user2": 2358533,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-12 17:00:12",
@@ -4691,7 +5886,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-12 17:00:12",
@@ -4702,7 +5902,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-12 08:34:25",
@@ -4713,7 +5918,12 @@
       "id_user1": 2358533,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-12 08:17:36",
@@ -4724,7 +5934,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-12 08:17:23",
@@ -4735,7 +5950,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-12 07:22:10",
@@ -4746,7 +5966,12 @@
       "id_user1": 1513537,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-12 05:00:24",
@@ -4766,7 +5991,12 @@
           "name": "Ale",
           "bid": 6147050
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-12 05:00:24",
@@ -4777,7 +6007,12 @@
       "id_user1": 0,
       "id_user2": 2626432,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-12 05:00:24",
@@ -4805,7 +6040,12 @@
           "name": "Samuhg22",
           "bid": 2666666
         }
-      ]
+      ],
+      "expected_other_bid_count": 4,
+      "captured_other_bid_count": 4,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-12 05:00:24",
@@ -4833,7 +6073,12 @@
           "name": "Samuhg22",
           "bid": 2333333
         }
-      ]
+      ],
+      "expected_other_bid_count": 4,
+      "captured_other_bid_count": 4,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-12 05:00:24",
@@ -4861,7 +6106,12 @@
           "name": "Samuhg22",
           "bid": 1411111
         }
-      ]
+      ],
+      "expected_other_bid_count": 4,
+      "captured_other_bid_count": 4,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-12 05:00:24",
@@ -4872,7 +6122,12 @@
       "id_user1": 0,
       "id_user2": 2626432,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-12 05:00:24",
@@ -4883,7 +6138,12 @@
       "id_user1": 0,
       "id_user2": 2358533,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-12 05:00:24",
@@ -4907,7 +6167,12 @@
           "name": "Adam Panyiczki",
           "bid": 723130
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 17:05:20",
@@ -4918,7 +6183,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 17:00:15",
@@ -4938,7 +6208,12 @@
           "name": "Samuhg22",
           "bid": 1466666
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 17:00:15",
@@ -4949,7 +6224,12 @@
       "id_user1": 0,
       "id_user2": 3138684,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 17:00:15",
@@ -4960,7 +6240,12 @@
       "id_user1": 0,
       "id_user2": 3138684,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 17:00:15",
@@ -4971,7 +6256,12 @@
       "id_user1": 0,
       "id_user2": 3138684,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 17:00:15",
@@ -4982,7 +6272,12 @@
       "id_user1": 0,
       "id_user2": 3138684,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 17:00:15",
@@ -4993,7 +6288,12 @@
       "id_user1": 0,
       "id_user2": 3128757,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 17:00:15",
@@ -5004,7 +6304,12 @@
       "id_user1": 0,
       "id_user2": 1732719,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 17:00:15",
@@ -5020,7 +6325,12 @@
           "name": "Adam Panyiczki",
           "bid": 5144790
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 17:00:15",
@@ -5056,7 +6366,12 @@
           "name": "fernando mg99",
           "bid": 2034000
         }
-      ]
+      ],
+      "expected_other_bid_count": 6,
+      "captured_other_bid_count": 6,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 17:00:15",
@@ -5072,7 +6387,12 @@
           "name": "DRSeven",
           "bid": 1768000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 17:00:15",
@@ -5083,7 +6403,12 @@
       "id_user1": 0,
       "id_user2": 2358533,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 17:00:15",
@@ -5111,7 +6436,12 @@
           "name": "Ale",
           "bid": 1722000
         }
-      ]
+      ],
+      "expected_other_bid_count": 4,
+      "captured_other_bid_count": 4,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 17:00:15",
@@ -5131,7 +6461,12 @@
           "name": "Enrique",
           "bid": 1189000
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 17:00:15",
@@ -5159,7 +6494,12 @@
           "name": "Adam Panyiczki",
           "bid": 1346510
         }
-      ]
+      ],
+      "expected_other_bid_count": 4,
+      "captured_other_bid_count": 4,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 17:00:15",
@@ -5170,7 +6510,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 08:07:57",
@@ -5181,7 +6526,12 @@
       "id_user1": 1588298,
       "id_user2": 3128757,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 10:01:50",
@@ -5192,7 +6542,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 08:08:05",
@@ -5203,7 +6558,12 @@
       "id_user1": 1588298,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 06:52:06",
@@ -5214,7 +6574,12 @@
       "id_user1": 1732719,
       "id_user2": 0,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 05:00:25",
@@ -5225,7 +6590,12 @@
       "id_user1": 0,
       "id_user2": 3128757,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 05:00:25",
@@ -5249,7 +6619,12 @@
           "name": "Adam Panyiczki",
           "bid": 5201110
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 05:00:25",
@@ -5269,7 +6644,12 @@
           "name": "Adam Panyiczki",
           "bid": 1013100
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 05:00:25",
@@ -5289,7 +6669,12 @@
           "name": "DRSeven",
           "bid": 162006
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 05:00:25",
@@ -5300,7 +6685,12 @@
       "id_user1": 0,
       "id_user2": 2358533,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 05:00:25",
@@ -5316,7 +6706,12 @@
           "name": "DRSeven",
           "bid": 165006
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 05:00:25",
@@ -5332,7 +6727,12 @@
           "name": "DRSeven",
           "bid": 160006
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 05:00:25",
@@ -5356,7 +6756,12 @@
           "name": "Enrique",
           "bid": 1233000
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-11 05:00:25",
@@ -5372,7 +6777,12 @@
           "name": "Adam Panyiczki",
           "bid": 318010
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 17:00:14",
@@ -5383,7 +6793,12 @@
       "id_user1": 0,
       "id_user2": 3138684,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 17:00:14",
@@ -5415,7 +6830,12 @@
           "name": "fernando mg99",
           "bid": 1780000
         }
-      ]
+      ],
+      "expected_other_bid_count": 5,
+      "captured_other_bid_count": 5,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 17:00:14",
@@ -5439,7 +6859,12 @@
           "name": "Samuhg22",
           "bid": 1388000
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 17:00:14",
@@ -5471,7 +6896,12 @@
           "name": "José Luis",
           "bid": 3488888
         }
-      ]
+      ],
+      "expected_other_bid_count": 5,
+      "captured_other_bid_count": 5,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 17:00:14",
@@ -5482,7 +6912,12 @@
       "id_user1": 0,
       "id_user2": 2358533,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 17:00:14",
@@ -5493,7 +6928,12 @@
       "id_user1": 0,
       "id_user2": 2358533,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 17:00:14",
@@ -5509,7 +6949,12 @@
           "name": "Ale",
           "bid": 10678010
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 17:00:14",
@@ -5520,7 +6965,12 @@
       "id_user1": 0,
       "id_user2": 1513537,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 17:00:14",
@@ -5531,7 +6981,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 17:00:14",
@@ -5542,7 +6997,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 17:00:14",
@@ -5566,7 +7026,12 @@
           "name": "DRSeven",
           "bid": 1382000
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 17:00:14",
@@ -5586,7 +7051,12 @@
           "name": "Enrique",
           "bid": 1259000
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 17:00:14",
@@ -5597,7 +7067,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 05:00:23",
@@ -5608,7 +7083,12 @@
       "id_user1": 0,
       "id_user2": 3128757,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 05:00:23",
@@ -5619,7 +7099,12 @@
       "id_user1": 0,
       "id_user2": 3128757,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 05:00:23",
@@ -5643,7 +7128,12 @@
           "name": "Ale",
           "bid": 9109000
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 05:00:23",
@@ -5671,7 +7161,12 @@
           "name": "Ale",
           "bid": 6321000
         }
-      ]
+      ],
+      "expected_other_bid_count": 4,
+      "captured_other_bid_count": 4,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 05:00:23",
@@ -5687,7 +7182,12 @@
           "name": "Ale",
           "bid": 1893000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 05:00:23",
@@ -5703,7 +7203,12 @@
           "name": "Ale",
           "bid": 1585000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 05:00:23",
@@ -5731,7 +7236,12 @@
           "name": "Adam Panyiczki",
           "bid": 3409840
         }
-      ]
+      ],
+      "expected_other_bid_count": 4,
+      "captured_other_bid_count": 4,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 05:00:23",
@@ -5755,7 +7265,12 @@
           "name": "Samuhg22",
           "bid": 1501111
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 05:00:23",
@@ -5779,7 +7294,12 @@
           "name": "Ale",
           "bid": 1506000
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 05:00:23",
@@ -5790,7 +7310,12 @@
       "id_user1": 0,
       "id_user2": 1513537,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 05:00:23",
@@ -5814,7 +7339,12 @@
           "name": "DRSeven",
           "bid": 2161000
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 05:00:23",
@@ -5834,7 +7364,12 @@
           "name": "DRSeven",
           "bid": 1601000
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 05:00:23",
@@ -5850,7 +7385,12 @@
           "name": "fernando mg99",
           "bid": 1363000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-10 05:00:23",
@@ -5861,7 +7401,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-09 17:00:13",
@@ -5881,7 +7426,12 @@
           "name": "Ale",
           "bid": 8803000
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-09 17:00:13",
@@ -5905,7 +7455,12 @@
           "name": "Ale",
           "bid": 1226000
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-09 17:00:13",
@@ -5929,7 +7484,12 @@
           "name": "José Luis",
           "bid": 3688888
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-09 17:00:13",
@@ -5949,7 +7509,12 @@
           "name": "Ale",
           "bid": 1285000
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-09 17:00:13",
@@ -5969,7 +7534,12 @@
           "name": "Samuhg22",
           "bid": 399999
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-09 17:00:13",
@@ -5989,7 +7559,12 @@
           "name": "fernando mg99",
           "bid": 7250000
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-09 17:00:13",
@@ -6017,7 +7592,12 @@
           "name": "Enrique",
           "bid": 1460000
         }
-      ]
+      ],
+      "expected_other_bid_count": 4,
+      "captured_other_bid_count": 4,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-09 17:00:13",
@@ -6033,7 +7613,12 @@
           "name": "Samuhg22",
           "bid": 753000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-09 17:00:13",
@@ -6044,7 +7629,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-09 17:00:13",
@@ -6055,7 +7645,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-09 05:00:24",
@@ -6075,7 +7670,12 @@
           "name": "Ale",
           "bid": 8309000
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-09 05:00:24",
@@ -6095,7 +7695,12 @@
           "name": "DRSeven",
           "bid": 4215000
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-09 05:00:24",
@@ -6119,7 +7724,12 @@
           "name": "Adam Panyiczki",
           "bid": 2259170
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-09 05:00:24",
@@ -6147,7 +7757,12 @@
           "name": "Enrique",
           "bid": 1631000
         }
-      ]
+      ],
+      "expected_other_bid_count": 4,
+      "captured_other_bid_count": 4,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-09 05:00:24",
@@ -6163,7 +7778,12 @@
           "name": "Ale",
           "bid": 1189000
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-09 05:00:24",
@@ -6179,7 +7799,12 @@
           "name": "Adam Panyiczki",
           "bid": 21051010
         }
-      ]
+      ],
+      "expected_other_bid_count": 1,
+      "captured_other_bid_count": 1,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-09 05:00:24",
@@ -6199,7 +7824,12 @@
           "name": "Samuhg22",
           "bid": 3555555
         }
-      ]
+      ],
+      "expected_other_bid_count": 2,
+      "captured_other_bid_count": 2,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-09 05:00:24",
@@ -6223,7 +7853,12 @@
           "name": "Ale",
           "bid": 983000
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-09 05:00:24",
@@ -6247,7 +7882,12 @@
           "name": "Enrique",
           "bid": 1427010
         }
-      ]
+      ],
+      "expected_other_bid_count": 3,
+      "captured_other_bid_count": 3,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "complete",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-09 05:00:24",
@@ -6258,7 +7898,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     },
     {
       "created": "2026-08-09 05:00:24",
@@ -6269,7 +7914,12 @@
       "id_user1": 0,
       "id_user2": 1588298,
       "bids": null,
-      "other_bids": null
+      "other_bids": null,
+      "expected_other_bid_count": 0,
+      "captured_other_bid_count": 0,
+      "missing_other_bid_count": 0,
+      "other_bids_status": "not_applicable",
+      "other_bids_integrity_source": "ajax_feed_count_verified"
     }
   ],
   "estimated_rival_balances": [
@@ -11627,7 +13277,7 @@
     "all_raised_investments_exact": true,
     "ale_balance_difference_after_clause_adjustment": 0,
     "balance_integrity_ok": true,
-    "previous_successful_clause_snapshot_at": "2026-09-02T05:41:11+02:00",
+    "previous_successful_clause_snapshot_at": "2026-09-02T09:56:26+02:00",
     "official_clause_view_enabled": true,
     "official_clause_view_diagnostics": {
       "start_url": "https://mister.mundodeportivo.com/users/13390634/samuhg22",
@@ -12662,7 +14312,7 @@
         "finality": "unknown_from_feed_alone"
       }
     ],
-    "previous_persisted_snapshot_captured_at": "2026-09-02T05:41:11+02:00",
+    "previous_persisted_snapshot_captured_at": "2026-09-02T09:56:26+02:00",
     "source": "Mister feed category gameweek_end -> latest nested ranking.positions[].payment per gameweek",
     "semantics": "latest payment is cumulative for that gameweek and replaces earlier provisional closure payments; standard point/rank/goal/ideal-XI/fixed bonuses are not double-counted separately",
     "diagnostic_semantics": "delta_vs_previous_snapshot_payment compares against the previous persisted enriched snapshot; feed-to-feed deltas are secondary because Mister may rewrite older closure rows",
