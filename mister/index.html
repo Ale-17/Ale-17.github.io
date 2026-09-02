@@ -10,6 +10,38 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="Fantasy OS" />
   <title>Liga Fantasy 2026/27 · Fantasy OS</title>
+  <script>
+  (()=>{
+    'use strict';
+    const BUILD='105',RESET_KEY=`fantasy-cache-reset-v${BUILD}`,RELOAD_KEY=`fantasy-controller-reload-v${BUILD}`;
+    let controllerReload=false;
+    async function resetOldCachesOnce(){
+      try{
+        if(localStorage.getItem(RESET_KEY)==='1')return false;
+        localStorage.setItem(RESET_KEY,'1');
+        if('caches' in window){
+          const keys=await caches.keys();
+          await Promise.all(keys.filter(k=>k.startsWith('fantasy-os-')&&k!=='fantasy-os-smart-alert-state-v1').map(k=>caches.delete(k)));
+        }
+        return true;
+      }catch{return false}
+    }
+    async function refreshServiceWorker(){
+      if(!('serviceWorker' in navigator))return;
+      navigator.serviceWorker.addEventListener('controllerchange',()=>{
+        if(controllerReload||sessionStorage.getItem(RELOAD_KEY)==='1')return;
+        controllerReload=true;sessionStorage.setItem(RELOAD_KEY,'1');location.reload();
+      });
+      try{
+        const reset=await resetOldCachesOnce();
+        const reg=await navigator.serviceWorker.register(`./sw.js?v=${BUILD}`,{scope:'./',updateViaCache:'none'});
+        await reg.update();
+        if(reset&&!navigator.serviceWorker.controller){location.replace(`./?fresh=${BUILD}&t=${Date.now()}`)}
+      }catch{}
+    }
+    window.addEventListener('load',refreshServiceWorker,{once:true});
+  })();
+  </script>
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="icon" href="./icon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="./native.css?v=15" />
@@ -22,7 +54,7 @@
   <link rel="stylesheet" href="./player-detail-v25.css?v=105" />
   <link rel="stylesheet" href="./stability-v26.css?v=26" />
   <link rel="stylesheet" href="./privacy-v28.css?v=28" />
-  <link rel="stylesheet" href="./offers-v28.css?v=104" />
+  <link rel="stylesheet" href="./offers-v28.css?v=105" />
   <link rel="stylesheet" href="./ux-v29.css?v=29" />
   <link rel="stylesheet" href="./market-sheet-v30.css?v=30" />
   <link rel="stylesheet" href="./interaction-v31.css?v=105" />
@@ -62,6 +94,6 @@
     document.addEventListener('pointerdown',rememberFeedMedia,true);document.addEventListener('click',rememberFeedMedia,true);const content=document.getElementById('sheetContent');if(content)new MutationObserver(()=>requestAnimationFrame(repairFeedSheetPhoto)).observe(content,{childList:true,subtree:true});
   })();
   </script>
-  <script src="./bootstrap-v27.js?v=27" defer></script><script src="./privacy-v28.js?v=28" defer></script><script src="./native.js?v=15" defer></script><script src="./mister-polish.js?v=15" defer></script><script src="./insights-v18.js?v=18" defer></script><script src="./ux-v19.js?v=19" defer></script><script src="./coverage-v20.js?v=20" defer></script><script src="./snapshot-v21.js?v=21" defer></script><script src="./ux-v22.js?v=22.1" defer></script><script src="./media-v27.js?v=27" defer></script><script src="./offers-v28.js?v=104" defer></script><script src="./player-detail-v25.js?v=105" defer></script><script src="./interaction-v31.js?v=105" defer></script><script src="./ux-v29.js?v=29" defer></script><script src="./market-sheet-v30.js?v=30" defer></script><script src="./intelligence-data-v35.js?v=35" defer></script><script src="./intelligence-v34.js?v=34" defer></script>
+  <script src="./bootstrap-v27.js?v=27" defer></script><script src="./privacy-v28.js?v=28" defer></script><script src="./native.js?v=105" defer></script><script src="./mister-polish.js?v=15" defer></script><script src="./insights-v18.js?v=18" defer></script><script src="./ux-v19.js?v=19" defer></script><script src="./coverage-v20.js?v=20" defer></script><script src="./snapshot-v21.js?v=21" defer></script><script src="./ux-v22.js?v=22.1" defer></script><script src="./media-v27.js?v=27" defer></script><script src="./offers-v28.js?v=105" defer></script><script src="./player-detail-v25.js?v=105" defer></script><script src="./interaction-v31.js?v=105" defer></script><script src="./ux-v29.js?v=29" defer></script><script src="./market-sheet-v30.js?v=30" defer></script><script src="./intelligence-data-v35.js?v=35" defer></script><script src="./intelligence-v34.js?v=34" defer></script>
 </body>
 </html>
