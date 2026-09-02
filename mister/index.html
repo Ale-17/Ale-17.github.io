@@ -13,8 +13,9 @@
   <script>
   (()=>{
     'use strict';
-    const BUILD='105',RESET_KEY=`fantasy-cache-reset-v${BUILD}`,RELOAD_KEY=`fantasy-controller-reload-v${BUILD}`;
+    const BUILD='106',RESET_KEY=`fantasy-cache-reset-v${BUILD}`,RELOAD_KEY=`fantasy-controller-reload-v${BUILD}`;
     let controllerReload=false;
+    const norm=v=>String(v??'').replace(/\s*💥\s*/g,'').trim().toLocaleLowerCase('es-ES');
     async function resetOldCachesOnce(){
       try{
         if(localStorage.getItem(RESET_KEY)==='1')return false;
@@ -39,6 +40,26 @@
         if(reset&&!navigator.serviceWorker.controller){location.replace(`./?fresh=${BUILD}&t=${Date.now()}`)}
       }catch{}
     }
+    function teamRowForName(name){
+      const target=norm(name);if(!target)return null;
+      return [...document.querySelectorAll('#teamList .market-row')].find(row=>norm(row.querySelector('.market-name strong,.player-main strong,.market-row__copy strong,strong')?.textContent)===target)||null;
+    }
+    function openPlayerFrom(source){
+      const name=source?.querySelector('.v28-offer-main strong,.pitch-player__name,.market-name strong,.player-main strong')?.textContent||'';
+      const row=teamRowForName(name);if(!row)return false;
+      row.click();return true;
+    }
+    document.addEventListener('click',e=>{
+      const offerCard=e.target.closest?.('.v28-offer-card');
+      if(offerCard){
+        e.preventDefault();e.stopPropagation();
+        const close=document.querySelector('.v28-offers-close');if(close)close.click();
+        setTimeout(()=>openPlayerFrom(offerCard),220);
+        return;
+      }
+      const pitch=e.target.closest?.('.pitch-player');
+      if(pitch){e.preventDefault();e.stopPropagation();openPlayerFrom(pitch)}
+    },true);
     window.addEventListener('load',refreshServiceWorker,{once:true});
   })();
   </script>
@@ -51,13 +72,13 @@
   <link rel="stylesheet" href="./ux-v19.css?v=19" />
   <link rel="stylesheet" href="./ux-v22.css?v=22.1" />
   <link rel="stylesheet" href="./player-detail-v24.css?v=24" />
-  <link rel="stylesheet" href="./player-detail-v25.css?v=105" />
+  <link rel="stylesheet" href="./player-detail-v25.css?v=106" />
   <link rel="stylesheet" href="./stability-v26.css?v=26" />
   <link rel="stylesheet" href="./privacy-v28.css?v=28" />
-  <link rel="stylesheet" href="./offers-v28.css?v=105" />
+  <link rel="stylesheet" href="./offers-v28.css?v=106" />
   <link rel="stylesheet" href="./ux-v29.css?v=29" />
   <link rel="stylesheet" href="./market-sheet-v30.css?v=30" />
-  <link rel="stylesheet" href="./interaction-v31.css?v=105" />
+  <link rel="stylesheet" href="./interaction-v31.css?v=106" />
   <link rel="stylesheet" href="./intelligence-v34.css?v=34" />
   <link rel="stylesheet" href="./critical-v66.css?v=66" />
 </head>
@@ -94,6 +115,6 @@
     document.addEventListener('pointerdown',rememberFeedMedia,true);document.addEventListener('click',rememberFeedMedia,true);const content=document.getElementById('sheetContent');if(content)new MutationObserver(()=>requestAnimationFrame(repairFeedSheetPhoto)).observe(content,{childList:true,subtree:true});
   })();
   </script>
-  <script src="./bootstrap-v27.js?v=27" defer></script><script src="./privacy-v28.js?v=28" defer></script><script src="./native.js?v=105" defer></script><script src="./mister-polish.js?v=15" defer></script><script src="./insights-v18.js?v=18" defer></script><script src="./ux-v19.js?v=19" defer></script><script src="./coverage-v20.js?v=20" defer></script><script src="./snapshot-v21.js?v=21" defer></script><script src="./ux-v22.js?v=22.1" defer></script><script src="./media-v27.js?v=27" defer></script><script src="./offers-v28.js?v=105" defer></script><script src="./player-detail-v25.js?v=105" defer></script><script src="./interaction-v31.js?v=105" defer></script><script src="./ux-v29.js?v=29" defer></script><script src="./market-sheet-v30.js?v=30" defer></script><script src="./intelligence-data-v35.js?v=35" defer></script><script src="./intelligence-v34.js?v=34" defer></script>
+  <script src="./bootstrap-v27.js?v=27" defer></script><script src="./privacy-v28.js?v=28" defer></script><script src="./native.js?v=106" defer></script><script src="./mister-polish.js?v=15" defer></script><script src="./insights-v18.js?v=18" defer></script><script src="./ux-v19.js?v=19" defer></script><script src="./coverage-v20.js?v=20" defer></script><script src="./snapshot-v21.js?v=21" defer></script><script src="./ux-v22.js?v=22.1" defer></script><script src="./media-v27.js?v=27" defer></script><script src="./offers-v28.js?v=106" defer></script><script src="./player-detail-v25.js?v=106" defer></script><script src="./interaction-v31.js?v=106" defer></script><script src="./ux-v29.js?v=29" defer></script><script src="./market-sheet-v30.js?v=30" defer></script><script src="./intelligence-data-v35.js?v=35" defer></script><script src="./intelligence-v34.js?v=34" defer></script>
 </body>
 </html>
