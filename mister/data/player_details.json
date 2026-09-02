@@ -11352,7 +11352,7 @@
     },
     "70941": {
       "player_id": "70941",
-      "name": "Bil",
+      "name": "Bil Nsongo",
       "profile_url": "https://mister.mundodeportivo.com/players/70941/bil-nsongo",
       "season_points": 13,
       "matches_played": 3,
@@ -11531,7 +11531,11 @@
           },
           "source": "Mister player gameweek popup"
         }
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-09-02T12:43:39+02:00",
+      "recent_transfer_source": "latest.transfers_detected -> Mister player profile",
+      "last_transfer_seen_at": "2026-09-02 05:00:34",
+      "recent_transfer_error": "profile identity mismatch: expected 'Bil Nsongo', got 'Bil'"
     },
     "70950": {
       "player_id": "70950",
@@ -11902,6 +11906,83 @@
           "source": "Mister player gameweek popup"
         }
       ]
+    },
+    "70945": {
+      "player_id": "70945",
+      "name": "Diego Villares",
+      "profile_url": "https://mister.mundodeportivo.com/players/70945",
+      "matches_played": 0,
+      "capture_status": "ok",
+      "recent_transfer_checked_at": "2026-09-02T12:43:39+02:00",
+      "recent_transfer_source": "latest.transfers_detected -> Mister player profile",
+      "last_transfer_seen_at": "2026-09-02 10:28:52",
+      "recent_transfer_error": "profile identity mismatch: expected 'Diego Villares', got 'Diego'"
+    },
+    "28777": {
+      "player_id": "28777",
+      "name": "Carlos Álvarez",
+      "profile_url": "https://mister.mundodeportivo.com/players/28777",
+      "matches_played": 0,
+      "capture_status": "ok",
+      "recent_transfer_checked_at": "2026-09-02T12:43:39+02:00",
+      "recent_transfer_source": "latest.transfers_detected -> Mister player profile",
+      "last_transfer_seen_at": "2026-09-02 05:00:34",
+      "recent_transfer_error": "profile identity mismatch: expected 'Carlos Álvarez', got 'Carlos'"
+    },
+    "65674": {
+      "player_id": "65674",
+      "name": "Miguel Román",
+      "profile_url": "https://mister.mundodeportivo.com/players/65674",
+      "matches_played": 0,
+      "capture_status": "ok",
+      "recent_transfer_checked_at": "2026-09-02T12:43:39+02:00",
+      "recent_transfer_source": "latest.transfers_detected -> Mister player profile",
+      "last_transfer_seen_at": "2026-09-02 05:00:34",
+      "recent_transfer_error": "profile identity mismatch: expected 'Miguel Román', got 'Miguel'"
+    },
+    "60271": {
+      "player_id": "60271",
+      "name": "Rafa Bauza",
+      "profile_url": "https://mister.mundodeportivo.com/players/60271",
+      "matches_played": 0,
+      "capture_status": "ok",
+      "recent_transfer_checked_at": "2026-09-02T12:43:39+02:00",
+      "recent_transfer_source": "latest.transfers_detected -> Mister player profile",
+      "last_transfer_seen_at": "2026-09-02 05:00:34",
+      "recent_transfer_error": "profile identity mismatch: expected 'Rafa Bauza', got 'Rafa'"
+    },
+    "71791": {
+      "player_id": "71791",
+      "name": "Pedro Felipe",
+      "profile_url": "https://mister.mundodeportivo.com/players/71791",
+      "matches_played": 0,
+      "capture_status": "ok",
+      "recent_transfer_checked_at": "2026-09-02T12:43:39+02:00",
+      "recent_transfer_source": "latest.transfers_detected -> Mister player profile",
+      "last_transfer_seen_at": "2026-09-01 21:16:53",
+      "recent_transfer_error": "profile identity mismatch: expected 'Pedro Felipe', got 'Pedro'"
+    },
+    "64432": {
+      "player_id": "64432",
+      "name": "Gonzalo Petit",
+      "profile_url": "https://mister.mundodeportivo.com/players/64432",
+      "matches_played": 0,
+      "capture_status": "ok",
+      "recent_transfer_checked_at": "2026-09-02T12:43:39+02:00",
+      "recent_transfer_source": "latest.transfers_detected -> Mister player profile",
+      "last_transfer_seen_at": "2026-09-01 21:16:52",
+      "recent_transfer_error": "profile identity mismatch: expected 'Gonzalo Petit', got 'Gonzalo'"
+    },
+    "65090": {
+      "player_id": "65090",
+      "name": "Filip Ugrinic",
+      "profile_url": "https://mister.mundodeportivo.com/players/65090",
+      "matches_played": 0,
+      "capture_status": "ok",
+      "recent_transfer_checked_at": "2026-09-02T12:43:39+02:00",
+      "recent_transfer_source": "latest.transfers_detected -> Mister player profile",
+      "last_transfer_seen_at": "2026-09-01 19:23:43",
+      "recent_transfer_error": "profile identity mismatch: expected 'Filip Ugrinic', got 'Filip'"
     }
   },
   "market_players_requested": 29,
@@ -12055,5 +12136,51 @@
     }
   ],
   "players_available_total": 71,
-  "featured_players_persisted": 58
+  "featured_players_persisted": 58,
+  "recent_transfer_profiles_updated_at": "2026-09-02T12:43:39+02:00",
+  "recent_transfer_profiles_requested": 8,
+  "recent_transfer_profiles_captured": 0,
+  "recent_transfer_profile_failures": [
+    {
+      "player_id": "70945",
+      "name": "Diego Villares",
+      "error": "profile identity mismatch: expected 'Diego Villares', got 'Diego'"
+    },
+    {
+      "player_id": "28777",
+      "name": "Carlos Álvarez",
+      "error": "profile identity mismatch: expected 'Carlos Álvarez', got 'Carlos'"
+    },
+    {
+      "player_id": "70941",
+      "name": "Bil Nsongo",
+      "error": "profile identity mismatch: expected 'Bil Nsongo', got 'Bil'"
+    },
+    {
+      "player_id": "65674",
+      "name": "Miguel Román",
+      "error": "profile identity mismatch: expected 'Miguel Román', got 'Miguel'"
+    },
+    {
+      "player_id": "60271",
+      "name": "Rafa Bauza",
+      "error": "profile identity mismatch: expected 'Rafa Bauza', got 'Rafa'"
+    },
+    {
+      "player_id": "71791",
+      "name": "Pedro Felipe",
+      "error": "profile identity mismatch: expected 'Pedro Felipe', got 'Pedro'"
+    },
+    {
+      "player_id": "64432",
+      "name": "Gonzalo Petit",
+      "error": "profile identity mismatch: expected 'Gonzalo Petit', got 'Gonzalo'"
+    },
+    {
+      "player_id": "65090",
+      "name": "Filip Ugrinic",
+      "error": "profile identity mismatch: expected 'Filip Ugrinic', got 'Filip'"
+    }
+  ],
+  "featured_profiles_updated_at": "2026-09-02T12:43:39+02:00"
 }
