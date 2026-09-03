@@ -1752,7 +1752,7 @@
     },
     "17614": {
       "player_id": "17614",
-      "name": "Kike",
+      "name": "Kike Barja",
       "profile_url": "https://mister.mundodeportivo.com/players/17614/kike-barja",
       "season_points": 13,
       "matches_played": 3,
@@ -1926,7 +1926,10 @@
         }
       ],
       "capture_status": "ok",
-      "errors": []
+      "errors": [],
+      "recent_transfer_checked_at": "2026-09-03T11:47:54+02:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Kike Barja', got 'Kike'",
+      "last_transfer_seen_at": "2026-09-03 05:00:31"
     },
     "59371": {
       "player_id": "59371",
@@ -11656,7 +11659,7 @@
     },
     "70941": {
       "player_id": "70941",
-      "name": "Bil",
+      "name": "Bil Nsongo",
       "profile_url": "https://mister.mundodeportivo.com/players/70941/bil-nsongo",
       "season_points": 13,
       "matches_played": 3,
@@ -11835,7 +11838,10 @@
           },
           "source": "Mister player gameweek popup"
         }
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-09-03T16:31:13+02:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Bil Nsongo', got 'Bil'",
+      "last_transfer_seen_at": "2026-09-02 05:00:34"
     },
     "70950": {
       "player_id": "70950",
@@ -16367,7 +16373,10 @@
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-09-03T11:47:54+02:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Carlos Álvarez', got 'Carlos'",
+      "last_transfer_seen_at": "2026-09-02 05:00:34"
     },
     "29169": {
       "player_id": "29169",
@@ -19970,7 +19979,10 @@
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-09-03T11:47:54+02:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Dani Olmo', got 'Dani'",
+      "last_transfer_seen_at": "2026-09-03 05:00:31"
     },
     "59532": {
       "player_id": "59532",
@@ -20238,7 +20250,10 @@
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-09-03T11:47:54+02:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Rafa Bauza', got 'Rafa'",
+      "last_transfer_seen_at": "2026-09-02 05:00:34"
     },
     "6032": {
       "player_id": "6032",
@@ -21618,7 +21633,10 @@
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-09-03T11:47:54+02:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Miguel Román', got 'Miguel'",
+      "last_transfer_seen_at": "2026-09-02 05:00:34"
     },
     "65704": {
       "player_id": "65704",
@@ -35803,7 +35821,10 @@
       "relevant_capture_at": "2026-09-03T10:40:45+02:00",
       "relevant_capture_sources": [
         "recent_transfer"
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-09-03T11:47:54+02:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Bernardo Silva', got 'Bernardo'",
+      "last_transfer_seen_at": "2026-09-02 23:25:27"
     },
     "70925": {
       "player_id": "70925",
@@ -36250,7 +36271,10 @@
       "relevant_capture_at": "2026-09-03T10:41:59+02:00",
       "relevant_capture_sources": [
         "recent_transfer"
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-09-03T11:47:54+02:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Diego Villares', got 'Diego'",
+      "last_transfer_seen_at": "2026-09-02 10:28:52"
     },
     "70946": {
       "player_id": "70946",
@@ -39046,8 +39070,8 @@
   },
   "featured_players_persisted": 58,
   "players_available_total": 246,
-  "relevant_capture_at": "2026-09-03T10:47:33+02:00",
-  "relevant_capture_scope": "all",
+  "relevant_capture_at": "2026-09-03T16:31:31+02:00",
+  "relevant_capture_scope": "hot",
   "relevant_players_total": 246,
   "relevant_players_with_history": 233,
   "relevant_players_without_played_history": 13,
@@ -39057,7 +39081,18 @@
   "relevant_missing_played_rows": 0,
   "relevant_recent_rows_complete": 693,
   "relevant_recent_rows_total": 693,
-  "relevant_capture_requested": 177,
-  "relevant_capture_captured": 177,
-  "relevant_capture_failures": []
+  "relevant_capture_requested": 0,
+  "relevant_capture_captured": 0,
+  "relevant_capture_failures": [],
+  "recent_transfer_profiles_updated_at": "2026-09-03T16:31:13+02:00",
+  "recent_transfer_profiles_requested": 1,
+  "recent_transfer_profiles_captured": 0,
+  "recent_transfer_profile_failures": [
+    {
+      "player_id": "70941",
+      "name": "Bil Nsongo",
+      "error": "profile identity mismatch: expected 'Bil Nsongo', got 'Bil'"
+    }
+  ],
+  "featured_profiles_updated_at": "2026-09-03T16:31:13+02:00"
 }
