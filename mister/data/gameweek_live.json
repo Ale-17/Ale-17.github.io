@@ -1,6 +1,6 @@
 {
-  "captured_at": "2026-09-05T00:21:05+02:00",
-  "last_checked_at": "2026-09-05T00:21:05+02:00",
+  "captured_at": "2026-09-05T15:27:05+02:00",
+  "last_checked_at": "2026-09-05T15:27:05+02:00",
   "status": "ok",
   "source": "Mister .feed-top-gameweek + read-only match popup",
   "semantics": "Fantasy OS mirrors the active round shown by Mister and enriches compact fixture metadata from Mister's read-only match popup when the strip no longer exposes it.",
@@ -40,12 +40,32 @@
           "team_id": "4",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/27520.png?version=20251003183837",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
-          "market_value": 5247000,
-          "displayed_points": 10,
-          "daily_market_change": 57000,
-          "weekly_market_change": 1132000,
+          "market_value": 5339000,
+          "displayed_points": 15,
+          "daily_market_change": 92000,
+          "weekly_market_change": 1040000,
           "in_starting_xi": false,
-          "gameweek": null
+          "gameweek": {
+            "points": 5,
+            "starter": true,
+            "role": "starter",
+            "minutes": 90,
+            "sofascore_rating": 7.5,
+            "score": "1 - 0",
+            "status": "played",
+            "stats": {
+              "totalLongBalls": 1,
+              "goalAssist": 0,
+              "totalClearance": 1,
+              "totalPass": 35,
+              "totalTackle": 2,
+              "duelLost": 1,
+              "minutesPlayed": 90,
+              "duelWon": 4,
+              "accurateLongBalls": 1,
+              "accuratePass": 31
+            }
+          }
         },
         {
           "player_id": "63",
@@ -54,12 +74,34 @@
           "team_id": "4",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/63.png?version=20250205144032",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
-          "market_value": 3630000,
-          "displayed_points": 16,
-          "daily_market_change": 133000,
-          "weekly_market_change": 933000,
+          "market_value": 3799000,
+          "displayed_points": 23,
+          "daily_market_change": 169000,
+          "weekly_market_change": 1000000,
           "in_starting_xi": false,
-          "gameweek": null
+          "gameweek": {
+            "points": 7,
+            "starter": false,
+            "role": "bench",
+            "minutes": 51,
+            "sofascore_rating": 7.9,
+            "score": "1 - 0",
+            "status": "played",
+            "stats": {
+              "goalAssist": 0,
+              "onTargetScoringAttempt": 1,
+              "duelWon": 4,
+              "aerialLost": 1,
+              "totalClearance": 5,
+              "accuratePass": 11,
+              "minutesPlayed": 51,
+              "accurateLongBalls": 1,
+              "duelLost": 1,
+              "totalPass": 13,
+              "totalLongBalls": 3,
+              "totalTackle": 4
+            }
+          }
         },
         {
           "player_id": "3728",
@@ -68,12 +110,34 @@
           "team_id": "4",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/3728.png?version=20260809062618",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
-          "market_value": 5496000,
-          "displayed_points": 9,
-          "daily_market_change": 7000,
-          "weekly_market_change": 348000,
+          "market_value": 5564000,
+          "displayed_points": 13,
+          "daily_market_change": 68000,
+          "weekly_market_change": 387000,
           "in_starting_xi": false,
-          "gameweek": null
+          "gameweek": {
+            "points": 4,
+            "starter": true,
+            "role": "starter",
+            "minutes": 90,
+            "sofascore_rating": 7.2,
+            "score": "1 - 0",
+            "status": "played",
+            "stats": {
+              "totalLongBalls": 2,
+              "goalAssist": 0,
+              "totalClearance": 1,
+              "totalPass": 56,
+              "interceptionWon": 1,
+              "totalTackle": 3,
+              "duelLost": 5,
+              "minutesPlayed": 90,
+              "duelWon": 6,
+              "aerialLost": 1,
+              "accurateLongBalls": 2,
+              "accuratePass": 53
+            }
+          }
         }
       ],
       "market_players": [
@@ -84,26 +148,34 @@
           "team_id": "4",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/3728.png?version=20260809062618",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
-          "market_value": 5496000,
-          "displayed_points": 9,
-          "daily_market_change": 7000,
-          "weekly_market_change": 348000,
+          "market_value": 5564000,
+          "displayed_points": 13,
+          "daily_market_change": 68000,
+          "weekly_market_change": 387000,
           "in_starting_xi": false,
-          "gameweek": null
-        },
-        {
-          "player_id": "40147",
-          "name": "A. Rüdiger",
-          "position": 2,
-          "team_id": "15",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/40147.png?version=20251003183330",
-          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=20221205131749",
-          "market_value": 6740000,
-          "displayed_points": 7,
-          "daily_market_change": 4000,
-          "weekly_market_change": -303000,
-          "in_starting_xi": false,
-          "gameweek": null
+          "gameweek": {
+            "points": 4,
+            "starter": true,
+            "role": "starter",
+            "minutes": 90,
+            "sofascore_rating": 7.2,
+            "score": "1 - 0",
+            "status": "played",
+            "stats": {
+              "totalLongBalls": 2,
+              "goalAssist": 0,
+              "totalClearance": 1,
+              "totalPass": 56,
+              "interceptionWon": 1,
+              "totalTackle": 3,
+              "duelLost": 5,
+              "minutesPlayed": 90,
+              "duelWon": 6,
+              "aerialLost": 1,
+              "accurateLongBalls": 2,
+              "accuratePass": 53
+            }
+          }
         }
       ],
       "all_players": [
@@ -121,8 +193,8 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 8352000,
-          "displayed_points": 17,
+          "market_value": 8535000,
+          "displayed_points": 28,
           "daily_market_change": null,
           "weekly_market_change": null,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
@@ -313,7 +385,7 @@
               },
               "opponent": {
                 "id": "15",
-                "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=20221205131749",
+                "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=",
                 "name": "Real Madrid"
               },
               "home_away": "home",
@@ -361,13 +433,13 @@
           "recent_games": 4,
           "team_name": "Betis",
           "profile_stats": {
-            "cláusula": "12.528.000",
+            "cláusula": "12.802.500",
             "goles": "0",
             "media": "7,0",
             "partidos": "4",
             "puntos": "28",
             "tarjetas": "0",
-            "valor": "8.352.000"
+            "valor": "8.535.000"
           },
           "season_games": 4,
           "season_goals": 0
@@ -419,10 +491,10 @@
           "is_mine": true,
           "is_free": false,
           "position": 2,
-          "market_value": 5247000,
-          "displayed_points": 10,
-          "daily_market_change": 57000,
-          "weekly_market_change": 1132000,
+          "market_value": 5339000,
+          "displayed_points": 15,
+          "daily_market_change": 92000,
+          "weekly_market_change": 1040000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
           "recent": [
             {
@@ -457,9 +529,20 @@
               "stats": {
                 "goalAssist": 0
               }
+            },
+            {
+              "gameweek_id": "4045",
+              "gameweek": "J4",
+              "points": 5,
+              "starter": true,
+              "minutes": 90,
+              "sofascore_rating": 7.5,
+              "stats": {
+                "goalAssist": 0
+              }
             }
           ],
-          "recent_avg_points": 3.3333333333333335,
+          "recent_avg_points": 3.75,
           "recent_goals": 0,
           "recent_assists": 1,
           "recent_starts": 2,
@@ -477,8 +560,8 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 4550000,
-          "displayed_points": 3,
+          "market_value": 4471000,
+          "displayed_points": 10,
           "daily_market_change": null,
           "weekly_market_change": null,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
@@ -719,7 +802,7 @@
             "partidos": "4",
             "puntos": "10",
             "tarjetas": "1",
-            "valor": "4.550.000"
+            "valor": "4.471.000"
           },
           "season_games": 4,
           "season_goals": 0
@@ -738,7 +821,7 @@
           "is_mine": false,
           "is_free": true,
           "position": null,
-          "market_value": 5667000,
+          "market_value": 5723000,
           "displayed_points": 14,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -948,7 +1031,7 @@
             "partidos": "3",
             "puntos": "14",
             "tarjetas": "2",
-            "valor": "5.667.000"
+            "valor": "5.723.000"
           },
           "season_games": 3,
           "season_goals": 0
@@ -1006,9 +1089,20 @@
               "stats": {
                 "goalAssist": 0
               }
+            },
+            {
+              "gameweek_id": "4045",
+              "gameweek": "J4",
+              "points": 4,
+              "starter": true,
+              "minutes": 68,
+              "sofascore_rating": 7.0,
+              "stats": {
+                "goalAssist": 0
+              }
             }
           ],
-          "recent_avg_points": 3.6666666666666665,
+          "recent_avg_points": 3.75,
           "recent_goals": 0,
           "recent_assists": 0,
           "recent_starts": 3,
@@ -1085,10 +1179,10 @@
           "is_mine": true,
           "is_free": false,
           "position": 3,
-          "market_value": 5496000,
-          "displayed_points": 9,
-          "daily_market_change": 7000,
-          "weekly_market_change": 348000,
+          "market_value": 5564000,
+          "displayed_points": 13,
+          "daily_market_change": 68000,
+          "weekly_market_change": 387000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
           "recent": [
             {
@@ -1121,9 +1215,20 @@
               "stats": {
                 "goalAssist": 1
               }
+            },
+            {
+              "gameweek_id": "4045",
+              "gameweek": "J4",
+              "points": 4,
+              "starter": true,
+              "minutes": 90,
+              "sofascore_rating": 7.2,
+              "stats": {
+                "goalAssist": 0
+              }
             }
           ],
-          "recent_avg_points": 4.5,
+          "recent_avg_points": 4.333333333333333,
           "recent_goals": 0,
           "recent_assists": 1,
           "recent_starts": 2,
@@ -1305,10 +1410,10 @@
           "is_mine": true,
           "is_free": false,
           "position": 2,
-          "market_value": 3630000,
-          "displayed_points": 16,
-          "daily_market_change": 133000,
-          "weekly_market_change": 933000,
+          "market_value": 3799000,
+          "displayed_points": 23,
+          "daily_market_change": 169000,
+          "weekly_market_change": 1000000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
           "recent": [
             {
@@ -1519,13 +1624,13 @@
           "recent_games": 4,
           "team_name": "Betis",
           "profile_stats": {
-            "cláusula": "5.445.000",
+            "cláusula": "5.698.500",
             "goles": "1",
             "media": "7,7",
             "partidos": "3",
             "puntos": "23",
             "tarjetas": "0",
-            "valor": "3.630.000"
+            "valor": "3.799.000"
           },
           "season_games": 3,
           "season_goals": 1
@@ -1608,9 +1713,20 @@
               "stats": {
                 "goalAssist": 0
               }
+            },
+            {
+              "gameweek_id": "4045",
+              "gameweek": "J4",
+              "points": 4,
+              "starter": false,
+              "minutes": 22,
+              "sofascore_rating": 6.6,
+              "stats": {
+                "goalAssist": 0
+              }
             }
           ],
-          "recent_avg_points": 2.6666666666666665,
+          "recent_avg_points": 3.0,
           "recent_goals": null,
           "recent_assists": null,
           "recent_starts": null,
@@ -1631,8 +1747,8 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 5297000,
-          "displayed_points": 4,
+          "market_value": 5327000,
+          "displayed_points": 13,
           "daily_market_change": null,
           "weekly_market_change": null,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
@@ -1837,7 +1953,7 @@
             "partidos": "3",
             "puntos": "13",
             "tarjetas": "0",
-            "valor": "5.297.000"
+            "valor": "5.327.000"
           },
           "season_games": 3,
           "season_goals": 1
@@ -1951,6 +2067,17 @@
               "starter": true,
               "minutes": 90,
               "sofascore_rating": 6.8,
+              "stats": {
+                "goalAssist": 0
+              }
+            },
+            {
+              "gameweek_id": "4045",
+              "gameweek": "J4",
+              "points": 3,
+              "starter": true,
+              "minutes": 90,
+              "sofascore_rating": 6.7,
               "stats": {
                 "goalAssist": 0
               }
@@ -2070,8 +2197,8 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 10131000,
-          "displayed_points": 10,
+          "market_value": 10091000,
+          "displayed_points": 13,
           "daily_market_change": null,
           "weekly_market_change": null,
           "team_logo_url": null,
@@ -2106,9 +2233,20 @@
               "minutes": null,
               "sofascore_rating": null,
               "stats": {}
+            },
+            {
+              "gameweek_id": "4045",
+              "gameweek": "J4",
+              "points": 3,
+              "starter": true,
+              "minutes": 90,
+              "sofascore_rating": 6.5,
+              "stats": {
+                "goalAssist": 0
+              }
             }
           ],
-          "recent_avg_points": 5.0,
+          "recent_avg_points": 4.333333333333333,
           "recent_goals": 0,
           "recent_assists": 0,
           "recent_starts": 2,
@@ -2184,7 +2322,7 @@
           "is_mine": false,
           "is_free": true,
           "position": null,
-          "market_value": 13497000,
+          "market_value": 13614000,
           "displayed_points": 35,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -2439,7 +2577,7 @@
             "partidos": "4",
             "puntos": "35",
             "tarjetas": "1",
-            "valor": "13.497.000"
+            "valor": "13.614.000"
           },
           "season_games": 4,
           "season_goals": 1
@@ -2515,8 +2653,8 @@
           "is_mine": false,
           "is_free": false,
           "position": 3,
-          "market_value": 15618000,
-          "displayed_points": 16,
+          "market_value": 15594000,
+          "displayed_points": 18,
           "daily_market_change": null,
           "weekly_market_change": null,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=20221205131749",
@@ -2553,9 +2691,20 @@
               "stats": {
                 "goalAssist": 0
               }
+            },
+            {
+              "gameweek_id": "4045",
+              "gameweek": "J4",
+              "points": 2,
+              "starter": true,
+              "minutes": 82,
+              "sofascore_rating": 6.7,
+              "stats": {
+                "goalAssist": 0
+              }
             }
           ],
-          "recent_avg_points": 5.333333333333333,
+          "recent_avg_points": 4.5,
           "recent_goals": 0,
           "recent_assists": 1,
           "recent_starts": 3,
@@ -2635,8 +2784,8 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 24422000,
-          "displayed_points": 34,
+          "market_value": 24427000,
+          "displayed_points": 33,
           "daily_market_change": null,
           "weekly_market_change": null,
           "team_logo_url": null,
@@ -2675,9 +2824,20 @@
                 "goals": 1,
                 "goalAssist": 0
               }
+            },
+            {
+              "gameweek_id": "4045",
+              "gameweek": "J4",
+              "points": -1,
+              "starter": true,
+              "minutes": 90,
+              "sofascore_rating": 6.0,
+              "stats": {
+                "goalAssist": 0
+              }
             }
           ],
-          "recent_avg_points": 11.333333333333334,
+          "recent_avg_points": 8.25,
           "recent_goals": 4,
           "recent_assists": 0,
           "recent_starts": 3,
@@ -2697,8 +2857,8 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 20350000,
-          "displayed_points": 20,
+          "market_value": 20333000,
+          "displayed_points": 23,
           "daily_market_change": null,
           "weekly_market_change": null,
           "team_logo_url": null,
@@ -2736,9 +2896,20 @@
               "stats": {
                 "goalAssist": 1
               }
+            },
+            {
+              "gameweek_id": "4045",
+              "gameweek": "J4",
+              "points": 3,
+              "starter": true,
+              "minutes": 90,
+              "sofascore_rating": 7.0,
+              "stats": {
+                "goalAssist": 0
+              }
             }
           ],
-          "recent_avg_points": 6.666666666666667,
+          "recent_avg_points": 5.75,
           "recent_goals": 1,
           "recent_assists": 2,
           "recent_starts": 3,
@@ -2964,9 +3135,20 @@
               "stats": {
                 "goalAssist": 0
               }
+            },
+            {
+              "gameweek_id": "4045",
+              "gameweek": "J4",
+              "points": 2,
+              "starter": false,
+              "minutes": 26,
+              "sofascore_rating": 6.6,
+              "stats": {
+                "goalAssist": 0
+              }
             }
           ],
-          "recent_avg_points": 3.0,
+          "recent_avg_points": 2.75,
           "recent_goals": 0,
           "recent_assists": 0,
           "recent_starts": 2,
@@ -3049,9 +3231,20 @@
               "minutes": null,
               "sofascore_rating": null,
               "stats": {}
+            },
+            {
+              "gameweek_id": "4045",
+              "gameweek": "J4",
+              "points": 3,
+              "starter": false,
+              "minutes": 8,
+              "sofascore_rating": 6.4,
+              "stats": {
+                "goalAssist": 0
+              }
             }
           ],
-          "recent_avg_points": 7.5,
+          "recent_avg_points": 6.0,
           "recent_goals": null,
           "recent_assists": null,
           "recent_starts": null,
@@ -3120,10 +3313,10 @@
           "team_id": "1",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/28773.png?version=20251003185210",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1.png?version=20221205131749",
-          "market_value": 2343000,
+          "market_value": 2436000,
           "displayed_points": 16,
-          "daily_market_change": 85000,
-          "weekly_market_change": 579000,
+          "daily_market_change": 93000,
+          "weekly_market_change": 605000,
           "in_starting_xi": true,
           "gameweek": null
         },
@@ -3134,26 +3327,26 @@
           "team_id": "2",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/15653.png?version=20260725160628",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/2.png?version=20240613184505",
-          "market_value": 10490000,
+          "market_value": 10553000,
           "displayed_points": 23,
-          "daily_market_change": 50000,
-          "weekly_market_change": 660000,
+          "daily_market_change": 63000,
+          "weekly_market_change": 540000,
           "in_starting_xi": true,
           "gameweek": null
         }
       ],
       "market_players": [
         {
-          "player_id": "29",
-          "name": "I. Williams",
+          "player_id": "14791",
+          "name": "G. Guruzeta",
           "position": 4,
           "team_id": "1",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/29.png?version=20251003185351",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/14791.png?version=20231205085735",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1.png?version=20221205131749",
-          "market_value": 6499000,
-          "displayed_points": 6,
-          "daily_market_change": -57000,
-          "weekly_market_change": -341000,
+          "market_value": 6060000,
+          "displayed_points": 5,
+          "daily_market_change": -118000,
+          "weekly_market_change": -735000,
           "in_starting_xi": false,
           "gameweek": null
         }
@@ -3219,63 +3412,6 @@
         },
         {
           "event_tokens": [],
-          "href": "players/28773/aitor-paredes",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/28773.png",
-          "name": "A. Paredes",
-          "player_id": "28773",
-          "points": null,
-          "team_side": "home",
-          "owner_name": "Ale",
-          "is_mine": true,
-          "is_free": false,
-          "position": 2,
-          "market_value": 2343000,
-          "displayed_points": 16,
-          "daily_market_change": 85000,
-          "weekly_market_change": 579000,
-          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1.png?version=20221205131749",
-          "recent": [
-            {
-              "gameweek_id": "3968",
-              "gameweek": "J1",
-              "points": null,
-              "starter": null,
-              "minutes": null,
-              "sofascore_rating": null,
-              "stats": {}
-            },
-            {
-              "gameweek_id": "4043",
-              "gameweek": "J2",
-              "points": 11,
-              "starter": true,
-              "minutes": 74,
-              "sofascore_rating": 7.5,
-              "stats": {
-                "goals": 1,
-                "goalAssist": 0
-              }
-            },
-            {
-              "gameweek_id": "4044",
-              "gameweek": "J3",
-              "points": 5,
-              "starter": true,
-              "minutes": 90,
-              "sofascore_rating": 7.2,
-              "stats": {
-                "goalAssist": 0
-              }
-            }
-          ],
-          "recent_avg_points": 8.0,
-          "recent_goals": 1,
-          "recent_assists": 0,
-          "recent_starts": 2,
-          "recent_games": 2
-        },
-        {
-          "event_tokens": [],
           "href": "players/10/aymeric-laporte",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/10.png",
           "name": "A. Laporte",
@@ -3337,7 +3473,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 1307000,
+          "market_value": 1334000,
           "displayed_points": 5,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -3378,6 +3514,49 @@
           "recent_avg_points": 2.5,
           "recent_goals": 0,
           "recent_assists": 0,
+          "recent_starts": 2,
+          "recent_games": 2
+        },
+        {
+          "event_tokens": [],
+          "href": "players/4753/yeray-alvarez",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/4753.png",
+          "name": "Y. Álvarez",
+          "player_id": "4753",
+          "points": null,
+          "team_side": "home",
+          "owner_name": "Libre / Mister",
+          "is_mine": false,
+          "is_free": true,
+          "position": null,
+          "market_value": null,
+          "displayed_points": null,
+          "daily_market_change": null,
+          "weekly_market_change": null,
+          "team_logo_url": null,
+          "recent": [
+            {
+              "events": [],
+              "gameweek": "J1",
+              "gameweek_id": "3968",
+              "points": 2,
+              "role": "starter",
+              "status": "played"
+            },
+            {
+              "events": [
+                "/img/mister/sprite-2025.svg?1786965925#events-assist"
+              ],
+              "gameweek": "J2",
+              "gameweek_id": "4043",
+              "points": 3,
+              "role": "starter",
+              "status": "played"
+            }
+          ],
+          "recent_avg_points": 2.5,
+          "recent_goals": 0,
+          "recent_assists": 1,
           "recent_starts": 2,
           "recent_games": 2
         },
@@ -3428,65 +3607,6 @@
         },
         {
           "event_tokens": [],
-          "href": "players/1762/alex-berenguer",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/1762.png",
-          "name": "Á. Berenguer",
-          "player_id": "1762",
-          "points": null,
-          "team_side": "home",
-          "owner_name": "Libre / Mister",
-          "is_mine": false,
-          "is_free": true,
-          "position": null,
-          "market_value": null,
-          "displayed_points": null,
-          "daily_market_change": null,
-          "weekly_market_change": null,
-          "team_logo_url": null,
-          "recent": [
-            {
-              "gameweek_id": "3968",
-              "gameweek": "J1",
-              "points": 3,
-              "starter": false,
-              "minutes": 30,
-              "sofascore_rating": 6.4,
-              "stats": {
-                "goalAssist": 0
-              }
-            },
-            {
-              "gameweek_id": "4043",
-              "gameweek": "J2",
-              "points": 2,
-              "starter": true,
-              "minutes": 90,
-              "sofascore_rating": 6.5,
-              "stats": {
-                "goalAssist": 0
-              }
-            },
-            {
-              "gameweek_id": "4044",
-              "gameweek": "J3",
-              "points": 13,
-              "starter": true,
-              "minutes": 90,
-              "sofascore_rating": 8.2,
-              "stats": {
-                "goals": 1,
-                "goalAssist": 0
-              }
-            }
-          ],
-          "recent_avg_points": 6.0,
-          "recent_goals": 1,
-          "recent_assists": 0,
-          "recent_starts": 2,
-          "recent_games": 3
-        },
-        {
-          "event_tokens": [],
           "href": "players/71639/benat-gerenabarrena",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71639.png",
           "name": "B. Gerenabarrena",
@@ -3497,7 +3617,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 896000,
+          "market_value": 973000,
           "displayed_points": 13,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -3722,14 +3842,14 @@
           "player_id": "29",
           "points": null,
           "team_side": "home",
-          "owner_name": "Libre",
+          "owner_name": "Libre / Mister",
           "is_mine": false,
           "is_free": true,
           "position": 4,
-          "market_value": 6499000,
-          "displayed_points": 6,
-          "daily_market_change": -57000,
-          "weekly_market_change": -341000,
+          "market_value": null,
+          "displayed_points": null,
+          "daily_market_change": null,
+          "weekly_market_change": null,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1.png?version=20221205131749",
           "recent": [
             {
@@ -3774,6 +3894,61 @@
         },
         {
           "event_tokens": [],
+          "href": "players/24789/nico-williams",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/24789.png",
+          "name": "N. Williams",
+          "player_id": "24789",
+          "points": null,
+          "team_side": "home",
+          "owner_name": "Libre / Mister",
+          "is_mine": false,
+          "is_free": true,
+          "position": null,
+          "market_value": null,
+          "displayed_points": null,
+          "daily_market_change": null,
+          "weekly_market_change": null,
+          "team_logo_url": null,
+          "recent": [
+            {
+              "events": [
+                "/img/mister/sprite-2025.svg?1786965925#events-sub_out"
+              ],
+              "gameweek": "J1",
+              "gameweek_id": "3968",
+              "points": 2,
+              "role": "starter",
+              "status": "played"
+            },
+            {
+              "events": [
+                "/img/mister/sprite-2025.svg?1786965925#events-sub_in"
+              ],
+              "gameweek": "J2",
+              "gameweek_id": "4043",
+              "points": 4,
+              "role": "bench",
+              "status": "played"
+            },
+            {
+              "events": [
+                "/img/mister/sprite-2025.svg?1786965925#events-sub_in"
+              ],
+              "gameweek": "J3",
+              "gameweek_id": "4044",
+              "points": 2,
+              "role": "bench",
+              "status": "played"
+            }
+          ],
+          "recent_avg_points": 2.6666666666666665,
+          "recent_goals": 0,
+          "recent_assists": 0,
+          "recent_starts": 1,
+          "recent_games": 3
+        },
+        {
+          "event_tokens": [],
           "href": "players/31/jan-oblak",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/31.png",
           "name": "J. Oblak",
@@ -3784,7 +3959,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 9921000,
+          "market_value": 10041000,
           "displayed_points": 17,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -3950,7 +4125,7 @@
           "is_mine": false,
           "is_free": false,
           "position": 2,
-          "market_value": 10437000,
+          "market_value": 10462000,
           "displayed_points": 17,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -4179,10 +4354,10 @@
           "is_mine": true,
           "is_free": false,
           "position": 3,
-          "market_value": 10490000,
+          "market_value": 10553000,
           "displayed_points": 23,
-          "daily_market_change": 50000,
-          "weekly_market_change": 660000,
+          "daily_market_change": 63000,
+          "weekly_market_change": 540000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/2.png?version=20240613184505",
           "recent": [
             {
@@ -4404,7 +4579,7 @@
         "count": 22,
         "complete": true
       },
-      "lineup_status": "possible"
+      "lineup_status": "confirmed"
     },
     {
       "match_id": "37973",
@@ -4435,10 +4610,10 @@
           "team_id": "1490",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/28774.png?version=20251006020123",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=20260619162046",
-          "market_value": 3057000,
+          "market_value": 3171000,
           "displayed_points": 12,
-          "daily_market_change": 100000,
-          "weekly_market_change": 770000,
+          "daily_market_change": 114000,
+          "weekly_market_change": 786000,
           "in_starting_xi": true,
           "gameweek": null
         },
@@ -4449,15 +4624,29 @@
           "team_id": "14",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/24.png?version=20251004230007",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/14.png?version=20221205131749",
-          "market_value": 3419000,
+          "market_value": 3490000,
           "displayed_points": 14,
-          "daily_market_change": 69000,
-          "weekly_market_change": 711000,
+          "daily_market_change": 71000,
+          "weekly_market_change": 691000,
           "in_starting_xi": true,
           "gameweek": null
         }
       ],
       "market_players": [
+        {
+          "player_id": "71616",
+          "name": "Y. Zabiri",
+          "position": 4,
+          "team_id": "1490",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71616.png?version=20260730085522",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=20260619162046",
+          "market_value": 3402000,
+          "displayed_points": 23,
+          "daily_market_change": 135000,
+          "weekly_market_change": 881000,
+          "in_starting_xi": false,
+          "gameweek": null
+        },
         {
           "player_id": "27517",
           "name": "I. Palazón",
@@ -4465,23 +4654,23 @@
           "team_id": "14",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/27517.png?version=20251004225449",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/14.png?version=20221205131749",
-          "market_value": 5176000,
+          "market_value": 5066000,
           "displayed_points": 7,
-          "daily_market_change": -106000,
-          "weekly_market_change": -573000,
+          "daily_market_change": -110000,
+          "weekly_market_change": -674000,
           "in_starting_xi": false,
           "gameweek": null
         },
         {
-          "player_id": "12902",
-          "name": "R. de Tomás",
-          "position": 4,
-          "team_id": "14",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/12902.png?version=20230608093556",
-          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/14.png?version=20221205131749",
-          "market_value": 160000,
+          "player_id": "4775",
+          "name": "A. Martín",
+          "position": 2,
+          "team_id": "1490",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/4775.png?version=20260901111219",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=20260619162046",
+          "market_value": 858000,
           "displayed_points": 0,
-          "daily_market_change": -8000,
+          "daily_market_change": -68000,
           "weekly_market_change": null,
           "in_starting_xi": false,
           "gameweek": null
@@ -4955,10 +5144,10 @@
           "is_mine": true,
           "is_free": false,
           "position": 3,
-          "market_value": 3419000,
+          "market_value": 3490000,
           "displayed_points": 14,
-          "daily_market_change": 69000,
-          "weekly_market_change": 711000,
+          "daily_market_change": 71000,
+          "weekly_market_change": 691000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/14.png?version=20221205131749",
           "recent": [
             {
@@ -5071,10 +5260,10 @@
           "is_mine": true,
           "is_free": false,
           "position": 1,
-          "market_value": 3057000,
+          "market_value": 3171000,
           "displayed_points": 12,
-          "daily_market_change": 100000,
-          "weekly_market_change": 770000,
+          "daily_market_change": 114000,
+          "weekly_market_change": 786000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=20260619162046",
           "recent": [
             {
@@ -5129,7 +5318,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 2024000,
+          "market_value": 2030000,
           "displayed_points": 8,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -5187,7 +5376,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 5100000,
+          "market_value": 5046000,
           "displayed_points": 12,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -5343,7 +5532,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 6943000,
+          "market_value": 7054000,
           "displayed_points": 19,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -5479,7 +5668,7 @@
           "is_mine": false,
           "is_free": false,
           "position": 3,
-          "market_value": 6065000,
+          "market_value": 6037000,
           "displayed_points": 10,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -5592,15 +5781,15 @@
           "player_id": "71616",
           "points": null,
           "team_side": "away",
-          "owner_name": "Libre / Mister",
+          "owner_name": "Libre",
           "is_mine": false,
           "is_free": true,
-          "position": null,
-          "market_value": null,
-          "displayed_points": null,
-          "daily_market_change": null,
-          "weekly_market_change": null,
-          "team_logo_url": null,
+          "position": 4,
+          "market_value": 3402000,
+          "displayed_points": 23,
+          "daily_market_change": 135000,
+          "weekly_market_change": 881000,
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=20260619162046",
           "recent": [
             {
               "gameweek_id": "3968",
@@ -5674,16 +5863,30 @@
       "venue": null,
       "my_players": [
         {
+          "player_id": "34",
+          "name": "J. Giménez",
+          "position": 2,
+          "team_id": "6",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/34.png?version=20251003193851",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/6.png?version=20260626093814",
+          "market_value": 1197000,
+          "displayed_points": 6,
+          "daily_market_change": 47000,
+          "weekly_market_change": 267000,
+          "in_starting_xi": false,
+          "gameweek": null
+        },
+        {
           "player_id": "52189",
           "name": "A. Pérez",
           "position": 4,
           "team_id": "20",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/52189.png?version=20251006020741",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/20.png?version=20221205131749",
-          "market_value": 5390000,
+          "market_value": 5413000,
           "displayed_points": 10,
-          "daily_market_change": 32000,
-          "weekly_market_change": 688000,
+          "daily_market_change": 23000,
+          "weekly_market_change": 536000,
           "in_starting_xi": true,
           "gameweek": null
         }
@@ -5696,10 +5899,10 @@
           "team_id": "20",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/61092.png?version=20250201122704",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/20.png?version=20221205131749",
-          "market_value": 5602000,
+          "market_value": 5612000,
           "displayed_points": 11,
           "daily_market_change": 10000,
-          "weekly_market_change": 139000,
+          "weekly_market_change": 120000,
           "in_starting_xi": false,
           "gameweek": null
         },
@@ -5710,38 +5913,66 @@
           "team_id": "6",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/70944.png?version=20260621102552",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/6.png?version=20260626093814",
-          "market_value": 364000,
+          "market_value": 387000,
           "displayed_points": 4,
-          "daily_market_change": 27000,
-          "weekly_market_change": 204000,
+          "daily_market_change": 23000,
+          "weekly_market_change": 188000,
           "in_starting_xi": false,
           "gameweek": null
         },
         {
-          "player_id": "12946",
-          "name": "S. Comesaña",
+          "player_id": "71154",
+          "name": "L. Amatucci",
+          "position": 3,
+          "team_id": "6",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71154.png?version=20260709090853",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/6.png?version=20260626093814",
+          "market_value": 6529000,
+          "displayed_points": 16,
+          "daily_market_change": 102000,
+          "weekly_market_change": 684000,
+          "in_starting_xi": false,
+          "gameweek": null
+        },
+        {
+          "player_id": "33896",
+          "name": "I. Akhomach",
           "position": 3,
           "team_id": "20",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/12946.png?version=20251006021320",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/33896.png?version=20260212075508",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/20.png?version=20221205131749",
-          "market_value": 7177000,
-          "displayed_points": 4,
-          "daily_market_change": -119000,
-          "weekly_market_change": -878000,
+          "market_value": 933000,
+          "displayed_points": 6,
+          "daily_market_change": -42000,
+          "weekly_market_change": -150000,
           "in_starting_xi": false,
           "gameweek": null
         },
         {
-          "player_id": "34",
-          "name": "J. Giménez",
+          "player_id": "23369",
+          "name": "J. Foyth",
+          "position": 2,
+          "team_id": "20",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/23369.png?version=20231222225448",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/20.png?version=20221205131749",
+          "market_value": 3295000,
+          "displayed_points": 13,
+          "daily_market_change": 81000,
+          "weekly_market_change": 763000,
+          "in_starting_xi": false,
+          "gameweek": null
+        },
+        {
+          "player_id": "71139",
+          "name": "B. Ede",
           "position": 2,
           "team_id": "6",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/34.png?version=20251003193851",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71139.png?version=20260707174927",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/6.png?version=20260626093814",
-          "market_value": 1150000,
-          "displayed_points": 6,
-          "daily_market_change": 42000,
-          "weekly_market_change": 250000,
+          "market_value": 1569000,
+          "displayed_points": 8,
+          "daily_market_change": 18000,
+          "weekly_market_change": 204000,
           "in_starting_xi": false,
           "gameweek": null
         }
@@ -5817,7 +6048,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 10802000,
+          "market_value": 10703000,
           "displayed_points": 9,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -6089,14 +6320,14 @@
           "player_id": "12946",
           "points": null,
           "team_side": "home",
-          "owner_name": "Libre",
+          "owner_name": "Libre / Mister",
           "is_mine": false,
           "is_free": true,
           "position": 3,
-          "market_value": 7177000,
-          "displayed_points": 4,
-          "daily_market_change": -119000,
-          "weekly_market_change": -878000,
+          "market_value": null,
+          "displayed_points": null,
+          "daily_market_change": null,
+          "weekly_market_change": null,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/20.png?version=20221205131749",
           "recent": [
             {
@@ -6151,10 +6382,10 @@
           "is_mine": false,
           "is_free": false,
           "position": 3,
-          "market_value": 5602000,
+          "market_value": 5612000,
           "displayed_points": 11,
           "daily_market_change": 10000,
-          "weekly_market_change": 139000,
+          "weekly_market_change": 120000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/20.png?version=20221205131749",
           "recent": [
             {
@@ -6209,7 +6440,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 14390000,
+          "market_value": 14378000,
           "displayed_points": 15,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -6425,14 +6656,14 @@
           "player_id": "71139",
           "points": null,
           "team_side": "away",
-          "owner_name": "Libre / Mister",
+          "owner_name": "Libre",
           "is_mine": false,
           "is_free": true,
           "position": 2,
-          "market_value": null,
-          "displayed_points": null,
-          "daily_market_change": null,
-          "weekly_market_change": null,
+          "market_value": 1569000,
+          "displayed_points": 8,
+          "daily_market_change": 18000,
+          "weekly_market_change": 204000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/6.png?version=20260626093814",
           "recent": [
             {
@@ -6661,10 +6892,10 @@
           "is_mine": false,
           "is_free": false,
           "position": 3,
-          "market_value": 6427000,
+          "market_value": 6529000,
           "displayed_points": 16,
-          "daily_market_change": null,
-          "weekly_market_change": null,
+          "daily_market_change": 102000,
+          "weekly_market_change": 684000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/6.png?version=20260626093814",
           "recent": [
             {
@@ -6835,10 +7066,10 @@
           "is_mine": false,
           "is_free": false,
           "position": 3,
-          "market_value": 364000,
+          "market_value": 387000,
           "displayed_points": 4,
-          "daily_market_change": 27000,
-          "weekly_market_change": 204000,
+          "daily_market_change": 23000,
+          "weekly_market_change": 188000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/6.png?version=20260626093814",
           "recent": [
             {
@@ -6889,7 +7120,7 @@
           "is_mine": false,
           "is_free": false,
           "position": 4,
-          "market_value": 3354000,
+          "market_value": 3459000,
           "displayed_points": 13,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -6947,7 +7178,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 5740000,
+          "market_value": 5877000,
           "displayed_points": 34,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -7028,16 +7259,58 @@
       "my_players": [],
       "market_players": [
         {
+          "player_id": "59415",
+          "name": "D. Olmo",
+          "position": 3,
+          "team_id": "3",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/59415.png?version=20260217184404",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517",
+          "market_value": 13940000,
+          "displayed_points": 13,
+          "daily_market_change": -27000,
+          "weekly_market_change": -128000,
+          "in_starting_xi": false,
+          "gameweek": null
+        },
+        {
           "player_id": "22601",
           "name": "Pepelu",
           "position": 3,
           "team_id": "19",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/22601.png?version=20260413101012",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/19.png?version=20221205131749",
-          "market_value": 6055000,
+          "market_value": 5980000,
           "displayed_points": 11,
-          "daily_market_change": -86000,
-          "weekly_market_change": 2000,
+          "daily_market_change": -75000,
+          "weekly_market_change": -121000,
+          "in_starting_xi": false,
+          "gameweek": null
+        },
+        {
+          "player_id": "11866",
+          "name": "H. Duro",
+          "position": 4,
+          "team_id": "19",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/11866.png?version=20251006015522",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/19.png?version=20221205131749",
+          "market_value": 5325000,
+          "displayed_points": 6,
+          "daily_market_change": -95000,
+          "weekly_market_change": -547000,
+          "in_starting_xi": false,
+          "gameweek": null
+        },
+        {
+          "player_id": "59533",
+          "name": "G. Martín",
+          "position": 2,
+          "team_id": "3",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/59533.png?version=20251003184533",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517",
+          "market_value": 10253000,
+          "displayed_points": 12,
+          "daily_market_change": -20000,
+          "weekly_market_change": 79000,
           "in_starting_xi": false,
           "gameweek": null
         }
@@ -7437,10 +7710,10 @@
           "is_mine": false,
           "is_free": false,
           "position": 3,
-          "market_value": 6055000,
+          "market_value": 5980000,
           "displayed_points": 11,
-          "daily_market_change": -86000,
-          "weekly_market_change": 2000,
+          "daily_market_change": -75000,
+          "weekly_market_change": -121000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/19.png?version=20221205131749",
           "recent": [
             {
@@ -7549,45 +7822,48 @@
           "player_id": "11866",
           "points": null,
           "team_side": "home",
-          "owner_name": "Libre / Mister",
+          "owner_name": "Libre",
           "is_mine": false,
           "is_free": true,
-          "position": null,
-          "market_value": null,
-          "displayed_points": null,
-          "daily_market_change": null,
-          "weekly_market_change": null,
-          "team_logo_url": null,
+          "position": 4,
+          "market_value": 5325000,
+          "displayed_points": 6,
+          "daily_market_change": -95000,
+          "weekly_market_change": -547000,
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/19.png?version=20221205131749",
           "recent": [
             {
-              "events": [
-                "/img/mister/sprite-2025.svg?1786965925#events-sub_out"
-              ],
-              "gameweek": "J1",
               "gameweek_id": "3968",
+              "gameweek": "J1",
               "points": 2,
-              "role": "starter",
-              "status": "played"
+              "starter": true,
+              "minutes": 55,
+              "sofascore_rating": 6.5,
+              "stats": {
+                "goalAssist": 0
+              }
             },
             {
-              "events": [
-                "/img/mister/sprite-2025.svg?1786965925#events-sub_in"
-              ],
-              "gameweek": "J2",
               "gameweek_id": "4043",
+              "gameweek": "J2",
               "points": 2,
-              "role": "bench",
-              "status": "played"
+              "starter": false,
+              "minutes": 13,
+              "sofascore_rating": 6.4,
+              "stats": {
+                "goalAssist": 0
+              }
             },
             {
-              "events": [
-                "/img/mister/sprite-2025.svg?1786965925#events-sub_in"
-              ],
-              "gameweek": "J3",
               "gameweek_id": "4044",
+              "gameweek": "J3",
               "points": 2,
-              "role": "bench",
-              "status": "played"
+              "starter": false,
+              "minutes": 30,
+              "sofascore_rating": 6.4,
+              "stats": {
+                "goalAssist": 0
+              }
             }
           ],
           "recent_avg_points": 2.0,
@@ -7696,31 +7972,46 @@
           "player_id": "59533",
           "points": null,
           "team_side": "away",
-          "owner_name": "Libre / Mister",
+          "owner_name": "Libre",
           "is_mine": false,
           "is_free": true,
-          "position": null,
-          "market_value": null,
-          "displayed_points": null,
-          "daily_market_change": null,
-          "weekly_market_change": null,
-          "team_logo_url": null,
+          "position": 2,
+          "market_value": 10253000,
+          "displayed_points": 12,
+          "daily_market_change": -20000,
+          "weekly_market_change": 79000,
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517",
           "recent": [
             {
-              "events": [],
-              "gameweek": "J1",
               "gameweek_id": "3968",
+              "gameweek": "J1",
               "points": 6,
-              "role": "starter",
-              "status": "played"
+              "starter": true,
+              "minutes": 90,
+              "sofascore_rating": 7.5,
+              "stats": {
+                "goalAssist": 0
+              }
             },
             {
-              "events": [],
-              "gameweek": "J2",
               "gameweek_id": "4043",
+              "gameweek": "J2",
               "points": 6,
-              "role": "starter",
-              "status": "played"
+              "starter": true,
+              "minutes": 90,
+              "sofascore_rating": 7.4,
+              "stats": {
+                "goalAssist": 0
+              }
+            },
+            {
+              "gameweek_id": "4044",
+              "gameweek": "J3",
+              "points": null,
+              "starter": null,
+              "minutes": null,
+              "sofascore_rating": null,
+              "stats": {}
             }
           ],
           "recent_avg_points": 6.0,
@@ -8005,7 +8296,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 14708000,
+          "market_value": 14835000,
           "displayed_points": 23,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -8203,10 +8494,10 @@
           "team_id": "48",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/118.png?version=20250702181230",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
-          "market_value": 3822000,
+          "market_value": 3951000,
           "displayed_points": 13,
-          "daily_market_change": 119000,
-          "weekly_market_change": 914000,
+          "daily_market_change": 129000,
+          "weekly_market_change": 936000,
           "in_starting_xi": true,
           "gameweek": null
         },
@@ -8217,10 +8508,10 @@
           "team_id": "48",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/64411.png?version=20250717112423",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
-          "market_value": 1389000,
+          "market_value": 1425000,
           "displayed_points": 12,
-          "daily_market_change": 33000,
-          "weekly_market_change": 303000,
+          "daily_market_change": 36000,
+          "weekly_market_change": 300000,
           "in_starting_xi": false,
           "gameweek": null
         },
@@ -8231,10 +8522,10 @@
           "team_id": "50",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/17614.png?version=20231222184953",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
-          "market_value": 561000,
+          "market_value": 584000,
           "displayed_points": 13,
-          "daily_market_change": 27000,
-          "weekly_market_change": 301000,
+          "daily_market_change": 23000,
+          "weekly_market_change": 287000,
           "in_starting_xi": false,
           "gameweek": null
         },
@@ -8245,15 +8536,29 @@
           "team_id": "48",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/68606.png?version=20260323141026",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
-          "market_value": 5388000,
+          "market_value": 5465000,
           "displayed_points": 17,
-          "daily_market_change": 72000,
-          "weekly_market_change": 1135000,
+          "daily_market_change": 77000,
+          "weekly_market_change": 1046000,
           "in_starting_xi": true,
           "gameweek": null
         }
       ],
       "market_players": [
+        {
+          "player_id": "18004",
+          "name": "A. Budimir",
+          "position": 4,
+          "team_id": "50",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/18004.png?version=20251006024916",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+          "market_value": 16086000,
+          "displayed_points": 22,
+          "daily_market_change": 4000,
+          "weekly_market_change": -4000,
+          "in_starting_xi": false,
+          "gameweek": null
+        },
         {
           "player_id": "71503",
           "name": "M. Rodriguez",
@@ -8261,10 +8566,10 @@
           "team_id": "48",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71503.png?version=20260716123408",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
-          "market_value": 1316000,
+          "market_value": 1313000,
           "displayed_points": 17,
-          "daily_market_change": 32000,
-          "weekly_market_change": 350000,
+          "daily_market_change": -3000,
+          "weekly_market_change": 266000,
           "in_starting_xi": false,
           "gameweek": null
         },
@@ -8275,10 +8580,24 @@
           "team_id": "50",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/17614.png?version=20231222184953",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
-          "market_value": 561000,
+          "market_value": 584000,
           "displayed_points": 13,
-          "daily_market_change": 27000,
-          "weekly_market_change": 301000,
+          "daily_market_change": 23000,
+          "weekly_market_change": 287000,
+          "in_starting_xi": false,
+          "gameweek": null
+        },
+        {
+          "player_id": "53144",
+          "name": "C. Benavídez",
+          "position": 3,
+          "team_id": "48",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/53144.png?version=20251006024142",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+          "market_value": 197000,
+          "displayed_points": 3,
+          "daily_market_change": -16000,
+          "weekly_market_change": 23000,
           "in_starting_xi": false,
           "gameweek": null
         },
@@ -8289,24 +8608,10 @@
           "team_id": "48",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/64411.png?version=20250717112423",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
-          "market_value": 1389000,
+          "market_value": 1425000,
           "displayed_points": 12,
-          "daily_market_change": 33000,
-          "weekly_market_change": 303000,
-          "in_starting_xi": false,
-          "gameweek": null
-        },
-        {
-          "player_id": "61410",
-          "name": "A. Rodríguez",
-          "position": 1,
-          "team_id": "48",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/61410.png?version=20250310092159",
-          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
-          "market_value": 191000,
-          "displayed_points": 0,
-          "daily_market_change": 31000,
-          "weekly_market_change": null,
+          "daily_market_change": 36000,
+          "weekly_market_change": 300000,
           "in_starting_xi": false,
           "gameweek": null
         }
@@ -8382,10 +8687,10 @@
           "is_mine": true,
           "is_free": false,
           "position": 2,
-          "market_value": 3822000,
+          "market_value": 3951000,
           "displayed_points": 13,
-          "daily_market_change": 119000,
-          "weekly_market_change": 914000,
+          "daily_market_change": 129000,
+          "weekly_market_change": 936000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
           "recent": [
             {
@@ -8440,7 +8745,7 @@
           "is_mine": false,
           "is_free": false,
           "position": 2,
-          "market_value": 9555000,
+          "market_value": 9686000,
           "displayed_points": 26,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -8499,7 +8804,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 2305000,
+          "market_value": 2359000,
           "displayed_points": 10,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -8615,10 +8920,10 @@
           "is_mine": true,
           "is_free": false,
           "position": 3,
-          "market_value": 5388000,
+          "market_value": 5465000,
           "displayed_points": 17,
-          "daily_market_change": 72000,
-          "weekly_market_change": 1135000,
+          "daily_market_change": 77000,
+          "weekly_market_change": 1046000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
           "recent": [
             {
@@ -8731,7 +9036,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 1602000,
+          "market_value": 1627000,
           "displayed_points": 10,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -8789,7 +9094,7 @@
           "is_mine": false,
           "is_free": false,
           "position": 3,
-          "market_value": 3092000,
+          "market_value": 3138000,
           "displayed_points": 11,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -8904,7 +9209,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 1926000,
+          "market_value": 2010000,
           "displayed_points": 27,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -8964,7 +9269,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 7920000,
+          "market_value": 7953000,
           "displayed_points": 13,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -9022,7 +9327,7 @@
           "is_mine": false,
           "is_free": false,
           "position": 2,
-          "market_value": 2986000,
+          "market_value": 3066000,
           "displayed_points": 11,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -9164,7 +9469,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 1167000,
+          "market_value": 1207000,
           "displayed_points": 14,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -9447,46 +9752,50 @@
           "player_id": "18004",
           "points": null,
           "team_side": "away",
-          "owner_name": "Libre / Mister",
+          "owner_name": "Libre",
           "is_mine": false,
           "is_free": true,
-          "position": null,
-          "market_value": null,
-          "displayed_points": null,
-          "daily_market_change": null,
-          "weekly_market_change": null,
-          "team_logo_url": null,
+          "position": 4,
+          "market_value": 16086000,
+          "displayed_points": 22,
+          "daily_market_change": 4000,
+          "weekly_market_change": -4000,
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
           "recent": [
             {
-              "events": [
-                "/img/mister/sprite-2025.svg?1786965925#events-sub_in",
-                "/img/mister/sprite-2025.svg?1786965925#events-penalty"
-              ],
-              "gameweek": "J1",
               "gameweek_id": "3968",
+              "gameweek": "J1",
               "points": 6,
-              "role": "bench",
-              "status": "played"
+              "starter": false,
+              "minutes": 32,
+              "sofascore_rating": 6.9,
+              "stats": {
+                "goals": 1,
+                "goalAssist": 0
+              }
             },
             {
-              "events": [
-                "/img/mister/sprite-2025.svg?1786965925#events-sub_out"
-              ],
-              "gameweek": "J2",
               "gameweek_id": "4043",
+              "gameweek": "J2",
               "points": 6,
-              "role": "starter",
-              "status": "played"
+              "starter": true,
+              "minutes": 80,
+              "sofascore_rating": 7.1,
+              "stats": {
+                "goalAssist": 0
+              }
             },
             {
-              "events": [
-                "/img/mister/sprite-2025.svg?1786965925#events-penalty"
-              ],
-              "gameweek": "J3",
               "gameweek_id": "4044",
+              "gameweek": "J3",
               "points": 10,
-              "role": "starter",
-              "status": "played"
+              "starter": true,
+              "minutes": 90,
+              "sofascore_rating": 7.5,
+              "stats": {
+                "goals": 1,
+                "goalAssist": 0
+              }
             }
           ],
           "recent_avg_points": 7.333333333333333,
@@ -9590,15 +9899,29 @@
           "team_id": "13",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71008.png?version=20260621200119",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
-          "market_value": 1809000,
+          "market_value": 1868000,
           "displayed_points": 10,
-          "daily_market_change": 54000,
-          "weekly_market_change": 424000,
+          "daily_market_change": 59000,
+          "weekly_market_change": 429000,
           "in_starting_xi": true,
           "gameweek": null
         }
       ],
       "market_players": [
+        {
+          "player_id": "22595",
+          "name": "J. Muñoz",
+          "position": 3,
+          "team_id": "13",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/22595.png?version=20260621200811",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+          "market_value": 2344000,
+          "displayed_points": 9,
+          "daily_market_change": -8000,
+          "weekly_market_change": 151000,
+          "in_starting_xi": false,
+          "gameweek": null
+        },
         {
           "player_id": "71008",
           "name": "R. Garrido",
@@ -9606,25 +9929,11 @@
           "team_id": "13",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71008.png?version=20260621200119",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
-          "market_value": 1809000,
+          "market_value": 1868000,
           "displayed_points": 10,
-          "daily_market_change": 54000,
-          "weekly_market_change": 424000,
+          "daily_market_change": 59000,
+          "weekly_market_change": 429000,
           "in_starting_xi": true,
-          "gameweek": null
-        },
-        {
-          "player_id": "52117",
-          "name": "J. Ander Olasagasti",
-          "position": 3,
-          "team_id": "12",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/52117.png?version=20251004223453",
-          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
-          "market_value": 3151000,
-          "displayed_points": 19,
-          "daily_market_change": 101000,
-          "weekly_market_change": 677000,
-          "in_starting_xi": false,
           "gameweek": null
         }
       ],
@@ -9741,7 +10050,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 2422000,
+          "market_value": 2442000,
           "displayed_points": 10,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -9852,10 +10161,10 @@
           "is_mine": true,
           "is_free": false,
           "position": 2,
-          "market_value": 1809000,
+          "market_value": 1868000,
           "displayed_points": 10,
-          "daily_market_change": 54000,
-          "weekly_market_change": 424000,
+          "daily_market_change": 59000,
+          "weekly_market_change": 429000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
           "recent": [
             {
@@ -9963,7 +10272,7 @@
           "is_mine": false,
           "is_free": false,
           "position": 3,
-          "market_value": 3892000,
+          "market_value": 4018000,
           "displayed_points": 11,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -10077,7 +10386,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 2297000,
+          "market_value": 2307000,
           "displayed_points": 9,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -10134,12 +10443,12 @@
           "owner_name": "Adam Panyiczki",
           "is_mine": false,
           "is_free": false,
-          "position": null,
-          "market_value": 2352000,
+          "position": 3,
+          "market_value": 2344000,
           "displayed_points": 9,
-          "daily_market_change": null,
-          "weekly_market_change": null,
-          "team_logo_url": null,
+          "daily_market_change": -8000,
+          "weekly_market_change": 151000,
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
           "recent": [
             {
               "gameweek_id": "3968",
@@ -10360,7 +10669,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 4127000,
+          "market_value": 4258000,
           "displayed_points": 14,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -10580,14 +10889,14 @@
           "player_id": "52117",
           "points": null,
           "team_side": "away",
-          "owner_name": "Libre",
+          "owner_name": "Adam Panyiczki",
           "is_mine": false,
-          "is_free": true,
+          "is_free": false,
           "position": 3,
-          "market_value": 3151000,
+          "market_value": 3259000,
           "displayed_points": 19,
-          "daily_market_change": 101000,
-          "weekly_market_change": 677000,
+          "daily_market_change": null,
+          "weekly_market_change": null,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
           "recent": [
             {
@@ -10643,7 +10952,7 @@
           "is_mine": false,
           "is_free": false,
           "position": 3,
-          "market_value": 1019000,
+          "market_value": 1043000,
           "displayed_points": 11,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -10758,7 +11067,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 833000,
+          "market_value": 884000,
           "displayed_points": 8,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -10888,7 +11197,36 @@
       "schedule_source": "Mister home strip",
       "venue": null,
       "my_players": [],
-      "market_players": [],
+      "market_players": [
+        {
+          "player_id": "6034",
+          "name": "E. Expósito",
+          "position": 3,
+          "team_id": "8",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/6034.png?version=20240626191824",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/8.png?version=20221205131749",
+          "market_value": 10014000,
+          "displayed_points": 14,
+          "daily_market_change": -46000,
+          "weekly_market_change": 239000,
+          "in_starting_xi": false,
+          "gameweek": null
+        },
+        {
+          "player_id": "71140",
+          "name": "Q. Hartman",
+          "position": 2,
+          "team_id": "8",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71140.png?version=20260707175228",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/8.png?version=20221205131749",
+          "market_value": 2517000,
+          "displayed_points": 0,
+          "daily_market_change": -124000,
+          "weekly_market_change": -999000,
+          "in_starting_xi": false,
+          "gameweek": null
+        }
+      ],
       "all_players": [
         {
           "event_tokens": [],
@@ -11042,7 +11380,7 @@
           "is_mine": false,
           "is_free": false,
           "position": 2,
-          "market_value": 1374000,
+          "market_value": 1427000,
           "displayed_points": 13,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -11100,7 +11438,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 2324000,
+          "market_value": 2398000,
           "displayed_points": 13,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -11213,14 +11551,14 @@
           "player_id": "6034",
           "points": null,
           "team_side": "home",
-          "owner_name": "Libre / Mister",
+          "owner_name": "Libre",
           "is_mine": false,
           "is_free": true,
           "position": 3,
-          "market_value": null,
-          "displayed_points": null,
-          "daily_market_change": null,
-          "weekly_market_change": null,
+          "market_value": 10014000,
+          "displayed_points": 14,
+          "daily_market_change": -46000,
+          "weekly_market_change": 239000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/8.png?version=20221205131749",
           "recent": [
             {
@@ -11275,7 +11613,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 1371000,
+          "market_value": 1427000,
           "displayed_points": 16,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -11444,7 +11782,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 7752000,
+          "market_value": 7915000,
           "displayed_points": 31,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -11788,7 +12126,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 3814000,
+          "market_value": 3865000,
           "displayed_points": 11,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -11957,7 +12295,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 1899000,
+          "market_value": 1953000,
           "displayed_points": 15,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -12099,10 +12437,10 @@
           "team_id": "9",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/48203.png?version=20250204152625",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/9.png?version=20221205131749",
-          "market_value": 3778000,
+          "market_value": 3919000,
           "displayed_points": 16,
-          "daily_market_change": 132000,
-          "weekly_market_change": 917000,
+          "daily_market_change": 141000,
+          "weekly_market_change": 950000,
           "in_starting_xi": true,
           "gameweek": null
         },
@@ -12113,96 +12451,26 @@
           "team_id": "5",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/130.png?version=20251003195047",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/5.png?version=20221205131749",
-          "market_value": 5367000,
+          "market_value": 5408000,
           "displayed_points": 19,
-          "daily_market_change": 53000,
-          "weekly_market_change": 938000,
+          "daily_market_change": 41000,
+          "weekly_market_change": 822000,
           "in_starting_xi": true,
           "gameweek": null
         }
       ],
       "market_players": [
         {
-          "player_id": "8171",
-          "name": "D. Djené",
-          "position": 2,
-          "team_id": "9",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/8171.png?version=20251003195924",
-          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/9.png?version=20221205131749",
-          "market_value": 3109000,
-          "displayed_points": 6,
-          "daily_market_change": -14000,
-          "weekly_market_change": 348000,
-          "in_starting_xi": false,
-          "gameweek": null
-        },
-        {
-          "player_id": "23664",
-          "name": "S. Carreira",
-          "position": 2,
+          "player_id": "6035",
+          "name": "I. Villar",
+          "position": 1,
           "team_id": "5",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/23664.png?version=20251003195345",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/6035.png?version=20251003195129",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/5.png?version=20221205131749",
-          "market_value": 5380000,
-          "displayed_points": 15,
-          "daily_market_change": -8000,
-          "weekly_market_change": 275000,
-          "in_starting_xi": false,
-          "gameweek": null
-        },
-        {
-          "player_id": "71502",
-          "name": "A. García",
-          "position": 2,
-          "team_id": "9",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71502.png?version=20260716123021",
-          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/9.png?version=20221205131749",
-          "market_value": 3908000,
-          "displayed_points": 14,
-          "daily_market_change": 55000,
-          "weekly_market_change": 767000,
-          "in_starting_xi": false,
-          "gameweek": null
-        },
-        {
-          "player_id": "71790",
-          "name": "S. Sazonov",
-          "position": 2,
-          "team_id": "9",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71790.png?version=20260805081801",
-          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/9.png?version=20221205131749",
-          "market_value": 569000,
-          "displayed_points": 4,
-          "daily_market_change": -37000,
-          "weekly_market_change": 17000,
-          "in_starting_xi": false,
-          "gameweek": null
-        },
-        {
-          "player_id": "68497",
-          "name": "S. Boselli",
-          "position": 2,
-          "team_id": "9",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/68497.png?version=20260117124336",
-          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/9.png?version=20221205131749",
-          "market_value": 411000,
-          "displayed_points": 3,
-          "daily_market_change": -51000,
-          "weekly_market_change": -278000,
-          "in_starting_xi": false,
-          "gameweek": null
-        },
-        {
-          "player_id": "71141",
-          "name": "J. Ives Valou",
-          "position": 2,
-          "team_id": "9",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71141.png?version=20260707175541",
-          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/9.png?version=20221205131749",
-          "market_value": 168000,
-          "displayed_points": 1,
-          "daily_market_change": -21000,
-          "weekly_market_change": 4000,
+          "market_value": 160000,
+          "displayed_points": 0,
+          "daily_market_change": -4000,
+          "weekly_market_change": -39000,
           "in_starting_xi": false,
           "gameweek": null
         }
@@ -12220,7 +12488,7 @@
           "is_mine": false,
           "is_free": false,
           "position": 1,
-          "market_value": 9951000,
+          "market_value": 9967000,
           "displayed_points": 19,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -12274,14 +12542,14 @@
           "player_id": "71502",
           "points": null,
           "team_side": "home",
-          "owner_name": "Libre",
+          "owner_name": "Samuhg22",
           "is_mine": false,
-          "is_free": true,
+          "is_free": false,
           "position": 2,
-          "market_value": 3908000,
+          "market_value": 3994000,
           "displayed_points": 14,
-          "daily_market_change": 55000,
-          "weekly_market_change": 767000,
+          "daily_market_change": null,
+          "weekly_market_change": null,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/9.png?version=20221205131749",
           "recent": [
             {
@@ -12332,14 +12600,14 @@
           "player_id": "8171",
           "points": null,
           "team_side": "home",
-          "owner_name": "Adam Panyiczki",
+          "owner_name": "Libre / Mister",
           "is_mine": false,
-          "is_free": false,
+          "is_free": true,
           "position": 2,
-          "market_value": 3109000,
-          "displayed_points": 6,
-          "daily_market_change": -14000,
-          "weekly_market_change": 348000,
+          "market_value": null,
+          "displayed_points": null,
+          "daily_market_change": null,
+          "weekly_market_change": null,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/9.png?version=20221205131749",
           "recent": [
             {
@@ -12394,7 +12662,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 2481000,
+          "market_value": 2561000,
           "displayed_points": 9,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -12644,10 +12912,10 @@
           "is_mine": true,
           "is_free": false,
           "position": 3,
-          "market_value": 3778000,
+          "market_value": 3919000,
           "displayed_points": 16,
-          "daily_market_change": 132000,
-          "weekly_market_change": 917000,
+          "daily_market_change": 141000,
+          "weekly_market_change": 950000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/9.png?version=20221205131749",
           "recent": [
             {
@@ -12815,7 +13083,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 8058000,
+          "market_value": 8154000,
           "displayed_points": 22,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -13071,14 +13339,14 @@
           "player_id": "23664",
           "points": null,
           "team_side": "away",
-          "owner_name": "Libre",
+          "owner_name": "Libre / Mister",
           "is_mine": false,
           "is_free": true,
           "position": 2,
-          "market_value": 5380000,
-          "displayed_points": 15,
-          "daily_market_change": -8000,
-          "weekly_market_change": 275000,
+          "market_value": null,
+          "displayed_points": null,
+          "daily_market_change": null,
+          "weekly_market_change": null,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/5.png?version=20221205131749",
           "recent": [
             {
@@ -13144,7 +13412,7 @@
           "is_mine": false,
           "is_free": false,
           "position": 2,
-          "market_value": 856000,
+          "market_value": 922000,
           "displayed_points": 15,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -13338,7 +13606,7 @@
           "is_mine": false,
           "is_free": false,
           "position": 3,
-          "market_value": 2402000,
+          "market_value": 2481000,
           "displayed_points": 17,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -13407,10 +13675,10 @@
           "is_mine": true,
           "is_free": false,
           "position": 4,
-          "market_value": 5367000,
+          "market_value": 5408000,
           "displayed_points": 19,
-          "daily_market_change": 53000,
-          "weekly_market_change": 938000,
+          "daily_market_change": 41000,
+          "weekly_market_change": 822000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/5.png?version=20221205131749",
           "recent": [
             {
@@ -13557,10 +13825,10 @@
           "team_id": "16",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/56971.png?version=20251006023111",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version=20221205131749",
-          "market_value": 1104000,
+          "market_value": 1139000,
           "displayed_points": 0,
-          "daily_market_change": 34000,
-          "weekly_market_change": 401000,
+          "daily_market_change": 35000,
+          "weekly_market_change": 385000,
           "in_starting_xi": false,
           "gameweek": null
         },
@@ -13571,10 +13839,10 @@
           "team_id": "23",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/36046.png?version=20260201092605",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/23.png?version=20221205131749",
-          "market_value": 3224000,
+          "market_value": 3296000,
           "displayed_points": 13,
-          "daily_market_change": 67000,
-          "weekly_market_change": 601000,
+          "daily_market_change": 72000,
+          "weekly_market_change": 595000,
           "in_starting_xi": true,
           "gameweek": null
         },
@@ -13585,10 +13853,10 @@
           "team_id": "16",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/59371.png?version=20240802114718",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version=20221205131749",
-          "market_value": 4242000,
+          "market_value": 4355000,
           "displayed_points": 16,
-          "daily_market_change": 109000,
-          "weekly_market_change": 952000,
+          "daily_market_change": 113000,
+          "weekly_market_change": 939000,
           "in_starting_xi": false,
           "gameweek": null
         },
@@ -13599,29 +13867,15 @@
           "team_id": "23",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/20449.png?version=20260730085621",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/23.png?version=20221205131749",
-          "market_value": 2351000,
+          "market_value": 2346000,
           "displayed_points": 14,
-          "daily_market_change": 12000,
-          "weekly_market_change": 451000,
+          "daily_market_change": -5000,
+          "weekly_market_change": 369000,
           "in_starting_xi": false,
           "gameweek": null
         }
       ],
       "market_players": [
-        {
-          "player_id": "20449",
-          "name": "F. Niño",
-          "position": 4,
-          "team_id": "23",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/20449.png?version=20260730085621",
-          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/23.png?version=20221205131749",
-          "market_value": 2351000,
-          "displayed_points": 14,
-          "daily_market_change": 12000,
-          "weekly_market_change": 451000,
-          "in_starting_xi": false,
-          "gameweek": null
-        },
         {
           "player_id": "15566",
           "name": "Y. Herrera",
@@ -13629,10 +13883,38 @@
           "team_id": "16",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/15566.png?version=20251004234650",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version=20221205131749",
-          "market_value": 2519000,
+          "market_value": 2549000,
           "displayed_points": 10,
-          "daily_market_change": 32000,
-          "weekly_market_change": 345000,
+          "daily_market_change": 30000,
+          "weekly_market_change": 328000,
+          "in_starting_xi": false,
+          "gameweek": null
+        },
+        {
+          "player_id": "20449",
+          "name": "F. Niño",
+          "position": 4,
+          "team_id": "23",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/20449.png?version=20260730085621",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/23.png?version=20221205131749",
+          "market_value": 2346000,
+          "displayed_points": 14,
+          "daily_market_change": -5000,
+          "weekly_market_change": 369000,
+          "in_starting_xi": false,
+          "gameweek": null
+        },
+        {
+          "player_id": "65136",
+          "name": "F. Redondo",
+          "position": 3,
+          "team_id": "23",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/65136.png?version=20250814153342",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/23.png?version=20221205131749",
+          "market_value": 482000,
+          "displayed_points": 2,
+          "daily_market_change": -47000,
+          "weekly_market_change": -353000,
           "in_starting_xi": false,
           "gameweek": null
         },
@@ -13643,66 +13925,38 @@
           "team_id": "16",
           "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/56971.png?version=20251006023111",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version=20221205131749",
-          "market_value": 1104000,
+          "market_value": 1139000,
           "displayed_points": 0,
-          "daily_market_change": 34000,
-          "weekly_market_change": 401000,
+          "daily_market_change": 35000,
+          "weekly_market_change": 385000,
           "in_starting_xi": false,
           "gameweek": null
         },
         {
-          "player_id": "59789",
-          "name": "O. Óskarsson",
-          "position": 4,
+          "player_id": "55664",
+          "name": "U. Marrero",
+          "position": 1,
           "team_id": "16",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/59789.png?version=20251004234219",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/55664.png?version=20251004234343",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version=20221205131749",
-          "market_value": 5504000,
-          "displayed_points": 15,
-          "daily_market_change": 52000,
-          "weekly_market_change": 472000,
+          "market_value": 258000,
+          "displayed_points": 0,
+          "daily_market_change": -33000,
+          "weekly_market_change": -144000,
           "in_starting_xi": false,
           "gameweek": null
         },
         {
-          "player_id": "68465",
-          "name": "A. Osorio",
-          "position": 4,
+          "player_id": "64410",
+          "name": "A. Iturbe",
+          "position": 1,
           "team_id": "23",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/68465.png?version=20260112092536",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/64410.png?version=20250717112218",
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/23.png?version=20221205131749",
-          "market_value": 197000,
+          "market_value": 196000,
           "displayed_points": 0,
-          "daily_market_change": -17000,
-          "weekly_market_change": 21000,
-          "in_starting_xi": false,
-          "gameweek": null
-        },
-        {
-          "player_id": "4888",
-          "name": "C. Soler",
-          "position": 3,
-          "team_id": "16",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/4888.png?version=20250901203628",
-          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version=20221205131749",
-          "market_value": 8761000,
-          "displayed_points": 11,
-          "daily_market_change": -9000,
-          "weekly_market_change": -170000,
-          "in_starting_xi": false,
-          "gameweek": null
-        },
-        {
-          "player_id": "71019",
-          "name": "K. Kita",
-          "position": 2,
-          "team_id": "16",
-          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71019.png?version=20260630155354",
-          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version=20221205131749",
-          "market_value": 170000,
-          "displayed_points": 0,
-          "daily_market_change": -39000,
-          "weekly_market_change": 8000,
+          "daily_market_change": -28000,
+          "weekly_market_change": 30000,
           "in_starting_xi": false,
           "gameweek": null
         }
@@ -14117,10 +14371,10 @@
           "is_mine": true,
           "is_free": false,
           "position": 3,
-          "market_value": 3224000,
+          "market_value": 3296000,
           "displayed_points": 13,
-          "daily_market_change": 67000,
-          "weekly_market_change": 601000,
+          "daily_market_change": 72000,
+          "weekly_market_change": 595000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/23.png?version=20221205131749",
           "recent": [
             {
@@ -14279,7 +14533,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 10221000,
+          "market_value": 10219000,
           "displayed_points": 25,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -14417,7 +14671,7 @@
           "is_mine": false,
           "is_free": false,
           "position": null,
-          "market_value": 4811000,
+          "market_value": 4958000,
           "displayed_points": 15,
           "daily_market_change": null,
           "weekly_market_change": null,
@@ -14825,14 +15079,14 @@
           "player_id": "4888",
           "points": null,
           "team_side": "away",
-          "owner_name": "Libre",
+          "owner_name": "Libre / Mister",
           "is_mine": false,
           "is_free": true,
           "position": 3,
-          "market_value": 8761000,
-          "displayed_points": 11,
-          "daily_market_change": -9000,
-          "weekly_market_change": -170000,
+          "market_value": null,
+          "displayed_points": null,
+          "daily_market_change": null,
+          "weekly_market_change": null,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version=20221205131749",
           "recent": [
             {
@@ -14898,10 +15152,10 @@
           "is_mine": true,
           "is_free": false,
           "position": 3,
-          "market_value": 4242000,
+          "market_value": 4355000,
           "displayed_points": 16,
-          "daily_market_change": 109000,
-          "weekly_market_change": 952000,
+          "daily_market_change": 113000,
+          "weekly_market_change": 939000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version=20221205131749",
           "recent": [
             {
@@ -14968,10 +15222,10 @@
           "is_mine": false,
           "is_free": false,
           "position": 3,
-          "market_value": 2519000,
+          "market_value": 2549000,
           "displayed_points": 10,
-          "daily_market_change": 32000,
-          "weekly_market_change": 345000,
+          "daily_market_change": 30000,
+          "weekly_market_change": 328000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version=20221205131749",
           "recent": [
             {
@@ -15114,14 +15368,14 @@
           "player_id": "59789",
           "points": null,
           "team_side": "away",
-          "owner_name": "Libre",
+          "owner_name": "José Luis",
           "is_mine": false,
-          "is_free": true,
+          "is_free": false,
           "position": 4,
-          "market_value": 5504000,
+          "market_value": 5563000,
           "displayed_points": 15,
-          "daily_market_change": 52000,
-          "weekly_market_change": 472000,
+          "daily_market_change": null,
+          "weekly_market_change": null,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version=20221205131749",
           "recent": [
             {
@@ -15199,10 +15453,10 @@
     "matches_still_without_kickoff": 0
   },
   "all_player_intelligence": {
-    "captured_at": "2026-09-05T00:21:06+02:00",
+    "captured_at": "2026-09-05T15:27:05+02:00",
     "semantics": "Candidate universe is every player Mister exposes for each match. Ownership is metadata only, never an eligibility filter.",
     "profile_cache_refreshed": 72,
-    "profile_cache_pending": 7,
+    "profile_cache_pending": 56,
     "featured_profiles_cached": 8,
     "featured_profile_semantics": "Top performers and event players use real Mister profile/gameweek popups for detailed recent form."
   }
