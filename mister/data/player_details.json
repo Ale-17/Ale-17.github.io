@@ -933,10 +933,10 @@
     },
     "63": {
       "player_id": "63",
-      "name": "Marc Bartra",
+      "name": "Marc",
       "profile_url": "https://mister.mundodeportivo.com/players/63/marc-bartra",
-      "season_points": 20,
-      "matches_played": 3,
+      "season_points": 23,
+      "matches_played": 4,
       "matches": [
         {
           "gameweek": "J1",
@@ -1079,6 +1079,64 @@
             "totalPass": 61
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 7,
+          "home_team": {
+            "id": "4",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
+            "name": "Betis"
+          },
+          "away_team": {
+            "id": "15",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=20221205131749",
+            "name": "Real Madrid"
+          },
+          "opponent": {
+            "id": "15",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=20221205131749",
+            "name": "Real Madrid"
+          },
+          "home_away": "home",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "minutes": 51,
+          "score": "1 - 0",
+          "providers": {
+            "as": {
+              "points": 6,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 9,
+              "rating": 7.9
+            }
+          },
+          "sofascore_rating": 7.9,
+          "market_value_at_gameweek": 3630000,
+          "stats": {
+            "goalAssist": 0,
+            "onTargetScoringAttempt": 1,
+            "duelWon": 4,
+            "aerialLost": 1,
+            "totalClearance": 5,
+            "accuratePass": 11,
+            "minutesPlayed": 51,
+            "accurateLongBalls": 1,
+            "duelLost": 1,
+            "totalPass": 13,
+            "totalLongBalls": 3,
+            "totalTackle": 4
+          },
+          "source": "Mister player gameweek popup"
         }
       ],
       "capture_status": "ok",
@@ -3461,7 +3519,7 @@
     },
     "20449": {
       "player_id": "20449",
-      "name": "Fer Niño",
+      "name": "Fer",
       "profile_url": "https://mister.mundodeportivo.com/players/20449/fer-nino",
       "season_points": 14,
       "matches_played": 3,
@@ -3589,17 +3647,17 @@
           "points": 10,
           "home_team": {
             "id": "1490",
-            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=20260619162046",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=",
             "name": "Racing de Santander"
           },
           "away_team": {
             "id": "23",
-            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/23.png?version=20221205131749",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/23.png?version=",
             "name": "Elche"
           },
           "opponent": {
             "id": "1490",
-            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=20260619162046",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=",
             "name": "Racing de Santander"
           },
           "home_away": "away",
@@ -3640,7 +3698,7 @@
             "duelLost": 9,
             "totalPass": 13
           },
-          "source": "Mister player gameweek popup (robust async capture)"
+          "source": "Mister player gameweek popup"
         }
       ],
       "capture_status": "ok",
@@ -11446,8 +11504,8 @@
       "player_id": "54817",
       "name": "Arda",
       "profile_url": "https://mister.mundodeportivo.com/players/54817/arda-gueler",
-      "season_points": 27,
-      "matches_played": 3,
+      "season_points": 35,
+      "matches_played": 4,
       "capture_status": "ok",
       "matches": [
         {
@@ -11624,6 +11682,65 @@
             "goals": 1,
             "blockedScoringAttempt": 1,
             "accuratePass": 1
+          },
+          "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 8,
+          "home_team": {
+            "id": "4",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
+            "name": "Betis"
+          },
+          "away_team": {
+            "id": "15",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=20221205131749",
+            "name": "Real Madrid"
+          },
+          "opponent": {
+            "id": "4",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
+            "name": "Betis"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 64,
+          "score": "1 - 0",
+          "providers": {
+            "as": {
+              "points": 10,
+              "rating": null
+            },
+            "marca": {
+              "points": 6,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 7,
+              "rating": 7.4
+            }
+          },
+          "sofascore_rating": 7.4,
+          "market_value_at_gameweek": 13497000,
+          "stats": {
+            "goalAssist": 0,
+            "totalContest": 2,
+            "duelWon": 3,
+            "totalClearance": 1,
+            "accuratePass": 36,
+            "minutesPlayed": 64,
+            "accurateLongBalls": 6,
+            "duelLost": 6,
+            "keyPass": 7,
+            "totalPass": 40,
+            "totalLongBalls": 8,
+            "wonContest": 1,
+            "shotOffTarget": 2
           },
           "source": "Mister player gameweek popup"
         }
@@ -17909,10 +18026,10 @@
     },
     "2720265": {
       "player_id": "2720265",
-      "name": "Troy Parrott",
+      "name": "Troy",
       "profile_url": "https://mister.mundodeportivo.com/players/2720265/troy-parrott",
-      "season_points": 4,
-      "matches_played": 3,
+      "season_points": 13,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
@@ -17997,7 +18114,17 @@
             "name": null,
             "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version="
           },
-          "source": "Mister player profile DOM (popup unavailable)"
+          "source": "Mister player gameweek popup",
+          "home_team": {
+            "id": null,
+            "logo_url": null,
+            "name": ""
+          },
+          "away_team": {
+            "id": null,
+            "logo_url": null,
+            "name": ""
+          }
         },
         {
           "gameweek": "J3",
@@ -18054,6 +18181,61 @@
             "duelLost": 6
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 9,
+          "home_team": {
+            "id": "4",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
+            "name": "Betis"
+          },
+          "away_team": {
+            "id": "15",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=20221205131749",
+            "name": "Real Madrid"
+          },
+          "opponent": {
+            "id": "15",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=20221205131749",
+            "name": "Real Madrid"
+          },
+          "home_away": "home",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "minutes": 22,
+          "score": "1 - 0",
+          "providers": {
+            "as": {
+              "points": 9,
+              "rating": null
+            },
+            "marca": {
+              "points": 9,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 9,
+              "rating": 7.2
+            }
+          },
+          "sofascore_rating": 7.2,
+          "market_value_at_gameweek": 5297000,
+          "stats": {
+            "goalAssist": 0,
+            "onTargetScoringAttempt": 1,
+            "duelWon": 2,
+            "totalClearance": 1,
+            "goals": 1,
+            "accuratePass": 2,
+            "minutesPlayed": 22,
+            "totalPass": 3,
+            "totalTackle": 1
+          },
+          "source": "Mister player gameweek popup"
         }
       ],
       "missing_played_gameweek_ids": [],
@@ -19207,10 +19389,10 @@
     },
     "31496": {
       "player_id": "31496",
-      "name": "Héctor Bellerín",
+      "name": "Héctor",
       "profile_url": "https://mister.mundodeportivo.com/players/31496/hector-bellerin",
-      "season_points": 3,
-      "matches_played": 3,
+      "season_points": 10,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
@@ -19396,6 +19578,63 @@
             "totalLongBalls": 2
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 7,
+          "home_team": {
+            "id": "4",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
+            "name": "Betis"
+          },
+          "away_team": {
+            "id": "15",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=20221205131749",
+            "name": "Real Madrid"
+          },
+          "opponent": {
+            "id": "15",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=20221205131749",
+            "name": "Real Madrid"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "1 - 0",
+          "providers": {
+            "as": {
+              "points": 6,
+              "rating": null
+            },
+            "marca": {
+              "points": 6,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 7,
+              "rating": 7.4
+            }
+          },
+          "sofascore_rating": 7.4,
+          "market_value_at_gameweek": 4550000,
+          "stats": {
+            "goalAssist": 0,
+            "duelWon": 8,
+            "totalClearance": 2,
+            "accuratePass": 37,
+            "minutesPlayed": 90,
+            "accurateLongBalls": 1,
+            "duelLost": 6,
+            "keyPass": 1,
+            "totalPass": 43,
+            "totalLongBalls": 2,
+            "totalTackle": 7,
+            "interceptionWon": 2
+          },
+          "source": "Mister player gameweek popup"
         }
       ],
       "missing_played_gameweek_ids": [],
@@ -20444,10 +20683,10 @@
     },
     "53111": {
       "player_id": "53111",
-      "name": "Álvaro Valles",
+      "name": "Álvaro",
       "profile_url": "https://mister.mundodeportivo.com/players/53111/alvaro-valles",
-      "season_points": 17,
-      "matches_played": 3,
+      "season_points": 28,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
@@ -20637,6 +20876,63 @@
             "totalLongBalls": 11
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 11,
+          "home_team": {
+            "id": "4",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
+            "name": "Betis"
+          },
+          "away_team": {
+            "id": "15",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=20221205131749",
+            "name": "Real Madrid"
+          },
+          "opponent": {
+            "id": "15",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=20221205131749",
+            "name": "Real Madrid"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "1 - 0",
+          "providers": {
+            "as": {
+              "points": 10,
+              "rating": null
+            },
+            "marca": {
+              "points": 10,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 12,
+              "rating": 10.0
+            }
+          },
+          "sofascore_rating": 10.0,
+          "market_value_at_gameweek": 8352000,
+          "stats": {
+            "goalAssist": 0,
+            "duelWon": 2,
+            "savedShotsFromInsideTheBox": 6,
+            "totalClearance": 1,
+            "accuratePass": 11,
+            "minutesPlayed": 90,
+            "aerialWon": 2,
+            "accurateLongBalls": 3,
+            "saves": 6,
+            "totalPass": 20,
+            "totalLongBalls": 12,
+            "goalsPrevented": 2.6693
+          },
+          "source": "Mister player gameweek popup"
         }
       ],
       "missing_played_gameweek_ids": [],
@@ -33596,10 +33892,10 @@
     },
     "59499": {
       "player_id": "59499",
-      "name": "Natan Souza",
+      "name": "Natan",
       "profile_url": "https://mister.mundodeportivo.com/players/59499/natan-souza",
-      "season_points": 7,
-      "matches_played": 3,
+      "season_points": 14,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
@@ -33629,7 +33925,17 @@
             "name": null,
             "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/19.png?version="
           },
-          "source": "Mister player profile DOM (popup unavailable)"
+          "source": "Mister player gameweek popup",
+          "home_team": {
+            "id": null,
+            "logo_url": null,
+            "name": ""
+          },
+          "away_team": {
+            "id": null,
+            "logo_url": null,
+            "name": ""
+          }
         },
         {
           "gameweek": "J2",
@@ -33745,6 +34051,61 @@
             "totalLongBalls": 6
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 7,
+          "home_team": {
+            "id": "4",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
+            "name": "Betis"
+          },
+          "away_team": {
+            "id": "15",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=20221205131749",
+            "name": "Real Madrid"
+          },
+          "opponent": {
+            "id": "15",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=20221205131749",
+            "name": "Real Madrid"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "1 - 0",
+          "providers": {
+            "as": {
+              "points": 6,
+              "rating": null
+            },
+            "marca": {
+              "points": 6,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 7,
+              "rating": 7.5
+            }
+          },
+          "sofascore_rating": 7.5,
+          "market_value_at_gameweek": 5667000,
+          "stats": {
+            "goalAssist": 0,
+            "duelWon": 1,
+            "totalClearance": 6,
+            "accuratePass": 30,
+            "minutesPlayed": 90,
+            "accurateLongBalls": 1,
+            "duelLost": 1,
+            "totalPass": 31,
+            "totalLongBalls": 1,
+            "totalTackle": 1
+          },
+          "source": "Mister player gameweek popup"
         }
       ],
       "missing_played_gameweek_ids": [],
@@ -42603,27 +42964,27 @@
       ]
     }
   },
-  "featured_players_persisted": 31,
+  "featured_players_persisted": 20,
   "players_available_total": 258,
-  "relevant_capture_at": "2026-09-04T23:05:59+02:00",
-  "relevant_capture_scope": "all",
-  "relevant_players_total": 232,
-  "relevant_players_with_history": 219,
+  "relevant_capture_at": "2026-09-05T00:23:48+02:00",
+  "relevant_capture_scope": "hot",
+  "relevant_players_total": 225,
+  "relevant_players_with_history": 212,
   "relevant_players_without_played_history": 13,
   "relevant_players_incomplete": 0,
-  "relevant_expected_played_rows": 679,
-  "relevant_captured_played_rows": 679,
+  "relevant_expected_played_rows": 662,
+  "relevant_captured_played_rows": 662,
   "relevant_missing_played_rows": 0,
-  "relevant_recent_rows_complete": 679,
-  "relevant_recent_rows_total": 679,
-  "relevant_capture_requested": 19,
-  "relevant_capture_captured": 19,
+  "relevant_recent_rows_complete": 662,
+  "relevant_recent_rows_total": 662,
+  "relevant_capture_requested": 0,
+  "relevant_capture_captured": 0,
   "relevant_capture_failures": [],
   "incremental_refresh_gameweek_id": "4045",
   "incremental_refresh_requested": 19,
   "incremental_refresh_mine": 19,
   "incremental_refresh_live_missing": 0,
-  "featured_profiles_updated_at": "2026-09-04T16:21:14+02:00",
+  "featured_profiles_updated_at": "2026-09-05T00:23:17+02:00",
   "recent_transfer_profiles_updated_at": "2026-09-04T21:01:47+02:00",
   "recent_transfer_profiles_requested": 4,
   "recent_transfer_profiles_captured": 0,
