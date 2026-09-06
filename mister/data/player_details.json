@@ -259,7 +259,7 @@
         "valor": "3.303.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-06T10:09:33+02:00",
+      "relevant_capture_at": "2026-09-06T22:57:09+02:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -491,7 +491,7 @@
         "valor": "2.544.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-06T10:09:31+02:00",
+      "relevant_capture_at": "2026-09-06T22:57:06+02:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -757,7 +757,7 @@
         "valor": "5.433.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-06T10:09:29+02:00",
+      "relevant_capture_at": "2026-09-06T22:57:02+02:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -880,7 +880,7 @@
         "valor": "1.175.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-06T10:09:20+02:00",
+      "relevant_capture_at": "2026-09-06T22:56:53+02:00",
       "relevant_capture_sources": [
         "my_team",
         "market",
@@ -890,10 +890,10 @@
     },
     "118": {
       "player_id": "118",
-      "name": "Jonny",
+      "name": "Jonny Otto",
       "profile_url": "https://mister.mundodeportivo.com/players/118/jonny-otto",
       "season_points": 15,
-      "matches_played": 3,
+      "matches_played": 4,
       "matches": [
         {
           "gameweek": "J1",
@@ -1071,6 +1071,65 @@
             "totalPass": 22
           },
           "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 2,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 80,
+          "score": "5 - 2",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 2,
+              "rating": 6.4
+            }
+          },
+          "sofascore_rating": 6.4,
+          "market_value_at_gameweek": 3822000,
+          "stats": {
+            "duelWon": 5,
+            "goalAssist": 0,
+            "accuratePass": 34,
+            "accurateLongBalls": 2,
+            "duelLost": 4,
+            "totalPass": 39,
+            "totalLongBalls": 2,
+            "totalTackle": 3,
+            "aerialLost": 1,
+            "totalContest": 1,
+            "aerialWon": 2,
+            "minutesPlayed": 80,
+            "totalClearance": 4
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "capture_status": "ok",
@@ -1078,33 +1137,36 @@
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "profile_stats": {
         "cláusula": "6.147.000",
         "goles": "0",
-        "media": "4,3",
-        "partidos": "3",
-        "puntos": "13",
+        "media": "3,8",
+        "partidos": "4",
+        "puntos": "15",
         "tarjetas": "0",
         "valor": "4.098.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-06T10:09:26+02:00",
+      "relevant_capture_at": "2026-09-06T22:56:26+02:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
-        "league_roster"
+        "league_roster",
+        "featured"
       ]
     },
     "63": {
       "player_id": "63",
-      "name": "Marc",
+      "name": "Marc Bartra",
       "profile_url": "https://mister.mundodeportivo.com/players/63/marc-bartra",
       "season_points": 23,
       "matches_played": 4,
@@ -1307,7 +1369,7 @@
             "totalLongBalls": 3,
             "totalTackle": 4
           },
-          "source": "Mister player gameweek popup"
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "capture_status": "ok",
@@ -1315,36 +1377,39 @@
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "profile_stats": {
-        "cláusula": "5.445.000",
+        "cláusula": "5.967.000",
         "goles": "1",
-        "media": "6,7",
+        "media": "7,7",
         "partidos": "3",
-        "puntos": "20",
+        "puntos": "23",
         "tarjetas": "0",
-        "valor": "3.630.000"
+        "valor": "3.978.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-04T23:05:56+02:00",
+      "relevant_capture_at": "2026-09-06T22:56:55+02:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
-        "league_roster"
+        "league_roster",
+        "featured"
       ]
     },
     "71008": {
       "player_id": "71008",
       "name": "Rafita Garrido",
       "profile_url": "https://mister.mundodeportivo.com/players/71008/rafita-garrido",
-      "season_points": 10,
-      "matches_played": 3,
+      "season_points": 14,
+      "matches_played": 4,
       "matches": [
         {
           "gameweek": "J1",
@@ -1518,6 +1583,62 @@
             "totalPass": 56
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 4,
+          "home_team": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "away_team": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "opponent": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 67,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 6,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 3,
+              "rating": 6.7
+            }
+          },
+          "sofascore_rating": 6.7,
+          "market_value_at_gameweek": 1809000,
+          "stats": {
+            "duelWon": 3,
+            "goalAssist": 0,
+            "accuratePass": 26,
+            "duelLost": 4,
+            "totalPass": 27,
+            "wonContest": 3,
+            "aerialLost": 1,
+            "totalContest": 3,
+            "minutesPlayed": 67,
+            "totalClearance": 2
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "capture_status": "ok",
@@ -1525,24 +1646,26 @@
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "profile_stats": {
         "cláusula": "2.898.000",
         "goles": "0",
-        "media": "3,3",
-        "partidos": "3",
-        "puntos": "10",
-        "tarjetas": "0",
+        "media": "3,5",
+        "partidos": "4",
+        "puntos": "14",
+        "tarjetas": "1",
         "valor": "1.932.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-06T10:09:58+02:00",
+      "relevant_capture_at": "2026-09-06T22:57:25+02:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -1553,8 +1676,8 @@
       "player_id": "64411",
       "name": "Youssef Enríquez",
       "profile_url": "https://mister.mundodeportivo.com/players/64411/youssef-enriquez",
-      "season_points": 12,
-      "matches_played": 3,
+      "season_points": 15,
+      "matches_played": 4,
       "matches": [
         {
           "gameweek": "J1",
@@ -1725,6 +1848,61 @@
             "totalPass": 7
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 3,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "home_away": "home",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "minutes": 19,
+          "score": "5 - 2",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 4,
+              "rating": 6.9
+            }
+          },
+          "sofascore_rating": 6.9,
+          "market_value_at_gameweek": 1389000,
+          "stats": {
+            "duelWon": 1,
+            "goalAssist": 0,
+            "accuratePass": 13,
+            "accurateLongBalls": 2,
+            "totalPass": 16,
+            "totalLongBalls": 4,
+            "totalTackle": 1,
+            "minutesPlayed": 19,
+            "keyPass": 1
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "capture_status": "ok",
@@ -1732,24 +1910,26 @@
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "profile_stats": {
         "cláusula": "2.196.000",
         "goles": "0",
-        "media": "4,0",
-        "partidos": "3",
-        "puntos": "12",
+        "media": "3,8",
+        "partidos": "4",
+        "puntos": "15",
         "tarjetas": "0",
         "valor": "1.464.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-06T10:09:24+02:00",
+      "relevant_capture_at": "2026-09-06T22:56:57+02:00",
       "relevant_capture_sources": [
         "my_team",
         "market",
@@ -1963,7 +2143,7 @@
         "valor": "3.377.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-06T10:09:37+02:00",
+      "relevant_capture_at": "2026-09-06T22:57:14+02:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -2255,7 +2435,7 @@
       "name": "Kike Barja",
       "profile_url": "https://mister.mundodeportivo.com/players/17614/kike-barja",
       "season_points": 13,
-      "matches_played": 3,
+      "matches_played": 4,
       "matches": [
         {
           "gameweek": "J1",
@@ -2423,6 +2603,17 @@
             "totalPass": 4
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "opponent": {
+            "id": "48",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version="
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
         }
       ],
       "capture_status": "ok",
@@ -2430,12 +2621,14 @@
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "profile_stats": {
         "cláusula": "1.000.000",
@@ -2447,7 +2640,7 @@
         "valor": "612.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-06T10:09:06+02:00",
+      "relevant_capture_at": "2026-09-06T22:56:39+02:00",
       "relevant_capture_sources": [
         "my_team",
         "market",
@@ -2718,7 +2911,7 @@
         "valor": "4.482.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-06T10:09:48+02:00",
+      "relevant_capture_at": "2026-09-06T22:57:23+02:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -2951,7 +3144,7 @@
         "valor": "5.651.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-06T10:09:42+02:00",
+      "relevant_capture_at": "2026-09-06T22:57:17+02:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -3168,7 +3361,7 @@
         "valor": "4.078.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-06T10:09:45+02:00",
+      "relevant_capture_at": "2026-09-06T22:57:20+02:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -3177,7 +3370,7 @@
     },
     "24": {
       "player_id": "24",
-      "name": "Unai",
+      "name": "Unai López",
       "profile_url": "https://mister.mundodeportivo.com/players/24/unai-lopez",
       "season_points": 19,
       "matches_played": 4,
@@ -3416,7 +3609,7 @@
             "totalLongBalls": 8,
             "goalAssist": 2
           },
-          "source": "Mister player gameweek popup"
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "capture_status": "ok",
@@ -3424,36 +3617,39 @@
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "profile_stats": {
-        "cláusula": "5.235.000",
+        "cláusula": "5.418.000",
         "goles": "0",
-        "media": "4,7",
-        "partidos": "3",
-        "puntos": "14",
+        "media": "4,8",
+        "partidos": "4",
+        "puntos": "19",
         "tarjetas": "1",
-        "valor": "3.490.000"
+        "valor": "3.612.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-05T09:53:42+02:00",
+      "relevant_capture_at": "2026-09-06T22:56:42+02:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
-        "league_roster"
+        "league_roster",
+        "featured"
       ]
     },
     "68606": {
       "player_id": "68606",
       "name": "Ángel Pérez",
       "profile_url": "https://mister.mundodeportivo.com/players/68606/angel-perez",
-      "season_points": 17,
-      "matches_played": 3,
+      "season_points": 27,
+      "matches_played": 4,
       "matches": [
         {
           "gameweek": "J1",
@@ -3629,6 +3825,63 @@
             "keyPass": 1
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 10,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "5 - 2",
+          "providers": {
+            "as": {
+              "points": 10,
+              "rating": null
+            },
+            "marca": {
+              "points": 10,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 10,
+              "rating": 8.4
+            }
+          },
+          "sofascore_rating": 8.4,
+          "market_value_at_gameweek": 5388000,
+          "stats": {
+            "onTargetScoringAttempt": 1,
+            "totalLongBalls": 3,
+            "goalAssist": 2,
+            "accuratePass": 23,
+            "duelWon": 5,
+            "duelLost": 2,
+            "totalContest": 4,
+            "minutesPlayed": 90,
+            "wonContest": 4,
+            "keyPass": 3,
+            "accurateLongBalls": 2,
+            "totalPass": 30
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "capture_status": "ok",
@@ -3636,33 +3889,36 @@
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "profile_stats": {
         "cláusula": "8.326.500",
         "goles": "0",
-        "media": "5,7",
-        "partidos": "3",
-        "puntos": "17",
+        "media": "6,8",
+        "partidos": "4",
+        "puntos": "27",
         "tarjetas": "0",
         "valor": "5.551.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-06T10:09:52+02:00",
+      "relevant_capture_at": "2026-09-06T22:56:59+02:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
-        "league_roster"
+        "league_roster",
+        "featured"
       ]
     },
     "52189": {
       "player_id": "52189",
-      "name": "Ayoze",
+      "name": "Ayoze Pérez",
       "profile_url": "https://mister.mundodeportivo.com/players/52189/ayoze-perez",
       "season_points": 14,
       "matches_played": 4,
@@ -3896,7 +4152,7 @@
             "accuratePass": 16,
             "aerialWon": 1
           },
-          "source": "Mister player gameweek popup"
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "capture_status": "ok",
@@ -3904,33 +4160,37 @@
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "profile_stats": {
-        "cláusula": "10.826.000",
+        "cláusula": "10.926.000",
         "goles": "0",
-        "media": "3,3",
-        "partidos": "3",
-        "puntos": "10",
+        "media": "3,5",
+        "partidos": "4",
+        "puntos": "14",
         "tarjetas": "0",
-        "valor": "5.413.000"
+        "valor": "5.463.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-05T09:54:00+02:00",
+      "relevant_capture_at": "2026-09-06T22:56:23+02:00",
       "relevant_capture_sources": [
         "my_team",
+        "market",
         "recent_transfer",
-        "league_roster"
+        "league_roster",
+        "featured"
       ]
     },
     "20449": {
       "player_id": "20449",
-      "name": "Fer",
+      "name": "Fer Niño",
       "profile_url": "https://mister.mundodeportivo.com/players/20449/fer-nino",
       "season_points": 14,
       "matches_played": 3,
@@ -4058,17 +4318,17 @@
           "points": 10,
           "home_team": {
             "id": "1490",
-            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=20260619162046",
             "name": "Racing de Santander"
           },
           "away_team": {
             "id": "23",
-            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/23.png?version=",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/23.png?version=20221205131749",
             "name": "Elche"
           },
           "opponent": {
             "id": "1490",
-            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=20260619162046",
             "name": "Racing de Santander"
           },
           "home_away": "away",
@@ -4109,7 +4369,7 @@
             "duelLost": 9,
             "totalPass": 13
           },
-          "source": "Mister player gameweek popup"
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "capture_status": "ok",
@@ -4134,7 +4394,7 @@
         "valor": "2.341.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-06T10:08:59+02:00",
+      "relevant_capture_at": "2026-09-06T22:56:21+02:00",
       "relevant_capture_sources": [
         "my_team",
         "market",
@@ -4399,7 +4659,7 @@
         "valor": "5.440.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-06T10:09:04+02:00",
+      "relevant_capture_at": "2026-09-06T22:56:28+02:00",
       "relevant_capture_sources": [
         "my_team",
         "market",
@@ -7206,7 +7466,7 @@
         "cláusula": "5.613.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-06T10:10:00+02:00",
+      "relevant_capture_at": "2026-09-06T22:57:27+02:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -8722,8 +8982,8 @@
       "player_id": "36048",
       "name": "Nahuel Tenaglia",
       "profile_url": "https://mister.mundodeportivo.com/players/36048/nahuel-tenaglia",
-      "season_points": 26,
-      "matches_played": 3,
+      "season_points": 28,
+      "matches_played": 4,
       "capture_status": "ok",
       "matches": [
         {
@@ -8905,11 +9165,99 @@
             "accuratePass": 8
           },
           "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 2,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "5 - 2",
+          "providers": {
+            "as": {
+              "points": 6,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 0,
+              "rating": 6.1
+            }
+          },
+          "sofascore_rating": 6.1,
+          "market_value_at_gameweek": 9555000,
+          "stats": {
+            "duelWon": 3,
+            "goalAssist": 0,
+            "accuratePass": 35,
+            "accurateLongBalls": 2,
+            "onTargetScoringAttempt": 1,
+            "duelLost": 6,
+            "interceptionWon": 1,
+            "totalPass": 40,
+            "totalLongBalls": 3,
+            "wonContest": 1,
+            "totalTackle": 1,
+            "aerialLost": 2,
+            "totalContest": 3,
+            "shotOffTarget": 1,
+            "minutesPlayed": 90,
+            "totalClearance": 4
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "recent_transfer_checked_at": "2026-09-04T16:21:14+02:00",
       "recent_transfer_error": "profile identity mismatch: expected 'Nahuel Tenaglia', got 'Nahuel'",
-      "last_transfer_seen_at": "2026-09-04 05:00:25"
+      "last_transfer_seen_at": "2026-09-04 05:00:25",
+      "expected_played_gameweek_ids": [
+        "3968",
+        "4043",
+        "4044",
+        "4045"
+      ],
+      "captured_played_gameweek_ids": [
+        "3968",
+        "4043",
+        "4044",
+        "4045"
+      ],
+      "profile_stats": {
+        "cláusula": "14.769.000",
+        "goles": "1",
+        "media": "7,0",
+        "partidos": "4",
+        "puntos": "28",
+        "tarjetas": "1",
+        "valor": "9.846.000"
+      },
+      "missing_played_gameweek_ids": [],
+      "relevant_capture_at": "2026-09-06T22:54:20+02:00",
+      "relevant_capture_sources": [
+        "recent_transfer",
+        "league_roster"
+      ]
     },
     "25867": {
       "player_id": "25867",
@@ -9438,7 +9786,7 @@
       "name": "Jon Ander",
       "profile_url": "https://mister.mundodeportivo.com/players/52117/jon-ander-olasagasti",
       "season_points": 21,
-      "matches_played": 3,
+      "matches_played": 4,
       "capture_status": "ok",
       "matches": [
         {
@@ -9615,18 +9963,106 @@
             "accuratePass": 26
           },
           "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 7,
+          "home_team": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "away_team": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "opponent": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 86,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 6,
+              "rating": null
+            },
+            "marca": {
+              "points": 6,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 7,
+              "rating": 7.4
+            }
+          },
+          "sofascore_rating": 7.4,
+          "market_value_at_gameweek": 3151000,
+          "stats": {
+            "duelWon": 10,
+            "goalAssist": 0,
+            "accuratePass": 16,
+            "accurateLongBalls": 1,
+            "blockedScoringAttempt": 1,
+            "duelLost": 3,
+            "totalPass": 28,
+            "totalLongBalls": 3,
+            "totalTackle": 3,
+            "aerialLost": 1,
+            "aerialWon": 2,
+            "minutesPlayed": 86,
+            "keyPass": 1,
+            "totalClearance": 2
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "recent_transfer_checked_at": "2026-09-05T11:06:54+02:00",
       "recent_transfer_error": "profile identity mismatch: expected 'Jon Ander Olasagasti', got 'Jon Ander'",
-      "last_transfer_seen_at": "2026-09-05 05:00:28"
+      "last_transfer_seen_at": "2026-09-05 05:00:28",
+      "expected_played_gameweek_ids": [
+        "3968",
+        "4043",
+        "4044",
+        "4045"
+      ],
+      "captured_played_gameweek_ids": [
+        "3968",
+        "4043",
+        "4044",
+        "4045"
+      ],
+      "profile_stats": {
+        "cláusula": "5.327.250",
+        "goles": "1",
+        "media": "6,5",
+        "partidos": "4",
+        "puntos": "26",
+        "tarjetas": "0",
+        "valor": "3.378.000"
+      },
+      "missing_played_gameweek_ids": [],
+      "relevant_capture_at": "2026-09-06T22:53:58+02:00",
+      "relevant_capture_sources": [
+        "recent_transfer",
+        "league_roster",
+        "featured"
+      ]
     },
     "70923": {
       "player_id": "70923",
-      "name": "Enzo",
+      "name": "Enzo Bardeli",
       "profile_url": "https://mister.mundodeportivo.com/players/70923/enzo-bardeli",
-      "season_points": 17,
-      "matches_played": 3,
+      "season_points": 20,
+      "matches_played": 4,
       "capture_status": "ok",
       "matches": [
         {
@@ -9791,7 +10227,89 @@
             "accuratePass": 25
           },
           "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 3,
+          "home_team": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "away_team": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "opponent": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 77,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 6,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 1,
+              "rating": 6.3
+            }
+          },
+          "sofascore_rating": 6.3,
+          "market_value_at_gameweek": 1242000,
+          "stats": {
+            "duelWon": 3,
+            "goalAssist": 0,
+            "accuratePass": 16,
+            "duelLost": 7,
+            "interceptionWon": 3,
+            "totalPass": 21,
+            "totalTackle": 3,
+            "totalContest": 1,
+            "shotOffTarget": 1,
+            "minutesPlayed": 77,
+            "keyPass": 2
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
+      ],
+      "expected_played_gameweek_ids": [
+        "3968",
+        "4043",
+        "4044",
+        "4045"
+      ],
+      "captured_played_gameweek_ids": [
+        "3968",
+        "4043",
+        "4044",
+        "4045"
+      ],
+      "profile_stats": {
+        "goles": "1",
+        "media": "5,0",
+        "partidos": "4",
+        "puntos": "20",
+        "tarjetas": "0",
+        "valor": "1.329.000"
+      },
+      "missing_played_gameweek_ids": [],
+      "relevant_capture_at": "2026-09-06T22:55:03+02:00",
+      "relevant_capture_sources": [
+        "recent_transfer"
       ]
     },
     "19727": {
@@ -10158,7 +10676,7 @@
       "player_id": "60888",
       "name": "Roberto",
       "profile_url": "https://mister.mundodeportivo.com/players/60888/roberto-fernandez",
-      "season_points": 31,
+      "season_points": 34,
       "matches_played": 3,
       "capture_status": "ok",
       "matches": [
@@ -10282,17 +10800,17 @@
           "points": 10,
           "home_team": {
             "id": "16",
-            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version=",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version=20221205131749",
             "name": "Real Sociedad"
           },
           "away_team": {
             "id": "8",
-            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/8.png?version=",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/8.png?version=20221205131749",
             "name": "Espanyol"
           },
           "opponent": {
             "id": "16",
-            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version=",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version=20221205131749",
             "name": "Real Sociedad"
           },
           "home_away": "away",
@@ -16207,27 +16725,29 @@
       "player_id": "22601",
       "name": "Pepelu",
       "profile_url": "https://mister.mundodeportivo.com/players/22601/pepelu",
-      "season_points": 11,
-      "matches_played": 3,
+      "season_points": 10,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
-        "cláusula": "9.211.500",
+        "cláusula": "8.862.000",
         "goles": "0",
-        "media": "3,7",
-        "partidos": "3",
-        "puntos": "11",
+        "media": "2,5",
+        "partidos": "4",
+        "puntos": "10",
         "tarjetas": "0",
-        "valor": "6.141.000"
+        "valor": "5.908.000"
       },
       "matches": [
         {
@@ -16401,10 +16921,68 @@
             "totalLongBalls": 5
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": -1,
+          "home_team": {
+            "id": "19",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/19.png?version=20221205131749",
+            "name": "Valencia"
+          },
+          "away_team": {
+            "id": "3",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517",
+            "name": "Barcelona"
+          },
+          "opponent": {
+            "id": "3",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517",
+            "name": "Barcelona"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 54,
+          "score": "0 - 5",
+          "providers": {
+            "as": {
+              "points": -2,
+              "rating": null
+            },
+            "marca": {
+              "points": -2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 0,
+              "rating": 6.1
+            }
+          },
+          "sofascore_rating": 6.1,
+          "market_value_at_gameweek": 6055000,
+          "stats": {
+            "duelWon": 1,
+            "goalAssist": 0,
+            "accuratePass": 16,
+            "accurateLongBalls": 4,
+            "duelLost": 3,
+            "interceptionWon": 2,
+            "totalPass": 18,
+            "totalLongBalls": 5,
+            "totalTackle": 1,
+            "aerialLost": 1,
+            "minutesPlayed": 54,
+            "totalClearance": 3
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:25:50+02:00",
+      "relevant_capture_at": "2026-09-06T22:53:35+02:00",
       "relevant_capture_sources": [
         "market",
         "recent_transfer",
@@ -17234,9 +17812,9 @@
     },
     "6034": {
       "player_id": "6034",
-      "name": "Edu Expósito",
+      "name": "Edu",
       "profile_url": "https://mister.mundodeportivo.com/players/6034/edu-exposito",
-      "season_points": 14,
+      "season_points": 17,
       "matches_played": 3,
       "expected_played_gameweek_ids": [
         "3968",
@@ -17441,7 +18019,7 @@
             "duelLost": 5,
             "totalLongBalls": 4
           },
-          "source": "Mister player gameweek popup (robust async capture)"
+          "source": "Mister player gameweek popup"
         }
       ],
       "missing_played_gameweek_ids": [],
@@ -17927,27 +18505,29 @@
       "player_id": "70999",
       "name": "Dani Lorenzo",
       "profile_url": "https://mister.mundodeportivo.com/players/70999/dani-lorenzo",
-      "season_points": 11,
-      "matches_played": 3,
+      "season_points": 15,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
-        "cláusula": "5.673.000",
+        "cláusula": "6.222.000",
         "goles": "0",
-        "media": "5,5",
-        "partidos": "2",
-        "puntos": "11",
-        "tarjetas": "0",
-        "valor": "3.782.000"
+        "media": "5,0",
+        "partidos": "3",
+        "puntos": "15",
+        "tarjetas": "1",
+        "valor": "4.148.000"
       },
       "matches": [
         {
@@ -18076,12 +18656,69 @@
             "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version="
           },
           "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 4,
+          "home_team": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "away_team": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "opponent": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 67,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 5,
+              "rating": 7.0
+            }
+          },
+          "sofascore_rating": 7.0,
+          "market_value_at_gameweek": 3892000,
+          "stats": {
+            "duelWon": 6,
+            "goalAssist": 0,
+            "accuratePass": 44,
+            "duelLost": 5,
+            "totalPass": 45,
+            "wonContest": 3,
+            "totalTackle": 1,
+            "aerialLost": 1,
+            "totalContest": 3,
+            "shotOffTarget": 1,
+            "minutesPlayed": 67,
+            "keyPass": 1
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:26:55+02:00",
+      "relevant_capture_at": "2026-09-06T22:54:39+02:00",
       "relevant_capture_sources": [
-        "market",
         "recent_transfer",
         "league_roster"
       ]
@@ -18536,27 +19173,29 @@
       "player_id": "1719",
       "name": "Aïssa Mandi",
       "profile_url": "https://mister.mundodeportivo.com/players/1719/aissa-mandi",
-      "season_points": 14,
-      "matches_played": 3,
+      "season_points": 18,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
-        "cláusula": "5.997.000",
+        "cláusula": "6.616.500",
         "goles": "0",
-        "media": "4,7",
-        "partidos": "3",
-        "puntos": "14",
-        "tarjetas": "0",
-        "valor": "3.998.000"
+        "media": "4,5",
+        "partidos": "4",
+        "puntos": "18",
+        "tarjetas": "1",
+        "valor": "4.411.000"
       },
       "matches": [
         {
@@ -18734,10 +19373,67 @@
             "totalLongBalls": 3
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 4,
+          "home_team": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "away_team": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "opponent": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 6,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 4,
+              "rating": 6.9
+            }
+          },
+          "sofascore_rating": 6.9,
+          "market_value_at_gameweek": 4127000,
+          "stats": {
+            "duelWon": 1,
+            "goalAssist": 0,
+            "accuratePass": 53,
+            "accurateLongBalls": 1,
+            "duelLost": 1,
+            "interceptionWon": 2,
+            "totalPass": 60,
+            "totalLongBalls": 6,
+            "totalTackle": 1,
+            "aerialLost": 1,
+            "minutesPlayed": 90,
+            "totalClearance": 3
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:27:39+02:00",
+      "relevant_capture_at": "2026-09-06T22:54:12+02:00",
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
@@ -18902,27 +19598,29 @@
       "player_id": "17615",
       "name": "Sergio Herrera",
       "profile_url": "https://mister.mundodeportivo.com/players/17615/sergio-herrera",
-      "season_points": 13,
-      "matches_played": 3,
+      "season_points": 12,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
-        "cláusula": "11.863.500",
+        "cláusula": "12.030.000",
         "goles": "0",
-        "media": "4,3",
-        "partidos": "3",
-        "puntos": "13",
+        "media": "3,0",
+        "partidos": "4",
+        "puntos": "12",
         "tarjetas": "2",
-        "valor": "7.909.000"
+        "valor": "8.020.000"
       },
       "matches": [
         {
@@ -19090,10 +19788,68 @@
             "totalLongBalls": 15
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": -1,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "5 - 2",
+          "providers": {
+            "as": {
+              "points": -2,
+              "rating": null
+            },
+            "marca": {
+              "points": -2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 0,
+              "rating": 6.0
+            }
+          },
+          "sofascore_rating": 6.0,
+          "market_value_at_gameweek": 7920000,
+          "stats": {
+            "duelWon": 1,
+            "goalAssist": 0,
+            "accuratePass": 14,
+            "accurateLongBalls": 7,
+            "saves": 2,
+            "totalPass": 19,
+            "totalLongBalls": 12,
+            "wonContest": 1,
+            "savedShotsFromInsideTheBox": 2,
+            "goalsPrevented": -1.3746,
+            "totalContest": 1,
+            "minutesPlayed": 90,
+            "totalClearance": 1
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:27:53+02:00",
+      "relevant_capture_at": "2026-09-06T22:54:15+02:00",
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
@@ -19103,27 +19859,29 @@
       "player_id": "22595",
       "name": "Joaquín Muñoz",
       "profile_url": "https://mister.mundodeportivo.com/players/22595/joaquin-munoz",
-      "season_points": 9,
-      "matches_played": 3,
+      "season_points": 13,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
-        "cláusula": "3.510.000",
+        "cláusula": "3.451.500",
         "goles": "0",
-        "media": "3,0",
-        "partidos": "3",
-        "puntos": "9",
+        "media": "3,3",
+        "partidos": "4",
+        "puntos": "13",
         "tarjetas": "0",
-        "valor": "2.340.000"
+        "valor": "2.301.000"
       },
       "matches": [
         {
@@ -19293,11 +20051,69 @@
             "totalLongBalls": 1
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 4,
+          "home_team": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "away_team": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "opponent": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "home_away": "home",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "minutes": 31,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 6,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 4,
+              "rating": 6.8
+            }
+          },
+          "sofascore_rating": 6.8,
+          "market_value_at_gameweek": 2352000,
+          "stats": {
+            "duelWon": 2,
+            "goalAssist": 0,
+            "accuratePass": 9,
+            "accurateLongBalls": 1,
+            "duelLost": 3,
+            "totalPass": 11,
+            "totalLongBalls": 1,
+            "wonContest": 1,
+            "totalContest": 2,
+            "minutesPlayed": 31,
+            "keyPass": 2
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:27:56+02:00",
+      "relevant_capture_at": "2026-09-06T22:53:32+02:00",
       "relevant_capture_sources": [
+        "market",
         "recent_transfer",
         "league_roster"
       ]
@@ -19306,27 +20122,29 @@
       "player_id": "25579",
       "name": "Oriol Rey",
       "profile_url": "https://mister.mundodeportivo.com/players/25579/oriol-rey",
-      "season_points": 11,
-      "matches_played": 3,
+      "season_points": 14,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
-        "cláusula": "1.920.000",
+        "cláusula": "2.122.000",
         "goles": "0",
-        "media": "3,7",
-        "partidos": "3",
-        "puntos": "11",
+        "media": "3,5",
+        "partidos": "4",
+        "puntos": "14",
         "tarjetas": "0",
-        "valor": "960.000"
+        "valor": "1.061.000"
       },
       "matches": [
         {
@@ -19500,10 +20318,69 @@
             "totalLongBalls": 2
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 3,
+          "home_team": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "away_team": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "opponent": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 4,
+              "rating": 6.8
+            }
+          },
+          "sofascore_rating": 6.8,
+          "market_value_at_gameweek": 1019000,
+          "stats": {
+            "duelWon": 2,
+            "goalAssist": 0,
+            "accuratePass": 26,
+            "accurateLongBalls": 1,
+            "duelLost": 2,
+            "interceptionWon": 1,
+            "totalPass": 31,
+            "totalLongBalls": 1,
+            "totalTackle": 1,
+            "totalContest": 1,
+            "aerialWon": 1,
+            "shotOffTarget": 1,
+            "minutesPlayed": 90,
+            "totalClearance": 1
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:27:58+02:00",
+      "relevant_capture_at": "2026-09-06T22:54:17+02:00",
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
@@ -19691,7 +20568,7 @@
           },
           "opponent": {
             "id": "1490",
-            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=20260619162046",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=",
             "name": "Racing de Santander"
           },
           "home_away": "home",
@@ -20352,10 +21229,10 @@
     },
     "29169": {
       "player_id": "29169",
-      "name": "Pablo Ibáñez",
+      "name": "Pablo",
       "profile_url": "https://mister.mundodeportivo.com/players/29169/pablo-ibanez",
-      "season_points": 11,
-      "matches_played": 3,
+      "season_points": 22,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
@@ -20552,6 +21429,66 @@
             "totalLongBalls": 3
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 11,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "5 - 2",
+          "providers": {
+            "as": {
+              "points": 10,
+              "rating": null
+            },
+            "marca": {
+              "points": 10,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 12,
+              "rating": 7.6
+            }
+          },
+          "sofascore_rating": 7.6,
+          "market_value_at_gameweek": 3092000,
+          "stats": {
+            "onTargetScoringAttempt": 1,
+            "totalTackle": 1,
+            "totalLongBalls": 2,
+            "totalClearance": 1,
+            "goalAssist": 0,
+            "accuratePass": 35,
+            "duelWon": 6,
+            "duelLost": 4,
+            "totalContest": 3,
+            "minutesPlayed": 90,
+            "wonContest": 2,
+            "accurateLongBalls": 1,
+            "goals": 1,
+            "aerialWon": 1,
+            "totalPass": 40
+          },
+          "source": "Mister player gameweek popup"
         }
       ],
       "missing_played_gameweek_ids": [],
@@ -20566,7 +21503,7 @@
       "name": "Mariano",
       "profile_url": "https://mister.mundodeportivo.com/players/3060/mariano-diaz",
       "season_points": 28,
-      "matches_played": 3,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
@@ -20763,6 +21700,65 @@
             "duelLost": 4
           },
           "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 11,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 71,
+          "score": "5 - 2",
+          "providers": {
+            "as": {
+              "points": 9,
+              "rating": null
+            },
+            "marca": {
+              "points": 9,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 13,
+              "rating": 8.0
+            }
+          },
+          "sofascore_rating": 8.0,
+          "market_value_at_gameweek": 1926000,
+          "stats": {
+            "goals": 1,
+            "duelWon": 3,
+            "goalAssist": 1,
+            "accuratePass": 3,
+            "onTargetScoringAttempt": 1,
+            "duelLost": 6,
+            "totalPass": 5,
+            "wonContest": 1,
+            "aerialLost": 3,
+            "totalContest": 2,
+            "aerialWon": 1,
+            "minutesPlayed": 71,
+            "keyPass": 1
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
@@ -21718,27 +22714,29 @@
       "player_id": "392",
       "name": "Denis Suárez",
       "profile_url": "https://mister.mundodeportivo.com/players/392/denis-suarez",
-      "season_points": 10,
-      "matches_played": 3,
+      "season_points": 13,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "cláusula": "2.998.821",
         "goles": "0",
         "media": "3,3",
-        "partidos": "3",
-        "puntos": "10",
+        "partidos": "4",
+        "puntos": "13",
         "tarjetas": "1",
-        "valor": "1.582.000"
+        "valor": "1.645.000"
       },
       "matches": [
         {
@@ -21907,10 +22905,65 @@
             "totalLongBalls": 1
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 3,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "home_away": "home",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "minutes": 19,
+          "score": "5 - 2",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 4,
+              "rating": 6.8
+            }
+          },
+          "sofascore_rating": 6.8,
+          "market_value_at_gameweek": 1602000,
+          "stats": {
+            "duelWon": 2,
+            "goalAssist": 0,
+            "accuratePass": 14,
+            "accurateLongBalls": 1,
+            "totalPass": 15,
+            "totalLongBalls": 1,
+            "aerialWon": 1,
+            "shotOffTarget": 1,
+            "minutesPlayed": 19
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:29:23+02:00",
+      "relevant_capture_at": "2026-09-06T22:54:23+02:00",
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
@@ -22807,27 +23860,29 @@
       "player_id": "53143",
       "name": "Abde Rebbach",
       "profile_url": "https://mister.mundodeportivo.com/players/53143/abde-rebbach",
-      "season_points": 9,
-      "matches_played": 3,
+      "season_points": 11,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "cláusula": "4.033.332",
         "goles": "0",
-        "media": "3,0",
-        "partidos": "3",
-        "puntos": "9",
-        "tarjetas": "2",
-        "valor": "2.398.000"
+        "media": "2,8",
+        "partidos": "4",
+        "puntos": "11",
+        "tarjetas": "3",
+        "valor": "2.379.000"
       },
       "matches": [
         {
@@ -23005,10 +24060,69 @@
             "totalLongBalls": 3
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 2,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 71,
+          "score": "5 - 2",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 1,
+              "rating": 6.3
+            }
+          },
+          "sofascore_rating": 6.3,
+          "market_value_at_gameweek": 2403000,
+          "stats": {
+            "duelWon": 5,
+            "goalAssist": 0,
+            "accuratePass": 14,
+            "accurateLongBalls": 1,
+            "duelLost": 4,
+            "interceptionWon": 4,
+            "totalPass": 18,
+            "totalLongBalls": 3,
+            "totalTackle": 3,
+            "aerialLost": 1,
+            "totalContest": 2,
+            "aerialWon": 1,
+            "minutesPlayed": 71
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:29:46+02:00",
+      "relevant_capture_at": "2026-09-06T22:54:25+02:00",
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
@@ -23229,26 +24343,29 @@
       "player_id": "58986",
       "name": "Abel Bretones",
       "profile_url": "https://mister.mundodeportivo.com/players/58986/abel-bretones",
-      "season_points": 11,
-      "matches_played": 3,
+      "season_points": 9,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "goles": "0",
-        "media": "3,7",
-        "partidos": "3",
-        "puntos": "11",
-        "tarjetas": "0",
-        "valor": "2.910.000"
+        "media": "2,3",
+        "partidos": "4",
+        "puntos": "9",
+        "tarjetas": "1",
+        "valor": "3.162.000",
+        "cláusula": "4.743.000"
       },
       "matches": [
         {
@@ -23427,13 +24544,70 @@
             "totalLongBalls": 6
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": -2,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "5 - 2",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": -2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": -4,
+              "rating": 4.9
+            }
+          },
+          "sofascore_rating": 4.9,
+          "market_value_at_gameweek": 2986000,
+          "stats": {
+            "duelWon": 3,
+            "goalAssist": 0,
+            "accuratePass": 23,
+            "accurateLongBalls": 1,
+            "duelLost": 8,
+            "interceptionWon": 1,
+            "totalPass": 29,
+            "totalLongBalls": 6,
+            "totalTackle": 3,
+            "aerialLost": 1,
+            "totalContest": 1,
+            "minutesPlayed": 90
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:29:52+02:00",
+      "relevant_capture_at": "2026-09-06T22:54:28+02:00",
       "relevant_capture_sources": [
-        "market",
-        "recent_transfer"
+        "recent_transfer",
+        "league_roster"
       ],
       "recent_transfer_checked_at": "2026-09-04T11:38:42+02:00",
       "recent_transfer_error": "profile identity mismatch: expected 'Abel Bretones', got 'Abel'",
@@ -23879,7 +25053,7 @@
     },
     "59415": {
       "player_id": "59415",
-      "name": "Dani Olmo",
+      "name": "Dani",
       "profile_url": "https://mister.mundodeportivo.com/players/59415/dani-olmo",
       "season_points": 21,
       "matches_played": 4,
@@ -24143,7 +25317,7 @@
         "recent_transfer",
         "league_roster"
       ],
-      "recent_transfer_checked_at": "2026-09-06T19:00:55+02:00",
+      "recent_transfer_checked_at": "2026-09-06T11:29:22+02:00",
       "recent_transfer_error": "profile identity mismatch: expected 'Dani Olmo', got 'Dani'",
       "last_transfer_seen_at": "2026-09-05 22:18:52"
     },
@@ -25834,27 +27008,29 @@
       "player_id": "67942",
       "name": "Íñigo Arguibide",
       "profile_url": "https://mister.mundodeportivo.com/players/67942/inigo-arguibide",
-      "season_points": 14,
-      "matches_played": 3,
+      "season_points": 15,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
-        "cláusula": "2.822.500",
+        "cláusula": "3.125.000",
         "goles": "0",
-        "media": "4,7",
-        "partidos": "3",
-        "puntos": "14",
+        "media": "3,8",
+        "partidos": "4",
+        "puntos": "15",
         "tarjetas": "0",
-        "valor": "1.129.000"
+        "valor": "1.250.000"
       },
       "matches": [
         {
@@ -26032,10 +27208,66 @@
             "totalLongBalls": 7
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 1,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 85,
+          "score": "5 - 2",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": -1,
+              "rating": 5.8
+            }
+          },
+          "sofascore_rating": 5.8,
+          "market_value_at_gameweek": 1167000,
+          "stats": {
+            "duelWon": 3,
+            "goalAssist": 0,
+            "accuratePass": 17,
+            "duelLost": 4,
+            "totalPass": 19,
+            "totalContest": 3,
+            "aerialWon": 1,
+            "minutesPlayed": 85,
+            "keyPass": 1,
+            "totalClearance": 1
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:31:00+02:00",
+      "relevant_capture_at": "2026-09-06T22:54:31+02:00",
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
@@ -26045,27 +27277,29 @@
       "player_id": "68361",
       "name": "Aitor Mañas",
       "profile_url": "https://mister.mundodeportivo.com/players/68361/aitor-manas",
-      "season_points": 4,
-      "matches_played": 3,
+      "season_points": 7,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "cláusula": "1.000.000",
         "goles": "0",
-        "media": "2,0",
-        "partidos": "2",
-        "puntos": "4",
+        "media": "2,3",
+        "partidos": "3",
+        "puntos": "7",
         "tarjetas": "0",
-        "valor": "202.000"
+        "valor": "243.000"
       },
       "matches": [
         {
@@ -26188,10 +27422,64 @@
             "duelLost": 1
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 3,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "home_away": "home",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "minutes": 19,
+          "score": "5 - 2",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 3,
+              "rating": 6.6
+            }
+          },
+          "sofascore_rating": 6.6,
+          "market_value_at_gameweek": 227000,
+          "stats": {
+            "duelWon": 2,
+            "goalAssist": 0,
+            "accuratePass": 3,
+            "totalPass": 4,
+            "wonContest": 1,
+            "totalContest": 1,
+            "aerialWon": 1,
+            "minutesPlayed": 19
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:31:11+02:00",
+      "relevant_capture_at": "2026-09-06T22:54:33+02:00",
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
@@ -26202,7 +27490,7 @@
       "name": "Thiago",
       "profile_url": "https://mister.mundodeportivo.com/players/68383/thiago-fernandez",
       "season_points": 11,
-      "matches_played": 3,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
@@ -26363,6 +27651,66 @@
             "totalLongBalls": 1
           },
           "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 3,
+          "home_team": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "away_team": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "opponent": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 77,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": -2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 5,
+              "rating": 7.0
+            }
+          },
+          "sofascore_rating": 7.0,
+          "market_value_at_gameweek": 833000,
+          "stats": {
+            "duelWon": 4,
+            "goalAssist": 0,
+            "accuratePass": 12,
+            "onTargetScoringAttempt": 1,
+            "blockedScoringAttempt": 2,
+            "duelLost": 4,
+            "interceptionWon": 1,
+            "totalPass": 16,
+            "totalLongBalls": 1,
+            "wonContest": 2,
+            "totalTackle": 2,
+            "totalContest": 2,
+            "minutesPlayed": 77,
+            "keyPass": 1
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
@@ -26377,26 +27725,28 @@
       "name": "Ville Koski",
       "profile_url": "https://mister.mundodeportivo.com/players/68652/ville-koski",
       "season_points": 10,
-      "matches_played": 3,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
-        "cláusula": "3.376.500",
+        "cláusula": "3.625.500",
         "goles": "0",
-        "media": "3,3",
-        "partidos": "3",
+        "media": "2,5",
+        "partidos": "4",
         "puntos": "10",
         "tarjetas": "0",
-        "valor": "2.251.000"
+        "valor": "2.417.000"
       },
       "matches": [
         {
@@ -26570,10 +27920,65 @@
             "totalLongBalls": 1
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 0,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "5 - 2",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": -2,
+              "rating": 5.7
+            }
+          },
+          "sofascore_rating": 5.7,
+          "market_value_at_gameweek": 2305000,
+          "stats": {
+            "duelWon": 2,
+            "goalAssist": 0,
+            "accuratePass": 34,
+            "duelLost": 10,
+            "interceptionWon": 3,
+            "totalPass": 39,
+            "aerialLost": 6,
+            "aerialWon": 2,
+            "minutesPlayed": 90,
+            "totalClearance": 5
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:31:25+02:00",
+      "relevant_capture_at": "2026-09-06T22:54:35+02:00",
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
@@ -28232,27 +29637,29 @@
       "player_id": "70998",
       "name": "Izan Merino",
       "profile_url": "https://mister.mundodeportivo.com/players/70998/izan-merino",
-      "season_points": 9,
-      "matches_played": 3,
+      "season_points": 12,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
-        "cláusula": "3.424.500",
+        "cláusula": "3.454.500",
         "goles": "0",
         "media": "3,0",
-        "partidos": "3",
-        "puntos": "9",
+        "partidos": "4",
+        "puntos": "12",
         "tarjetas": "0",
-        "valor": "2.283.000"
+        "valor": "2.303.000"
       },
       "matches": [
         {
@@ -28425,10 +29832,64 @@
             "totalLongBalls": 4
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 3,
+          "home_team": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "away_team": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "opponent": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "home_away": "home",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "minutes": 31,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 4,
+              "rating": 6.9
+            }
+          },
+          "sofascore_rating": 6.9,
+          "market_value_at_gameweek": 2297000,
+          "stats": {
+            "duelWon": 1,
+            "goalAssist": 0,
+            "accuratePass": 20,
+            "accurateLongBalls": 1,
+            "totalPass": 20,
+            "totalLongBalls": 1,
+            "totalTackle": 1,
+            "minutesPlayed": 31
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:32:55+02:00",
+      "relevant_capture_at": "2026-09-06T22:54:37+02:00",
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
@@ -28438,27 +29899,29 @@
       "player_id": "71004",
       "name": "Carlos Puga",
       "profile_url": "https://mister.mundodeportivo.com/players/71004/carlos-puga",
-      "season_points": 10,
-      "matches_played": 3,
+      "season_points": 14,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
-        "cláusula": "3.580.500",
+        "cláusula": "3.693.000",
         "goles": "0",
-        "media": "3,3",
-        "partidos": "3",
-        "puntos": "10",
-        "tarjetas": "1",
-        "valor": "2.387.000"
+        "media": "3,5",
+        "partidos": "4",
+        "puntos": "14",
+        "tarjetas": "2",
+        "valor": "2.462.000"
       },
       "matches": [
         {
@@ -28638,10 +30101,67 @@
             "totalLongBalls": 2
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 4,
+          "home_team": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "away_team": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "opponent": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "home_away": "home",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "minutes": 23,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 5,
+              "rating": 7.0
+            }
+          },
+          "sofascore_rating": 7.0,
+          "market_value_at_gameweek": 2422000,
+          "stats": {
+            "duelWon": 5,
+            "goalAssist": 0,
+            "accuratePass": 14,
+            "duelLost": 3,
+            "interceptionWon": 1,
+            "totalPass": 22,
+            "totalLongBalls": 2,
+            "wonContest": 3,
+            "totalTackle": 1,
+            "totalContest": 4,
+            "minutesPlayed": 23
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:32:57+02:00",
+      "relevant_capture_at": "2026-09-06T22:54:41+02:00",
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
@@ -29433,9 +30953,9 @@
     },
     "71623": {
       "player_id": "71623",
-      "name": "Roger Hinojo",
+      "name": "Roger",
       "profile_url": "https://mister.mundodeportivo.com/players/71623/roger-hinojo",
-      "season_points": 13,
+      "season_points": 16,
       "matches_played": 3,
       "expected_played_gameweek_ids": [
         "3968",
@@ -29630,7 +31150,7 @@
             "duelLost": 4,
             "totalLongBalls": 12
           },
-          "source": "Mister player gameweek popup (robust async capture)"
+          "source": "Mister player gameweek popup"
         }
       ],
       "missing_played_gameweek_ids": [],
@@ -31780,26 +33300,28 @@
       "player_id": "19527",
       "name": "Jon Moncayola",
       "profile_url": "https://mister.mundodeportivo.com/players/19527/jon-moncayola",
-      "season_points": 10,
-      "matches_played": 3,
+      "season_points": 11,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "goles": "0",
-        "media": "3,3",
-        "partidos": "3",
-        "puntos": "10",
+        "media": "2,8",
+        "partidos": "4",
+        "puntos": "11",
         "tarjetas": "0",
-        "valor": "5.128.000"
+        "valor": "5.004.000"
       },
       "matches": [
         {
@@ -31974,10 +33496,66 @@
             "totalLongBalls": 8
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 1,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "5 - 2",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 0,
+              "rating": 6.1
+            }
+          },
+          "sofascore_rating": 6.1,
+          "market_value_at_gameweek": 5112000,
+          "stats": {
+            "duelWon": 2,
+            "goalAssist": 0,
+            "accuratePass": 41,
+            "accurateLongBalls": 2,
+            "duelLost": 2,
+            "interceptionWon": 1,
+            "totalPass": 50,
+            "totalLongBalls": 9,
+            "totalTackle": 2,
+            "aerialLost": 2,
+            "minutesPlayed": 90
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:35:13+02:00",
+      "relevant_capture_at": "2026-09-06T22:54:43+02:00",
       "relevant_capture_sources": [
         "recent_transfer"
       ]
@@ -32602,26 +34180,28 @@
       "player_id": "270",
       "name": "Rubén García",
       "profile_url": "https://mister.mundodeportivo.com/players/270/ruben-garcia",
-      "season_points": 12,
-      "matches_played": 3,
+      "season_points": 14,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "goles": "0",
-        "media": "4,0",
-        "partidos": "3",
-        "puntos": "12",
+        "media": "3,5",
+        "partidos": "4",
+        "puntos": "14",
         "tarjetas": "0",
-        "valor": "5.317.000"
+        "valor": "5.177.000"
       },
       "matches": [
         {
@@ -32803,10 +34383,65 @@
             "totalLongBalls": 2
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 2,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 60,
+          "score": "5 - 2",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 2,
+              "rating": 6.5
+            }
+          },
+          "sofascore_rating": 6.5,
+          "market_value_at_gameweek": 5302000,
+          "stats": {
+            "duelWon": 2,
+            "goalAssist": 0,
+            "accuratePass": 13,
+            "accurateLongBalls": 3,
+            "totalPass": 17,
+            "totalLongBalls": 3,
+            "totalTackle": 2,
+            "minutesPlayed": 60,
+            "totalClearance": 1
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:35:27+02:00",
+      "relevant_capture_at": "2026-09-06T22:54:46+02:00",
       "relevant_capture_sources": [
         "recent_transfer"
       ]
@@ -33695,25 +35330,27 @@
       "name": "Jesús Vázquez",
       "profile_url": "https://mister.mundodeportivo.com/players/28791/jesus-vazquez",
       "season_points": 6,
-      "matches_played": 3,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "goles": "0",
-        "media": "2,0",
-        "partidos": "3",
+        "media": "1,5",
+        "partidos": "4",
         "puntos": "6",
         "tarjetas": "0",
-        "valor": "1.076.000"
+        "valor": "1.015.000"
       },
       "matches": [
         {
@@ -33887,19 +35524,76 @@
             "totalLongBalls": 4
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 0,
+          "home_team": {
+            "id": "19",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/19.png?version=20221205131749",
+            "name": "Valencia"
+          },
+          "away_team": {
+            "id": "3",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517",
+            "name": "Barcelona"
+          },
+          "opponent": {
+            "id": "3",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517",
+            "name": "Barcelona"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 54,
+          "score": "0 - 5",
+          "providers": {
+            "as": {
+              "points": -2,
+              "rating": null
+            },
+            "marca": {
+              "points": -2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 2,
+              "rating": 6.4
+            }
+          },
+          "sofascore_rating": 6.4,
+          "market_value_at_gameweek": 1072000,
+          "stats": {
+            "duelWon": 4,
+            "goalAssist": 0,
+            "accuratePass": 9,
+            "duelLost": 3,
+            "interceptionWon": 1,
+            "totalPass": 10,
+            "wonContest": 2,
+            "totalTackle": 2,
+            "totalContest": 3,
+            "minutesPlayed": 54,
+            "totalClearance": 2
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:37:37+02:00",
+      "relevant_capture_at": "2026-09-06T22:54:49+02:00",
       "relevant_capture_sources": [
         "recent_transfer"
       ]
     },
     "29163": {
       "player_id": "29163",
-      "name": "Omar El Hilali",
+      "name": "Omar El",
       "profile_url": "https://mister.mundodeportivo.com/players/29163/omar-el-hilali",
-      "season_points": 11,
+      "season_points": 14,
       "matches_played": 3,
       "expected_played_gameweek_ids": [
         "3968",
@@ -34050,7 +35744,7 @@
           },
           "opponent": {
             "id": "16",
-            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version=20221205131749",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version=",
             "name": "Real Sociedad"
           },
           "home_away": "away",
@@ -34091,7 +35785,7 @@
             "duelLost": 3,
             "totalLongBalls": 5
           },
-          "source": "Mister player gameweek popup (robust async capture)"
+          "source": "Mister player gameweek popup"
         }
       ],
       "missing_played_gameweek_ids": [],
@@ -34434,26 +36128,28 @@
       "player_id": "31226",
       "name": "Arnaut Danjuma",
       "profile_url": "https://mister.mundodeportivo.com/players/31226/arnaut-danjuma",
-      "season_points": 8,
-      "matches_played": 3,
+      "season_points": 12,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "goles": "0",
-        "media": "2,7",
-        "partidos": "3",
-        "puntos": "8",
+        "media": "3,0",
+        "partidos": "4",
+        "puntos": "12",
         "tarjetas": "0",
-        "valor": "3.298.000"
+        "valor": "3.328.000"
       },
       "matches": [
         {
@@ -34629,10 +36325,65 @@
             "totalLongBalls": 2
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 4,
+          "home_team": {
+            "id": "19",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/19.png?version=20221205131749",
+            "name": "Valencia"
+          },
+          "away_team": {
+            "id": "3",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517",
+            "name": "Barcelona"
+          },
+          "opponent": {
+            "id": "3",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517",
+            "name": "Barcelona"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 5",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 6,
+              "rating": 7.2
+            }
+          },
+          "sofascore_rating": 7.2,
+          "market_value_at_gameweek": 3305000,
+          "stats": {
+            "duelWon": 2,
+            "goalAssist": 0,
+            "accuratePass": 11,
+            "onTargetScoringAttempt": 2,
+            "duelLost": 2,
+            "totalPass": 12,
+            "aerialLost": 1,
+            "aerialWon": 1,
+            "shotOffTarget": 1,
+            "minutesPlayed": 90
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:38:14+02:00",
+      "relevant_capture_at": "2026-09-06T22:54:52+02:00",
       "relevant_capture_sources": [
         "recent_transfer"
       ],
@@ -35037,26 +36788,28 @@
       "player_id": "48210",
       "name": "Jonathan Dubasin",
       "profile_url": "https://mister.mundodeportivo.com/players/48210/jonathan-dubasin",
-      "season_points": 7,
-      "matches_played": 3,
+      "season_points": 9,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "goles": "0",
         "media": "2,3",
-        "partidos": "3",
-        "puntos": "7",
+        "partidos": "4",
+        "puntos": "9",
         "tarjetas": "1",
-        "valor": "1.628.000"
+        "valor": "1.682.000"
       },
       "matches": [
         {
@@ -35226,10 +36979,65 @@
             "totalLongBalls": 3
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 2,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "home_away": "away",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "minutes": 30,
+          "score": "5 - 2",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 2,
+              "rating": 6.5
+            }
+          },
+          "sofascore_rating": 6.5,
+          "market_value_at_gameweek": 1648000,
+          "stats": {
+            "duelWon": 3,
+            "goalAssist": 0,
+            "accuratePass": 13,
+            "duelLost": 4,
+            "totalPass": 17,
+            "totalTackle": 2,
+            "aerialWon": 1,
+            "minutesPlayed": 30,
+            "keyPass": 1
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:38:32+02:00",
+      "relevant_capture_at": "2026-09-06T22:54:54+02:00",
       "relevant_capture_sources": [
         "recent_transfer"
       ]
@@ -35501,7 +37309,7 @@
       "name": "Iker",
       "profile_url": "https://mister.mundodeportivo.com/players/52371/iker-munoz",
       "season_points": 15,
-      "matches_played": 3,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
@@ -35693,6 +37501,64 @@
             "totalLongBalls": 4
           },
           "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 3,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "5 - 2",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 3,
+              "rating": 6.7
+            }
+          },
+          "sofascore_rating": 6.7,
+          "market_value_at_gameweek": 1715000,
+          "stats": {
+            "duelWon": 7,
+            "goalAssist": 0,
+            "accuratePass": 58,
+            "accurateLongBalls": 5,
+            "duelLost": 7,
+            "interceptionWon": 4,
+            "totalPass": 68,
+            "totalLongBalls": 9,
+            "wonContest": 1,
+            "totalContest": 1,
+            "aerialWon": 4,
+            "minutesPlayed": 90,
+            "totalClearance": 2
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
@@ -36626,26 +38492,28 @@
       "player_id": "58436",
       "name": "Raúl Moro",
       "profile_url": "https://mister.mundodeportivo.com/players/58436/raul-moro",
-      "season_points": 3,
-      "matches_played": 3,
+      "season_points": 7,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "goles": "0",
-        "media": "3,0",
-        "partidos": "1",
-        "puntos": "3",
+        "media": "3,5",
+        "partidos": "2",
+        "puntos": "7",
         "tarjetas": "0",
-        "valor": "2.632.000"
+        "valor": "2.333.000"
       },
       "matches": [
         {
@@ -36723,10 +38591,68 @@
             "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/9.png?version="
           },
           "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 4,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "home_away": "away",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "minutes": 30,
+          "score": "5 - 2",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 5,
+              "rating": 7.1
+            }
+          },
+          "sofascore_rating": 7.1,
+          "market_value_at_gameweek": 2530000,
+          "stats": {
+            "duelWon": 2,
+            "goalAssist": 0,
+            "accuratePass": 10,
+            "accurateLongBalls": 1,
+            "duelLost": 3,
+            "totalPass": 12,
+            "totalLongBalls": 1,
+            "wonContest": 1,
+            "aerialLost": 1,
+            "totalContest": 3,
+            "minutesPlayed": 30,
+            "keyPass": 1
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:40:50+02:00",
+      "relevant_capture_at": "2026-09-06T22:54:57+02:00",
       "relevant_capture_sources": [
         "recent_transfer"
       ]
@@ -39313,26 +41239,28 @@
       "player_id": "65090",
       "name": "Filip Ugrinic",
       "profile_url": "https://mister.mundodeportivo.com/players/65090/filip-ugrinic",
-      "season_points": 9,
-      "matches_played": 3,
+      "season_points": 10,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "goles": "0",
-        "media": "3,0",
-        "partidos": "3",
-        "puntos": "9",
+        "media": "2,5",
+        "partidos": "4",
+        "puntos": "10",
         "tarjetas": "0",
-        "valor": "1.687.000"
+        "valor": "1.726.000"
       },
       "matches": [
         {
@@ -39514,10 +41442,67 @@
             "totalLongBalls": 6
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 1,
+          "home_team": {
+            "id": "19",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/19.png?version=20221205131749",
+            "name": "Valencia"
+          },
+          "away_team": {
+            "id": "3",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517",
+            "name": "Barcelona"
+          },
+          "opponent": {
+            "id": "3",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517",
+            "name": "Barcelona"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 5",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 0,
+              "rating": 6.0
+            }
+          },
+          "sofascore_rating": 6.0,
+          "market_value_at_gameweek": 1704000,
+          "stats": {
+            "duelWon": 1,
+            "goalAssist": 0,
+            "accuratePass": 28,
+            "accurateLongBalls": 2,
+            "duelLost": 7,
+            "interceptionWon": 2,
+            "totalPass": 35,
+            "totalLongBalls": 7,
+            "totalContest": 4,
+            "minutesPlayed": 90,
+            "keyPass": 1,
+            "totalClearance": 2
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:45:02+02:00",
+      "relevant_capture_at": "2026-09-06T22:54:59+02:00",
       "relevant_capture_sources": [
         "recent_transfer"
       ]
@@ -40329,26 +42314,28 @@
       "player_id": "69281",
       "name": "Nacho Pérez",
       "profile_url": "https://mister.mundodeportivo.com/players/69281/nacho-perez",
-      "season_points": 8,
-      "matches_played": 3,
+      "season_points": 11,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "goles": "0",
-        "media": "2,7",
-        "partidos": "3",
-        "puntos": "8",
+        "media": "2,8",
+        "partidos": "4",
+        "puntos": "11",
         "tarjetas": "0",
-        "valor": "1.177.000"
+        "valor": "1.200.000"
       },
       "matches": [
         {
@@ -40526,10 +42513,69 @@
             "totalLongBalls": 1
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 3,
+          "home_team": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "away_team": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "opponent": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 77,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 4,
+              "rating": 6.9
+            }
+          },
+          "sofascore_rating": 6.9,
+          "market_value_at_gameweek": 1194000,
+          "stats": {
+            "duelWon": 1,
+            "goalAssist": 0,
+            "accuratePass": 11,
+            "accurateLongBalls": 1,
+            "onTargetScoringAttempt": 1,
+            "duelLost": 1,
+            "interceptionWon": 1,
+            "totalPass": 15,
+            "totalLongBalls": 3,
+            "totalTackle": 1,
+            "aerialLost": 1,
+            "minutesPlayed": 77,
+            "totalClearance": 3
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:45:36+02:00",
+      "relevant_capture_at": "2026-09-06T22:55:01+02:00",
       "relevant_capture_sources": [
         "recent_transfer"
       ]
@@ -42286,26 +44332,28 @@
       "player_id": "70992",
       "name": "Chupete",
       "profile_url": "https://mister.mundodeportivo.com/players/70992/chupete",
-      "season_points": 10,
-      "matches_played": 3,
+      "season_points": 9,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "goles": "1",
-        "media": "3,3",
-        "partidos": "3",
-        "puntos": "10",
+        "media": "2,3",
+        "partidos": "4",
+        "puntos": "9",
         "tarjetas": "1",
-        "valor": "6.837.000"
+        "valor": "6.966.000"
       },
       "matches": [
         {
@@ -42478,10 +44526,67 @@
             "totalLongBalls": 2
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": -1,
+          "home_team": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "away_team": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "opponent": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": -2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": -2,
+              "rating": 5.7
+            }
+          },
+          "sofascore_rating": 5.7,
+          "market_value_at_gameweek": 6884000,
+          "stats": {
+            "duelWon": 4,
+            "goalAssist": 0,
+            "accuratePass": 8,
+            "onTargetScoringAttempt": 2,
+            "duelLost": 5,
+            "totalPass": 14,
+            "aerialLost": 2,
+            "totalContest": 1,
+            "aerialWon": 2,
+            "shotOffTarget": 2,
+            "minutesPlayed": 90,
+            "totalClearance": 2
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:48:21+02:00",
+      "relevant_capture_at": "2026-09-06T22:55:05+02:00",
       "relevant_capture_sources": [
         "recent_transfer"
       ]
@@ -42490,26 +44595,28 @@
       "player_id": "70996",
       "name": "David Larrubia",
       "profile_url": "https://mister.mundodeportivo.com/players/70996/david-larrubia",
-      "season_points": 12,
-      "matches_played": 3,
+      "season_points": 16,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "goles": "0",
         "media": "4,0",
-        "partidos": "3",
-        "puntos": "12",
+        "partidos": "4",
+        "puntos": "16",
         "tarjetas": "1",
-        "valor": "5.729.000"
+        "valor": "5.924.000"
       },
       "matches": [
         {
@@ -42684,10 +44791,70 @@
             "totalLongBalls": 4
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 4,
+          "home_team": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "away_team": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "opponent": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 6,
+              "rating": null
+            },
+            "marca": {
+              "points": 6,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 2,
+              "rating": 6.5
+            }
+          },
+          "sofascore_rating": 6.5,
+          "market_value_at_gameweek": 5787000,
+          "stats": {
+            "duelWon": 5,
+            "goalAssist": 0,
+            "accuratePass": 18,
+            "accurateLongBalls": 3,
+            "blockedScoringAttempt": 1,
+            "duelLost": 18,
+            "totalPass": 22,
+            "totalLongBalls": 4,
+            "wonContest": 3,
+            "totalTackle": 1,
+            "aerialLost": 1,
+            "totalContest": 12,
+            "shotOffTarget": 1,
+            "minutesPlayed": 90,
+            "keyPass": 1
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:48:24+02:00",
+      "relevant_capture_at": "2026-09-06T22:55:07+02:00",
       "relevant_capture_sources": [
         "recent_transfer"
       ]
@@ -43055,26 +45222,28 @@
       "player_id": "71138",
       "name": "Ryunosuke Sato",
       "profile_url": "https://mister.mundodeportivo.com/players/71138/ryunosuke-sato",
-      "season_points": 8,
-      "matches_played": 3,
+      "season_points": 10,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "captured_played_gameweek_ids": [
         "3968",
         "4043",
-        "4044"
+        "4044",
+        "4045"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "goles": "0",
-        "media": "2,7",
-        "partidos": "3",
-        "puntos": "8",
+        "media": "2,5",
+        "partidos": "4",
+        "puntos": "10",
         "tarjetas": "1",
-        "valor": "3.572.000"
+        "valor": "3.623.000"
       },
       "matches": [
         {
@@ -43244,10 +45413,65 @@
             "totalLongBalls": 1
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 2,
+          "home_team": {
+            "id": "19",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/19.png?version=20221205131749",
+            "name": "Valencia"
+          },
+          "away_team": {
+            "id": "3",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517",
+            "name": "Barcelona"
+          },
+          "opponent": {
+            "id": "3",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517",
+            "name": "Barcelona"
+          },
+          "home_away": "home",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "minutes": 28,
+          "score": "0 - 5",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 2,
+              "rating": 6.4
+            }
+          },
+          "sofascore_rating": 6.4,
+          "market_value_at_gameweek": 3597000,
+          "stats": {
+            "duelWon": 1,
+            "goalAssist": 0,
+            "accuratePass": 6,
+            "duelLost": 3,
+            "interceptionWon": 1,
+            "totalPass": 10,
+            "totalTackle": 1,
+            "totalContest": 1,
+            "minutesPlayed": 28
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-03T23:48:59+02:00",
+      "relevant_capture_at": "2026-09-06T22:55:09+02:00",
       "relevant_capture_sources": [
         "recent_transfer"
       ],
@@ -45446,7 +47670,7 @@
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-06T10:09:35+02:00",
+      "relevant_capture_at": "2026-09-06T22:57:12+02:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -46752,10 +48976,10 @@
     },
     "18004": {
       "player_id": "18004",
-      "name": "Ante Budimir",
+      "name": "Ante",
       "profile_url": "https://mister.mundodeportivo.com/players/18004/ante-budimir",
       "season_points": 24,
-      "matches_played": 3,
+      "matches_played": 4,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
@@ -46773,7 +48997,8 @@
         "partidos": "3",
         "puntos": "22",
         "tarjetas": "0",
-        "valor": "16.086.000"
+        "valor": "16.086.000",
+        "cláusula": "24.833.333"
       },
       "matches": [
         {
@@ -46951,6 +49176,66 @@
             "accuratePass": 10
           },
           "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 15,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "5 - 2",
+          "providers": {
+            "as": {
+              "points": 12,
+              "rating": null
+            },
+            "marca": {
+              "points": 12,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 17,
+              "rating": 9.1
+            }
+          },
+          "sofascore_rating": 9.1,
+          "market_value_at_gameweek": 16082000,
+          "stats": {
+            "goals": 2,
+            "duelWon": 13,
+            "goalAssist": 0,
+            "accuratePass": 7,
+            "onTargetScoringAttempt": 5,
+            "duelLost": 5,
+            "totalPass": 12,
+            "wonContest": 1,
+            "totalTackle": 2,
+            "aerialLost": 2,
+            "totalContest": 1,
+            "aerialWon": 7,
+            "shotOffTarget": 1,
+            "minutesPlayed": 90,
+            "totalClearance": 1
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
@@ -46958,7 +49243,7 @@
       "relevant_capture_sources": [
         "market"
       ],
-      "recent_transfer_checked_at": "2026-09-06T19:00:55+02:00",
+      "recent_transfer_checked_at": "2026-09-06T11:29:22+02:00",
       "recent_transfer_error": "profile identity mismatch: expected 'Ante Budimir', got 'Ante'",
       "last_transfer_seen_at": "2026-09-06 05:00:31"
     },
@@ -52686,8 +54971,8 @@
     },
     "55009": {
       "player_id": "55009",
-      "name": "F. López",
-      "profile_url": "https://mister.mundodeportivo.com/players/55009/f-lopez",
+      "name": "Fermín",
+      "profile_url": "https://mister.mundodeportivo.com/players/55009/fermin-lopez",
       "season_points": 50,
       "matches_played": 4,
       "capture_status": "ok",
@@ -52831,12 +55116,12 @@
           "opponent": {
             "id": "14",
             "name": "Rayo Vallecano",
-            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/14.png?version=20221205131749"
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/14.png?version="
           },
           "starter": false,
           "role": "bench",
           "sub_event": "sub_in",
-          "source": "Mister player gameweek popup (robust async capture)",
+          "source": "Mister player gameweek popup",
           "home_away": "home",
           "minutes": 26,
           "score": "5 - 2",
@@ -52928,7 +55213,7 @@
             "duelLost": 4,
             "goals": 1
           },
-          "source": "Mister player gameweek popup (robust async capture)"
+          "source": "Mister player gameweek popup"
         }
       ],
       "expected_played_gameweek_ids": [
@@ -53206,8 +55491,8 @@
     },
     "52375": {
       "player_id": "52375",
-      "name": "L. Yamal",
-      "profile_url": "https://mister.mundodeportivo.com/players/52375/l-yamal",
+      "name": "Lamine",
+      "profile_url": "https://mister.mundodeportivo.com/players/52375/lamine-yamal",
       "season_points": 44,
       "matches_played": 4,
       "capture_status": "ok",
@@ -53230,11 +55515,11 @@
           "opponent": {
             "id": "1",
             "name": "Athletic Club",
-            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1.png?version=20221205131749"
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1.png?version="
           },
           "starter": true,
           "role": "starter",
-          "source": "Mister player gameweek popup (robust async capture)",
+          "source": "Mister player gameweek popup",
           "home_away": "home",
           "minutes": 90,
           "score": "2 - 0",
@@ -53450,7 +55735,7 @@
             "duelLost": 7,
             "goals": 2
           },
-          "source": "Mister player gameweek popup (robust async capture)"
+          "source": "Mister player gameweek popup"
         }
       ],
       "expected_played_gameweek_ids": [
@@ -53505,12 +55790,12 @@
           "opponent": {
             "id": "1",
             "name": "Athletic Club",
-            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1.png?version=20221205131749"
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1.png?version="
           },
           "starter": true,
           "role": "starter",
           "sub_event": "sub_out",
-          "source": "Mister player gameweek popup (robust async capture)",
+          "source": "Mister player gameweek popup",
           "home_away": "home",
           "minutes": 63,
           "score": "2 - 0",
@@ -53568,12 +55853,12 @@
           "opponent": {
             "id": "23",
             "name": "Elche",
-            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/23.png?version=20221205131749"
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/23.png?version="
           },
           "starter": true,
           "role": "starter",
           "sub_event": "sub_out",
-          "source": "Mister player gameweek popup (robust async capture)",
+          "source": "Mister player gameweek popup",
           "home_away": "away",
           "minutes": 80,
           "score": "0 - 5",
@@ -53725,7 +56010,7 @@
             "duelLost": 1,
             "goals": 1
           },
-          "source": "Mister player gameweek popup (robust async capture)"
+          "source": "Mister player gameweek popup"
         }
       ],
       "expected_played_gameweek_ids": [
@@ -54422,31 +56707,1025 @@
           "source": "Mister player gameweek popup"
         }
       ]
+    },
+    "1737": {
+      "player_id": "1737",
+      "name": "Einar",
+      "profile_url": "https://mister.mundodeportivo.com/players/1737/einar-galilea",
+      "season_points": 12,
+      "matches_played": 4,
+      "capture_status": "ok",
+      "matches": [
+        {
+          "gameweek": "J1",
+          "gameweek_id": "3968",
+          "status": "played",
+          "points": 3,
+          "home_team": {
+            "id": "2",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/2.png?version=20240613184505",
+            "name": "Atlético"
+          },
+          "away_team": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "opponent": {
+            "id": "2",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/2.png?version=20240613184505",
+            "name": "Atlético"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 80,
+          "score": "2 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 4,
+              "rating": 6.8
+            }
+          },
+          "sofascore_rating": 6.8,
+          "market_value_at_gameweek": 1386000,
+          "stats": {
+            "totalTackle": 4,
+            "totalLongBalls": 7,
+            "totalClearance": 6,
+            "goalAssist": 0,
+            "accuratePass": 42,
+            "duelWon": 5,
+            "duelLost": 2,
+            "totalContest": 1,
+            "minutesPlayed": 80,
+            "wonContest": 1,
+            "aerialLost": 1,
+            "accurateLongBalls": 2,
+            "totalPass": 51
+          },
+          "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J2",
+          "gameweek_id": "4043",
+          "status": "played",
+          "points": 3,
+          "home_team": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "away_team": {
+            "id": "6",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/6.png?version=20260626093814",
+            "name": "Deportivo da Coruña"
+          },
+          "opponent": {
+            "id": "6",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/6.png?version=20260626093814",
+            "name": "Deportivo da Coruña"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "1 - 1",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 4,
+              "rating": 6.8
+            }
+          },
+          "sofascore_rating": 6.8,
+          "market_value_at_gameweek": 1544000,
+          "stats": {
+            "totalLongBalls": 6,
+            "totalClearance": 4,
+            "goalAssist": 0,
+            "accuratePass": 66,
+            "duelWon": 3,
+            "duelLost": 2,
+            "totalContest": 3,
+            "minutesPlayed": 90,
+            "wonContest": 3,
+            "aerialLost": 1,
+            "accurateLongBalls": 4,
+            "totalPass": 69
+          },
+          "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J3",
+          "gameweek_id": "4044",
+          "status": "played",
+          "points": 1,
+          "home_team": {
+            "id": "15",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=20221205131749",
+            "name": "Real Madrid"
+          },
+          "away_team": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "opponent": {
+            "id": "15",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=20221205131749",
+            "name": "Real Madrid"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 74,
+          "score": "4 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 0,
+              "rating": 6.1
+            }
+          },
+          "sofascore_rating": 6.1,
+          "market_value_at_gameweek": 1938000,
+          "stats": {
+            "totalClearance": 2,
+            "goalAssist": 0,
+            "accuratePass": 33,
+            "duelWon": 2,
+            "duelLost": 4,
+            "minutesPlayed": 74,
+            "interceptionWon": 2,
+            "aerialWon": 1,
+            "totalPass": 34
+          },
+          "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 5,
+          "home_team": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "away_team": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "opponent": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 6,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 5,
+              "rating": 7.1
+            }
+          },
+          "sofascore_rating": 7.1,
+          "market_value_at_gameweek": 2258000,
+          "stats": {
+            "totalLongBalls": 7,
+            "totalClearance": 6,
+            "goalAssist": 0,
+            "accuratePass": 85,
+            "duelWon": 1,
+            "duelLost": 1,
+            "minutesPlayed": 90,
+            "interceptionWon": 2,
+            "accurateLongBalls": 2,
+            "totalPass": 92
+          },
+          "source": "Mister player gameweek popup"
+        }
+      ]
+    },
+    "20131": {
+      "player_id": "20131",
+      "name": "Manu",
+      "profile_url": "https://mister.mundodeportivo.com/players/20131/manu-sanchez",
+      "season_points": 12,
+      "matches_played": 4,
+      "capture_status": "ok",
+      "matches": [
+        {
+          "gameweek": "J1",
+          "gameweek_id": "3968",
+          "status": "played",
+          "points": 1,
+          "home_team": {
+            "id": "8",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/8.png?version=20221205131749",
+            "name": "Espanyol"
+          },
+          "away_team": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "opponent": {
+            "id": "8",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/8.png?version=20221205131749",
+            "name": "Espanyol"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "3 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 0,
+              "rating": 6.0
+            }
+          },
+          "sofascore_rating": 6.0,
+          "market_value_at_gameweek": 1423000,
+          "stats": {
+            "totalTackle": 3,
+            "totalLongBalls": 3,
+            "goalAssist": 0,
+            "accuratePass": 55,
+            "duelWon": 6,
+            "duelLost": 7,
+            "totalContest": 2,
+            "minutesPlayed": 90,
+            "wonContest": 1,
+            "aerialLost": 2,
+            "accurateLongBalls": 2,
+            "aerialWon": 1,
+            "totalPass": 63
+          },
+          "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J2",
+          "gameweek_id": "4043",
+          "status": "played",
+          "points": 4,
+          "home_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "away_team": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "opponent": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 6,
+              "rating": 7.3
+            }
+          },
+          "sofascore_rating": 7.3,
+          "market_value_at_gameweek": 1592000,
+          "stats": {
+            "totalTackle": 2,
+            "totalLongBalls": 11,
+            "totalClearance": 6,
+            "goalAssist": 0,
+            "accuratePass": 50,
+            "duelWon": 4,
+            "duelLost": 6,
+            "totalContest": 2,
+            "minutesPlayed": 90,
+            "shotOffTarget": 1,
+            "aerialLost": 1,
+            "interceptionWon": 3,
+            "accurateLongBalls": 7,
+            "totalPass": 59
+          },
+          "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J3",
+          "gameweek_id": "4044",
+          "status": "played",
+          "points": 1,
+          "home_team": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "away_team": {
+            "id": "4",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
+            "name": "Betis"
+          },
+          "opponent": {
+            "id": "4",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
+            "name": "Betis"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "5 - 2",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 0,
+              "rating": 6.1
+            }
+          },
+          "sofascore_rating": 6.1,
+          "market_value_at_gameweek": 1879000,
+          "stats": {
+            "totalTackle": 1,
+            "totalLongBalls": 2,
+            "totalClearance": 5,
+            "goalAssist": 0,
+            "accuratePass": 23,
+            "duelWon": 2,
+            "duelLost": 9,
+            "minutesPlayed": 90,
+            "aerialLost": 2,
+            "interceptionWon": 2,
+            "aerialWon": 1,
+            "totalPass": 27
+          },
+          "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 6,
+          "home_team": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "away_team": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "opponent": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 10,
+              "rating": 8.0
+            }
+          },
+          "sofascore_rating": 8.0,
+          "market_value_at_gameweek": 2162000,
+          "stats": {
+            "totalTackle": 12,
+            "totalLongBalls": 9,
+            "totalClearance": 2,
+            "goalAssist": 0,
+            "accuratePass": 44,
+            "duelWon": 14,
+            "duelLost": 6,
+            "totalContest": 1,
+            "minutesPlayed": 90,
+            "keyPass": 1,
+            "accurateLongBalls": 4,
+            "totalPass": 49
+          },
+          "source": "Mister player gameweek popup"
+        }
+      ]
+    },
+    "56628": {
+      "player_id": "56628",
+      "name": "Lucien",
+      "profile_url": "https://mister.mundodeportivo.com/players/56628/lucien-agoume",
+      "season_points": 17,
+      "matches_played": 3,
+      "capture_status": "ok",
+      "matches": [
+        {
+          "gameweek": "J1",
+          "gameweek_id": "3968",
+          "status": "played",
+          "points": 4,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "14",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/14.png?version=20221205131749",
+            "name": "Rayo Vallecano"
+          },
+          "opponent": {
+            "id": "14",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/14.png?version=20221205131749",
+            "name": "Rayo Vallecano"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "2 - 1",
+          "providers": {
+            "as": {
+              "points": 6,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 4,
+              "rating": 6.9
+            }
+          },
+          "sofascore_rating": 6.9,
+          "market_value_at_gameweek": 2041000,
+          "stats": {
+            "totalTackle": 4,
+            "totalLongBalls": 7,
+            "totalClearance": 1,
+            "goalAssist": 0,
+            "accuratePass": 25,
+            "duelWon": 8,
+            "duelLost": 6,
+            "minutesPlayed": 90,
+            "aerialLost": 1,
+            "accurateLongBalls": 3,
+            "aerialWon": 1,
+            "totalPass": 35
+          },
+          "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J2",
+          "gameweek_id": "4043",
+          "status": "played",
+          "points": 7,
+          "home_team": {
+            "id": "1",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1.png?version=20221205131749",
+            "name": "Athletic Club"
+          },
+          "away_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "opponent": {
+            "id": "1",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1.png?version=20221205131749",
+            "name": "Athletic Club"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "1 - 3",
+          "providers": {
+            "as": {
+              "points": 10,
+              "rating": null
+            },
+            "marca": {
+              "points": 6,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 6,
+              "rating": 7.2
+            }
+          },
+          "sofascore_rating": 7.2,
+          "market_value_at_gameweek": 2436000,
+          "stats": {
+            "totalTackle": 5,
+            "totalLongBalls": 6,
+            "totalClearance": 8,
+            "goalAssist": 0,
+            "accuratePass": 21,
+            "duelWon": 5,
+            "duelLost": 6,
+            "minutesPlayed": 90,
+            "aerialLost": 1,
+            "interceptionWon": 5,
+            "accurateLongBalls": 2,
+            "totalPass": 27
+          },
+          "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J3",
+          "gameweek_id": "4044",
+          "status": "played",
+          "points": 3,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "2",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/2.png?version=20240613184505",
+            "name": "Atlético"
+          },
+          "opponent": {
+            "id": "2",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/2.png?version=20240613184505",
+            "name": "Atlético"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "1 - 3",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 4,
+              "rating": 6.8
+            }
+          },
+          "sofascore_rating": 6.8,
+          "market_value_at_gameweek": 3370000,
+          "stats": {
+            "totalTackle": 2,
+            "totalLongBalls": 4,
+            "goalAssist": 0,
+            "accuratePass": 41,
+            "duelWon": 4,
+            "duelLost": 2,
+            "minutesPlayed": 90,
+            "blockedScoringAttempt": 1,
+            "shotOffTarget": 1,
+            "aerialLost": 1,
+            "keyPass": 1,
+            "interceptionWon": 1,
+            "accurateLongBalls": 2,
+            "totalPass": 46
+          },
+          "source": "Mister player gameweek popup"
+        }
+      ]
+    },
+    "5920": {
+      "player_id": "5920",
+      "name": "Carles",
+      "profile_url": "https://mister.mundodeportivo.com/players/5920/carles-alena",
+      "season_points": 5,
+      "matches_played": 4,
+      "capture_status": "ok",
+      "matches": [
+        {
+          "gameweek": "J1",
+          "gameweek_id": "3968",
+          "status": "played",
+          "points": 0,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "9",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/9.png?version=20221205131749",
+            "name": "Getafe"
+          },
+          "opponent": {
+            "id": "9",
+            "name": "Getafe",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/9.png?version="
+          },
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "source": "Mister player gameweek popup",
+          "home_away": "home",
+          "minutes": 1,
+          "score": "3 - 0",
+          "providers": {
+            "as": {
+              "points": null,
+              "rating": null
+            },
+            "marca": {
+              "points": null,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 0,
+              "rating": null
+            }
+          },
+          "market_value_at_gameweek": 1552000,
+          "stats": {
+            "totalPass": 9,
+            "goalAssist": 0,
+            "accuratePass": 9,
+            "accurateLongBalls": 1,
+            "onTargetScoringAttempt": 1,
+            "totalLongBalls": 1,
+            "duelLost": 1,
+            "minutesPlayed": 1,
+            "totalContest": 1
+          }
+        },
+        {
+          "gameweek": "J2",
+          "gameweek_id": "4043",
+          "status": "played",
+          "points": 2,
+          "home_team": {
+            "id": "14",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/14.png?version=20221205131749",
+            "name": "Rayo Vallecano"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "14",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/14.png?version=20221205131749",
+            "name": "Rayo Vallecano"
+          },
+          "home_away": "away",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "minutes": 10,
+          "score": "1 - 1",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": null,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 3,
+              "rating": 6.6
+            }
+          },
+          "sofascore_rating": 6.6,
+          "market_value_at_gameweek": 1483000,
+          "stats": {
+            "totalTackle": 1,
+            "goalAssist": 0,
+            "accuratePass": 8,
+            "duelWon": 1,
+            "duelLost": 1,
+            "minutesPlayed": 10,
+            "keyPass": 1,
+            "totalPass": 9
+          },
+          "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J3",
+          "gameweek_id": "4044",
+          "status": "played",
+          "home_team": {
+            "id": null,
+            "logo_url": null,
+            "name": ""
+          },
+          "away_team": {
+            "id": null,
+            "logo_url": null,
+            "name": ""
+          },
+          "opponent": {
+            "id": "20",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/20.png?version="
+          },
+          "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "points": 3,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 71,
+          "score": "5 - 2",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 3,
+              "rating": 6.6
+            }
+          },
+          "sofascore_rating": 6.6,
+          "market_value_at_gameweek": 790000,
+          "stats": {
+            "totalTackle": 2,
+            "totalLongBalls": 1,
+            "totalClearance": 2,
+            "goalAssist": 1,
+            "accuratePass": 25,
+            "duelWon": 2,
+            "duelLost": 3,
+            "totalContest": 1,
+            "minutesPlayed": 71,
+            "blockedScoringAttempt": 1,
+            "keyPass": 1,
+            "interceptionWon": 1,
+            "totalPass": 30
+          },
+          "source": "Mister player gameweek popup"
+        }
+      ],
+      "expected_played_gameweek_ids": [
+        "3968",
+        "4043",
+        "4044",
+        "4045"
+      ],
+      "captured_played_gameweek_ids": [
+        "3968",
+        "4043",
+        "4044",
+        "4045"
+      ],
+      "profile_stats": {
+        "goles": "0",
+        "media": "1,7",
+        "partidos": "3",
+        "puntos": "5",
+        "tarjetas": "0",
+        "valor": "675.000"
+      },
+      "missing_played_gameweek_ids": [],
+      "relevant_capture_at": "2026-09-06T22:24:43+02:00",
+      "relevant_capture_sources": [
+        "featured"
+      ]
+    },
+    "71149": {
+      "player_id": "71149",
+      "name": "Gabriel",
+      "profile_url": "https://mister.mundodeportivo.com/players/71149/gabriel-moscardo",
+      "season_points": 6,
+      "matches_played": 3,
+      "capture_status": "ok",
+      "matches": [
+        {
+          "gameweek": "J1",
+          "gameweek_id": "3968",
+          "status": "played",
+          "home_team": {
+            "id": null,
+            "logo_url": null,
+            "name": ""
+          },
+          "away_team": {
+            "id": null,
+            "logo_url": null,
+            "name": ""
+          },
+          "opponent": {
+            "id": "12",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version="
+          },
+          "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J2",
+          "gameweek_id": "4043",
+          "status": "played",
+          "home_team": {
+            "id": null,
+            "logo_url": null,
+            "name": ""
+          },
+          "away_team": {
+            "id": null,
+            "logo_url": null,
+            "name": ""
+          },
+          "opponent": {
+            "id": "15",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version="
+          },
+          "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J3",
+          "gameweek_id": "4044",
+          "status": "played",
+          "points": 3,
+          "home_team": {
+            "id": "16",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version=20221205131749",
+            "name": "Real Sociedad"
+          },
+          "away_team": {
+            "id": "8",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/8.png?version=20221205131749",
+            "name": "Espanyol"
+          },
+          "opponent": {
+            "id": "16",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version=20221205131749",
+            "name": "Real Sociedad"
+          },
+          "home_away": "away",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "minutes": 45,
+          "score": "2 - 1",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 4,
+              "rating": 6.9
+            }
+          },
+          "sofascore_rating": 6.9,
+          "market_value_at_gameweek": 1715000,
+          "stats": {
+            "onTargetScoringAttempt": 1,
+            "totalTackle": 4,
+            "totalLongBalls": 1,
+            "totalClearance": 2,
+            "goalAssist": 0,
+            "accuratePass": 18,
+            "duelWon": 5,
+            "duelLost": 3,
+            "totalContest": 1,
+            "minutesPlayed": 45,
+            "aerialLost": 1,
+            "aerialWon": 1,
+            "totalPass": 21
+          },
+          "source": "Mister player gameweek popup"
+        }
+      ]
     }
   },
-  "featured_players_persisted": 69,
-  "players_available_total": 299,
-  "relevant_capture_at": "2026-09-06T19:01:43+02:00",
-  "relevant_capture_scope": "hot",
-  "relevant_players_total": 260,
-  "relevant_players_with_history": 247,
+  "featured_players_persisted": 80,
+  "players_available_total": 304,
+  "relevant_capture_at": "2026-09-06T22:57:27+02:00",
+  "relevant_capture_scope": "all",
+  "relevant_players_total": 265,
+  "relevant_players_with_history": 252,
   "relevant_players_without_played_history": 13,
   "relevant_players_incomplete": 0,
-  "relevant_expected_played_rows": 842,
-  "relevant_captured_played_rows": 842,
+  "relevant_expected_played_rows": 898,
+  "relevant_captured_played_rows": 898,
   "relevant_missing_played_rows": 0,
-  "relevant_recent_rows_complete": 842,
-  "relevant_recent_rows_total": 842,
-  "relevant_capture_requested": 3,
-  "relevant_capture_captured": 3,
+  "relevant_recent_rows_complete": 898,
+  "relevant_recent_rows_total": 898,
+  "relevant_capture_requested": 20,
+  "relevant_capture_captured": 20,
   "relevant_capture_failures": [],
   "incremental_refresh_gameweek_id": "4045",
-  "incremental_refresh_requested": 38,
+  "incremental_refresh_requested": 20,
   "incremental_refresh_mine": 20,
-  "incremental_refresh_live_missing": 20,
-  "featured_profiles_updated_at": "2026-09-06T18:59:45+02:00",
-  "recent_transfer_profiles_updated_at": "2026-09-06T19:00:55+02:00",
-  "recent_transfer_profiles_requested": 4,
+  "incremental_refresh_live_missing": 0,
+  "featured_profiles_updated_at": "2026-09-06T22:22:06+02:00",
+  "recent_transfer_profiles_updated_at": "2026-09-06T22:24:02+02:00",
+  "recent_transfer_profiles_requested": 2,
   "recent_transfer_profiles_captured": 0,
   "recent_transfer_profile_failures": [
     {
@@ -54458,16 +57737,6 @@
       "player_id": "59415",
       "name": "Dani Olmo",
       "error": "profile identity mismatch: expected 'Dani Olmo', got 'Dani'"
-    },
-    {
-      "player_id": "71503",
-      "name": "Mikel Rodriguez",
-      "error": "profile identity mismatch: expected 'Mikel Rodriguez', got 'Mikel'"
-    },
-    {
-      "player_id": "27517",
-      "name": "Isi Palazón",
-      "error": "profile identity mismatch: expected 'Isi Palazón', got 'Isi'"
     }
   ]
 }
