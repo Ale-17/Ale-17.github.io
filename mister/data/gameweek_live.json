@@ -1,13 +1,13 @@
 {
-  "captured_at": "2026-09-09T17:05:33+02:00",
-  "last_checked_at": "2026-09-09T17:05:33+02:00",
+  "captured_at": "2026-09-09T21:14:12+02:00",
+  "last_checked_at": "2026-09-09T21:14:12+02:00",
   "status": "ok",
   "source": "Mister .feed-top-gameweek + read-only match popup",
   "semantics": "Fantasy OS mirrors the active round shown by Mister and enriches compact fixture metadata from Mister's read-only match popup when the strip no longer exposes it.",
   "gameweek_id": "4046",
   "gameweek_number": 5,
   "name": "Jornada 5",
-  "status_text": "Empieza en 2 días",
+  "status_text": "Empieza en 1 día",
   "fantasy_position": null,
   "fantasy_points": null,
   "matches": [
@@ -1524,6 +1524,20 @@
           "gameweek": null
         },
         {
+          "player_id": "25867",
+          "name": "A. Blanco",
+          "position": 3,
+          "team_id": "48",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/25867.png?version=20251006023841",
+          "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+          "market_value": 7276000,
+          "displayed_points": 17,
+          "daily_market_change": 108000,
+          "weekly_market_change": 370000,
+          "in_starting_xi": false,
+          "gameweek": null
+        },
+        {
           "player_id": "392",
           "name": "D. Suárez",
           "position": 3,
@@ -2750,8 +2764,8 @@
           "position": 3,
           "market_value": 7276000,
           "displayed_points": 17,
-          "daily_market_change": null,
-          "weekly_market_change": null,
+          "daily_market_change": 108000,
+          "weekly_market_change": 370000,
           "team_logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
           "recent": [
             {
@@ -10758,6 +10772,20 @@
           "gameweek": null
         },
         {
+          "player_id": "308",
+          "name": "J. Mojica",
+          "position": 2,
+          "team_id": "9",
+          "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/308.png",
+          "team_logo_url": null,
+          "market_value": 2968000,
+          "displayed_points": 13,
+          "daily_market_change": 123000,
+          "weekly_market_change": 660000,
+          "in_starting_xi": false,
+          "gameweek": null
+        },
+        {
           "player_id": "71502",
           "name": "A. García",
           "position": 2,
@@ -11000,11 +11028,11 @@
           "owner_name": "Samuhg22",
           "is_mine": false,
           "is_free": false,
-          "position": null,
+          "position": 2,
           "market_value": 2968000,
           "displayed_points": 13,
-          "daily_market_change": null,
-          "weekly_market_change": null,
+          "daily_market_change": 123000,
+          "weekly_market_change": 660000,
           "team_logo_url": null,
           "recent": [
             {
@@ -15303,10 +15331,10 @@
     "matches_still_without_kickoff": 0
   },
   "all_player_intelligence": {
-    "captured_at": "2026-09-09T17:05:33+02:00",
+    "captured_at": "2026-09-09T21:14:12+02:00",
     "semantics": "Candidate universe is every player Mister exposes for each match. Ownership is metadata only, never an eligibility filter.",
     "profile_cache_refreshed": 72,
-    "profile_cache_pending": 76,
+    "profile_cache_pending": 4,
     "featured_profiles_cached": 0,
     "featured_profile_semantics": "Top performers and event players use real Mister profile/gameweek popups for detailed recent form."
   }
