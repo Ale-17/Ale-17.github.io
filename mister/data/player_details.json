@@ -5990,7 +5990,7 @@
     },
     "27865": {
       "player_id": "27865",
-      "name": "Jesús",
+      "name": "Jesús Areso",
       "profile_url": "https://mister.mundodeportivo.com/players/27865/jesus-areso",
       "season_points": 10,
       "matches_played": 4,
@@ -6217,7 +6217,10 @@
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-09-09T17:07:49+02:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Jesús Areso', got 'Jesús'",
+      "last_transfer_seen_at": "2026-09-09 10:44:59"
     },
     "361": {
       "player_id": "361",
@@ -25406,7 +25409,10 @@
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-09-09T17:07:49+02:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Carlos Romero', got 'Carlos'",
+      "last_transfer_seen_at": "2026-09-09 10:39:33"
     },
     "58986": {
       "player_id": "58986",
@@ -27439,7 +27445,10 @@
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-09-09T17:07:49+02:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Yoel Lago', got 'Yoel'",
+      "last_transfer_seen_at": "2026-09-09 10:36:23"
     },
     "64524": {
       "player_id": "64524",
@@ -31305,7 +31314,10 @@
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-09-09T17:07:49+02:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Carlos Puga', got 'Carlos'",
+      "last_transfer_seen_at": "2026-09-09 12:04:07"
     },
     "71132": {
       "player_id": "71132",
@@ -32618,7 +32630,10 @@
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-09-09T17:07:49+02:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Beñat Gerenabarrena', got 'Beñat'",
+      "last_transfer_seen_at": "2026-09-09 10:35:50"
     },
     "71795": {
       "player_id": "71795",
@@ -52904,7 +52919,7 @@
     },
     "52162": {
       "player_id": "52162",
-      "name": "Pape",
+      "name": "Pape Gueye",
       "profile_url": "https://mister.mundodeportivo.com/players/52162/pape-gueye",
       "season_points": 24,
       "matches_played": 4,
@@ -53169,9 +53184,9 @@
         "market",
         "featured"
       ],
-      "recent_transfer_checked_at": "2026-09-08T00:47:52+02:00",
+      "recent_transfer_checked_at": "2026-09-09T17:07:49+02:00",
       "recent_transfer_error": "profile identity mismatch: expected 'Pape Gueye', got 'Pape'",
-      "last_transfer_seen_at": "2026-09-07 05:00:28"
+      "last_transfer_seen_at": "2026-09-09 10:42:49"
     },
     "59382": {
       "player_id": "59382",
@@ -64765,7 +64780,7 @@
   },
   "featured_players_persisted": 15,
   "players_available_total": 337,
-  "relevant_capture_at": "2026-09-09T11:52:44+02:00",
+  "relevant_capture_at": "2026-09-09T17:08:20+02:00",
   "relevant_capture_scope": "hot",
   "relevant_players_total": 245,
   "relevant_players_with_history": 232,
@@ -64776,57 +64791,47 @@
   "relevant_missing_played_rows": 0,
   "relevant_recent_rows_complete": 852,
   "relevant_recent_rows_total": 852,
-  "relevant_capture_requested": 12,
-  "relevant_capture_captured": 12,
+  "relevant_capture_requested": 0,
+  "relevant_capture_captured": 0,
   "relevant_capture_failures": [],
   "incremental_refresh_gameweek_id": "4046",
   "incremental_refresh_requested": 18,
   "incremental_refresh_mine": 18,
   "incremental_refresh_live_missing": 0,
   "featured_profiles_updated_at": "2026-09-09T11:46:38+02:00",
-  "recent_transfer_profiles_updated_at": "2026-09-09T11:46:38+02:00",
-  "recent_transfer_profiles_requested": 8,
+  "recent_transfer_profiles_updated_at": "2026-09-09T17:07:49+02:00",
+  "recent_transfer_profiles_requested": 6,
   "recent_transfer_profiles_captured": 0,
   "recent_transfer_profile_failures": [
     {
-      "player_id": "70938",
-      "name": "Álvaro Mantilla",
-      "error": "profile identity mismatch: expected 'Álvaro Mantilla', got 'Álvaro'"
+      "player_id": "71004",
+      "name": "Carlos Puga",
+      "error": "profile identity mismatch: expected 'Carlos Puga', got 'Carlos'"
     },
     {
-      "player_id": "3046",
-      "name": "Ezequiel Ponce",
-      "error": "profile identity mismatch: expected 'Ezequiel Ponce', got 'Ezequiel'"
+      "player_id": "27865",
+      "name": "Jesús Areso",
+      "error": "profile identity mismatch: expected 'Jesús Areso', got 'Jesús'"
     },
     {
-      "player_id": "48556",
-      "name": "Andreas Christensen",
-      "error": "profile identity mismatch: expected 'Andreas Christensen', got 'Andreas'"
+      "player_id": "52162",
+      "name": "Pape Gueye",
+      "error": "profile identity mismatch: expected 'Pape Gueye', got 'Pape'"
     },
     {
-      "player_id": "14789",
-      "name": "Oihan Sancet",
-      "error": "profile identity mismatch: expected 'Oihan Sancet', got 'Oihan'"
+      "player_id": "55743",
+      "name": "Carlos Romero",
+      "error": "profile identity mismatch: expected 'Carlos Romero', got 'Carlos'"
     },
     {
-      "player_id": "4774441",
-      "name": "Matia Barzic",
-      "error": "profile identity mismatch: expected 'Matia Barzic', got 'Matia'"
+      "player_id": "60919",
+      "name": "Yoel Lago",
+      "error": "profile identity mismatch: expected 'Yoel Lago', got 'Yoel'"
     },
     {
-      "player_id": "616",
-      "name": "Rodri Hernández",
-      "error": "profile identity mismatch: expected 'Rodri Hernández', got 'Rodri'"
-    },
-    {
-      "player_id": "3845074",
-      "name": "Nathan Saliba",
-      "error": "profile identity mismatch: expected 'Nathan Saliba', got 'Nathan'"
-    },
-    {
-      "player_id": "64411",
-      "name": "Youssef Enríquez",
-      "error": "profile identity mismatch: expected 'Youssef Enríquez', got 'Youssef'"
+      "player_id": "71639",
+      "name": "Beñat Gerenabarrena",
+      "error": "profile identity mismatch: expected 'Beñat Gerenabarrena', got 'Beñat'"
     }
   ]
 }
