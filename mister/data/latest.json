@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-15T14:16:04+02:00",
+  "captured_at": "2026-09-15T16:25:03+02:00",
   "source": "github-actions-cloud",
   "initial_balance_assumption": 50000000,
   "last_team_reset_at": "2026-08-07 13:40:33",
@@ -32642,13 +32642,13 @@
             "rank": 3,
             "points": 45,
             "negative_at_that_closure": false,
-            "previous_closure_payment": null,
-            "delta_vs_previous_closure": 2075000,
-            "previous_snapshot_payment": null,
-            "delta_vs_previous_snapshot_payment": null,
+            "previous_closure_payment": 2075000,
+            "delta_vs_previous_closure": 0,
+            "previous_snapshot_payment": 2075000,
+            "delta_vs_previous_snapshot_payment": 0,
             "previous_feed_closure_payment": null,
             "delta_vs_previous_feed_closure": null,
-            "diagnostic_baseline": "first_seen",
+            "diagnostic_baseline": "previous_persisted_snapshot",
             "semantics": "current cumulative total for this gameweek; may change after a reopened/postponed match"
           }
         },
@@ -33806,13 +33806,13 @@
             "rank": 1,
             "points": 71,
             "negative_at_that_closure": false,
-            "previous_closure_payment": null,
-            "delta_vs_previous_closure": 2855000,
-            "previous_snapshot_payment": null,
-            "delta_vs_previous_snapshot_payment": null,
+            "previous_closure_payment": 2855000,
+            "delta_vs_previous_closure": 0,
+            "previous_snapshot_payment": 2855000,
+            "delta_vs_previous_snapshot_payment": 0,
             "previous_feed_closure_payment": null,
             "delta_vs_previous_feed_closure": null,
-            "diagnostic_baseline": "first_seen",
+            "diagnostic_baseline": "previous_persisted_snapshot",
             "semantics": "current cumulative total for this gameweek; may change after a reopened/postponed match"
           }
         },
@@ -34531,13 +34531,13 @@
             "rank": 2,
             "points": 53,
             "negative_at_that_closure": false,
-            "previous_closure_payment": null,
-            "delta_vs_previous_closure": 2215000,
-            "previous_snapshot_payment": null,
-            "delta_vs_previous_snapshot_payment": null,
+            "previous_closure_payment": 2215000,
+            "delta_vs_previous_closure": 0,
+            "previous_snapshot_payment": 2215000,
+            "delta_vs_previous_snapshot_payment": 0,
             "previous_feed_closure_payment": null,
             "delta_vs_previous_feed_closure": null,
-            "diagnostic_baseline": "first_seen",
+            "diagnostic_baseline": "previous_persisted_snapshot",
             "semantics": "current cumulative total for this gameweek; may change after a reopened/postponed match"
           }
         },
@@ -35112,13 +35112,13 @@
             "rank": 4,
             "points": 38,
             "negative_at_that_closure": false,
-            "previous_closure_payment": null,
-            "delta_vs_previous_closure": 1615000,
-            "previous_snapshot_payment": null,
-            "delta_vs_previous_snapshot_payment": null,
+            "previous_closure_payment": 1615000,
+            "delta_vs_previous_closure": 0,
+            "previous_snapshot_payment": 1615000,
+            "delta_vs_previous_snapshot_payment": 0,
             "previous_feed_closure_payment": null,
             "delta_vs_previous_feed_closure": null,
-            "diagnostic_baseline": "first_seen",
+            "diagnostic_baseline": "previous_persisted_snapshot",
             "semantics": "current cumulative total for this gameweek; may change after a reopened/postponed match"
           }
         },
@@ -36089,13 +36089,13 @@
             "rank": 5,
             "points": 36,
             "negative_at_that_closure": false,
-            "previous_closure_payment": null,
-            "delta_vs_previous_closure": 1580000,
-            "previous_snapshot_payment": null,
-            "delta_vs_previous_snapshot_payment": null,
+            "previous_closure_payment": 1580000,
+            "delta_vs_previous_closure": 0,
+            "previous_snapshot_payment": 1580000,
+            "delta_vs_previous_snapshot_payment": 0,
             "previous_feed_closure_payment": null,
             "delta_vs_previous_feed_closure": null,
-            "diagnostic_baseline": "first_seen",
+            "diagnostic_baseline": "previous_persisted_snapshot",
             "semantics": "current cumulative total for this gameweek; may change after a reopened/postponed match"
           }
         },
@@ -36694,13 +36694,13 @@
             "rank": 6,
             "points": 36,
             "negative_at_that_closure": false,
-            "previous_closure_payment": null,
-            "delta_vs_previous_closure": 1680000,
-            "previous_snapshot_payment": null,
-            "delta_vs_previous_snapshot_payment": null,
+            "previous_closure_payment": 1680000,
+            "delta_vs_previous_closure": 0,
+            "previous_snapshot_payment": 1680000,
+            "delta_vs_previous_snapshot_payment": 0,
             "previous_feed_closure_payment": null,
             "delta_vs_previous_feed_closure": null,
-            "diagnostic_baseline": "first_seen",
+            "diagnostic_baseline": "previous_persisted_snapshot",
             "semantics": "current cumulative total for this gameweek; may change after a reopened/postponed match"
           }
         }
@@ -37078,13 +37078,13 @@
             "rank": 7,
             "points": 22,
             "negative_at_that_closure": false,
-            "previous_closure_payment": null,
-            "delta_vs_previous_closure": 1360000,
-            "previous_snapshot_payment": null,
-            "delta_vs_previous_snapshot_payment": null,
+            "previous_closure_payment": 1360000,
+            "delta_vs_previous_closure": 0,
+            "previous_snapshot_payment": 1360000,
+            "delta_vs_previous_snapshot_payment": 0,
             "previous_feed_closure_payment": null,
             "delta_vs_previous_feed_closure": null,
-            "diagnostic_baseline": "first_seen",
+            "diagnostic_baseline": "previous_persisted_snapshot",
             "semantics": "current cumulative total for this gameweek; may change after a reopened/postponed match"
           }
         }
@@ -39717,23 +39717,7 @@
       }
     ]
   },
-  "clause_changes_since_previous": [
-    {
-      "manager": "DRSeven",
-      "player_id": "12949",
-      "player": "T. Lemar",
-      "change": "raise",
-      "from_level": 1,
-      "to_level": 2,
-      "from_clause": 2024000,
-      "to_clause": 2530000,
-      "investment_delta_exact": 202400,
-      "investment_delta_min": 202400,
-      "investment_delta_max": 202400,
-      "pricing_source": "captured_transition_delta",
-      "ledger_source": "historical_clause_ledger"
-    }
-  ],
+  "clause_changes_since_previous": [],
   "clause_capture_status": {
     "status": "ok",
     "manager_count": 7,
@@ -39742,7 +39726,7 @@
     "all_raised_investments_exact": true,
     "ale_balance_difference_after_clause_adjustment": 0,
     "balance_integrity_ok": true,
-    "previous_successful_clause_snapshot_at": "2026-09-15T09:52:37+02:00",
+    "previous_successful_clause_snapshot_at": "2026-09-15T14:16:04+02:00",
     "official_clause_view_enabled": true,
     "official_clause_view_diagnostics": {
       "start_url": "https://mister.mundodeportivo.com/users/13390634/samuhg22",
@@ -39961,23 +39945,7 @@
     "episodes": 229,
     "bootstrapped_from_history": 0,
     "repairs_applied": [],
-    "transitions": [
-      {
-        "change": "raise",
-        "from_level": 1,
-        "to_level": 2,
-        "investment_delta_exact": 202400,
-        "investment_delta_min": 202400,
-        "investment_delta_max": 202400,
-        "pricing_source": "captured_transition_delta",
-        "manager": "DRSeven",
-        "player_id": "12949",
-        "player": "T. Lemar",
-        "from_clause": null,
-        "to_clause": 2530000,
-        "ledger_source": "historical_clause_ledger"
-      }
-    ],
+    "transitions": [],
     "final_exact_reconciliations": [],
     "source": "persistent per-ownership clause-step ledger v4; primary Mister evidence is separated from previously derived ledger state"
   },
@@ -40007,13 +39975,13 @@
         "lined_up_players": 11,
         "scored_lined_up_players": 11,
         "payment": 2855000,
-        "previous_closure_payment": null,
-        "delta_vs_previous_closure": 2855000,
-        "previous_snapshot_payment": null,
-        "delta_vs_previous_snapshot_payment": null,
+        "previous_closure_payment": 2855000,
+        "delta_vs_previous_closure": 0,
+        "previous_snapshot_payment": 2855000,
+        "delta_vs_previous_snapshot_payment": 0,
         "previous_feed_closure_payment": null,
         "delta_vs_previous_feed_closure": null,
-        "diagnostic_baseline": "first_seen"
+        "diagnostic_baseline": "previous_persisted_snapshot"
       },
       {
         "created": "2026-09-15 12:23:29",
@@ -40026,13 +39994,13 @@
         "lined_up_players": 11,
         "scored_lined_up_players": 10,
         "payment": 2215000,
-        "previous_closure_payment": null,
-        "delta_vs_previous_closure": 2215000,
-        "previous_snapshot_payment": null,
-        "delta_vs_previous_snapshot_payment": null,
+        "previous_closure_payment": 2215000,
+        "delta_vs_previous_closure": 0,
+        "previous_snapshot_payment": 2215000,
+        "delta_vs_previous_snapshot_payment": 0,
         "previous_feed_closure_payment": null,
         "delta_vs_previous_feed_closure": null,
-        "diagnostic_baseline": "first_seen"
+        "diagnostic_baseline": "previous_persisted_snapshot"
       },
       {
         "created": "2026-09-15 12:23:29",
@@ -40045,13 +40013,13 @@
         "lined_up_players": 11,
         "scored_lined_up_players": 9,
         "payment": 2075000,
-        "previous_closure_payment": null,
-        "delta_vs_previous_closure": 2075000,
-        "previous_snapshot_payment": null,
-        "delta_vs_previous_snapshot_payment": null,
+        "previous_closure_payment": 2075000,
+        "delta_vs_previous_closure": 0,
+        "previous_snapshot_payment": 2075000,
+        "delta_vs_previous_snapshot_payment": 0,
         "previous_feed_closure_payment": null,
         "delta_vs_previous_feed_closure": null,
-        "diagnostic_baseline": "first_seen"
+        "diagnostic_baseline": "previous_persisted_snapshot"
       },
       {
         "created": "2026-09-15 12:23:29",
@@ -40064,13 +40032,13 @@
         "lined_up_players": 11,
         "scored_lined_up_players": 10,
         "payment": 1615000,
-        "previous_closure_payment": null,
-        "delta_vs_previous_closure": 1615000,
-        "previous_snapshot_payment": null,
-        "delta_vs_previous_snapshot_payment": null,
+        "previous_closure_payment": 1615000,
+        "delta_vs_previous_closure": 0,
+        "previous_snapshot_payment": 1615000,
+        "delta_vs_previous_snapshot_payment": 0,
         "previous_feed_closure_payment": null,
         "delta_vs_previous_feed_closure": null,
-        "diagnostic_baseline": "first_seen"
+        "diagnostic_baseline": "previous_persisted_snapshot"
       },
       {
         "created": "2026-09-15 12:23:29",
@@ -40083,13 +40051,13 @@
         "lined_up_players": 11,
         "scored_lined_up_players": 8,
         "payment": 1580000,
-        "previous_closure_payment": null,
-        "delta_vs_previous_closure": 1580000,
-        "previous_snapshot_payment": null,
-        "delta_vs_previous_snapshot_payment": null,
+        "previous_closure_payment": 1580000,
+        "delta_vs_previous_closure": 0,
+        "previous_snapshot_payment": 1580000,
+        "delta_vs_previous_snapshot_payment": 0,
         "previous_feed_closure_payment": null,
         "delta_vs_previous_feed_closure": null,
-        "diagnostic_baseline": "first_seen"
+        "diagnostic_baseline": "previous_persisted_snapshot"
       },
       {
         "created": "2026-09-15 12:23:29",
@@ -40102,13 +40070,13 @@
         "lined_up_players": 11,
         "scored_lined_up_players": 9,
         "payment": 1680000,
-        "previous_closure_payment": null,
-        "delta_vs_previous_closure": 1680000,
-        "previous_snapshot_payment": null,
-        "delta_vs_previous_snapshot_payment": null,
+        "previous_closure_payment": 1680000,
+        "delta_vs_previous_closure": 0,
+        "previous_snapshot_payment": 1680000,
+        "delta_vs_previous_snapshot_payment": 0,
         "previous_feed_closure_payment": null,
         "delta_vs_previous_feed_closure": null,
-        "diagnostic_baseline": "first_seen"
+        "diagnostic_baseline": "previous_persisted_snapshot"
       },
       {
         "created": "2026-09-15 12:23:29",
@@ -40121,13 +40089,13 @@
         "lined_up_players": 11,
         "scored_lined_up_players": 7,
         "payment": 1360000,
-        "previous_closure_payment": null,
-        "delta_vs_previous_closure": 1360000,
-        "previous_snapshot_payment": null,
-        "delta_vs_previous_snapshot_payment": null,
+        "previous_closure_payment": 1360000,
+        "delta_vs_previous_closure": 0,
+        "previous_snapshot_payment": 1360000,
+        "delta_vs_previous_snapshot_payment": 0,
         "previous_feed_closure_payment": null,
         "delta_vs_previous_feed_closure": null,
-        "diagnostic_baseline": "first_seen"
+        "diagnostic_baseline": "previous_persisted_snapshot"
       },
       {
         "created": "2026-09-08 12:51:52",
@@ -40777,13 +40745,13 @@
             "lined_up_players": 11,
             "scored_lined_up_players": 11,
             "payment": 2855000,
-            "previous_closure_payment": null,
-            "delta_vs_previous_closure": 2855000,
-            "previous_snapshot_payment": null,
-            "delta_vs_previous_snapshot_payment": null,
+            "previous_closure_payment": 2855000,
+            "delta_vs_previous_closure": 0,
+            "previous_snapshot_payment": 2855000,
+            "delta_vs_previous_snapshot_payment": 0,
             "previous_feed_closure_payment": null,
             "delta_vs_previous_feed_closure": null,
-            "diagnostic_baseline": "first_seen"
+            "diagnostic_baseline": "previous_persisted_snapshot"
           },
           {
             "created": "2026-09-15 12:23:29",
@@ -40796,13 +40764,13 @@
             "lined_up_players": 11,
             "scored_lined_up_players": 10,
             "payment": 2215000,
-            "previous_closure_payment": null,
-            "delta_vs_previous_closure": 2215000,
-            "previous_snapshot_payment": null,
-            "delta_vs_previous_snapshot_payment": null,
+            "previous_closure_payment": 2215000,
+            "delta_vs_previous_closure": 0,
+            "previous_snapshot_payment": 2215000,
+            "delta_vs_previous_snapshot_payment": 0,
             "previous_feed_closure_payment": null,
             "delta_vs_previous_feed_closure": null,
-            "diagnostic_baseline": "first_seen"
+            "diagnostic_baseline": "previous_persisted_snapshot"
           },
           {
             "created": "2026-09-15 12:23:29",
@@ -40815,13 +40783,13 @@
             "lined_up_players": 11,
             "scored_lined_up_players": 9,
             "payment": 2075000,
-            "previous_closure_payment": null,
-            "delta_vs_previous_closure": 2075000,
-            "previous_snapshot_payment": null,
-            "delta_vs_previous_snapshot_payment": null,
+            "previous_closure_payment": 2075000,
+            "delta_vs_previous_closure": 0,
+            "previous_snapshot_payment": 2075000,
+            "delta_vs_previous_snapshot_payment": 0,
             "previous_feed_closure_payment": null,
             "delta_vs_previous_feed_closure": null,
-            "diagnostic_baseline": "first_seen"
+            "diagnostic_baseline": "previous_persisted_snapshot"
           },
           {
             "created": "2026-09-15 12:23:29",
@@ -40834,13 +40802,13 @@
             "lined_up_players": 11,
             "scored_lined_up_players": 10,
             "payment": 1615000,
-            "previous_closure_payment": null,
-            "delta_vs_previous_closure": 1615000,
-            "previous_snapshot_payment": null,
-            "delta_vs_previous_snapshot_payment": null,
+            "previous_closure_payment": 1615000,
+            "delta_vs_previous_closure": 0,
+            "previous_snapshot_payment": 1615000,
+            "delta_vs_previous_snapshot_payment": 0,
             "previous_feed_closure_payment": null,
             "delta_vs_previous_feed_closure": null,
-            "diagnostic_baseline": "first_seen"
+            "diagnostic_baseline": "previous_persisted_snapshot"
           },
           {
             "created": "2026-09-15 12:23:29",
@@ -40853,13 +40821,13 @@
             "lined_up_players": 11,
             "scored_lined_up_players": 8,
             "payment": 1580000,
-            "previous_closure_payment": null,
-            "delta_vs_previous_closure": 1580000,
-            "previous_snapshot_payment": null,
-            "delta_vs_previous_snapshot_payment": null,
+            "previous_closure_payment": 1580000,
+            "delta_vs_previous_closure": 0,
+            "previous_snapshot_payment": 1580000,
+            "delta_vs_previous_snapshot_payment": 0,
             "previous_feed_closure_payment": null,
             "delta_vs_previous_feed_closure": null,
-            "diagnostic_baseline": "first_seen"
+            "diagnostic_baseline": "previous_persisted_snapshot"
           },
           {
             "created": "2026-09-15 12:23:29",
@@ -40872,13 +40840,13 @@
             "lined_up_players": 11,
             "scored_lined_up_players": 9,
             "payment": 1680000,
-            "previous_closure_payment": null,
-            "delta_vs_previous_closure": 1680000,
-            "previous_snapshot_payment": null,
-            "delta_vs_previous_snapshot_payment": null,
+            "previous_closure_payment": 1680000,
+            "delta_vs_previous_closure": 0,
+            "previous_snapshot_payment": 1680000,
+            "delta_vs_previous_snapshot_payment": 0,
             "previous_feed_closure_payment": null,
             "delta_vs_previous_feed_closure": null,
-            "diagnostic_baseline": "first_seen"
+            "diagnostic_baseline": "previous_persisted_snapshot"
           },
           {
             "created": "2026-09-15 12:23:29",
@@ -40891,17 +40859,17 @@
             "lined_up_players": 11,
             "scored_lined_up_players": 7,
             "payment": 1360000,
-            "previous_closure_payment": null,
-            "delta_vs_previous_closure": 1360000,
-            "previous_snapshot_payment": null,
-            "delta_vs_previous_snapshot_payment": null,
+            "previous_closure_payment": 1360000,
+            "delta_vs_previous_closure": 0,
+            "previous_snapshot_payment": 1360000,
+            "delta_vs_previous_snapshot_payment": 0,
             "previous_feed_closure_payment": null,
             "delta_vs_previous_feed_closure": null,
-            "diagnostic_baseline": "first_seen"
+            "diagnostic_baseline": "previous_persisted_snapshot"
           }
         ],
         "changed_since_previous_snapshot": false,
-        "delta_vs_previous_snapshot_total": null,
+        "delta_vs_previous_snapshot_total": 0,
         "payment_semantics": "latest cumulative gameweek payment; replaces an earlier closure for the same gameweek",
         "diagnostic_semantics": "previous persisted snapshot is authoritative for payment deltas; raw feed closure comparison is secondary because Mister may rewrite earlier closure rows",
         "finality": "unknown_from_feed_alone"
@@ -41609,7 +41577,7 @@
         "finality": "unknown_from_feed_alone"
       }
     ],
-    "previous_persisted_snapshot_captured_at": "2026-09-15T09:52:37+02:00",
+    "previous_persisted_snapshot_captured_at": "2026-09-15T14:16:04+02:00",
     "source": "Mister feed category gameweek_end -> latest nested ranking.positions[].payment per gameweek",
     "semantics": "latest payment is cumulative for that gameweek and replaces earlier provisional closure payments; standard point/rank/goal/ideal-XI/fixed bonuses are not double-counted separately",
     "diagnostic_semantics": "delta_vs_previous_snapshot_payment compares against the previous persisted enriched snapshot; feed-to-feed deltas are secondary because Mister may rewrite older closure rows",
@@ -44309,7 +44277,7 @@
       ]
     }
   ],
-  "market_slot": "evening",
+  "market_slot": "morning",
   "snapshot_finalized": true,
   "capture_integrity": {
     "current_clause_capture_complete": true,
