@@ -1,23 +1,337 @@
 {
   "season": "2026/27",
-  "gameweek": 5,
+  "gameweek": 6,
   "source": "LaLigaExpert public predicted lineups",
   "source_url": "https://laligaexpert.com/la-liga-predicted-lineups/",
-  "updated_at": "2026-09-14T22:56:27+02:00",
-  "source_updated": "14/09 22:56",
+  "updated_at": "2026-09-16T22:05:27+02:00",
+  "source_updated": "16/09 22:05",
   "coverage": {
-    "upcoming_fixtures": 1,
-    "with_predictions": 1,
-    "fresh": 1,
+    "upcoming_fixtures": 6,
+    "with_predictions": 6,
+    "fresh": 6,
     "preserved": 0,
     "unresolved": []
   },
   "matches": [
     {
-      "home": "Villarreal",
-      "away": "Betis",
+      "home": "Deportivo da Coruña",
+      "away": "Sevilla",
       "source_label": "LaLigaExpert",
       "home_lineup": {
+        "team": "Deportivo da Coruña",
+        "formation": "4-2-3-1",
+        "rows": [
+          [
+            "Roman"
+          ],
+          [
+            "Navarro",
+            "Noubi",
+            "Gimenez",
+            "Quagliata"
+          ],
+          [
+            "Amatucci",
+            "Casado"
+          ],
+          [
+            "A. Traore",
+            "Mario",
+            "Yeremay"
+          ],
+          [
+            "Aubameyang"
+          ]
+        ]
+      },
+      "away_lineup": {
+        "team": "Sevilla",
+        "formation": "4-2-3-1",
+        "rows": [
+          [
+            "Vlachodimos"
+          ],
+          [
+            "Iglesias",
+            "Castrin",
+            "Salas",
+            "Suazo"
+          ],
+          [
+            "Agoume",
+            "Kochorashvili"
+          ],
+          [
+            "Correia",
+            "Guridi",
+            "Ejuke"
+          ],
+          [
+            "Ure"
+          ]
+        ]
+      }
+    },
+    {
+      "home": "Atlético",
+      "away": "Osasuna",
+      "source_label": "LaLigaExpert",
+      "home_lineup": {
+        "team": "Atlético",
+        "formation": "3-4-1-2",
+        "rows": [
+          [
+            "Oblak"
+          ],
+          [
+            "Pubill",
+            "Romero",
+            "Hancko"
+          ],
+          [
+            "Simeone",
+            "Hjulmand",
+            "Koke",
+            "Grimaldo"
+          ],
+          [
+            "Baena"
+          ],
+          [
+            "Lookman",
+            "David"
+          ]
+        ]
+      },
+      "away_lineup": {
+        "team": "Osasuna",
+        "formation": "4-3-3",
+        "rows": [
+          [
+            "Herrera"
+          ],
+          [
+            "Arguibide",
+            "Catena",
+            "Yeboah",
+            "Bretones"
+          ],
+          [
+            "Torro",
+            "Moncayola",
+            "Osambela"
+          ],
+          [
+            "Ruben Garcia",
+            "Raul Garcia",
+            "Moro"
+          ]
+        ]
+      }
+    },
+    {
+      "home": "Barcelona",
+      "away": "Racing de Santander",
+      "source_label": "LaLigaExpert",
+      "home_lineup": {
+        "team": "Barcelona",
+        "formation": "4-2-3-1",
+        "rows": [
+          [
+            "J. Garcia"
+          ],
+          [
+            "Kounde",
+            "Christensen",
+            "Martin",
+            "Cancelo"
+          ],
+          [
+            "Bernal",
+            "Pedri"
+          ],
+          [
+            "Yamal",
+            "Olmo",
+            "Adeyemi"
+          ],
+          [
+            "Raphinha"
+          ]
+        ]
+      },
+      "away_lineup": {
+        "team": "Racing de Santander",
+        "formation": "4-2-3-1",
+        "rows": [
+          [
+            "Agirrezabala"
+          ],
+          [
+            "Mantilla",
+            "Ramon",
+            "Belocian",
+            "Salinas"
+          ],
+          [
+            "I. Martin",
+            "Prati"
+          ],
+          [
+            "P. Garcia",
+            "Canales",
+            "Guliashvili"
+          ],
+          [
+            "Vicente"
+          ]
+        ]
+      }
+    },
+    {
+      "home": "Levante",
+      "away": "Athletic Club",
+      "source_label": "LaLigaExpert",
+      "home_lineup": {
+        "team": "Levante",
+        "formation": "4-3-3",
+        "rows": [
+          [
+            "Ryan"
+          ],
+          [
+            "N. Perez",
+            "De la Fuente",
+            "Ndukwe",
+            "Toljan"
+          ],
+          [
+            "Rey",
+            "Olasagasti",
+            "Bardeli"
+          ],
+          [
+            "V. Garcia",
+            "Ratkov",
+            "Thiago"
+          ]
+        ]
+      },
+      "away_lineup": {
+        "team": "Athletic Club",
+        "formation": "4-2-3-1",
+        "rows": [
+          [
+            "Simon"
+          ],
+          [
+            "Rincon",
+            "Paredes",
+            "Laporte",
+            "Johaneko"
+          ],
+          [
+            "Jauregizar",
+            "Gerenabarrena"
+          ],
+          [
+            "Navarro",
+            "Sancet",
+            "N. Williams"
+          ],
+          [
+            "Berenguer"
+          ]
+        ]
+      }
+    },
+    {
+      "home": "Betis",
+      "away": "Getafe",
+      "source_label": "LaLigaExpert",
+      "home_lineup": {
+        "team": "Betis",
+        "formation": "4-2-3-1",
+        "rows": [
+          [
+            "Valles"
+          ],
+          [
+            "Ortiz",
+            "Bartra",
+            "V. Gomez",
+            "Firpo"
+          ],
+          [
+            "Ceballos",
+            "Bernal"
+          ],
+          [
+            "Antony",
+            "Lo Celso",
+            "Fornals"
+          ],
+          [
+            "Parrott"
+          ]
+        ]
+      },
+      "away_lineup": {
+        "team": "Getafe",
+        "formation": "4-4-2",
+        "rows": [
+          [
+            "Soria"
+          ],
+          [
+            "Djene",
+            "Gudelj",
+            "Romero",
+            "Mojica"
+          ],
+          [
+            "Francho",
+            "Martin",
+            "Mangala",
+            "Terrats"
+          ],
+          [
+            "Satriano",
+            "Unal"
+          ]
+        ]
+      }
+    },
+    {
+      "home": "Málaga",
+      "away": "Villarreal",
+      "source_label": "LaLigaExpert",
+      "home_lineup": {
+        "team": "Málaga",
+        "formation": "4-3-3",
+        "rows": [
+          [
+            "Herrero"
+          ],
+          [
+            "Puga",
+            "Recio",
+            "Galilea",
+            "Rafita"
+          ],
+          [
+            "Lorenzo",
+            "Dotor",
+            "P. Martinez"
+          ],
+          [
+            "Larrubia",
+            "Chupete",
+            "Cruz"
+          ]
+        ]
+      },
+      "away_lineup": {
         "team": "Villarreal",
         "formation": "4-2-3-1",
         "rows": [
@@ -25,8 +339,8 @@
             "Gulacsi"
           ],
           [
-            "Mouriño",
-            "Navarro",
+            "Freeman",
+            "Costa",
             "Veiga",
             "Cardona"
           ],
@@ -36,38 +350,11 @@
           ],
           [
             "Pepe",
-            "G. Moreno",
+            "Ayoze",
             "Moleiro"
           ],
           [
-            "Mikautadze"
-          ]
-        ]
-      },
-      "away_lineup": {
-        "team": "Betis",
-        "formation": "4-2-3-1",
-        "rows": [
-          [
-            "Valles"
-          ],
-          [
-            "Bellerin",
-            "Bartra",
-            "Natan",
-            "F. Garcia"
-          ],
-          [
-            "Roca",
-            "Fornals"
-          ],
-          [
-            "Antony",
-            "Isco",
-            "Riquelme"
-          ],
-          [
-            "Parrott"
+            "Oluwaseyi"
           ]
         ]
       }

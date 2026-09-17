@@ -1,26 +1,36 @@
 {
   "season": "2026/27",
-  "active_gameweek": 5,
-  "gameweek": 6,
-  "updated_at": "2026-09-15T22:13:27+02:00",
-  "source_checked_at": "2026-09-15T22:13:27+02:00",
+  "active_gameweek": 6,
+  "gameweek": 7,
+  "updated_at": "2026-09-16T22:05:30+02:00",
+  "source_checked_at": "2026-09-16T22:05:30+02:00",
   "fixture_source": "LALIGA official matchday schedule",
-  "fixture_source_url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-6",
+  "fixture_source_url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-7",
   "prediction_source": "LaLigaExpert predicted lineups",
   "prediction_source_url": "https://laligaexpert.com/la-liga-predicted-lineups/",
-  "prediction_source_status": "available",
+  "prediction_source_status": "pending",
   "coverage": {
     "fixtures": 10,
-    "fresh_predictions": 9,
+    "fresh_predictions": 0,
     "preserved_predictions": 0,
-    "pending_predictions": 1
+    "pending_predictions": 10
   },
   "matches": [
     {
-      "home": "Real Sociedad",
-      "away": "Celta",
-      "home_key": "real sociedad",
-      "away_key": "celta",
+      "home": "Espanyol",
+      "away": "Barcelona",
+      "home_key": "espanyol",
+      "away_key": "barcelona",
+      "kickoff_at": null,
+      "prediction_status": "pending",
+      "home_lineup": null,
+      "away_lineup": null
+    },
+    {
+      "home": "Elche",
+      "away": "Osasuna",
+      "home_key": "elche",
+      "away_key": "osasuna",
       "kickoff_at": null,
       "prediction_status": "pending",
       "home_lineup": null,
@@ -28,551 +38,83 @@
     },
     {
       "home": "Rayo Vallecano",
-      "away": "Espanyol",
+      "away": "Athletic Club",
       "home_key": "rayo",
-      "away_key": "espanyol",
+      "away_key": "athletic",
       "kickoff_at": null,
-      "prediction_status": "fresh",
-      "home_lineup": {
-        "team": "Rayo Vallecano",
-        "formation": "4-2-3-1",
-        "rows": [
-          [
-            "Audero"
-          ],
-          [
-            "Ratiu",
-            "Lejeune",
-            "Mujaid",
-            "Pedrosa"
-          ],
-          [
-            "U. Lopez",
-            "Valentin"
-          ],
-          [
-            "Tsitaishvili",
-            "P. Diaz",
-            "A. Garcia"
-          ],
-          [
-            "Camello"
-          ]
-        ]
-      },
-      "away_lineup": {
-        "team": "Espanyol",
-        "formation": "4-2-3-1",
-        "rows": [
-          [
-            "Dmitrovic"
-          ],
-          [
-            "El Hilali",
-            "Riedel",
-            "Cabrera",
-            "Hinojo"
-          ],
-          [
-            "Moscardo",
-            "Exposito"
-          ],
-          [
-            "Calatrava",
-            "J. Hernandez",
-            "Zaragoza"
-          ],
-          [
-            "R. Fernandez"
-          ]
-        ]
-      }
+      "prediction_status": "pending",
+      "home_lineup": null,
+      "away_lineup": null
     },
     {
-      "home": "Barcelona",
-      "away": "Alavés",
-      "home_key": "barcelona",
-      "away_key": "alaves",
+      "home": "Alavés",
+      "away": "Deportivo",
+      "home_key": "alaves",
+      "away_key": "deportivo",
       "kickoff_at": null,
-      "prediction_status": "fresh",
-      "home_lineup": {
-        "team": "Barcelona",
-        "formation": "4-2-3-1",
-        "rows": [
-          [
-            "J. Garcia"
-          ],
-          [
-            "Kounde",
-            "Christensen",
-            "Martin",
-            "Cancelo"
-          ],
-          [
-            "Bernal",
-            "Pedri"
-          ],
-          [
-            "Yamal",
-            "Olmo",
-            "Adeyemi"
-          ],
-          [
-            "Raphinha"
-          ]
-        ]
-      },
-      "away_lineup": {
-        "team": "Alavés",
-        "formation": "5-3-2",
-        "rows": [
-          [
-            "Sivera"
-          ],
-          [
-            "A. Perez",
-            "Tenaglia",
-            "Koski",
-            "Jonny",
-            "Youssef"
-          ],
-          [
-            "Blanco",
-            "Protesoni",
-            "Aleña"
-          ],
-          [
-            "T. Martinez",
-            "Mariano"
-          ]
-        ]
-      }
+      "prediction_status": "pending",
+      "home_lineup": null,
+      "away_lineup": null
     },
     {
-      "home": "Deportivo",
-      "away": "Valencia",
-      "home_key": "deportivo",
-      "away_key": "valencia",
+      "home": "Celta",
+      "away": "Racing de Santander",
+      "home_key": "celta",
+      "away_key": "racing",
       "kickoff_at": null,
-      "prediction_status": "fresh",
-      "home_lineup": {
-        "team": "Deportivo",
-        "formation": "4-2-3-1",
-        "rows": [
-          [
-            "Roman"
-          ],
-          [
-            "Navarro",
-            "Noubi",
-            "Gimenez",
-            "Quagliata"
-          ],
-          [
-            "Amatucci",
-            "Casado"
-          ],
-          [
-            "A. Traore",
-            "Mario",
-            "Yeremay"
-          ],
-          [
-            "Aubameyang"
-          ]
-        ]
-      },
-      "away_lineup": {
-        "team": "Valencia",
-        "formation": "4-2-3-1",
-        "rows": [
-          [
-            "Dimitrievski"
-          ],
-          [
-            "A. Martinez",
-            "Cordoba",
-            "De Haas",
-            "J. Vazquez"
-          ],
-          [
-            "G. Rodriguez",
-            "Ugrinic"
-          ],
-          [
-            "Otorbi",
-            "Guerra",
-            "Danjuma"
-          ],
-          [
-            "Duro"
-          ]
-        ]
-      }
-    },
-    {
-      "home": "Elche",
-      "away": "Real Madrid",
-      "home_key": "elche",
-      "away_key": "real madrid",
-      "kickoff_at": null,
-      "prediction_status": "fresh",
-      "home_lineup": {
-        "team": "Elche",
-        "formation": "4-4-1-1",
-        "rows": [
-          [
-            "Dituro"
-          ],
-          [
-            "Sangare",
-            "Redondo",
-            "Bigas",
-            "Revivo"
-          ],
-          [
-            "R. Sanchez",
-            "Villar",
-            "Morcillo",
-            "Valera"
-          ],
-          [
-            "Lemar"
-          ],
-          [
-            "Osorio"
-          ]
-        ]
-      },
-      "away_lineup": {
-        "team": "Real Madrid",
-        "formation": "4-2-3-1",
-        "rows": [
-          [
-            "Courtois"
-          ],
-          [
-            "Alexander-Arnold",
-            "Rudiger",
-            "Huijsen",
-            "Cucurella"
-          ],
-          [
-            "Valverde",
-            "Tchouameni"
-          ],
-          [
-            "Guler",
-            "Bellingham",
-            "Vinicius"
-          ],
-          [
-            "Mbappe"
-          ]
-        ]
-      }
-    },
-    {
-      "home": "Atlético de Madrid",
-      "away": "Osasuna",
-      "home_key": "atletico",
-      "away_key": "osasuna",
-      "kickoff_at": null,
-      "prediction_status": "fresh",
-      "home_lineup": {
-        "team": "Atlético de Madrid",
-        "formation": "3-4-1-2",
-        "rows": [
-          [
-            "Oblak"
-          ],
-          [
-            "Pubill",
-            "Romero",
-            "Hancko"
-          ],
-          [
-            "Simeone",
-            "Hjulmand",
-            "Koke",
-            "Grimaldo"
-          ],
-          [
-            "Baena"
-          ],
-          [
-            "Lookman",
-            "David"
-          ]
-        ]
-      },
-      "away_lineup": {
-        "team": "Osasuna",
-        "formation": "4-3-3",
-        "rows": [
-          [
-            "Herrera"
-          ],
-          [
-            "Arguibide",
-            "Catena",
-            "Yeboah",
-            "Bretones"
-          ],
-          [
-            "Torro",
-            "Moncayola",
-            "Osambela"
-          ],
-          [
-            "Ruben Garcia",
-            "Raul Garcia",
-            "Moro"
-          ]
-        ]
-      }
+      "prediction_status": "pending",
+      "home_lineup": null,
+      "away_lineup": null
     },
     {
       "home": "Sevilla",
-      "away": "Racing de Santander",
-      "home_key": "sevilla",
-      "away_key": "racing",
-      "kickoff_at": null,
-      "prediction_status": "fresh",
-      "home_lineup": {
-        "team": "Sevilla",
-        "formation": "4-2-3-1",
-        "rows": [
-          [
-            "Vlachodimos"
-          ],
-          [
-            "Iglesias",
-            "Castrin",
-            "Salas",
-            "Suazo"
-          ],
-          [
-            "Agoume",
-            "Kochorashvili"
-          ],
-          [
-            "Correia",
-            "Guridi",
-            "Ejuke"
-          ],
-          [
-            "Ure"
-          ]
-        ]
-      },
-      "away_lineup": {
-        "team": "Racing de Santander",
-        "formation": "4-2-3-1",
-        "rows": [
-          [
-            "Agirrezabala"
-          ],
-          [
-            "Mantilla",
-            "Ramon",
-            "Belocian",
-            "Salinas"
-          ],
-          [
-            "I. Martin",
-            "Prati"
-          ],
-          [
-            "P. Garcia",
-            "Canales",
-            "Guliashvili"
-          ],
-          [
-            "Vicente"
-          ]
-        ]
-      }
-    },
-    {
-      "home": "Levante",
-      "away": "Athletic Club",
-      "home_key": "levante",
-      "away_key": "athletic",
-      "kickoff_at": null,
-      "prediction_status": "fresh",
-      "home_lineup": {
-        "team": "Levante",
-        "formation": "4-3-3",
-        "rows": [
-          [
-            "Ryan"
-          ],
-          [
-            "N. Perez",
-            "De la Fuente",
-            "Ndukwe",
-            "Toljan"
-          ],
-          [
-            "Rey",
-            "Olasagasti",
-            "Bardeli"
-          ],
-          [
-            "V. Garcia",
-            "Ratkov",
-            "Thiago"
-          ]
-        ]
-      },
-      "away_lineup": {
-        "team": "Athletic Club",
-        "formation": "4-2-3-1",
-        "rows": [
-          [
-            "Simon"
-          ],
-          [
-            "Rincon",
-            "Paredes",
-            "Laporte",
-            "Johaneko"
-          ],
-          [
-            "Jauregizar",
-            "Gerenabarrena"
-          ],
-          [
-            "Navarro",
-            "Sancet",
-            "N. Williams"
-          ],
-          [
-            "Berenguer"
-          ]
-        ]
-      }
-    },
-    {
-      "home": "Real Betis",
       "away": "Getafe",
-      "home_key": "betis",
+      "home_key": "sevilla",
       "away_key": "getafe",
       "kickoff_at": null,
-      "prediction_status": "fresh",
-      "home_lineup": {
-        "team": "Real Betis",
-        "formation": "4-2-3-1",
-        "rows": [
-          [
-            "Valles"
-          ],
-          [
-            "Ortiz",
-            "Bartra",
-            "V. Gomez",
-            "Firpo"
-          ],
-          [
-            "Ceballos",
-            "Bernal"
-          ],
-          [
-            "Antony",
-            "Lo Celso",
-            "Fornals"
-          ],
-          [
-            "Parrott"
-          ]
-        ]
-      },
-      "away_lineup": {
-        "team": "Getafe",
-        "formation": "4-4-2",
-        "rows": [
-          [
-            "Soria"
-          ],
-          [
-            "Djene",
-            "Gudelj",
-            "Romero",
-            "Mojica"
-          ],
-          [
-            "Francho",
-            "Martin",
-            "Mangala",
-            "Terrats"
-          ],
-          [
-            "Satriano",
-            "Unal"
-          ]
-        ]
-      }
+      "prediction_status": "pending",
+      "home_lineup": null,
+      "away_lineup": null
     },
     {
       "home": "Málaga",
-      "away": "Villarreal",
+      "away": "Atlético de Madrid",
       "home_key": "malaga",
-      "away_key": "villarreal",
+      "away_key": "atletico",
       "kickoff_at": null,
-      "prediction_status": "fresh",
-      "home_lineup": {
-        "team": "Málaga",
-        "formation": "4-3-3",
-        "rows": [
-          [
-            "Herrero"
-          ],
-          [
-            "Puga",
-            "Recio",
-            "Galilea",
-            "Rafita"
-          ],
-          [
-            "Lorenzo",
-            "Dotor",
-            "P. Martinez"
-          ],
-          [
-            "Larrubia",
-            "Chupete",
-            "Cruz"
-          ]
-        ]
-      },
-      "away_lineup": {
-        "team": "Villarreal",
-        "formation": "4-2-3-1",
-        "rows": [
-          [
-            "Gulacsi"
-          ],
-          [
-            "Freeman",
-            "Costa",
-            "Veiga",
-            "Cardona"
-          ],
-          [
-            "Gueye",
-            "Saliba"
-          ],
-          [
-            "Pepe",
-            "Ayoze",
-            "Moleiro"
-          ],
-          [
-            "Oluwaseyi"
-          ]
-        ]
-      }
+      "prediction_status": "pending",
+      "home_lineup": null,
+      "away_lineup": null
+    },
+    {
+      "home": "Real Madrid",
+      "away": "Real Betis",
+      "home_key": "real madrid",
+      "away_key": "betis",
+      "kickoff_at": null,
+      "prediction_status": "pending",
+      "home_lineup": null,
+      "away_lineup": null
+    },
+    {
+      "home": "Villarreal",
+      "away": "Levante",
+      "home_key": "villarreal",
+      "away_key": "levante",
+      "kickoff_at": null,
+      "prediction_status": "pending",
+      "home_lineup": null,
+      "away_lineup": null
+    },
+    {
+      "home": "Valencia",
+      "away": "Real Sociedad",
+      "home_key": "valencia",
+      "away_key": "real sociedad",
+      "kickoff_at": null,
+      "prediction_status": "pending",
+      "home_lineup": null,
+      "away_lineup": null
     }
   ]
 }
