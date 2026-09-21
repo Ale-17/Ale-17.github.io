@@ -33,7 +33,7 @@ function patchCards(){if(!live)return;for(const card of $$('[data-v34-match]')){
 function managerNameFromRow(row){return clean(row?.querySelector('.table-manager strong')?.textContent||row?.querySelector('strong')?.textContent)}
 function leagueUser(name){return arr(latest?.league_users).find(x=>norm(x?.name)===norm(name))||null}
 function clauseManager(name){return arr(latest?.member_clause_snapshots).find(x=>norm(x?.name)===norm(name))||null}
-function balanceFor(name){if(norm(name)==='ale')return num(latest?.my_balance?.current_balance);const r=arr(latest?.estimated_rival_balances).find(x=>norm(x?.name)===norm(name));return num(r?.usable_estimated_balance??r?.estimated_balance??r?.balance)}
+function balanceFor(name){if(norm(name)==='ale')return num(latest?.my_balance?.current_balance);const r=arr(latest?.estimated_rival_balances).find(x=>norm(x?.name)===norm(name));return num(r?.estimated_balance??r?.usable_estimated_balance??r?.balance)}
 function rosterFor(name){if(norm(name)==='ale')return arr(latest?.my_team);return arr(clauseManager(name)?.clauses)}
 function transfers(){return arr(latest?.transfers_detected)}
 function movementName(t){const r=t?.player_resolution||{};return clean(t?.player||t?.player_name||r?.resolved_player_name||r?.player_name||r?.name)||'Jugador'}
