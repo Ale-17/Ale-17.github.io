@@ -37265,7 +37265,14 @@
       "to": "Mister",
       "price": 424200,
       "id_user1": 1732719,
-      "id_user2": 0
+      "id_user2": 0,
+      "player": "W. Szczęsny",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "60227"
+      }
     },
     {
       "created": "2026-09-20 17:31:42",
@@ -37275,7 +37282,27 @@
       "to": "Samuhg22",
       "price": 6348000,
       "id_user1": 2358533,
-      "id_user2": 1732719
+      "id_user2": 1732719,
+      "player": "M. Román",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "65674"
+      },
+      "transfer_type": "clause_buyout",
+      "clause_buyout": {
+        "seller": "Adam Panyiczki",
+        "buyer": "Samuhg22",
+        "player_id": "65674",
+        "player": "M. Román",
+        "amount": 6348000,
+        "seller_previous_clause_value": 6348000,
+        "rounding_difference": 0,
+        "evidence_snapshot_at": "2026-09-20T13:35:16+02:00",
+        "ownership_confirmed_at": "2026-09-20T19:57:11+02:00",
+        "confidence": "exact_clause_match"
+      }
     }
   ],
   "estimated_rival_balances": [
@@ -44566,7 +44593,8 @@
       "balance_adjustment_formula": "cash_refund - removed_historical_investment",
       "correction_entry": "clause_drop_semantic_correction",
       "pre_sale_rule": "when the feed proves a drop but the player was sold before a lower-clause snapshot, reconstruct it from the last positive clause state and the sale"
-    }
+    },
+    "change_attribution_policy": "If a raise is first detected between an evening snapshot and the next morning snapshot, attribute it to the previous evening unless an explicit timestamp/date proves otherwise."
   },
   "clause_ledger_status": {
     "status": "ok",
@@ -49445,5 +49473,39 @@
     "ale_balance_matches_real": true,
     "all_roster_counts_match": true,
     "persistent_transfer_history": true
+  },
+  "transfer_identity_resolution": {
+    "status": "partial",
+    "resolved_by_reconciliation": 2,
+    "unresolved_total": 148,
+    "unresolved_ale": 40,
+    "methods": {
+      "player_id_catalog": 2
+    },
+    "ledger_details_patched": 0,
+    "policy": "Resolve missing feed player via player_id, exact prior received offer, then unique roster delta; never guess ambiguous candidates."
+  },
+  "clause_buyouts_since_previous": [
+    {
+      "seller": "Adam Panyiczki",
+      "buyer": "Samuhg22",
+      "player_id": "65674",
+      "player": "M. Román",
+      "amount": 6348000,
+      "seller_previous_clause_value": 6348000,
+      "rounding_difference": 0,
+      "evidence_snapshot_at": "2026-09-20T13:35:16+02:00",
+      "ownership_confirmed_at": "2026-09-20T19:57:11+02:00",
+      "confidence": "exact_clause_match",
+      "created": "2026-09-20 17:31:42"
+    }
+  ],
+  "clause_buyout_capture": {
+    "status": "partial",
+    "direct_manager_transfers_seen": 26,
+    "clause_buyouts_classified": 1,
+    "unresolved_direct_manager_transfers": 2,
+    "new_since_previous_snapshot": 1,
+    "policy": "Direct manager transfer is a clause buyout only when ownership delta resolves the player and transfer amount matches seller's previous clause within 2 euros of Mister rounding."
   }
 }
