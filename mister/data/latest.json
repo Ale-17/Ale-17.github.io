@@ -37855,7 +37855,7 @@
     },
     {
       "name": "Adam Panyiczki",
-      "estimated_balance": 7941430,
+      "estimated_balance": 7983130,
       "ledger": [
         {
           "created": "2026-08-10 17:00:14",
@@ -38438,9 +38438,9 @@
       "usable_estimated_balance": 7941430,
       "active_clause_balance_investment_min": 4697354,
       "active_clause_balance_investment_max": 4780754,
-      "estimated_balance_min": 7899730,
+      "estimated_balance_min": 7983130,
       "estimated_balance_max": 7983130,
-      "estimated_balance_exact": false,
+      "estimated_balance_exact": true,
       "gameweek_payment_total_applied": 11675000,
       "other_feed_cash_total_applied": 750000,
       "manual_feed_payment_total_applied": 0,
@@ -38450,7 +38450,7 @@
     },
     {
       "name": "DRSeven",
-      "estimated_balance": -5781050,
+      "estimated_balance": -5774450,
       "ledger": [
         {
           "created": "2026-08-09 05:00:24",
@@ -39291,9 +39291,9 @@
           "detail": null
         },
         {
-          "created": "2026-09-21T14:40:19+02:00",
+          "created": "current_snapshot",
           "type": "clause_drop_pending_bounded_correction",
-          "amount": -45000,
+          "amount": -40800,
           "detail": {
             "manager": "DRSeven",
             "player_id": "68383",
@@ -39301,30 +39301,29 @@
             "from_level": 3,
             "to_level": 0,
             "steps_removed": 3,
-            "reference_value_min": 1174000,
+            "reference_value_min": 1202000,
             "reference_value_max": 1202000,
-            "cash_refund_min": 352200,
+            "cash_refund_min": 360600,
             "cash_refund_max": 360600,
             "removed_historical_investment_min": 401400,
             "removed_historical_investment_max": 401400,
-            "desired_balance_adjustment_min": -49200,
+            "desired_balance_adjustment_min": -40800,
             "desired_balance_adjustment_max": -40800,
-            "resolution_source": "observed_drop_bounded_until_feed_confirmation",
-            "detected_at": "2026-09-21T14:40:19+02:00"
+            "resolution_source": "observed_drop_bounded_until_feed_confirmation"
           }
         }
       ],
       "operation_count": 117,
       "team_value": 93574000,
       "max_negative_balance_from_25pct_rule": -23393500,
-      "remaining_debt_capacity_if_estimate_were_true": 17612450,
+      "remaining_debt_capacity_if_estimate_were_true": 17619050,
       "valid_by_25pct_debt_rule": true,
-      "usable_estimated_balance": -5781050,
+      "usable_estimated_balance": -5774450,
       "active_clause_balance_investment_min": 2054400,
       "active_clause_balance_investment_max": 2054400,
-      "estimated_balance_min": -5785250,
-      "estimated_balance_max": -5776850,
-      "estimated_balance_exact": false,
+      "estimated_balance_min": -5774450,
+      "estimated_balance_max": -5774450,
+      "estimated_balance_exact": true,
       "gameweek_payment_total_applied": 9725000,
       "other_feed_cash_total_applied": 1050000,
       "manual_feed_payment_total_applied": 0,
@@ -40809,7 +40808,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "13390634|71154||0"
+          "investment_ledger_episode": "13390634|71154|2026-08-21 05:00:31|5222222"
         },
         {
           "player_id": "56628",
@@ -40872,11 +40871,11 @@
               "min": 1624000,
               "max": 1624000,
               "exact": true,
-              "source": "captured_transition_delta",
+              "source": "overnight_raise_previous_evening_reference",
               "captured_at": "2026-09-16T01:40:02+02:00"
             }
           ],
-          "investment_ledger_episode": "13390634|14789||0"
+          "investment_ledger_episode": "13390634|14789|2026-08-11 05:00:25|5888888"
         },
         {
           "player_id": "29169",
@@ -40914,7 +40913,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "13390634|15566||0"
+          "investment_ledger_episode": "13390634|15566|2026-08-09 17:00:13|1311111"
         },
         {
           "player_id": "18004",
@@ -41000,39 +40999,39 @@
               "min": 577778,
               "max": 577778,
               "exact": true,
-              "source": "carried_from_previous_clause_snapshot",
-              "captured_at": "2026-09-12T11:43:48+02:00"
+              "source": "captured_transition_delta",
+              "captured_at": "2026-08-18T17:46:33+02:00"
             },
             {
               "min": 577778,
               "max": 577778,
               "exact": true,
-              "source": "carried_from_previous_clause_snapshot",
-              "captured_at": "2026-09-12T11:43:48+02:00"
+              "source": "captured_transition_delta",
+              "captured_at": "2026-08-18T17:46:33+02:00"
             },
             {
               "min": 577778,
               "max": 577778,
               "exact": true,
-              "source": "carried_from_previous_clause_snapshot",
-              "captured_at": "2026-09-12T11:43:48+02:00"
+              "source": "captured_transition_delta",
+              "captured_at": "2026-08-18T17:46:33+02:00"
             },
             {
               "min": 747200,
               "max": 747200,
               "exact": true,
-              "source": "carried_from_previous_clause_snapshot",
-              "captured_at": "2026-09-12T11:43:48+02:00"
+              "source": "overnight_raise_previous_evening_reference",
+              "captured_at": "2026-08-25T06:00:54+02:00"
             },
             {
               "min": 747200,
               "max": 747200,
               "exact": true,
-              "source": "carried_from_previous_clause_snapshot",
-              "captured_at": "2026-09-12T11:43:48+02:00"
+              "source": "overnight_raise_previous_evening_reference",
+              "captured_at": "2026-08-25T06:00:54+02:00"
             }
           ],
-          "investment_ledger_episode": "13390634|36410||0"
+          "investment_ledger_episode": "13390634|36410|2026-08-11 17:00:15|2888888"
         },
         {
           "player_id": "60888",
@@ -41057,7 +41056,7 @@
               "min": 1821200,
               "max": 1821200,
               "exact": true,
-              "source": "captured_transition_delta",
+              "source": "reference_change_range_fallback",
               "captured_at": "2026-09-12T18:13:05+02:00"
             }
           ],
@@ -41122,39 +41121,39 @@
               "min": 360200,
               "max": 360200,
               "exact": true,
-              "source": "carried_from_previous_clause_snapshot",
-              "captured_at": "2026-09-16T01:40:02+02:00"
+              "source": "captured_transition_delta",
+              "captured_at": "2026-08-21T17:49:00+02:00"
             },
             {
               "min": 360200,
               "max": 360200,
               "exact": true,
-              "source": "carried_from_previous_clause_snapshot",
-              "captured_at": "2026-09-16T01:40:02+02:00"
+              "source": "captured_transition_delta",
+              "captured_at": "2026-08-21T17:49:00+02:00"
             },
             {
               "min": 360200,
               "max": 360200,
               "exact": true,
-              "source": "carried_from_previous_clause_snapshot",
-              "captured_at": "2026-09-16T01:40:02+02:00"
+              "source": "captured_transition_delta",
+              "captured_at": "2026-08-21T17:49:00+02:00"
             },
             {
               "min": 360200,
               "max": 360200,
               "exact": true,
-              "source": "carried_from_previous_clause_snapshot",
-              "captured_at": "2026-09-16T01:40:02+02:00"
+              "source": "captured_transition_delta",
+              "captured_at": "2026-08-21T17:49:00+02:00"
             },
             {
               "min": 360200,
               "max": 360200,
               "exact": true,
-              "source": "carried_from_previous_clause_snapshot",
-              "captured_at": "2026-09-16T01:40:02+02:00"
+              "source": "captured_transition_delta",
+              "captured_at": "2026-08-22T17:35:35+02:00"
             }
           ],
-          "investment_ledger_episode": "12165479|28774||0"
+          "investment_ledger_episode": "12165479|28774|2026-08-15 17:00:15|1801000"
         },
         {
           "player_id": "33053",
@@ -41211,7 +41210,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "12165479|27520||0"
+          "investment_ledger_episode": "12165479|27520|2026-08-20 05:00:33|3339000"
         },
         {
           "player_id": "64160",
@@ -41230,7 +41229,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "12165479|64160||0"
+          "investment_ledger_episode": "12165479|64160|2026-08-22 17:00:18|1846004"
         },
         {
           "player_id": "34",
@@ -41258,28 +41257,28 @@
               "min": 364200,
               "max": 364200,
               "exact": true,
-              "source": "captured_transition_delta",
+              "source": "reference_change_range_fallback",
               "captured_at": "2026-09-11T21:21:43+02:00"
             },
             {
               "min": 364200,
               "max": 364200,
               "exact": true,
-              "source": "captured_transition_delta",
+              "source": "reference_change_range_fallback",
               "captured_at": "2026-09-11T21:21:43+02:00"
             },
             {
               "min": 364200,
               "max": 364200,
               "exact": true,
-              "source": "captured_transition_delta",
+              "source": "reference_change_range_fallback",
               "captured_at": "2026-09-11T21:21:43+02:00"
             },
             {
               "min": 364200,
               "max": 364200,
               "exact": true,
-              "source": "captured_transition_delta",
+              "source": "reference_change_range_fallback",
               "captured_at": "2026-09-11T21:21:43+02:00"
             }
           ],
@@ -41435,7 +41434,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "12165479|59371||0"
+          "investment_ledger_episode": "12165479|59371|2026-08-17 05:00:29|2495000"
         },
         {
           "player_id": "3845074",
@@ -41473,7 +41472,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "12165479|48203||0"
+          "investment_ledger_episode": "12165479|48203|2026-08-17 05:00:29|2114000"
         },
         {
           "player_id": "616",
@@ -41498,7 +41497,7 @@
               "min": 2888889,
               "max": 2888889,
               "exact": true,
-              "source": "reference_change_range_fallback",
+              "source": "overnight_raise_previous_evening_reference",
               "captured_at": "2026-09-20T13:35:16+02:00"
             }
           ],
@@ -41521,7 +41520,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "12165479|68606||0"
+          "investment_ledger_episode": "12165479|68606|2026-08-16 05:00:24|3151000"
         },
         {
           "player_id": "71616",
@@ -41546,7 +41545,7 @@
               "min": 880200,
               "max": 880200,
               "exact": true,
-              "source": "captured_transition_delta",
+              "source": "reference_change_range_fallback",
               "captured_at": "2026-09-12T18:13:05+02:00"
             }
           ],
@@ -41560,10 +41559,10 @@
       "roster_cards_detected": 11,
       "clause_players_detected": 11,
       "raised_clause_players_detected": 4,
-      "active_clause_balance_investment": 4739054,
+      "active_clause_balance_investment": 4697354,
       "active_clause_balance_investment_min": 4697354,
-      "active_clause_balance_investment_max": 4780754,
-      "active_clause_balance_investment_exact": false,
+      "active_clause_balance_investment_max": 4697354,
+      "active_clause_balance_investment_exact": true,
       "clauses": [
         {
           "player_id": "609",
@@ -41613,22 +41612,24 @@
           "clause_value": 7834000,
           "clause_percent": 100,
           "clause_level": 1,
-          "active_balance_investment": 748200,
+          "active_balance_investment": 736800,
           "active_balance_investment_min": 736800,
-          "active_balance_investment_max": 759600,
-          "active_balance_investment_exact": false,
-          "step_investments": [],
+          "active_balance_investment_max": 736800,
+          "active_balance_investment_exact": true,
+          "step_investments": [
+            736800
+          ],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [
             {
               "min": 736800,
-              "max": 759600,
-              "exact": false,
-              "source": "captured_transition_delta",
-              "captured_at": "2026-09-22T09:16:27+02:00"
+              "max": 736800,
+              "exact": true,
+              "source": "overnight_raise_previous_evening_reference",
+              "captured_at": "2026-09-22T09:10:14+02:00"
             }
           ],
-          "investment_ledger_episode": "12189231|68652||0"
+          "investment_ledger_episode": "12189231|68652|2026-08-13 17:00:13|1718780"
         },
         {
           "player_id": "71010",
@@ -41666,7 +41667,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "12189231|66706||0"
+          "investment_ledger_episode": "12189231|66706|2026-08-16 17:00:18|355060"
         },
         {
           "player_id": "52117",
@@ -41697,26 +41698,29 @@
           "clause_value": 10277500,
           "clause_percent": 150,
           "clause_level": 2,
-          "active_balance_investment": 1503500,
+          "active_balance_investment": 1473200,
           "active_balance_investment_min": 1473200,
-          "active_balance_investment_max": 1533800,
-          "active_balance_investment_exact": false,
-          "step_investments": [],
+          "active_balance_investment_max": 1473200,
+          "active_balance_investment_exact": true,
+          "step_investments": [
+            707000,
+            766200
+          ],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [
             {
               "min": 707000,
-              "max": 740000,
-              "exact": false,
-              "source": "reference_change_range_fallback",
+              "max": 707000,
+              "exact": true,
+              "source": "overnight_raise_previous_evening_reference",
               "captured_at": "2026-09-20T13:35:16+02:00"
             },
             {
               "min": 766200,
-              "max": 793800,
-              "exact": false,
-              "source": "captured_transition_delta",
-              "captured_at": "2026-09-22T09:16:27+02:00"
+              "max": 766200,
+              "exact": true,
+              "source": "overnight_raise_previous_evening_reference",
+              "captured_at": "2026-09-22T09:10:14+02:00"
             }
           ],
           "investment_ledger_episode": "12189231|71640|2026-09-07 05:00:28|2651250"
@@ -41757,7 +41761,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "12189231|58954||0"
+          "investment_ledger_episode": "12189231|58954|2026-08-11 17:00:15|26520000"
         },
         {
           "player_id": "63727",
@@ -41785,29 +41789,29 @@
               "min": 262372,
               "max": 262372,
               "exact": true,
-              "source": "captured_transition_delta",
-              "captured_at": "2026-09-22T09:16:27+02:00"
+              "source": "overnight_raise_previous_evening_reference",
+              "captured_at": "2026-09-22T09:10:14+02:00"
             },
             {
               "min": 262372,
               "max": 262372,
               "exact": true,
-              "source": "captured_transition_delta",
-              "captured_at": "2026-09-22T09:16:27+02:00"
+              "source": "overnight_raise_previous_evening_reference",
+              "captured_at": "2026-09-22T09:10:14+02:00"
             },
             {
               "min": 262372,
               "max": 262372,
               "exact": true,
-              "source": "captured_transition_delta",
-              "captured_at": "2026-09-22T09:16:27+02:00"
+              "source": "overnight_raise_previous_evening_reference",
+              "captured_at": "2026-09-22T09:10:14+02:00"
             },
             {
               "min": 262372,
               "max": 262372,
               "exact": true,
-              "source": "captured_transition_delta",
-              "captured_at": "2026-09-22T09:16:27+02:00"
+              "source": "overnight_raise_previous_evening_reference",
+              "captured_at": "2026-09-22T09:10:14+02:00"
             }
           ],
           "investment_ledger_episode": "12189231|63727|2026-09-18 05:00:30|1311860"
@@ -41837,7 +41841,7 @@
               "min": 466666,
               "max": 466666,
               "exact": true,
-              "source": "captured_transition_delta",
+              "source": "reference_change_range_fallback",
               "captured_at": "2026-09-08T18:34:35+02:00"
             },
             {
@@ -41865,9 +41869,9 @@
       "roster_cards_detected": 15,
       "clause_players_detected": 15,
       "raised_clause_players_detected": 3,
-      "active_clause_balance_investment": 2054400,
-      "active_clause_balance_investment_min": 2054400,
-      "active_clause_balance_investment_max": 2054400,
+      "active_clause_balance_investment": 2052000,
+      "active_clause_balance_investment_min": 2052000,
+      "active_clause_balance_investment_max": 2052000,
       "active_clause_balance_investment_exact": true,
       "clauses": [
         {
@@ -41982,7 +41986,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "12165510|59532||0"
+          "investment_ledger_episode": "12165510|59532|2026-08-13 17:00:13|625000"
         },
         {
           "player_id": "65347",
@@ -42027,14 +42031,14 @@
               "min": 182000,
               "max": 182000,
               "exact": true,
-              "source": "captured_transition_delta",
+              "source": "reference_change_range_fallback",
               "captured_at": "2026-08-31T22:50:56+02:00"
             },
             {
               "min": 182000,
               "max": 182000,
               "exact": true,
-              "source": "captured_transition_delta",
+              "source": "reference_change_range_fallback",
               "captured_at": "2026-08-31T23:39:18+02:00"
             }
           ],
@@ -42101,7 +42105,7 @@
               "min": 605200,
               "max": 605200,
               "exact": true,
-              "source": "delayed_next_day_previous_evening_reference",
+              "source": "overnight_raise_previous_evening_reference",
               "captured_at": "2026-09-21T14:40:19+02:00"
             }
           ],
@@ -42117,13 +42121,13 @@
           "clause_value": 5488000,
           "clause_percent": 300,
           "clause_level": 5,
-          "active_balance_investment": 1085200,
-          "active_balance_investment_min": 1085200,
-          "active_balance_investment_max": 1085200,
+          "active_balance_investment": 1082800,
+          "active_balance_investment_min": 1082800,
+          "active_balance_investment_max": 1082800,
           "active_balance_investment_exact": true,
           "step_investments": [
             200000,
-            202400,
+            200000,
             227600,
             227600,
             227600
@@ -42134,35 +42138,35 @@
               "min": 200000,
               "max": 200000,
               "exact": true,
-              "source": "captured_transition_delta",
+              "source": "overnight_raise_previous_evening_reference",
               "captured_at": "2026-09-14T11:22:33+02:00"
             },
             {
-              "min": 202400,
-              "max": 202400,
+              "min": 200000,
+              "max": 200000,
               "exact": true,
-              "source": "captured_transition_delta",
+              "source": "overnight_raise_previous_evening_reference",
               "captured_at": "2026-09-15T14:16:04+02:00"
             },
             {
               "min": 227600,
               "max": 227600,
               "exact": true,
-              "source": "delayed_next_day_previous_evening_reference",
+              "source": "overnight_raise_previous_evening_reference",
               "captured_at": "2026-09-19T11:13:15+02:00"
             },
             {
               "min": 227600,
               "max": 227600,
               "exact": true,
-              "source": "delayed_next_day_previous_evening_reference",
+              "source": "overnight_raise_previous_evening_reference",
               "captured_at": "2026-09-19T11:13:15+02:00"
             },
             {
               "min": 227600,
               "max": 227600,
               "exact": true,
-              "source": "delayed_next_day_previous_evening_reference",
+              "source": "overnight_raise_previous_evening_reference",
               "captured_at": "2026-09-19T11:13:15+02:00"
             }
           ],
@@ -42204,7 +42208,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "12165510|12900||0"
+          "investment_ledger_episode": "12165510|12900|2026-08-09 05:00:24|21755000"
         },
         {
           "player_id": "62904",
@@ -42293,7 +42297,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "13370206|70935||0"
+          "investment_ledger_episode": "13370206|70935|2026-08-12 05:00:24|2968000"
         },
         {
           "player_id": "11761",
@@ -42376,14 +42380,14 @@
               "min": 353700,
               "max": 353700,
               "exact": true,
-              "source": "captured_transition_delta",
+              "source": "overnight_raise_previous_evening_reference",
               "captured_at": "2026-09-16T11:31:37+02:00"
             },
             {
               "min": 353700,
               "max": 353700,
               "exact": true,
-              "source": "captured_transition_delta",
+              "source": "overnight_raise_previous_evening_reference",
               "captured_at": "2026-09-16T11:31:37+02:00"
             }
           ],
@@ -42451,14 +42455,14 @@
               "min": 608000,
               "max": 608000,
               "exact": true,
-              "source": "captured_transition_delta",
+              "source": "overnight_raise_previous_evening_reference",
               "captured_at": "2026-09-16T11:31:37+02:00"
             },
             {
               "min": 608000,
               "max": 608000,
               "exact": true,
-              "source": "captured_transition_delta",
+              "source": "overnight_raise_previous_evening_reference",
               "captured_at": "2026-09-16T11:31:37+02:00"
             }
           ],
@@ -42481,7 +42485,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "13370206|28776||0"
+          "investment_ledger_episode": "13370206|28776|2026-08-10 05:00:23|1999000"
         },
         {
           "player_id": "29222",
@@ -42576,7 +42580,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "13370206|61092||0"
+          "investment_ledger_episode": "13370206|61092|2026-08-15 05:00:25|6500000"
         },
         {
           "player_id": "70638",
@@ -42595,7 +42599,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "13370206|70638||0"
+          "investment_ledger_episode": "13370206|70638|2026-08-13 17:00:13|13790000"
         },
         {
           "player_id": "31226",
@@ -42639,7 +42643,7 @@
               "min": 1999852,
               "max": 1999852,
               "exact": true,
-              "source": "captured_transition_delta",
+              "source": "overnight_raise_previous_evening_reference",
               "captured_at": "2026-09-21T14:40:19+02:00"
             }
           ],
@@ -42694,7 +42698,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "15479078|6032||0"
+          "investment_ledger_episode": "15479078|6032|2026-08-09 17:00:13|9008888"
         },
         {
           "player_id": "15345",
@@ -42935,7 +42939,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "15441764|63705||0"
+          "investment_ledger_episode": "15441764|63705|2026-08-14 17:00:15|8500000"
         },
         {
           "player_id": "48556",
@@ -42992,7 +42996,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "15441764|25885||0"
+          "investment_ledger_episode": "15441764|25885|2026-08-11 08:07:57|703000"
         },
         {
           "player_id": "31496",
@@ -43011,7 +43015,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "15441764|31496||0"
+          "investment_ledger_episode": "15441764|31496|2026-08-10 05:00:23|5522000"
         },
         {
           "player_id": "59088",
@@ -43030,7 +43034,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "15441764|59088||0"
+          "investment_ledger_episode": "15441764|59088|2026-08-13 17:00:13|417000"
         },
         {
           "player_id": "28777",
@@ -43087,7 +43091,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "15441764|71513||0"
+          "investment_ledger_episode": "15441764|71513|2026-08-13 17:00:13|250000"
         },
         {
           "player_id": "17568",
@@ -43125,7 +43129,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "15441764|23147||0"
+          "investment_ledger_episode": "15441764|23147|2026-08-13 17:00:13|700000"
         },
         {
           "player_id": "65704",
@@ -43144,7 +43148,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "15441764|65704||0"
+          "investment_ledger_episode": "15441764|65704|2026-08-11 17:00:15|14095000"
         },
         {
           "player_id": "70940",
@@ -43163,7 +43167,7 @@
           "step_investments": [],
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
-          "investment_ledger_episode": "15441764|70940||0"
+          "investment_ledger_episode": "15441764|70940|2026-08-17 17:00:16|1371000"
         }
       ]
     }
@@ -43648,8 +43652,11 @@
         "search_from": "2026-09-20T19:57:11+02:00",
         "detected_at": "2026-09-21T14:40:19+02:00",
         "resolution_source": "observed_clause_transition",
-        "reference_value_min": 1174000,
-        "reference_value_max": 1202000
+        "reference_value_min": 1202000,
+        "reference_value_max": 1202000,
+        "previous_evening_exact_reference": 1202000,
+        "reference_resolution_source": "delayed_next_day_previous_evening_reference",
+        "previous_evening_snapshot_at": "2026-09-20T19:57:11+02:00"
       }
     ],
     "bounded_pending_clause_drop_adjustments": [
@@ -43660,16 +43667,15 @@
         "from_level": 3,
         "to_level": 0,
         "steps_removed": 3,
-        "reference_value_min": 1174000,
+        "reference_value_min": 1202000,
         "reference_value_max": 1202000,
-        "cash_refund_min": 352200,
+        "cash_refund_min": 360600,
         "cash_refund_max": 360600,
         "removed_historical_investment_min": 401400,
         "removed_historical_investment_max": 401400,
-        "desired_balance_adjustment_min": -49200,
+        "desired_balance_adjustment_min": -40800,
         "desired_balance_adjustment_max": -40800,
-        "resolution_source": "observed_drop_bounded_until_feed_confirmation",
-        "detected_at": "2026-09-21T14:40:19+02:00"
+        "resolution_source": "observed_drop_bounded_until_feed_confirmation"
       }
     ],
     "confirmed_clause_drop_feed_events": [],
@@ -43762,7 +43768,8 @@
       "balance_adjustment_formula": "cash_refund - removed_historical_investment",
       "correction_entry": "clause_drop_semantic_correction",
       "pre_sale_rule": "when the feed proves a drop but the player was sold before a lower-clause snapshot, reconstruct it from the last positive clause state and the sale"
-    }
+    },
+    "pending_clause_drop_balance_range_exact": true
   },
   "clause_ledger_status": {
     "status": "ok",
@@ -46083,8 +46090,8 @@
       "sale_count": 26,
       "sale_total": 63191290,
       "cash_from_transfers_only": -349016,
-      "reconstructed_balance": 7941430,
-      "reconstructed_balance_min": 7899730,
+      "reconstructed_balance": 7983130,
+      "reconstructed_balance_min": 7983130,
       "reconstructed_balance_max": 7983130,
       "non_transfer_balance_adjustment": 8290446,
       "raw_balance_before_sanitized_replay": null,
@@ -46097,20 +46104,21 @@
       "current_holdings_acquisition_cost": 81854022,
       "team_value": 69838000,
       "unrealized_value_vs_acquisition_cost": null,
-      "wealth_at_current_market_values": 77779430,
-      "wealth_at_current_market_values_min": 77737730,
+      "wealth_at_current_market_values": 77821130,
+      "wealth_at_current_market_values_min": 77821130,
       "wealth_at_current_market_values_max": 77821130,
-      "wealth_vs_initial_50m": 27779430,
-      "active_clause_balance_investment": 4739054,
+      "wealth_vs_initial_50m": 27821130,
+      "active_clause_balance_investment": 4697354,
       "active_clause_balance_investment_min": 4697354,
-      "active_clause_balance_investment_max": 4780754,
+      "active_clause_balance_investment_max": 4697354,
       "clause_players_detected": 11,
       "raised_clause_players_detected": 4,
-      "active_clause_balance_investment_exact": false,
+      "active_clause_balance_investment_exact": true,
       "balance_range_consistent": true,
+      "estimated_balance_exact": true,
       "clause_capture_integrity_ok": true,
       "transfer_integrity_ok": true,
-      "audit_confidence": "bounded",
+      "audit_confidence": "high",
       "current_holdings": [
         {
           "player_id": null,
@@ -46274,6 +46282,7 @@
       "raised_clause_players_detected": 4,
       "active_clause_balance_investment_exact": true,
       "balance_range_consistent": true,
+      "estimated_balance_exact": true,
       "clause_capture_integrity_ok": true,
       "transfer_integrity_ok": true,
       "audit_confidence": "high",
@@ -46481,10 +46490,10 @@
       "sale_count": 43,
       "sale_total": 181794500,
       "cash_from_transfers_only": -14248150,
-      "reconstructed_balance": -5781050,
-      "reconstructed_balance_min": -5785250,
-      "reconstructed_balance_max": -5776850,
-      "non_transfer_balance_adjustment": 8467100,
+      "reconstructed_balance": -5774450,
+      "reconstructed_balance_min": -5774450,
+      "reconstructed_balance_max": -5774450,
+      "non_transfer_balance_adjustment": 8471300,
       "raw_balance_before_sanitized_replay": null,
       "sanitized_replay_correction": null,
       "balance_recomputed_from_sanitized_transfers": true,
@@ -46495,17 +46504,18 @@
       "current_holdings_acquisition_cost": 115811138,
       "team_value": 93574000,
       "unrealized_value_vs_acquisition_cost": null,
-      "wealth_at_current_market_values": 87792950,
-      "wealth_at_current_market_values_min": 87788750,
-      "wealth_at_current_market_values_max": 87797150,
-      "wealth_vs_initial_50m": 37792950,
-      "active_clause_balance_investment": 2054400,
-      "active_clause_balance_investment_min": 2054400,
-      "active_clause_balance_investment_max": 2054400,
+      "wealth_at_current_market_values": 87799550,
+      "wealth_at_current_market_values_min": 87799550,
+      "wealth_at_current_market_values_max": 87799550,
+      "wealth_vs_initial_50m": 37799550,
+      "active_clause_balance_investment": 2052000,
+      "active_clause_balance_investment_min": 2052000,
+      "active_clause_balance_investment_max": 2052000,
       "clause_players_detected": 15,
       "raised_clause_players_detected": 3,
       "active_clause_balance_investment_exact": true,
       "balance_range_consistent": true,
+      "estimated_balance_exact": true,
       "clause_capture_integrity_ok": true,
       "transfer_integrity_ok": true,
       "audit_confidence": "high",
@@ -46732,6 +46742,7 @@
       "raised_clause_players_detected": 3,
       "active_clause_balance_investment_exact": true,
       "balance_range_consistent": true,
+      "estimated_balance_exact": true,
       "clause_capture_integrity_ok": true,
       "transfer_integrity_ok": true,
       "audit_confidence": "high",
@@ -46946,6 +46957,7 @@
       "raised_clause_players_detected": 0,
       "active_clause_balance_investment_exact": true,
       "balance_range_consistent": true,
+      "estimated_balance_exact": true,
       "clause_capture_integrity_ok": true,
       "transfer_integrity_ok": true,
       "audit_confidence": "high",
@@ -47124,6 +47136,7 @@
       "raised_clause_players_detected": 3,
       "active_clause_balance_investment_exact": true,
       "balance_range_consistent": true,
+      "estimated_balance_exact": true,
       "clause_capture_integrity_ok": true,
       "transfer_integrity_ok": true,
       "audit_confidence": "high",
@@ -47374,6 +47387,7 @@
       "raised_clause_players_detected": 0,
       "active_clause_balance_investment_exact": true,
       "balance_range_consistent": true,
+      "estimated_balance_exact": true,
       "clause_capture_integrity_ok": true,
       "transfer_integrity_ok": true,
       "audit_confidence": "high",
@@ -47496,8 +47510,8 @@
     "balance_corrections_applied": [],
     "ale_real_balance_checksum_reconciliation": null,
     "manager_count": 7,
-    "high_confidence_count": 6,
-    "bounded_confidence_count": 1,
+    "high_confidence_count": 7,
+    "bounded_confidence_count": 0,
     "all_roster_counts_match": true,
     "roster_mismatches": [],
     "ale_balance_matches_real": true,
