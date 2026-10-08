@@ -37723,7 +37723,14 @@
       "to": "Mister",
       "price": 6014400,
       "id_user1": 1732719,
-      "id_user2": 0
+      "id_user2": 0,
+      "player": "J. Mojica",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "308"
+      }
     },
     {
       "created": "2026-10-08 01:13:05",
@@ -37743,7 +37750,14 @@
       "to": "Mister",
       "price": 14840700,
       "id_user1": 1732719,
-      "id_user2": 0
+      "id_user2": 0,
+      "player": "A. Baena",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "22502"
+      }
     },
     {
       "created": "2026-10-08 05:00:20",
@@ -37774,7 +37788,14 @@
       "to": "DRSeven",
       "price": 1615000,
       "id_user1": 0,
-      "id_user2": 1513537
+      "id_user2": 1513537,
+      "player": "I. Akhomach",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "33896"
+      }
     },
     {
       "created": "2026-10-08 05:00:20",
@@ -37794,7 +37815,14 @@
       "to": "DRSeven",
       "price": 352000,
       "id_user1": 0,
-      "id_user2": 1513537
+      "id_user2": 1513537,
+      "player": "J. Asp Jensen",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "71343"
+      }
     },
     {
       "created": "2026-10-08 05:00:20",
@@ -37819,7 +37847,14 @@
           "name": "Adam Panyiczki",
           "bid": 2696010
         }
-      ]
+      ],
+      "player": "P. Gulácsi",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "71649"
+      }
     }
   ],
   "estimated_rival_balances": [
@@ -46217,7 +46252,8 @@
       "balance_adjustment_formula": "cash_refund - removed_historical_investment",
       "correction_entry": "clause_drop_semantic_correction",
       "pre_sale_rule": "when the feed proves a drop but the player was sold before a lower-clause snapshot, reconstruct it from the last positive clause state and the sale"
-    }
+    },
+    "change_attribution_policy": "If a raise is first detected between an evening snapshot and the next morning snapshot, attribute it to the previous evening unless an explicit timestamp/date proves otherwise."
   },
   "clause_ledger_status": {
     "status": "ok",
@@ -51523,5 +51559,25 @@
     "ale_balance_matches_real": true,
     "all_roster_counts_match": true,
     "persistent_transfer_history": true
+  },
+  "transfer_identity_resolution": {
+    "status": "partial",
+    "resolved_by_reconciliation": 5,
+    "unresolved_total": 33,
+    "unresolved_ale": 1,
+    "methods": {
+      "player_id_catalog": 5
+    },
+    "ledger_details_patched": 0,
+    "policy": "Resolve missing feed player via player_id, exact prior received offer, then unique roster delta; never guess ambiguous candidates."
+  },
+  "clause_buyouts_since_previous": [],
+  "clause_buyout_capture": {
+    "status": "ok",
+    "direct_manager_transfers_seen": 16,
+    "clause_buyouts_classified": 0,
+    "unresolved_direct_manager_transfers": 0,
+    "new_since_previous_snapshot": 0,
+    "policy": "Direct manager transfer is a clause buyout only when ownership delta resolves the player and transfer amount matches seller's previous clause within 2 euros of Mister rounding."
   }
 }
