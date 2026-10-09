@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-08T23:19:15+02:00",
+  "captured_at": "2026-10-09T01:59:31+02:00",
   "source": "github-actions-cloud",
   "initial_balance_assumption": 50000000,
   "last_team_reset_at": "2026-08-07 13:40:33",
@@ -84,7 +84,7 @@
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/59534.png?version=20240817233448"
       ],
-      "delta_since_previous_snapshot": null,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 28000,
       "daily_market_change_pct": 2.099,
       "weekly_market_change": 180000,
@@ -96,6 +96,36 @@
           "class": "points",
           "text": "21",
           "value": 21
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": 0
+    },
+    {
+      "player_id": "14789",
+      "name": "O. Sancet",
+      "position": 3,
+      "market_value": 9452000,
+      "trend": "down",
+      "owner_id": "13390634",
+      "owner_name": "Samuhg22",
+      "asking_price": 25000000,
+      "ends_at_unix": 1791601200,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/14789.png?version=20250818192509",
+      "image_urls": [
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/14789.png?version=20250818192509"
+      ],
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -98000,
+      "daily_market_change_pct": -1.037,
+      "weekly_market_change": -7000,
+      "weekly_market_change_pct": -0.074,
+      "displayed_points": 24,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "24",
+          "value": 24
         }
       ],
       "displayed_points_delta_since_previous_snapshot": null
@@ -341,6 +371,36 @@
       "displayed_points_delta_since_previous_snapshot": 0
     },
     {
+      "player_id": "10",
+      "name": "A. Laporte",
+      "position": 2,
+      "market_value": 11118000,
+      "trend": "down",
+      "owner_id": "13390634",
+      "owner_name": "Samuhg22",
+      "asking_price": 35000000,
+      "ends_at_unix": 1791601200,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/10.png?version=20250912080149",
+      "image_urls": [
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/10.png?version=20250912080149"
+      ],
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -1000,
+      "daily_market_change_pct": -0.009,
+      "weekly_market_change": 118000,
+      "weekly_market_change_pct": 1.061,
+      "displayed_points": 26,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "26",
+          "value": 26
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
       "player_id": "53107",
       "name": "S. Cardona",
       "position": 2,
@@ -488,7 +548,7 @@
           "value": 23
         }
       ],
-      "displayed_points_delta_since_previous_snapshot": null
+      "displayed_points_delta_since_previous_snapshot": 0
     },
     {
       "player_id": "71008",
@@ -1686,9 +1746,9 @@
       "displayed_points_delta_since_previous_snapshot": 0
     }
   ],
-  "feed_event_count": 186,
-  "effective_feed_event_count": 186,
-  "current_feed_transfer_count": 254,
+  "feed_event_count": 178,
+  "effective_feed_event_count": 178,
+  "current_feed_transfer_count": 246,
   "pre_sanitize_consolidated_transfer_count": 631,
   "consolidated_transfer_count": 631,
   "transfer_history_persistent": true,
@@ -1701,7 +1761,7 @@
     "missing_identity_economic_rows": [],
     "ownership_warnings": [],
     "ownership_warning_count": 0,
-    "identity_aliases_resolved_by_unique_name": 213,
+    "identity_aliases_resolved_by_unique_name": 214,
     "source": "economic-signature consolidation + chronological player-ownership replay; duplicate representations are excluded from cash and roster accounting"
   },
   "transfers_detected": [
@@ -37864,7 +37924,16 @@
       "to": "Mister",
       "price": 4809000,
       "id_user1": 1588298,
-      "id_user2": 0
+      "id_user2": 0,
+      "player": "J. Rueda",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "unique_roster_delta",
+        "confidence": "high",
+        "before_snapshot_at": "2026-10-08T11:13:20+02:00",
+        "after_snapshot_at": "2026-10-08T23:19:15+02:00",
+        "direction": "out"
+      }
     }
   ],
   "estimated_rival_balances": [
@@ -44678,7 +44747,7 @@
           "name": "T. Lemar",
           "position": null,
           "market_value": 2584000,
-          "acquisition_cost": 1000000,
+          "acquisition_cost": null,
           "clause_reference_value": 2584000,
           "clause_value": 10336000,
           "clause_percent": 300,
@@ -44941,7 +45010,7 @@
           "name": "A. Osambela",
           "position": null,
           "market_value": 379000,
-          "acquisition_cost": 212000,
+          "acquisition_cost": null,
           "clause_reference_value": 379000,
           "clause_value": 1000000,
           "clause_percent": 50,
@@ -45959,7 +46028,7 @@
     "all_raised_investments_exact": true,
     "ale_balance_difference_after_clause_adjustment": 0,
     "balance_integrity_ok": true,
-    "previous_successful_clause_snapshot_at": "2026-10-08T11:13:20+02:00",
+    "previous_successful_clause_snapshot_at": "2026-10-08T23:19:15+02:00",
     "official_clause_view_enabled": true,
     "official_clause_view_diagnostics": {
       "start_url": "https://mister.mundodeportivo.com/users/13390634/samuhg22",
@@ -46116,7 +46185,7 @@
     "source": "Mister profile Equipo -> Visualización -> Precio de cláusula -> reload; exact visible clause price and percentage",
     "historical_ledger_integrity_ok": true,
     "historical_ledger_repairs_applied": 0,
-    "ownership_identity_repairs_applied": 35,
+    "ownership_identity_repairs_applied": 37,
     "gameweek_payments_included_in_balance": true,
     "other_feed_cash_adjustments_included_in_balance": true,
     "manual_feed_payments_included_in_balance": true,
@@ -46264,7 +46333,7 @@
         "player": "R. Fernández",
         "canonical_episode": "13390634|60888|2026-08-27 05:00:29|6666666",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 146,
+        "history_observations_replayed": 147,
         "previous_bounds": [
           1821200,
           1821200
@@ -46281,7 +46350,7 @@
         "player": "A. Paredes",
         "canonical_episode": "12165479|28773|2026-08-25 05:00:30|1538000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 161,
+        "history_observations_replayed": 162,
         "previous_bounds": [
           0,
           0
@@ -46298,7 +46367,7 @@
         "player": "J. Giménez",
         "canonical_episode": "12165479|34|2026-09-05 05:00:28|1821000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 102,
+        "history_observations_replayed": 103,
         "previous_bounds": [
           1456800,
           1456800
@@ -46315,7 +46384,7 @@
         "player": "R. Garrido",
         "canonical_episode": "12165479|71008|2026-08-26 05:00:39|1231000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 142,
+        "history_observations_replayed": 143,
         "previous_bounds": [
           0,
           0
@@ -46332,7 +46401,7 @@
         "player": "L. Sučić",
         "canonical_episode": "12165479|59371|2026-08-17 05:00:29|2495000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 186,
+        "history_observations_replayed": 187,
         "previous_bounds": [
           0,
           0
@@ -46349,7 +46418,7 @@
         "player": "R. Terrats",
         "canonical_episode": "12165479|48203|2026-08-17 05:00:29|2114000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 186,
+        "history_observations_replayed": 187,
         "previous_bounds": [
           0,
           0
@@ -46366,7 +46435,7 @@
         "player": "Á. Pérez",
         "canonical_episode": "12165479|68606|2026-08-16 05:00:24|3151000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 186,
+        "history_observations_replayed": 187,
         "previous_bounds": [
           0,
           0
@@ -46383,7 +46452,7 @@
         "player": "Y. Zabiri",
         "canonical_episode": "12165479|71616|2026-09-06 05:00:31|3742000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 96,
+        "history_observations_replayed": 97,
         "previous_bounds": [
           880200,
           880200
@@ -46400,7 +46469,7 @@
         "player": "D. Soria",
         "canonical_episode": "12189231|609|2026-08-24 17:00:20|9739010",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 162,
+        "history_observations_replayed": 163,
         "previous_bounds": [
           0,
           0
@@ -46417,7 +46486,7 @@
         "player": "M. Sierra",
         "canonical_episode": "12189231|71640|2026-09-07 05:00:28|2651250",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 94,
+        "history_observations_replayed": 95,
         "previous_bounds": [
           1473200,
           1473200
@@ -46434,7 +46503,7 @@
         "player": "B. Nsongo",
         "canonical_episode": "12189231|70941|2026-09-02 05:00:34|3563530",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 120,
+        "history_observations_replayed": 121,
         "previous_bounds": [
           0,
           0
@@ -46451,7 +46520,7 @@
         "player": "K. Mbappé",
         "canonical_episode": "12189231|58954|2026-08-11 17:00:15|26520000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 186,
+        "history_observations_replayed": 187,
         "previous_bounds": [
           4940800,
           4940800
@@ -46468,7 +46537,7 @@
         "player": "M. Díaz",
         "canonical_episode": "12189231|3060|2026-08-25 17:07:38|2333332",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 159,
+        "history_observations_replayed": 160,
         "previous_bounds": [
           0,
           0
@@ -46485,7 +46554,7 @@
         "player": "Á. Valles",
         "canonical_episode": "12165510|53111|2026-08-27 05:00:29|7612000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 146,
+        "history_observations_replayed": 147,
         "previous_bounds": [
           0,
           0
@@ -46502,7 +46571,7 @@
         "player": "M. Kumbulla",
         "canonical_episode": "12165510|59532|2026-08-13 17:00:13|625000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 186,
+        "history_observations_replayed": 187,
         "previous_bounds": [
           0,
           0
@@ -46515,11 +46584,28 @@
       },
       {
         "manager": "DRSeven",
+        "player_id": "12949",
+        "player": "T. Lemar",
+        "canonical_episode": "12165510|12949|2026-09-08 00:04:59|1000000",
+        "removed_orphan_episodes": [],
+        "history_observations_replayed": 93,
+        "previous_bounds": [
+          1082800,
+          1082800
+        ],
+        "rebuilt_bounds": [
+          1082800,
+          1082800
+        ],
+        "reason": "missing_transfer_identity_reconnected_to_unique_ownership_episode"
+      },
+      {
+        "manager": "DRSeven",
         "player_id": "12900",
         "player": "V. Júnior",
         "canonical_episode": "12165510|12900|2026-08-09 05:00:24|21755000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 186,
+        "history_observations_replayed": 187,
         "previous_bounds": [
           0,
           0
@@ -46536,7 +46622,24 @@
         "player": "J. Salinas",
         "canonical_episode": "13370206|70935|2026-08-12 05:00:24|2968000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 186,
+        "history_observations_replayed": 187,
+        "previous_bounds": [
+          0,
+          0
+        ],
+        "rebuilt_bounds": [
+          0,
+          0
+        ],
+        "reason": "missing_transfer_identity_reconnected_to_unique_ownership_episode"
+      },
+      {
+        "manager": "Enrique",
+        "player_id": "65475",
+        "player": "A. Osambela",
+        "canonical_episode": "13370206|65475|2026-09-08 05:00:29|212000",
+        "removed_orphan_episodes": [],
+        "history_observations_replayed": 93,
         "previous_bounds": [
           0,
           0
@@ -46553,7 +46656,7 @@
         "player": "B. Turrientes",
         "canonical_episode": "13370206|28776|2026-08-10 05:00:23|1999000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 186,
+        "history_observations_replayed": 187,
         "previous_bounds": [
           0,
           0
@@ -46570,7 +46673,7 @@
         "player": "M. Neto",
         "canonical_episode": "13370206|64524|2026-08-26 05:00:39|637000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 152,
+        "history_observations_replayed": 153,
         "previous_bounds": [
           0,
           0
@@ -46587,7 +46690,7 @@
         "player": "T. Buchanan",
         "canonical_episode": "13370206|61092|2026-08-15 05:00:25|6500000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 186,
+        "history_observations_replayed": 187,
         "previous_bounds": [
           0,
           0
@@ -46604,7 +46707,7 @@
         "player": "C. Hernández",
         "canonical_episode": "13370206|12915|2026-09-07 05:00:28|9999258",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 94,
+        "history_observations_replayed": 95,
         "previous_bounds": [
           1999852,
           1999852
@@ -46621,7 +46724,7 @@
         "player": "E. Jauregi",
         "canonical_episode": "13370206|70994|2026-09-01 05:00:34|165000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 125,
+        "history_observations_replayed": 126,
         "previous_bounds": [
           0,
           0
@@ -46638,7 +46741,7 @@
         "player": "A. Rebbach",
         "canonical_episode": "15479078|53143|2026-08-30 05:00:29|2688888",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 133,
+        "history_observations_replayed": 134,
         "previous_bounds": [
           0,
           0
@@ -46655,7 +46758,7 @@
         "player": "I. Muñoz",
         "canonical_episode": "15479078|52371|2026-09-07 05:00:28|1918000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 94,
+        "history_observations_replayed": 95,
         "previous_bounds": [
           0,
           0
@@ -46672,7 +46775,7 @@
         "player": "I. Radu",
         "canonical_episode": "15441764|63705|2026-08-14 17:00:15|8500000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 186,
+        "history_observations_replayed": 187,
         "previous_bounds": [
           0,
           0
@@ -46689,7 +46792,7 @@
         "player": "Angeliño",
         "canonical_episode": "15441764|71795|2026-08-23 08:27:51|2000000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 166,
+        "history_observations_replayed": 167,
         "previous_bounds": [
           0,
           0
@@ -46706,7 +46809,7 @@
         "player": "C. Dominguez",
         "canonical_episode": "15441764|25885|2026-08-11 08:07:57|703000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 186,
+        "history_observations_replayed": 187,
         "previous_bounds": [
           0,
           0
@@ -46723,7 +46826,7 @@
         "player": "H. Bellerín",
         "canonical_episode": "15441764|31496|2026-08-10 05:00:23|5522000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 186,
+        "history_observations_replayed": 187,
         "previous_bounds": [
           0,
           0
@@ -46740,7 +46843,7 @@
         "player": "W. Kambwala",
         "canonical_episode": "15441764|59088|2026-08-13 17:00:13|417000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 186,
+        "history_observations_replayed": 187,
         "previous_bounds": [
           0,
           0
@@ -46757,7 +46860,7 @@
         "player": "C. Álvarez",
         "canonical_episode": "15441764|28777|2026-09-02 05:00:34|3348000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 120,
+        "history_observations_replayed": 121,
         "previous_bounds": [
           0,
           0
@@ -46774,7 +46877,7 @@
         "player": "P. Arriaza",
         "canonical_episode": "15441764|71513|2026-08-13 17:00:13|250000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 186,
+        "history_observations_replayed": 187,
         "previous_bounds": [
           0,
           0
@@ -46791,7 +46894,7 @@
         "player": "P. Lozano",
         "canonical_episode": "15441764|17568|2026-08-29 05:00:28|1300000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 135,
+        "history_observations_replayed": 136,
         "previous_bounds": [
           0,
           0
@@ -46808,7 +46911,7 @@
         "player": "T. Morente",
         "canonical_episode": "15441764|23147|2026-08-13 17:00:13|700000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 186,
+        "history_observations_replayed": 187,
         "previous_bounds": [
           0,
           0
@@ -46825,7 +46928,7 @@
         "player": "G. Mikautadze",
         "canonical_episode": "15441764|65704|2026-08-11 17:00:15|14095000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 186,
+        "history_observations_replayed": 187,
         "previous_bounds": [
           0,
           0
@@ -46842,7 +46945,7 @@
         "player": "Z. Eddahchouri",
         "canonical_episode": "15441764|70940|2026-08-17 17:00:16|1371000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 183,
+        "history_observations_replayed": 184,
         "previous_bounds": [
           0,
           0
@@ -46856,11 +46959,11 @@
     ],
     "identity_repair_git_history": {
       "status": "ok",
-      "commits_seen": 450,
-      "commits_inspected": 450,
-      "parseable_snapshots": 450,
-      "complete_snapshots": 308,
-      "unique_complete_snapshots": 186
+      "commits_seen": 452,
+      "commits_inspected": 452,
+      "parseable_snapshots": 452,
+      "complete_snapshots": 310,
+      "unique_complete_snapshots": 187
     },
     "transitions": [],
     "final_exact_reconciliations": [],
@@ -46869,16 +46972,16 @@
   "gameweek_payment_capture": {
     "status": "ok",
     "reset_at": "2026-08-07 13:40:33",
-    "gameweeks_detected": 4,
-    "payments_detected": 28,
+    "gameweeks_detected": 3,
+    "payments_detected": 21,
     "totals_by_manager": {
-      "Adam Panyiczki": 7085000,
-      "Samuhg22": 6725000,
-      "Ale": 7060000,
-      "Enrique": 4920000,
-      "DRSeven": 5400000,
-      "José Luis": 5415000,
-      "fernando mg99": 5455000
+      "Adam Panyiczki": 5470000,
+      "Samuhg22": 4540000,
+      "Ale": 5480000,
+      "Enrique": 3740000,
+      "DRSeven": 3730000,
+      "José Luis": 3930000,
+      "fernando mg99": 3665000
     },
     "details": [
       {
@@ -47275,139 +47378,6 @@
         "previous_closure_payment": 1360000,
         "delta_vs_previous_closure": 0,
         "previous_snapshot_payment": 1360000,
-        "delta_vs_previous_snapshot_payment": 0,
-        "previous_feed_closure_payment": null,
-        "delta_vs_previous_feed_closure": null,
-        "diagnostic_baseline": "previous_persisted_snapshot"
-      },
-      {
-        "created": "2026-09-08 12:51:52",
-        "gameweek": 4,
-        "gameweek_id": 4045,
-        "manager": "Samuhg22",
-        "rank": 1,
-        "points": 62,
-        "negative_at_that_closure": false,
-        "lined_up_players": 11,
-        "scored_lined_up_players": 11,
-        "payment": 2185000,
-        "previous_closure_payment": 2185000,
-        "delta_vs_previous_closure": 0,
-        "previous_snapshot_payment": 2185000,
-        "delta_vs_previous_snapshot_payment": 0,
-        "previous_feed_closure_payment": null,
-        "delta_vs_previous_feed_closure": null,
-        "diagnostic_baseline": "previous_persisted_snapshot"
-      },
-      {
-        "created": "2026-09-08 12:51:52",
-        "gameweek": 4,
-        "gameweek_id": 4045,
-        "manager": "Ale",
-        "rank": 2,
-        "points": 46,
-        "negative_at_that_closure": false,
-        "lined_up_players": 11,
-        "scored_lined_up_players": 11,
-        "payment": 1580000,
-        "previous_closure_payment": 1580000,
-        "delta_vs_previous_closure": 0,
-        "previous_snapshot_payment": 1580000,
-        "delta_vs_previous_snapshot_payment": 0,
-        "previous_feed_closure_payment": null,
-        "delta_vs_previous_feed_closure": null,
-        "diagnostic_baseline": "previous_persisted_snapshot"
-      },
-      {
-        "created": "2026-09-08 12:51:52",
-        "gameweek": 4,
-        "gameweek_id": 4045,
-        "manager": "DRSeven",
-        "rank": 3,
-        "points": 39,
-        "negative_at_that_closure": false,
-        "lined_up_players": 11,
-        "scored_lined_up_players": 10,
-        "payment": 1670000,
-        "previous_closure_payment": 1670000,
-        "delta_vs_previous_closure": 0,
-        "previous_snapshot_payment": 1670000,
-        "delta_vs_previous_snapshot_payment": 0,
-        "previous_feed_closure_payment": null,
-        "delta_vs_previous_feed_closure": null,
-        "diagnostic_baseline": "previous_persisted_snapshot"
-      },
-      {
-        "created": "2026-09-08 12:51:52",
-        "gameweek": 4,
-        "gameweek_id": 4045,
-        "manager": "Adam Panyiczki",
-        "rank": 4,
-        "points": 38,
-        "negative_at_that_closure": false,
-        "lined_up_players": 11,
-        "scored_lined_up_players": 11,
-        "payment": 1615000,
-        "previous_closure_payment": 1615000,
-        "delta_vs_previous_closure": 0,
-        "previous_snapshot_payment": 1615000,
-        "delta_vs_previous_snapshot_payment": 0,
-        "previous_feed_closure_payment": null,
-        "delta_vs_previous_feed_closure": null,
-        "diagnostic_baseline": "previous_persisted_snapshot"
-      },
-      {
-        "created": "2026-09-08 12:51:52",
-        "gameweek": 4,
-        "gameweek_id": 4045,
-        "manager": "fernando mg99",
-        "rank": 5,
-        "points": 38,
-        "negative_at_that_closure": false,
-        "lined_up_players": 11,
-        "scored_lined_up_players": 6,
-        "payment": 1790000,
-        "previous_closure_payment": 1790000,
-        "delta_vs_previous_closure": 0,
-        "previous_snapshot_payment": 1790000,
-        "delta_vs_previous_snapshot_payment": 0,
-        "previous_feed_closure_payment": null,
-        "delta_vs_previous_feed_closure": null,
-        "diagnostic_baseline": "previous_persisted_snapshot"
-      },
-      {
-        "created": "2026-09-08 12:51:52",
-        "gameweek": 4,
-        "gameweek_id": 4045,
-        "manager": "José Luis",
-        "rank": 6,
-        "points": 27,
-        "negative_at_that_closure": false,
-        "lined_up_players": 11,
-        "scored_lined_up_players": 7,
-        "payment": 1485000,
-        "previous_closure_payment": 1485000,
-        "delta_vs_previous_closure": 0,
-        "previous_snapshot_payment": 1485000,
-        "delta_vs_previous_snapshot_payment": 0,
-        "previous_feed_closure_payment": null,
-        "delta_vs_previous_feed_closure": null,
-        "diagnostic_baseline": "previous_persisted_snapshot"
-      },
-      {
-        "created": "2026-09-08 12:51:52",
-        "gameweek": 4,
-        "gameweek_id": 4045,
-        "manager": "Enrique",
-        "rank": 7,
-        "points": 16,
-        "negative_at_that_closure": false,
-        "lined_up_players": 11,
-        "scored_lined_up_players": 8,
-        "payment": 1180000,
-        "previous_closure_payment": 1180000,
-        "delta_vs_previous_closure": 0,
-        "previous_snapshot_payment": 1180000,
         "delta_vs_previous_snapshot_payment": 0,
         "previous_feed_closure_payment": null,
         "delta_vs_previous_feed_closure": null,
@@ -47858,157 +47828,9 @@
         "payment_semantics": "latest cumulative gameweek payment; replaces an earlier closure for the same gameweek",
         "diagnostic_semantics": "previous persisted snapshot is authoritative for payment deltas; raw feed closure comparison is secondary because Mister may rewrite earlier closure rows",
         "finality": "unknown_from_feed_alone"
-      },
-      {
-        "key": "4045",
-        "gameweek": 4,
-        "gameweek_id": 4045,
-        "latest_created": "2026-09-08 12:51:52",
-        "closure_count": 1,
-        "reopened_or_reclosed": false,
-        "latest_payments": [
-          {
-            "created": "2026-09-08 12:51:52",
-            "gameweek": 4,
-            "gameweek_id": 4045,
-            "manager": "Samuhg22",
-            "rank": 1,
-            "points": 62,
-            "negative_at_that_closure": false,
-            "lined_up_players": 11,
-            "scored_lined_up_players": 11,
-            "payment": 2185000,
-            "previous_closure_payment": 2185000,
-            "delta_vs_previous_closure": 0,
-            "previous_snapshot_payment": 2185000,
-            "delta_vs_previous_snapshot_payment": 0,
-            "previous_feed_closure_payment": null,
-            "delta_vs_previous_feed_closure": null,
-            "diagnostic_baseline": "previous_persisted_snapshot"
-          },
-          {
-            "created": "2026-09-08 12:51:52",
-            "gameweek": 4,
-            "gameweek_id": 4045,
-            "manager": "Ale",
-            "rank": 2,
-            "points": 46,
-            "negative_at_that_closure": false,
-            "lined_up_players": 11,
-            "scored_lined_up_players": 11,
-            "payment": 1580000,
-            "previous_closure_payment": 1580000,
-            "delta_vs_previous_closure": 0,
-            "previous_snapshot_payment": 1580000,
-            "delta_vs_previous_snapshot_payment": 0,
-            "previous_feed_closure_payment": null,
-            "delta_vs_previous_feed_closure": null,
-            "diagnostic_baseline": "previous_persisted_snapshot"
-          },
-          {
-            "created": "2026-09-08 12:51:52",
-            "gameweek": 4,
-            "gameweek_id": 4045,
-            "manager": "DRSeven",
-            "rank": 3,
-            "points": 39,
-            "negative_at_that_closure": false,
-            "lined_up_players": 11,
-            "scored_lined_up_players": 10,
-            "payment": 1670000,
-            "previous_closure_payment": 1670000,
-            "delta_vs_previous_closure": 0,
-            "previous_snapshot_payment": 1670000,
-            "delta_vs_previous_snapshot_payment": 0,
-            "previous_feed_closure_payment": null,
-            "delta_vs_previous_feed_closure": null,
-            "diagnostic_baseline": "previous_persisted_snapshot"
-          },
-          {
-            "created": "2026-09-08 12:51:52",
-            "gameweek": 4,
-            "gameweek_id": 4045,
-            "manager": "Adam Panyiczki",
-            "rank": 4,
-            "points": 38,
-            "negative_at_that_closure": false,
-            "lined_up_players": 11,
-            "scored_lined_up_players": 11,
-            "payment": 1615000,
-            "previous_closure_payment": 1615000,
-            "delta_vs_previous_closure": 0,
-            "previous_snapshot_payment": 1615000,
-            "delta_vs_previous_snapshot_payment": 0,
-            "previous_feed_closure_payment": null,
-            "delta_vs_previous_feed_closure": null,
-            "diagnostic_baseline": "previous_persisted_snapshot"
-          },
-          {
-            "created": "2026-09-08 12:51:52",
-            "gameweek": 4,
-            "gameweek_id": 4045,
-            "manager": "fernando mg99",
-            "rank": 5,
-            "points": 38,
-            "negative_at_that_closure": false,
-            "lined_up_players": 11,
-            "scored_lined_up_players": 6,
-            "payment": 1790000,
-            "previous_closure_payment": 1790000,
-            "delta_vs_previous_closure": 0,
-            "previous_snapshot_payment": 1790000,
-            "delta_vs_previous_snapshot_payment": 0,
-            "previous_feed_closure_payment": null,
-            "delta_vs_previous_feed_closure": null,
-            "diagnostic_baseline": "previous_persisted_snapshot"
-          },
-          {
-            "created": "2026-09-08 12:51:52",
-            "gameweek": 4,
-            "gameweek_id": 4045,
-            "manager": "José Luis",
-            "rank": 6,
-            "points": 27,
-            "negative_at_that_closure": false,
-            "lined_up_players": 11,
-            "scored_lined_up_players": 7,
-            "payment": 1485000,
-            "previous_closure_payment": 1485000,
-            "delta_vs_previous_closure": 0,
-            "previous_snapshot_payment": 1485000,
-            "delta_vs_previous_snapshot_payment": 0,
-            "previous_feed_closure_payment": null,
-            "delta_vs_previous_feed_closure": null,
-            "diagnostic_baseline": "previous_persisted_snapshot"
-          },
-          {
-            "created": "2026-09-08 12:51:52",
-            "gameweek": 4,
-            "gameweek_id": 4045,
-            "manager": "Enrique",
-            "rank": 7,
-            "points": 16,
-            "negative_at_that_closure": false,
-            "lined_up_players": 11,
-            "scored_lined_up_players": 8,
-            "payment": 1180000,
-            "previous_closure_payment": 1180000,
-            "delta_vs_previous_closure": 0,
-            "previous_snapshot_payment": 1180000,
-            "delta_vs_previous_snapshot_payment": 0,
-            "previous_feed_closure_payment": null,
-            "delta_vs_previous_feed_closure": null,
-            "diagnostic_baseline": "previous_persisted_snapshot"
-          }
-        ],
-        "changed_since_previous_snapshot": false,
-        "delta_vs_previous_snapshot_total": 0,
-        "payment_semantics": "latest cumulative gameweek payment; replaces an earlier closure for the same gameweek",
-        "diagnostic_semantics": "previous persisted snapshot is authoritative for payment deltas; raw feed closure comparison is secondary because Mister may rewrite earlier closure rows",
-        "finality": "unknown_from_feed_alone"
       }
     ],
-    "previous_persisted_snapshot_captured_at": "2026-10-08T11:13:20+02:00",
+    "previous_persisted_snapshot_captured_at": "2026-10-08T23:19:15+02:00",
     "source": "Mister feed category gameweek_end -> latest nested ranking.positions[].payment per gameweek",
     "semantics": "latest payment is cumulative for that gameweek and replaces earlier provisional closure payments; standard point/rank/goal/ideal-XI/fixed bonuses are not double-counted separately",
     "diagnostic_semantics": "delta_vs_previous_snapshot_payment compares against the previous persisted enriched snapshot; feed-to-feed deltas are secondary because Mister may rewrite older closure rows",
@@ -48017,11 +47839,11 @@
   "other_feed_cash_capture": {
     "status": "ok",
     "totals_by_manager": {
-      "Ale": 650000,
-      "Enrique": 600000,
-      "DRSeven": 600000,
-      "Samuhg22": 400000,
-      "Adam Panyiczki": 450000
+      "Ale": 500000,
+      "Enrique": 450000,
+      "DRSeven": 400000,
+      "Samuhg22": 300000,
+      "Adam Panyiczki": 250000
     },
     "events": [
       {
@@ -48095,51 +47917,6 @@
         "money_field": "amount",
         "context": null,
         "path": "data.table[4]"
-      },
-      {
-        "created": "2026-09-08 12:52:23",
-        "category": "gameweek_end_pools",
-        "manager": "Adam Panyiczki",
-        "amount": 200000,
-        "money_field": "amount",
-        "context": null,
-        "path": "data.table[0]"
-      },
-      {
-        "created": "2026-09-08 12:52:23",
-        "category": "gameweek_end_pools",
-        "manager": "DRSeven",
-        "amount": 200000,
-        "money_field": "amount",
-        "context": null,
-        "path": "data.table[1]"
-      },
-      {
-        "created": "2026-09-08 12:52:23",
-        "category": "gameweek_end_pools",
-        "manager": "Ale",
-        "amount": 150000,
-        "money_field": "amount",
-        "context": null,
-        "path": "data.table[2]"
-      },
-      {
-        "created": "2026-09-08 12:52:23",
-        "category": "gameweek_end_pools",
-        "manager": "Enrique",
-        "amount": 150000,
-        "money_field": "amount",
-        "context": null,
-        "path": "data.table[3]"
-      },
-      {
-        "created": "2026-09-08 12:52:23",
-        "category": "gameweek_end_pools",
-        "manager": "Samuhg22",
-        "amount": 100000,
-        "money_field": "amount",
-        "context": null,
-        "path": "data.table[4]"
       }
     ],
     "unresolved_cash_like_events": [],
@@ -48155,9 +47932,9 @@
   },
   "persistent_cash_reconciliation": {
     "status": "ok",
-    "previous_snapshot_at": "2026-10-08T11:13:20+02:00",
-    "restored_count": 38,
-    "restored_total": 36571800,
+    "previous_snapshot_at": "2026-10-08T23:19:15+02:00",
+    "restored_count": 50,
+    "restored_total": 48876800,
     "events": [
       {
         "manager": "Samuhg22",
@@ -48222,6 +47999,28 @@
           "other_feed_cash_adjustment",
           "2026-09-01 10:45:40",
           200000,
+          "{\"category\": \"gameweek_end_pools\", \"context\": null, \"money_field\": \"amount\"}"
+        ]
+      },
+      {
+        "manager": "Samuhg22",
+        "type": "gameweek_payment_cumulative",
+        "created": "2026-09-08 12:51:52",
+        "amount": 2185000,
+        "identity": [
+          "gameweek_payment_cumulative",
+          "4045"
+        ]
+      },
+      {
+        "manager": "Samuhg22",
+        "type": "other_feed_cash_adjustment",
+        "created": "2026-09-08 12:52:23",
+        "amount": 100000,
+        "identity": [
+          "other_feed_cash_adjustment",
+          "2026-09-08 12:52:23",
+          100000,
           "{\"category\": \"gameweek_end_pools\", \"context\": null, \"money_field\": \"amount\"}"
         ]
       },
@@ -48293,6 +48092,28 @@
       },
       {
         "manager": "Ale",
+        "type": "gameweek_payment_cumulative",
+        "created": "2026-09-08 12:51:52",
+        "amount": 1580000,
+        "identity": [
+          "gameweek_payment_cumulative",
+          "4045"
+        ]
+      },
+      {
+        "manager": "Ale",
+        "type": "other_feed_cash_adjustment",
+        "created": "2026-09-08 12:52:23",
+        "amount": 150000,
+        "identity": [
+          "other_feed_cash_adjustment",
+          "2026-09-08 12:52:23",
+          150000,
+          "{\"category\": \"gameweek_end_pools\", \"context\": null, \"money_field\": \"amount\"}"
+        ]
+      },
+      {
+        "manager": "Ale",
         "type": "exceptional_clause_cutoff_reconciliation",
         "created": "2026-09-20",
         "amount": -18200,
@@ -48340,6 +48161,28 @@
           "other_feed_cash_adjustment",
           "2026-09-01 10:45:40",
           300000,
+          "{\"category\": \"gameweek_end_pools\", \"context\": null, \"money_field\": \"amount\"}"
+        ]
+      },
+      {
+        "manager": "Adam Panyiczki",
+        "type": "gameweek_payment_cumulative",
+        "created": "2026-09-08 12:51:52",
+        "amount": 1615000,
+        "identity": [
+          "gameweek_payment_cumulative",
+          "4045"
+        ]
+      },
+      {
+        "manager": "Adam Panyiczki",
+        "type": "other_feed_cash_adjustment",
+        "created": "2026-09-08 12:52:23",
+        "amount": 200000,
+        "identity": [
+          "other_feed_cash_adjustment",
+          "2026-09-08 12:52:23",
+          200000,
           "{\"category\": \"gameweek_end_pools\", \"context\": null, \"money_field\": \"amount\"}"
         ]
       },
@@ -48394,6 +48237,28 @@
           "other_feed_cash_adjustment",
           "2026-09-01 10:45:40",
           250000,
+          "{\"category\": \"gameweek_end_pools\", \"context\": null, \"money_field\": \"amount\"}"
+        ]
+      },
+      {
+        "manager": "DRSeven",
+        "type": "gameweek_payment_cumulative",
+        "created": "2026-09-08 12:51:52",
+        "amount": 1670000,
+        "identity": [
+          "gameweek_payment_cumulative",
+          "4045"
+        ]
+      },
+      {
+        "manager": "DRSeven",
+        "type": "other_feed_cash_adjustment",
+        "created": "2026-09-08 12:52:23",
+        "amount": 200000,
+        "identity": [
+          "other_feed_cash_adjustment",
+          "2026-09-08 12:52:23",
+          200000,
           "{\"category\": \"gameweek_end_pools\", \"context\": null, \"money_field\": \"amount\"}"
         ]
       },
@@ -48464,6 +48329,28 @@
         ]
       },
       {
+        "manager": "Enrique",
+        "type": "gameweek_payment_cumulative",
+        "created": "2026-09-08 12:51:52",
+        "amount": 1180000,
+        "identity": [
+          "gameweek_payment_cumulative",
+          "4045"
+        ]
+      },
+      {
+        "manager": "Enrique",
+        "type": "other_feed_cash_adjustment",
+        "created": "2026-09-08 12:52:23",
+        "amount": 150000,
+        "identity": [
+          "other_feed_cash_adjustment",
+          "2026-09-08 12:52:23",
+          150000,
+          "{\"category\": \"gameweek_end_pools\", \"context\": null, \"money_field\": \"amount\"}"
+        ]
+      },
+      {
         "manager": "José Luis",
         "type": "gameweek_payment_cumulative",
         "created": "2026-08-25 11:59:44",
@@ -48503,6 +48390,16 @@
         "identity": [
           "gameweek_payment_cumulative",
           "4044"
+        ]
+      },
+      {
+        "manager": "José Luis",
+        "type": "gameweek_payment_cumulative",
+        "created": "2026-09-08 12:51:52",
+        "amount": 1485000,
+        "identity": [
+          "gameweek_payment_cumulative",
+          "4045"
         ]
       },
       {
@@ -48569,6 +48466,16 @@
           "2026-09-01 10:45:40",
           250000,
           "{\"category\": \"gameweek_end_pools\", \"context\": null, \"money_field\": \"amount\"}"
+        ]
+      },
+      {
+        "manager": "fernando mg99",
+        "type": "gameweek_payment_cumulative",
+        "created": "2026-09-08 12:51:52",
+        "amount": 1790000,
+        "identity": [
+          "gameweek_payment_cumulative",
+          "4045"
         ]
       }
     ],
@@ -50062,8 +49969,8 @@
     "semantics": "Visible Mister score/points fields are captured conservatively. Until the first real jornada is observed, do not assume whether a displayed value is jornada, total or another score when points_status is ambiguous.",
     "team_players_detected": 17,
     "team_players_with_points": 17,
-    "market_players_detected": 34,
-    "market_players_with_points": 34,
+    "market_players_detected": 36,
+    "market_players_with_points": 36,
     "standings_rows_detected": 7,
     "standings_rows_with_points": 7
   },
