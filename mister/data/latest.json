@@ -1,15 +1,45 @@
 {
-  "captured_at": "2026-11-06T05:10:07+01:00",
+  "captured_at": "2026-11-06T17:14:27+01:00",
   "source": "github-actions-cloud",
   "initial_balance_assumption": 50000000,
   "last_team_reset_at": "2026-08-07 13:40:33",
   "initial_budget_source": "El administrador ha cambiado la configuración de los nuevos usuarios a 0 jugadores + 50M",
   "my_balance": {
-    "current_balance": -8046842,
-    "future_balance": -8046842,
-    "max_debt": 34056908
+    "current_balance": 735458,
+    "future_balance": -9251542,
+    "max_debt": 30874208
   },
   "market_players": [
+    {
+      "player_id": "40089",
+      "name": "U. Sadiq",
+      "position": 4,
+      "market_value": 559000,
+      "trend": "up",
+      "owner_id": "12165479",
+      "owner_name": "Ale",
+      "asking_price": 559000,
+      "ends_at_unix": 1794110400,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/40089.png?version=20251004234421",
+      "image_urls": [
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/40089.png?version=20251004234421"
+      ],
+      "delta_since_previous_snapshot": 0,
+      "daily_market_change": 41000,
+      "daily_market_change_pct": 7.335,
+      "weekly_market_change": 345000,
+      "weekly_market_change_pct": 61.717,
+      "displayed_points": 23,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "23",
+          "value": 23
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
     {
       "player_id": "616",
       "name": "R. Hernández",
@@ -19,12 +49,12 @@
       "owner_id": "12165479",
       "owner_name": "Ale",
       "asking_price": 17292000,
-      "ends_at_unix": 1794024000,
+      "ends_at_unix": 1794110400,
       "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/616.png?version=20260818215112",
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/616.png?version=20260818215112"
       ],
-      "delta_since_previous_snapshot": -65000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": -65000,
       "daily_market_change_pct": -0.377,
       "weekly_market_change": 283000,
@@ -48,47 +78,17 @@
       "trend": "up",
       "owner_id": "12165510",
       "owner_name": "DRSeven",
-      "asking_price": 11030000,
-      "ends_at_unix": 1794024000,
+      "asking_price": 11144000,
+      "ends_at_unix": 1794110400,
       "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/51135.png?version=20251003194102",
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/51135.png?version=20251003194102"
       ],
-      "delta_since_previous_snapshot": 55000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 55000,
       "daily_market_change_pct": 0.494,
       "weekly_market_change": 300000,
       "weekly_market_change_pct": 2.692,
-      "displayed_points": 42,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "42",
-          "value": 42
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": 0
-    },
-    {
-      "player_id": "364",
-      "name": "S. Canales",
-      "position": 3,
-      "market_value": 7045000,
-      "trend": "up",
-      "owner_id": "12165479",
-      "owner_name": "Ale",
-      "asking_price": 6850000,
-      "ends_at_unix": 1794024000,
-      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/364.png?version=20260622183248",
-      "image_urls": [
-        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/364.png?version=20260622183248"
-      ],
-      "delta_since_previous_snapshot": 94000,
-      "daily_market_change": 94000,
-      "daily_market_change_pct": 1.334,
-      "weekly_market_change": 518000,
-      "weekly_market_change_pct": 7.353,
       "displayed_points": 42,
       "points_status": "single_visible_value",
       "score_candidates": [
@@ -108,13 +108,13 @@
       "trend": "up",
       "owner_id": "12165510",
       "owner_name": "DRSeven",
-      "asking_price": 6845000,
-      "ends_at_unix": 1794024000,
+      "asking_price": 7327000,
+      "ends_at_unix": 1794110400,
       "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/27907.png?version=20250613152455",
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/27907.png?version=20250613152455"
       ],
-      "delta_since_previous_snapshot": 130000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 130000,
       "daily_market_change_pct": 1.774,
       "weekly_market_change": 739000,
@@ -131,64 +131,94 @@
       "displayed_points_delta_since_previous_snapshot": 0
     },
     {
-      "player_id": "96",
-      "name": "D. Ceballos",
+      "player_id": "364",
+      "name": "S. Canales",
       "position": 3,
-      "market_value": 5282000,
+      "market_value": 7045000,
       "trend": "up",
       "owner_id": "12165479",
       "owner_name": "Ale",
-      "asking_price": 4573000,
-      "ends_at_unix": 1794024000,
-      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/96.png?version=20251003183552",
+      "asking_price": 6850000,
+      "ends_at_unix": 1794110400,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/364.png?version=20260622183248",
       "image_urls": [
-        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/96.png?version=20251003183552"
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/364.png?version=20260622183248"
       ],
-      "delta_since_previous_snapshot": 47000,
-      "daily_market_change": 47000,
-      "daily_market_change_pct": 0.89,
-      "weekly_market_change": 536000,
-      "weekly_market_change_pct": 10.148,
-      "displayed_points": 25,
+      "delta_since_previous_snapshot": 0,
+      "daily_market_change": 94000,
+      "daily_market_change_pct": 1.334,
+      "weekly_market_change": 518000,
+      "weekly_market_change_pct": 7.353,
+      "displayed_points": 42,
       "points_status": "single_visible_value",
       "score_candidates": [
         {
           "class": "points",
-          "text": "25",
-          "value": 25
+          "text": "42",
+          "value": 42
         }
       ],
       "displayed_points_delta_since_previous_snapshot": 0
     },
     {
-      "player_id": "60872",
-      "name": "R. Vargas",
+      "player_id": "64562",
+      "name": "N. Deossa",
       "position": 3,
-      "market_value": 1865000,
-      "trend": "up",
-      "owner_id": "12165510",
-      "owner_name": "DRSeven",
-      "asking_price": 1831000,
-      "ends_at_unix": 1794024000,
-      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/60872.png?version=20250110103914",
+      "market_value": 4314000,
+      "trend": "down",
+      "owner_id": "13370206",
+      "owner_name": "Enrique",
+      "asking_price": 6314000,
+      "ends_at_unix": 1794110400,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/64562.png?version=20250804175940",
       "image_urls": [
-        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/60872.png?version=20250110103914"
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/64562.png?version=20250804175940"
       ],
-      "delta_since_previous_snapshot": 34000,
-      "daily_market_change": 34000,
-      "daily_market_change_pct": 1.823,
-      "weekly_market_change": 182000,
-      "weekly_market_change_pct": 9.759,
-      "displayed_points": 8,
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -136000,
+      "daily_market_change_pct": -3.153,
+      "weekly_market_change": -737000,
+      "weekly_market_change_pct": -17.084,
+      "displayed_points": 39,
       "points_status": "single_visible_value",
       "score_candidates": [
         {
           "class": "points",
-          "text": "8",
-          "value": 8
+          "text": "39",
+          "value": 39
         }
       ],
-      "displayed_points_delta_since_previous_snapshot": 0
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "71639",
+      "name": "B. Gerenabarrena",
+      "position": 3,
+      "market_value": 2510000,
+      "trend": "up",
+      "owner_id": "13370206",
+      "owner_name": "Enrique",
+      "asking_price": 3510000,
+      "ends_at_unix": 1794110400,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71639.png?version=20260803092552",
+      "image_urls": [
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71639.png?version=20260803092552"
+      ],
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": 66000,
+      "daily_market_change_pct": 2.629,
+      "weekly_market_change": -56000,
+      "weekly_market_change_pct": -2.231,
+      "displayed_points": 31,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "31",
+          "value": 31
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
     },
     {
       "player_id": "35434",
@@ -199,12 +229,12 @@
       "owner_id": "12165479",
       "owner_name": "Ale",
       "asking_price": 10416000,
-      "ends_at_unix": 1794024000,
+      "ends_at_unix": 1794110400,
       "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/35434.png?version=20250722235600",
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/35434.png?version=20250722235600"
       ],
-      "delta_since_previous_snapshot": 40000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 40000,
       "daily_market_change_pct": 0.378,
       "weekly_market_change": 224000,
@@ -229,12 +259,12 @@
       "owner_id": "12165479",
       "owner_name": "Ale",
       "asking_price": 4392000,
-      "ends_at_unix": 1794024000,
+      "ends_at_unix": 1794110400,
       "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/17452.png?version=20251003183705",
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/17452.png?version=20251003183705"
       ],
-      "delta_since_previous_snapshot": 47000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 47000,
       "daily_market_change_pct": 0.904,
       "weekly_market_change": 713000,
@@ -251,127 +281,547 @@
       "displayed_points_delta_since_previous_snapshot": 0
     },
     {
-      "player_id": "4836165",
-      "name": "R. Revivo",
+      "player_id": "59506",
+      "name": "J. Rodríguez",
       "position": 2,
-      "market_value": 2664000,
+      "market_value": 1255000,
       "trend": "up",
-      "owner_id": "12165510",
-      "owner_name": "DRSeven",
-      "asking_price": 2457000,
-      "ends_at_unix": 1794024000,
-      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/4836165.png?version=20260901213742",
-      "image_urls": [
-        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/4836165.png?version=20260901213742"
-      ],
-      "delta_since_previous_snapshot": 106000,
-      "daily_market_change": 106000,
-      "daily_market_change_pct": 3.979,
-      "weekly_market_change": 626000,
-      "weekly_market_change_pct": 23.498,
-      "displayed_points": 32,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "32",
-          "value": 32
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": 0
-    },
-    {
-      "player_id": "68716",
-      "name": "B. Sangaré",
-      "position": 2,
-      "market_value": 2184000,
-      "trend": "up",
-      "owner_id": "12165510",
-      "owner_name": "DRSeven",
-      "asking_price": 2132000,
-      "ends_at_unix": 1794024000,
-      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/68716.png?version=20260323141411",
-      "image_urls": [
-        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/68716.png?version=20260323141411"
-      ],
-      "delta_since_previous_snapshot": 52000,
-      "daily_market_change": 52000,
-      "daily_market_change_pct": 2.381,
-      "weekly_market_change": 296000,
-      "weekly_market_change_pct": 13.553,
-      "displayed_points": 32,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "32",
-          "value": 32
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": 0
-    },
-    {
-      "player_id": "14379",
-      "name": "A. Fernández",
-      "position": 1,
-      "market_value": 2630000,
-      "trend": "down",
       "owner_id": "12165479",
       "owner_name": "Ale",
-      "asking_price": 2678000,
-      "ends_at_unix": 1794024000,
-      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/14379.png?version=20231217203816",
+      "asking_price": 1255000,
+      "ends_at_unix": 1794110400,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/59506.png?version=20251003195248",
       "image_urls": [
-        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/14379.png?version=20231217203816"
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/59506.png?version=20251003195248"
       ],
-      "delta_since_previous_snapshot": -48000,
-      "daily_market_change": -48000,
-      "daily_market_change_pct": -1.825,
-      "weekly_market_change": 99000,
-      "weekly_market_change_pct": 3.764,
-      "displayed_points": 20,
+      "delta_since_previous_snapshot": 0,
+      "daily_market_change": 51000,
+      "daily_market_change_pct": 4.064,
+      "weekly_market_change": 406000,
+      "weekly_market_change_pct": 32.351,
+      "displayed_points": 32,
       "points_status": "single_visible_value",
       "score_candidates": [
         {
           "class": "points",
-          "text": "20",
-          "value": 20
+          "text": "32",
+          "value": 32
         }
       ],
-      "displayed_points_delta_since_previous_snapshot": 0
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "609",
+      "name": "D. Soria",
+      "position": 1,
+      "market_value": 9746000,
+      "trend": "down",
+      "owner_id": "12189231",
+      "owner_name": "Adam Panyiczki",
+      "asking_price": 9746000,
+      "ends_at_unix": 1794110400,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/609.png?version=20251003195901",
+      "image_urls": [
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/609.png?version=20251003195901"
+      ],
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -26000,
+      "daily_market_change_pct": -0.267,
+      "weekly_market_change": -263000,
+      "weekly_market_change_pct": -2.699,
+      "displayed_points": 57,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "57",
+          "value": 57
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "70939",
+      "name": "Y. Hernández",
+      "position": 4,
+      "market_value": 9657000,
+      "trend": "up",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 9657000,
+      "ends_at_unix": 1794024000,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/70939.png?version=20260621102855",
+      "image_urls": [
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/70939.png?version=20260621102855"
+      ],
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": 205000,
+      "daily_market_change_pct": 2.123,
+      "weekly_market_change": 1267000,
+      "weekly_market_change_pct": 13.12,
+      "displayed_points": 48,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "48",
+          "value": 48
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "4836181",
+      "name": "I. Azón",
+      "position": 4,
+      "market_value": 1384000,
+      "trend": "down",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 1384000,
+      "ends_at_unix": 1794024000,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/4836181.png?version=20260901214352",
+      "image_urls": [
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/4836181.png?version=20260901214352"
+      ],
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -56000,
+      "daily_market_change_pct": -4.046,
+      "weekly_market_change": -433000,
+      "weekly_market_change_pct": -31.286,
+      "displayed_points": 24,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "24",
+          "value": 24
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "15342",
+      "name": "A. Barrenetxea",
+      "position": 3,
+      "market_value": 8858000,
+      "trend": "down",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 8858000,
+      "ends_at_unix": 1794024000,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/15342.png?version=20251004233329",
+      "image_urls": [
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/15342.png?version=20251004233329"
+      ],
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -18000,
+      "daily_market_change_pct": -0.203,
+      "weekly_market_change": -664000,
+      "weekly_market_change_pct": -7.496,
+      "displayed_points": 44,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "44",
+          "value": 44
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "29403",
+      "name": "P. Ciss",
+      "position": 3,
+      "market_value": 3484000,
+      "trend": "down",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 3484000,
+      "ends_at_unix": 1794024000,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/29403.png?version=20251004225713",
+      "image_urls": [
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/29403.png?version=20251004225713"
+      ],
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -59000,
+      "daily_market_change_pct": -1.693,
+      "weekly_market_change": -808000,
+      "weekly_market_change_pct": -23.192,
+      "displayed_points": 30,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "30",
+          "value": 30
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "29235",
+      "name": "Gavi",
+      "position": 3,
+      "market_value": 1509000,
+      "trend": "down",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 1509000,
+      "ends_at_unix": 1794024000,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/29235.png?version=20251003184453",
+      "image_urls": [
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/29235.png?version=20251003184453"
+      ],
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -27000,
+      "daily_market_change_pct": -1.789,
+      "weekly_market_change": -289000,
+      "weekly_market_change_pct": -19.152,
+      "displayed_points": 12,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "12",
+          "value": 12
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "64468",
+      "name": "T. Dolan",
+      "position": 3,
+      "market_value": 932000,
+      "trend": "down",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 932000,
+      "ends_at_unix": 1794024000,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/64468.png?version=20250725131445",
+      "image_urls": [
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/64468.png?version=20250725131445"
+      ],
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -43000,
+      "daily_market_change_pct": -4.614,
+      "weekly_market_change": -324000,
+      "weekly_market_change_pct": -34.764,
+      "displayed_points": 29,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "29",
+          "value": 29
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "2586746",
+      "name": "Á. Padilla",
+      "position": 3,
+      "market_value": 170000,
+      "trend": "up",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 170000,
+      "ends_at_unix": 1794024000,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/2586746.png?version=20260820090120",
+      "image_urls": [
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/2586746.png?version=20260820090120"
+      ],
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": 10000,
+      "daily_market_change_pct": 5.882,
+      "weekly_market_change": 10000,
+      "weekly_market_change_pct": 5.882,
+      "displayed_points": 2,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "2",
+          "value": 2
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "55452",
+      "name": "S. Canós",
+      "position": 3,
+      "market_value": 160000,
+      "trend": "unknown",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 160000,
+      "ends_at_unix": 1794024000,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/55452.png?version=20231221203629",
+      "image_urls": [
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/55452.png?version=20231221203629"
+      ],
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": 0,
+      "daily_market_change_pct": 0.0,
+      "weekly_market_change": -14000,
+      "weekly_market_change_pct": -8.75,
+      "displayed_points": 0,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "0",
+          "value": 0
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "1385821",
+      "name": "C. Romero",
+      "position": 2,
+      "market_value": 12796000,
+      "trend": "up",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 12796000,
+      "ends_at_unix": 1794024000,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/1385821.png?version=20260815091308",
+      "image_urls": [
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/1385821.png?version=20260815091308"
+      ],
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": 14000,
+      "daily_market_change_pct": 0.109,
+      "weekly_market_change": 511000,
+      "weekly_market_change_pct": 3.993,
+      "displayed_points": 47,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "47",
+          "value": 47
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "49382",
+      "name": "M. Alonso",
+      "position": 2,
+      "market_value": 5698000,
+      "trend": "down",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 5698000,
+      "ends_at_unix": 1794024000,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/49382.png?version=20231218004050",
+      "image_urls": [
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/49382.png?version=20231218004050"
+      ],
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -80000,
+      "daily_market_change_pct": -1.404,
+      "weekly_market_change": -362000,
+      "weekly_market_change_pct": -6.353,
+      "displayed_points": 28,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "28",
+          "value": 28
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "70950",
+      "name": "G. Quagliata",
+      "position": 2,
+      "market_value": 4240000,
+      "trend": "up",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 4240000,
+      "ends_at_unix": 1794024000,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/70950.png?version=20260621102132",
+      "image_urls": [
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/70950.png?version=20260621102132"
+      ],
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": 39000,
+      "daily_market_change_pct": 0.92,
+      "weekly_market_change": 240000,
+      "weekly_market_change_pct": 5.66,
+      "displayed_points": 35,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "35",
+          "value": 35
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "5917",
+      "name": "I. Zubeldia",
+      "position": 2,
+      "market_value": 670000,
+      "trend": "down",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 670000,
+      "ends_at_unix": 1794024000,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/5917.png?version=20251004233803",
+      "image_urls": [
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/5917.png?version=20251004233803"
+      ],
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -43000,
+      "daily_market_change_pct": -6.418,
+      "weekly_market_change": -392000,
+      "weekly_market_change_pct": -58.507,
+      "displayed_points": 21,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "21",
+          "value": 21
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "65104",
+      "name": "J. Vertrouwd",
+      "position": 2,
+      "market_value": 160000,
+      "trend": "unknown",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 160000,
+      "ends_at_unix": 1794024000,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/65104.png?version=20250812101021",
+      "image_urls": [
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/65104.png?version=20250812101021"
+      ],
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": 0,
+      "daily_market_change_pct": 0.0,
+      "weekly_market_change": -45000,
+      "weekly_market_change_pct": -28.125,
+      "displayed_points": 5,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "5",
+          "value": 5
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "59532",
+      "name": "M. Kumbulla",
+      "position": 2,
+      "market_value": 160000,
+      "trend": "down",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 160000,
+      "ends_at_unix": 1794024000,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/59532.png?version=20240817221457",
+      "image_urls": [
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/59532.png?version=20240817221457"
+      ],
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -8000,
+      "daily_market_change_pct": -5.0,
+      "weekly_market_change": -6000,
+      "weekly_market_change_pct": -3.75,
+      "displayed_points": 0,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "0",
+          "value": 0
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "28612",
+      "name": "M. Ryan",
+      "position": 1,
+      "market_value": 6639000,
+      "trend": "down",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 6639000,
+      "ends_at_unix": 1794024000,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/28612.png?version=20250829183411",
+      "image_urls": [
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/28612.png?version=20250829183411"
+      ],
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -37000,
+      "daily_market_change_pct": -0.557,
+      "weekly_market_change": -536000,
+      "weekly_market_change_pct": -8.074,
+      "displayed_points": 51,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "51",
+          "value": 51
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
+    },
+    {
+      "player_id": "59642",
+      "name": "J. Musso",
+      "position": 1,
+      "market_value": 168000,
+      "trend": "down",
+      "owner_id": "0",
+      "owner_name": "Libre",
+      "asking_price": 168000,
+      "ends_at_unix": 1794024000,
+      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/59642.png?version=20251003193911",
+      "image_urls": [
+        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/59642.png?version=20251003193911"
+      ],
+      "delta_since_previous_snapshot": null,
+      "daily_market_change": -11000,
+      "daily_market_change_pct": -6.548,
+      "weekly_market_change": 8000,
+      "weekly_market_change_pct": 4.762,
+      "displayed_points": 0,
+      "points_status": "single_visible_value",
+      "score_candidates": [
+        {
+          "class": "points",
+          "text": "0",
+          "value": 0
+        }
+      ],
+      "displayed_points_delta_since_previous_snapshot": null
     }
   ],
   "my_team": [
-    {
-      "player_id": "14379",
-      "name": "A. Fernández",
-      "position": null,
-      "market_value": 2630000,
-      "trend": "down",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/14379.png?version=20231217203816",
-      "image_urls": [
-        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/14379.png?version=20231217203816"
-      ],
-      "delta_since_previous_snapshot": -48000,
-      "daily_market_change": -48000,
-      "daily_market_change_pct": -1.825,
-      "weekly_market_change": 99000,
-      "weekly_market_change_pct": 3.764,
-      "displayed_points": 20,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "20",
-          "value": 20
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": 0
-    },
     {
       "player_id": "213",
       "name": "S. Dimitrievski",
@@ -386,7 +836,7 @@
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/213.png?version=20251006020443"
       ],
-      "delta_since_previous_snapshot": 42000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 42000,
       "daily_market_change_pct": 0.758,
       "weekly_market_change": -128000,
@@ -416,7 +866,7 @@
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/27520.png?version=20251003183837"
       ],
-      "delta_since_previous_snapshot": 69000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 69000,
       "daily_market_change_pct": 0.912,
       "weekly_market_change": -130000,
@@ -430,7 +880,7 @@
           "value": 34
         }
       ],
-      "displayed_points_delta_since_previous_snapshot": null
+      "displayed_points_delta_since_previous_snapshot": 0
     },
     {
       "player_id": "59506",
@@ -446,7 +896,7 @@
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/59506.png?version=20251003195248"
       ],
-      "delta_since_previous_snapshot": 51000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 51000,
       "daily_market_change_pct": 4.064,
       "weekly_market_change": 406000,
@@ -476,7 +926,7 @@
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/4836184.png?version=20260901214919"
       ],
-      "delta_since_previous_snapshot": 32000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 32000,
       "daily_market_change_pct": 4.194,
       "weekly_market_change": 130000,
@@ -506,7 +956,7 @@
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/35434.png?version=20250722235600"
       ],
-      "delta_since_previous_snapshot": 40000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 40000,
       "daily_market_change_pct": 0.378,
       "weekly_market_change": 224000,
@@ -536,7 +986,7 @@
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/64491.png?version=20250727111021"
       ],
-      "delta_since_previous_snapshot": 70000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 70000,
       "daily_market_change_pct": 2.802,
       "weekly_market_change": 512000,
@@ -550,7 +1000,7 @@
           "value": 29
         }
       ],
-      "displayed_points_delta_since_previous_snapshot": null
+      "displayed_points_delta_since_previous_snapshot": 0
     },
     {
       "player_id": "17452",
@@ -566,7 +1016,7 @@
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/17452.png?version=20251003183705"
       ],
-      "delta_since_previous_snapshot": 47000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 47000,
       "daily_market_change_pct": 0.904,
       "weekly_market_change": 713000,
@@ -578,36 +1028,6 @@
           "class": "points",
           "text": "2",
           "value": 2
-        }
-      ],
-      "displayed_points_delta_since_previous_snapshot": 0
-    },
-    {
-      "player_id": "96",
-      "name": "D. Ceballos 💥",
-      "position": null,
-      "market_value": 5282000,
-      "trend": "up",
-      "owner_id": null,
-      "owner_name": null,
-      "asking_price": null,
-      "ends_at_unix": null,
-      "image_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/96.png?version=20251003183552",
-      "image_urls": [
-        "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/96.png?version=20251003183552"
-      ],
-      "delta_since_previous_snapshot": 47000,
-      "daily_market_change": 47000,
-      "daily_market_change_pct": 0.89,
-      "weekly_market_change": 536000,
-      "weekly_market_change_pct": 10.148,
-      "displayed_points": 25,
-      "points_status": "single_visible_value",
-      "score_candidates": [
-        {
-          "class": "points",
-          "text": "25",
-          "value": 25
         }
       ],
       "displayed_points_delta_since_previous_snapshot": 0
@@ -626,7 +1046,7 @@
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/7024.png?version=20251003183927"
       ],
-      "delta_since_previous_snapshot": 89000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 89000,
       "daily_market_change_pct": 0.629,
       "weekly_market_change": 62000,
@@ -656,7 +1076,7 @@
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/340.png?version=20251003194510"
       ],
-      "delta_since_previous_snapshot": 105000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 105000,
       "daily_market_change_pct": 0.87,
       "weekly_market_change": 610000,
@@ -686,7 +1106,7 @@
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/78750.png?version=20260807223509"
       ],
-      "delta_since_previous_snapshot": 44000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 44000,
       "daily_market_change_pct": 11.055,
       "weekly_market_change": 192000,
@@ -716,7 +1136,7 @@
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/616.png?version=20260818215112"
       ],
-      "delta_since_previous_snapshot": -65000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": -65000,
       "daily_market_change_pct": -0.377,
       "weekly_market_change": 283000,
@@ -746,7 +1166,7 @@
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/364.png?version=20260622183248"
       ],
-      "delta_since_previous_snapshot": 94000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 94000,
       "daily_market_change_pct": 1.334,
       "weekly_market_change": 518000,
@@ -776,7 +1196,7 @@
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/52375.png?version=20261010190427"
       ],
-      "delta_since_previous_snapshot": 18000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 18000,
       "daily_market_change_pct": 0.072,
       "weekly_market_change": 304000,
@@ -806,7 +1226,7 @@
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/48657.png?version=20261104102126"
       ],
-      "delta_since_previous_snapshot": 52000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 52000,
       "daily_market_change_pct": 0.239,
       "weekly_market_change": 313000,
@@ -836,7 +1256,7 @@
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/40089.png?version=20251004234421"
       ],
-      "delta_since_previous_snapshot": 41000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 41000,
       "daily_market_change_pct": 7.335,
       "weekly_market_change": 345000,
@@ -866,7 +1286,7 @@
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/62904.png?version=20260806211455"
       ],
-      "delta_since_previous_snapshot": 80000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 80000,
       "daily_market_change_pct": 0.464,
       "weekly_market_change": 522000,
@@ -896,7 +1316,7 @@
       "image_urls": [
         "https://cdn-mister.mundodeportivo.com/file/cdn-common/players/71616.png?version=20260730085522"
       ],
-      "delta_since_previous_snapshot": 96000,
+      "delta_since_previous_snapshot": 0,
       "daily_market_change": 96000,
       "daily_market_change_pct": 0.827,
       "weekly_market_change": 631000,
@@ -938,14 +1358,14 @@
     {
       "user_id": "12165479",
       "name": "Ale",
-      "displayed_euro_value": 168415000,
+      "displayed_euro_value": 160503000,
       "profile_url": "https://mister.mundodeportivo.com/users/12165479/ale",
       "displayed_points": 555,
       "points_status": "single_visible_value",
       "score_candidates": [
         {
           "class": "played",
-          "text": "19 jugadores\n                                            · € 168.415.000",
+          "text": "17 jugadores\n                                            · € 160.503.000",
           "value": null
         },
         {
@@ -959,14 +1379,14 @@
     {
       "user_id": "12165510",
       "name": "DRSeven",
-      "displayed_euro_value": 164376000,
+      "displayed_euro_value": 162511000,
       "profile_url": "https://mister.mundodeportivo.com/users/12165510/drseven",
       "displayed_points": 458,
       "points_status": "single_visible_value",
       "score_candidates": [
         {
           "class": "played",
-          "text": "21 jugadores\n                                            · € 164.376.000",
+          "text": "20 jugadores\n                                            · € 162.511.000",
           "value": null
         },
         {
@@ -1062,22 +1482,22 @@
       "displayed_points_delta_since_previous_snapshot": 0
     }
   ],
-  "feed_event_count": 201,
-  "effective_feed_event_count": 201,
-  "current_feed_transfer_count": 263,
-  "pre_sanitize_consolidated_transfer_count": 867,
-  "consolidated_transfer_count": 867,
+  "feed_event_count": 204,
+  "effective_feed_event_count": 204,
+  "current_feed_transfer_count": 266,
+  "pre_sanitize_consolidated_transfer_count": 870,
+  "consolidated_transfer_count": 870,
   "transfer_history_persistent": true,
   "transfer_integrity": {
     "status": "ok",
-    "input_transfer_count": 867,
-    "economic_transfer_count": 867,
+    "input_transfer_count": 870,
+    "economic_transfer_count": 870,
     "duplicate_ownership_rows_skipped": 0,
     "duplicate_ownership_rows": [],
     "missing_identity_economic_rows": [],
     "ownership_warnings": [],
     "ownership_warning_count": 0,
-    "identity_aliases_resolved_by_unique_name": 296,
+    "identity_aliases_resolved_by_unique_name": 297,
     "source": "economic-signature consolidation + chronological player-ownership replay; duplicate representations are excluded from cash and roster accounting"
   },
   "transfers_detected": [
@@ -36252,7 +36672,14 @@
       "to": "Mister",
       "price": 12077780,
       "id_user1": 1732719,
-      "id_user2": 0
+      "id_user2": 0,
+      "player": "Alberto Moleiro",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "53098"
+      }
     },
     {
       "created": "2026-09-30 17:45:29",
@@ -37441,7 +37868,14 @@
           "name": "DRSeven",
           "bid": 12412000
         }
-      ]
+      ],
+      "player": "Alberto Moleiro",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "53098"
+      }
     },
     {
       "created": "2026-10-09 05:00:22",
@@ -41215,7 +41649,14 @@
       "to": "Mister",
       "price": 14455350,
       "id_user1": 1732719,
-      "id_user2": 0
+      "id_user2": 0,
+      "player": "Alberto Moleiro",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "53098"
+      }
     },
     {
       "created": "2026-10-31 22:37:05",
@@ -41225,7 +41666,14 @@
       "to": "Mister",
       "price": 488580,
       "id_user1": 2626432,
-      "id_user2": 0
+      "id_user2": 0,
+      "player": "Álvaro Mantilla",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "70938"
+      }
     },
     {
       "created": "2026-10-31 22:37:08",
@@ -41956,7 +42404,16 @@
       "to": "Ale",
       "price": 2439000,
       "id_user1": 0,
-      "id_user2": 1588298
+      "id_user2": 1588298,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "F. García",
+          "V. Gómez 💥"
+        ]
+      }
     },
     {
       "created": "2026-11-06 05:00:23",
@@ -41966,7 +42423,16 @@
       "to": "Ale",
       "price": 7495001,
       "id_user1": 0,
-      "id_user2": 1588298
+      "id_user2": 1588298,
+      "player_resolution": {
+        "status": "unresolved",
+        "method": "ambiguous_roster_delta",
+        "confidence": "none",
+        "candidate_players": [
+          "F. García",
+          "V. Gómez 💥"
+        ]
+      }
     },
     {
       "created": "2026-11-06 05:00:23",
@@ -41983,7 +42449,14 @@
           "name": "Ale",
           "bid": 11777778
         }
-      ]
+      ],
+      "player": "A. Tchouaméni",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "40166"
+      }
     },
     {
       "created": "2026-11-06 05:00:23",
@@ -42003,7 +42476,44 @@
       "to": "Adam Panyiczki",
       "price": 5507030,
       "id_user1": 0,
-      "id_user2": 2358533
+      "id_user2": 2358533,
+      "player": "P. Gulácsi",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "71649"
+      }
+    },
+    {
+      "created": "2026-11-06 07:45:07",
+      "id_transfer": 557974079,
+      "player_id": "60872",
+      "from": "DRSeven",
+      "to": "Mister",
+      "price": 1922550,
+      "id_user1": 1513537,
+      "id_user2": 0
+    },
+    {
+      "created": "2026-11-06 10:29:42",
+      "id_transfer": 557984823,
+      "player_id": "14379",
+      "from": "Ale",
+      "to": "Mister",
+      "price": 2811900,
+      "id_user1": 1588298,
+      "id_user2": 0
+    },
+    {
+      "created": "2026-11-06 10:29:45",
+      "id_transfer": 557984825,
+      "player_id": "96",
+      "from": "Ale",
+      "to": "Mister",
+      "price": 5444400,
+      "id_user1": 1588298,
+      "id_user2": 0
     }
   ],
   "estimated_rival_balances": [
@@ -43007,7 +43517,7 @@
           "created": "2026-09-30 17:06:28",
           "type": "sale",
           "amount": 12077780,
-          "detail": null
+          "detail": "Alberto Moleiro"
         },
         {
           "created": "2026-10-01 23:15:26",
@@ -43552,7 +44062,7 @@
     },
     {
       "name": "Ale",
-      "estimated_balance": -8046842,
+      "estimated_balance": 735458,
       "ledger": [
         {
           "created": "2026-08-09 05:00:24",
@@ -45254,35 +45764,63 @@
           "detail": "Fran García"
         },
         {
+          "created": "2026-11-06 10:29:42",
+          "type": "sale",
+          "amount": 2811900,
+          "detail": "Aitor Fernández"
+        },
+        {
+          "created": "2026-11-06 10:29:42",
+          "type": "clause_sale_exit_refund_correction",
+          "amount": 121200,
+          "detail": {
+            "settlement_id": "Ale|14379|12165479|14379|2026-09-19 05:00:26|318000|2026-11-06 10:29:42",
+            "player_id": "14379",
+            "player": "A. Fernández",
+            "cash_refund": 526000,
+            "removed_historical_investment": 404800,
+            "reference_value": 2630000,
+            "reference_source": "previous_clause_reference_value",
+            "investment_ledger_episode": "12165479|14379|2026-09-19 05:00:26|318000",
+            "resolution_source": "sale_to_mister_while_clause_raised_without_drop_feed"
+          }
+        },
+        {
+          "created": "2026-11-06 10:29:45",
+          "type": "sale",
+          "amount": 5444400,
+          "detail": "Dani Ceballos"
+        },
+        {
           "created": "current_snapshot",
           "type": "active_clause_balance_investment",
-          "amount": -30155243,
+          "amount": -29750443,
           "detail": null
         }
       ],
-      "operation_count": 248,
-      "team_value": 168415000,
-      "max_negative_balance_from_25pct_rule": -42103750,
-      "remaining_debt_capacity_if_estimate_were_true": 34056908,
+      "operation_count": 251,
+      "team_value": 160503000,
+      "max_negative_balance_from_25pct_rule": -40125750,
+      "remaining_debt_capacity_if_estimate_were_true": 40861208,
       "valid_by_25pct_debt_rule": true,
-      "usable_estimated_balance": -8046842,
-      "actual_balance": -8046842,
+      "usable_estimated_balance": 735458,
+      "actual_balance": 735458,
       "difference_vs_actual": 0,
-      "active_clause_balance_investment_min": 30155243,
-      "active_clause_balance_investment_max": 30155243,
-      "estimated_balance_min": -8046842,
-      "estimated_balance_max": -8046842,
+      "active_clause_balance_investment_min": 29750443,
+      "active_clause_balance_investment_max": 29750443,
+      "estimated_balance_min": 735458,
+      "estimated_balance_max": 735458,
       "estimated_balance_exact": true,
       "gameweek_payment_total_applied": 21555000,
       "other_feed_cash_total_applied": 2400000,
       "manual_feed_payment_total_applied": 0,
-      "clause_sale_exit_refund_correction_total": 2311100,
+      "clause_sale_exit_refund_correction_total": 2432300,
       "clause_drop_semantic_correction_total": 0,
       "balance_recomputed_from_sanitized_transfers": true
     },
     {
       "name": "DRSeven",
-      "estimated_balance": -18584040,
+      "estimated_balance": -16661490,
       "ledger": [
         {
           "created": "2026-08-09 05:00:24",
@@ -46831,22 +47369,28 @@
           "detail": "Aurélien Tchouaméni"
         },
         {
+          "created": "2026-11-06 07:45:07",
+          "type": "sale",
+          "amount": 1922550,
+          "detail": "Rubén Vargas"
+        },
+        {
           "created": "current_snapshot",
           "type": "active_clause_balance_investment",
           "amount": -8385200,
           "detail": null
         }
       ],
-      "operation_count": 216,
-      "team_value": 164376000,
-      "max_negative_balance_from_25pct_rule": -41094000,
-      "remaining_debt_capacity_if_estimate_were_true": 22509960,
+      "operation_count": 217,
+      "team_value": 162511000,
+      "max_negative_balance_from_25pct_rule": -40627750,
+      "remaining_debt_capacity_if_estimate_were_true": 23966260,
       "valid_by_25pct_debt_rule": true,
-      "usable_estimated_balance": -18584040,
+      "usable_estimated_balance": -16661490,
       "active_clause_balance_investment_min": 8385200,
       "active_clause_balance_investment_max": 8385200,
-      "estimated_balance_min": -18584040,
-      "estimated_balance_max": -18584040,
+      "estimated_balance_min": -16661490,
+      "estimated_balance_max": -16661490,
       "estimated_balance_exact": true,
       "gameweek_payment_total_applied": 18415000,
       "other_feed_cash_total_applied": 2300000,
@@ -50124,51 +50668,14 @@
     {
       "name": "Ale",
       "user_id": "12165479",
-      "roster_cards_detected": 19,
-      "clause_players_detected": 19,
-      "raised_clause_players_detected": 5,
-      "active_clause_balance_investment": 30155243,
-      "active_clause_balance_investment_min": 30155243,
-      "active_clause_balance_investment_max": 30155243,
+      "roster_cards_detected": 17,
+      "clause_players_detected": 17,
+      "raised_clause_players_detected": 4,
+      "active_clause_balance_investment": 29750443,
+      "active_clause_balance_investment_min": 29750443,
+      "active_clause_balance_investment_max": 29750443,
       "active_clause_balance_investment_exact": true,
       "clauses": [
-        {
-          "player_id": "14379",
-          "name": "A. Fernández",
-          "position": null,
-          "market_value": 2630000,
-          "acquisition_cost": 318000,
-          "clause_reference_value": 2630000,
-          "clause_value": 6575000,
-          "clause_percent": 150,
-          "clause_level": 2,
-          "active_balance_investment": 404800,
-          "active_balance_investment_min": 404800,
-          "active_balance_investment_max": 404800,
-          "active_balance_investment_exact": true,
-          "step_investments": [
-            202400,
-            202400
-          ],
-          "investment_capture_source": "historical_clause_ledger",
-          "step_investment_bounds": [
-            {
-              "min": 202400,
-              "max": 202400,
-              "exact": true,
-              "source": "reference_change_range_fallback",
-              "captured_at": "2026-09-30T18:13:13+02:00"
-            },
-            {
-              "min": 202400,
-              "max": 202400,
-              "exact": true,
-              "source": "reference_change_range_fallback",
-              "captured_at": "2026-09-30T18:13:13+02:00"
-            }
-          ],
-          "investment_ledger_episode": "12165479|14379|2026-09-19 05:00:26|318000"
-        },
         {
           "player_id": "213",
           "name": "S. Dimitrievski",
@@ -50301,25 +50808,6 @@
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
           "investment_ledger_episode": "12165479|17452|2026-10-20 05:00:24|4888889"
-        },
-        {
-          "player_id": "96",
-          "name": "D. Ceballos",
-          "position": null,
-          "market_value": 5282000,
-          "acquisition_cost": 2444445,
-          "clause_reference_value": 5282000,
-          "clause_value": 7923000,
-          "clause_percent": 50,
-          "clause_level": 0,
-          "active_balance_investment": 0,
-          "active_balance_investment_min": 0,
-          "active_balance_investment_max": 0,
-          "active_balance_investment_exact": true,
-          "step_investments": [],
-          "investment_capture_source": "historical_clause_ledger",
-          "step_investment_bounds": [],
-          "investment_ledger_episode": "12165479|96|2026-10-04 05:00:20|2444445"
         },
         {
           "player_id": "7024",
@@ -50580,8 +51068,8 @@
     {
       "name": "DRSeven",
       "user_id": "12165510",
-      "roster_cards_detected": 21,
-      "clause_players_detected": 21,
+      "roster_cards_detected": 20,
+      "clause_players_detected": 20,
       "raised_clause_players_detected": 5,
       "active_clause_balance_investment": 8385200,
       "active_clause_balance_investment_min": 8385200,
@@ -51037,25 +51525,6 @@
           "investment_capture_source": "historical_clause_ledger",
           "step_investment_bounds": [],
           "investment_ledger_episode": "12165510|27907|2026-10-03 05:00:19|3512000"
-        },
-        {
-          "player_id": "60872",
-          "name": "R. Vargas",
-          "position": null,
-          "market_value": 1865000,
-          "acquisition_cost": 1666000,
-          "clause_reference_value": 1865000,
-          "clause_value": 2797500,
-          "clause_percent": 50,
-          "clause_level": 0,
-          "active_balance_investment": 0,
-          "active_balance_investment_min": 0,
-          "active_balance_investment_max": 0,
-          "active_balance_investment_exact": true,
-          "step_investments": [],
-          "investment_capture_source": "historical_clause_ledger",
-          "step_investment_bounds": [],
-          "investment_ledger_episode": "12165510|60872|2026-10-20 05:00:24|1666000"
         },
         {
           "player_id": "33734",
@@ -52241,102 +52710,102 @@
   ],
   "market_evolution": {
     "status": "ok",
-    "daily_matched_free_market": 0,
-    "weekly_matched_free_market": 0,
-    "free_market_players": 0,
-    "daily_zero_inferred_free_market": 0,
-    "daily_zero_inferred_all_players": 0,
+    "daily_matched_free_market": 16,
+    "weekly_matched_free_market": 16,
+    "free_market_players": 16,
+    "daily_zero_inferred_free_market": 2,
+    "daily_zero_inferred_all_players": 2,
     "missing_daily_free_market": [],
     "missing_weekly_free_market": [],
     "source": "Mister ajax/sw/market; unchanged day players inferred as exact 0 only when present in week response"
   },
   "account_state": {
     "squad_limit": 21,
-    "squad_count": 19,
-    "free_squad_slots": 2,
+    "squad_count": 17,
+    "free_squad_slots": 4,
     "squad_limit_reached": false,
     "sale_slot_limit": 6,
     "sale_slots_used": 6,
     "sale_slots_free": 0,
     "listed_player_ids": [
+      "40089",
       "616",
       "364",
-      "96",
       "35434",
       "17452",
-      "14379"
+      "59506"
     ],
     "listed_player_names": [
+      "U. Sadiq",
       "R. Hernández",
       "S. Canales",
-      "D. Ceballos",
       "M. Pubill",
       "É. Militão",
-      "A. Fernández"
+      "J. Rodríguez"
     ],
-    "pending_bid_commitment": 0,
-    "projected_squad_if_all_active_bids_win": null,
-    "projected_free_slots_if_all_active_bids_win": null
+    "pending_bid_commitment": 9987000,
+    "projected_squad_if_all_active_bids_win": 18,
+    "projected_free_slots_if_all_active_bids_win": 3
   },
   "received_offers": [
-    {
-      "player_id": "96",
-      "name": "D. Ceballos 💥",
-      "market_value": 5282000,
-      "offer_amount": 5444400,
-      "offer_vs_market_value": 162400,
-      "offer_pct_of_market_value": 103.075,
-      "net_purchase_capacity_if_accepted": 4123900,
-      "source": "Mister .offers-received / li.offer-wrapper"
-    },
     {
       "player_id": "364",
       "name": "S. Canales",
       "market_value": 7045000,
-      "offer_amount": 7229040,
-      "offer_vs_market_value": 184040,
-      "offer_pct_of_market_value": 102.612,
-      "net_purchase_capacity_if_accepted": 5467790,
+      "offer_amount": 7256350,
+      "offer_vs_market_value": 211350,
+      "offer_pct_of_market_value": 103.0,
+      "net_purchase_capacity_if_accepted": 5495100,
       "source": "Mister .offers-received / li.offer-wrapper"
     },
     {
       "player_id": "616",
       "name": "R. Hernández 💥",
       "market_value": 17227000,
-      "offer_amount": 18156600,
-      "offer_vs_market_value": 929600,
-      "offer_pct_of_market_value": 105.396,
-      "net_purchase_capacity_if_accepted": 13849850,
-      "source": "Mister .offers-received / li.offer-wrapper"
-    },
-    {
-      "player_id": "14379",
-      "name": "A. Fernández",
-      "market_value": 2630000,
-      "offer_amount": 2811900,
-      "offer_vs_market_value": 181900,
-      "offer_pct_of_market_value": 106.916,
-      "net_purchase_capacity_if_accepted": 2154400,
+      "offer_amount": 17054730,
+      "offer_vs_market_value": -172270,
+      "offer_pct_of_market_value": 99.0,
+      "net_purchase_capacity_if_accepted": 12747980,
       "source": "Mister .offers-received / li.offer-wrapper"
     },
     {
       "player_id": "17452",
       "name": "É. Militão",
       "market_value": 5199000,
-      "offer_amount": 5255040,
-      "offer_vs_market_value": 56040,
-      "offer_pct_of_market_value": 101.078,
-      "net_purchase_capacity_if_accepted": 3955290,
+      "offer_amount": 5199000,
+      "offer_vs_market_value": 0,
+      "offer_pct_of_market_value": 100.0,
+      "net_purchase_capacity_if_accepted": 3899250,
       "source": "Mister .offers-received / li.offer-wrapper"
     },
     {
       "player_id": "35434",
       "name": "M. Pubill 💥",
       "market_value": 10580000,
-      "offer_amount": 10750800,
-      "offer_vs_market_value": 170800,
-      "offer_pct_of_market_value": 101.614,
-      "net_purchase_capacity_if_accepted": 8105800,
+      "offer_amount": 11109000,
+      "offer_vs_market_value": 529000,
+      "offer_pct_of_market_value": 105.0,
+      "net_purchase_capacity_if_accepted": 8464000,
+      "source": "Mister .offers-received / li.offer-wrapper"
+    },
+    {
+      "player_id": "40089",
+      "name": "U. Sadiq 💥",
+      "market_value": 559000,
+      "offer_amount": 542230,
+      "offer_vs_market_value": -16770,
+      "offer_pct_of_market_value": 97.0,
+      "net_purchase_capacity_if_accepted": 402480,
+      "source": "Mister .offers-received / li.offer-wrapper"
+    },
+    {
+      "player_id": "59506",
+      "name": "J. Rodríguez 💥",
+      "market_value": 1255000,
+      "offer_amount": 1255000,
+      "offer_vs_market_value": 0,
+      "offer_pct_of_market_value": 100.0,
+      "net_purchase_capacity_if_accepted": 941250,
       "source": "Mister .offers-received / li.offer-wrapper"
     }
   ],
@@ -52347,24 +52816,193 @@
     "source": "Mister .offers-received / li.offer-wrapper",
     "diagnostics": []
   },
-  "active_bids": [],
+  "active_bids": [
+    {
+      "player_id": "70939",
+      "name": "Y. Hernández",
+      "bid_amount": 9987000,
+      "market_value": 9657000,
+      "source": "Mister market active bid button"
+    }
+  ],
   "active_bids_status": {
-    "status": "total_commitment_only",
-    "count": null,
-    "commitment_amount": 0,
-    "per_player_total": null,
-    "candidates": []
+    "status": "ok",
+    "count": 1,
+    "commitment_amount": 9987000,
+    "per_player_total": 9987000,
+    "candidates": [
+      {
+        "player_id": "70939",
+        "name": "Y. Hernández",
+        "label": "9.987.000",
+        "attributes": {
+          "data_text": "9.657.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--accent"
+        }
+      },
+      {
+        "player_id": "4836181",
+        "name": "I. Azón",
+        "label": "1.384.000",
+        "attributes": {
+          "data_text": "1.384.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "15342",
+        "name": "A. Barrenetxea",
+        "label": "8.858.000",
+        "attributes": {
+          "data_text": "8.858.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "29403",
+        "name": "P. Ciss",
+        "label": "3.484.000",
+        "attributes": {
+          "data_text": "3.484.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "29235",
+        "name": "Gavi",
+        "label": "1.509.000",
+        "attributes": {
+          "data_text": "1.509.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "64468",
+        "name": "T. Dolan",
+        "label": "932.000",
+        "attributes": {
+          "data_text": "932.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "2586746",
+        "name": "Á. Padilla",
+        "label": "170.000",
+        "attributes": {
+          "data_text": "170.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "55452",
+        "name": "S. Canós",
+        "label": "160.000",
+        "attributes": {
+          "data_text": "160.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "1385821",
+        "name": "C. Romero",
+        "label": "12.796.000",
+        "attributes": {
+          "data_text": "12.796.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "49382",
+        "name": "M. Alonso",
+        "label": "5.698.000",
+        "attributes": {
+          "data_text": "5.698.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "70950",
+        "name": "G. Quagliata",
+        "label": "4.240.000",
+        "attributes": {
+          "data_text": "4.240.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "5917",
+        "name": "I. Zubeldia",
+        "label": "670.000",
+        "attributes": {
+          "data_text": "670.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "65104",
+        "name": "J. Vertrouwd",
+        "label": "160.000",
+        "attributes": {
+          "data_text": "160.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "59532",
+        "name": "M. Kumbulla",
+        "label": "160.000",
+        "attributes": {
+          "data_text": "160.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "28612",
+        "name": "M. Ryan",
+        "label": "6.639.000",
+        "attributes": {
+          "data_text": "6.639.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      },
+      {
+        "player_id": "59642",
+        "name": "J. Musso",
+        "label": "168.000",
+        "attributes": {
+          "data_text": "168.000",
+          "data_bid": null,
+          "class": "btn btn-popup btn-bid btn--md btn--secondary"
+        }
+      }
+    ]
   },
   "clause_changes_since_previous": [],
   "clause_capture_status": {
     "status": "ok",
     "manager_count": 7,
     "profiles_with_clause_data": 7,
-    "raised_players_detected": 16,
+    "raised_players_detected": 15,
     "all_raised_investments_exact": true,
     "ale_balance_difference_after_clause_adjustment": 0,
     "balance_integrity_ok": true,
-    "previous_successful_clause_snapshot_at": "2026-11-05T17:07:57+01:00",
+    "previous_successful_clause_snapshot_at": "2026-11-06T05:10:07+01:00",
     "official_clause_view_enabled": true,
     "official_clause_view_diagnostics": {
       "start_url": "https://mister.mundodeportivo.com/users/13390634/samuhg22",
@@ -52460,21 +53098,21 @@
       "Ale": {
         "market": {
           "team_tab": true,
-          "market_rows": 19
+          "market_rows": 17
         },
         "clause": {
           "team_tab": true,
-          "clause_rows": 19
+          "clause_rows": 17
         }
       },
       "DRSeven": {
         "market": {
           "team_tab": true,
-          "market_rows": 21
+          "market_rows": 20
         },
         "clause": {
           "team_tab": true,
-          "clause_rows": 21
+          "clause_rows": 20
         }
       },
       "Adam Panyiczki": {
@@ -52526,7 +53164,7 @@
     "other_feed_cash_adjustments_included_in_balance": true,
     "manual_feed_payments_included_in_balance": true,
     "clause_sale_exit_reconciliation_ok": true,
-    "clause_sale_exit_settlement_count": 9,
+    "clause_sale_exit_settlement_count": 10,
     "ale_balance_difference_after_clause_sale_exit_reconciliation": 0,
     "drop_feed_confirmation_ok": true,
     "pending_clause_drop_feed_confirmations": [],
@@ -52735,7 +53373,7 @@
         "player": "Á. Valles",
         "canonical_episode": "12165510|53111|2026-08-27 05:00:29|7612000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 204,
+        "history_observations_replayed": 205,
         "previous_bounds": [
           2684400,
           2684400
@@ -52752,7 +53390,7 @@
         "player": "D. Soria",
         "canonical_episode": "12189231|609|2026-08-24 17:00:20|9739010",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 220,
+        "history_observations_replayed": 221,
         "previous_bounds": [
           0,
           0
@@ -52769,7 +53407,7 @@
         "player": "J. Salinas",
         "canonical_episode": "13370206|70935|2026-08-12 05:00:24|2968000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 244,
+        "history_observations_replayed": 245,
         "previous_bounds": [
           0,
           0
@@ -52786,7 +53424,7 @@
         "player": "B. Turrientes",
         "canonical_episode": "13370206|28776|2026-08-10 05:00:23|1999000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 244,
+        "history_observations_replayed": 245,
         "previous_bounds": [
           0,
           0
@@ -52803,7 +53441,7 @@
         "player": "T. Buchanan",
         "canonical_episode": "13370206|61092|2026-08-15 05:00:25|6500000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 244,
+        "history_observations_replayed": 245,
         "previous_bounds": [
           0,
           0
@@ -52820,7 +53458,7 @@
         "player": "I. Radu",
         "canonical_episode": "15441764|63705|2026-08-14 17:00:15|8500000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 244,
+        "history_observations_replayed": 245,
         "previous_bounds": [
           0,
           0
@@ -52837,7 +53475,7 @@
         "player": "Angeliño",
         "canonical_episode": "15441764|71795|2026-08-23 08:27:51|2000000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 224,
+        "history_observations_replayed": 225,
         "previous_bounds": [
           0,
           0
@@ -52854,7 +53492,7 @@
         "player": "C. Dominguez",
         "canonical_episode": "15441764|25885|2026-08-11 08:07:57|703000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 244,
+        "history_observations_replayed": 245,
         "previous_bounds": [
           0,
           0
@@ -52871,7 +53509,7 @@
         "player": "H. Bellerín",
         "canonical_episode": "15441764|31496|2026-08-10 05:00:23|5522000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 244,
+        "history_observations_replayed": 245,
         "previous_bounds": [
           0,
           0
@@ -52888,7 +53526,7 @@
         "player": "W. Kambwala",
         "canonical_episode": "15441764|59088|2026-08-13 17:00:13|417000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 244,
+        "history_observations_replayed": 245,
         "previous_bounds": [
           0,
           0
@@ -52905,7 +53543,7 @@
         "player": "P. Arriaza",
         "canonical_episode": "15441764|71513|2026-08-13 17:00:13|250000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 244,
+        "history_observations_replayed": 245,
         "previous_bounds": [
           0,
           0
@@ -52922,7 +53560,7 @@
         "player": "T. Morente",
         "canonical_episode": "15441764|23147|2026-08-13 17:00:13|700000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 244,
+        "history_observations_replayed": 245,
         "previous_bounds": [
           0,
           0
@@ -52939,7 +53577,7 @@
         "player": "G. Mikautadze",
         "canonical_episode": "15441764|65704|2026-08-11 17:00:15|14095000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 244,
+        "history_observations_replayed": 245,
         "previous_bounds": [
           0,
           0
@@ -52956,7 +53594,7 @@
         "player": "Z. Eddahchouri",
         "canonical_episode": "15441764|70940|2026-08-17 17:00:16|1371000",
         "removed_orphan_episodes": [],
-        "history_observations_replayed": 241,
+        "history_observations_replayed": 242,
         "previous_bounds": [
           0,
           0
@@ -52970,11 +53608,11 @@
     ],
     "identity_repair_git_history": {
       "status": "ok",
-      "commits_seen": 564,
-      "commits_inspected": 564,
-      "parseable_snapshots": 564,
-      "complete_snapshots": 422,
-      "unique_complete_snapshots": 244
+      "commits_seen": 566,
+      "commits_inspected": 566,
+      "parseable_snapshots": 566,
+      "complete_snapshots": 424,
+      "unique_complete_snapshots": 245
     },
     "transitions": [],
     "final_exact_reconciliations": [],
@@ -54365,7 +55003,7 @@
         "finality": "unknown_from_feed_alone"
       }
     ],
-    "previous_persisted_snapshot_captured_at": "2026-11-05T17:07:57+01:00",
+    "previous_persisted_snapshot_captured_at": "2026-11-06T05:10:07+01:00",
     "source": "Mister feed category gameweek_end -> latest nested ranking.positions[].payment per gameweek",
     "semantics": "latest payment is cumulative for that gameweek and replaces earlier provisional closure payments; standard point/rank/goal/ideal-XI/fixed bonuses are not double-counted separately",
     "diagnostic_semantics": "delta_vs_previous_snapshot_payment compares against the previous persisted enriched snapshot; feed-to-feed deltas are secondary because Mister may rewrite older closure rows",
@@ -54557,7 +55195,7 @@
   },
   "persistent_cash_reconciliation": {
     "status": "ok",
-    "previous_snapshot_at": "2026-11-05T17:07:57+01:00",
+    "previous_snapshot_at": "2026-11-06T05:10:07+01:00",
     "restored_count": 72,
     "restored_total": 75091800,
     "events": [
@@ -55641,9 +56279,76 @@
         "source_snapshot_at": "2026-11-03T17:10:09+01:00",
         "resolution_source": "sale_to_mister_while_clause_raised_without_drop_feed",
         "semantics": "selling a raised-clause player closes active clause exposure but does not erase historical spend; only Mister's clause refund is returned as cash"
+      },
+      {
+        "settlement_id": "Ale|14379|12165479|14379|2026-09-19 05:00:26|318000|2026-11-06 10:29:42",
+        "created": "2026-11-06 10:29:42",
+        "manager": "Ale",
+        "player_id": "14379",
+        "player": "A. Fernández",
+        "from_level": 2,
+        "to_level": 0,
+        "steps_removed": 2,
+        "reference_value": 2630000,
+        "reference_source": "previous_clause_reference_value",
+        "clause_value_reduction": 2630000,
+        "cash_refund": 526000,
+        "removed_historical_investment": 404800,
+        "removed_historical_investment_exact": true,
+        "removed_historical_investment_min": 404800,
+        "removed_historical_investment_max": 404800,
+        "desired_balance_adjustment": 121200,
+        "desired_balance_adjustment_min": 121200,
+        "desired_balance_adjustment_max": 121200,
+        "investment_ledger_episode": "12165479|14379|2026-09-19 05:00:26|318000",
+        "sale_transfer": {
+          "created": "2026-11-06 10:29:42",
+          "id_transfer": 557984823,
+          "from": "Ale",
+          "to": "Mister",
+          "price": 2811900,
+          "player_value_at_feed": null
+        },
+        "source_snapshot_at": "2026-11-06T05:10:07+01:00",
+        "resolution_source": "sale_to_mister_while_clause_raised_without_drop_feed",
+        "semantics": "selling a raised-clause player closes active clause exposure but does not erase historical spend; only Mister's clause refund is returned as cash"
       }
     ],
-    "new_settlements": [],
+    "new_settlements": [
+      {
+        "settlement_id": "Ale|14379|12165479|14379|2026-09-19 05:00:26|318000|2026-11-06 10:29:42",
+        "created": "2026-11-06 10:29:42",
+        "manager": "Ale",
+        "player_id": "14379",
+        "player": "A. Fernández",
+        "from_level": 2,
+        "to_level": 0,
+        "steps_removed": 2,
+        "reference_value": 2630000,
+        "reference_source": "previous_clause_reference_value",
+        "clause_value_reduction": 2630000,
+        "cash_refund": 526000,
+        "removed_historical_investment": 404800,
+        "removed_historical_investment_exact": true,
+        "removed_historical_investment_min": 404800,
+        "removed_historical_investment_max": 404800,
+        "desired_balance_adjustment": 121200,
+        "desired_balance_adjustment_min": 121200,
+        "desired_balance_adjustment_max": 121200,
+        "investment_ledger_episode": "12165479|14379|2026-09-19 05:00:26|318000",
+        "sale_transfer": {
+          "created": "2026-11-06 10:29:42",
+          "id_transfer": 557984823,
+          "from": "Ale",
+          "to": "Mister",
+          "price": 2811900,
+          "player_value_at_feed": null
+        },
+        "source_snapshot_at": "2026-11-06T05:10:07+01:00",
+        "resolution_source": "sale_to_mister_while_clause_raised_without_drop_feed",
+        "semantics": "selling a raised-clause player closes active clause exposure but does not erase historical spend; only Mister's clause refund is returned as cash"
+      }
+    ],
     "applied": [
       {
         "manager": "Ale",
@@ -55716,6 +56421,14 @@
         "cash_refund": 3192500,
         "removed_historical_investment": 1082800,
         "correction": 2109700
+      },
+      {
+        "manager": "Ale",
+        "player_id": "14379",
+        "player": "A. Fernández",
+        "cash_refund": 526000,
+        "removed_historical_investment": 404800,
+        "correction": 121200
       }
     ],
     "unresolved": [],
@@ -55918,7 +56631,7 @@
         },
         {
           "player_id": "71649",
-          "name": null,
+          "name": "P. Gulácsi",
           "acquisition_cost": 5507030,
           "acquired_at": "2026-11-06 05:00:23"
         }
@@ -56052,7 +56765,7 @@
         },
         {
           "player_id": "71649",
-          "name": null,
+          "name": "P. Gulácsi",
           "acquisition_cost": 5507030,
           "acquired_at": "2026-11-06 05:00:23"
         }
@@ -56064,39 +56777,39 @@
       "initial_cash": 50000000,
       "purchase_count": 121,
       "purchase_total": 652463376,
-      "sale_count": 102,
-      "sale_total": 598323877,
+      "sale_count": 104,
+      "sale_total": 606580177,
       "loan_fees_received": 0,
       "loan_fees_paid": 0,
       "active_loans_in": [],
       "active_loans_out": [],
-      "cash_from_transfers_only": -4139499,
-      "reconstructed_balance": -8046842,
-      "reconstructed_balance_min": -8046842,
-      "reconstructed_balance_max": -8046842,
-      "non_transfer_balance_adjustment": -3907343,
+      "cash_from_transfers_only": 4116801,
+      "reconstructed_balance": 735458,
+      "reconstructed_balance_min": 735458,
+      "reconstructed_balance_max": 735458,
+      "non_transfer_balance_adjustment": -3381343,
       "raw_balance_before_sanitized_replay": null,
       "sanitized_replay_correction": null,
       "balance_recomputed_from_sanitized_transfers": true,
-      "expected_roster_count_from_transfer_flow": 19,
-      "current_holdings_count_from_transfer_flow": 38,
-      "roster_cards_detected": 19,
+      "expected_roster_count_from_transfer_flow": 17,
+      "current_holdings_count_from_transfer_flow": 36,
+      "roster_cards_detected": 17,
       "roster_count_matches": true,
-      "current_holdings_acquisition_cost": 227972748,
-      "team_value": 168415000,
-      "economic_team_value": 168415000,
+      "current_holdings_acquisition_cost": 225210303,
+      "team_value": 160503000,
+      "economic_team_value": 160503000,
       "loan_asset_adjustment": 0,
       "loan_asset_valuation_complete": true,
       "unrealized_value_vs_acquisition_cost": null,
-      "wealth_at_current_market_values": 160368158,
-      "wealth_at_current_market_values_min": 160368158,
-      "wealth_at_current_market_values_max": 160368158,
-      "wealth_vs_initial_50m": 110368158,
-      "active_clause_balance_investment": 30155243,
-      "active_clause_balance_investment_min": 30155243,
-      "active_clause_balance_investment_max": 30155243,
-      "clause_players_detected": 19,
-      "raised_clause_players_detected": 5,
+      "wealth_at_current_market_values": 161238458,
+      "wealth_at_current_market_values_min": 161238458,
+      "wealth_at_current_market_values_max": 161238458,
+      "wealth_vs_initial_50m": 111238458,
+      "active_clause_balance_investment": 29750443,
+      "active_clause_balance_investment_min": 29750443,
+      "active_clause_balance_investment_max": 29750443,
+      "clause_players_detected": 17,
+      "raised_clause_players_detected": 4,
       "active_clause_balance_investment_exact": true,
       "balance_range_consistent": true,
       "estimated_balance_exact": true,
@@ -56231,22 +56944,10 @@
           "acquired_at": "2026-09-09 05:00:34"
         },
         {
-          "player_id": "14379",
-          "name": "Aitor Fernández",
-          "acquisition_cost": 318000,
-          "acquired_at": "2026-09-19 05:00:26"
-        },
-        {
           "player_id": "52375",
           "name": "L. Yamal 💥",
           "acquisition_cost": 33333334,
           "acquired_at": "2026-10-01 05:00:24"
-        },
-        {
-          "player_id": "96",
-          "name": "D. Ceballos 💥",
-          "acquisition_cost": 2444445,
-          "acquired_at": "2026-10-04 05:00:20"
         },
         {
           "player_id": "340",
@@ -56461,22 +57162,10 @@
           "acquired_at": "2026-09-09 05:00:34"
         },
         {
-          "player_id": "14379",
-          "name": "Aitor Fernández",
-          "acquisition_cost": 318000,
-          "acquired_at": "2026-09-19 05:00:26"
-        },
-        {
           "player_id": "52375",
           "name": "L. Yamal 💥",
           "acquisition_cost": 33333334,
           "acquired_at": "2026-10-01 05:00:24"
-        },
-        {
-          "player_id": "96",
-          "name": "D. Ceballos 💥",
-          "acquisition_cost": 2444445,
-          "acquired_at": "2026-10-04 05:00:20"
         },
         {
           "player_id": "340",
@@ -56570,38 +57259,38 @@
       "initial_cash": 50000000,
       "purchase_count": 104,
       "purchase_total": 507704650,
-      "sale_count": 83,
-      "sale_total": 424100720,
+      "sale_count": 84,
+      "sale_total": 426023270,
       "loan_fees_received": 758990,
       "loan_fees_paid": 0,
       "active_loans_in": [],
       "active_loans_out": [],
-      "cash_from_transfers_only": -32844940,
-      "reconstructed_balance": -18584040,
-      "reconstructed_balance_min": -18584040,
-      "reconstructed_balance_max": -18584040,
+      "cash_from_transfers_only": -30922390,
+      "reconstructed_balance": -16661490,
+      "reconstructed_balance_min": -16661490,
+      "reconstructed_balance_max": -16661490,
       "non_transfer_balance_adjustment": 14260900,
       "raw_balance_before_sanitized_replay": null,
       "sanitized_replay_correction": null,
       "balance_recomputed_from_sanitized_transfers": true,
-      "expected_roster_count_from_transfer_flow": 21,
-      "current_holdings_count_from_transfer_flow": 36,
-      "roster_cards_detected": 21,
+      "expected_roster_count_from_transfer_flow": 20,
+      "current_holdings_count_from_transfer_flow": 35,
+      "roster_cards_detected": 20,
       "roster_count_matches": true,
-      "current_holdings_acquisition_cost": 194194638,
-      "team_value": 164376000,
-      "economic_team_value": 164376000,
+      "current_holdings_acquisition_cost": 192528638,
+      "team_value": 162511000,
+      "economic_team_value": 162511000,
       "loan_asset_adjustment": 0,
       "loan_asset_valuation_complete": true,
       "unrealized_value_vs_acquisition_cost": null,
-      "wealth_at_current_market_values": 145791960,
-      "wealth_at_current_market_values_min": 145791960,
-      "wealth_at_current_market_values_max": 145791960,
-      "wealth_vs_initial_50m": 95791960,
+      "wealth_at_current_market_values": 145849510,
+      "wealth_at_current_market_values_min": 145849510,
+      "wealth_at_current_market_values_max": 145849510,
+      "wealth_vs_initial_50m": 95849510,
       "active_clause_balance_investment": 8385200,
       "active_clause_balance_investment_min": 8385200,
       "active_clause_balance_investment_max": 8385200,
-      "clause_players_detected": 21,
+      "clause_players_detected": 20,
       "raised_clause_players_detected": 5,
       "active_clause_balance_investment_exact": true,
       "balance_range_consistent": true,
@@ -56731,12 +57420,6 @@
           "acquired_at": "2026-10-13 05:00:21"
         },
         {
-          "player_id": "60872",
-          "name": "R. Vargas",
-          "acquisition_cost": 1666000,
-          "acquired_at": "2026-10-20 05:00:24"
-        },
-        {
           "player_id": "564",
           "name": "M. Oyarzabal",
           "acquisition_cost": 16120000,
@@ -56822,7 +57505,7 @@
         },
         {
           "player_id": "40166",
-          "name": null,
+          "name": "A. Tchouaméni",
           "acquisition_cost": 13602000,
           "acquired_at": "2026-11-06 05:00:23"
         }
@@ -56961,12 +57644,6 @@
           "acquired_at": "2026-10-18 05:00:20"
         },
         {
-          "player_id": "60872",
-          "name": "R. Vargas",
-          "acquisition_cost": 1666000,
-          "acquired_at": "2026-10-20 05:00:24"
-        },
-        {
           "player_id": "564",
           "name": "M. Oyarzabal",
           "acquisition_cost": 16120000,
@@ -57040,7 +57717,7 @@
         },
         {
           "player_id": "40166",
-          "name": null,
+          "name": "A. Tchouaméni",
           "acquisition_cost": 13602000,
           "acquired_at": "2026-11-06 05:00:23"
         }
@@ -58415,7 +59092,7 @@
     "ale_balance_matches_real": true,
     "ale_balance_difference": 0,
     "reset_anchor_present": true,
-    "consolidated_transfer_count": 866,
+    "consolidated_transfer_count": 869,
     "transfer_history_persistent": true,
     "transfer_integrity_ok": true,
     "transfer_integrity_status": "ok",
@@ -58431,8 +59108,8 @@
   "scoring_capture": {
     "status": "ok",
     "semantics": "Visible Mister score/points fields are captured conservatively. Until the first real jornada is observed, do not assume whether a displayed value is jornada, total or another score when points_status is ambiguous.",
-    "team_players_detected": 19,
-    "team_players_with_points": 19,
+    "team_players_detected": 17,
+    "team_players_with_points": 17,
     "market_players_detected": 27,
     "market_players_with_points": 27,
     "standings_rows_detected": 7,
@@ -58646,23 +59323,10 @@
     {
       "name": "Ale",
       "user_id": "12165479",
-      "players_detected": 19,
-      "players_with_displayed_points": 19,
-      "sum_displayed_player_points": 924,
+      "players_detected": 17,
+      "players_with_displayed_points": 17,
+      "sum_displayed_player_points": 879,
       "players": [
-        {
-          "player_id": "14379",
-          "name": "A. Fernández",
-          "displayed_points": 20,
-          "points_status": "single_visible_value",
-          "score_candidates": [
-            {
-              "class": "points",
-              "text": "20",
-              "value": 20
-            }
-          ]
-        },
         {
           "player_id": "213",
           "name": "S. Dimitrievski",
@@ -58751,19 +59415,6 @@
               "class": "points",
               "text": "2",
               "value": 2
-            }
-          ]
-        },
-        {
-          "player_id": "96",
-          "name": "D. Ceballos",
-          "displayed_points": 25,
-          "points_status": "single_visible_value",
-          "score_candidates": [
-            {
-              "class": "points",
-              "text": "25",
-              "value": 25
             }
           ]
         },
@@ -58902,9 +59553,9 @@
     {
       "name": "DRSeven",
       "user_id": "12165510",
-      "players_detected": 21,
-      "players_with_displayed_points": 21,
-      "sum_displayed_player_points": 892,
+      "players_detected": 20,
+      "players_with_displayed_points": 20,
+      "sum_displayed_player_points": 884,
       "players": [
         {
           "player_id": "4947929",
@@ -59111,19 +59762,6 @@
               "class": "points",
               "text": "71",
               "value": 71
-            }
-          ]
-        },
-        {
-          "player_id": "60872",
-          "name": "R. Vargas",
-          "displayed_points": 8,
-          "points_status": "single_visible_value",
-          "score_candidates": [
-            {
-              "class": "points",
-              "text": "8",
-              "value": 8
             }
           ]
         },
@@ -59868,7 +60506,7 @@
       ]
     }
   ],
-  "market_slot": "morning",
+  "market_slot": "evening",
   "snapshot_finalized": true,
   "capture_integrity": {
     "current_clause_capture_complete": true,
