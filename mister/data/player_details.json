@@ -1815,12 +1815,12 @@
             "goalsPrevented": 0,
             "blockedScoringAttempt": 1,
             "interceptionWon": 0,
-            "totalLongBalls": 4,
+            "totalLongBalls": 3,
             "totalContest": 1,
-            "duelLost": 1,
+            "duelLost": 3,
             "shotOffTarget": 0,
             "totalClearance": 0,
-            "accurateLongBalls": 3,
+            "accurateLongBalls": 2,
             "totalTackle": 7,
             "savedShotsFromInsideTheBox": 0,
             "totalPass": 67,
@@ -1859,22 +1859,24 @@
         "4052"
       ],
       "profile_stats": {
-        "cláusula": "10.575.000",
+        "cláusula": "11.346.000",
         "goles": "0",
         "media": "3,8",
         "partidos": "9",
         "puntos": "34",
         "tarjetas": "1",
-        "valor": "7.586.000"
+        "valor": "7.564.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-10-31T22:56:21+01:00",
+      "relevant_capture_at": "2026-11-07T00:31:56+01:00",
       "relevant_capture_sources": [
-        "recent_transfer"
+        "my_team",
+        "recent_transfer",
+        "league_roster"
       ],
-      "recent_transfer_checked_at": "2026-09-26T21:54:16+02:00",
-      "recent_transfer_error": "profile identity mismatch: expected 'F. García', got 'Fran'",
-      "last_transfer_seen_at": "2026-09-25 23:38:53"
+      "recent_transfer_checked_at": "2026-11-07T00:16:56+01:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Jugador 27520', got 'Fran'",
+      "last_transfer_seen_at": "2026-11-06 05:00:23"
     },
     "56971": {
       "player_id": "56971",
@@ -2365,8 +2367,8 @@
       "player_id": "118",
       "name": "Jonny Otto",
       "profile_url": "https://mister.mundodeportivo.com/players/118/jonny-otto",
-      "season_points": 25,
-      "matches_played": 11,
+      "season_points": 27,
+      "matches_played": 12,
       "matches": [
         {
           "gameweek": "J1",
@@ -2948,6 +2950,75 @@
             "minutesPlayed": 90
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 2,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "home_away": "away",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "minutes": 10,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 0,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 3,
+              "rating": 6.7
+            }
+          },
+          "sofascore_rating": 6.7,
+          "market_value_at_gameweek": 3029000,
+          "stats": {
+            "totalContest": 0,
+            "goalAssist": 0,
+            "totalPass": 0,
+            "onTargetScoringAttempt": 0,
+            "savedShotsFromInsideTheBox": 0,
+            "wonContest": 0,
+            "aerialWon": 0,
+            "saves": 0,
+            "totalLongBalls": 0,
+            "duelWon": 0,
+            "goals": 0,
+            "totalTackle": 0,
+            "blockedScoringAttempt": 0,
+            "accuratePass": 0,
+            "interceptionWon": 0,
+            "goalsPrevented": 0,
+            "keyPass": 0,
+            "totalClearance": 0,
+            "accurateLongBalls": 0,
+            "duelLost": 0,
+            "aerialLost": 0,
+            "minutesPlayed": 10,
+            "shotOffTarget": 0
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "capture_status": "ok",
@@ -2963,7 +3034,8 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "captured_played_gameweek_ids": [
         "3968",
@@ -2976,19 +3048,20 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "profile_stats": {
         "cláusula": "7.810.500",
         "goles": "0",
-        "media": "2,8",
-        "partidos": "9",
-        "puntos": "25",
+        "media": "2,7",
+        "partidos": "10",
+        "puntos": "27",
         "tarjetas": "0",
-        "valor": "3.679.000"
+        "valor": "3.029.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-01T23:33:00+01:00",
+      "relevant_capture_at": "2026-11-07T00:32:37+01:00",
       "relevant_capture_sources": [
         "recent_transfer"
       ],
@@ -4319,8 +4392,8 @@
       "player_id": "64411",
       "name": "Youssef Enríquez",
       "profile_url": "https://mister.mundodeportivo.com/players/64411/youssef-enriquez",
-      "season_points": 21,
-      "matches_played": 11,
+      "season_points": 25,
+      "matches_played": 12,
       "matches": [
         {
           "gameweek": "J1",
@@ -4827,6 +4900,75 @@
             "minutesPlayed": 90
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 4,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 85,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 5,
+              "rating": 7.1
+            }
+          },
+          "sofascore_rating": 7.1,
+          "market_value_at_gameweek": 273000,
+          "stats": {
+            "totalContest": 0,
+            "goalAssist": 0,
+            "totalPass": 24,
+            "onTargetScoringAttempt": 0,
+            "savedShotsFromInsideTheBox": 0,
+            "wonContest": 0,
+            "aerialWon": 0,
+            "saves": 0,
+            "totalLongBalls": 3,
+            "duelWon": 3,
+            "goals": 0,
+            "totalTackle": 3,
+            "blockedScoringAttempt": 0,
+            "accuratePass": 19,
+            "interceptionWon": 1,
+            "goalsPrevented": 0,
+            "keyPass": 2,
+            "totalClearance": 5,
+            "accurateLongBalls": 1,
+            "duelLost": 4,
+            "aerialLost": 3,
+            "minutesPlayed": 85,
+            "shotOffTarget": 1
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "capture_status": "ok",
@@ -4842,7 +4984,8 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "captured_played_gameweek_ids": [
         "3968",
@@ -4855,19 +4998,20 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "profile_stats": {
         "cláusula": "2.265.000",
         "goles": "0",
-        "media": "2,6",
-        "partidos": "8",
-        "puntos": "21",
+        "media": "2,8",
+        "partidos": "9",
+        "puntos": "25",
         "tarjetas": "0",
-        "valor": "160.000"
+        "valor": "273.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-01T23:35:59+01:00",
+      "relevant_capture_at": "2026-11-07T00:33:02+01:00",
       "relevant_capture_sources": [
         "recent_transfer"
       ],
@@ -9635,10 +9779,10 @@
     },
     "68606": {
       "player_id": "68606",
-      "name": "Ángel",
-      "profile_url": "https://mister.mundodeportivo.com/players/68606/angel-perez",
-      "season_points": 39,
-      "matches_played": 11,
+      "name": "Á. Pérez",
+      "profile_url": "https://mister.mundodeportivo.com/players/68606/a-perez",
+      "season_points": 45,
+      "matches_played": 12,
       "matches": [
         {
           "gameweek": "J1",
@@ -10288,6 +10432,75 @@
             "minutesPlayed": 74
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 2,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 60,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 2,
+              "rating": 6.4
+            }
+          },
+          "sofascore_rating": 6.4,
+          "market_value_at_gameweek": 7144000,
+          "stats": {
+            "totalContest": 3,
+            "goalAssist": 0,
+            "totalPass": 8,
+            "onTargetScoringAttempt": 0,
+            "savedShotsFromInsideTheBox": 0,
+            "wonContest": 0,
+            "aerialWon": 1,
+            "saves": 0,
+            "totalLongBalls": 2,
+            "duelWon": 4,
+            "goals": 0,
+            "totalTackle": 3,
+            "blockedScoringAttempt": 0,
+            "accuratePass": 4,
+            "interceptionWon": 0,
+            "goalsPrevented": 0,
+            "keyPass": 1,
+            "totalClearance": 2,
+            "accurateLongBalls": 0,
+            "duelLost": 6,
+            "aerialLost": 0,
+            "minutesPlayed": 60,
+            "shotOffTarget": 0
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "capture_status": "ok",
@@ -10300,7 +10513,11 @@
         "4046",
         "4047",
         "4048",
-        "4049"
+        "4049",
+        "4050",
+        "4051",
+        "4052",
+        "4053"
       ],
       "captured_played_gameweek_ids": [
         "3968",
@@ -10310,19 +10527,23 @@
         "4046",
         "4047",
         "4048",
-        "4049"
+        "4049",
+        "4050",
+        "4051",
+        "4052",
+        "4053"
       ],
       "profile_stats": {
         "cláusula": "13.138.500",
         "goles": "0",
-        "media": "4,3",
-        "partidos": "8",
-        "puntos": "34",
-        "tarjetas": "1",
-        "valor": "8.734.000"
+        "media": "4,1",
+        "partidos": "11",
+        "puntos": "45",
+        "tarjetas": "2",
+        "valor": "7.144.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-10-13T01:56:39+02:00",
+      "relevant_capture_at": "2026-11-07T00:33:08+01:00",
       "relevant_capture_sources": [
         "recent_transfer"
       ]
@@ -13673,13 +13894,14 @@
         "partidos": "7",
         "puntos": "32",
         "tarjetas": "0",
-        "valor": "1.204.000",
+        "valor": "1.255.000",
         "cláusula": "2.289.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-06T00:52:17+01:00",
+      "relevant_capture_at": "2026-11-07T00:31:37+01:00",
       "relevant_capture_sources": [
         "my_team",
+        "market",
         "recent_transfer",
         "league_roster"
       ]
@@ -20453,11 +20675,11 @@
         "partidos": "11",
         "puntos": "74",
         "tarjetas": "4",
-        "valor": "11.515.000",
-        "cláusula": "23.030.000"
+        "valor": "11.611.000",
+        "cláusula": "23.222.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-06T00:52:21+01:00",
+      "relevant_capture_at": "2026-11-07T00:32:16+01:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -23676,8 +23898,8 @@
       "player_id": "11697",
       "name": "Lucas Boyé",
       "profile_url": "https://mister.mundodeportivo.com/players/11697/lucas-boye",
-      "season_points": 59,
-      "matches_played": 11,
+      "season_points": 61,
+      "matches_played": 12,
       "capture_status": "ok",
       "matches": [
         {
@@ -24337,11 +24559,80 @@
             "minutesPlayed": 74
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 2,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 85,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 2,
+              "rating": 6.5
+            }
+          },
+          "sofascore_rating": 6.5,
+          "market_value_at_gameweek": 10022000,
+          "stats": {
+            "totalContest": 6,
+            "goalAssist": 0,
+            "totalPass": 12,
+            "onTargetScoringAttempt": 1,
+            "savedShotsFromInsideTheBox": 0,
+            "wonContest": 1,
+            "aerialWon": 2,
+            "saves": 0,
+            "totalLongBalls": 0,
+            "duelWon": 6,
+            "goals": 0,
+            "totalTackle": 1,
+            "blockedScoringAttempt": 0,
+            "accuratePass": 8,
+            "interceptionWon": 1,
+            "goalsPrevented": 0,
+            "keyPass": 1,
+            "totalClearance": 0,
+            "accurateLongBalls": 0,
+            "duelLost": 11,
+            "aerialLost": 1,
+            "minutesPlayed": 85,
+            "shotOffTarget": 0
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
-      "recent_transfer_checked_at": "2026-09-08T11:42:59+02:00",
-      "recent_transfer_error": "profile identity mismatch: expected 'Lucas Boyé', got 'Lucas'",
-      "last_transfer_seen_at": "2026-09-08 05:00:29",
+      "recent_transfer_checked_at": "2026-11-07T00:16:56+01:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Jugador 11697', got 'Lucas'",
+      "last_transfer_seen_at": "2026-11-06 05:00:23",
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
@@ -24353,7 +24644,8 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "captured_played_gameweek_ids": [
         "3968",
@@ -24366,29 +24658,31 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "profile_stats": {
-        "cláusula": "13.278.000",
+        "cláusula": "15.424.500",
         "goles": "5",
-        "media": "5,9",
-        "partidos": "10",
-        "puntos": "59",
+        "media": "5,5",
+        "partidos": "11",
+        "puntos": "61",
         "tarjetas": "1",
-        "valor": "10.054.000"
+        "valor": "10.022.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-01T23:32:47+01:00",
+      "relevant_capture_at": "2026-11-07T00:32:19+01:00",
       "relevant_capture_sources": [
-        "recent_transfer"
+        "recent_transfer",
+        "league_roster"
       ]
     },
     "7893": {
       "player_id": "7893",
       "name": "Antonio",
       "profile_url": "https://mister.mundodeportivo.com/players/7893/antonio-sivera",
-      "season_points": 43,
-      "matches_played": 7,
+      "season_points": 58,
+      "matches_played": 12,
       "capture_status": "ok",
       "matches": [
         {
@@ -24779,15 +25073,355 @@
             "goalAssist": 0
           },
           "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J8",
+          "gameweek_id": "4049",
+          "status": "played",
+          "points": 3,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "2",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/2.png?version=20240613184505",
+            "name": "Atlético"
+          },
+          "opponent": {
+            "id": "2",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/2.png?version=20240613184505",
+            "name": "Atlético"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "1 - 2",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 6,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 2,
+              "rating": 6.5
+            }
+          },
+          "sofascore_rating": 6.5,
+          "market_value_at_gameweek": 10596000,
+          "stats": {
+            "onTargetScoringAttempt": 0,
+            "aerialWon": 2,
+            "goals": 0,
+            "interceptionWon": 0,
+            "totalContest": 0,
+            "totalTackle": 0,
+            "totalClearance": 3,
+            "totalLongBalls": 23,
+            "savedShotsFromInsideTheBox": 1,
+            "accuratePass": 13,
+            "accurateLongBalls": 8,
+            "goalAssist": 0,
+            "saves": 5,
+            "shotOffTarget": 0,
+            "keyPass": 0,
+            "aerialLost": 0,
+            "totalPass": 28,
+            "blockedScoringAttempt": 0,
+            "duelWon": 2,
+            "wonContest": 0,
+            "minutesPlayed": 90,
+            "duelLost": 0,
+            "goalsPrevented": -0.8983
+          },
+          "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J9",
+          "gameweek_id": "4050",
+          "status": "played",
+          "points": 1,
+          "home_team": {
+            "id": "5",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/5.png?version=20221205131749",
+            "name": "Celta"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "5",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/5.png?version=20221205131749",
+            "name": "Celta"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "2 - 1",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 0,
+              "rating": 6.1
+            }
+          },
+          "sofascore_rating": 6.1,
+          "market_value_at_gameweek": 10317000,
+          "stats": {
+            "onTargetScoringAttempt": 0,
+            "aerialWon": 0,
+            "goals": 0,
+            "interceptionWon": 0,
+            "totalContest": 0,
+            "totalTackle": 0,
+            "totalClearance": 0,
+            "totalLongBalls": 21,
+            "savedShotsFromInsideTheBox": 0,
+            "accuratePass": 18,
+            "accurateLongBalls": 11,
+            "goalAssist": 0,
+            "saves": 1,
+            "shotOffTarget": 0,
+            "keyPass": 0,
+            "aerialLost": 0,
+            "totalPass": 28,
+            "blockedScoringAttempt": 0,
+            "duelWon": 0,
+            "wonContest": 0,
+            "minutesPlayed": 90,
+            "duelLost": 0,
+            "goalsPrevented": -0.3989
+          },
+          "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J10",
+          "gameweek_id": "4051",
+          "status": "played",
+          "points": 3,
+          "home_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "away_team": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "opponent": {
+            "id": "13",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402",
+            "name": "Málaga"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "1 - 1",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 3,
+              "rating": 6.6
+            }
+          },
+          "sofascore_rating": 6.6,
+          "market_value_at_gameweek": 9898000,
+          "stats": {
+            "onTargetScoringAttempt": 0,
+            "aerialWon": 0,
+            "goals": 0,
+            "interceptionWon": 0,
+            "totalContest": 0,
+            "totalTackle": 0,
+            "totalClearance": 1,
+            "totalLongBalls": 4,
+            "savedShotsFromInsideTheBox": 1,
+            "accuratePass": 20,
+            "accurateLongBalls": 3,
+            "goalAssist": 0,
+            "saves": 2,
+            "shotOffTarget": 0,
+            "keyPass": 0,
+            "aerialLost": 0,
+            "totalPass": 21,
+            "blockedScoringAttempt": 0,
+            "duelWon": 0,
+            "wonContest": 0,
+            "minutesPlayed": 90,
+            "duelLost": 0,
+            "goalsPrevented": -0.3293
+          },
+          "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J11",
+          "gameweek_id": "4052",
+          "status": "played",
+          "points": -2,
+          "home_team": {
+            "id": "3",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517",
+            "name": "Barcelona"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "3",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517",
+            "name": "Barcelona"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "6 - 1",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": -2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": -4,
+              "rating": 4.3
+            }
+          },
+          "sofascore_rating": 4.3,
+          "market_value_at_gameweek": 9162000,
+          "stats": {
+            "onTargetScoringAttempt": 0,
+            "aerialWon": 0,
+            "goals": 0,
+            "interceptionWon": 0,
+            "totalContest": 0,
+            "totalTackle": 0,
+            "totalClearance": 1,
+            "totalLongBalls": 18,
+            "savedShotsFromInsideTheBox": 1,
+            "accuratePass": 10,
+            "accurateLongBalls": 5,
+            "goalAssist": 0,
+            "saves": 1,
+            "shotOffTarget": 0,
+            "keyPass": 1,
+            "aerialLost": 0,
+            "totalPass": 23,
+            "blockedScoringAttempt": 0,
+            "duelWon": 0,
+            "wonContest": 0,
+            "minutesPlayed": 90,
+            "duelLost": 0,
+            "goalsPrevented": -2.3888
+          },
+          "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 10,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 10,
+              "rating": null
+            },
+            "marca": {
+              "points": 10,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 9,
+              "rating": 7.9
+            }
+          },
+          "sofascore_rating": 7.9,
+          "market_value_at_gameweek": 8370000,
+          "stats": {
+            "onTargetScoringAttempt": 0,
+            "aerialWon": 0,
+            "goals": 0,
+            "interceptionWon": 0,
+            "totalContest": 0,
+            "totalTackle": 0,
+            "totalClearance": 4,
+            "totalLongBalls": 34,
+            "savedShotsFromInsideTheBox": 2,
+            "accuratePass": 11,
+            "accurateLongBalls": 10,
+            "goalAssist": 0,
+            "saves": 2,
+            "shotOffTarget": 0,
+            "keyPass": 0,
+            "aerialLost": 0,
+            "totalPass": 35,
+            "blockedScoringAttempt": 0,
+            "duelWon": 0,
+            "wonContest": 0,
+            "minutesPlayed": 90,
+            "duelLost": 0,
+            "goalsPrevented": 1.4626
+          },
+          "source": "Mister player gameweek popup"
         }
       ]
     },
     "36048": {
       "player_id": "36048",
-      "name": "Nahuel",
+      "name": "Nahuel Tenaglia",
       "profile_url": "https://mister.mundodeportivo.com/players/36048/nahuel-tenaglia",
-      "season_points": 54,
-      "matches_played": 11,
+      "season_points": 55,
+      "matches_played": 12,
       "capture_status": "ok",
       "matches": [
         {
@@ -25477,6 +26111,74 @@
             "minutesPlayed": 90
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 4,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 6,
+              "rating": 7.3
+            }
+          },
+          "sofascore_rating": 7.3,
+          "market_value_at_gameweek": 9420000,
+          "stats": {
+            "totalContest": 0,
+            "goalAssist": 0,
+            "totalPass": 27,
+            "onTargetScoringAttempt": 0,
+            "savedShotsFromInsideTheBox": 0,
+            "wonContest": 0,
+            "aerialWon": 5,
+            "saves": 0,
+            "totalLongBalls": 8,
+            "duelWon": 8,
+            "goals": 0,
+            "totalTackle": 3,
+            "blockedScoringAttempt": 0,
+            "accuratePass": 17,
+            "interceptionWon": 1,
+            "goalsPrevented": 0,
+            "keyPass": 0,
+            "totalClearance": 8,
+            "accurateLongBalls": 1,
+            "duelLost": 4,
+            "aerialLost": 2,
+            "minutesPlayed": 90,
+            "shotOffTarget": 0
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "recent_transfer_checked_at": "2026-09-13T21:32:06+02:00",
@@ -25489,7 +26191,12 @@
         "4045",
         "4046",
         "4047",
-        "4048"
+        "4048",
+        "4049",
+        "4050",
+        "4051",
+        "4052",
+        "4053"
       ],
       "captured_played_gameweek_ids": [
         "3968",
@@ -25498,29 +26205,34 @@
         "4045",
         "4046",
         "4047",
-        "4048"
+        "4048",
+        "4049",
+        "4050",
+        "4051",
+        "4052",
+        "4053"
       ],
       "profile_stats": {
         "cláusula": "15.117.000",
         "goles": "1",
-        "media": "5,6",
-        "partidos": "7",
-        "puntos": "39",
-        "tarjetas": "2",
-        "valor": "10.042.000"
+        "media": "4,6",
+        "partidos": "12",
+        "puntos": "55",
+        "tarjetas": "3",
+        "valor": "9.420.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-19T21:39:23+02:00",
+      "relevant_capture_at": "2026-11-07T00:32:54+01:00",
       "relevant_capture_sources": [
         "recent_transfer"
       ]
     },
     "25867": {
       "player_id": "25867",
-      "name": "Jugador 25867",
+      "name": "Antonio Blanco",
       "profile_url": "https://mister.mundodeportivo.com/players/25867/antonio-blanco",
-      "season_points": 37,
-      "matches_played": 10,
+      "season_points": 42,
+      "matches_played": 12,
       "capture_status": "ok",
       "matches": [
         {
@@ -26130,6 +26842,85 @@
             "totalPass": 47
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J11",
+          "gameweek_id": "4052",
+          "status": "played",
+          "opponent": {
+            "id": "3",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 5,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 6,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 5,
+              "rating": 7.1
+            }
+          },
+          "sofascore_rating": 7.1,
+          "market_value_at_gameweek": 4289000,
+          "stats": {
+            "totalContest": 0,
+            "goalAssist": 0,
+            "totalPass": 31,
+            "onTargetScoringAttempt": 0,
+            "savedShotsFromInsideTheBox": 0,
+            "wonContest": 0,
+            "aerialWon": 1,
+            "saves": 0,
+            "totalLongBalls": 5,
+            "duelWon": 4,
+            "goals": 0,
+            "totalTackle": 3,
+            "blockedScoringAttempt": 0,
+            "accuratePass": 22,
+            "interceptionWon": 2,
+            "goalsPrevented": 0,
+            "keyPass": 2,
+            "totalClearance": 2,
+            "accurateLongBalls": 1,
+            "duelLost": 3,
+            "aerialLost": 1,
+            "minutesPlayed": 90,
+            "shotOffTarget": 1
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "expected_played_gameweek_ids": [
@@ -26142,7 +26933,9 @@
         "4048",
         "4049",
         "4050",
-        "4051"
+        "4051",
+        "4052",
+        "4053"
       ],
       "captured_played_gameweek_ids": [
         "3968",
@@ -26154,24 +26947,23 @@
         "4048",
         "4049",
         "4050",
-        "4051"
+        "4051",
+        "4052",
+        "4053"
       ],
       "profile_stats": {
         "goles": "0",
-        "media": "3,7",
-        "partidos": "10",
-        "puntos": "37",
+        "media": "3,8",
+        "partidos": "11",
+        "puntos": "42",
         "tarjetas": "3",
-        "valor": "5.074.000",
+        "valor": "4.289.000",
         "cláusula": "7.611.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-10-28T23:51:48+01:00",
+      "relevant_capture_at": "2026-11-07T00:32:48+01:00",
       "relevant_capture_sources": [
-        "my_team",
-        "market",
-        "recent_transfer",
-        "league_roster"
+        "recent_transfer"
       ],
       "recent_transfer_checked_at": "2026-10-29T23:50:51+01:00",
       "recent_transfer_error": "profile identity mismatch: expected 'Jugador 25867', got 'Antonio'",
@@ -34125,8 +34917,8 @@
       "player_id": "58467",
       "name": "Chidera Ejuke",
       "profile_url": "https://mister.mundodeportivo.com/players/58467/chidera-ejuke",
-      "season_points": 42,
-      "matches_played": 11,
+      "season_points": 45,
+      "matches_played": 12,
       "capture_status": "ok",
       "matches": [
         {
@@ -34705,6 +35497,75 @@
             "minutesPlayed": 90
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 4,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "home_away": "home",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "minutes": 31,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 6,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 4,
+              "rating": 6.9
+            }
+          },
+          "sofascore_rating": 6.9,
+          "market_value_at_gameweek": 4307000,
+          "stats": {
+            "totalContest": 2,
+            "goalAssist": 0,
+            "totalPass": 3,
+            "onTargetScoringAttempt": 0,
+            "savedShotsFromInsideTheBox": 0,
+            "wonContest": 2,
+            "aerialWon": 0,
+            "saves": 0,
+            "totalLongBalls": 0,
+            "duelWon": 2,
+            "goals": 0,
+            "totalTackle": 0,
+            "blockedScoringAttempt": 0,
+            "accuratePass": 2,
+            "interceptionWon": 0,
+            "goalsPrevented": 0,
+            "keyPass": 1,
+            "totalClearance": 0,
+            "accurateLongBalls": 0,
+            "duelLost": 1,
+            "aerialLost": 1,
+            "minutesPlayed": 31,
+            "shotOffTarget": 0
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "expected_played_gameweek_ids": [
@@ -34718,7 +35579,8 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "captured_played_gameweek_ids": [
         "3968",
@@ -34731,19 +35593,20 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "profile_stats": {
-        "cláusula": "5.559.000",
+        "cláusula": "6.460.500",
         "goles": "1",
-        "media": "4,7",
-        "partidos": "9",
-        "puntos": "42",
+        "media": "4,5",
+        "partidos": "10",
+        "puntos": "45",
         "tarjetas": "1",
-        "valor": "3.706.000"
+        "valor": "4.307.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-01T23:29:58+01:00",
+      "relevant_capture_at": "2026-11-07T00:32:29+01:00",
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
@@ -39494,10 +40357,10 @@
         "partidos": "10",
         "puntos": "46",
         "tarjetas": "0",
-        "valor": "14.054.000"
+        "valor": "14.143.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-06T00:52:04+01:00",
+      "relevant_capture_at": "2026-11-07T00:31:47+01:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -40968,13 +41831,14 @@
         "partidos": "4",
         "puntos": "23",
         "tarjetas": "0",
-        "valor": "518.000",
+        "valor": "559.000",
         "cláusula": "1.000.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-06T00:51:47+01:00",
+      "relevant_capture_at": "2026-11-07T00:31:05+01:00",
       "relevant_capture_sources": [
         "my_team",
+        "market",
         "recent_transfer",
         "league_roster",
         "featured"
@@ -57235,8 +58099,8 @@
       "player_id": "29169",
       "name": "Pablo Ibáñez",
       "profile_url": "https://mister.mundodeportivo.com/players/29169/pablo-ibanez",
-      "season_points": 46,
-      "matches_played": 11,
+      "season_points": 50,
+      "matches_played": 12,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
@@ -57248,7 +58112,8 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "captured_played_gameweek_ids": [
         "3968",
@@ -57261,17 +58126,18 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "cláusula": "7.449.000",
         "goles": "1",
         "media": "4,2",
-        "partidos": "11",
-        "puntos": "46",
-        "tarjetas": "2",
-        "valor": "5.367.000"
+        "partidos": "12",
+        "puntos": "50",
+        "tarjetas": "3",
+        "valor": "5.123.000"
       },
       "matches": [
         {
@@ -57961,10 +58827,78 @@
             "minutesPlayed": 35
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 4,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 6,
+              "rating": 7.2
+            }
+          },
+          "sofascore_rating": 7.2,
+          "market_value_at_gameweek": 5123000,
+          "stats": {
+            "totalContest": 2,
+            "goalAssist": 0,
+            "totalPass": 23,
+            "onTargetScoringAttempt": 0,
+            "savedShotsFromInsideTheBox": 0,
+            "wonContest": 0,
+            "aerialWon": 0,
+            "saves": 0,
+            "totalLongBalls": 8,
+            "duelWon": 6,
+            "goals": 0,
+            "totalTackle": 3,
+            "blockedScoringAttempt": 0,
+            "accuratePass": 14,
+            "interceptionWon": 1,
+            "goalsPrevented": 0,
+            "keyPass": 1,
+            "totalClearance": 2,
+            "accurateLongBalls": 1,
+            "duelLost": 7,
+            "aerialLost": 2,
+            "minutesPlayed": 90,
+            "shotOffTarget": 0
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-01T23:34:29+01:00",
+      "relevant_capture_at": "2026-11-07T00:32:51+01:00",
       "relevant_capture_sources": [
         "recent_transfer"
       ],
@@ -57974,10 +58908,10 @@
     },
     "3060": {
       "player_id": "3060",
-      "name": "Mariano",
-      "profile_url": "https://mister.mundodeportivo.com/players/3060/mariano-diaz",
-      "season_points": 64,
-      "matches_played": 11,
+      "name": "M. Díaz",
+      "profile_url": "https://mister.mundodeportivo.com/players/3060/m-diaz",
+      "season_points": 66,
+      "matches_played": 12,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
@@ -57988,7 +58922,9 @@
         "4048",
         "4049",
         "4050",
-        "4051"
+        "4051",
+        "4052",
+        "4053"
       ],
       "captured_played_gameweek_ids": [
         "3968",
@@ -58000,17 +58936,19 @@
         "4048",
         "4049",
         "4050",
-        "4051"
+        "4051",
+        "4052",
+        "4053"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "cláusula": "8.442.000",
-        "goles": "3",
-        "media": "5,3",
-        "partidos": "10",
-        "puntos": "53",
+        "goles": "4",
+        "media": "5,5",
+        "partidos": "12",
+        "puntos": "66",
         "tarjetas": "2",
-        "valor": "5.221.000"
+        "valor": "5.143.000"
       },
       "matches": [
         {
@@ -58684,12 +59622,82 @@
             "onTargetScoringAttempt": 1
           },
           "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 2,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "home_away": "away",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "minutes": 16,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 2,
+              "rating": 6.4
+            }
+          },
+          "sofascore_rating": 6.4,
+          "market_value_at_gameweek": 5143000,
+          "stats": {
+            "totalContest": 4,
+            "goalAssist": 0,
+            "totalPass": 4,
+            "onTargetScoringAttempt": 0,
+            "savedShotsFromInsideTheBox": 0,
+            "wonContest": 1,
+            "aerialWon": 1,
+            "saves": 0,
+            "totalLongBalls": 0,
+            "duelWon": 2,
+            "goals": 0,
+            "totalTackle": 0,
+            "blockedScoringAttempt": 0,
+            "accuratePass": 2,
+            "interceptionWon": 0,
+            "goalsPrevented": 0,
+            "keyPass": 0,
+            "totalClearance": 0,
+            "accurateLongBalls": 0,
+            "duelLost": 4,
+            "aerialLost": 0,
+            "minutesPlayed": 16,
+            "shotOffTarget": 0
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-10-24T21:51:09+02:00",
+      "relevant_capture_at": "2026-11-07T00:32:22+01:00",
       "relevant_capture_sources": [
-        "recent_transfer"
+        "recent_transfer",
+        "featured"
       ],
       "recent_transfer_checked_at": "2026-10-15T22:24:07+02:00",
       "recent_transfer_error": "profile identity mismatch: expected 'M. Díaz', got 'Mariano'",
@@ -60613,13 +61621,13 @@
       ],
       "capture_status": "ok",
       "profile_stats": {
-        "cláusula": "10.426.500",
+        "cláusula": "10.567.500",
         "goles": "1",
         "media": "3,8",
         "partidos": "11",
         "puntos": "42",
         "tarjetas": "1",
-        "valor": "6.951.000"
+        "valor": "7.045.000"
       },
       "matches": [
         {
@@ -61296,7 +62304,7 @@
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-06T00:51:45+01:00",
+      "relevant_capture_at": "2026-11-07T00:31:28+01:00",
       "relevant_capture_sources": [
         "my_team",
         "market",
@@ -63814,8 +64822,8 @@
       "player_id": "53143",
       "name": "Abde Rebbach",
       "profile_url": "https://mister.mundodeportivo.com/players/53143/abde-rebbach",
-      "season_points": 34,
-      "matches_played": 11,
+      "season_points": 37,
+      "matches_played": 12,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
@@ -63827,7 +64835,8 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "captured_played_gameweek_ids": [
         "3968",
@@ -63840,17 +64849,18 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "cláusula": "4.033.332",
         "goles": "0",
         "media": "3,1",
-        "partidos": "11",
-        "puntos": "34",
+        "partidos": "12",
+        "puntos": "37",
         "tarjetas": "3",
-        "valor": "994.000"
+        "valor": "892.000"
       },
       "matches": [
         {
@@ -64539,10 +65549,79 @@
             "minutesPlayed": 55
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 3,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "home_away": "away",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "minutes": 30,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 3,
+              "rating": 6.6
+            }
+          },
+          "sofascore_rating": 6.6,
+          "market_value_at_gameweek": 892000,
+          "stats": {
+            "totalContest": 0,
+            "goalAssist": 0,
+            "totalPass": 10,
+            "onTargetScoringAttempt": 0,
+            "savedShotsFromInsideTheBox": 0,
+            "wonContest": 0,
+            "aerialWon": 0,
+            "saves": 0,
+            "totalLongBalls": 1,
+            "duelWon": 2,
+            "goals": 0,
+            "totalTackle": 2,
+            "blockedScoringAttempt": 0,
+            "accuratePass": 8,
+            "interceptionWon": 0,
+            "goalsPrevented": 0,
+            "keyPass": 0,
+            "totalClearance": 0,
+            "accurateLongBalls": 1,
+            "duelLost": 3,
+            "aerialLost": 0,
+            "minutesPlayed": 30,
+            "shotOffTarget": 0
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-01T23:29:25+01:00",
+      "relevant_capture_at": "2026-11-07T00:32:27+01:00",
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
@@ -72329,10 +73408,10 @@
     },
     "68361": {
       "player_id": "68361",
-      "name": "Aitor",
+      "name": "Aitor Mañas",
       "profile_url": "https://mister.mundodeportivo.com/players/68361/aitor-manas",
-      "season_points": 22,
-      "matches_played": 11,
+      "season_points": 26,
+      "matches_played": 12,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
@@ -72341,7 +73420,11 @@
         "4046",
         "4047",
         "4048",
-        "4049"
+        "4049",
+        "4050",
+        "4051",
+        "4052",
+        "4053"
       ],
       "captured_played_gameweek_ids": [
         "3968",
@@ -72351,17 +73434,21 @@
         "4046",
         "4047",
         "4048",
-        "4049"
+        "4049",
+        "4050",
+        "4051",
+        "4052",
+        "4053"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "cláusula": "1.000.000",
-        "goles": "0",
-        "media": "2,4",
-        "partidos": "5",
-        "puntos": "12",
+        "goles": "1",
+        "media": "2,9",
+        "partidos": "9",
+        "puntos": "26",
         "tarjetas": "0",
-        "valor": "199.000"
+        "valor": "190.000"
       },
       "matches": [
         {
@@ -72916,12 +74003,82 @@
             "minutesPlayed": 35
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 2,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "home_away": "away",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "minutes": 10,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 0,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 2,
+              "rating": 6.4
+            }
+          },
+          "sofascore_rating": 6.4,
+          "market_value_at_gameweek": 190000,
+          "stats": {
+            "totalContest": 0,
+            "goalAssist": 0,
+            "totalPass": 1,
+            "onTargetScoringAttempt": 0,
+            "savedShotsFromInsideTheBox": 0,
+            "wonContest": 0,
+            "aerialWon": 0,
+            "saves": 0,
+            "totalLongBalls": 1,
+            "duelWon": 0,
+            "goals": 0,
+            "totalTackle": 0,
+            "blockedScoringAttempt": 0,
+            "accuratePass": 0,
+            "interceptionWon": 0,
+            "goalsPrevented": 0,
+            "keyPass": 0,
+            "totalClearance": 0,
+            "accurateLongBalls": 0,
+            "duelLost": 1,
+            "aerialLost": 1,
+            "minutesPlayed": 10,
+            "shotOffTarget": 0
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-10-13T01:56:21+02:00",
+      "relevant_capture_at": "2026-11-07T00:32:35+01:00",
       "relevant_capture_sources": [
-        "recent_transfer"
+        "recent_transfer",
+        "featured"
       ],
       "recent_transfer_checked_at": "2026-09-10T21:46:03+02:00",
       "recent_transfer_error": "profile identity mismatch: expected 'Jugador 68361', got 'Aitor'",
@@ -73619,8 +74776,8 @@
       "player_id": "68652",
       "name": "V. Koski",
       "profile_url": "https://mister.mundodeportivo.com/players/68652/v-koski",
-      "season_points": 38,
-      "matches_played": 11,
+      "season_points": 42,
+      "matches_played": 12,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
@@ -73632,7 +74789,8 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "captured_played_gameweek_ids": [
         "3968",
@@ -73645,17 +74803,18 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "cláusula": "5.197.500",
         "goles": "1",
         "media": "3,5",
-        "partidos": "11",
-        "puntos": "38",
+        "partidos": "12",
+        "puntos": "42",
         "tarjetas": "0",
-        "valor": "5.028.000"
+        "valor": "4.529.000"
       },
       "matches": [
         {
@@ -74331,10 +75490,78 @@
             "minutesPlayed": 90
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 4,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 6,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 4,
+              "rating": 6.9
+            }
+          },
+          "sofascore_rating": 6.9,
+          "market_value_at_gameweek": 4529000,
+          "stats": {
+            "totalContest": 0,
+            "goalAssist": 0,
+            "totalPass": 21,
+            "onTargetScoringAttempt": 0,
+            "savedShotsFromInsideTheBox": 0,
+            "wonContest": 0,
+            "aerialWon": 4,
+            "saves": 0,
+            "totalLongBalls": 2,
+            "duelWon": 4,
+            "goals": 0,
+            "totalTackle": 0,
+            "blockedScoringAttempt": 0,
+            "accuratePass": 18,
+            "interceptionWon": 0,
+            "goalsPrevented": 0,
+            "keyPass": 0,
+            "totalClearance": 4,
+            "accurateLongBalls": 1,
+            "duelLost": 3,
+            "aerialLost": 3,
+            "minutesPlayed": 90,
+            "shotOffTarget": 1
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-01T23:36:09+01:00",
+      "relevant_capture_at": "2026-11-07T00:33:11+01:00",
       "relevant_capture_sources": [
         "recent_transfer"
       ]
@@ -87399,10 +88626,10 @@
     },
     "24792": {
       "player_id": "24792",
-      "name": "Juan Iglesias",
+      "name": "Juan",
       "profile_url": "https://mister.mundodeportivo.com/players/24792/juan-iglesias",
-      "season_points": 52,
-      "matches_played": 11,
+      "season_points": 59,
+      "matches_played": 12,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
@@ -88133,6 +89360,74 @@
             "minutesPlayed": 90
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 6,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 6,
+              "rating": null
+            },
+            "marca": {
+              "points": 6,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 5,
+              "rating": 7.1
+            }
+          },
+          "sofascore_rating": 7.1,
+          "market_value_at_gameweek": 10008000,
+          "stats": {
+            "onTargetScoringAttempt": 2,
+            "aerialWon": 1,
+            "goals": 0,
+            "interceptionWon": 0,
+            "totalContest": 0,
+            "totalTackle": 4,
+            "totalClearance": 5,
+            "totalLongBalls": 5,
+            "savedShotsFromInsideTheBox": 0,
+            "accuratePass": 14,
+            "accurateLongBalls": 1,
+            "goalAssist": 0,
+            "saves": 0,
+            "shotOffTarget": 1,
+            "keyPass": 0,
+            "aerialLost": 0,
+            "totalPass": 24,
+            "blockedScoringAttempt": 1,
+            "duelWon": 6,
+            "wonContest": 0,
+            "minutesPlayed": 90,
+            "duelLost": 5,
+            "goalsPrevented": 0
+          },
+          "source": "Mister player gameweek popup"
         }
       ],
       "missing_played_gameweek_ids": [],
@@ -101722,8 +103017,8 @@
       "player_id": "60872",
       "name": "R. Vargas",
       "profile_url": "https://mister.mundodeportivo.com/players/60872/r-vargas",
-      "season_points": 8,
-      "matches_played": 11,
+      "season_points": 10,
+      "matches_played": 12,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
@@ -101735,7 +103030,8 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "captured_played_gameweek_ids": [
         "3968",
@@ -101748,16 +103044,17 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "goles": "0",
         "media": "2,0",
-        "partidos": "4",
-        "puntos": "8",
+        "partidos": "5",
+        "puntos": "10",
         "tarjetas": "0",
-        "valor": "1.741.000",
+        "valor": "1.865.000",
         "cláusula": "2.611.500"
       },
       "matches": [
@@ -102101,17 +103398,85 @@
             "minutesPlayed": 18
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 2,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 59,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": -2,
+              "rating": null
+            },
+            "marca": {
+              "points": -2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 5,
+              "rating": 7.1
+            }
+          },
+          "sofascore_rating": 7.1,
+          "market_value_at_gameweek": 1865000,
+          "stats": {
+            "totalContest": 1,
+            "goalAssist": 0,
+            "totalPass": 27,
+            "onTargetScoringAttempt": 1,
+            "savedShotsFromInsideTheBox": 0,
+            "wonContest": 1,
+            "aerialWon": 3,
+            "saves": 0,
+            "totalLongBalls": 3,
+            "duelWon": 7,
+            "goals": 0,
+            "totalTackle": 2,
+            "blockedScoringAttempt": 0,
+            "accuratePass": 18,
+            "interceptionWon": 0,
+            "goalsPrevented": 0,
+            "keyPass": 0,
+            "totalClearance": 0,
+            "accurateLongBalls": 1,
+            "duelLost": 2,
+            "aerialLost": 0,
+            "minutesPlayed": 59,
+            "shotOffTarget": 0
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-01T23:31:51+01:00",
+      "relevant_capture_at": "2026-11-07T00:32:59+01:00",
       "relevant_capture_sources": [
-        "recent_transfer",
-        "league_roster"
+        "recent_transfer"
       ],
-      "recent_transfer_checked_at": "2026-10-20T22:42:38+02:00",
-      "recent_transfer_error": "profile identity mismatch: expected 'R. Vargas', got 'Rubén'",
-      "last_transfer_seen_at": "2026-10-20 05:00:24"
+      "recent_transfer_checked_at": "2026-11-07T00:16:56+01:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Jugador 60872', got 'Rubén'",
+      "last_transfer_seen_at": "2026-11-06 07:45:07"
     },
     "60926": {
       "player_id": "60926",
@@ -104825,10 +106190,10 @@
     },
     "64382": {
       "player_id": "64382",
-      "name": "G. Suazo",
-      "profile_url": "https://mister.mundodeportivo.com/players/64382/g-suazo",
-      "season_points": 44,
-      "matches_played": 11,
+      "name": "Gabriel",
+      "profile_url": "https://mister.mundodeportivo.com/players/64382/gabriel-suazo",
+      "season_points": 51,
+      "matches_played": 12,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
@@ -105552,6 +106917,74 @@
             "minutesPlayed": 87
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 7,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 6,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 10,
+              "rating": 8.1
+            }
+          },
+          "sofascore_rating": 8.1,
+          "market_value_at_gameweek": 7325000,
+          "stats": {
+            "onTargetScoringAttempt": 0,
+            "aerialWon": 1,
+            "goals": 0,
+            "interceptionWon": 3,
+            "totalContest": 2,
+            "totalTackle": 4,
+            "totalClearance": 2,
+            "totalLongBalls": 7,
+            "savedShotsFromInsideTheBox": 0,
+            "accuratePass": 48,
+            "accurateLongBalls": 3,
+            "goalAssist": 0,
+            "saves": 0,
+            "shotOffTarget": 1,
+            "keyPass": 1,
+            "aerialLost": 0,
+            "totalPass": 54,
+            "blockedScoringAttempt": 0,
+            "duelWon": 9,
+            "wonContest": 1,
+            "minutesPlayed": 90,
+            "duelLost": 2,
+            "goalsPrevented": 0
+          },
+          "source": "Mister player gameweek popup"
         }
       ],
       "missing_played_gameweek_ids": [],
@@ -116978,9 +118411,9 @@
         "recent_transfer",
         "league_roster"
       ],
-      "recent_transfer_checked_at": "2026-11-05T00:46:13+01:00",
+      "recent_transfer_checked_at": "2026-11-07T00:16:56+01:00",
       "recent_transfer_error": "profile identity mismatch: expected 'P. Gulácsi', got 'Péter'",
-      "last_transfer_seen_at": "2026-11-03 16:46:31"
+      "last_transfer_seen_at": "2026-11-06 05:00:23"
     },
     "71791": {
       "player_id": "71791",
@@ -117588,7 +119021,7 @@
         "partidos": "8",
         "puntos": "33",
         "tarjetas": "1",
-        "valor": "354.000",
+        "valor": "398.000",
         "cláusula": "1.000.000"
       },
       "matches": [
@@ -118134,7 +119567,7 @@
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-06T00:52:06+01:00",
+      "relevant_capture_at": "2026-11-07T00:31:51+01:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -118764,8 +120197,8 @@
         "partidos": "9",
         "puntos": "45",
         "tarjetas": "3",
-        "valor": "10.540.000",
-        "cláusula": "15.810.000"
+        "valor": "10.580.000",
+        "cláusula": "15.870.000"
       },
       "matches": [
         {
@@ -119334,7 +120767,7 @@
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-06T00:51:42+01:00",
+      "relevant_capture_at": "2026-11-07T00:31:25+01:00",
       "relevant_capture_sources": [
         "my_team",
         "market",
@@ -142789,11 +144222,11 @@
         "partidos": "11",
         "puntos": "124",
         "tarjetas": "2",
-        "valor": "25.009.000",
+        "valor": "25.027.000",
         "cláusula": "83.333.335"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-06T00:51:53+01:00",
+      "relevant_capture_at": "2026-11-07T00:31:34+01:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -143486,11 +144919,11 @@
         "partidos": "10",
         "puntos": "135",
         "tarjetas": "0",
-        "valor": "21.716.000",
+        "valor": "21.768.000",
         "cláusula": "62.222.224"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-06T00:51:50+01:00",
+      "relevant_capture_at": "2026-11-07T00:31:31+01:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -147217,8 +148650,8 @@
       "player_id": "56628",
       "name": "Lucien Agoumé",
       "profile_url": "https://mister.mundodeportivo.com/players/56628/lucien-agoume",
-      "season_points": 52,
-      "matches_played": 11,
+      "season_points": 58,
+      "matches_played": 12,
       "capture_status": "ok",
       "matches": [
         {
@@ -147915,6 +149348,74 @@
             "minutesPlayed": 87
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 5,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 8,
+              "rating": 7.7
+            }
+          },
+          "sofascore_rating": 7.7,
+          "market_value_at_gameweek": 9982000,
+          "stats": {
+            "totalContest": 0,
+            "goalAssist": 0,
+            "totalPass": 59,
+            "onTargetScoringAttempt": 0,
+            "savedShotsFromInsideTheBox": 0,
+            "wonContest": 0,
+            "aerialWon": 3,
+            "saves": 0,
+            "totalLongBalls": 11,
+            "duelWon": 5,
+            "goals": 0,
+            "totalTackle": 2,
+            "blockedScoringAttempt": 0,
+            "accuratePass": 40,
+            "interceptionWon": 2,
+            "goalsPrevented": 0,
+            "keyPass": 1,
+            "totalClearance": 1,
+            "accurateLongBalls": 6,
+            "duelLost": 1,
+            "aerialLost": 1,
+            "minutesPlayed": 90,
+            "shotOffTarget": 0
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "recent_transfer_checked_at": "2026-10-18T21:31:07+02:00",
@@ -147931,7 +149432,8 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "captured_played_gameweek_ids": [
         "3968",
@@ -147944,19 +149446,20 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "profile_stats": {
         "cláusula": "12.682.500",
         "goles": "0",
-        "media": "4,7",
-        "partidos": "11",
-        "puntos": "52",
+        "media": "4,8",
+        "partidos": "12",
+        "puntos": "58",
         "tarjetas": "3",
-        "valor": "9.393.000"
+        "valor": "9.982.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-01T23:35:15+01:00",
+      "relevant_capture_at": "2026-11-07T00:32:57+01:00",
       "relevant_capture_sources": [
         "recent_transfer"
       ]
@@ -155440,8 +156943,8 @@
         "partidos": "10",
         "puntos": "70",
         "tarjetas": "1",
-        "valor": "17.292.000",
-        "cláusula": "51.876.000"
+        "valor": "17.227.000",
+        "cláusula": "51.681.000"
       },
       "matches": [
         {
@@ -156098,7 +157601,7 @@
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-06T00:51:15+01:00",
+      "relevant_capture_at": "2026-11-07T00:31:08+01:00",
       "relevant_capture_sources": [
         "my_team",
         "market",
@@ -161041,8 +162544,8 @@
       "player_id": "65111",
       "name": "Odysseas Vlachodimos",
       "profile_url": "https://mister.mundodeportivo.com/players/65111/odysseas-vlachodimos",
-      "season_points": 37,
-      "matches_played": 11,
+      "season_points": 41,
+      "matches_played": 12,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
@@ -161054,7 +162557,8 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "captured_played_gameweek_ids": [
         "3968",
@@ -161067,16 +162571,17 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "goles": "0",
         "media": "3,4",
-        "partidos": "11",
-        "puntos": "37",
+        "partidos": "12",
+        "puntos": "41",
         "tarjetas": "0",
-        "valor": "6.231.000",
+        "valor": "5.895.000",
         "cláusula": "11.313.000"
       },
       "matches": [
@@ -161748,10 +163253,78 @@
             "minutesPlayed": 90
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 4,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 6,
+              "rating": 7.3
+            }
+          },
+          "sofascore_rating": 7.3,
+          "market_value_at_gameweek": 5895000,
+          "stats": {
+            "totalContest": 0,
+            "goalAssist": 0,
+            "totalPass": 18,
+            "onTargetScoringAttempt": 0,
+            "savedShotsFromInsideTheBox": 1,
+            "wonContest": 0,
+            "aerialWon": 0,
+            "saves": 2,
+            "totalLongBalls": 7,
+            "duelWon": 0,
+            "goals": 0,
+            "totalTackle": 0,
+            "blockedScoringAttempt": 0,
+            "accuratePass": 15,
+            "interceptionWon": 0,
+            "goalsPrevented": 0.3721,
+            "keyPass": 0,
+            "totalClearance": 1,
+            "accurateLongBalls": 4,
+            "duelLost": 1,
+            "aerialLost": 1,
+            "minutesPlayed": 90,
+            "shotOffTarget": 0
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-01T23:32:06+01:00",
+      "relevant_capture_at": "2026-11-07T00:32:33+01:00",
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
@@ -162547,11 +164120,11 @@
         "partidos": "11",
         "puntos": "45",
         "tarjetas": "2",
-        "valor": "5.500.000",
-        "cláusula": "8.250.000"
+        "valor": "5.542.000",
+        "cláusula": "8.313.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-06T00:52:12+01:00",
+      "relevant_capture_at": "2026-11-07T00:31:53+01:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -162565,8 +164138,8 @@
       "player_id": "49424",
       "name": "Kike",
       "profile_url": "https://mister.mundodeportivo.com/players/49424/kike-salas",
-      "season_points": 42,
-      "matches_played": 11,
+      "season_points": 47,
+      "matches_played": 12,
       "capture_status": "ok",
       "matches": [
         {
@@ -163186,6 +164759,74 @@
             "onTargetScoringAttempt": 1
           },
           "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 5,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 6,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 6,
+              "rating": 7.2
+            }
+          },
+          "sofascore_rating": 7.2,
+          "market_value_at_gameweek": 6599000,
+          "stats": {
+            "onTargetScoringAttempt": 0,
+            "aerialWon": 3,
+            "goals": 0,
+            "interceptionWon": 4,
+            "totalContest": 1,
+            "totalTackle": 3,
+            "totalClearance": 4,
+            "totalLongBalls": 16,
+            "savedShotsFromInsideTheBox": 0,
+            "accuratePass": 49,
+            "accurateLongBalls": 6,
+            "goalAssist": 0,
+            "saves": 0,
+            "shotOffTarget": 0,
+            "keyPass": 0,
+            "aerialLost": 4,
+            "totalPass": 68,
+            "blockedScoringAttempt": 0,
+            "duelWon": 10,
+            "wonContest": 0,
+            "minutesPlayed": 90,
+            "duelLost": 8,
+            "goalsPrevented": 0
+          },
+          "source": "Mister player gameweek popup"
         }
       ],
       "expected_played_gameweek_ids": [
@@ -163228,8 +164869,8 @@
       "player_id": "4947927",
       "name": "Y. Fofana",
       "profile_url": "https://mister.mundodeportivo.com/players/4947927/y-fofana",
-      "season_points": 48,
-      "matches_played": 11,
+      "season_points": 50,
+      "matches_played": 12,
       "capture_status": "ok",
       "matches": [
         {
@@ -163802,6 +165443,74 @@
             "minutesPlayed": 72
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 2,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 2,
+              "rating": 6.4
+            }
+          },
+          "sofascore_rating": 6.4,
+          "market_value_at_gameweek": 10851000,
+          "stats": {
+            "totalContest": 1,
+            "goalAssist": 0,
+            "totalPass": 25,
+            "onTargetScoringAttempt": 0,
+            "savedShotsFromInsideTheBox": 0,
+            "wonContest": 0,
+            "aerialWon": 1,
+            "saves": 0,
+            "totalLongBalls": 0,
+            "duelWon": 2,
+            "goals": 0,
+            "totalTackle": 0,
+            "blockedScoringAttempt": 0,
+            "accuratePass": 21,
+            "interceptionWon": 2,
+            "goalsPrevented": 0,
+            "keyPass": 0,
+            "totalClearance": 0,
+            "accurateLongBalls": 0,
+            "duelLost": 8,
+            "aerialLost": 1,
+            "minutesPlayed": 90,
+            "shotOffTarget": 2
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "expected_played_gameweek_ids": [
@@ -163815,7 +165524,8 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "captured_played_gameweek_ids": [
         "3968",
@@ -163828,19 +165538,20 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "profile_stats": {
         "goles": "1",
-        "media": "6,0",
-        "partidos": "8",
-        "puntos": "48",
+        "media": "5,6",
+        "partidos": "9",
+        "puntos": "50",
         "tarjetas": "0",
-        "valor": "10.613.000",
-        "cláusula": "15.919.500"
+        "valor": "10.851.000",
+        "cláusula": "16.276.500"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-01T23:29:21+01:00",
+      "relevant_capture_at": "2026-11-07T00:32:24+01:00",
       "relevant_capture_sources": [
         "recent_transfer",
         "league_roster"
@@ -166051,8 +167762,8 @@
       "player_id": "65179",
       "name": "Andrés Castrín",
       "profile_url": "https://mister.mundodeportivo.com/players/65179/andres-castrin",
-      "season_points": 34,
-      "matches_played": 11,
+      "season_points": 39,
+      "matches_played": 12,
       "capture_status": "ok",
       "matches": [
         {
@@ -166701,6 +168412,75 @@
             "minutesPlayed": 90
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 4,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "home_away": "home",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "minutes": 16,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 5,
+              "rating": 7.0
+            }
+          },
+          "sofascore_rating": 7.0,
+          "market_value_at_gameweek": 4756000,
+          "stats": {
+            "totalContest": 0,
+            "goalAssist": 0,
+            "totalPass": 9,
+            "onTargetScoringAttempt": 0,
+            "savedShotsFromInsideTheBox": 0,
+            "wonContest": 0,
+            "aerialWon": 1,
+            "saves": 0,
+            "totalLongBalls": 3,
+            "duelWon": 3,
+            "goals": 0,
+            "totalTackle": 2,
+            "blockedScoringAttempt": 0,
+            "accuratePass": 8,
+            "interceptionWon": 1,
+            "goalsPrevented": 0,
+            "keyPass": 0,
+            "totalClearance": 2,
+            "accurateLongBalls": 2,
+            "duelLost": 0,
+            "aerialLost": 0,
+            "minutesPlayed": 16,
+            "shotOffTarget": 0
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "expected_played_gameweek_ids": [
@@ -166714,7 +168494,8 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "captured_played_gameweek_ids": [
         "3968",
@@ -166727,18 +168508,19 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "profile_stats": {
         "goles": "0",
-        "media": "3,4",
-        "partidos": "10",
-        "puntos": "34",
+        "media": "3,5",
+        "partidos": "11",
+        "puntos": "39",
         "tarjetas": "2",
-        "valor": "4.241.000"
+        "valor": "4.756.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-01T23:36:06+01:00",
+      "relevant_capture_at": "2026-11-07T00:33:05+01:00",
       "relevant_capture_sources": [
         "recent_transfer"
       ]
@@ -171084,8 +172866,8 @@
         "partidos": "1",
         "puntos": "2",
         "tarjetas": "0",
-        "valor": "5.152.000",
-        "cláusula": "7.728.000"
+        "valor": "5.199.000",
+        "cláusula": "7.798.500"
       },
       "matches": [
         {
@@ -171269,7 +173051,7 @@
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-06T00:51:36+01:00",
+      "relevant_capture_at": "2026-11-07T00:31:19+01:00",
       "relevant_capture_sources": [
         "my_team",
         "market",
@@ -175562,10 +177344,10 @@
     },
     "78394": {
       "player_id": "78394",
-      "name": "N. Valentini",
-      "profile_url": "https://mister.mundodeportivo.com/players/78394/n-valentini",
-      "season_points": 23,
-      "matches_played": 10,
+      "name": "Nicolás",
+      "profile_url": "https://mister.mundodeportivo.com/players/78394/nicolas-valentini",
+      "season_points": 30,
+      "matches_played": 12,
       "capture_status": "ok",
       "matches": [
         {
@@ -176083,6 +177865,95 @@
             "totalPass": 46
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J11",
+          "gameweek_id": "4052",
+          "status": "played",
+          "home_team": {
+            "id": null,
+            "logo_url": null,
+            "name": ""
+          },
+          "away_team": {
+            "id": null,
+            "logo_url": null,
+            "name": ""
+          },
+          "opponent": {
+            "id": "3",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517"
+          },
+          "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 7,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 6,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 9,
+              "rating": 7.9
+            }
+          },
+          "sofascore_rating": 7.9,
+          "market_value_at_gameweek": 1176000,
+          "stats": {
+            "onTargetScoringAttempt": 1,
+            "aerialWon": 5,
+            "goals": 0,
+            "interceptionWon": 1,
+            "totalContest": 1,
+            "totalTackle": 1,
+            "totalClearance": 10,
+            "totalLongBalls": 9,
+            "savedShotsFromInsideTheBox": 0,
+            "accuratePass": 20,
+            "accurateLongBalls": 3,
+            "goalAssist": 0,
+            "saves": 0,
+            "shotOffTarget": 1,
+            "keyPass": 1,
+            "aerialLost": 1,
+            "totalPass": 30,
+            "blockedScoringAttempt": 0,
+            "duelWon": 9,
+            "wonContest": 1,
+            "minutesPlayed": 90,
+            "duelLost": 2,
+            "goalsPrevented": 0
+          },
+          "source": "Mister player gameweek popup"
         }
       ],
       "expected_played_gameweek_ids": [
@@ -177339,10 +179210,10 @@
         "partidos": "11",
         "puntos": "70",
         "tarjetas": "1",
-        "valor": "17.179.000"
+        "valor": "17.259.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-06T00:52:19+01:00",
+      "relevant_capture_at": "2026-11-07T00:32:02+01:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -177351,7 +179222,7 @@
     },
     "14379": {
       "player_id": "14379",
-      "name": "Aitor Fernández",
+      "name": "Jugador 14379",
       "profile_url": "https://mister.mundodeportivo.com/players/14379/aitor-fernandez",
       "season_points": 20,
       "matches_played": 11,
@@ -177844,9 +179715,9 @@
         "recent_transfer",
         "league_roster"
       ],
-      "recent_transfer_checked_at": "2026-09-19T21:23:47+02:00",
-      "recent_transfer_error": "profile identity mismatch: expected 'A. Fernández', got 'Aitor'",
-      "last_transfer_seen_at": "2026-09-19 05:00:26"
+      "recent_transfer_checked_at": "2026-11-07T00:16:56+01:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Jugador 14379', got 'Aitor'",
+      "last_transfer_seen_at": "2026-11-06 10:29:42"
     },
     "15345": {
       "player_id": "15345",
@@ -185679,17 +187550,22 @@
     },
     "64491": {
       "player_id": "64491",
-      "name": "Valentín",
-      "profile_url": "https://mister.mundodeportivo.com/players/64491/valentin-gomez",
-      "season_points": 23,
-      "matches_played": 9,
+      "name": "V. Gómez",
+      "profile_url": "https://mister.mundodeportivo.com/players/64491/v-gomez",
+      "season_points": 29,
+      "matches_played": 11,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
         "4044",
         "4045",
         "4046",
-        "4047"
+        "4047",
+        "4048",
+        "4049",
+        "4050",
+        "4051",
+        "4052"
       ],
       "captured_played_gameweek_ids": [
         "3968",
@@ -185697,16 +187573,22 @@
         "4044",
         "4045",
         "4046",
-        "4047"
+        "4047",
+        "4048",
+        "4049",
+        "4050",
+        "4051",
+        "4052"
       ],
       "capture_status": "ok",
       "profile_stats": {
-        "goles": "0",
-        "media": "4,5",
-        "partidos": "2",
-        "puntos": "9",
-        "tarjetas": "0",
-        "valor": "204.000"
+        "goles": "1",
+        "media": "5,8",
+        "partidos": "5",
+        "puntos": "29",
+        "tarjetas": "1",
+        "valor": "2.498.000",
+        "cláusula": "3.747.000"
       },
       "matches": [
         {
@@ -186067,13 +187949,97 @@
             "totalClearance": 6
           },
           "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J10",
+          "gameweek_id": "4051",
+          "status": "played",
+          "points": 6,
+          "home_team": {
+            "id": "5",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/5.png?version=20221205131749",
+            "name": "Celta"
+          },
+          "away_team": {
+            "id": "4",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
+            "name": "Betis"
+          },
+          "opponent": {
+            "id": "5",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/5.png?version=20221205131749",
+            "name": "Celta"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 6,
+              "rating": null
+            },
+            "marca": {
+              "points": 6,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 5,
+              "rating": 7.1
+            }
+          },
+          "sofascore_rating": 7.1,
+          "market_value_at_gameweek": 1504000,
+          "stats": {
+            "totalContest": 0,
+            "goalAssist": 0,
+            "totalPass": 46,
+            "onTargetScoringAttempt": 0,
+            "savedShotsFromInsideTheBox": 0,
+            "wonContest": 0,
+            "aerialWon": 1,
+            "saves": 0,
+            "totalLongBalls": 6,
+            "duelWon": 3,
+            "goals": 0,
+            "totalTackle": 2,
+            "blockedScoringAttempt": 0,
+            "accuratePass": 42,
+            "interceptionWon": 2,
+            "goalsPrevented": 0,
+            "keyPass": 0,
+            "totalClearance": 1,
+            "accurateLongBalls": 2,
+            "duelLost": 1,
+            "aerialLost": 1,
+            "minutesPlayed": 90,
+            "shotOffTarget": 0
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J11",
+          "gameweek_id": "4052",
+          "status": "played",
+          "opponent": {
+            "id": "13",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/13.png?version=20260621192402"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-09-18T21:45:19+02:00",
+      "relevant_capture_at": "2026-11-07T00:32:13+01:00",
       "relevant_capture_sources": [
-        "market"
-      ]
+        "my_team",
+        "recent_transfer",
+        "league_roster"
+      ],
+      "recent_transfer_checked_at": "2026-11-07T00:16:56+01:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Jugador 64491', got 'Valentín'",
+      "last_transfer_seen_at": "2026-11-06 05:00:23"
     },
     "15756": {
       "player_id": "15756",
@@ -188606,8 +190572,8 @@
       "player_id": "4836173",
       "name": "Félix",
       "profile_url": "https://mister.mundodeportivo.com/players/4836173/felix-correia",
-      "season_points": 38,
-      "matches_played": 11,
+      "season_points": 46,
+      "matches_played": 12,
       "capture_status": "ok",
       "matches": [
         {
@@ -189143,6 +191109,75 @@
             "totalLongBalls": 1,
             "aerialWon": 0,
             "onTargetScoringAttempt": 1
+          },
+          "source": "Mister player gameweek popup"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 8,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "opponent": {
+            "id": "48",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308",
+            "name": "Alavés"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 85,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 6,
+              "rating": null
+            },
+            "marca": {
+              "points": 6,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 10,
+              "rating": 8.1
+            }
+          },
+          "sofascore_rating": 8.1,
+          "market_value_at_gameweek": 5336000,
+          "stats": {
+            "onTargetScoringAttempt": 0,
+            "aerialWon": 2,
+            "goals": 0,
+            "interceptionWon": 0,
+            "totalContest": 5,
+            "totalTackle": 1,
+            "totalClearance": 1,
+            "totalLongBalls": 3,
+            "savedShotsFromInsideTheBox": 0,
+            "accuratePass": 24,
+            "accurateLongBalls": 2,
+            "goalAssist": 0,
+            "saves": 0,
+            "shotOffTarget": 2,
+            "keyPass": 1,
+            "aerialLost": 2,
+            "totalPass": 32,
+            "blockedScoringAttempt": 0,
+            "duelWon": 7,
+            "wonContest": 3,
+            "minutesPlayed": 85,
+            "duelLost": 6,
+            "goalsPrevented": 0
           },
           "source": "Mister player gameweek popup"
         }
@@ -203703,7 +205738,7 @@
     },
     "96": {
       "player_id": "96",
-      "name": "D. Ceballos",
+      "name": "Jugador 96",
       "profile_url": "https://mister.mundodeportivo.com/players/96/d-ceballos",
       "season_points": 25,
       "matches_played": 11,
@@ -204255,7 +206290,10 @@
         "market",
         "recent_transfer",
         "league_roster"
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-11-07T00:16:56+01:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Jugador 96', got 'Dani'",
+      "last_transfer_seen_at": "2026-11-06 10:29:45"
     },
     "31355": {
       "player_id": "31355",
@@ -207547,13 +209585,13 @@
       ],
       "capture_status": "ok",
       "profile_stats": {
-        "cláusula": "17.940.000",
+        "cláusula": "18.097.500",
         "goles": "2",
         "media": "5,5",
         "partidos": "10",
         "puntos": "55",
         "tarjetas": "0",
-        "valor": "11.960.000"
+        "valor": "12.065.000"
       },
       "matches": [
         {
@@ -208269,7 +210307,7 @@
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-06T00:51:39+01:00",
+      "relevant_capture_at": "2026-11-07T00:31:22+01:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -214129,7 +216167,7 @@
         "partidos": "7",
         "puntos": "20",
         "tarjetas": "2",
-        "valor": "731.000",
+        "valor": "763.000",
         "cláusula": "1.248.000"
       },
       "matches": [
@@ -214696,7 +216734,7 @@
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-06T00:52:14+01:00",
+      "relevant_capture_at": "2026-11-07T00:31:59+01:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -226725,73 +228763,855 @@
       "relevant_capture_at": "2026-11-06T00:45:39+01:00",
       "relevant_capture_sources": [
         "market"
+      ],
+      "recent_transfer_checked_at": "2026-11-07T00:16:56+01:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'A. Tchouaméni', got 'Aurélien'",
+      "last_transfer_seen_at": "2026-11-06 05:00:23"
+    },
+    "2586746": {
+      "player_id": "2586746",
+      "name": "Á. Padilla",
+      "profile_url": "https://mister.mundodeportivo.com/players/2586746/a-padilla",
+      "season_points": 2,
+      "matches_played": 11,
+      "expected_played_gameweek_ids": [
+        "3968",
+        "4043",
+        "4044",
+        "4045",
+        "4046",
+        "4047",
+        "4048",
+        "4049",
+        "4050",
+        "4051",
+        "4052"
+      ],
+      "captured_played_gameweek_ids": [
+        "3968",
+        "4043",
+        "4044",
+        "4045",
+        "4046",
+        "4047",
+        "4048",
+        "4049",
+        "4050",
+        "4051",
+        "4052"
+      ],
+      "capture_status": "partial",
+      "errors": [
+        {
+          "gameweek_id": "3968",
+          "error": "gameweek popup remained incomplete after async wait"
+        }
+      ],
+      "profile_stats": {
+        "goles": "0",
+        "media": "2,0",
+        "partidos": "1",
+        "puntos": "2",
+        "tarjetas": "0",
+        "valor": "170.000"
+      },
+      "matches": [
+        {
+          "gameweek": "J1",
+          "gameweek_id": "3968",
+          "status": "played",
+          "points": 2,
+          "home_team": {
+            "id": "6",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/6.png?version=20260626093814",
+            "name": "Deportivo da Coruña"
+          },
+          "away_team": {
+            "id": "23",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/23.png?version=20221205131749",
+            "name": "Elche"
+          },
+          "opponent": {
+            "id": "6",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/6.png?version=20260626093814",
+            "name": "Deportivo da Coruña"
+          },
+          "home_away": "away",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "score": "1 - 1",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": null,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 3,
+              "rating": 6.6
+            }
+          },
+          "sofascore_rating": 6.6,
+          "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J2",
+          "gameweek_id": "4043",
+          "status": "played",
+          "opponent": {
+            "id": "3",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J3",
+          "gameweek_id": "4044",
+          "status": "played",
+          "opponent": {
+            "id": "1490",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=20260619162046"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "opponent": {
+            "id": "16",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version=20221205131749"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J5",
+          "gameweek_id": "4046",
+          "status": "played",
+          "opponent": {
+            "id": "1",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1.png?version=20221205131749"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J6",
+          "gameweek_id": "4047",
+          "status": "played",
+          "opponent": {
+            "id": "15",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=20221205131749"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J7",
+          "gameweek_id": "4048",
+          "status": "played",
+          "opponent": {
+            "id": "8",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/8.png?version=20221205131749"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J8",
+          "gameweek_id": "4049",
+          "status": "played",
+          "opponent": {
+            "id": "5",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/5.png?version=20221205131749"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J9",
+          "gameweek_id": "4050",
+          "status": "played",
+          "opponent": {
+            "id": "20",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/20.png?version=20221205131749"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J10",
+          "gameweek_id": "4051",
+          "status": "played",
+          "opponent": {
+            "id": "14",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/14.png?version=20221205131749"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J11",
+          "gameweek_id": "4052",
+          "status": "played",
+          "opponent": {
+            "id": "19",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/19.png?version=20221205131749"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        }
+      ],
+      "missing_played_gameweek_ids": [],
+      "relevant_capture_at": "2026-11-07T00:33:22+01:00",
+      "relevant_capture_sources": [
+        "market"
+      ]
+    },
+    "29235": {
+      "player_id": "29235",
+      "name": "Gavi",
+      "profile_url": "https://mister.mundodeportivo.com/players/29235/gavi",
+      "season_points": 12,
+      "matches_played": 11,
+      "expected_played_gameweek_ids": [
+        "3968",
+        "4043",
+        "4044",
+        "4045",
+        "4046",
+        "4047",
+        "4048",
+        "4049",
+        "4050",
+        "4051",
+        "4052"
+      ],
+      "captured_played_gameweek_ids": [
+        "3968",
+        "4043",
+        "4044",
+        "4045",
+        "4046",
+        "4047",
+        "4048",
+        "4049",
+        "4050",
+        "4051",
+        "4052"
+      ],
+      "capture_status": "ok",
+      "profile_stats": {
+        "goles": "0",
+        "media": "3,0",
+        "partidos": "4",
+        "puntos": "12",
+        "tarjetas": "0",
+        "valor": "1.509.000"
+      },
+      "matches": [
+        {
+          "gameweek": "J1",
+          "gameweek_id": "3968",
+          "status": "played",
+          "opponent": {
+            "id": "1",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1.png?version=20221205131749"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J2",
+          "gameweek_id": "4043",
+          "status": "played",
+          "points": 3,
+          "home_team": {
+            "id": "23",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/23.png?version=20221205131749",
+            "name": "Elche"
+          },
+          "away_team": {
+            "id": "3",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517",
+            "name": "Barcelona"
+          },
+          "opponent": {
+            "id": "23",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/23.png?version=20221205131749",
+            "name": "Elche"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 44,
+          "score": "0 - 5",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 3,
+              "rating": 6.7
+            }
+          },
+          "sofascore_rating": 6.7,
+          "market_value_at_gameweek": 8033000,
+          "stats": {
+            "totalLongBalls": 1,
+            "keyPass": 0,
+            "duelWon": 5,
+            "shotOffTarget": 0,
+            "totalContest": 0,
+            "blockedScoringAttempt": 0,
+            "totalClearance": 0,
+            "accuratePass": 12,
+            "duelLost": 4,
+            "goalAssist": 0,
+            "totalPass": 14,
+            "minutesPlayed": 44,
+            "savedShotsFromInsideTheBox": 0,
+            "goals": 0,
+            "totalTackle": 1,
+            "wonContest": 0,
+            "goalsPrevented": 0,
+            "accurateLongBalls": 1,
+            "interceptionWon": 1,
+            "onTargetScoringAttempt": 0,
+            "saves": 0,
+            "aerialLost": 1,
+            "aerialWon": 2
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J3",
+          "gameweek_id": "4044",
+          "status": "played",
+          "opponent": {
+            "id": "14",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/14.png?version=20221205131749"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "opponent": {
+            "id": "19",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/19.png?version=20221205131749"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J5",
+          "gameweek_id": "4046",
+          "status": "played",
+          "opponent": {
+            "id": "12",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J6",
+          "gameweek_id": "4047",
+          "status": "played",
+          "points": 3,
+          "home_team": {
+            "id": "3",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517",
+            "name": "Barcelona"
+          },
+          "away_team": {
+            "id": "1490",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=20260619162046",
+            "name": "Racing de Santander"
+          },
+          "opponent": {
+            "id": "1490",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=20260619162046",
+            "name": "Racing de Santander"
+          },
+          "home_away": "home",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "minutes": 29,
+          "score": "7 - 2",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 4,
+              "rating": 6.8
+            }
+          },
+          "sofascore_rating": 6.8,
+          "market_value_at_gameweek": 6222000,
+          "stats": {
+            "totalLongBalls": 2,
+            "keyPass": 1,
+            "duelWon": 1,
+            "shotOffTarget": 0,
+            "totalContest": 0,
+            "blockedScoringAttempt": 0,
+            "totalClearance": 0,
+            "accuratePass": 27,
+            "duelLost": 0,
+            "goalAssist": 0,
+            "totalPass": 27,
+            "minutesPlayed": 29,
+            "savedShotsFromInsideTheBox": 0,
+            "goals": 0,
+            "totalTackle": 0,
+            "wonContest": 0,
+            "goalsPrevented": 0,
+            "accurateLongBalls": 2,
+            "interceptionWon": 1,
+            "onTargetScoringAttempt": 0,
+            "saves": 0,
+            "aerialLost": 0,
+            "aerialWon": 1
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J7",
+          "gameweek_id": "4048",
+          "status": "played",
+          "opponent": {
+            "id": "17",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J8",
+          "gameweek_id": "4049",
+          "status": "played",
+          "points": 3,
+          "home_team": {
+            "id": "3",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517",
+            "name": "Barcelona"
+          },
+          "away_team": {
+            "id": "9",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/9.png?version=20221205131749",
+            "name": "Getafe"
+          },
+          "opponent": {
+            "id": "9",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/9.png?version=20221205131749",
+            "name": "Getafe"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "sub_event": "sub_out",
+          "minutes": 61,
+          "score": "3 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 4,
+              "rating": 6.8
+            }
+          },
+          "sofascore_rating": 6.8,
+          "market_value_at_gameweek": 2315000,
+          "stats": {
+            "totalLongBalls": 2,
+            "keyPass": 1,
+            "duelWon": 3,
+            "shotOffTarget": 0,
+            "totalContest": 0,
+            "blockedScoringAttempt": 1,
+            "totalClearance": 0,
+            "accuratePass": 63,
+            "duelLost": 5,
+            "goalAssist": 0,
+            "totalPass": 68,
+            "minutesPlayed": 61,
+            "savedShotsFromInsideTheBox": 0,
+            "goals": 0,
+            "totalTackle": 0,
+            "wonContest": 0,
+            "goalsPrevented": 0,
+            "accurateLongBalls": 1,
+            "interceptionWon": 0,
+            "onTargetScoringAttempt": 1,
+            "saves": 0,
+            "aerialLost": 1,
+            "aerialWon": 3
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J9",
+          "gameweek_id": "4050",
+          "status": "played",
+          "points": 3,
+          "home_team": {
+            "id": "4",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
+            "name": "Betis"
+          },
+          "away_team": {
+            "id": "3",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517",
+            "name": "Barcelona"
+          },
+          "opponent": {
+            "id": "4",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749",
+            "name": "Betis"
+          },
+          "home_away": "away",
+          "starter": false,
+          "role": "bench",
+          "sub_event": "sub_in",
+          "minutes": 11,
+          "score": "2 - 5",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 0,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 4,
+              "rating": 6.8
+            }
+          },
+          "sofascore_rating": 6.8,
+          "market_value_at_gameweek": 2054000,
+          "stats": {
+            "totalLongBalls": 0,
+            "keyPass": 0,
+            "duelWon": 2,
+            "shotOffTarget": 0,
+            "totalContest": 0,
+            "blockedScoringAttempt": 0,
+            "totalClearance": 0,
+            "accuratePass": 22,
+            "duelLost": 1,
+            "goalAssist": 0,
+            "totalPass": 22,
+            "minutesPlayed": 11,
+            "savedShotsFromInsideTheBox": 0,
+            "goals": 0,
+            "totalTackle": 2,
+            "wonContest": 0,
+            "goalsPrevented": 0,
+            "accurateLongBalls": 0,
+            "interceptionWon": 0,
+            "onTargetScoringAttempt": 0,
+            "saves": 0,
+            "aerialLost": 0,
+            "aerialWon": 0
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J10",
+          "gameweek_id": "4051",
+          "status": "played",
+          "opponent": {
+            "id": "15",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/15.png?version=20221205131749"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J11",
+          "gameweek_id": "4052",
+          "status": "played",
+          "opponent": {
+            "id": "48",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        }
+      ],
+      "missing_played_gameweek_ids": [],
+      "relevant_capture_at": "2026-11-07T00:20:41+01:00",
+      "relevant_capture_sources": [
+        "market"
+      ]
+    },
+    "55452": {
+      "player_id": "55452",
+      "name": "S. Canós",
+      "profile_url": "https://mister.mundodeportivo.com/players/55452/s-canos",
+      "season_points": 0,
+      "matches_played": 11,
+      "expected_played_gameweek_ids": [
+        "3968",
+        "4043",
+        "4044",
+        "4045",
+        "4046",
+        "4047",
+        "4048",
+        "4049",
+        "4050",
+        "4051",
+        "4052"
+      ],
+      "captured_played_gameweek_ids": [
+        "3968",
+        "4043",
+        "4044",
+        "4045",
+        "4046",
+        "4047",
+        "4048",
+        "4049",
+        "4050",
+        "4051",
+        "4052"
+      ],
+      "capture_status": "ok",
+      "profile_stats": {
+        "goles": "0",
+        "media": "0,0",
+        "partidos": "0",
+        "puntos": "0",
+        "tarjetas": "0",
+        "valor": "160.000"
+      },
+      "matches": [
+        {
+          "gameweek": "J1",
+          "gameweek_id": "3968",
+          "status": "played",
+          "opponent": {
+            "id": "4",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J2",
+          "gameweek_id": "4043",
+          "status": "played",
+          "opponent": {
+            "id": "5",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/5.png?version=20221205131749"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J3",
+          "gameweek_id": "4044",
+          "status": "played",
+          "opponent": {
+            "id": "6",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/6.png?version=20260626093814"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J4",
+          "gameweek_id": "4045",
+          "status": "played",
+          "opponent": {
+            "id": "3",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/3.png?version=20230321174517"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J5",
+          "gameweek_id": "4046",
+          "status": "played",
+          "opponent": {
+            "id": "17",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J6",
+          "gameweek_id": "4047",
+          "status": "played",
+          "opponent": {
+            "id": "48",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/48.png?version=20221205134308"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J7",
+          "gameweek_id": "4048",
+          "status": "played",
+          "opponent": {
+            "id": "16",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/16.png?version=20221205131749"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J8",
+          "gameweek_id": "4049",
+          "status": "played",
+          "opponent": {
+            "id": "1490",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=20260619162046"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J9",
+          "gameweek_id": "4050",
+          "status": "played",
+          "opponent": {
+            "id": "1",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1.png?version=20221205131749"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J10",
+          "gameweek_id": "4051",
+          "status": "played",
+          "opponent": {
+            "id": "20",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/20.png?version=20221205131749"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J11",
+          "gameweek_id": "4052",
+          "status": "played",
+          "opponent": {
+            "id": "23",
+            "name": null,
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/23.png?version=20221205131749"
+          },
+          "source": "Mister player profile DOM (popup unavailable)"
+        }
+      ],
+      "missing_played_gameweek_ids": [],
+      "relevant_capture_at": "2026-11-07T00:22:14+01:00",
+      "relevant_capture_sources": [
+        "market"
       ]
     }
   },
-  "featured_players_persisted": 75,
-  "players_available_total": 530,
-  "relevant_capture_at": "2026-11-06T00:52:21+01:00",
+  "featured_players_persisted": 77,
+  "players_available_total": 533,
+  "relevant_capture_at": "2026-11-07T00:33:23+01:00",
   "relevant_capture_scope": "all",
-  "relevant_players_total": 319,
-  "relevant_players_with_history": 314,
+  "relevant_players_total": 326,
+  "relevant_players_with_history": 321,
   "relevant_players_without_played_history": 5,
   "relevant_players_incomplete": 0,
-  "relevant_expected_played_rows": 3077,
-  "relevant_captured_played_rows": 3077,
+  "relevant_expected_played_rows": 3186,
+  "relevant_captured_played_rows": 3186,
   "relevant_missing_played_rows": 0,
-  "relevant_recent_rows_complete": 1243,
-  "relevant_recent_rows_total": 1243,
-  "relevant_capture_requested": 17,
-  "relevant_capture_captured": 17,
+  "relevant_recent_rows_complete": 1271,
+  "relevant_recent_rows_total": 1271,
+  "relevant_capture_requested": 35,
+  "relevant_capture_captured": 35,
   "relevant_capture_failures": [],
   "incremental_refresh_gameweek_id": "4053",
-  "incremental_refresh_requested": 17,
+  "incremental_refresh_requested": 34,
   "incremental_refresh_mine": 17,
-  "incremental_refresh_live_missing": 0,
-  "featured_profiles_updated_at": "2026-11-06T00:43:43+01:00",
-  "recent_transfer_profiles_updated_at": "2026-11-06T00:43:44+01:00",
+  "incremental_refresh_live_missing": 17,
+  "featured_profiles_updated_at": "2026-11-07T00:16:11+01:00",
+  "recent_transfer_profiles_updated_at": "2026-11-07T00:16:56+01:00",
   "recent_transfer_profiles_requested": 8,
   "recent_transfer_profiles_captured": 0,
   "recent_transfer_profile_failures": [
     {
-      "player_id": "20346",
-      "name": "Jugador 20346",
-      "error": "profile identity mismatch: expected 'Jugador 20346', got 'Guido'"
+      "player_id": "96",
+      "name": "Jugador 96",
+      "error": "profile identity mismatch: expected 'Jugador 96', got 'Dani'"
     },
     {
-      "player_id": "63727",
-      "name": "Jugador 63727",
-      "error": "profile identity mismatch: expected 'Jugador 63727', got 'Marcos'"
+      "player_id": "14379",
+      "name": "Jugador 14379",
+      "error": "profile identity mismatch: expected 'Jugador 14379', got 'Aitor'"
     },
     {
-      "player_id": "1256139",
-      "name": "Jugador 1256139",
-      "error": "profile identity mismatch: expected 'Jugador 1256139', got 'Vanja'"
+      "player_id": "60872",
+      "name": "Jugador 60872",
+      "error": "profile identity mismatch: expected 'Jugador 60872', got 'Rubén'"
     },
     {
-      "player_id": "61167",
-      "name": "A. Aznou",
-      "error": "profile identity mismatch: expected 'A. Aznou', got 'Adam'"
+      "player_id": "64491",
+      "name": "Jugador 64491",
+      "error": "profile identity mismatch: expected 'Jugador 64491', got 'Valentín'"
     },
     {
-      "player_id": "68383",
-      "name": "Jugador 68383",
-      "error": "profile identity mismatch: expected 'Jugador 68383', got 'Thiago'"
+      "player_id": "27520",
+      "name": "Jugador 27520",
+      "error": "profile identity mismatch: expected 'Jugador 27520', got 'Fran'"
     },
     {
-      "player_id": "17453",
-      "name": "F. De Jong",
-      "error": "profile identity mismatch: expected 'F. De Jong', got 'Frenkie De'"
+      "player_id": "40166",
+      "name": "A. Tchouaméni",
+      "error": "profile identity mismatch: expected 'A. Tchouaméni', got 'Aurélien'"
     },
     {
-      "player_id": "33053",
-      "name": "Jugador 33053",
-      "error": "profile identity mismatch: expected 'Jugador 33053', got 'Adrián de la'"
+      "player_id": "11697",
+      "name": "Jugador 11697",
+      "error": "profile identity mismatch: expected 'Jugador 11697', got 'Lucas'"
     },
     {
-      "player_id": "29205",
-      "name": "A. Balde",
-      "error": "profile identity mismatch: expected 'A. Balde', got 'Alejandro'"
+      "player_id": "71649",
+      "name": "P. Gulácsi",
+      "error": "profile identity mismatch: expected 'P. Gulácsi', got 'Péter'"
     }
   ]
 }
