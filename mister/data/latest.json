@@ -42336,7 +42336,14 @@
       "to": "Mister",
       "price": 6704250,
       "id_user1": 1513537,
-      "id_user2": 0
+      "id_user2": 0,
+      "player": "Thomas Lemar",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "12949"
+      }
     },
     {
       "created": "2026-11-04 05:00:22",
@@ -42990,7 +42997,14 @@
       "to": "Mister",
       "price": 248230,
       "id_user1": 2358533,
-      "id_user2": 0
+      "id_user2": 0,
+      "player": "A. Aznou",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "61167"
+      }
     },
     {
       "created": "2026-11-08 22:57:25",
@@ -43000,7 +43014,15 @@
       "to": "Mister",
       "price": 11143650,
       "id_user1": 1588298,
-      "id_user2": 0
+      "id_user2": 0,
+      "player": "M. Pubill 💥",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "exact_previous_received_offer",
+        "confidence": "exact",
+        "evidence_snapshot_at": "2026-11-08T17:15:19+01:00",
+        "offer_amount": 11143650
+      }
     },
     {
       "created": "2026-11-09 05:00:21",
@@ -43042,7 +43064,14 @@
           "name": "Enrique",
           "bid": 1144000
         }
-      ]
+      ],
+      "player": "M. Sadick",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "4947932"
+      }
     },
     {
       "created": "2026-11-09 09:44:21",
@@ -43052,7 +43081,14 @@
       "to": "Mister",
       "price": 185280,
       "id_user1": 3138684,
-      "id_user2": 0
+      "id_user2": 0,
+      "player": "J. Salinas",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "64038"
+      }
     },
     {
       "created": "2026-11-09 11:32:57",
@@ -43062,7 +43098,15 @@
       "to": "Mister",
       "price": 10508400,
       "id_user1": 1588298,
-      "id_user2": 0
+      "id_user2": 0,
+      "player": "Y. Hernández 💥",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "exact_previous_received_offer",
+        "confidence": "exact",
+        "evidence_snapshot_at": "2026-11-09T05:11:23+01:00",
+        "offer_amount": 10508400
+      }
     }
   ],
   "estimated_rival_balances": [
@@ -53899,7 +53943,13 @@
       "investment_delta_min": 7549999,
       "investment_delta_max": 7549999,
       "pricing_source": "captured_transition_delta",
-      "ledger_source": "historical_clause_ledger"
+      "ledger_source": "historical_clause_ledger",
+      "detected_at_snapshot": "2026-11-09T17:10:32+01:00",
+      "previous_clause_snapshot_at": "2026-11-09T05:11:23+01:00",
+      "attributed_date": "2026-11-09",
+      "attributed_market_slot": "evening",
+      "attribution_basis": "detection_snapshot_slot",
+      "attribution_confidence": "detection_only"
     }
   ],
   "clause_capture_status": {
@@ -54333,7 +54383,8 @@
       "balance_adjustment_formula": "cash_refund - removed_historical_investment",
       "correction_entry": "clause_drop_semantic_correction",
       "pre_sale_rule": "when the feed proves a drop but the player was sold before a lower-clause snapshot, reconstruct it from the last positive clause state and the sale"
-    }
+    },
+    "change_attribution_policy": "If a raise is first detected between an evening snapshot and the next morning snapshot, attribute it to the previous evening unless an explicit timestamp/date proves otherwise."
   },
   "clause_ledger_status": {
     "status": "ok",
@@ -61713,5 +61764,26 @@
     "ale_balance_matches_real": true,
     "all_roster_counts_match": true,
     "persistent_transfer_history": true
+  },
+  "transfer_identity_resolution": {
+    "status": "partial",
+    "resolved_by_reconciliation": 6,
+    "unresolved_total": 46,
+    "unresolved_ale": 14,
+    "methods": {
+      "player_id_catalog": 4,
+      "exact_previous_received_offer": 2
+    },
+    "ledger_details_patched": 0,
+    "policy": "Resolve missing feed player via player_id, exact prior received offer, then unique roster delta; never guess ambiguous candidates."
+  },
+  "clause_buyouts_since_previous": [],
+  "clause_buyout_capture": {
+    "status": "ok",
+    "direct_manager_transfers_seen": 25,
+    "clause_buyouts_classified": 9,
+    "unresolved_direct_manager_transfers": 0,
+    "new_since_previous_snapshot": 0,
+    "policy": "Direct manager transfer is a clause buyout only when ownership delta resolves the player and transfer amount matches seller's previous clause within 2 euros of Mister rounding."
   }
 }
