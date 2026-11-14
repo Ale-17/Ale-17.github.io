@@ -1997,16 +1997,16 @@
         "4053"
       ],
       "profile_stats": {
-        "cláusula": "12.339.000",
+        "cláusula": "12.543.000",
         "goles": "0",
         "media": "4,0",
         "partidos": "10",
         "puntos": "40",
         "tarjetas": "1",
-        "valor": "8.226.000"
+        "valor": "8.362.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-13T00:53:26+01:00",
+      "relevant_capture_at": "2026-11-14T00:53:24+01:00",
       "relevant_capture_sources": [
         "my_team",
         "market",
@@ -14318,11 +14318,11 @@
         "partidos": "8",
         "puntos": "38",
         "tarjetas": "0",
-        "valor": "1.571.000",
-        "cláusula": "2.356.500"
+        "valor": "1.635.000",
+        "cláusula": "2.452.500"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-13T00:54:15+01:00",
+      "relevant_capture_at": "2026-11-14T00:54:22+01:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -21462,11 +21462,11 @@
         "partidos": "12",
         "puntos": "85",
         "tarjetas": "4",
-        "valor": "12.246.000",
-        "cláusula": "24.492.000"
+        "valor": "12.354.000",
+        "cláusula": "24.708.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-13T00:54:10+01:00",
+      "relevant_capture_at": "2026-11-14T00:54:09+01:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -27830,10 +27830,10 @@
     },
     "27907": {
       "player_id": "27907",
-      "name": "R. Brugué",
-      "profile_url": "https://mister.mundodeportivo.com/players/27907/r-brugue",
-      "season_points": 71,
-      "matches_played": 11,
+      "name": "Roger Brugué",
+      "profile_url": "https://mister.mundodeportivo.com/players/27907/roger-brugue",
+      "season_points": 75,
+      "matches_played": 12,
       "capture_status": "ok",
       "matches": [
         {
@@ -28522,6 +28522,74 @@
             "goalAssist": 0
           },
           "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 4,
+          "home_team": {
+            "id": "5",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/5.png?version=20221205131749",
+            "name": "Celta"
+          },
+          "away_team": {
+            "id": "12",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/12.png?version=20221205131749",
+            "name": "Levante"
+          },
+          "opponent": {
+            "id": "5",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/5.png?version=20221205131749",
+            "name": "Celta"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "0 - 0",
+          "providers": {
+            "as": {
+              "points": 6,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 3,
+              "rating": 6.7
+            }
+          },
+          "sofascore_rating": 6.7,
+          "market_value_at_gameweek": 7327000,
+          "stats": {
+            "goals": 0,
+            "goalAssist": 0,
+            "totalContest": 0,
+            "duelLost": 2,
+            "totalTackle": 3,
+            "onTargetScoringAttempt": 0,
+            "totalPass": 23,
+            "totalClearance": 0,
+            "shotOffTarget": 3,
+            "blockedScoringAttempt": 0,
+            "accurateLongBalls": 0,
+            "saves": 0,
+            "keyPass": 0,
+            "goalsPrevented": 0,
+            "aerialWon": 1,
+            "totalLongBalls": 1,
+            "accuratePass": 20,
+            "savedShotsFromInsideTheBox": 0,
+            "duelWon": 4,
+            "wonContest": 0,
+            "interceptionWon": 0,
+            "minutesPlayed": 90,
+            "aerialLost": 0
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "expected_played_gameweek_ids": [
@@ -28535,7 +28603,8 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "captured_played_gameweek_ids": [
         "3968",
@@ -28548,26 +28617,28 @@
         "4049",
         "4050",
         "4051",
-        "4052"
+        "4052",
+        "4053"
       ],
       "profile_stats": {
-        "cláusula": "10.003.500",
+        "cláusula": "12.528.000",
         "goles": "5",
-        "media": "7,1",
-        "partidos": "10",
-        "puntos": "71",
+        "media": "6,8",
+        "partidos": "11",
+        "puntos": "75",
         "tarjetas": "0",
-        "valor": "6.669.000"
+        "valor": "8.101.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-10-31T22:53:43+01:00",
+      "relevant_capture_at": "2026-11-14T00:54:15+01:00",
       "relevant_capture_sources": [
+        "my_team",
         "recent_transfer",
         "league_roster"
       ],
-      "recent_transfer_checked_at": "2026-11-07T23:00:22+01:00",
-      "recent_transfer_error": "profile identity mismatch: expected 'R. Brugué', got 'Roger'",
-      "last_transfer_seen_at": "2026-11-06 19:14:38"
+      "recent_transfer_checked_at": "2026-11-14T00:39:55+01:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Jugador 27907', got 'Roger'",
+      "last_transfer_seen_at": "2026-11-13 05:00:18"
     },
     "33053": {
       "player_id": "33053",
@@ -41723,10 +41794,10 @@
         "partidos": "11",
         "puntos": "58",
         "tarjetas": "0",
-        "valor": "14.857.000"
+        "valor": "14.970.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-13T00:54:07+01:00",
+      "relevant_capture_at": "2026-11-14T00:54:06+01:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -43339,11 +43410,11 @@
         "partidos": "5",
         "puntos": "23",
         "tarjetas": "0",
-        "valor": "855.000",
-        "cláusula": "1.282.500"
+        "valor": "921.000",
+        "cláusula": "1.381.500"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-13T00:53:34+01:00",
+      "relevant_capture_at": "2026-11-14T00:53:32+01:00",
       "relevant_capture_sources": [
         "my_team",
         "market",
@@ -63926,13 +63997,13 @@
       ],
       "capture_status": "ok",
       "profile_stats": {
-        "cláusula": "11.485.500",
+        "cláusula": "11.661.000",
         "goles": "1",
         "media": "3,9",
         "partidos": "12",
         "puntos": "47",
         "tarjetas": "1",
-        "valor": "7.657.000"
+        "valor": "7.774.000"
       },
       "matches": [
         {
@@ -64678,7 +64749,7 @@
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-13T00:53:31+01:00",
+      "relevant_capture_at": "2026-11-14T00:53:30+01:00",
       "relevant_capture_sources": [
         "my_team",
         "market",
@@ -72006,9 +72077,9 @@
       "relevant_capture_sources": [
         "recent_transfer"
       ],
-      "recent_transfer_checked_at": "2026-11-13T00:43:25+01:00",
-      "recent_transfer_error": "profile identity mismatch: expected 'Alex Remiro', got 'Alex'",
-      "last_transfer_seen_at": "2026-11-11 05:00:21"
+      "recent_transfer_checked_at": "2026-11-14T00:39:55+01:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Jugador 6032', got 'Alex'",
+      "last_transfer_seen_at": "2026-11-12 17:49:27"
     },
     "609": {
       "player_id": "609",
@@ -93173,8 +93244,8 @@
         "partidos": "12",
         "puntos": "46",
         "tarjetas": "1",
-        "valor": "5.044.000",
-        "cláusula": "7.566.000"
+        "valor": "5.120.000",
+        "cláusula": "7.680.000"
       },
       "matches": [
         {
@@ -93936,7 +94007,7 @@
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-13T00:53:20+01:00",
+      "relevant_capture_at": "2026-11-14T00:53:18+01:00",
       "relevant_capture_sources": [
         "my_team",
         "market",
@@ -116166,7 +116237,7 @@
     },
     "70918": {
       "player_id": "70918",
-      "name": "Bernardo Silva",
+      "name": "Jugador 70918",
       "profile_url": "https://mister.mundodeportivo.com/players/70918/bernardo-silva",
       "season_points": 29,
       "matches_played": 11,
@@ -116799,9 +116870,9 @@
       "relevant_capture_sources": [
         "recent_transfer"
       ],
-      "recent_transfer_checked_at": "2026-09-17T22:24:48+02:00",
+      "recent_transfer_checked_at": "2026-11-14T00:39:55+01:00",
       "recent_transfer_error": "profile identity mismatch: expected 'Jugador 70918', got 'Bernardo'",
-      "last_transfer_seen_at": "2026-09-17 07:45:02"
+      "last_transfer_seen_at": "2026-11-13 05:00:18"
     },
     "70925": {
       "player_id": "70925",
@@ -122985,8 +123056,8 @@
         "partidos": "9",
         "puntos": "36",
         "tarjetas": "1",
-        "valor": "580.000",
-        "cláusula": "1.000.000"
+        "valor": "601.000",
+        "cláusula": "3.943.500"
       },
       "matches": [
         {
@@ -123600,7 +123671,7 @@
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-13T00:53:23+01:00",
+      "relevant_capture_at": "2026-11-14T00:53:21+01:00",
       "relevant_capture_sources": [
         "my_team",
         "market",
@@ -137445,7 +137516,7 @@
     },
     "52162": {
       "player_id": "52162",
-      "name": "Pape Gueye",
+      "name": "Jugador 52162",
       "profile_url": "https://mister.mundodeportivo.com/players/52162/pape-gueye",
       "season_points": 54,
       "matches_played": 10,
@@ -138133,9 +138204,9 @@
       "relevant_capture_sources": [
         "recent_transfer"
       ],
-      "recent_transfer_checked_at": "2026-09-09T17:07:49+02:00",
-      "recent_transfer_error": "profile identity mismatch: expected 'Pape Gueye', got 'Pape'",
-      "last_transfer_seen_at": "2026-09-09 10:42:49"
+      "recent_transfer_checked_at": "2026-11-14T00:39:55+01:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Jugador 52162', got 'Pape'",
+      "last_transfer_seen_at": "2026-11-13 05:00:18"
     },
     "59382": {
       "player_id": "59382",
@@ -149325,11 +149396,11 @@
         "partidos": "12",
         "puntos": "131",
         "tarjetas": "2",
-        "valor": "25.085.000",
+        "valor": "25.082.000",
         "cláusula": "83.333.335"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-13T00:53:41+01:00",
+      "relevant_capture_at": "2026-11-14T00:53:40+01:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -150092,11 +150163,11 @@
         "partidos": "11",
         "puntos": "136",
         "tarjetas": "0",
-        "valor": "21.984.000",
+        "valor": "22.012.000",
         "cláusula": "62.222.224"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-13T00:53:38+01:00",
+      "relevant_capture_at": "2026-11-14T00:53:37+01:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -162585,8 +162656,8 @@
         "partidos": "10",
         "puntos": "70",
         "tarjetas": "1",
-        "valor": "16.971.000",
-        "cláusula": "50.913.000"
+        "valor": "16.927.000",
+        "cláusula": "50.781.000"
       },
       "matches": [
         {
@@ -163254,7 +163325,7 @@
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-13T00:53:51+01:00",
+      "relevant_capture_at": "2026-11-14T00:53:51+01:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -169978,11 +170049,11 @@
         "partidos": "12",
         "puntos": "53",
         "tarjetas": "2",
-        "valor": "5.964.000",
-        "cláusula": "8.946.000"
+        "valor": "6.059.000",
+        "cláusula": "9.088.500"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-13T00:54:13+01:00",
+      "relevant_capture_at": "2026-11-14T00:54:12+01:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -181978,8 +182049,8 @@
         "partidos": "7",
         "puntos": "28",
         "tarjetas": "1",
-        "valor": "1.342.000",
-        "cláusula": "2.013.000"
+        "valor": "1.389.000",
+        "cláusula": "2.083.500"
       },
       "matches": [
         {
@@ -182517,7 +182588,7 @@
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-13T00:54:18+01:00",
+      "relevant_capture_at": "2026-11-14T00:54:24+01:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -186550,10 +186621,10 @@
         "partidos": "12",
         "puntos": "77",
         "tarjetas": "2",
-        "valor": "17.682.000"
+        "valor": "17.747.000"
       },
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-13T00:53:54+01:00",
+      "relevant_capture_at": "2026-11-14T00:53:53+01:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -190474,7 +190545,7 @@
     },
     "11472": {
       "player_id": "11472",
-      "name": "Leandro",
+      "name": "L. Cabrera",
       "profile_url": "https://mister.mundodeportivo.com/players/11472/leandro-cabrera",
       "season_points": 46,
       "matches_played": 12,
@@ -191151,7 +191222,10 @@
       "relevant_capture_at": "2026-09-16T22:15:31+02:00",
       "relevant_capture_sources": [
         "market"
-      ]
+      ],
+      "recent_transfer_checked_at": "2026-11-14T00:39:55+01:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'L. Cabrera', got 'Leandro'",
+      "last_transfer_seen_at": "2026-11-13 05:00:18"
     },
     "217": {
       "player_id": "217",
@@ -192942,7 +193016,7 @@
     },
     "20141": {
       "player_id": "20141",
-      "name": "Germán Valera",
+      "name": "Jugador 20141",
       "profile_url": "https://mister.mundodeportivo.com/players/20141/german-valera",
       "season_points": 59,
       "matches_played": 11,
@@ -193672,9 +193746,9 @@
         "recent_transfer",
         "league_roster"
       ],
-      "recent_transfer_checked_at": "2026-09-20T21:31:27+02:00",
-      "recent_transfer_error": "profile identity mismatch: expected 'G. Valera', got 'Germán'",
-      "last_transfer_seen_at": "2026-09-20 05:00:27"
+      "recent_transfer_checked_at": "2026-11-14T00:39:55+01:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'Jugador 20141', got 'Germán'",
+      "last_transfer_seen_at": "2026-11-13 01:30:15"
     },
     "22471": {
       "player_id": "22471",
@@ -195076,8 +195150,8 @@
         "partidos": "5",
         "puntos": "29",
         "tarjetas": "1",
-        "valor": "2.912.000",
-        "cláusula": "4.368.000"
+        "valor": "2.981.000",
+        "cláusula": "4.471.500"
       },
       "matches": [
         {
@@ -195531,7 +195605,7 @@
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-13T00:54:04+01:00",
+      "relevant_capture_at": "2026-11-14T00:54:04+01:00",
       "relevant_capture_sources": [
         "my_team",
         "market",
@@ -217741,13 +217815,13 @@
       ],
       "capture_status": "ok",
       "profile_stats": {
-        "cláusula": "25.372.000",
+        "cláusula": "25.594.000",
         "goles": "2",
         "media": "5,7",
         "partidos": "11",
         "puntos": "63",
         "tarjetas": "0",
-        "valor": "12.686.000"
+        "valor": "12.797.000"
       },
       "matches": [
         {
@@ -218532,7 +218606,7 @@
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-13T00:53:28+01:00",
+      "relevant_capture_at": "2026-11-14T00:53:27+01:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -223978,8 +224052,8 @@
       "player_id": "58438",
       "name": "F. Boyomo",
       "profile_url": "https://mister.mundodeportivo.com/players/58438/f-boyomo",
-      "season_points": 7,
-      "matches_played": 8,
+      "season_points": 20,
+      "matches_played": 12,
       "expected_played_gameweek_ids": [
         "3968",
         "4043",
@@ -223988,7 +224062,11 @@
         "4046",
         "4047",
         "4048",
-        "4049"
+        "4049",
+        "4050",
+        "4051",
+        "4052",
+        "4053"
       ],
       "captured_played_gameweek_ids": [
         "3968",
@@ -223998,16 +224076,21 @@
         "4046",
         "4047",
         "4048",
-        "4049"
+        "4049",
+        "4050",
+        "4051",
+        "4052",
+        "4053"
       ],
       "capture_status": "ok",
       "profile_stats": {
         "goles": "0",
-        "media": "2,3",
-        "partidos": "3",
-        "puntos": "7",
+        "media": "2,9",
+        "partidos": "7",
+        "puntos": "20",
         "tarjetas": "0",
-        "valor": "1.296.000"
+        "valor": "2.095.000",
+        "cláusula": "3.142.500"
       },
       "matches": [
         {
@@ -224270,13 +224353,290 @@
             "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/4.png?version=20221205131749"
           },
           "source": "Mister player profile DOM (popup unavailable)"
+        },
+        {
+          "gameweek": "J9",
+          "gameweek_id": "4050",
+          "status": "played",
+          "points": 4,
+          "home_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "away_team": {
+            "id": "1490",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=20260619162046",
+            "name": "Racing de Santander"
+          },
+          "opponent": {
+            "id": "1490",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1490.png?version=20260619162046",
+            "name": "Racing de Santander"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "2 - 0",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 5,
+              "rating": 7.0
+            }
+          },
+          "sofascore_rating": 7.0,
+          "market_value_at_gameweek": 1287000,
+          "stats": {
+            "goals": 0,
+            "goalAssist": 0,
+            "totalContest": 0,
+            "duelLost": 0,
+            "totalTackle": 2,
+            "onTargetScoringAttempt": 0,
+            "totalPass": 23,
+            "totalClearance": 6,
+            "shotOffTarget": 1,
+            "blockedScoringAttempt": 0,
+            "accurateLongBalls": 2,
+            "saves": 0,
+            "keyPass": 0,
+            "goalsPrevented": 0,
+            "aerialWon": 0,
+            "totalLongBalls": 4,
+            "accuratePass": 20,
+            "savedShotsFromInsideTheBox": 0,
+            "duelWon": 2,
+            "wonContest": 0,
+            "interceptionWon": 1,
+            "minutesPlayed": 90,
+            "aerialLost": 0
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J10",
+          "gameweek_id": "4051",
+          "status": "played",
+          "points": 4,
+          "home_team": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "17",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/17.png?version=20221205131749",
+            "name": "Sevilla"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "2 - 0",
+          "providers": {
+            "as": {
+              "points": 6,
+              "rating": null
+            },
+            "marca": {
+              "points": 2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 4,
+              "rating": 6.9
+            }
+          },
+          "sofascore_rating": 6.9,
+          "market_value_at_gameweek": 1416000,
+          "stats": {
+            "goals": 0,
+            "goalAssist": 0,
+            "totalContest": 0,
+            "duelLost": 3,
+            "totalTackle": 1,
+            "onTargetScoringAttempt": 0,
+            "totalPass": 66,
+            "totalClearance": 8,
+            "shotOffTarget": 1,
+            "blockedScoringAttempt": 0,
+            "accurateLongBalls": 5,
+            "saves": 0,
+            "keyPass": 0,
+            "goalsPrevented": 0,
+            "aerialWon": 2,
+            "totalLongBalls": 8,
+            "accuratePass": 60,
+            "savedShotsFromInsideTheBox": 0,
+            "duelWon": 3,
+            "wonContest": 0,
+            "interceptionWon": 1,
+            "minutesPlayed": 90,
+            "aerialLost": 3
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J11",
+          "gameweek_id": "4052",
+          "status": "played",
+          "points": 1,
+          "home_team": {
+            "id": "6",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/6.png?version=20260626093814",
+            "name": "Deportivo da Coruña"
+          },
+          "away_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "opponent": {
+            "id": "6",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/6.png?version=20260626093814",
+            "name": "Deportivo da Coruña"
+          },
+          "home_away": "away",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "2 - 1",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": -2,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 1,
+              "rating": 6.2
+            }
+          },
+          "sofascore_rating": 6.2,
+          "market_value_at_gameweek": 1662000,
+          "stats": {
+            "goals": 0,
+            "goalAssist": 0,
+            "totalContest": 0,
+            "duelLost": 1,
+            "totalTackle": 0,
+            "onTargetScoringAttempt": 0,
+            "totalPass": 37,
+            "totalClearance": 5,
+            "shotOffTarget": 0,
+            "blockedScoringAttempt": 1,
+            "accurateLongBalls": 2,
+            "saves": 0,
+            "keyPass": 0,
+            "goalsPrevented": 0,
+            "aerialWon": 2,
+            "totalLongBalls": 2,
+            "accuratePass": 33,
+            "savedShotsFromInsideTheBox": 0,
+            "duelWon": 2,
+            "wonContest": 0,
+            "interceptionWon": 0,
+            "minutesPlayed": 90,
+            "aerialLost": 1
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
+        },
+        {
+          "gameweek": "J12",
+          "gameweek_id": "4053",
+          "status": "played",
+          "points": 4,
+          "home_team": {
+            "id": "50",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/50.png?version=20221205131749",
+            "name": "Osasuna"
+          },
+          "away_team": {
+            "id": "1",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1.png?version=20221205131749",
+            "name": "Athletic Club"
+          },
+          "opponent": {
+            "id": "1",
+            "logo_url": "https://cdn-mister.mundodeportivo.com/file/cdn-common/teams/1.png?version=20221205131749",
+            "name": "Athletic Club"
+          },
+          "home_away": "home",
+          "starter": true,
+          "role": "starter",
+          "minutes": 90,
+          "score": "1 - 1",
+          "providers": {
+            "as": {
+              "points": 2,
+              "rating": null
+            },
+            "marca": {
+              "points": 6,
+              "rating": null
+            },
+            "sofascore": {
+              "points": 4,
+              "rating": 6.8
+            }
+          },
+          "sofascore_rating": 6.8,
+          "market_value_at_gameweek": 1866000,
+          "stats": {
+            "goals": 0,
+            "goalAssist": 0,
+            "totalContest": 0,
+            "duelLost": 2,
+            "totalTackle": 2,
+            "onTargetScoringAttempt": 0,
+            "totalPass": 22,
+            "totalClearance": 5,
+            "shotOffTarget": 0,
+            "blockedScoringAttempt": 0,
+            "accurateLongBalls": 4,
+            "saves": 0,
+            "keyPass": 0,
+            "goalsPrevented": 0,
+            "aerialWon": 0,
+            "totalLongBalls": 4,
+            "accuratePass": 19,
+            "savedShotsFromInsideTheBox": 0,
+            "duelWon": 2,
+            "wonContest": 0,
+            "interceptionWon": 0,
+            "minutesPlayed": 90,
+            "aerialLost": 1
+          },
+          "source": "Mister player gameweek popup (robust async capture)"
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-10-15T22:25:44+02:00",
+      "relevant_capture_at": "2026-11-14T00:54:19+01:00",
       "relevant_capture_sources": [
-        "market"
-      ]
+        "my_team",
+        "recent_transfer",
+        "league_roster"
+      ],
+      "recent_transfer_checked_at": "2026-11-14T00:39:55+01:00",
+      "recent_transfer_error": "profile identity mismatch: expected 'F. Boyomo', got 'Flavien'",
+      "last_transfer_seen_at": "2026-11-13 05:00:18"
     },
     "70947": {
       "player_id": "70947",
@@ -224581,8 +224941,8 @@
         "partidos": "8",
         "puntos": "26",
         "tarjetas": "2",
-        "valor": "1.051.000",
-        "cláusula": "2.102.000"
+        "valor": "1.084.000",
+        "cláusula": "2.168.000"
       },
       "matches": [
         {
@@ -225216,7 +225576,7 @@
         }
       ],
       "missing_played_gameweek_ids": [],
-      "relevant_capture_at": "2026-11-13T00:53:36+01:00",
+      "relevant_capture_at": "2026-11-14T00:53:35+01:00",
       "relevant_capture_sources": [
         "my_team",
         "recent_transfer",
@@ -239751,68 +240111,68 @@
   },
   "featured_players_persisted": 80,
   "players_available_total": 537,
-  "relevant_capture_at": "2026-11-13T00:54:18+01:00",
+  "relevant_capture_at": "2026-11-14T00:54:25+01:00",
   "relevant_capture_scope": "all",
-  "relevant_players_total": 328,
-  "relevant_players_with_history": 323,
+  "relevant_players_total": 330,
+  "relevant_players_with_history": 325,
   "relevant_players_without_played_history": 5,
   "relevant_players_incomplete": 0,
-  "relevant_expected_played_rows": 3308,
-  "relevant_captured_played_rows": 3308,
+  "relevant_expected_played_rows": 3328,
+  "relevant_captured_played_rows": 3328,
   "relevant_missing_played_rows": 0,
-  "relevant_recent_rows_complete": 1280,
-  "relevant_recent_rows_total": 1280,
-  "relevant_capture_requested": 17,
-  "relevant_capture_captured": 17,
+  "relevant_recent_rows_complete": 1288,
+  "relevant_recent_rows_total": 1288,
+  "relevant_capture_requested": 19,
+  "relevant_capture_captured": 19,
   "relevant_capture_failures": [],
   "incremental_refresh_gameweek_id": "4054",
-  "incremental_refresh_requested": 17,
-  "incremental_refresh_mine": 17,
+  "incremental_refresh_requested": 19,
+  "incremental_refresh_mine": 19,
   "incremental_refresh_live_missing": 0,
-  "featured_profiles_updated_at": "2026-11-13T00:43:24+01:00",
-  "recent_transfer_profiles_updated_at": "2026-11-13T00:43:25+01:00",
+  "featured_profiles_updated_at": "2026-11-14T00:39:54+01:00",
+  "recent_transfer_profiles_updated_at": "2026-11-14T00:39:55+01:00",
   "recent_transfer_profiles_requested": 8,
   "recent_transfer_profiles_captured": 0,
   "recent_transfer_profile_failures": [
     {
-      "player_id": "64459",
-      "name": "Jugador 64459",
-      "error": "profile identity mismatch: expected 'Jugador 64459', got 'Dávid'"
+      "player_id": "27907",
+      "name": "Jugador 27907",
+      "error": "profile identity mismatch: expected 'Jugador 27907', got 'Roger'"
     },
     {
-      "player_id": "71154",
-      "name": "L. Amatucci",
-      "error": "profile identity mismatch: expected 'L. Amatucci', got 'Lorenzo'"
+      "player_id": "58438",
+      "name": "F. Boyomo",
+      "error": "profile identity mismatch: expected 'F. Boyomo', got 'Flavien'"
     },
     {
-      "player_id": "29",
-      "name": "Iñaki Williams",
-      "error": "profile identity mismatch: expected 'Iñaki Williams', got 'Iñaki'"
+      "player_id": "52162",
+      "name": "Jugador 52162",
+      "error": "profile identity mismatch: expected 'Jugador 52162', got 'Pape'"
     },
     {
-      "player_id": "36046",
-      "name": "Gonzalo Villar",
-      "error": "profile identity mismatch: expected 'Gonzalo Villar', got 'Gonzalo'"
+      "player_id": "70918",
+      "name": "Jugador 70918",
+      "error": "profile identity mismatch: expected 'Jugador 70918', got 'Bernardo'"
+    },
+    {
+      "player_id": "11472",
+      "name": "L. Cabrera",
+      "error": "profile identity mismatch: expected 'L. Cabrera', got 'Leandro'"
+    },
+    {
+      "player_id": "20141",
+      "name": "Jugador 20141",
+      "error": "profile identity mismatch: expected 'Jugador 20141', got 'Germán'"
     },
     {
       "player_id": "6032",
-      "name": "Alex Remiro",
-      "error": "profile identity mismatch: expected 'Alex Remiro', got 'Alex'"
+      "name": "Jugador 6032",
+      "error": "profile identity mismatch: expected 'Jugador 6032', got 'Alex'"
     },
     {
-      "player_id": "55738",
-      "name": "César Tárrega",
-      "error": "profile identity mismatch: expected 'César Tárrega', got 'César'"
-    },
-    {
-      "player_id": "70996",
-      "name": "David Larrubia",
-      "error": "profile identity mismatch: expected 'David Larrubia', got 'David'"
-    },
-    {
-      "player_id": "65347",
-      "name": "Renato Veiga",
-      "error": "profile identity mismatch: expected 'Renato Veiga', got 'Renato'"
+      "player_id": "64459",
+      "name": "Jugador 64459",
+      "error": "profile identity mismatch: expected 'Jugador 64459', got 'Dávid'"
     }
   ]
 }
