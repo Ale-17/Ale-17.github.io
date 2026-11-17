@@ -57085,7 +57085,15 @@
       "to": "Mister",
       "price": 9086700,
       "id_user1": 1588298,
-      "id_user2": 0
+      "id_user2": 0,
+      "player": "B. Zaragoza",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "exact_previous_received_offer",
+        "confidence": "exact",
+        "evidence_snapshot_at": "2026-11-16T17:15:42+01:00",
+        "offer_amount": 9086700
+      }
     },
     {
       "created": "2026-11-17 05:00:18",
@@ -57110,7 +57118,14 @@
           "name": "Ale",
           "bid": 7026000
         }
-      ]
+      ],
+      "player": "O. El Hilali",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "29163"
+      }
     },
     {
       "created": "2026-11-17 05:00:18",
@@ -57120,7 +57135,14 @@
       "to": "DRSeven",
       "price": 10448000,
       "id_user1": 0,
-      "id_user2": 1513537
+      "id_user2": 1513537,
+      "player": "Koke",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "42"
+      }
     },
     {
       "created": "2026-11-17 05:00:18",
@@ -57130,7 +57152,14 @@
       "to": "Ale",
       "price": 13056000,
       "id_user1": 0,
-      "id_user2": 1588298
+      "id_user2": 1588298,
+      "player": "C. Romero",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "1385821"
+      }
     },
     {
       "created": "2026-11-17 08:19:43",
@@ -57140,7 +57169,14 @@
       "to": "Mister",
       "price": 2284540,
       "id_user1": 1588298,
-      "id_user2": 0
+      "id_user2": 0,
+      "player": "F. Boyomo",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "58438"
+      }
     },
     {
       "created": "2026-11-17 08:47:57",
@@ -68810,7 +68846,8 @@
       "balance_adjustment_formula": "cash_refund - removed_historical_investment",
       "correction_entry": "clause_drop_semantic_correction",
       "pre_sale_rule": "when the feed proves a drop but the player was sold before a lower-clause snapshot, reconstruct it from the last positive clause state and the sale"
-    }
+    },
+    "change_attribution_policy": "If a raise is first detected between an evening snapshot and the next morning snapshot, attribute it to the previous evening unless an explicit timestamp/date proves otherwise."
   },
   "clause_ledger_status": {
     "status": "ok",
@@ -76091,5 +76128,26 @@
     "ale_balance_matches_real": true,
     "all_roster_counts_match": true,
     "persistent_transfer_history": true
+  },
+  "transfer_identity_resolution": {
+    "status": "partial",
+    "resolved_by_reconciliation": 5,
+    "unresolved_total": 29,
+    "unresolved_ale": 4,
+    "methods": {
+      "exact_previous_received_offer": 1,
+      "player_id_catalog": 4
+    },
+    "ledger_details_patched": 0,
+    "policy": "Resolve missing feed player via player_id, exact prior received offer, then unique roster delta; never guess ambiguous candidates."
+  },
+  "clause_buyouts_since_previous": [],
+  "clause_buyout_capture": {
+    "status": "ok",
+    "direct_manager_transfers_seen": 26,
+    "clause_buyouts_classified": 10,
+    "unresolved_direct_manager_transfers": 0,
+    "new_since_previous_snapshot": 0,
+    "policy": "Direct manager transfer is a clause buyout only when ownership delta resolves the player and transfer amount matches seller's previous clause within 2 euros of Mister rounding."
   }
 }
