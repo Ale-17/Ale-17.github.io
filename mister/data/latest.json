@@ -56858,7 +56858,14 @@
       "to": "Mister",
       "price": 10489440,
       "id_user1": 1732719,
-      "id_user2": 0
+      "id_user2": 0,
+      "player": "Renato Veiga",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "65347"
+      }
     },
     {
       "created": "2026-11-15 05:00:17",
@@ -57449,7 +57456,14 @@
           "name": "Ale",
           "bid": 1523000
         }
-      ]
+      ],
+      "player": "P. Ramón",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "60858"
+      }
     },
     {
       "created": "2026-11-20 05:00:17",
@@ -57486,7 +57500,15 @@
       "to": "Mister",
       "price": 6828900,
       "id_user1": 1588298,
-      "id_user2": 0
+      "id_user2": 0,
+      "player": "A. Catena",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "exact_previous_received_offer",
+        "confidence": "exact",
+        "evidence_snapshot_at": "2026-11-20T05:10:40+01:00",
+        "offer_amount": 6828900
+      }
     },
     {
       "created": "2026-11-20 07:22:24",
@@ -69241,7 +69263,8 @@
       "balance_adjustment_formula": "cash_refund - removed_historical_investment",
       "correction_entry": "clause_drop_semantic_correction",
       "pre_sale_rule": "when the feed proves a drop but the player was sold before a lower-clause snapshot, reconstruct it from the last positive clause state and the sale"
-    }
+    },
+    "change_attribution_policy": "If a raise is first detected between an evening snapshot and the next morning snapshot, attribute it to the previous evening unless an explicit timestamp/date proves otherwise."
   },
   "clause_ledger_status": {
     "status": "ok",
@@ -76770,5 +76793,26 @@
     "ale_balance_matches_real": true,
     "all_roster_counts_match": true,
     "persistent_transfer_history": true
+  },
+  "transfer_identity_resolution": {
+    "status": "partial",
+    "resolved_by_reconciliation": 3,
+    "unresolved_total": 40,
+    "unresolved_ale": 4,
+    "methods": {
+      "player_id_catalog": 2,
+      "exact_previous_received_offer": 1
+    },
+    "ledger_details_patched": 0,
+    "policy": "Resolve missing feed player via player_id, exact prior received offer, then unique roster delta; never guess ambiguous candidates."
+  },
+  "clause_buyouts_since_previous": [],
+  "clause_buyout_capture": {
+    "status": "ok",
+    "direct_manager_transfers_seen": 26,
+    "clause_buyouts_classified": 10,
+    "unresolved_direct_manager_transfers": 0,
+    "new_since_previous_snapshot": 0,
+    "policy": "Direct manager transfer is a clause buyout only when ownership delta resolves the player and transfer amount matches seller's previous clause within 2 euros of Mister rounding."
   }
 }
