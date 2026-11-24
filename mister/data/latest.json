@@ -57122,7 +57122,14 @@
       "to": "Mister",
       "price": 7597220,
       "id_user1": 1732719,
-      "id_user2": 0
+      "id_user2": 0,
+      "player": "Yuri Berchiche",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "361"
+      }
     },
     {
       "created": "2026-11-17 09:21:21",
@@ -57132,7 +57139,14 @@
       "to": "Mister",
       "price": 10336050,
       "id_user1": 2358533,
-      "id_user2": 0
+      "id_user2": 0,
+      "player": "Juan Iglesias",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "24792"
+      }
     },
     {
       "created": "2026-11-17 17:01:26",
@@ -57152,7 +57166,14 @@
       "to": "Mister",
       "price": 1352400,
       "id_user1": 2358533,
-      "id_user2": 0
+      "id_user2": 0,
+      "player": "Vanja Drkušić",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "1256139"
+      }
     },
     {
       "created": "2026-11-18 05:00:16",
@@ -57705,7 +57726,16 @@
       "to": "Ale",
       "price": 1051000,
       "id_user1": 0,
-      "id_user2": 1588298
+      "id_user2": 1588298,
+      "player": "S. Boselli 💥",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "unique_roster_delta",
+        "confidence": "high",
+        "before_snapshot_at": "2026-11-22T17:14:26+01:00",
+        "after_snapshot_at": "2026-11-23T05:09:29+01:00",
+        "direction": "in"
+      }
     },
     {
       "created": "2026-11-23 07:01:56",
@@ -57715,7 +57745,14 @@
       "to": "Mister",
       "price": 1152410,
       "id_user1": 1513537,
-      "id_user2": 0
+      "id_user2": 0,
+      "player": "A. Mayol",
+      "player_resolution": {
+        "status": "resolved",
+        "method": "player_id_catalog",
+        "confidence": "exact",
+        "player_id": "5340038"
+      }
     },
     {
       "created": "2026-11-23 17:08:01",
@@ -69631,7 +69668,8 @@
       "balance_adjustment_formula": "cash_refund - removed_historical_investment",
       "correction_entry": "clause_drop_semantic_correction",
       "pre_sale_rule": "when the feed proves a drop but the player was sold before a lower-clause snapshot, reconstruct it from the last positive clause state and the sale"
-    }
+    },
+    "change_attribution_policy": "If a raise is first detected between an evening snapshot and the next morning snapshot, attribute it to the previous evening unless an explicit timestamp/date proves otherwise."
   },
   "clause_ledger_status": {
     "status": "ok",
@@ -76725,5 +76763,26 @@
     "ale_balance_matches_real": true,
     "all_roster_counts_match": true,
     "persistent_transfer_history": true
+  },
+  "transfer_identity_resolution": {
+    "status": "partial",
+    "resolved_by_reconciliation": 5,
+    "unresolved_total": 38,
+    "unresolved_ale": 4,
+    "methods": {
+      "player_id_catalog": 4,
+      "unique_roster_delta": 1
+    },
+    "ledger_details_patched": 0,
+    "policy": "Resolve missing feed player via player_id, exact prior received offer, then unique roster delta; never guess ambiguous candidates."
+  },
+  "clause_buyouts_since_previous": [],
+  "clause_buyout_capture": {
+    "status": "ok",
+    "direct_manager_transfers_seen": 27,
+    "clause_buyouts_classified": 11,
+    "unresolved_direct_manager_transfers": 0,
+    "new_since_previous_snapshot": 0,
+    "policy": "Direct manager transfer is a clause buyout only when ownership delta resolves the player and transfer amount matches seller's previous clause within 2 euros of Mister rounding."
   }
 }
